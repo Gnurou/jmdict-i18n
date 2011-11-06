@@ -7,7 +7,7 @@ from jmdict import *
 headerStr = """Project-Id-Version: JMdict i18n
 Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>
 POT-Creation-Date: 2011-11-05 19:00:00+09:00
-PO-Revision-Date: 2011-11-05 10:43+0000
+PO-Revision-Date: 
 Last-Translator: 
 Language-Team: 
 MIME-Version: 1.0
