@@ -1,0 +1,8 @@
+*~
+__pycache__
+JMdict
+JMdict-i18n
+kanjidic2.xml
+*.pot
+*.po
+
