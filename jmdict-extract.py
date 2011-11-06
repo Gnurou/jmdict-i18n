@@ -116,14 +116,14 @@ if __name__ == "__main__":
 	# Dictionary file
 	jmdict = open('JMdict', 'r', encoding='utf-8')
 	# Translation and template files
-	lpo4 = dict([(lang, GetTextFile('jmdict-i18n_jlpt5_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
-	lpo4['en'] = GetTextFile('jmdict-i18n_jlpt5.pot', 'w')
-	lpo3 = dict([(lang, GetTextFile('jmdict-i18n_jlpt4_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
-	lpo3['en'] = GetTextFile('jmdict-i18n_jlpt4_.pot', 'w')
-	lpo2 = dict([(lang, GetTextFile('jmdict-i18n_jlpt2_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
-	lpo2['en'] = GetTextFile('jmdict-i18n_jlpt2.pot', 'w')
-	lpo1 = dict([(lang, GetTextFile('jmdict-i18n_jlpt1_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
-	lpo1['en'] = GetTextFile('jmdict-i18n_jlpt1.pot', 'w')
+	lpo4 = dict([(lang, GetTextFile('jmdict-jlpt5_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
+	lpo4['en'] = GetTextFile('jmdict-jlpt5.pot', 'w')
+	lpo3 = dict([(lang, GetTextFile('jmdict-jlpt4_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
+	lpo3['en'] = GetTextFile('jmdict-jlpt4_.pot', 'w')
+	lpo2 = dict([(lang, GetTextFile('jmdict-jlpt2_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
+	lpo2['en'] = GetTextFile('jmdict-jlpt2.pot', 'w')
+	lpo1 = dict([(lang, GetTextFile('jmdict-jlpt1_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
+	lpo1['en'] = GetTextFile('jmdict-jlpt1.pot', 'w')
 
 	header= GetTextEntry()
 	header.msgstr = headerStr
