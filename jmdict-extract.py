@@ -39,14 +39,13 @@ def startSense(match):
 	currentEntry.sense = sense
 
 def writeSense(f, currentEntry, glosses):
-	entry = GetTextEntry('')
-	entry.msgctx = '%d %d' % (currentEntry.eid, currentEntry.senseNbr)
+	entry = GetTextEntry()
+	entry.msgctxt = '%d %d' % (currentEntry.eid, currentEntry.senseNbr)
 	# Japanese keb and reb
 	if not currentEntry.keb: ids = '%s' % (currentEntry.reb,)
 	else: ids = '%s\t%s' % (currentEntry.keb, currentEntry.reb)
 	# English glosses
-	enGlosses = '\n' + currentEntry.sense.glosses['en']
-	entry.msgid = ids + enGlosses.rstrip('\n')
+	entry.msgid = ids + '\n' + currentEntry.sense.glosses['en'].rstrip('\n')
 	entry.msgstr = glosses.rstrip('\n')
 	f.write(str(entry))
 
@@ -126,7 +125,7 @@ if __name__ == "__main__":
 	lpo1 = dict([(lang, GetTextFile('jmdict-i18n_jlpt1_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
 	lpo1['en'] = GetTextFile('jmdict-i18n_jlpt1.pot', 'w')
 
-	header= GetTextEntry("")
+	header= GetTextEntry()
 	header.msgstr = headerStr
 	for lang in list(langMatch.values()) + ['en']:
 		lpo4[lang].f.write(str(header) % (lang,))

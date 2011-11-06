@@ -1,22 +1,22 @@
 import re
 
-msgctxRe = re.compile('msgctxt "(.*)"')
+msgctxtRe = re.compile('msgctxt "(.*)"')
 msgidRe = re.compile('msgid "(.*)"')
 msgstrRe = re.compile('msgstr "(.*)"')
 strRe = re.compile('"(.*)"')
 languageRe = re.compile('"Language: (..)')
 
 class GetTextEntry:
-	def __init__(self, lang):
-		self.msgctx = ""
+	def __init__(self, lang = ''):
+		self.msgctxt = ""
 		self.msgid = ""
 		self.msgstr = ""
 		self.lang = lang
 
 	def __str__(self):
 		r = ""
-		if self.msgctx:
-			r += 'msgctxt "%s"\n' % (self.msgctx,)
+		if self.msgctxt:
+			r += 'msgctxt "%s"\n' % (self.msgctxt,)
 		s = self.msgid.replace('"', '\\"').replace('\n', '\\n"\n"')
 		if '\n' in s: s = '"\n"' + s
 		r += 'msgid "%s"\n' % (s,)
@@ -63,10 +63,10 @@ class GetTextFile:
 				currentEntry.msgstr += strRe.match(l).group(1)
 				continue
 			else: mode = None
-			match = msgctxRe.match(l)
+			match = msgctxtRe.match(l)
 			if match:
 				if not currentEntry: currentEntry = GetTextEntry(lang)
-				currentEntry.msgctx = match.group(1)
+				currentEntry.msgctxt = match.group(1)
 				continue
 			match = msgidRe.match(l)
 			if match:

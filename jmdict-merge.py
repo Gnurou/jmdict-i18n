@@ -11,7 +11,7 @@ def createEntriesDictionary(gettextEntries):
 		msgstr = entry.msgstr
 		lang = entry.lang
 
-		eid, senseId = [ int(i) for i in entry.msgctx.split(' ') ]
+		eid, senseId = [ int(i) for i in entry.msgctxt.split(' ') ]
 		try:
 			jEntry = jEntries[eid]
 		except KeyError:
