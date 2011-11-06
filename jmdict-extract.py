@@ -4,17 +4,16 @@ from gettextformat import *
 from jmdict import *
 
 # PO header
-header = """msgid ""
-msgstr ""
-"Project-Id-Version: JMdict i18n\\n"
-"Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\\n"
-"POT-Creation-Date: 2011-11-05 19:00:00+09:00\\n"
-"PO-Revision-Date: 2011-11-05 10:43+0000\\n"
-"Last-Translator: \\n"
-"Language-Team: \\n"
-"MIME-Version: 1.0\\n"
-"Content-Type: text/plain; charset=UTF-8\\n"
-"Content-Transfer-Encoding: 8bit\\n\""""
+headerStr = """Project-Id-Version: JMdict i18n
+Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>
+POT-Creation-Date: 2011-11-05 19:00:00+09:00
+PO-Revision-Date: 2011-11-05 10:43+0000
+Last-Translator: 
+Language-Team: 
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Language: %s"""
 
 currentEntry = None
 
@@ -43,19 +42,13 @@ def writeSense(f, currentEntry, glosses):
 	entry = GetTextEntry('')
 	entry.msgctx = '%d %d' % (currentEntry.eid, currentEntry.senseNbr)
 	# Japanese keb and reb
-	if not currentEntry.keb: ids = [ '%s\\n' % (currentEntry.reb,) ]
-	else: ids = [ '%s\t%s\\n' % (currentEntry.keb, currentEntry.reb) ]
+	if not currentEntry.keb: ids = '%s' % (currentEntry.reb,)
+	else: ids = '%s\t%s' % (currentEntry.keb, currentEntry.reb)
 	# English glosses
-	enGlosses = [ '%s\\n' % (gloss,) for gloss in currentEntry.sense.glosses['en'] ]
-	# Remove last CR
-	enGlosses[-1] = enGlosses[-1][:-2]
-	ids += enGlosses
-	entry.msgid = ids
-	tGlosses = [ '%s\\n' % (gloss,) for gloss in glosses ]
-	# Remove last CR
-	if len(tGlosses): tGlosses[-1] = tGlosses[-1][:-2]
-	entry.msgstr = tGlosses
-	f.writeEntry(entry)
+	enGlosses = '\n' + currentEntry.sense.glosses['en']
+	entry.msgid = ids + enGlosses.rstrip('\n')
+	entry.msgstr = glosses.rstrip('\n')
+	f.write(str(entry))
 
 def endSense(match):
 	global currentEntry
@@ -68,11 +61,11 @@ def endSense(match):
 	else: return
 
 	# Dump all senses
-	writeSense(clpo['en'], currentEntry, [])
+	writeSense(clpo['en'].f, currentEntry, "")
 	for lang in langMatch.values():
-		if not lang in currentEntry.sense.glosses: glosses = []
+		if not lang in currentEntry.sense.glosses: glosses = ""
 		else: glosses = currentEntry.sense.glosses[lang]
-		writeSense(clpo[lang], currentEntry, glosses)
+		writeSense(clpo[lang].f, currentEntry, glosses)
 
 	currentEntry.sense = None
 	currentEntry.senseNbr += 1
@@ -82,9 +75,9 @@ def processGloss(lang, gloss):
 	try:
 		glosses = currentEntry.sense.glosses[lang]
 	except KeyError:
-		glosses = []
-		currentEntry.sense.glosses[lang] = glosses
-	glosses.append(gloss.replace('"', '\\"'))
+		glosses = ""
+	glosses += gloss + "\n"
+	currentEntry.sense.glosses[lang] = glosses
 	
 def foundOtherGloss(match):
 	lang = langMatch[match.group(1)]
@@ -133,14 +126,12 @@ if __name__ == "__main__":
 	lpo1 = dict([(lang, GetTextFile('jmdict-i18n_jlpt1_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
 	lpo1['en'] = GetTextFile('jmdict-i18n_jlpt1.pot', 'w')
 
+	header= GetTextEntry("")
+	header.msgstr = headerStr
 	for lang in list(langMatch.values()) + ['en']:
-		lpo4[lang].f.write("%s\n" % (header,))
-		lpo4[lang].f.write('"Language: %s\\n"\n' % (lang))
-		lpo3[lang].f.write("%s\n" % (header,))
-		lpo3[lang].f.write('"Language: %s\\n"\n' % (lang))
-		lpo2[lang].f.write("%s\n" % (header,))
-		lpo2[lang].f.write('"Language: %s\\n"\n' % (lang))
-		lpo1[lang].f.write("%s\n" % (header,))
-		lpo1[lang].f.write('"Language: %s\\n"\n' % (lang))
+		lpo4[lang].f.write(str(header) % (lang,))
+		lpo3[lang].f.write(str(header) % (lang,))
+		lpo2[lang].f.write(str(header) % (lang,))
+		lpo1[lang].f.write(str(header) % (lang,))
 	# And parse!
 	parseFile(jmdict, actions)

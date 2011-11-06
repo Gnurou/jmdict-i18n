@@ -4,14 +4,27 @@ msgctxRe = re.compile('msgctxt "(.*)"')
 msgidRe = re.compile('msgid "(.*)"')
 msgstrRe = re.compile('msgstr "(.*)"')
 strRe = re.compile('"(.*)"')
-languageRe = re.compile('"Language: (..)\\\\n"')
+languageRe = re.compile('"Language: (..)')
 
 class GetTextEntry:
 	def __init__(self, lang):
 		self.msgctx = ""
-		self.msgid = []
-		self.msgstr = []
+		self.msgid = ""
+		self.msgstr = ""
 		self.lang = lang
+
+	def __str__(self):
+		r = ""
+		if self.msgctx:
+			r += 'msgctxt "%s"\n' % (self.msgctx,)
+		s = self.msgid.replace('"', '\\"').replace('\n', '\\n"\n"')
+		if '\n' in s: s = '"\n"' + s
+		r += 'msgid "%s"\n' % (s,)
+		s = self.msgstr.replace('"', '\\"').replace('\n', '\\n"\n"')
+		if '\n' in s: s = '"\n"' + s
+		r += 'msgstr "%s"\n' % (s,)
+		r += '\n'
+		return r
 
 class GetTextFile:
 	def __init__(self, name, mode):
@@ -44,10 +57,10 @@ class GetTextFile:
 					mode = None
 				continue
 			if mode == "ID" and strRe.match(l):
-				currentEntry.msgid.append(strRe.match(l).group(1).replace('\\"', '"'))
+				currentEntry.msgid += strRe.match(l).group(1)
 				continue
 			elif mode == "STR" and strRe.match(l):
-				currentEntry.msgstr.append(strRe.match(l).group(1).replace('\\"', '"'))
+				currentEntry.msgstr += strRe.match(l).group(1)
 				continue
 			else: mode = None
 			match = msgctxRe.match(l)
@@ -59,26 +72,18 @@ class GetTextFile:
 			if match:
 				if not currentEntry: currentEntry = GetTextEntry(lang)
 				s = match.group(1)
-				if len(s): currentEntry.msgid.append(s.replace('\\"', '"'))
+				if len(s): currentEntry.msgid += s
 				mode = "ID"
 				continue
 			match = msgstrRe.match(l)
 			if match:
 				s = match.group(1)
-				if len(s): currentEntry.msgstr.append(s.replace('\\"', '"'))
+				if len(s): currentEntry.msgstr += s
 				mode = "STR"
 				continue
 			if len(l) == 0: break
 		if currentEntry: entries.append(currentEntry)
+		for entry in entries:
+			entry.msgid = entry.msgid.replace('\\"', '"').replace('\\n', '\n')
+			entry.msgstr = entry.msgstr.replace('\\"', '"').replace('\\n', '\n')
 		return entries
-
-	def writeEntry(self, entry):
-		f = self.f
-		f.write('\n')
-		f.write('msgctxt "%s"\n' % (entry.msgctx,))
-		f.write('msgid ""\n')
-		for s in entry.msgid:
-			f.write('"%s"\n' % (s,))
-		f.write('msgstr ""\n')
-		for s in entry.msgstr:
-			f.write('"%s"\n' % (s,))

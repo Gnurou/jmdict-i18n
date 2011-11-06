@@ -8,10 +8,7 @@ def createEntriesDictionary(gettextEntries):
 	jEntries = {}
 	for entry in gettextEntries:
 		if len(entry.msgstr) == 0: continue
-		msgstr = []
-		for gloss in entry.msgstr:
-			if gloss.endswith('\\n'): msgstr.append(gloss[:-2])
-			else: msgstr.append(gloss)
+		msgstr = entry.msgstr
 		lang = entry.lang
 
 		eid, senseId = [ int(i) for i in entry.msgctx.split(' ') ]
@@ -25,10 +22,7 @@ def createEntriesDictionary(gettextEntries):
 		except KeyError:
 			sense = Sense()
 			jEntry.senses[senseId] = sense
-		try:
-			sense.glosses[lang] += msgstr
-		except KeyError:
-			sense.glosses[lang] = [] + msgstr
+		sense.glosses[lang] = msgstr
 	return jEntries
 
 if __name__ == "__main__":
@@ -58,7 +52,7 @@ if __name__ == "__main__":
 					sense = jEntry.senses[senseid]
 					for lang in ('fr', 'ru', 'de'):
 						if lang in sense.glosses:
-							glosses = sense.glosses[lang]
+							glosses = sense.glosses[lang].split('\n')
 							for gloss in glosses:
 								jmdicti18n.write('<gloss xml:lang="%s">%s</gloss>\n' % (langMatchInv[lang], gloss))
 			senseid += 1
