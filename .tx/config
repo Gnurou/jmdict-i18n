@@ -1,0 +1,23 @@
+[jmdict-i18n.jlpt5]
+file_filter = jmdict-i18n_jlpt5_<lang>.po
+source_file = jmdict-i18n_jlpt5.pot
+source_lang = en
+
+[jmdict-i18n.jlpt4]
+file_filter = jmdict-i18n_jlpt4_<lang>.po
+source_file = jmdict-i18n_jlpt4.pot
+source_lang = en
+
+[jmdict-i18n.jlpt2]
+file_filter = jmdict-i18n_jlpt2_<lang>.po
+source_file = jmdict-i18n_jlpt2.pot
+source_lang = en
+
+[jmdict-i18n.jlpt1]
+file_filter = jmdict-i18n_jlpt1_<lang>.po
+source_file = jmdict-i18n_jlpt1.pot
+source_lang = en
+
+[main]
+host = https://www.transifex.net
+
