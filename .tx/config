@@ -1,26 +1,46 @@
-[jmdict-i18n.jlpt5]
+[jmdict-i18n.1jlpt5]
 file_filter = jmdict-jlpt5_<lang>.po
 source_file = jmdict-jlpt5.pot
 source_lang = en
 
-[jmdict-i18n.jlpt4]
+[jmdict-i18n.2jlpt4]
 file_filter = jmdict-jlpt4_<lang>.po
 source_file = jmdict-jlpt4.pot
 source_lang = en
 
-[jmdict-i18n.jlpt2]
+[jmdict-i18n.4jlpt2]
 file_filter = jmdict-jlpt2_<lang>.po
 source_file = jmdict-jlpt2.pot
 source_lang = en
 
-[jmdict-i18n.jlpt1]
+[jmdict-i18n.5jlpt1]
 file_filter = jmdict-jlpt1_<lang>.po
 source_file = jmdict-jlpt1.pot
 source_lang = en
 
-[jmdict-i18n.kanjidic2-jouyou]
+[jmdict-i18n.kanjidic2-1kyouiku]
+file_filter = kanjidic2-kyouiku_<lang>.po
+source_file = kanjidic2-kyouiku.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-2jouyou]
 file_filter = kanjidic2-jouyou_<lang>.po
 source_file = kanjidic2-jouyou.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-3freq]
+file_filter = kanjidic2-freq_<lang>.po
+source_file = kanjidic2-freq.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-4jinmei]
+file_filter = kanjidic2-jinmei_<lang>.po
+source_file = kanjidic2-jinmei.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-5others]
+file_filter = kanjidic2-others_<lang>.po
+source_file = kanjidic2-others.pot
 source_lang = en
 
 [main]
