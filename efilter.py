@@ -1,0 +1,29 @@
+from gettextformat import *
+
+# PO header
+headerStr = """Project-Id-Version: %s
+Report-Msgid-Bugs-To: %s
+POT-Creation-Date: 2011-11-05 19:00:00+09:00
+PO-Revision-Date: 
+Last-Translator: 
+Language-Team: 
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Language: %s"""
+
+class Filter:
+        def __init__(self, basename, langs, project, bugsto):
+                self.basename = basename
+                self.langs = langs
+                self.files = {}
+                for lang in langs:
+                        if lang == 'en': fstr = "%s.pot" % (self.basename,)
+                        else: fstr = "%s_%s.po" % (self.basename, lang)
+                        f = open(fstr, 'w', encoding='utf-8')
+                        entry = GetTextEntry()
+                        entry.msgstr = headerStr % (project, bugsto, lang,)
+                        f.write(str(entry))
+                        self.files[lang] = f
+
+

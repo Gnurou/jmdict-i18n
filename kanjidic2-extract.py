@@ -1,19 +1,7 @@
 #!/usr/bin/python3
 
-from gettextformat import *
+from efilter import *
 from kanjidic2 import *
-
-# PO header
-headerStr = """Project-Id-Version: kanjidic2 i18n
-Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>
-POT-Creation-Date: 2011-11-05 19:00:00+09:00
-PO-Revision-Date: 
-Last-Translator: 
-Language-Team: 
-MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
-Language: %s"""
 
 def processGloss(lang, match, glosses):
 	if not lang in glosses: gloss = ''
@@ -21,28 +9,18 @@ def processGloss(lang, match, glosses):
 	gloss += match + '\n'
 	glosses[lang] = gloss
 
-class Filter:
+class Kanjidic2Filter(Filter):
 	def __init__(self, basename, langs):
-		self.basename = basename
-		self.langs = langs
-		self.files = {}
-		for lang in langs:
-			if lang == 'en': fstr = "%s.pot" % (self.basename,)
-			else: fstr = "%s_%s.po" % (self.basename, lang)
-			f = open(fstr, 'w', encoding='utf-8')
-			entry = GetTextEntry()
-			entry.msgstr = headerStr % (lang,)
-			f.write(str(entry))
-			self.files[lang] = f
+		Filter.__init__(self, basename, langs, "kanjidic2 i18n", "Alexandre Courbot <gnurou@gmail.com>")
 
 	def processEntry(self, kentry):
 		cpt = 0
 		for group in kentry.groups:
 			glosses = group.glosses
 			# Dump all meanings
-			msgctxt = '%s %d' % (kentry.literal, cpt)
 			if 'en' in glosses: enGlosses = glosses['en']
 			else: return False
+			msgctxt = '%s %d' % (kentry.literal, cpt)
 			if len(group.readings) > 0: msgid = '%s\t%s\n' % (kentry.literal, str(group.readings)) + enGlosses
 			else: msgid = '%s\n' % (kentry.literal,) + enGlosses
 			for lang in self.langs:
@@ -56,23 +34,53 @@ class Filter:
 			cpt += 1
 		return True
 
-class JouyouFilter:
+class KyouikuFilter(Kanjidic2Filter):
 	def __init__(self, langs):
-		Filter.__init__(self, "kanjidic2-jouyou", langs)
+		Kanjidic2Filter.__init__(self, "kanjidic2-kyouiku", langs)
 
 	def processEntry(self, kentry):
-		if kentry.grade > 0 and kentry.grade <= 8: return Filter.processEntry(self, kentry)
+		if kentry.grade > 0 and kentry.grade <= 6: return Kanjidic2Filter.processEntry(self, kentry)
 		else: return False
 
-class RMGroup:
-	def __init__(self):
-		self.readings = []
-		self.glosses = {}
+class JouyouFilter(Kanjidic2Filter):
+	def __init__(self, langs):
+		Kanjidic2Filter.__init__(self, "kanjidic2-jouyou", langs)
+
+	def processEntry(self, kentry):
+		if kentry.grade > 6 and kentry.grade <= 8: return Kanjidic2Filter.processEntry(self, kentry)
+		else: return False
+
+class FreqFilter(Kanjidic2Filter):
+	def __init__(self, langs):
+		Kanjidic2Filter.__init__(self, "kanjidic2-freq", langs)
+
+	def processEntry(self, kentry):
+		if kentry.freq > 0: return Kanjidic2Filter.processEntry(self, kentry)
+		else: return False
+
+class JinmeiFilter(Kanjidic2Filter):
+	def __init__(self, langs):
+		Kanjidic2Filter.__init__(self, "kanjidic2-jinmei", langs)
+
+	def processEntry(self, kentry):
+		if kentry.grade > 8: return Kanjidic2Filter.processEntry(self, kentry)
+		else: return False
+
+class AllFilter(Kanjidic2Filter):
+	def __init__(self, langs):
+		Kanjidic2Filter.__init__(self, "kanjidic2-others", langs)
 
 if __name__ == "__main__":
 	kdic = open('kanjidic2.xml', 'r', encoding='utf-8')
 
-	filt = JouyouFilter([ 'en', 'fr', 'es', 'pt' ])
+	filters = []
+	langs = [ 'en', 'fr', 'es', 'pt' ]
+	filters.append(KyouikuFilter(langs))
+	filters.append(JouyouFilter(langs))
+	filters.append(FreqFilter(langs))
+	filters.append(JinmeiFilter(langs))
+	filters.append(AllFilter(langs))
+
 	while True:
 		l = kdic.readline()
 		match = enMeaningRe.match(l)
@@ -95,6 +103,9 @@ if __name__ == "__main__":
 		match = gradeRe.match(l)
 		if match:
 			kentry.grade = int(match.group(1))
+		match = freqRe.match(l)
+		if match:
+			kentry.freq = int(match.group(1))
 		match = literalRe.match(l)
 		if match:
 			kentry = KEntry(match.group(1))
@@ -103,5 +114,6 @@ if __name__ == "__main__":
 			continue
 		match = entryEndRe.match(l)
 		if match:
-			filt.processEntry(kentry)
+			for filt in filters:
+				if filt.processEntry(kentry): break
 		if len(l) == 0: break
