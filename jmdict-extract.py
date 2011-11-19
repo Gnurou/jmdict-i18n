@@ -51,6 +51,10 @@ def writeSense(f, currentEntry, glosses):
 
 def endSense(match):
 	global currentEntry
+
+	# Do not worry about senses without English glosses
+	if not 'en' in currentEntry.sense.glosses: return
+
 	# Move to filter functions
 	global jlpt4list
 	if currentEntry.eid in jlpt4list: clpo = lpo4
