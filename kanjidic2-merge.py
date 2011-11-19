@@ -27,6 +27,7 @@ def createEntriesDictionary(gettextEntries):
 			kEntry.groups.append(rmgroup)
 		# TODO get readings?
 		rmgroup.glosses[lang] = msgstr
+	return kEntries
 
 if __name__ == "__main__":
 	entries = []
@@ -39,5 +40,24 @@ if __name__ == "__main__":
 	kdicti18n = open("kanjidic2-i18n.xml", "w", encoding="utf-8")
 	while True:
 		l = kdict.readline()
+		match = literalRe.match(l)
+		if match:
+			eid = match.group(1)
+			rmgroupId = 0
+		match = otherMeaningRe.match(l)
+		if match:
+			continue
+		match = rmgroupEndRe.match(l)
+		if match:
+			if eid in kEntries:
+				kEntry = kEntries[eid]
+				if rmgroupId < len(kEntry.groups):
+					rmgroup = kEntry.groups[rmgroupId]
+					for lang in ('fr', 'es', 'pt'):
+						if lang in rmgroup.glosses:
+							glosses = rmgroup.glosses[lang].split('\n')
+							for gloss in glosses:
+								kdicti18n.write('<meaning m_lang="%s">%s</meaning>\n' % (lang, gloss))
+			rmgroupId += 1
 		kdicti18n.write(l)
 		if len(l) == 0: break
