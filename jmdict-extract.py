@@ -123,7 +123,7 @@ if __name__ == "__main__":
 	lpo4 = dict([(lang, GetTextFile('jmdict-jlpt5_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
 	lpo4['en'] = GetTextFile('jmdict-jlpt5.pot', 'w')
 	lpo3 = dict([(lang, GetTextFile('jmdict-jlpt4_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
-	lpo3['en'] = GetTextFile('jmdict-jlpt4_.pot', 'w')
+	lpo3['en'] = GetTextFile('jmdict-jlpt4.pot', 'w')
 	lpo2 = dict([(lang, GetTextFile('jmdict-jlpt2_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
 	lpo2['en'] = GetTextFile('jmdict-jlpt2.pot', 'w')
 	lpo1 = dict([(lang, GetTextFile('jmdict-jlpt1_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
