@@ -21,7 +21,7 @@ class Kanjidic2Filter(Filter):
 			if 'en' in glosses: enGlosses = glosses['en']
 			else: return False
 			msgctxt = '%s %d' % (kentry.literal, cpt)
-			if len(group.readings) > 0: msgid = '%s\t%s\n' % (kentry.literal, str(group.readings)) + enGlosses
+			if len(group.readings) > 0: msgid = '%s\n%s\n' % (kentry.literal, ", ".join(group.readings)) + enGlosses
 			else: msgid = '%s\n' % (kentry.literal,) + enGlosses
 			for lang in self.langs:
 				f = self.files[lang]
