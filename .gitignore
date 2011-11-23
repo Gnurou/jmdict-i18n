@@ -3,6 +3,7 @@ __pycache__
 JMdict
 JMdict-i18n
 kanjidic2.xml
+kanjidic2-i18n.xml
 *.pot
 *.po
 
