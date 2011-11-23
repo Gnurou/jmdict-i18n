@@ -18,27 +18,57 @@ file_filter = jmdict-jlpt1_<lang>.po
 source_file = jmdict-jlpt1.pot
 source_lang = en
 
-[jmdict-i18n.kanjidic2-1kyouiku]
-file_filter = kanjidic2-kyouiku_<lang>.po
-source_file = kanjidic2-kyouiku.pot
+[jmdict-i18n.kanjidic2-1grade1]
+file_filter = kanjidic2-grade1_<lang>.po
+source_file = kanjidic2-grade1.pot
 source_lang = en
 
-[jmdict-i18n.kanjidic2-2jouyou]
-file_filter = kanjidic2-jouyou_<lang>.po
-source_file = kanjidic2-jouyou.pot
+[jmdict-i18n.kanjidic2-1grade2]
+file_filter = kanjidic2-grade2_<lang>.po
+source_file = kanjidic2-grade2.pot
 source_lang = en
 
-[jmdict-i18n.kanjidic2-3freq]
+[jmdict-i18n.kanjidic2-1grade3]
+file_filter = kanjidic2-grade3_<lang>.po
+source_file = kanjidic2-grade3.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-1grade4]
+file_filter = kanjidic2-grade4_<lang>.po
+source_file = kanjidic2-grade4.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-1grade5]
+file_filter = kanjidic2-grade5_<lang>.po
+source_file = kanjidic2-grade5.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-1grade6]
+file_filter = kanjidic2-grade6_<lang>.po
+source_file = kanjidic2-grade6.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-1grade8]
+file_filter = kanjidic2-grade8_<lang>.po
+source_file = kanjidic2-grade8.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-3grade9]
+file_filter = kanjidic2-grade9_<lang>.po
+source_file = kanjidic2-grade9.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-3gradea]
+file_filter = kanjidic2-grade10_<lang>.po
+source_file = kanjidic2-grade10.pot
+source_lang = en
+
+[jmdict-i18n.kanjidic2-2freq]
 file_filter = kanjidic2-freq_<lang>.po
 source_file = kanjidic2-freq.pot
 source_lang = en
 
-[jmdict-i18n.kanjidic2-4jinmei]
-file_filter = kanjidic2-jinmei_<lang>.po
-source_file = kanjidic2-jinmei.pot
-source_lang = en
-
-[jmdict-i18n.kanjidic2-5others]
+[jmdict-i18n.kanjidic2-4others]
 file_filter = kanjidic2-others_<lang>.po
 source_file = kanjidic2-others.pot
 source_lang = en
