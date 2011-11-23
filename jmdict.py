@@ -8,11 +8,6 @@ senseEndRe = re.compile('</sense>')
 enGlossRe = re.compile('<gloss>(.*)</gloss>')
 otherGlossRe = re.compile('<gloss xml:lang="(.*)">(.*)</gloss>')
 
-# Associate 3 letters country codes used in glosses to more common 2 letter ones.
-# This also defines which languages we are exporting to
-langMatch = { "fre" : "fr", "ger" : "de", "rus" : "ru" }
-langMatchInv = dict([ (v, k) for k, v in langMatch.items() ])
-
 class Entry:
 	def __init__(self):
 		self.eid = None

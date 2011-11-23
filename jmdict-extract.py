@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 import sys
 from gettextformat import *
 from jmdict import *
+from langs import *
 
 # PO header
 headerStr = """Project-Id-Version: JMdict i18n
@@ -118,7 +120,7 @@ jlpt1list = [ int(x) for x in open("jlpt-level1.txt").read().split('\n')[:-1] ]
 
 if __name__ == "__main__":
 	# Dictionary file
-	jmdict = open('JMdict', 'r', encoding='utf-8')
+	jmdict = open(sys.argv[1], 'r', encoding='utf-8')
 	# Translation and template files
 	lpo4 = dict([(lang, GetTextFile('jmdict-jlpt5_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
 	lpo4['en'] = GetTextFile('jmdict-jlpt5.pot', 'w')

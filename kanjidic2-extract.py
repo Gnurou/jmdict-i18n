@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
+import sys
 from efilter import *
 from kanjidic2 import *
+from langs import *
 
 def processGloss(lang, match, glosses):
 	if not lang in glosses: gloss = ''
@@ -34,20 +36,13 @@ class Kanjidic2Filter(Filter):
 			cpt += 1
 		return True
 
-class KyouikuFilter(Kanjidic2Filter):
-	def __init__(self, langs):
-		Kanjidic2Filter.__init__(self, "kanjidic2-kyouiku", langs)
+class GradeFilter(Kanjidic2Filter):
+	def __init__(self, langs, grade):
+		Kanjidic2Filter.__init__(self, 'kanjidic2-grade%d' % (grade,), langs)
+		self.grade = grade
 
 	def processEntry(self, kentry):
-		if kentry.grade > 0 and kentry.grade <= 6: return Kanjidic2Filter.processEntry(self, kentry)
-		else: return False
-
-class JouyouFilter(Kanjidic2Filter):
-	def __init__(self, langs):
-		Kanjidic2Filter.__init__(self, "kanjidic2-jouyou", langs)
-
-	def processEntry(self, kentry):
-		if kentry.grade > 6 and kentry.grade <= 8: return Kanjidic2Filter.processEntry(self, kentry)
+		if kentry.grade == self.grade: return Kanjidic2Filter.processEntry(self, kentry)
 		else: return False
 
 class FreqFilter(Kanjidic2Filter):
@@ -58,27 +53,19 @@ class FreqFilter(Kanjidic2Filter):
 		if kentry.freq > 0: return Kanjidic2Filter.processEntry(self, kentry)
 		else: return False
 
-class JinmeiFilter(Kanjidic2Filter):
-	def __init__(self, langs):
-		Kanjidic2Filter.__init__(self, "kanjidic2-jinmei", langs)
-
-	def processEntry(self, kentry):
-		if kentry.grade > 8: return Kanjidic2Filter.processEntry(self, kentry)
-		else: return False
-
 class AllFilter(Kanjidic2Filter):
 	def __init__(self, langs):
 		Kanjidic2Filter.__init__(self, "kanjidic2-others", langs)
 
 if __name__ == "__main__":
-	kdic = open('kanjidic2.xml', 'r', encoding='utf-8')
+	kdic = open(sys.argv[1], 'r', encoding='utf-8')
 
 	filters = []
-	langs = [ 'en', 'fr', 'es', 'pt' ]
-	filters.append(KyouikuFilter(langs))
-	filters.append(JouyouFilter(langs))
+	for i in range(1, 7):
+		filters.append(GradeFilter(langs, i))
+	for i in range(8, 11):
+		filters.append(GradeFilter(langs, i))
 	filters.append(FreqFilter(langs))
-	filters.append(JinmeiFilter(langs))
 	filters.append(AllFilter(langs))
 
 	while True:

@@ -21,7 +21,7 @@ def createEntriesDictionary(gettextEntries):
 			kEntry = KEntry(eid)
 			kEntries[eid] = kEntry
 		try:
-			rmgroup = kEntry.groups[gid]
+				rmgroup = kEntry.groups[gid]
 		except IndexError:
 			rmgroup = RMGroup()
 			kEntry.groups.append(rmgroup)
@@ -31,13 +31,13 @@ def createEntriesDictionary(gettextEntries):
 
 if __name__ == "__main__":
 	entries = []
-	for f in sys.argv[1:]:
+	for f in sys.argv[3:]:
                 f = GetTextFile(f, "r")
                 entries += f.readEntries()
 	kEntries = createEntriesDictionary(entries)
 
-	kdict = open("kanjidic2.xml", "r", encoding="utf-8")
-	kdicti18n = open("kanjidic2-i18n.xml", "w", encoding="utf-8")
+	kdict = open(sys.argv[1], "r", encoding="utf-8")
+	kdicti18n = open(sys.argv[2], "w", encoding="utf-8")
 	while True:
 		l = kdict.readline()
 		match = literalRe.match(l)
@@ -53,11 +53,10 @@ if __name__ == "__main__":
 				kEntry = kEntries[eid]
 				if rmgroupId < len(kEntry.groups):
 					rmgroup = kEntry.groups[rmgroupId]
-					for lang in ('fr', 'es', 'pt'):
-						if lang in rmgroup.glosses:
-							glosses = rmgroup.glosses[lang].split('\n')
-							for gloss in glosses:
-								kdicti18n.write('<meaning m_lang="%s">%s</meaning>\n' % (lang, gloss))
+					for lang in rmgroup.glosses:
+						glosses = rmgroup.glosses[lang].split('\n')
+						for gloss in glosses:
+							kdicti18n.write('<meaning m_lang="%s">%s</meaning>\n' % (lang, gloss))
 			rmgroupId += 1
 		kdicti18n.write(l)
 		if len(l) == 0: break

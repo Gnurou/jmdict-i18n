@@ -3,6 +3,7 @@
 import sys
 from gettextformat import *
 from jmdict import *
+from langs import *
 
 def createEntriesDictionary(gettextEntries):
 	jEntries = {}
@@ -50,11 +51,10 @@ if __name__ == "__main__":
 				jEntry = jmEntries[eid]
 				if senseid in jEntry.senses:
 					sense = jEntry.senses[senseid]
-					for lang in ('fr', 'ru', 'de'):
-						if lang in sense.glosses:
-							glosses = sense.glosses[lang].split('\n')
-							for gloss in glosses:
-								jmdicti18n.write('<gloss xml:lang="%s">%s</gloss>\n' % (langMatchInv[lang], gloss))
+					for lang in sense.glosses:
+						glosses = sense.glosses[lang].split('\n')
+						for gloss in glosses:
+							jmdicti18n.write('<gloss xml:lang="%s">%s</gloss>\n' % (langMatchInv[lang], gloss))
 			senseid += 1
 		jmdicti18n.write(l)
 		if len(l) == 0: break
