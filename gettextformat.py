@@ -42,8 +42,8 @@ class GetTextFile:
 		# Skip until first entry
 		while True:
 			l = self.f.readline()
-			if l == '\n': break
-			if len(l) == 0: break
+			if l == '\n' or len(l) == 0: break
+
 		# Now we can parse the entries
 		entries = []
 		currentEntry = None

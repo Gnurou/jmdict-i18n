@@ -1,6 +1,22 @@
 #!/usr/bin/python3
 
-import sys
+# Handling regressions:
+# We want regressions to be preserved as "fuzzy" in the .po files, but we also want them
+# to stay in the JMdict file until they are updated. To allow this, when updating the source strings
+# a file containing a list of regressed senses is created/updated, by appending references to those
+# senses which source string has changed since the last update (we can compare the source strings
+# from the JMdict file with those from the latest .pot file). Senses referenced in that file are
+# exported as "fuzzy" by this script, and by doing this regressions are preserved across updates
+# even though Transifex does not give us a way to fetch suggested entries from .po files.
+#
+# Regressions are removed from the file when a new translation for a regressed sense is provided. This
+# is done by checking if the translation string has changed from what it was in the original JMdict file.
+# The export script also *must* include the fuzzy translations that have not been updated on Transifex.
+#
+# Regressions should be re-uploaded as a file containing only fuzzy entries to ensure the "suggestion"
+# field on Transifex is valid.
+
+import sys, datetime, argparse, xmlhandler, xml.sax
 from gettextformat import *
 from jmdict import *
 from langs import *
@@ -8,7 +24,7 @@ from langs import *
 # PO header
 headerStr = """Project-Id-Version: JMdict i18n
 Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>
-POT-Creation-Date: 2011-11-05 19:00:00+09:00
+POT-Creation-Date: %s
 PO-Revision-Date: 
 Last-Translator: 
 Language-Team: 
@@ -17,126 +33,126 @@ Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
 Language: %s"""
 
-currentEntry = None
+class JMdictParser(xmlhandler.BasicHandler):
+	def __init__(self):
+		xmlhandler.BasicHandler.__init__(self)
+		self.entries = []
+		self.currentEntry = None
+		self.currentSense = None
+		self.lang = None
 
-def startEntry(match):
-	global currentEntry
-	currentEntry = Entry()
-	currentEntry.eid = int(match.group(1))
-	currentEntry.senseNbr = 0
+	def handle_start_entry(self, attrs):
+		self.currentEntry = Entry()
 
-def keb(match):
-	if not currentEntry.keb:
-		currentEntry.keb = match.group(1)
-	pass
+	def handle_end_entry(self):
+		self.entries.append(self.currentEntry)
+		self.currentEntry = None
 
-def reb(match):
-	if not currentEntry.reb:
-		currentEntry.reb = match.group(1)
-	pass
+	def handle_data_ent_seq(self, data):
+		self.currentEntry.eid = int(data)
 
-def startSense(match):
-	global currentEntry
-	sense = Sense()
-	currentEntry.sense = sense
+	def handle_data_keb(self, data):
+		if not self.currentEntry.keb:
+			self.currentEntry.keb = data
 
-def writeSense(f, currentEntry, glosses):
+	def handle_data_reb(self, data):
+		if not self.currentEntry.reb:
+			self.currentEntry.reb = data
+
+	def handle_start_sense(self, attrs):
+		self.currentSense = Sense()
+
+	def handle_end_sense(self):
+		self.currentEntry.senses[len(self.currentEntry.senses)] = self.currentSense
+		self.currentSense = None
+
+	def handle_start_gloss(self, attrs):
+		self.lang = langMatch[attrs["xml:lang"]]
+
+	def handle_data_gloss(self, data):
+		try:
+			glosses = self.currentSense.glosses[self.lang]
+		except KeyError:
+			glosses = ""
+		glosses += data + "\n"
+		self.currentSense.glosses[self.lang] = glosses
+		self.lang = None
+
+class JLPTFilter:
+	def __init__(self, level):
+		self.elist = [ int(x) for x in open("jlpt-level%d.txt" % (level,)).read().split('\n')[:-1] ]
+		self.name = "jlpt%d" % (level,)
+
+	def isfiltered(self, entry):
+		return entry.eid in self.elist
+
+def writeSense(f, currentEntry, senseNbr, lang):
 	entry = GetTextEntry()
-	entry.msgctxt = '%d %d' % (currentEntry.eid, currentEntry.senseNbr)
+	entry.msgctxt = '%d %d' % (currentEntry.eid, senseNbr)
 	# Japanese keb and reb
 	if not currentEntry.keb: ids = '%s' % (currentEntry.reb,)
 	else: ids = '%s\t%s' % (currentEntry.keb, currentEntry.reb)
+
 	# English glosses
-	entry.msgid = ids + '\n' + currentEntry.sense.glosses['en'].rstrip('\n')
-	entry.msgstr = glosses.rstrip('\n')
+	currentSense = currentEntry.senses[senseNbr]
+	entry.msgid = ids + '\n' + currentSense.glosses['en'].rstrip('\n')
+	if lang != "en" and lang in currentSense.glosses:
+		entry.msgstr = currentSense.glosses[lang].rstrip('\n')
 	f.write(str(entry))
 
-def endSense(match):
-	global currentEntry
+def writeEntry(f, currentEntry, lang):
+	for i in range(len(currentEntry.senses)):
+		writeSense(f, currentEntry, i, lang)
 
-	# Do not worry about senses without English glosses
-	if not 'en' in currentEntry.sense.glosses: return
-
-	# Move to filter functions
-	global jlpt4list
-	if currentEntry.eid in jlpt4list: clpo = lpo4
-	elif currentEntry.eid in jlpt3list: clpo = lpo3
-	elif currentEntry.eid in jlpt2list: clpo = lpo2
-	elif currentEntry.eid in jlpt1list: clpo = lpo1
-	else: return
-
-	# Dump all senses
-	writeSense(clpo['en'].f, currentEntry, "")
-	for lang in langMatch.values():
-		if not lang in currentEntry.sense.glosses: glosses = ""
-		else: glosses = currentEntry.sense.glosses[lang]
-		writeSense(clpo[lang].f, currentEntry, glosses)
-
-	currentEntry.sense = None
-	currentEntry.senseNbr += 1
-
-def processGloss(lang, gloss):
-	global currentEntry
-	try:
-		glosses = currentEntry.sense.glosses[lang]
-	except KeyError:
-		glosses = ""
-	glosses += gloss + "\n"
-	currentEntry.sense.glosses[lang] = glosses
-	
-def foundOtherGloss(match):
-	lang = langMatch[match.group(1)]
-	gloss = match.group(2)
-	processGloss(lang, gloss)
-
-def foundEnGloss(match):
-	gloss = match.group(1)
-	processGloss('en', gloss)
-	
-actions = {
-	entryStartRe	: startEntry,
-	kebRe		: keb,
-	rebRe		: reb,
-	senseStartRe	: startSense,
-	senseEndRe	: endSense,
-	enGlossRe	: foundEnGloss,
-	otherGlossRe	: foundOtherGloss,
-}
-
-def parseFile(f, actions):
-	while True:
-		line = f.readline()
-		for rexp in actions:
-			match = rexp.match(line)
-			if rexp.match(line):
-				actions[rexp](match)
-				continue
-		if len(line) == 0: break
-
-jlpt4list = [ int(x) for x in open("jlpt-level4.txt").read().split('\n')[:-1] ]
-jlpt3list = [ int(x) for x in open("jlpt-level3.txt").read().split('\n')[:-1] ]
-jlpt2list = [ int(x) for x in open("jlpt-level2.txt").read().split('\n')[:-1] ]
-jlpt1list = [ int(x) for x in open("jlpt-level1.txt").read().split('\n')[:-1] ]
+def outputPo(entries, filters, lang):
+	# Create files
+	header = GetTextEntry()
+	header.msgstr = headerStr % (datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), lang)
+	if lang == "en": basename = "jmdict-%s.pot"
+	else: basename = "jmdict-%s_" + lang + ".po"
+	for filt in filters:
+		filt.outf = open(basename % (filt.name,), 'w', encoding='utf-8')
+		filt.outf.write(str(header))
+	# Write entries
+	for entry in entries:
+		for filt in filters:
+			if filt.isfiltered(entry):
+				writeEntry(filt.outf, entry, lang)
+				break
+	for filt in filters:
+		del filt.outf
 
 if __name__ == "__main__":
-	# Dictionary file
-	jmdict = open(sys.argv[1], 'r', encoding='utf-8')
-	# Translation and template files
-	lpo4 = dict([(lang, GetTextFile('jmdict-jlpt5_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
-	lpo4['en'] = GetTextFile('jmdict-jlpt5.pot', 'w')
-	lpo3 = dict([(lang, GetTextFile('jmdict-jlpt4_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
-	lpo3['en'] = GetTextFile('jmdict-jlpt4.pot', 'w')
-	lpo2 = dict([(lang, GetTextFile('jmdict-jlpt2_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
-	lpo2['en'] = GetTextFile('jmdict-jlpt2.pot', 'w')
-	lpo1 = dict([(lang, GetTextFile('jmdict-jlpt1_%s.po' % (lang,), 'w')) for lang in langMatch.values()])
-	lpo1['en'] = GetTextFile('jmdict-jlpt1.pot', 'w')
+	aparser = argparse.ArgumentParser(description = "Build a .pot file (and optionally .po files) from the JMdict.")
+	aparser.add_argument('JMdict',
+		nargs = 1,
+		help = 'JMdict file from which to extract')
+	aparser.add_argument('-l',
+		action = "store",
+		nargs = "*",
+		default = [],
+		help = '2 letters codes of languages for which a .po file will be created',
+		choices = list(langMatch.values()))
+	cmdargs = aparser.parse_args()
+	
+	# Parse whole JMdict
+	parser = xml.sax.make_parser()
+	handler = JMdictParser()
+	parser.setContentHandler(handler)
+	parser.setFeature(xml.sax.handler.feature_external_ges, False)
+	parser.setFeature(xml.sax.handler.feature_external_pes, False)
+	parser.parse(cmdargs.JMdict[0])
 
-	header= GetTextEntry()
-	header.msgstr = headerStr
-	for lang in list(langMatch.values()) + ['en']:
-		lpo4[lang].f.write(str(header) % (lang,))
-		lpo3[lang].f.write(str(header) % (lang,))
-		lpo2[lang].f.write(str(header) % (lang,))
-		lpo1[lang].f.write(str(header) % (lang,))
-	# And parse!
-	parseFile(jmdict, actions)
+	# Filter entries
+	filters = []
+	filters.append(JLPTFilter(4))
+	filters.append(JLPTFilter(3))
+	filters.append(JLPTFilter(2))
+	filters.append(JLPTFilter(1))
+
+	# Output .pot files
+	outputPo(handler.entries, filters, "en")
+
+	# Output .po files
+	for l in cmdargs.l:
+		outputPo(handler.entries, filters, l)
