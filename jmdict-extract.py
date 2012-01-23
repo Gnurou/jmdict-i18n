@@ -15,6 +15,11 @@
 #
 # Regressions should be re-uploaded as a file containing only fuzzy entries to ensure the "suggestion"
 # field on Transifex is valid.
+#
+# Regressions can be stored in JMF format. Thus:
+# * .po + regs = .jmf
+# * regs += source strings from JMdict that changed (against previous JMdict or .pot)
+# * regs -= destination strings that have been updated (since previous .po)
 
 import sys, datetime, argparse, xmlhandler, xml.sax
 from gettextformat import *
