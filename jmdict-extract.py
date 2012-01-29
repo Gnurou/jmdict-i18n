@@ -19,9 +19,10 @@
 # Regressions can be stored in JMF format. Thus:
 # * .po + regs = .jmf
 # * regs += source strings from JMdict that changed (against previous JMdict or .pot)
-# * regs -= destination strings that have been updated (since previous .po)
+# * regs -= destination strings that have been updated (since previous .po) - i.e. that have a translation,
+#   since the previous translations was sent as a suggestion and thus is not supposed to be fetched back.
 
-import sys, datetime, argparse, xmlhandler, xml.sax
+import sys, datetime, argparse, xml.sax
 from gettextformat import *
 from jmdict import *
 from langs import *
@@ -38,51 +39,6 @@ Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
 Language: %s"""
 
-class JMdictParser(xmlhandler.BasicHandler):
-	def __init__(self):
-		xmlhandler.BasicHandler.__init__(self)
-		self.entries = []
-		self.currentEntry = None
-		self.currentSense = None
-		self.lang = None
-
-	def handle_start_entry(self, attrs):
-		self.currentEntry = Entry()
-
-	def handle_end_entry(self):
-		self.entries.append(self.currentEntry)
-		self.currentEntry = None
-
-	def handle_data_ent_seq(self, data):
-		self.currentEntry.eid = int(data)
-
-	def handle_data_keb(self, data):
-		if not self.currentEntry.keb:
-			self.currentEntry.keb = data
-
-	def handle_data_reb(self, data):
-		if not self.currentEntry.reb:
-			self.currentEntry.reb = data
-
-	def handle_start_sense(self, attrs):
-		self.currentSense = Sense()
-
-	def handle_end_sense(self):
-		self.currentEntry.senses[len(self.currentEntry.senses)] = self.currentSense
-		self.currentSense = None
-
-	def handle_start_gloss(self, attrs):
-		self.lang = langMatch[attrs["xml:lang"]]
-
-	def handle_data_gloss(self, data):
-		try:
-			glosses = self.currentSense.glosses[self.lang]
-		except KeyError:
-			glosses = ""
-		glosses += data + "\n"
-		self.currentSense.glosses[self.lang] = glosses
-		self.lang = None
-
 class JLPTFilter:
 	def __init__(self, level):
 		self.elist = [ int(x) for x in open("jlpt-level%d.txt" % (level,)).read().split('\n')[:-1] ]
@@ -91,23 +47,9 @@ class JLPTFilter:
 	def isfiltered(self, entry):
 		return entry.eid in self.elist
 
-def writeSense(f, currentEntry, senseNbr, lang):
-	entry = GetTextEntry()
-	entry.msgctxt = '%d %d' % (currentEntry.eid, senseNbr)
-	# Japanese keb and reb
-	if not currentEntry.keb: ids = '%s' % (currentEntry.reb,)
-	else: ids = '%s\t%s' % (currentEntry.keb, currentEntry.reb)
-
-	# English glosses
-	currentSense = currentEntry.senses[senseNbr]
-	entry.msgid = ids + '\n' + currentSense.glosses['en'].rstrip('\n')
-	if lang != "en" and lang in currentSense.glosses:
-		entry.msgstr = currentSense.glosses[lang].rstrip('\n')
-	f.write(str(entry))
-
 def writeEntry(f, currentEntry, lang):
-	for i in range(len(currentEntry.senses)):
-		writeSense(f, currentEntry, i, lang)
+	poEntry = currentEntry.asGettext(lang)
+	f.write(str(poEntry))
 
 def outputPo(entries, filters, lang):
 	# Create files
@@ -119,7 +61,7 @@ def outputPo(entries, filters, lang):
 		filt.outf = open(basename % (filt.name,), 'w', encoding='utf-8')
 		filt.outf.write(str(header))
 	# Write entries
-	for entry in entries:
+	for entry in entries.values():
 		for filt in filters:
 			if filt.isfiltered(entry):
 				writeEntry(filt.outf, entry, lang)
@@ -138,9 +80,28 @@ if __name__ == "__main__":
 		default = [],
 		help = '2 letters codes of languages for which a .po file will be created',
 		choices = list(langMatch.values()))
+	aparser.add_argument('-t',
+		action = "store",
+		nargs = "*",
+		default = [],
+		help = '.po files to load for regression matching')
 	cmdargs = aparser.parse_args()
-	
-	# Parse whole JMdict
+
+	poEntries = {}
+	for pof in cmdargs.t:
+		print('Loading %s...' % (pof,))
+		ne = readPo(open(pof, 'r', encoding='utf-8'))
+		if len(ne) > 0:
+			lang = ne[0].lang
+			try:
+				lEntries = poEntries[lang]
+			except KeyError:
+				lEntries = {}
+			for entry in ne: lEntries[entry.contextString()] = entry
+			poEntries[lang] = lEntries
+
+	# Parse new JMdict
+	print('Loading %s...' % (cmdargs.JMdict[0],))
 	parser = xml.sax.make_parser()
 	handler = JMdictParser()
 	parser.setContentHandler(handler)
@@ -148,12 +109,26 @@ if __name__ == "__main__":
 	parser.setFeature(xml.sax.handler.feature_external_pes, False)
 	parser.parse(cmdargs.JMdict[0])
 
+	# Check for regressions
+	for entry in handler.entries.values():
+		ctx = entry.contextString()
+		for l in poEntries.keys():
+			lEntries = poEntries[l]
+			if ctx in lEntries:
+				poEntry = lEntries[ctx]
+				if poEntry.sourceString() != entry.sourceString():
+					print('Found regression for %s' % (ctx,))
+	sys.exit(1)
+
+	print('Filtering entries...')
 	# Filter entries
 	filters = []
 	filters.append(JLPTFilter(4))
 	filters.append(JLPTFilter(3))
 	filters.append(JLPTFilter(2))
 	filters.append(JLPTFilter(1))
+	# Entries should be filtered first in groups, groups sorted by id & sense nbr,
+	# then written to their respective files
 
 	# Output .pot files
 	outputPo(handler.entries, filters, "en")
