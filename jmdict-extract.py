@@ -87,11 +87,22 @@ if __name__ == "__main__":
 		help = '.po files to load for regression matching')
 	cmdargs = aparser.parse_args()
 
+	# Parse JMdict
+	jmdictfile = cmdargs.JMdict[0]
+	print('Loading %s...\t' % (jmdictfile,), end='')
+	parser = xml.sax.make_parser()
+	handler = JMdictParser()
+	parser.setContentHandler(handler)
+	parser.setFeature(xml.sax.handler.feature_external_ges, False)
+	parser.setFeature(xml.sax.handler.feature_external_pes, False)
+	parser.parse(cmdargs.JMdict[0])
+	print('\t%d senses loaded' % (len(handler.entries)))
+
 	# Parse .po files
+	print('Loading .po files...\t', end='')
 	poEntries = {}
 	for lang in cmdargs.l: poEntries[lang] = {}
 	for pof in cmdargs.t:
-		print('Loading %s...' % (pof,))
 		ne = readPo(open(pof, 'r', encoding='utf-8'))
 		if len(ne) > 0:
 			lang = ne[0].lang
@@ -99,71 +110,116 @@ if __name__ == "__main__":
 			lEntries = poEntries[lang]
 			for entry in ne: lEntries[entry.contextString()] = entry
 			poEntries[lang] = lEntries
+	for lang in poEntries:
+		print('\t%s: %d' % (lang, len(poEntries[lang])), end='')
+	print('')
 
-	jmdictfile = cmdargs.JMdict[0]
 	# Parse regressions
+	print('Loading regressions...\t', end='')
 	regressions = {}
 	for lang in cmdargs.l:
 		regressions[lang] = {}
-		regfile = jmdictfile + '_%s.reg' % (lang,)
+		regfile = jmdictfile + '_%s_reg.po' % (lang,)
 		if os.path.exists(regfile):
-			print('Loading %s...' % (regfile,))
 			ne = readPo(open(regfile, 'r', encoding='utf-8'))
 			if len(ne) > 0:
 				lEntries = regressions[lang]
 				for entry in ne: lEntries[entry.contextString()] = entry
 				regressions[lang] = lEntries
-
-	# Parse new JMdict
-	print('Loading %s...' % (jmdictfile,))
-	parser = xml.sax.make_parser()
-	handler = JMdictParser()
-	parser.setContentHandler(handler)
-	parser.setFeature(xml.sax.handler.feature_external_ges, False)
-	parser.setFeature(xml.sax.handler.feature_external_pes, False)
-	parser.parse(cmdargs.JMdict[0])
-
-	# Check for new regressions
-	# We have a new regression for a given language if:
-	# - the entry is not in the regressions lists
-	# - the source string from the JMdict is different that the one
-	#   from the .po
-	newregs = {}
-	for lang in cmdargs.l: newregs[lang] = {}
-	for entry in handler.entries.values():
-		ctx = entry.contextString()
-		for lang in poEntries.keys():
-			lEntries = poEntries[lang]
-			if ctx in lEntries:
-				poEntry = lEntries[ctx]
-				if poEntry.sourceString() != entry.sourceString():
-					print('Found regression for %s' % (ctx,))
-					reg = GetTextEntry(lang)
-					reg.msgctxt = ctx
-					reg.msgid = entry.sourceString()
-					reg.msgstr = poEntry.trString(lang)
-					newregs[lang][ctx] = reg
+		print('\t%s: %d' % (lang, len(regressions[lang])), end='')
+	print('')
 
 	# Check for fixed regressions
 	# A regression is fixed if:
 	# - the entry has been deleted
-	# - a translation (i.e. not "fuzzy") is provided by its .po file
-	for lang in regressions.keys:
-		for ctxstr in regressions[lang].keys():
-			if not ctxstr in poEntries[lang] or poEntries[lang][ctxstr].trString(lang) != "":
-				del regressions[lang][ctxstr]
-
-	# Add new regressions to regressions lists
+	# - a translation (not "fuzzy") is provided by its .po file
+	print('Checking fixed regressions...', end='')
+	fixedRegsCpt = { lang : 0 for lang in cmdargs.l }
 	for lang in regressions.keys():
-		for entkey in newregs[lang].keys():
-			regressions[lang][entkey] = newregs[lang][entkey]
+		cpt = 0
+		fixed = []
+		for ctxstr in regressions[lang]:
+			poEntry = poEntries[lang][ctxstr]
+			if not ctxstr in poEntries[lang] or poEntry.trString(lang) != "" and not poEntry.fuzzy:
+				#print('Regression %s fixed' % (ctxstr,))
+				fixedRegsCpt[lang] += 1
+				fixed.append(ctxstr)
+		for ctxstr in fixed:
+			del regressions[lang][ctxstr]
+		print('\t%s: %d' % (lang, fixedRegsCpt[lang]), end='')
+	print('')
 
-	# Merge the .po translations to the JMdict entries
+	# Check for new regressions
+	# We have a new regression for a given language if:
+	# - an entry exists in the .po file and has a translation
+	# - the source string from the JMdict is different from the one
+	#   in the .po
+	print('Checking new regressions...', end='')
+	newRegsCpt = { lang : 0 for lang in cmdargs.l }
+	for entry in handler.entries.values():
+		ctx = entry.contextString()
+		for lang in poEntries:
+			lEntries = poEntries[lang]
+			if ctx in lEntries:
+				poEntry = lEntries[ctx]
+				if poEntry.trString(lang) != '' and poEntry.sourceString() != entry.sourceString():
+					#print('Found regression for %s' % (ctx,))
+					newRegsCpt[lang] += 1
+					reg = GetTextEntry(lang)
+					reg.msgctxt = ctx
+					reg.msgid = entry.sourceString()
+					reg.msgstr = poEntry.trString(lang)
+					regressions[lang][ctx] = reg
+	for lang in cmdargs.l:
+		print('\t%s: %d' % (lang, newRegsCpt[lang],), end='')
+	print('')
 
-	sys.exit(1)
+	# Merge the new .po translations into the JMdict entries
+	print('Merging new .po data...\t', end='')
+	mergedPoCpt = { lang : 0 for lang in cmdargs.l }
+	for lang in poEntries:
+		for key in poEntries[lang]:
+			if key in handler.entries:
+				poEntry = poEntries[lang][key]
+				jmEntry = handler.entries[key]
+				if poEntry.trString(lang) == jmEntry.trString(lang): continue
+				jmEntry.translations[lang] = poEntry.trString(lang)
+				mergedPoCpt[lang] += 1
+		print('\t%s: %d' % (lang, mergedPoCpt[lang]), end='')
+	print('')
+
+
+	# Merge regressions into the parsed JMdict and add fuzzy tags
+	print('Merging regressions...\t', end='')
+	mergedRegsCpt = { lang : 0 for lang in cmdargs.l }
+	for lang in regressions:
+		for key in regressions[lang]:
+			if key in handler.entries:
+				poEntry = regressions[lang][key]
+				jmEntry = handler.entries[key]
+				jmEntry.translations[lang] = poEntry.trString(lang)
+				jmEntry.fuzzies.append(lang)
+				mergedRegsCpt[lang] += 1
+		print('\t%s: %d' % (lang, mergedRegsCpt[lang]), end='')
+	print('')
+
+	# Write new regressions list
+	print('Writing regressions...\t', end='')
+	for lang in cmdargs.l:
+		regfile = jmdictfile + '_%s_reg.po' % (lang,)
+		outf = open(regfile, 'w', encoding='utf-8')
+		header = GetTextEntry()
+		header.msgstr = headerStr % (datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), lang)
+		outf.write(str(header))
+		for entry in regressions[lang]:
+			outf.write(str(regressions[lang][entry]))
+		print('\t%s: %d' % (lang, len(regressions[lang])), end='')
+	print('')
 
 	print('Filtering entries...')
 	# Filter entries
+	# TODO do filtering here to avoid having to run the filters once
+	# per language!
 	filters = []
 	filters.append(JLPTFilter(4))
 	filters.append(JLPTFilter(3))
@@ -178,5 +234,7 @@ if __name__ == "__main__":
 	# Output .po files
 	for l in cmdargs.l:
 		outputPo(handler.entries, filters, l)
+
+	sys.exit(1)
 
 	# Output regressions

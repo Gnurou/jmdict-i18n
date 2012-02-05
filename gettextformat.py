@@ -3,6 +3,7 @@ import re
 msgctxtRe = re.compile('msgctxt "(.*)"')
 msgidRe = re.compile('msgid "(.*)"')
 msgstrRe = re.compile('msgstr "(.*)"')
+fuzzyRe = re.compile('#,.*fuzzy.*')
 strRe = re.compile('"(.*)"')
 languageRe = re.compile('"Language: (..)')
 
@@ -12,6 +13,7 @@ class GetTextEntry:
 		self.msgid = ""
 		self.msgstr = ""
 		self.lang = lang
+		self.fuzzy = False
 
 	def contextString(self):
 		return self.msgctxt
@@ -27,6 +29,7 @@ class GetTextEntry:
 		r = ""
 		if self.msgctxt:
 			r += 'msgctxt "%s"\n' % (self.msgctxt,)
+		if self.fuzzy: r += '#, fuzzy\n'
 		s = self.msgid.replace('"', '\\"').replace('\n', '\\n"\n"')
 		if '\n' in s: s = '"\n"' + s
 		r += 'msgid "%s"\n' % (s,)
@@ -87,6 +90,10 @@ def readPo(f):
 			s = match.group(1)
 			if len(s): currentEntry.msgstr += s
 			mode = "STR"
+			continue
+		match = fuzzyRe.match(l)
+		if match:
+			currentEntry.fuzzy = True
 			continue
 		if len(l) == 0: break
 	if currentEntry: entries.append(currentEntry)

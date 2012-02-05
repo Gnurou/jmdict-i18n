@@ -19,6 +19,8 @@ class JMdictEntry:
 		self.reb = None
 		# Group glosses per language, one per line
 		self.translations = {}
+		# Languages that should be outputed as 'fuzzy'
+		self.fuzzies = []
 
 	def contextString(self):
 		return '%d %d' % (self.eid, self.senseNbr)
@@ -30,12 +32,13 @@ class JMdictEntry:
 
 	def trString(self, lang):
 		if not lang in self.translations: return ''
-		else: return self.translations[lang].rstrip('\n')
+		else: return self.translations[lang]
 
 	def asGettext(self, lang):
 		entry = GetTextEntry()
 		entry.msgctxt = self.contextString()
 		entry.msgid = self.sourceString()
+		if lang in self.fuzzies: entry.fuzzy = True
 		if lang != 'en':
 			entry.msgstr = self.trString(lang)
 		return entry
@@ -74,7 +77,7 @@ class JMdictParser(xmlhandler.BasicHandler):
 		self.currentEntry.reb = self.currentReb
 
 	def handle_end_sense(self):
-		self.entries[(self.currentEid, self.currentSense)] = self.currentEntry
+		self.entries['%d %d' % (self.currentEid, self.currentSense)] = self.currentEntry
 		self.currentSense += 1
 		self.currentEntry = None
 
@@ -84,8 +87,8 @@ class JMdictParser(xmlhandler.BasicHandler):
 	def handle_data_gloss(self, data):
 		try:
 			glosses = self.currentEntry.translations[self.lang]
+			glosses += "\n" + data
 		except KeyError:
-			glosses = ""
-		glosses += data + "\n"
+			glosses = data
 		self.currentEntry.translations[self.lang] = glosses
 		self.lang = None
