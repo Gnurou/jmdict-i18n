@@ -13,17 +13,28 @@ Content-Transfer-Encoding: 8bit
 Language: %s"""
 
 class Filter:
-        def __init__(self, basename, langs, project, bugsto):
-                self.basename = basename
-                self.langs = langs
-                self.files = {}
-                for lang in langs:
-                        if lang == 'en': fstr = "%s.pot" % (self.basename,)
-                        else: fstr = "%s_%s.po" % (self.basename, lang)
-                        f = open(fstr, 'w', encoding='utf-8')
-                        entry = GetTextEntry()
-                        entry.msgstr = headerStr % (project, bugsto, lang,)
-                        f.write(str(entry))
-                        self.files[lang] = f
+	def __init__(self, basename, project, bugsto):
+		self.basename = basename
+		self.project = project
+		self.bugsto = bugsto
+		self.files = {}
+		self.entries = {}
 
+	def consider(self, entry):
+		if self.isfiltered(entry):
+			self.entries[entry.contextString()] = entry
+			return True
+		return False
 
+	def output(self, lang):
+		if lang == 'en': fstr = "%s.pot" % (self.basename,)
+		else: fstr = "%s_%s.po" % (self.basename, lang)
+		f = open(fstr, 'w', encoding='utf-8')
+		entry = GetTextEntry()
+		entry.msgstr = headerStr % (self.project, self.bugsto, lang,)
+		f.write(str(entry))
+		self.files[lang] = f
+		skeys = sorted(self.entries)
+		for skey in skeys:
+			entry = self.entries[skey].asGettext(lang)
+			f.write(str(entry))

@@ -26,6 +26,7 @@ import sys, datetime, argparse, xml.sax, os.path
 from gettextformat import *
 from jmdict import *
 from langs import *
+import efilter
 
 # PO header
 headerStr = """Project-Id-Version: JMdict i18n
@@ -39,10 +40,11 @@ Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
 Language: %s"""
 
-class JLPTFilter:
+class JLPTFilter(efilter.Filter):
 	def __init__(self, level):
-		self.elist = [ int(x) for x in open("jlpt-level%d.txt" % (level,)).read().split('\n')[:-1] ]
 		self.name = "jlpt%d" % (level,)
+		efilter.Filter.__init__(self, self.name, 'JMdict i18n', 'Alexandre Courbot <gnurou@gmail.com>')
+		self.elist = [ int(x) for x in open("jlpt-level%d.txt" % (level,)).read().split('\n')[:-1] ]
 
 	def isfiltered(self, entry):
 		return entry.eid in self.elist
@@ -216,25 +218,30 @@ if __name__ == "__main__":
 		print('\t%s: %d' % (lang, len(regressions[lang])), end='')
 	print('')
 
-	print('Filtering entries...')
 	# Filter entries
-	# TODO do filtering here to avoid having to run the filters once
-	# per language!
+	print('Filtering entries...')
 	filters = []
 	filters.append(JLPTFilter(4))
 	filters.append(JLPTFilter(3))
 	filters.append(JLPTFilter(2))
 	filters.append(JLPTFilter(1))
-	# Entries should be filtered first in groups, groups sorted by id & sense nbr,
-	# then written to their respective files
-
+	for entry in handler.entries.values():
+		filtered = False
+		for filt in filters:
+			if filt.consider(entry):
+				filtered = True
+				break
+		if not filtered:
+			pass
+			#print('Warning: unfiltered entry %s!' % (entry.contextString()))
+		
 	# Output .pot file
-	outputPo(handler.entries, filters, "en")
+	print('Outputting new .pot files...')
+	for filt in filters:
+		filt.output('en')
 
 	# Output .po files
+	print('Outputting new .po files...')
 	for l in cmdargs.l:
-		outputPo(handler.entries, filters, l)
-
-	sys.exit(1)
-
-	# Output regressions
+		for filt in filters:
+			filt.output(lang)
