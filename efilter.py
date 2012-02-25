@@ -17,7 +17,6 @@ class Filter:
 		self.basename = basename
 		self.project = project
 		self.bugsto = bugsto
-		self.files = {}
 		self.entries = {}
 
 	def consider(self, entry):
@@ -26,6 +25,9 @@ class Filter:
 			return True
 		return False
 
+	def sortEntries(self):
+		return sorted(self.entries)
+
 	def output(self, lang):
 		if lang == 'en': fstr = "%s.pot" % (self.basename,)
 		else: fstr = "%s_%s.po" % (self.basename, lang)
@@ -33,8 +35,7 @@ class Filter:
 		entry = GetTextEntry()
 		entry.msgstr = headerStr % (self.project, self.bugsto, lang,)
 		f.write(str(entry))
-		self.files[lang] = f
-		skeys = sorted(self.entries)
+		skeys = self.sortEntries()
 		for skey in skeys:
 			entry = self.entries[skey].asGettext(lang)
 			f.write(str(entry))
