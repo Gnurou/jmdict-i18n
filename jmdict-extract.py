@@ -21,6 +21,12 @@
 # * regs += source strings from JMdict that changed (against previous JMdict or .pot)
 # * regs -= destination strings that have been updated (since previous .po) - i.e. that have a translation,
 #   since the previous translations was sent as a suggestion and thus is not supposed to be fetched back.
+#
+# This script generates, from a JMdict file and an optional set of .po files:
+# * A set of .pot files (one per filter) containing the source strings of the JMdict file
+# * A set of .po files (one per filter and language) with the translation strings of the JMdict and regressions
+# * A set of regression files (one per language) with the previously translated strings for which source string
+#   has changed in the new JMdict file
 
 import sys, datetime, argparse, xml.sax, os.path
 from gettextformat import *
@@ -48,6 +54,14 @@ class JLPTFilter(efilter.Filter):
 
 	def isfiltered(self, entry):
 		return entry.eid in self.elist
+
+class PriFilter(efilter.Filter):
+	def __init__(self, level):
+		self.name = "pri"
+		efilter.Filter.__init__(self, self.name, 'JMdict i18n', 'Alexandre Courbot <gnurou@gmail.com>')
+
+	def isfiltered(self, entry):
+		return self.ke_pri > 0
 
 def writeEntry(f, currentEntry, lang):
 	poEntry = currentEntry.asGettext(lang)
@@ -121,7 +135,7 @@ if __name__ == "__main__":
 	regressions = {}
 	for lang in cmdargs.l:
 		regressions[lang] = {}
-		regfile = jmdictfile + '_%s_reg.po' % (lang,)
+		regfile = jmdictfile + '_%s.reg' % (lang,)
 		if os.path.exists(regfile):
 			ne = readPo(open(regfile, 'r', encoding='utf-8'))
 			if len(ne) > 0:
@@ -205,10 +219,15 @@ if __name__ == "__main__":
 		print('\t%s: %d' % (lang, mergedRegsCpt[lang]), end='')
 	print('')
 
+	# Report number of translations per language
+	print('Total translations:\t', end='')
+	for lang in cmdargs.l:
+		print('\t%s: %d' % (lang, len(poEntries[lang])))
+
 	# Write new regressions list
 	print('Writing regressions...\t', end='')
 	for lang in cmdargs.l:
-		regfile = jmdictfile + '_%s_reg.po' % (lang,)
+		regfile = jmdictfile + '_%s.reg' % (lang,)
 		outf = open(regfile, 'w', encoding='utf-8')
 		header = GetTextEntry()
 		header.msgstr = headerStr % (datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), lang)
