@@ -49,19 +49,28 @@ Language: %s"""
 class JLPTFilter(efilter.Filter):
 	def __init__(self, level):
 		self.name = "jlpt%d" % (level,)
-		efilter.Filter.__init__(self, self.name, 'JMdict i18n', 'Alexandre Courbot <gnurou@gmail.com>')
+		efilter.Filter.__init__(self, self.name, 'jmdict', 'JMdict i18n', 'Alexandre Courbot <gnurou@gmail.com>')
 		self.elist = [ int(x) for x in open("jlpt-level%d.txt" % (level,)).read().split('\n')[:-1] ]
 
 	def isfiltered(self, entry):
 		return entry.eid in self.elist
 
 class PriFilter(efilter.Filter):
-	def __init__(self, level):
-		self.name = "pri"
-		efilter.Filter.__init__(self, self.name, 'JMdict i18n', 'Alexandre Courbot <gnurou@gmail.com>')
+	def __init__(self, minlevel):
+		self.minlevel = minlevel
+		self.name = "pri%03d" % (minlevel,)
+		efilter.Filter.__init__(self, self.name, 'jmdict', 'JMdict i18n', 'Alexandre Courbot <gnurou@gmail.com>')
 
 	def isfiltered(self, entry):
-		return self.ke_pri > 0
+		return entry.pri > self.minlevel
+
+class AllFilter(efilter.Filter):
+	def __init__(self):
+		self.name = "others"
+		efilter.Filter.__init__(self, self.name, 'jmdict', 'JMdict i18n', 'Alexandre Courbot <gnurou@gmail.com>')
+
+	def isfiltered(self, entry):
+		return True
 
 def writeEntry(f, currentEntry, lang):
 	poEntry = currentEntry.asGettext(lang)
@@ -155,6 +164,7 @@ if __name__ == "__main__":
 		cpt = 0
 		fixed = []
 		for ctxstr in regressions[lang]:
+			if ctxstr not in poEntries[lang]: continue
 			poEntry = poEntries[lang][ctxstr]
 			if not ctxstr in poEntries[lang] or poEntry.trString(lang) != "" and not poEntry.fuzzy:
 				#print('Regression %s fixed' % (ctxstr,))
@@ -244,6 +254,9 @@ if __name__ == "__main__":
 	filters.append(JLPTFilter(3))
 	filters.append(JLPTFilter(2))
 	filters.append(JLPTFilter(1))
+	filters.append(PriFilter(200))
+	filters.append(PriFilter(0))
+	filters.append(AllFilter())
 	for entry in handler.entries.values():
 		filtered = False
 		for filt in filters:

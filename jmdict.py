@@ -17,7 +17,7 @@ class JMdictEntry:
 		self.senseNbr = senseNbr
 		self.keb = None
 		self.reb = None
-		self.ke_pri = 0
+		self.pri = 0
 		# Group glosses per language, one per line
 		self.translations = {}
 		# Languages that should be outputed as 'fuzzy'
@@ -53,7 +53,7 @@ class JMdictParser(xmlhandler.BasicHandler):
 		self.currentEid = None
 		self.currentKeb = None
 		self.currentReb = None
-		self.currentPri = None
+		self.currentPri = 0
 		self.lang = None
 
 	def handle_end_entry(self):
@@ -75,13 +75,18 @@ class JMdictParser(xmlhandler.BasicHandler):
 			self.currentReb = data
 
 	def handle_data_ke_pri(self, data):
-		pass
+		if data in ("news1", "ichi1", "spec1", "gail1"): self.currentPri += 100
+		elif data in ("news2", "ichi2", "spec2", "gail2"): self.currentPri += 50
+		elif data.startswith("nf"): self.currentPri += 100 - int(data[2:])
+
+	def handle_data_re_pri(self, data):
+		self.handle_data_ke_pri(data)
 
 	def handle_start_sense(self, attrs):
 		self.currentEntry = JMdictEntry(self.currentEid, self.currentSense)
 		self.currentEntry.keb = self.currentKeb
 		self.currentEntry.reb = self.currentReb
-		self.currentEntry.ke_pri = self.currentPri
+		self.currentEntry.pri = self.currentPri
 
 	def handle_end_sense(self):
 		self.entries['%d %d' % (self.currentEid, self.currentSense)] = self.currentEntry

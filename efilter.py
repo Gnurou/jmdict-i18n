@@ -13,8 +13,9 @@ Content-Transfer-Encoding: 8bit
 Language: %s"""
 
 class Filter:
-	def __init__(self, basename, project, bugsto):
+	def __init__(self, basename, projectShort, project, bugsto):
 		self.basename = basename
+		self.projectShort = projectShort
 		self.project = project
 		self.bugsto = bugsto
 		self.entries = {}
@@ -30,7 +31,7 @@ class Filter:
 
 	def output(self, lang):
 		if lang == 'en': fstr = "%s.pot" % (self.basename,)
-		else: fstr = "%s_%s.po" % (self.basename, lang)
+		else: fstr = "%s-%s_%s.po" % (self.projectShort, self.basename, lang)
 		f = open(fstr, 'w', encoding='utf-8')
 		entry = GetTextEntry()
 		entry.msgstr = headerStr % (self.project, self.bugsto, lang,)
