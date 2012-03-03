@@ -6,10 +6,11 @@ ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
 txProject = 'jmdict-i18n-dummy'
 srcFile = 'JMdict'
 
-import re, xmlhandler, xml.sax
-import efilter
+import re, xmlhandler, xml.sax, efilter
 from gettextformat import *
-from langs import *
+
+# Associate 3 letters country codes used in glosses to more common 2 letter ones.
+langMatch = { "eng" : "en", "fre" : "fr", "ger" : "de", "rus" : "ru", "ita" : "it" }
 
 # We use one entry per sense
 class JMdictEntry:
@@ -139,7 +140,7 @@ class AllFilter(efilter.Filter):
 	def isfiltered(self, entry):
 		return True
 
-def filterEntries(srcEntries):
+def filtersList():
 	filters = []
 	filters.append(JLPTFilter(5))
 	filters.append(JLPTFilter(4))
@@ -152,12 +153,4 @@ def filterEntries(srcEntries):
 	filters.append(PriFilter(200))
 	filters.append(PriFilter(0))
 	#filters.append(AllFilter())
-	for entry in srcEntries.values():
-		filtered = False
-		for filt in filters:
-			if filt.consider(entry):
-				filtered = True
-				break
-		if not filtered:
-			pass
 	return filters

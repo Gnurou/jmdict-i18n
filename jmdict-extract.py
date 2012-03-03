@@ -30,7 +30,6 @@
 
 import sys, datetime, argparse, os.path
 from gettextformat import *
-from langs import *
 import efilter
 import subprocess
 
@@ -67,7 +66,9 @@ if __name__ == "__main__":
 			if not lang in poEntries: continue
 			lEntries = poEntries[lang]
 			for entry in ne:
-				lEntries[entry.contextString()] = entry
+				ctx = entry.contextString()
+				if ctx in lEntries: continue
+				lEntries[ctx] = entry
 				if entry.trString(lang) != '': poCpt[lang] += 1
 			poEntries[lang] = lEntries
 	for lang in poEntries:
@@ -180,8 +181,9 @@ if __name__ == "__main__":
 		cpt = 0
 		for entry in srcEntries.values():
 			if entry.trString(lang) != '': cpt += 1
-		print('\t%s: %d' % (lang, cpt))
+		print('\t%s: %d' % (lang, cpt), end='')
 		sys.stdout.flush()
+	print('')
 
 	# Write new regressions list
 	print('Writing regressions...\t', end='')
@@ -200,7 +202,15 @@ if __name__ == "__main__":
 
 	# Filter entries
 	print('Filtering entries...')
-	filters = client.filterEntries(srcEntries)
+	filters = client.filtersList()
+	for entry in srcEntries.values():
+		filtered = False
+		for filt in filters:
+			if filt.consider(entry):
+				filtered = True
+				break
+		if not filtered:
+			pass
 		
 	# Output .pot files
 	print('Writing new .pot files...\t', end='')
@@ -214,7 +224,7 @@ if __name__ == "__main__":
 	if not len(client.projectLangs) == 0:
 		print('Writing new .po files...', end='')
 		sys.stdout.flush()
-		for l in client.projectLangs:
+		for lang in client.projectLangs:
 			cpt = 0
 			for filt in filters:
 				cpt += filt.output(lang)
