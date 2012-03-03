@@ -34,50 +34,22 @@ from langs import *
 import efilter
 import subprocess
 
-from jmdict import *
-
-class JLPTFilter(efilter.Filter):
-	def __init__(self, level):
-		efilter.Filter.__init__(self, "jlpt%d" % (level,), projectShort, projectDesc,ownerInfo)
-		self.elist = [ int(x) for x in filter(lambda l: not l.startswith('#'), open("jlpt-n%d.csv" % (level,)).readlines()[:-1]) ]
-
-	def isfiltered(self, entry):
-		return entry.eid in self.elist
-
-class PriFilter(efilter.Filter):
-	def __init__(self, minlevel):
-		self.minlevel = minlevel
-		efilter.Filter.__init__(self, "pri%03d" % (minlevel,), projectShort, projectDesc, ownerInfo)
-
-	def isfiltered(self, entry):
-		return entry.pri > self.minlevel
-
-class AllFilter(efilter.Filter):
-	def __init__(self):
-		efilter.Filter.__init__(self, "others", projectShort, projectDesc, ownerInfo)
-
-	def isfiltered(self, entry):
-		return True
-
-def writeEntry(f, currentEntry, lang):
-	poEntry = currentEntry.asGettext(lang)
-	f.write(str(poEntry))
-
 if __name__ == "__main__":
 	aparser = argparse.ArgumentParser(description = "Build a .pot file and merge .po files from a source.")
-	aparser.add_argument('srcfile',
+	aparser.add_argument('module',
 		nargs = 1,
-		help = 'Source file from which to extract')
+		help = 'Module to use for extraction/merging')
 	cmdargs = aparser.parse_args()
 
-	if os.path.exists(projectShort): poSources = filter(lambda f: f.endswith(".po"), os.listdir(projectShort))
+	client = __import__(cmdargs.module[0])
+
+	if os.path.exists(client.projectShort): poSources = filter(lambda f: f.endswith(".po"), os.listdir(client.projectShort))
 	else: poSources = ()
 
 	# Parse source file
-	srcfile = cmdargs.srcfile[0]
-	print('Loading %s...\t' % (srcfile,), end='')
+	print('Loading %s...\t' % (client.srcFile,), end='')
 	sys.stdout.flush()
-	srcEntries = parseSrcEntries(srcfile)
+	srcEntries = client.parseSrcEntries(client.srcFile)
 	print('\t%d entries loaded' % (len(srcEntries)))
 
 	# Parse .po files
@@ -85,11 +57,11 @@ if __name__ == "__main__":
 	sys.stdout.flush()
 	poEntries = {}
 	poCpt = {}
-	for lang in projectLangs:
+	for lang in client.projectLangs:
 		poEntries[lang] = {}
 		poCpt[lang] = 0
 	for pof in poSources:
-		ne = readPo(open(os.path.join(projectShort, pof), 'r', encoding='utf-8'))
+		ne = readPo(open(os.path.join(client.projectShort, pof), 'r', encoding='utf-8'))
 		if len(ne) > 0:
 			lang = ne[0].lang
 			if not lang in poEntries: continue
@@ -106,9 +78,9 @@ if __name__ == "__main__":
 	print('Loading regressions...\t', end='')
 	sys.stdout.flush()
 	regressions = {}
-	for lang in projectLangs:
+	for lang in client.projectLangs:
 		regressions[lang] = {}
-		regfile = srcfile + '_%s.reg' % (lang,)
+		regfile = client.srcFile + '_%s.reg' % (lang,)
 		if os.path.exists(regfile):
 			ne = readPo(open(regfile, 'r', encoding='utf-8'))
 			if len(ne) > 0:
@@ -125,7 +97,7 @@ if __name__ == "__main__":
 	# - a translation (not "fuzzy") is provided by its .po file
 	print('Checking fixed regressions...', end='')
 	sys.stdout.flush()
-	fixedRegsCpt = { lang : 0 for lang in projectLangs }
+	fixedRegsCpt = { lang : 0 for lang in client.projectLangs }
 	for lang in regressions.keys():
 		cpt = 0
 		fixed = []
@@ -149,7 +121,7 @@ if __name__ == "__main__":
 	#   in the .po
 	print('Checking new regressions...', end='')
 	sys.stdout.flush()
-	newRegsCpt = { lang : 0 for lang in projectLangs }
+	newRegsCpt = { lang : 0 for lang in client.projectLangs }
 	for entry in srcEntries.values():
 		ctx = entry.contextString()
 		for lang in poEntries:
@@ -164,14 +136,14 @@ if __name__ == "__main__":
 					reg.msgid = entry.sourceString()
 					reg.msgstr = poEntry.trString(lang)
 					regressions[lang][ctx] = reg
-	for lang in projectLangs:
+	for lang in client.projectLangs:
 		print('\t%s: %d' % (lang, newRegsCpt[lang],), end='')
 	print('')
 
 	# Merge the new .po translations into the source file entries
 	print('Merging new .po data...\t', end='')
 	sys.stdout.flush()
-	mergedPoCpt = { lang : 0 for lang in projectLangs }
+	mergedPoCpt = { lang : 0 for lang in client.projectLangs }
 	for lang in poEntries:
 		for key in poEntries[lang]:
 			if key in srcEntries:
@@ -188,7 +160,7 @@ if __name__ == "__main__":
 	# Merge regressions into the parsed source entries and add fuzzy tags
 	print('Merging regressions...\t', end='')
 	sys.stdout.flush()
-	mergedRegsCpt = { lang : 0 for lang in projectLangs }
+	mergedRegsCpt = { lang : 0 for lang in client.projectLangs }
 	for lang in regressions:
 		for key in regressions[lang]:
 			if key in srcEntries:
@@ -204,7 +176,7 @@ if __name__ == "__main__":
 	# Report number of translations per language
 	print('Total translations:\t', end='')
 	sys.stdout.flush()
-	for lang in projectLangs:
+	for lang in client.projectLangs:
 		cpt = 0
 		for entry in srcEntries.values():
 			if entry.trString(lang) != '': cpt += 1
@@ -214,11 +186,11 @@ if __name__ == "__main__":
 	# Write new regressions list
 	print('Writing regressions...\t', end='')
 	sys.stdout.flush()
-	for lang in projectLangs:
-		regfile = srcfile + '_%s.reg' % (lang,)
+	for lang in client.projectLangs:
+		regfile = client.srcFile + '_%s.reg' % (lang,)
 		outf = open(regfile, 'w', encoding='utf-8')
 		header = GetTextEntry()
-		header.msgstr = efilter.headerStr % (projectDesc, ownerInfo, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), lang)
+		header.msgstr = efilter.headerStr % (client.projectDesc, client.ownerInfo, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), lang)
 		outf.write(str(header))
 		for entry in regressions[lang]:
 			outf.write(str(regressions[lang][entry]))
@@ -228,28 +200,9 @@ if __name__ == "__main__":
 
 	# Filter entries
 	print('Filtering entries...')
-	filters = []
-	filters.append(JLPTFilter(5))
-	filters.append(JLPTFilter(4))
-	filters.append(JLPTFilter(3))
-	filters.append(JLPTFilter(2))
-	filters.append(JLPTFilter(1))
-	filters.append(PriFilter(380))
-	filters.append(PriFilter(310))
-	filters.append(PriFilter(220))
-	filters.append(PriFilter(200))
-	filters.append(PriFilter(0))
-	#filters.append(AllFilter())
-	for entry in srcEntries.values():
-		filtered = False
-		for filt in filters:
-			if filt.consider(entry):
-				filtered = True
-				break
-		if not filtered:
-			pass
+	filters = client.filterEntries(srcEntries)
 		
-	# Output .pot file
+	# Output .pot files
 	print('Writing new .pot files...\t', end='')
 	sys.stdout.flush()
 	cpt = 0
@@ -258,10 +211,10 @@ if __name__ == "__main__":
 	print("%d senses written" % (cpt,))
 
 	# Output .po files
-	if not len(projectLangs) == 0:
+	if not len(client.projectLangs) == 0:
 		print('Writing new .po files...', end='')
 		sys.stdout.flush()
-		for l in projectLangs:
+		for l in client.projectLangs:
 			cpt = 0
 			for filt in filters:
 				cpt += filt.output(lang)
@@ -276,7 +229,7 @@ if __name__ == "__main__":
 	cpt = 1
 	for filt in filters:
 		comm = ["tx", "set", "--execute", "--auto-local", "--source-lang", "en"]
-		comm += ["-r", "%s.%03d-%s" % (txProject, cpt, filt.basename)]
+		comm += ["-r", "%s.%03d-%s" % (client.txProject, cpt, filt.basename)]
 		comm += ["%s/%s_<lang>.po" % (filt.projectShort, filt.basename)]
 		comm += ["--source-file", "%s/%s.pot" % (filt.projectShort, filt.basename)]
 		subprocess.check_output(comm)

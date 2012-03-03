@@ -4,19 +4,12 @@ projectDesc = 'JMdict i18n'
 projectLangs = ('fr',)
 ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
 txProject = 'jmdict-i18n-dummy'
-
+srcFile = 'JMdict'
 
 import re, xmlhandler, xml.sax
+import efilter
 from gettextformat import *
 from langs import *
-
-entryStartRe = re.compile('<ent_seq>(.*)</ent_seq>')
-kebRe = re.compile('<keb>(.*)</keb>')
-rebRe = re.compile('<reb>(.*)</reb>')
-senseStartRe = re.compile('<sense>')
-senseEndRe = re.compile('</sense>')
-enGlossRe = re.compile('<gloss>(.*)</gloss>')
-otherGlossRe = re.compile('<gloss xml:lang="(.*)">(.*)</gloss>')
 
 # We use one entry per sense
 class JMdictEntry:
@@ -122,3 +115,49 @@ def parseSrcEntries(src):
 	parser.setFeature(xml.sax.handler.feature_external_pes, False)
 	parser.parse(src)
 	return handler.entries
+
+class JLPTFilter(efilter.Filter):
+	def __init__(self, level):
+		efilter.Filter.__init__(self, "jlpt%d" % (level,), projectShort, projectDesc, ownerInfo)
+		self.elist = [ int(x) for x in filter(lambda l: not l.startswith('#'), open("jlpt-n%d.csv" % (level,)).readlines()[:-1]) ]
+
+	def isfiltered(self, entry):
+		return entry.eid in self.elist
+
+class PriFilter(efilter.Filter):
+	def __init__(self, minlevel):
+		self.minlevel = minlevel
+		efilter.Filter.__init__(self, "pri%03d" % (minlevel,), projectShort, projectDesc, ownerInfo)
+
+	def isfiltered(self, entry):
+		return entry.pri > self.minlevel
+
+class AllFilter(efilter.Filter):
+	def __init__(self):
+		efilter.Filter.__init__(self, "others", projectShort, projectDesc, ownerInfo)
+
+	def isfiltered(self, entry):
+		return True
+
+def filterEntries(srcEntries):
+	filters = []
+	filters.append(JLPTFilter(5))
+	filters.append(JLPTFilter(4))
+	filters.append(JLPTFilter(3))
+	filters.append(JLPTFilter(2))
+	filters.append(JLPTFilter(1))
+	filters.append(PriFilter(380))
+	filters.append(PriFilter(310))
+	filters.append(PriFilter(220))
+	filters.append(PriFilter(200))
+	filters.append(PriFilter(0))
+	#filters.append(AllFilter())
+	for entry in srcEntries.values():
+		filtered = False
+		for filt in filters:
+			if filt.consider(entry):
+				filtered = True
+				break
+		if not filtered:
+			pass
+	return filters
