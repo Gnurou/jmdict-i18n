@@ -1,4 +1,12 @@
-import re, xmlhandler
+# Configuration
+projectShort = 'jmdict'
+projectDesc = 'JMdict i18n'
+projectLangs = ('fr',)
+ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
+txProject = 'jmdict-i18n-dummy'
+
+
+import re, xmlhandler, xml.sax
 from gettextformat import *
 from langs import *
 
@@ -105,3 +113,12 @@ class JMdictParser(xmlhandler.BasicHandler):
 			glosses = data
 		self.currentEntry.translations[self.lang] = glosses
 		self.lang = None
+
+def parseSrcEntries(src):
+	parser = xml.sax.make_parser()
+	handler = JMdictParser()
+	parser.setContentHandler(handler)
+	parser.setFeature(xml.sax.handler.feature_external_ges, False)
+	parser.setFeature(xml.sax.handler.feature_external_pes, False)
+	parser.parse(src)
+	return handler.entries

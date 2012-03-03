@@ -1,5 +1,5 @@
 from gettextformat import *
-import os
+import os, datetime
 
 # PO header
 headerStr = """Project-Id-Version: %s
@@ -14,11 +14,11 @@ Content-Transfer-Encoding: 8bit
 Language: %s"""
 
 class Filter:
-	def __init__(self, basename, projectShort, project, poDate, bugsto):
+	def __init__(self, basename, projectShort, project, bugsto):
 		self.basename = basename
 		self.projectShort = projectShort
 		self.project = project
-		self.poDate = poDate
+		self.poDate = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z") 
 		self.bugsto = bugsto
 		self.entries = {}
 

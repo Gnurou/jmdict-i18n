@@ -28,22 +28,17 @@
 # * A set of regression files (one per language) with the previously translated strings for which source string
 #   has changed in the new JMdict file
 
-import sys, datetime, argparse, xml.sax, os.path
+import sys, datetime, argparse, os.path
 from gettextformat import *
-from jmdict import *
 from langs import *
 import efilter
 import subprocess
 
-projectShort = 'jmdict'
-projectDesc = 'JMdict i18n'
-ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
-
-txProject = 'jmdict-i18n-dummy'
+from jmdict import *
 
 class JLPTFilter(efilter.Filter):
 	def __init__(self, level):
-		efilter.Filter.__init__(self, "jlpt%d" % (level,), projectShort, projectDesc, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), ownerInfo)
+		efilter.Filter.__init__(self, "jlpt%d" % (level,), projectShort, projectDesc,ownerInfo)
 		self.elist = [ int(x) for x in filter(lambda l: not l.startswith('#'), open("jlpt-n%d.csv" % (level,)).readlines()[:-1]) ]
 
 	def isfiltered(self, entry):
@@ -52,14 +47,14 @@ class JLPTFilter(efilter.Filter):
 class PriFilter(efilter.Filter):
 	def __init__(self, minlevel):
 		self.minlevel = minlevel
-		efilter.Filter.__init__(self, "pri%03d" % (minlevel,), projectShort, projectDesc, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), ownerInfo)
+		efilter.Filter.__init__(self, "pri%03d" % (minlevel,), projectShort, projectDesc, ownerInfo)
 
 	def isfiltered(self, entry):
 		return entry.pri > self.minlevel
 
 class AllFilter(efilter.Filter):
 	def __init__(self):
-		efilter.Filter.__init__(self, "others", projectShort, projectDesc, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), ownerInfo)
+		efilter.Filter.__init__(self, "others", projectShort, projectDesc, ownerInfo)
 
 	def isfiltered(self, entry):
 		return True
@@ -69,45 +64,32 @@ def writeEntry(f, currentEntry, lang):
 	f.write(str(poEntry))
 
 if __name__ == "__main__":
-	aparser = argparse.ArgumentParser(description = "Build a .pot file (and optionally .po files) from the JMdict.")
-	aparser.add_argument('JMdict',
+	aparser = argparse.ArgumentParser(description = "Build a .pot file and merge .po files from a source.")
+	aparser.add_argument('srcfile',
 		nargs = 1,
-		help = 'JMdict file from which to extract')
-	aparser.add_argument('-l',
-		action = "store",
-		nargs = "*",
-		default = [],
-		help = '2 letters codes of languages for which a .po file will be created',
-		choices = list(langMatch.values()))
-	aparser.add_argument('-t',
-		action = "store",
-		nargs = "*",
-		default = [],
-		help = '.po files to load for regression matching')
+		help = 'Source file from which to extract')
 	cmdargs = aparser.parse_args()
 
-	# Parse JMdict
-	jmdictfile = cmdargs.JMdict[0]
-	print('Loading %s...\t' % (jmdictfile,), end='')
+	if os.path.exists(projectShort): poSources = filter(lambda f: f.endswith(".po"), os.listdir(projectShort))
+	else: poSources = ()
+
+	# Parse source file
+	srcfile = cmdargs.srcfile[0]
+	print('Loading %s...\t' % (srcfile,), end='')
 	sys.stdout.flush()
-	parser = xml.sax.make_parser()
-	handler = JMdictParser()
-	parser.setContentHandler(handler)
-	parser.setFeature(xml.sax.handler.feature_external_ges, False)
-	parser.setFeature(xml.sax.handler.feature_external_pes, False)
-	parser.parse(cmdargs.JMdict[0])
-	print('\t%d senses loaded' % (len(handler.entries)))
+	srcEntries = parseSrcEntries(srcfile)
+	print('\t%d entries loaded' % (len(srcEntries)))
 
 	# Parse .po files
 	print('Loading .po files...\t', end='')
 	sys.stdout.flush()
 	poEntries = {}
 	poCpt = {}
-	for lang in cmdargs.l:
+	for lang in projectLangs:
 		poEntries[lang] = {}
 		poCpt[lang] = 0
-	for pof in cmdargs.t:
-		ne = readPo(open(pof, 'r', encoding='utf-8'))
+	for pof in poSources:
+		ne = readPo(open(os.path.join(projectShort, pof), 'r', encoding='utf-8'))
 		if len(ne) > 0:
 			lang = ne[0].lang
 			if not lang in poEntries: continue
@@ -124,9 +106,9 @@ if __name__ == "__main__":
 	print('Loading regressions...\t', end='')
 	sys.stdout.flush()
 	regressions = {}
-	for lang in cmdargs.l:
+	for lang in projectLangs:
 		regressions[lang] = {}
-		regfile = jmdictfile + '_%s.reg' % (lang,)
+		regfile = srcfile + '_%s.reg' % (lang,)
 		if os.path.exists(regfile):
 			ne = readPo(open(regfile, 'r', encoding='utf-8'))
 			if len(ne) > 0:
@@ -143,7 +125,7 @@ if __name__ == "__main__":
 	# - a translation (not "fuzzy") is provided by its .po file
 	print('Checking fixed regressions...', end='')
 	sys.stdout.flush()
-	fixedRegsCpt = { lang : 0 for lang in cmdargs.l }
+	fixedRegsCpt = { lang : 0 for lang in projectLangs }
 	for lang in regressions.keys():
 		cpt = 0
 		fixed = []
@@ -163,12 +145,12 @@ if __name__ == "__main__":
 	# Check for new regressions
 	# We have a new regression for a given language if:
 	# - an entry exists in the .po file and has a translation
-	# - the source string from the JMdict is different from the one
+	# - the source string from the source file is different from the one
 	#   in the .po
 	print('Checking new regressions...', end='')
 	sys.stdout.flush()
-	newRegsCpt = { lang : 0 for lang in cmdargs.l }
-	for entry in handler.entries.values():
+	newRegsCpt = { lang : 0 for lang in projectLangs }
+	for entry in srcEntries.values():
 		ctx = entry.contextString()
 		for lang in poEntries:
 			lEntries = poEntries[lang]
@@ -182,19 +164,19 @@ if __name__ == "__main__":
 					reg.msgid = entry.sourceString()
 					reg.msgstr = poEntry.trString(lang)
 					regressions[lang][ctx] = reg
-	for lang in cmdargs.l:
+	for lang in projectLangs:
 		print('\t%s: %d' % (lang, newRegsCpt[lang],), end='')
 	print('')
 
-	# Merge the new .po translations into the JMdict entries
+	# Merge the new .po translations into the source file entries
 	print('Merging new .po data...\t', end='')
 	sys.stdout.flush()
-	mergedPoCpt = { lang : 0 for lang in cmdargs.l }
+	mergedPoCpt = { lang : 0 for lang in projectLangs }
 	for lang in poEntries:
 		for key in poEntries[lang]:
-			if key in handler.entries:
+			if key in srcEntries:
 				poEntry = poEntries[lang][key]
-				jmEntry = handler.entries[key]
+				jmEntry = srcEntries[key]
 				if poEntry.trString(lang) == jmEntry.trString(lang): continue
 				jmEntry.translations[lang] = poEntry.trString(lang)
 				mergedPoCpt[lang] += 1
@@ -203,15 +185,15 @@ if __name__ == "__main__":
 	print('')
 
 
-	# Merge regressions into the parsed JMdict and add fuzzy tags
+	# Merge regressions into the parsed source entries and add fuzzy tags
 	print('Merging regressions...\t', end='')
 	sys.stdout.flush()
-	mergedRegsCpt = { lang : 0 for lang in cmdargs.l }
+	mergedRegsCpt = { lang : 0 for lang in projectLangs }
 	for lang in regressions:
 		for key in regressions[lang]:
-			if key in handler.entries:
+			if key in srcEntries:
 				poEntry = regressions[lang][key]
-				jmEntry = handler.entries[key]
+				jmEntry = srcEntries[key]
 				jmEntry.translations[lang] = poEntry.trString(lang)
 				jmEntry.fuzzies.append(lang)
 				mergedRegsCpt[lang] += 1
@@ -222,9 +204,9 @@ if __name__ == "__main__":
 	# Report number of translations per language
 	print('Total translations:\t', end='')
 	sys.stdout.flush()
-	for lang in cmdargs.l:
+	for lang in projectLangs:
 		cpt = 0
-		for entry in handler.entries.values():
+		for entry in srcEntries.values():
 			if entry.trString(lang) != '': cpt += 1
 		print('\t%s: %d' % (lang, cpt))
 		sys.stdout.flush()
@@ -232,8 +214,8 @@ if __name__ == "__main__":
 	# Write new regressions list
 	print('Writing regressions...\t', end='')
 	sys.stdout.flush()
-	for lang in cmdargs.l:
-		regfile = jmdictfile + '_%s.reg' % (lang,)
+	for lang in projectLangs:
+		regfile = srcfile + '_%s.reg' % (lang,)
 		outf = open(regfile, 'w', encoding='utf-8')
 		header = GetTextEntry()
 		header.msgstr = efilter.headerStr % (projectDesc, ownerInfo, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), lang)
@@ -258,7 +240,7 @@ if __name__ == "__main__":
 	filters.append(PriFilter(200))
 	filters.append(PriFilter(0))
 	#filters.append(AllFilter())
-	for entry in handler.entries.values():
+	for entry in srcEntries.values():
 		filtered = False
 		for filt in filters:
 			if filt.consider(entry):
@@ -276,10 +258,10 @@ if __name__ == "__main__":
 	print("%d senses written" % (cpt,))
 
 	# Output .po files
-	if not len(cmdargs.l) == 0:
+	if not len(projectLangs) == 0:
 		print('Writing new .po files...', end='')
 		sys.stdout.flush()
-		for l in cmdargs.l:
+		for l in projectLangs:
 			cpt = 0
 			for filt in filters:
 				cpt += filt.output(lang)
@@ -299,5 +281,3 @@ if __name__ == "__main__":
 		comm += ["--source-file", "%s/%s.pot" % (filt.projectShort, filt.basename)]
 		subprocess.check_output(comm)
 		cpt += 1
-
-	# Push updated source and translations (translations should be pushed as well because of regressions)
