@@ -39,6 +39,7 @@ class JMdictEntry:
 		entry = GetTextEntry()
 		entry.msgctxt = self.contextString()
 		entry.msgid = self.sourceString()
+		entry.lang = lang
 		if lang in self.fuzzies: entry.fuzzy = True
 		if lang != 'en':
 			entry.msgstr = self.trString(lang)

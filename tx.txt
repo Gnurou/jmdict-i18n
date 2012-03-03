@@ -1,0 +1,2 @@
+push: tx push -s -t
+pull: tx pull -a -f

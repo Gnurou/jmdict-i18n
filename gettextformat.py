@@ -30,10 +30,10 @@ class GetTextEntry:
 		if self.msgctxt:
 			r += 'msgctxt "%s"\n' % (self.msgctxt,)
 		if self.fuzzy: r += '#, fuzzy\n'
-		s = self.msgid.replace('"', '\\"').replace('\n', '\\n"\n"')
+		s = self.msgid.replace('"', '\\"').replace('\n', '\\n"\n"').replace('\t', '\\t')
 		if '\n' in s: s = '"\n"' + s
 		r += 'msgid "%s"\n' % (s,)
-		s = self.msgstr.replace('"', '\\"').replace('\n', '\\n"\n"')
+		s = self.msgstr.replace('"', '\\"').replace('\n', '\\n"\n"').replace('\t', '\\t')
 		if '\n' in s: s = '"\n"' + s
 		r += 'msgstr "%s"\n' % (s,)
 		r += '\n'
@@ -98,6 +98,6 @@ def readPo(f):
 		if len(l) == 0: break
 	if currentEntry: entries.append(currentEntry)
 	for entry in entries:
-		entry.msgid = entry.msgid.replace('\\"', '"').replace('\\n', '\n')
+		entry.msgid = entry.msgid.replace('\\"', '"').replace('\\n', '\n').replace('\\t', '\t')
 		entry.msgstr = entry.msgstr.replace('\\"', '"').replace('\\n', '\n')
 	return entries
