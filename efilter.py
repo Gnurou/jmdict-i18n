@@ -18,7 +18,7 @@ class Filter:
 		self.basename = basename
 		self.projectShort = projectShort
 		self.project = project
-		self.poDate = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z") 
+		self.poDate = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S+0000")
 		self.bugsto = bugsto
 		self.entries = {}
 

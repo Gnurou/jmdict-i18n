@@ -205,7 +205,7 @@ if __name__ == "__main__":
 		regfile = os.path.join(client.projectShort, client.srcFile) + '_%s.reg' % (lang,)
 		outf = open(regfile, 'w', encoding='utf-8')
 		header = GetTextEntry()
-		header.msgstr = efilter.headerStr % (client.projectDesc, client.ownerInfo, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), lang)
+		header.msgstr = efilter.headerStr % (client.projectDesc, client.ownerInfo, datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S+0000"), lang)
 		outf.write(str(header))
 		for entry in regressions[lang]:
 			outf.write(str(regressions[lang][entry]))
