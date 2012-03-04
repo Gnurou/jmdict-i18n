@@ -6,7 +6,7 @@ ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
 txProject = 'jmdict-i18n-dummy'
 srcFile = 'JMdict'
 
-import re, xmlhandler, xml.sax, efilter
+import re, xmlhandler, xml.sax, efilter, os.path
 from gettextformat import *
 
 # Associate 3 letters country codes used in glosses to more common 2 letter ones.
@@ -119,7 +119,7 @@ def parseSrcEntries(src):
 
 class JLPTFilter(efilter.Filter):
 	def __init__(self, level):
-		efilter.Filter.__init__(self, "jlpt%d" % (level,), projectShort, projectDesc, ownerInfo)
+		efilter.Filter.__init__(self, os.path.join(projectShort, "jlpt%d" % (level,)), projectShort, projectDesc, ownerInfo)
 		self.elist = [ int(x) for x in filter(lambda l: not l.startswith('#'), open("jlpt-n%d.csv" % (level,)).readlines()[:-1]) ]
 
 	def isfiltered(self, entry):
