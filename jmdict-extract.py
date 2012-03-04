@@ -38,45 +38,58 @@ if __name__ == "__main__":
 	aparser.add_argument('module',
 		nargs = 1,
 		help = 'Module to use for extraction/merging')
+	aparser.add_argument('-t',
+		action = 'store',
+		nargs = '*',
+		default = [],
+		help = 'Additional .po files to load')
 	cmdargs = aparser.parse_args()
 
 	client = __import__(cmdargs.module[0])
 
-	if os.path.exists(client.projectShort): poSources = filter(lambda f: f.endswith(".po"), os.listdir(client.projectShort))
-	else: poSources = ()
-
 	# Parse source file
-	print('Loading %s...\t' % (client.srcFile,), end='')
+	print('%-30s' % ('Loading %s...' % (client.srcFile,)), end='')
 	sys.stdout.flush()
 	srcEntries = client.parseSrcEntries(client.srcFile)
-	print('\t%d entries loaded' % (len(srcEntries)))
+	srcCpt = { lang : 0 for lang in client.projectLangs }
+	for entry in srcEntries.values():
+		for lang in client.projectLangs:
+			if lang in entry.translations: srcCpt[lang] += 1
+	for lang in client.projectLangs:
+		print('%-10s' % ('%s: %d' % (lang, srcCpt[lang])), end='')
+	print('')
 
 	# Parse .po files
-	print('Loading .po files...\t', end='')
+	print('%-30s' % ('Loading .po files...'), end='')
 	sys.stdout.flush()
+	if os.path.exists(client.projectShort): poSources = [ os.path.join(client.projectShort, p) for p in filter(lambda f: f.endswith(".po"), os.listdir(client.projectShort)) ]
+	else: poSources = []
+	poSources += cmdargs.t
 	poEntries = {}
 	poCpt = {}
 	for lang in client.projectLangs:
 		poEntries[lang] = {}
 		poCpt[lang] = 0
 	for pof in poSources:
-		ne = readPo(open(os.path.join(client.projectShort, pof), 'r', encoding='utf-8'))
+		ne = readPo(open(pof, 'r', encoding='utf-8'))
 		if len(ne) > 0:
 			lang = ne[0].lang
 			if not lang in poEntries: continue
 			lEntries = poEntries[lang]
 			for entry in ne:
 				ctx = entry.contextString()
-				if ctx in lEntries: continue
+				if ctx in lEntries:
+					print('\nError: two different .po sources for "%s", aborting...' % (ctx))
+					sys.exit(1)
 				lEntries[ctx] = entry
 				if entry.trString(lang) != '': poCpt[lang] += 1
 			poEntries[lang] = lEntries
-	for lang in poEntries:
-		print('\t%s: %d' % (lang, poCpt[lang]), end='')
+	for lang in client.projectLangs:
+		print('%-10s' % ('%s: %d' % (lang, poCpt[lang])), end='')
 	print('')
 
 	# Parse regressions
-	print('Loading regressions...\t', end='')
+	print('%-30s' % ('Loading regressions...'), end='')
 	sys.stdout.flush()
 	regressions = {}
 	for lang in client.projectLangs:
@@ -88,7 +101,7 @@ if __name__ == "__main__":
 				lEntries = regressions[lang]
 				for entry in ne: lEntries[entry.contextString()] = entry
 				regressions[lang] = lEntries
-		print('\t%s: %d' % (lang, len(regressions[lang])), end='')
+		print('%-10s' % ('%s: %d' % (lang, len(regressions[lang]))), end='')
 		sys.stdout.flush()
 	print('')
 
@@ -96,10 +109,10 @@ if __name__ == "__main__":
 	# A regression is fixed if:
 	# - the entry has been deleted
 	# - a translation (not "fuzzy") is provided by its .po file
-	print('Checking fixed regressions...', end='')
+	print('%-30s' % ('Checking fixed regressions...'), end='')
 	sys.stdout.flush()
 	fixedRegsCpt = { lang : 0 for lang in client.projectLangs }
-	for lang in regressions.keys():
+	for lang in client.projectLangs:
 		cpt = 0
 		fixed = []
 		for ctxstr in regressions[lang]:
@@ -111,7 +124,7 @@ if __name__ == "__main__":
 				fixed.append(ctxstr)
 		for ctxstr in fixed:
 			del regressions[lang][ctxstr]
-		print('\t%s: %d' % (lang, fixedRegsCpt[lang]), end='')
+		print('%-10s' % ('%s: %d' % (lang, fixedRegsCpt[lang])), end='')
 		sys.stdout.flush()
 	print('')
 
@@ -120,7 +133,7 @@ if __name__ == "__main__":
 	# - an entry exists in the .po file and has a translation
 	# - the source string from the source file is different from the one
 	#   in the .po
-	print('Checking new regressions...', end='')
+	print('%-30s' % ('Checking new regressions...'), end='')
 	sys.stdout.flush()
 	newRegsCpt = { lang : 0 for lang in client.projectLangs }
 	for entry in srcEntries.values():
@@ -138,55 +151,55 @@ if __name__ == "__main__":
 					reg.msgstr = poEntry.trString(lang)
 					regressions[lang][ctx] = reg
 	for lang in client.projectLangs:
-		print('\t%s: %d' % (lang, newRegsCpt[lang],), end='')
+		print('%-10s' % ('%s: %d' % (lang, newRegsCpt[lang],)), end='')
 	print('')
 
 	# Merge the new .po translations into the source file entries
-	print('Merging new .po data...\t', end='')
+	print('%-30s' % 'Merging new .po data...', end='')
 	sys.stdout.flush()
 	mergedPoCpt = { lang : 0 for lang in client.projectLangs }
-	for lang in poEntries:
+	for lang in client.projectLangs:
 		for key in poEntries[lang]:
 			if key in srcEntries:
 				poEntry = poEntries[lang][key]
-				jmEntry = srcEntries[key]
-				if poEntry.trString(lang) == jmEntry.trString(lang): continue
-				jmEntry.translations[lang] = poEntry.trString(lang)
+				srcEntry = srcEntries[key]
+				if poEntry.trString(lang) == srcEntry.trString(lang): continue
+				srcEntry.translations[lang] = poEntry.trString(lang)
 				mergedPoCpt[lang] += 1
-		print('\t%s: %d' % (lang, mergedPoCpt[lang]), end='')
+		print('%-10s' % ('%s: %d' % (lang, mergedPoCpt[lang])), end='')
 		sys.stdout.flush()
 	print('')
 
 
 	# Merge regressions into the parsed source entries and add fuzzy tags
-	print('Merging regressions...\t', end='')
+	print('%-30s' % ('Merging regressions...'), end='')
 	sys.stdout.flush()
 	mergedRegsCpt = { lang : 0 for lang in client.projectLangs }
-	for lang in regressions:
+	for lang in client.projectLangs:
 		for key in regressions[lang]:
 			if key in srcEntries:
 				poEntry = regressions[lang][key]
-				jmEntry = srcEntries[key]
-				jmEntry.translations[lang] = poEntry.trString(lang)
-				jmEntry.fuzzies.append(lang)
+				srcEntry = srcEntries[key]
+				srcEntry.translations[lang] = poEntry.trString(lang)
+				srcEntry.fuzzies.append(lang)
 				mergedRegsCpt[lang] += 1
-		print('\t%s: %d' % (lang, mergedRegsCpt[lang]), end='')
+		print('%-10s' % ('%s: %d' % (lang, mergedRegsCpt[lang])), end='')
 		sys.stdout.flush()
 	print('')
 
 	# Report number of translations per language
-	print('Total translations:\t', end='')
+	print('%-30s' % ('Total translations:'), end='')
 	sys.stdout.flush()
 	for lang in client.projectLangs:
 		cpt = 0
 		for entry in srcEntries.values():
 			if entry.trString(lang) != '': cpt += 1
-		print('\t%s: %d' % (lang, cpt), end='')
+		print('%-10s' % ('%s: %d' % (lang, cpt)), end='')
 		sys.stdout.flush()
 	print('')
 
 	# Write new regressions list
-	print('Writing regressions...\t', end='')
+	print('%-30s' % ('Writing regressions...'), end='')
 	sys.stdout.flush()
 	for lang in client.projectLangs:
 		regfile = client.srcFile + '_%s.reg' % (lang,)
@@ -196,7 +209,7 @@ if __name__ == "__main__":
 		outf.write(str(header))
 		for entry in regressions[lang]:
 			outf.write(str(regressions[lang][entry]))
-		print('\t%s: %d' % (lang, len(regressions[lang])), end='')
+		print('%-10s' % ('%s: %d' % (lang, len(regressions[lang]))), end='')
 		sys.stdout.flush()
 	print('')
 
@@ -212,25 +225,25 @@ if __name__ == "__main__":
 		if not filtered:
 			pass
 		
-	# Output .pot files
-	print('Writing new .pot files...\t', end='')
-	sys.stdout.flush()
-	cpt = 0
-	for filt in filters:
-		cpt += filt.output('en')
-	print("%d senses written" % (cpt,))
-
 	# Output .po files
 	if not len(client.projectLangs) == 0:
-		print('Writing new .po files...', end='')
+		print('%-30s' % ('Writing new .po files...'), end='')
 		sys.stdout.flush()
 		for lang in client.projectLangs:
 			cpt = 0
 			for filt in filters:
 				cpt += filt.output(lang)
-			print('\t%s: %d' % (lang, cpt), end='')
+			print('%-10s' % ('%s: %d' % (lang, cpt)), end='')
 			sys.stdout.flush()
 		print('')
+
+	# Output .pot files
+	print('%-30s' % ('Writing new .pot files...'), end='')
+	sys.stdout.flush()
+	cpt = 0
+	for filt in filters:
+		cpt += filt.output('en')
+	print("%d entries written" % (cpt,))
 
 	# Update transifex resources
 	print('Updating Transifex resources...')

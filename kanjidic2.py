@@ -1,7 +1,7 @@
 # Configuration
 projectShort = 'kanjidic2'
 projectDesc = 'Kanjidic2 i18n'
-projectLangs = ('fr', 'it')
+projectLangs = ('fr', 'it', 'th', 'tr')
 ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
 txProject = 'kanjidic2-i18n'
 srcFile = 'kanjidic2.xml'
@@ -18,12 +18,17 @@ class Kanjidic2Entry:
 		self.translations = {}
 		# Languages that should be outputed as 'fuzzy'
 		self.fuzzies = []
+		self.readings = []
 
 	def contextString(self):
 		return '%s %d' % (self.kanji, self.rmgroup)
 
 	def sourceString(self):
-		return self.kanji + '\n' + self.trString('en')
+		ret = self.kanji + '\n'
+		if len(self.readings) != 0:
+			ret += ', '.join(self.readings) + '\n'
+		ret += self.trString('en')
+		return ret
 
 	def trString(self, lang):
 		if not lang in self.translations: return ''
@@ -47,6 +52,8 @@ class Kanjidic2Parser(xmlhandler.BasicHandler):
 		self.currentRM = 0
 		self.currentEid = None
 		self.lang = None
+		self.takeReading = False
+		self.readings = []
 
 	def handle_end_character(self):
 		self.currentEntry = None
@@ -56,10 +63,22 @@ class Kanjidic2Parser(xmlhandler.BasicHandler):
 	def handle_data_literal(self, data):
 		self.currentEid = data
 
+	def handle_start_reading(self, attrs):
+		if not 'r_type' in attrs: return
+		if attrs['r_type'] in ('ja_on', 'ja_kun'):
+			self.takeReading = True
+
+	def handle_data_reading(self, data):
+		if self.takeReading:
+			self.readings.append(data)
+		self.takeReading = False
+
 	def handle_start_rmgroup(self, attrs):
 		self.currentEntry = Kanjidic2Entry(self.currentEid, self.currentRM)
 
 	def handle_end_rmgroup(self):
+		self.currentEntry.readings = self.readings
+		self.readings = []
 		self.entries[self.currentEntry.contextString()] = self.currentEntry
 		self.currentRM += 1
 		self.currentEntry = None
