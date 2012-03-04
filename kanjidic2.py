@@ -46,6 +46,13 @@ class Kanjidic2Entry:
 			entry.msgstr = self.trString(lang)
 		return entry
 
+	def toJMF(self, lang):
+		ret = ""
+		ts = self.trString(lang).split('\n')
+		for s in ts:
+			ret += "%s %s\n" % (self.kanji, s)
+		return ret
+
 class Kanjidic2Parser(xmlhandler.BasicHandler):
 	def __init__(self):
 		xmlhandler.BasicHandler.__init__(self)

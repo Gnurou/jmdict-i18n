@@ -245,6 +245,24 @@ if __name__ == "__main__":
 		cpt += filt.output('en')
 	print("%d entries written" % (cpt,))
 
+	# Output .jmf files
+	print('%-30s' % ('Writing new .jmf files...'), end='')
+	sys.stdout.flush()
+	for lang in client.projectLangs:
+		outf = open(os.path.join(client.projectShort, "%s.jmf" % (lang)), 'w', encoding='utf-8')
+		tEntries = {}
+		for filt in filters:
+			for key in filt.entries:
+				entry = filt.entries[key]
+				if lang in entry.translations: tEntries[key] = entry
+		skeys = sorted(tEntries)
+		for key in skeys:
+			outf.write(tEntries[key].toJMF(lang))
+		outf.close()
+		print('%-10s' % ('%s: %d' % (lang, len(tEntries))), end='')
+		sys.stdout.flush()
+	print('')
+
 	# Update transifex resources
 	print('Updating Transifex resources...')
 	curDir = os.getcwd()

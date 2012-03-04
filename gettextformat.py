@@ -45,7 +45,6 @@ class GetTextEntry:
 		r += '\n'
 		return r
 
-
 def readPo(f):
 	# Find language in header
 	while True:

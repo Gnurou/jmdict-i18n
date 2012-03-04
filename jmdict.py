@@ -47,6 +47,13 @@ class JMdictEntry:
 			entry.msgstr = self.trString(lang)
 		return entry
 
+	def toJMF(self, lang):
+		ret = ""
+		ts = self.trString(lang).split('\n')
+		for s in ts:
+			ret += "%s %s\n" % (self.contextString(), s)
+		return ret
+
 class JMdictParser(xmlhandler.BasicHandler):
 	def __init__(self):
 		xmlhandler.BasicHandler.__init__(self)
