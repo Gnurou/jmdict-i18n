@@ -43,6 +43,9 @@ class Filter:
 		cpt = 0
 		for skey in skeys:
 			entry = self.entries[skey].asGettext(lang)
-			if lang == 'en' or entry.trString(lang) != '': cpt += 1
-			f.write(str(entry))
+			if lang == 'en' or entry.trString(lang) != '':
+				cpt += 1
+				f.write(str(entry))
+		f.close()
+		if cpt == 0: os.remove(fstr)
 		return cpt

@@ -33,9 +33,9 @@ class GetTextEntry:
 
 	def __str__(self):
 		r = ""
+		if self.fuzzy: r += '#, fuzzy\n'
 		if self.msgctxt:
 			r += 'msgctxt "%s"\n' % (self.msgctxt,)
-		if self.fuzzy: r += '#, fuzzy\n'
 		s = gettextize(self.msgid)
 		if '\n' in s: s = '"\n"' + s
 		r += 'msgid "%s"\n' % (s,)
@@ -99,6 +99,7 @@ def readPo(f):
 			continue
 		match = fuzzyRe.match(l)
 		if match:
+			if not currentEntry: currentEntry = GetTextEntry(lang)
 			currentEntry.fuzzy = True
 			continue
 		if len(l) == 0: break

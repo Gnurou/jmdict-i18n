@@ -50,7 +50,7 @@ if __name__ == "__main__":
 	# Parse source file
 	print('%-30s' % ('Loading %s...' % (client.srcFile,)), end='')
 	sys.stdout.flush()
-	srcEntries = client.parseSrcEntries(client.srcFile)
+	srcEntries = client.parseSrcEntries(os.path.join(client.projectShort, client.srcFile))
 	srcCpt = { lang : 0 for lang in client.projectLangs }
 	for entry in srcEntries.values():
 		for lang in client.projectLangs:
@@ -94,7 +94,7 @@ if __name__ == "__main__":
 	regressions = {}
 	for lang in client.projectLangs:
 		regressions[lang] = {}
-		regfile = client.srcFile + '_%s.reg' % (lang,)
+		regfile = os.path.join(client.projectShort, client.srcFile) + '_%s.reg' % (lang,)
 		if os.path.exists(regfile):
 			ne = readPo(open(regfile, 'r', encoding='utf-8'))
 			if len(ne) > 0:
@@ -202,7 +202,7 @@ if __name__ == "__main__":
 	print('%-30s' % ('Writing regressions...'), end='')
 	sys.stdout.flush()
 	for lang in client.projectLangs:
-		regfile = client.srcFile + '_%s.reg' % (lang,)
+		regfile = os.path.join(client.projectShort, client.srcFile) + '_%s.reg' % (lang,)
 		outf = open(regfile, 'w', encoding='utf-8')
 		header = GetTextEntry()
 		header.msgstr = efilter.headerStr % (client.projectDesc, client.ownerInfo, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S%z"), lang)
@@ -247,13 +247,14 @@ if __name__ == "__main__":
 
 	# Update transifex resources
 	print('Updating Transifex resources...')
+	curDir = os.getcwd()
+	os.chdir(os.path.join(curDir, client.projectShort))
 	if not os.path.exists('.tx'): os.mkdir('.tx')
 	open('.tx/config', 'w').write('[main]\nhost = https://www.transifex.net\ntype = PO\n')
-	cpt = 1
 	for filt in filters:
 		comm = ["tx", "set", "--execute", "--auto-local", "--source-lang", "en"]
-		comm += ["-r", "%s.%03d-%s" % (client.txProject, cpt, filt.basename)]
-		comm += ["%s/%s_<lang>.po" % (filt.projectShort, filt.basename)]
-		comm += ["--source-file", "%s/%s.pot" % (filt.projectShort, filt.basename)]
+		comm += ["-r", "%s.%s" % (client.txProject, filt.basename)]
+		comm += ["%s_<lang>.po" % (filt.basename)]
+		comm += ["--source-file", "%s.pot" % (filt.basename)]
 		subprocess.check_output(comm)
-		cpt += 1
+	os.chdir(curDir)

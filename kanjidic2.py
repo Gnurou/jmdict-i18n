@@ -19,6 +19,8 @@ class Kanjidic2Entry:
 		# Languages that should be outputed as 'fuzzy'
 		self.fuzzies = []
 		self.readings = []
+		self.grade = 0
+		self.freq = 0
 
 	def contextString(self):
 		return '%s %d' % (self.kanji, self.rmgroup)
@@ -48,20 +50,25 @@ class Kanjidic2Parser(xmlhandler.BasicHandler):
 	def __init__(self):
 		xmlhandler.BasicHandler.__init__(self)
 		self.entries = {}
-		self.currentEntry = None
-		self.currentRM = 0
-		self.currentEid = None
 		self.lang = None
 		self.takeReading = False
 		self.readings = []
 
-	def handle_end_character(self):
+	def handle_start_character(self, attrs):
 		self.currentEntry = None
 		self.currentEid = None
 		self.currentRM = 0
+		self.currentGrade = 0
+		self.currentFreq = 0
 
 	def handle_data_literal(self, data):
 		self.currentEid = data
+
+	def handle_data_grade(self, data):
+		self.currentGrade = int(data)
+
+	def handle_data_freq(self, data):
+		self.currentFreq = int(data)
 
 	def handle_start_reading(self, attrs):
 		if not 'r_type' in attrs: return
@@ -75,6 +82,8 @@ class Kanjidic2Parser(xmlhandler.BasicHandler):
 
 	def handle_start_rmgroup(self, attrs):
 		self.currentEntry = Kanjidic2Entry(self.currentEid, self.currentRM)
+		self.currentEntry.grade = self.currentGrade
+		self.currentEntry.freq = self.currentFreq
 
 	def handle_end_rmgroup(self):
 		self.currentEntry.readings = self.readings
@@ -105,6 +114,22 @@ def parseSrcEntries(src):
 	parser.parse(src)
 	return handler.entries
 
+class GradeFilter(efilter.Filter):
+	def __init__(self, grade):
+		efilter.Filter.__init__(self, "grade%02d" % (grade,), projectShort, projectDesc, ownerInfo)
+		self.grade = grade
+
+	def isfiltered(self, entry):
+		return entry.grade > 0 and entry.grade == self.grade
+
+class FreqFilter(efilter.Filter):
+	def __init__(self, freq):
+		efilter.Filter.__init__(self, "freq%04d" % (freq,), projectShort, projectDesc, ownerInfo)
+		self.freq = freq
+
+	def isfiltered(self, entry):
+		return entry.freq > 0 and entry.freq <= self.freq
+
 class AllFilter(efilter.Filter):
 	def __init__(self):
 		efilter.Filter.__init__(self, "others", projectShort, projectDesc, ownerInfo)
@@ -114,6 +139,16 @@ class AllFilter(efilter.Filter):
 
 def filtersList():
 	filters = []
+	filters.append(GradeFilter(1))
+	filters.append(GradeFilter(2))
+	filters.append(GradeFilter(3))
+	filters.append(GradeFilter(4))
+	filters.append(GradeFilter(5))
+	filters.append(GradeFilter(6))
+	filters.append(GradeFilter(8))
+	filters.append(FreqFilter(3000))
+	filters.append(GradeFilter(9))
+	filters.append(GradeFilter(10))
 	filters.append(AllFilter())
 	return filters
 
