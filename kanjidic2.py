@@ -6,7 +6,7 @@ ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
 txProject = 'kanjidic2-i18n'
 srcFile = 'kanjidic2.xml'
 
-import re, xmlhandler, xml.sax, efilter
+import xmlhandler, xml.sax, efilter
 from gettextformat import *
 
 # One entry per RMgroup of a kanjidic2 entry
@@ -158,12 +158,3 @@ def filtersList():
 	filters.append(GradeFilter(10))
 	filters.append(AllFilter())
 	return filters
-
-literalRe = re.compile('<literal>(.*)</literal>')
-rmgroupEndRe = re.compile('</rmgroup>')
-entryEndRe = re.compile('</character>')
-gradeRe = re.compile('<grade>(.*)</grade>')
-freqRe = re.compile('<freq>(.*)</freq>')
-readingRe = re.compile('<reading r_type="(.*)">(.*)</reading>')
-enMeaningRe = re.compile('<meaning>(.*)</meaning>')
-otherMeaningRe = re.compile('<meaning m_lang="(.*)">(.*)</meaning>')

@@ -6,7 +6,7 @@ ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
 txProject = 'jmdict-i18n-dummy'
 srcFile = 'JMdict'
 
-import re, xmlhandler, xml.sax, efilter, os.path
+import xmlhandler, xml.sax, efilter, os.path
 from gettextformat import *
 
 # Associate 3 letters country codes used in glosses to more common 2 letter ones.
