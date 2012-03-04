@@ -1,0 +1,59 @@
+[main]
+host = https://www.transifex.net
+type = PO
+
+[kanjidic2-i18n.grade01]
+file_filter = grade01_<lang>.po
+source_file = grade01.pot
+source_lang = en
+
+[kanjidic2-i18n.grade02]
+file_filter = grade02_<lang>.po
+source_file = grade02.pot
+source_lang = en
+
+[kanjidic2-i18n.grade03]
+file_filter = grade03_<lang>.po
+source_file = grade03.pot
+source_lang = en
+
+[kanjidic2-i18n.grade04]
+file_filter = grade04_<lang>.po
+source_file = grade04.pot
+source_lang = en
+
+[kanjidic2-i18n.grade05]
+file_filter = grade05_<lang>.po
+source_file = grade05.pot
+source_lang = en
+
+[kanjidic2-i18n.grade06]
+file_filter = grade06_<lang>.po
+source_file = grade06.pot
+source_lang = en
+
+[kanjidic2-i18n.grade08]
+file_filter = grade08_<lang>.po
+source_file = grade08.pot
+source_lang = en
+
+[kanjidic2-i18n.freq3000]
+file_filter = freq3000_<lang>.po
+source_file = freq3000.pot
+source_lang = en
+
+[kanjidic2-i18n.grade09]
+file_filter = grade09_<lang>.po
+source_file = grade09.pot
+source_lang = en
+
+[kanjidic2-i18n.grade10]
+file_filter = grade10_<lang>.po
+source_file = grade10.pot
+source_lang = en
+
+[kanjidic2-i18n.others]
+file_filter = others_<lang>.po
+source_file = others.pot
+source_lang = en
+
