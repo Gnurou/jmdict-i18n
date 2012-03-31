@@ -161,10 +161,11 @@ if __name__ == "__main__":
 	for lang in client.projectLangs:
 		for key in poEntries[lang]:
 			if key in srcEntries:
-				poEntry = poEntries[lang][key]
 				srcEntry = srcEntries[key]
-				if poEntry.trString(lang) == srcEntry.trString(lang): continue
-				srcEntry.translations[lang] = poEntry.trString(lang)
+				poEntry = poEntries[lang][key]
+				tString = poEntry.trString(lang)
+				if (not tString) or (tString == srcEntry.trString(lang)): continue
+				srcEntry.translations[lang] = tString
 				mergedPoCpt[lang] += 1
 		print('%-10s' % ('%s: %d' % (lang, mergedPoCpt[lang])), end='')
 		sys.stdout.flush()
