@@ -10,7 +10,7 @@ import xmlhandler, xml.sax, efilter, os.path
 from gettextformat import *
 
 # Associate 3 letters country codes used in glosses to more common 2 letter ones.
-langMatch = { "eng" : "en", "fre" : "fr", "ger" : "de", "rus" : "ru", "ita" : "it" }
+langMatch = { "eng" : "en", "fre" : "fr", "ger" : "de", "rus" : "ru", "ita" : "it", "tha" : "th", "tur" : "tr"}
 
 # We use one entry per sense
 class JMdictEntry:
