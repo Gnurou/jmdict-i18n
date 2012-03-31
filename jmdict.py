@@ -126,8 +126,8 @@ def parseSrcEntries(src):
 
 class JLPTFilter(efilter.Filter):
 	def __init__(self, level):
-		efilter.Filter.__init__(self, os.path.join(projectShort, "jlpt%d" % (level,)), projectShort, projectDesc, ownerInfo)
-		self.elist = [ int(x) for x in filter(lambda l: not l.startswith('#'), open("jlpt-n%d.csv" % (level,)).readlines()[:-1]) ]
+		efilter.Filter.__init__(self, "jlpt%d" % (level,), projectShort, projectDesc, ownerInfo)
+		self.elist = [ int(x) for x in filter(lambda l: not l.startswith('#'), open(os.path.join(projectShort, "jlpt-n%d.csv" % (level,))).readlines()[:-1]) ]
 
 	def isfiltered(self, entry):
 		return entry.eid in self.elist
