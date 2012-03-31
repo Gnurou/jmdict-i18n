@@ -1,9 +1,9 @@
 # Configuration
 projectShort = 'jmdict'
 projectDesc = 'JMdict i18n'
-projectLangs = ('fr',)
+projectLangs = ('fr', 'th', 'tr')
 ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
-txProject = 'jmdict-i18n-dummy'
+txProject = 'jmdict-i18n'
 srcFile = 'JMdict'
 
 import xmlhandler, xml.sax, efilter, os.path
@@ -140,6 +140,15 @@ class PriFilter(efilter.Filter):
 	def isfiltered(self, entry):
 		return entry.pri > self.minlevel
 
+class HasTranslationFilter(efilter.Filter):
+	def __init__(self):
+		efilter.Filter.__init__(self, "trans", projectShort, projectDesc, ownerInfo)
+
+	def isfiltered(self, entry):
+		for lang in projectLangs:
+			if lang in entry.translations: return True
+		return False
+
 class AllFilter(efilter.Filter):
 	def __init__(self):
 		efilter.Filter.__init__(self, "others", projectShort, projectDesc, ownerInfo)
@@ -159,5 +168,6 @@ def filtersList():
 	filters.append(PriFilter(220))
 	filters.append(PriFilter(200))
 	filters.append(PriFilter(0))
+	filters.append(HasTranslationFilter())
 	#filters.append(AllFilter())
 	return filters
