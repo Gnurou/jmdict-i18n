@@ -208,7 +208,7 @@ if __name__ == "__main__":
 		header = GetTextEntry()
 		header.msgstr = efilter.headerStr % (client.projectDesc, client.ownerInfo, datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S+0000"), lang)
 		outf.write(str(header))
-		for entry in regressions[lang]:
+		for entry in sorted(regressions[lang].keys()):
 			outf.write(str(regressions[lang][entry]))
 		print('%-10s' % ('%s: %d' % (lang, len(regressions[lang]))), end='')
 		sys.stdout.flush()
