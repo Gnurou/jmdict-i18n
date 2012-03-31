@@ -2,53 +2,58 @@
 host = https://www.transifex.net
 type = PO
 
-[jmdict-i18n-dummy.jlpt5]
+[jmdict-i18n.jlpt5]
 file_filter = jlpt5_<lang>.po
 source_file = jlpt5.pot
 source_lang = en
 
-[jmdict-i18n-dummy.jlpt4]
+[jmdict-i18n.jlpt4]
 file_filter = jlpt4_<lang>.po
 source_file = jlpt4.pot
 source_lang = en
 
-[jmdict-i18n-dummy.jlpt3]
+[jmdict-i18n.jlpt3]
 file_filter = jlpt3_<lang>.po
 source_file = jlpt3.pot
 source_lang = en
 
-[jmdict-i18n-dummy.jlpt2]
+[jmdict-i18n.jlpt2]
 file_filter = jlpt2_<lang>.po
 source_file = jlpt2.pot
 source_lang = en
 
-[jmdict-i18n-dummy.jlpt1]
+[jmdict-i18n.jlpt1]
 file_filter = jlpt1_<lang>.po
 source_file = jlpt1.pot
 source_lang = en
 
-[jmdict-i18n-dummy.pri380]
+[jmdict-i18n.pri380]
 file_filter = pri380_<lang>.po
 source_file = pri380.pot
 source_lang = en
 
-[jmdict-i18n-dummy.pri310]
+[jmdict-i18n.pri310]
 file_filter = pri310_<lang>.po
 source_file = pri310.pot
 source_lang = en
 
-[jmdict-i18n-dummy.pri220]
+[jmdict-i18n.pri220]
 file_filter = pri220_<lang>.po
 source_file = pri220.pot
 source_lang = en
 
-[jmdict-i18n-dummy.pri200]
+[jmdict-i18n.pri200]
 file_filter = pri200_<lang>.po
 source_file = pri200.pot
 source_lang = en
 
-[jmdict-i18n-dummy.pri000]
+[jmdict-i18n.pri000]
 file_filter = pri000_<lang>.po
 source_file = pri000.pot
+source_lang = en
+
+[jmdict-i18n.trans]
+file_filter = trans_<lang>.po
+source_file = trans.pot
 source_lang = en
 
