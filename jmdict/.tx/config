@@ -1,0 +1,54 @@
+[main]
+host = https://www.transifex.net
+type = PO
+
+[jmdict-i18n-dummy.jlpt5]
+file_filter = jlpt5_<lang>.po
+source_file = jlpt5.pot
+source_lang = en
+
+[jmdict-i18n-dummy.jlpt4]
+file_filter = jlpt4_<lang>.po
+source_file = jlpt4.pot
+source_lang = en
+
+[jmdict-i18n-dummy.jlpt3]
+file_filter = jlpt3_<lang>.po
+source_file = jlpt3.pot
+source_lang = en
+
+[jmdict-i18n-dummy.jlpt2]
+file_filter = jlpt2_<lang>.po
+source_file = jlpt2.pot
+source_lang = en
+
+[jmdict-i18n-dummy.jlpt1]
+file_filter = jlpt1_<lang>.po
+source_file = jlpt1.pot
+source_lang = en
+
+[jmdict-i18n-dummy.pri380]
+file_filter = pri380_<lang>.po
+source_file = pri380.pot
+source_lang = en
+
+[jmdict-i18n-dummy.pri310]
+file_filter = pri310_<lang>.po
+source_file = pri310.pot
+source_lang = en
+
+[jmdict-i18n-dummy.pri220]
+file_filter = pri220_<lang>.po
+source_file = pri220.pot
+source_lang = en
+
+[jmdict-i18n-dummy.pri200]
+file_filter = pri200_<lang>.po
+source_file = pri200.pot
+source_lang = en
+
+[jmdict-i18n-dummy.pri000]
+file_filter = pri000_<lang>.po
+source_file = pri000.pot
+source_lang = en
+
