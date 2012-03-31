@@ -16255,8 +16255,6 @@
 1382370 0 ancien temps
 1382370 0 autrefois
 1382370 0 temps passé
-1382380 0 vieilles choses
-1382380 0 vieilles histoires (plus actuelles)
 1382430 0 légende
 1382430 0 vieux conte
 1382440 0 pierre
@@ -18460,6 +18458,7 @@
 1415660 0 de bureau
 1415660 0 sur la table, le bureau
 1415660 0 allocution, discours de fin de repas
+1415660 1 allocution, discours de fin de repas
 1415750 0 chez soi
 1415750 0 maison
 1415770 0 terrain à bâtir
@@ -20644,6 +20643,8 @@
 1444980 1 raison
 1444980 1 commodité
 1444980 1 convenance
+1444980 2 commodité
+1444980 2 convenance
 1444990 0 municipal
 1444990 0 urbain
 1444990 0 ville
@@ -21145,6 +21146,10 @@
 1451630 0 dérangement
 1451630 0 choc
 1451630 0 excitation
+1451630 1 changement
+1451630 1 dérangement
+1451630 1 choc
+1451630 1 excitation
 1451640 0 émeute
 1451640 0 agitation
 1451640 0 révolte
@@ -21929,6 +21934,9 @@
 1469050 0 année fiscale
 1469050 0 exercice (fiscal)
 1469050 0 année scolaire
+1469050 1 année fiscale
+1469050 1 exercice (fiscal)
+1469050 2 année scolaire
 1469070 0 d'ici la fin de l'année
 1469070 0 dans l'année
 1469090 0 âgé
@@ -22108,6 +22116,7 @@
 1471210 0 se déchirer
 1471210 0 se détruire
 1471210 0 être battu
+1471210 1 être battu
 1471220 0 déchirure
 1471220 0 fente
 1471250 0 destruction
@@ -22872,11 +22881,6 @@
 1481920 2 dérangeant
 1481920 2 fatiguant
 1481920 2 inopportun
-1481920 3 autoritaire
-1481930 0 être concerné par
-1481930 0 être désolé de
-1481930 0 etre affligé de
-1481930 0 s'inquiéter de
 1481940 0 énervant
 1481940 0 compliqué
 1481940 0 ennuyeux
@@ -29074,6 +29078,8 @@
 1581400 0 une autre personne
 1581400 0 étranger
 1581400 0 inconnu
+1581400 1 étranger
+1581400 1 inconnu
 1581410 0 parrainage
 1581410 0 recommandation
 1581440 0 couler du béton
@@ -30301,6 +30307,9 @@
 1594520 0 essorer
 1594520 0 tordre
 1594520 0 compresser
+1594520 1 essorer
+1594520 1 tordre
+1594520 2 compresser
 1594530 0 fin
 1594530 0 terminaison
 1594530 1 danse de Noh en habits ordinaires
