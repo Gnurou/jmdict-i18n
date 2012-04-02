@@ -157,20 +157,44 @@ if __name__ == "__main__":
 	# Merge the new .po translations into the source file entries
 	print('%-30s' % 'Merging new .po data...', end='')
 	sys.stdout.flush()
-	mergedPoCpt = { lang : 0 for lang in client.projectLangs }
-	for lang in client.projectLangs:
-		for key in poEntries[lang]:
-			if key in srcEntries:
-				srcEntry = srcEntries[key]
+	updatedPoCpt = { lang : 0 for lang in client.projectLangs }
+	newPoCpt = { lang : 0 for lang in client.projectLangs }
+	newSourceCpt = { lang : 0 for lang in client.projectLangs }
+	for key in srcEntries:
+		srcEntry = srcEntries[key]
+		for lang in client.projectLangs:
+			sString = srcEntry.trString(lang)
+			if key in poEntries[lang]:
 				poEntry = poEntries[lang][key]
 				tString = poEntry.trString(lang)
-				if (not tString) or (tString == srcEntry.trString(lang)): continue
+				# Identical? (maybe both null?) Skip
+				if tString == sString:
+					continue
+				# No translation? New source string, skip
+				if not tString:
+					newSourceCpt[lang] += 1
+					continue
+				if not sString: newPoCpt[lang] += 1
+				else: updatedPoCpt[lang] += 1
 				srcEntry.translations[lang] = tString
-				mergedPoCpt[lang] += 1
-		print('%-10s' % ('%s: %d' % (lang, mergedPoCpt[lang])), end='')
+			else:
+				if sString: newSourceCpt[lang] += 1
+	for lang in client.projectLangs:
+		print('%-10s' % ('%s: %d' % (lang, newPoCpt[lang] + updatedPoCpt[lang])), end='')
 		sys.stdout.flush()
 	print('')
-
+	print('%-30s' % '  New translations:', end='')
+	for lang in client.projectLangs:
+		print('%-10s' % ('%s: %d' % (lang, newPoCpt[lang])), end='')
+	print('')
+	print('%-30s' % '  Updated translations:', end='')
+	for lang in client.projectLangs:
+		print('%-10s' % ('%s: %d' % (lang, updatedPoCpt[lang])), end='')
+	print('')
+	print('%-30s' % '  New source strings:', end='')
+	for lang in client.projectLangs:
+		print('%-10s' % ('%s: %d' % (lang, newSourceCpt[lang])), end='')
+	print('')
 
 	# Merge regressions into the parsed source entries and add fuzzy tags
 	print('%-30s' % ('Merging regressions...'), end='')
@@ -199,21 +223,6 @@ if __name__ == "__main__":
 		sys.stdout.flush()
 	print('')
 
-	# Write new regressions list
-	print('%-30s' % ('Writing regressions...'), end='')
-	sys.stdout.flush()
-	for lang in client.projectLangs:
-		regfile = os.path.join(client.projectShort, client.srcFile) + '_%s.reg' % (lang,)
-		outf = open(regfile, 'w', encoding='utf-8')
-		header = GetTextEntry()
-		header.msgstr = efilter.headerStr % (client.projectDesc, client.ownerInfo, datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S+0000"), lang)
-		outf.write(str(header))
-		for entry in sorted(regressions[lang].keys()):
-			outf.write(str(regressions[lang][entry]))
-		print('%-10s' % ('%s: %d' % (lang, len(regressions[lang]))), end='')
-		sys.stdout.flush()
-	print('')
-
 	# Filter entries
 	print('Filtering entries...')
 	filters = client.filtersList()
@@ -226,6 +235,14 @@ if __name__ == "__main__":
 		if not filtered:
 			pass
 		
+	# Output .pot files
+	print('%-30s' % ('Writing new .pot files...'), end='')
+	sys.stdout.flush()
+	cpt = 0
+	for filt in filters:
+		cpt += filt.output('en')
+	print("%d entries written" % (cpt,))
+
 	# Output .po files
 	if not len(client.projectLangs) == 0:
 		print('%-30s' % ('Writing new .po files...'), end='')
@@ -237,14 +254,6 @@ if __name__ == "__main__":
 			print('%-10s' % ('%s: %d' % (lang, cpt)), end='')
 			sys.stdout.flush()
 		print('')
-
-	# Output .pot files
-	print('%-30s' % ('Writing new .pot files...'), end='')
-	sys.stdout.flush()
-	cpt = 0
-	for filt in filters:
-		cpt += filt.output('en')
-	print("%d entries written" % (cpt,))
 
 	# Output .jmf files
 	print('%-30s' % ('Writing new .jmf files...'), end='')
@@ -261,6 +270,21 @@ if __name__ == "__main__":
 			outf.write(tEntries[key].toJMF(lang))
 		outf.close()
 		print('%-10s' % ('%s: %d' % (lang, len(tEntries))), end='')
+		sys.stdout.flush()
+	print('')
+
+	# Write new regressions list
+	print('%-30s' % ('Writing regressions...'), end='')
+	sys.stdout.flush()
+	for lang in client.projectLangs:
+		regfile = os.path.join(client.projectShort, client.srcFile) + '_%s.reg' % (lang,)
+		outf = open(regfile, 'w', encoding='utf-8')
+		header = GetTextEntry()
+		header.msgstr = efilter.headerStr % (client.projectDesc, client.ownerInfo, datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S+0000"), lang)
+		outf.write(str(header))
+		for entry in sorted(regressions[lang].keys()):
+			outf.write(str(regressions[lang][entry]))
+		print('%-10s' % ('%s: %d' % (lang, len(regressions[lang]))), end='')
 		sys.stdout.flush()
 	print('')
 
