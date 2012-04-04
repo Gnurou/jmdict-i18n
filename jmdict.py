@@ -1,7 +1,7 @@
 # Configuration
 projectShort = 'jmdict'
 projectDesc = 'JMdict i18n'
-projectLangs = ('fr', 'th', 'tr')
+projectLangs = ('fr', 'ru', 'th', 'tr')
 ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
 txProject = 'jmdict-i18n'
 srcFile = 'JMdict'

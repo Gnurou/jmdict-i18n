@@ -1,7 +1,7 @@
 # Configuration
 projectShort = 'kanjidic2'
 projectDesc = 'Kanjidic2 i18n'
-projectLangs = ('fr', 'it', 'th', 'tr', 'pl')
+projectLangs = ('fr', 'it', 'ru', 'th', 'tr', 'pl')
 ownerInfo = 'Alexandre Courbot <gnurou@gmail.com>'
 txProject = 'kanjidic2-i18n'
 srcFile = 'kanjidic2.xml'
