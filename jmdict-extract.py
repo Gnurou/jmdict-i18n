@@ -259,7 +259,7 @@ if __name__ == "__main__":
 	print('%-30s' % ('Writing new .jmf files...'), end='')
 	sys.stdout.flush()
 	for lang in client.projectLangs:
-		outf = open(os.path.join(client.projectShort, "%s.jmf" % (lang)), 'w', encoding='utf-8')
+		outf = open(os.path.join(client.projectShort, "jmf", "%s.jmf" % (lang)), 'w', encoding='utf-8')
 		tEntries = {}
 		for filt in filters:
 			for key in filt.entries:
