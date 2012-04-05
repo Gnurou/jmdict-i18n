@@ -90,13 +90,24 @@
 1138860 0 radyo
 1148520 0 kelime işlemci
 1149830 0 Amerika
+1151910 0 kısır döngü
+1152530 0 kabus
+1152530 0 kötü rüya
+1153270 0 ezici
+1153270 0 karşı konulamaz
+1159500 1 genetik
 1160790 0 bir
 1160820 0 bir
+1162120 0 Ocak
 1162130 0 bir ay
+1163270 0 bir hafta
 1163400 0 birlikte
+1166220 0 eksantrik
+1166460 0 (bir) adım
 1169870 1 içmek (sigara, tütün)
 1171010 0 sağ
 1171010 0 sağ taraf
+1171120 0 sağ el
 1171900 0 yağmur
 1173100 0 bulut
 1173720 0 film
@@ -110,14 +121,21 @@
 1178590 0 kurşun kalem
 1178940 0 kirli
 1178940 0 pis
+1179140 0 yeğen
 1180470 0 basmak
+1181190 0 Avrupa
+1181570 0 kral
+1181760 0 sarı
 1182030 0 sarı
 1182620 0 10^8
 1182620 0 100.000.000
 1182620 0 yüz milyon
+1186940 0 kimyasal silah
 1189360 2 kim
 1189370 0 kim?
+1189940 1 Kanada
 1191320 0 yaz
+1191460 0 günötesi
 1191730 2 soy
 1191730 2 soyad
 1191730 2 soyisim
@@ -127,6 +145,7 @@
 1193060 0 meyve
 1193180 0 şarkı
 1193180 2 modern şiir
+1193260 0 opera
 1194290 0 Salı
 1194500 2 ikebana
 1194500 3 Japon oyun kartları
@@ -135,6 +154,8 @@
 1198550 1 işyeri
 1201190 0 deniz
 1201190 0 sahil
+1201490 0 okyanus suyu
+1201590 0 deniz yosunu
 1201940 0 küllük
 1201940 0 kül tablası
 1202150 1 her şey
@@ -142,7 +163,13 @@
 1203250 1 açık hava
 1203620 0 yurtdışı
 1203650 0 yabancı
+1203850 0 yabancı
+1205590 0 çekirdek
+1205630 0 atomik yakıt
+1205700 0 nükleer silah
 1206110 1 kenar
+1206570 0 akademi
+1206570 0 kampüs
 1206730 0 okul
 1207240 0 eğlenceli
 1207240 0 zevkli
@@ -153,11 +180,22 @@
 1213170 0 Çince karakterler
 1213170 0 kanji
 1213870 0 (bayan) hemşire
+1216170 0 (Güney) Kore
 1217070 0 oyuncak
 1217730 0 yüz (insan)
+1220010 0 geometri
 1220210 0 sıra
+1220770 0 fırsat
+1220770 0 şans
+1221040 0 pilot
+1221300 1 (elektriksel) geribesleme
 1223640 1 uyanmak
+1225460 0 kurban
+1225940 0 karınca
 1228260 3 öpmek
+1228310 0 vampir
+1228310 0 kan emici
+1229100 0 ambulans
 1231580 0 sığır eti
 1231590 0 süt (inek)
 1231690 0 geçen sene
@@ -165,15 +203,20 @@
 1237150 0 sınıf
 1237150 0 derslik
 1237410 0 köprü
-1239730 1 ,
+1240450 0 Uzak Doğu
+1241670 0 ambargo
 1243320 0 Cuma
+1243440 1 galaksi
 1243490 0 banka
 1243600 0 dokuz
+1243660 0 Eylül
 1243850 0 ayın dokuzuncu günü
 1243850 1 dokuz gün
 1244310 0 acı
 1245470 0 hava
 1245470 0 atmosfer
+1245620 0 karate
+1246850 0 ayı
 1249900 0 ağabey
 1251270 0 deneyim
 1251270 0 tecrübe
@@ -191,6 +234,7 @@
 1257240 0 nefret etmek
 1257540 0 bina
 1258570 0 laboratuvar
+1258590 0 araştırmacı
 1258710 0 ipek
 1259210 0 göstermek
 1259290 4 denemek
@@ -200,8 +244,10 @@
 1266440 2 davet etmek
 1266970 0 kapı (Japon tarzı)
 1267280 0 göl
+1267340 3 açık kahverengi
 1268060 0 beş
 1268070 0 beş
+1268170 0 Mayıs
 1268570 0 ayın beşinci günü
 1268570 1 beş gün
 1268990 0 öğleden sonra
@@ -209,29 +255,48 @@
 1269320 1 sonra
 1270590 0 pilav
 1270590 1 yemek
+1270710 1 tahtırevan
 1270910 0 dil
 1270910 0 lisan
+1272350 0 trafik kazası
 1272780 0 ışık
 1275640 0 ağız
+1279870 0 Tokyo'nun eski adı
 1279990 0 liman
 1280770 0 siyah çay
+1281360 0 hava postası
+1283030 0 Hong Kong (Çin)
 1283190 0 yüksek
 1283190 0 uzun
 1283190 1 pahalı
 1283500 0 lise
+1286120 0 devlet yönetimi
+1286290 0 ulusal bayrak
 1286400 0 uluslararası
+1286520 0 uluslararası
+1286520 0 milletlerarası
+1287020 0 ulusal hazine
+1287160 0 ülke adı
 1287410 0 siyah
 1287420 0 siyah
+1287830 0 zenci
 1289100 0 bu ay
 1289220 0 bu hafta
 1289470 0 bu akşam
 1289480 0 iyi geceler
 1290800 0 sol
+1290900 0 sol el
 1291050 0 güle güle
 1291600 0 şeker
+1297130 0 Osaka-Kobe
+1298230 0 geçen sene
+1298240 0 dün gece
 1298790 0 fotoğraf çekmek
 1299400 0 dergi
 1299740 0 üç
+1300250 0 Mart
+1301000 0 üç kişi
+1301110 0 3000
 1301330 0 ayın üçüncü günü
 1301330 1 üç gün
 1301940 0 şemsiye
@@ -240,18 +305,26 @@
 1303770 0 endüstri
 1303770 0 sanayi
 1304970 1 iş
+1306860 0 tarihi
+1306860 0 tarihsel
 1307040 0 dört
+1307180 0 Nisan
 1307320 0 ayın dördüncü günü
 1307320 1 dört gün
 1307500 0 başlamak
 1307630 0 abla
+1307640 0 abla
 1307770 0 çocuk
 1307850 0 çocuk
 1308090 0 şehir
 1310730 0 ölmek
+1310740 0 ölüm nedeni
+1310740 0 ölüm sebebi
 1311110 0 ben
 1311530 0 kağıt
+1312800 0 kapitalizm
 1313000 0 diş
+1313070 0 diş fırçası
 1313080 0 diş doktoru
 1314400 0 ofis
 1315140 0 sözlük
@@ -265,12 +338,19 @@
 1317170 1 işitme
 1318290 0 bisiklet
 1318400 0 otomobil
+1318470 0 otomatik
 1318970 0 sözlük
 1318970 1 istifa mektubu
 1319210 0 yedi
 1319220 0 yedi
+1319280 0 Temmuz
 1321900 0 fotoğraf
+1322740 0 sosyalizm
+1322800 0 Sosyalist Parti
 1324300 0 genç
+1325270 2 sosyalist
+1325270 2 komünist
+1325270 2 anarşist
 1326980 1 çalmak
 1327190 0 el
 1327190 0 kol
@@ -280,8 +360,27 @@
 1329015 0 alkol
 1329015 0 sake
 1332650 0 sonbahar
+1332960 0 son tren
+1333520 0 hafta sonu
+1334470 0 11
+1334470 0 on bir
+1334480 0 Kasım
+1334560 0 19
+1334560 0 on dokuz
+1334570 0 Ekim
+1334590 0 15
+1334590 0 on beş
+1334610 0 13
+1334610 0 on üç
+1334890 0 12
+1334890 0 on iki
+1334910 0 Aralık
 1335000 0 ayın onuncu günü
 1335000 1 on gün
+1335050 0 18
+1335050 0 on sekiz
+1335140 0 100.000
+1335140 0 yüz bin
 1337270 0 ödev
 1341000 0 bahar
 1341000 1 Yeni Yıl
@@ -292,6 +391,8 @@
 1343950 1 çizmek
 1344930 0 kadın
 1344970 0 kız
+1348350 1 cüce
+1348750 0 küçük harfler
 1348870 2 kısa mesafe
 1349610 0 davet
 1351360 0 gülmek
@@ -306,9 +407,11 @@
 1352320 15 tutuklamak
 1352320 17 vermek
 1352320 22 kusmak
+1357310 0 botanik bahçesi
 1357600 0 renk
 1358280 0 yemek
 1358340 0 yemek
+1362290 0 Yeni Yıl
 1362360 0 gazete
 1362490 0 orman
 1364670 0 Şinto mabedi
@@ -316,12 +419,24 @@
 1367300 0 nüfus
 1370420 0 kütüphane
 1370760 2 ıslık çalmak
+1371670 0 açık mavi
+1371820 0 akvaryum
+1371840 0 sualtı
+1372260 0 hidrolik güç
+1372260 0 su gücü
+1372670 0 sarhoş olmak
 1372980 0 matematik
 1372980 0 aritmetik
 1376460 0 açık hava
 1378690 0 doğmak
+1379300 0 ekosistem
+1379550 0 hayat sigortası
+1379850 3 meni
+1379850 3 sperma
+1379850 3 döl
 1380440 0 ses
 1380840 0 batı
+1380900 0 Batı Avrupa
 1381100 0 batı
 1381100 0 Batı ülkeleri
 1381380 0 mavi
@@ -329,6 +444,7 @@
 1381380 2 açık yeşil
 1381390 0 mavi
 1381390 0 yeşil
+1381470 0 mavi gökyüzü
 1382440 0 taş
 1382590 0 sabun
 1383240 0 kırmızı
@@ -343,15 +459,24 @@
 1387990 0 doktor
 1388740 0 1.000
 1388740 0 bin
+1390060 1 balık pazarı
 1390360 0 savaş
 1390930 0 yıkamak
 1390930 1 araştırmak
+1392280 0 seçim
 1396860 0 büyükanne
 1401400 0 pencere
 1401910 1 ninja
 1402540 0 koşmak
+1403460 0 nefret
+1403460 0 kin
+1403460 0 düşmanlık
 1404630 0 ayak
 1404630 1 bacak
+1404840 0 ayak bileği
+1407090 0 cinayet
+1407090 0 adam öldürme
+1408360 0 Pasifik Okyanusu
 1410590 0 beklemek
 1412640 0 mutfak
 1413890 0 elçilik
@@ -547,9 +672,7 @@
 1600790 1 yirmi
 1600850 0 ayın yirminci günü
 1600850 1 yirmi gün
-1603990 2 町	まち
 1603990 2 109.09 m
-1603990 3 町	まち
 1603990 3 0.99 hektar
 1604890 4 bakış açısı
 1620400 2 ortaokul

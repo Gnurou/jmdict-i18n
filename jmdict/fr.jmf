@@ -386,6 +386,9 @@
 1004140 0 tournoyé
 1004170 0 discrimination
 1004170 0 distinction
+1004200 0 mais
+1004200 0 cependant
+1004200 0 bien que
 1004310 0 comme ceci (utilisé pour quelque chose ou quelqu'un proche du locuteur, y compris lui-même, ou à propos de ses opinions)
 1004310 0 ainsi
 1004310 0 de cette façon
@@ -496,6 +499,11 @@
 1006140 0 rapidement
 1006140 0 tout a coup
 1006140 0 tranquillement
+1006140 1 doucement
+1006140 1 furtivement
+1006140 1 sans bruit
+1006140 2 se sentir rafraîchi
+1006140 2 se sentir à l'aise
 1006230 0 dormir paisiblement
 1006240 0 aisément
 1006240 0 facilememt
@@ -953,6 +961,10 @@
 1012790 0 arriver
 1012800 0 enfin
 1012800 0 finalement
+1012800 1 à peine
+1012800 1 de justesse
+1012800 1 juste
+1012800 1 d'un poil
 1012810 0 aussi
 1012810 0 en fin de compte
 1012810 0 finalement
@@ -992,6 +1004,11 @@
 1013170 0 pas incertain
 1013190 0 à partir
 1013190 0 plus
+1013190 1 que
+1013190 2 autre que
+1013190 2 sauf
+1013190 2 mais
+1013190 3 plus
 1013200 0 selon
 1013220 0 chanceler
 1013220 0 tituber
@@ -1039,6 +1056,7 @@
 1019940 0 enquète
 1020200 0 soulignement
 1020410 0 antenne
+1021180 0 Oeuf de saumon salé (p.e. des oeufs individuels matures)
 1021500 0 idéologie
 1021750 0 image
 1021910 0 boucle d'oreille
@@ -1137,6 +1155,7 @@
 1041030 0 bise
 1041030 0 bisou
 1041150 0 cuisine
+1041200 0 kit
 1041430 0 carte de crédit
 1041430 0 carte de paiement
 1041870 0 chou
@@ -1162,6 +1181,7 @@
 1044020 0 classique
 1044070 0 classe
 1044310 0 club
+1044310 2 crabe
 1044440 0 blanchisserie
 1044480 0 crème
 1044830 0 noël
@@ -1848,6 +1868,8 @@
 1138690 0 rugby
 1138710 0 raquette
 1138860 0 radio
+1138900 0 radio-cassette
+1138900 0 magnétophone
 1138960 0 radio-cassette
 1139180 0 barge (LASH: Lighter Aboard SHip)
 1139180 0 heure de pointe
@@ -4751,6 +4773,7 @@
 1207590 6 s'apprêter à
 1207590 7 empiéter sur (ex. information dans un manuel)
 1207590 7 couvrir
+1207590 8 en venir à
 1207590 9 être fixé
 1207600 0 crédit
 1207610 0 accrocher (un tableau)
@@ -5316,6 +5339,8 @@
 1215810 0 à cause de
 1215810 0 liaison
 1215810 0 rapport
+1215810 2 influence
+1215810 2 effet
 1215860 0 barrière
 1215870 0 intérêt
 1215910 0 Kansai (région de Kyoto et d'Osaka)
@@ -15734,6 +15759,7 @@
 1375150 0 vigueur
 1375150 0 vitalité
 1375190 0 nom de famille
+1375190 1 Titre héréditaire (utilisé dans le Japon ancien pour marquer le rang ou le status politique)
 1375210 0 nom et prénom
 1375220 0 conquête
 1375220 0 subjugation
@@ -15792,6 +15818,7 @@
 1375610 4 être échangé contre
 1375610 5 jouer un rôle
 1375610 6 être promu (pion aux échecs)
+1375610 7 faire
 1375620 0 aussi...que possible
 1375620 0 autant que possible
 1375620 0 dans la mesure du possible
@@ -21658,6 +21685,8 @@
 1463740 0 arc-en-ciel
 1463770 0 jour
 1463770 1 soleil
+1463770 2 cas (part. malheureux)
+1463770 2 événement
 1463780 0 le drapeau du Japon
 1463790 0 lever du soleil
 1463800 0 coucher du soleil
@@ -21895,6 +21924,8 @@
 1468060 0 année
 1468060 1 années
 1468060 2 âge
+1468060 3 après le prime jeunesse
+1468060 3 vieillesse
 1468230 0 plus jeune
 1468240 0 carte de vœux
 1468240 0 vœux de nouvel an
@@ -23160,6 +23191,7 @@
 1484330 5 être voilé (à cause d'une surexposition, etc.)
 1484330 6 fermer
 1484330 6 se terminer
+1484330 7 vendre en totalité
 1484330 8 trébucher
 1484330 8 bâcler
 1484330 8 échouer
@@ -24818,6 +24850,7 @@
 1512640 0 papier a lettre
 1512660 0 études
 1512670 0 études
+1512670 1 assiduité
 1512670 2 rabais
 1512670 2 réduction
 1512680 0 bûcheur
@@ -25083,6 +25116,7 @@
 1516930 5 méthode
 1516930 5 manière
 1516930 5 moyen
+1516930 6 longueur (de chaque coté d'un carré)
 1516940 0 direction
 1516950 0 coté
 1516950 0 direction
@@ -25983,6 +26017,10 @@
 1529500 0 fou de ..
 1529500 0 frénésie
 1529520 0 verbe exprimant une négation
+1529520 1 non possédé
+1529520 1 non eu
+1529520 2 unique
+1529520 3 indique la négation, l'inexpérience, la non nécessité ou l'impossibilité
 1529520 4 (après la forme conjonctive d'un adjectif) pas…
 1529520 5 (après la forme -te d'un verbe) ne pas être…, ne pas avoir…
 1529530 0 égarer
@@ -29183,6 +29221,7 @@
 1582310 1 esprit
 1582310 1 cerveau
 1582310 1 intellect
+1582310 2 dessus
 1582310 3 chevelure
 1582310 3 cheveux
 1582310 4 frange (coiffure)
@@ -29281,6 +29320,9 @@
 1583230 0 voilier
 1583250 0 négatif
 1583250 0 non
+1583250 1 euh
+1583250 1 hmm
+1583250 1 pourquoi
 1583260 0 éviter
 1583260 0 fuir
 1583300 0 épistaxis
@@ -29421,6 +29463,7 @@
 1584460 0 dix mille
 1584460 1 innombrables
 1584460 2 tout
+1584460 3 divers
 1584500 0 tout le monde
 1584500 1 10 000 personnes
 1584510 0 perfection
@@ -29548,7 +29591,11 @@
 1586270 3 être libre
 1586270 4 être ouvert (ex. décolleté, etc.)
 1586270 5 avoir été ouvert (se dit des yeux, de la bouche, etc.)
+1586270 6 se terminer
 1586270 7 ouvrir (les yeux, la bouche, etc.)
+1586270 8 avoir un trou
+1586270 8 former un vide
+1586270 8 former un interval (entre des événements)
 1586290 0 finalement
 1586310 0 fil de chanvre
 1586330 0 petit déjeuner
@@ -31674,7 +31721,12 @@
 1604890 2 coup d'œil
 1604890 3 expérience (vécue)
 1604890 4 point de vue
+1604890 5 point
+1604890 5 texture
+1604890 5 tissage
 1604890 6 suffixe des nombres ordinaux
+1604890 7 quelque peu
+1604890 7 -eux
 1604930 0 brillant
 1604930 0 remarquable
 1604930 0 splendide
@@ -31991,6 +32043,7 @@
 1607260 0 enfiler
 1607260 0 mettre
 1607260 0 porter (sur la partie inférieure du corps)
+1607260 1 apposer une épée sur sa hanche 
 1607260 2 apposer une corde à un arc
 1607270 0 mon père décédé
 1607270 0 mon regretté père
@@ -32842,6 +32895,7 @@
 1894690 0 continuité
 1894690 0 suite
 1920240 0 quel (interrogatif)
+1923080 0 Iran-Irak
 1956280 0 le plus
 1956280 0 l'extrême
 1956400 0 collection
@@ -32854,6 +32908,8 @@
 1979930 0 mutuel
 1979930 0 réciproque
 1979930 0 l'un l'autre
+2005860 0 à nouveau
+2005860 0 encore une fois
 2006560 0 chaque
 2006560 1 (après une quantité de quelque chose) à la fois
 2013900 0 rouge
@@ -32874,6 +32930,11 @@
 2019640 2 compteur pour les bateaux, pieuvres et calmars
 2020680 0 heure (durée)
 2020680 0 heures (à la pendule)
+2020680 1 temps (spécifié)
+2020680 1 quand...
+2020680 1 durant...
+2021190 0 éventreur
+2021190 1 scie à refendre
 2022640 0 suffixe qui, placé après un nombre, le transforme en nombre ou adjectif ordinal
 2022640 0 (derrière un nombre) numéro
 2022640 1 tour (c'est mon tour)
@@ -32881,6 +32942,17 @@
 2022640 2 gardien
 2022640 2 vigile
 2022640 2 sentinelle
+2022640 3 combat, match (sumo)
+2028940 0 aussi
+2028940 1 à propos (mettant l'accent sur une limite supérieure)
+2028940 1 autant que
+2028940 1 même
+2028940 2 plus
+2028940 2 plus loin
+2028940 2 autre
+2028940 2 encore
+2028970 0 indique une question (en fin de phrase)
+2028970 1 indique le choix, le doute...
 2029080 0 oui vraiment
 2037700 3 compteur d'avions
 2037700 4 compteur de vies restantes (dans les jeux vidéos)
@@ -32918,19 +32990,30 @@
 2135480 0 Salutations (lettre)
 2136180 0 petit
 2136180 0 minuscule
+2147990 0 dos
+2147990 0 échine
+2147990 1 inverse
+2147990 1 côté arrière
+2147990 2 hauteur
+2147990 3 crête (d'une montagne)
 2149890 0 compteur pour les personnes
 2149890 1 (usuellement dans un nom composé) personne
 2153790 1 prénom
 2154810 0 au revoir
+2158900 3 Taoïsme
 2194990 0 Merci beaucoup
+2198520 0 tabun (gaz neurotoxique)
 2220600 0 bain
 2225040 0 le 1er du mois
 2225040 1 les 10 premiers jours du mois lunaire
+2255350 0 Ohh (ordre utilisé pour arrêter un cheval...)
 2257550 0 ne .. pas
 2257550 1 suffixe emphatique (utilisé après la racine d'un adjectif)
+2259690 0 préfixe honorifique
 2261490 0 oncle
 2261490 1 homme plus âgé
 2261490 1 Monsieur ! (interjection)
+2261490 2 Rouget de manybar (Parupeneus multifasciatus)
 2261500 0 tante
 2267560 0 compteur de temples
 2272760 0 Comment allez-vous ?
