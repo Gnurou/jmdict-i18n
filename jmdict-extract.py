@@ -27,6 +27,18 @@
 # * A set of .po files (one per filter and language) with the translation strings of the JMdict and regressions
 # * A set of regression files (one per language) with the previously translated strings for which source string
 #   has changed in the new JMdict file
+#
+# 3-way merge
+# 1) Load original JMdict and new .po files
+# 2) Load new JMdict
+# 3) Match new and old JMdict entries and translations:
+#    - check for reordering
+#    - check for changed translations
+# 4) Merge .po translations
+#    - take reordering into account
+#    - new translations from JMdict become regressions
+# 5) Write new .po, .pot, .reg files
+# 6) Replace old JMdict with new one
 
 import sys, datetime, argparse, os.path
 from gettextformat import *
