@@ -1,0 +1,135 @@
+[main]
+host = https://www.transifex.com
+
+[jmdict-i18n.jlpt5]
+file_filter = jmdict/jlpt5_<lang>.po
+source_file = jmdict/jlpt5.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.jlpt4]
+file_filter = jmdict/jlpt4_<lang>.po
+source_file = jmdict/jlpt4.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.jlpt3]
+file_filter = jmdict/jlpt3_<lang>.po
+source_file = jmdict/jlpt3.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.jlpt2]
+file_filter = jmdict/jlpt2_<lang>.po
+source_file = jmdict/jlpt2.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.jlpt1]
+file_filter = jmdict/jlpt1_<lang>.po
+source_file = jmdict/jlpt1.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.trans]
+file_filter = jmdict/trans_<lang>.po
+source_file = jmdict/trans.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.pri380]
+file_filter = jmdict/pri380_<lang>.po
+source_file = jmdict/pri380.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.pri310]
+file_filter = jmdict/pri310_<lang>.po
+source_file = jmdict/pri310.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.pri220]
+file_filter = jmdict/pri220_<lang>.po
+source_file = jmdict/pri220.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.pri200]
+file_filter = jmdict/pri200_<lang>.po
+source_file = jmdict/pri200.pot
+source_lang = en
+type = PO
+
+[jmdict-i18n.pri000]
+file_filter = jmdict/pri000_<lang>.po
+source_file = jmdict/pri000.pot
+source_lang = en
+type = PO
+
+
+[kanjidic2-i18n.grade01]
+file_filter = jmdict/grade01_<lang>.po
+source_file = jmdict/grade01.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.grade02]
+file_filter = jmdict/grade02_<lang>.po
+source_file = jmdict/grade02.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.grade03]
+file_filter = jmdict/grade03_<lang>.po
+source_file = jmdict/grade03.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.grade04]
+file_filter = jmdict/grade04_<lang>.po
+source_file = jmdict/grade04.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.grade05]
+file_filter = jmdict/grade05_<lang>.po
+source_file = jmdict/grade05.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.grade06]
+file_filter = jmdict/grade06_<lang>.po
+source_file = jmdict/grade06.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.grade08]
+file_filter = jmdict/grade08_<lang>.po
+source_file = jmdict/grade08.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.grade09]
+file_filter = jmdict/grade09_<lang>.po
+source_file = jmdict/grade09.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.grade10]
+file_filter = jmdict/grade10_<lang>.po
+source_file = jmdict/grade10.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.freq3000]
+file_filter = jmdict/freq3000_<lang>.po
+source_file = jmdict/freq3000.pot
+source_lang = en
+type = PO
+
+[kanjidic2-i18n.others]
+file_filter = jmdict/others_<lang>.po
+source_file = jmdict/others.pot
+source_lang = en
+type = PO
