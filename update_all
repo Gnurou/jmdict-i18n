@@ -1,0 +1,19 @@
+#!/bin/bash
+
+tx pull -a -f
+
+./updatesources.sh
+
+./jmdict-extract.py jmdict
+
+./jmdict-extract.py kanjidic2
+
+# push translation source
+tx push -s
+
+# Cannot just push all languages translations
+# since error is output for languages without any translation (e.g. vietnamese for now)
+for lang in fr it cs th ru tr; do
+  tx push -t -l $lang
+done
+

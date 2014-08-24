@@ -1,7 +1,14 @@
+1000040 0 Marque indiquant une répétition de caractère
+1000040 0 Idem
+1000090 1 «correct» (lors du marquage)
 1000220 0 évident
 1000220 0 clair
+1000220 0 explicite
 1000260 0 voyant
 1000260 0 criard
+1000260 1 vicieux
+1000260 1 malhonnête
+1000260 1 tordu
 1000320 0 cet endroit-là
 1000320 0 là
 1000320 0 là-bas
@@ -46,10 +53,13 @@
 1000590 0 de cette façon
 1000590 0 tel
 1000590 0 un tel
+1000620 0 pas du tout
 1000660 0 certainement !
 1000660 0 en effet !
 1000660 0 parfaitement !
 1000730 0 ne doit pas faire
+1000730 1 désespéré
+1000730 1 au-delà de toute espérance
 1000730 2 cela ne va pas
 1000730 2 cela ne se fait pas
 1000730 2 il ne faut pas
@@ -72,6 +82,7 @@
 1000940 0 être
 1000940 0 aller
 1000940 0 venir
+1000940 1 (après la forme -te ou la particule « de ») en train de
 1000980 0 brûlant d'envie de faire quelque chose
 1000980 0 impatient de
 1001010 0 étourdiment
@@ -87,10 +98,10 @@
 1001050 0 ondulation
 1001050 0 rouleau (vague)
 1001050 0 sinuosité
-1001060 0 flâner
-1001060 0 marcher sans but
-1001060 0 rôder
-1001060 0 traîner
+1001060 0 en flânant
+1001060 0 en marchant sans but
+1001060 0 en rôdant
+1001060 0 en traînant
 1001090 0 Ouais
 1001090 0 hum hum
 1001110 0 en avoir assez
@@ -113,6 +124,7 @@
 1001180 0 être
 1001180 1 venir
 1001180 2 aller
+1001200 0 Hé !
 1001330 0 effrayant
 1001330 1 extrême
 1001330 1 exagéré
@@ -155,7 +167,10 @@
 1001830 1 (vocatif) jeune homme
 1001830 1 copain
 1001830 1 gars
+1001860 0 arriver
 1001870 0 visite d'un malade
+1001900 0 je vous en prie, allez-y
+1001900 0 ne vous dérangez pas pour moi
 1001910 0 serviette rafraîchissante
 1001950 0 culte
 1001950 0 visite au temple
@@ -174,8 +189,7 @@
 1002000 0 enfant (de quelqu'un d'autre)
 1002030 0 révérence (courbette)
 1002030 0 salutation (en s'inclinant en avant)
-1002050 0 Excusez-moi d'interrompre
-1002050 1 formule de politesse lorsqu'on entre dans la maison de quelqu'un
+1002050 0 excusez-moi de vous déranger (interrompre)
 1002060 0 amulette
 1002060 0 porte-bonheur
 1002060 0 talisman
@@ -189,15 +203,20 @@
 1002170 1 jeune femme
 1002250 0 compliment
 1002250 0 flatterie
+1002260 0 recevoir une faveur de quelqu'un
 1002260 0 être redevable (d'une faveur)
 1002260 0 être endetté
-1002280 1 d'abord
-1002280 2 Excusez-moi de rentrer (avant vous)
+1002260 0 être reconnaissant
+1002280 0 avant
+1002280 0 auparavant
+1002280 1 devant
+1002280 2 excusez-moi de partir (avant vous)
 1002290 0 chéri(e)
 1002290 0 hé toi
 1002290 0 mon enfant
 1002290 0 toi
 1002290 0 tu
+1002290 1 présence (d'un dieu, noble, etc.)
 1002320 0 grand-père
 1002320 1 citoyens adultes masculins
 1002330 0 femme âgée
@@ -205,7 +224,7 @@
 1002330 1 citoyens adultes féminins
 1002340 0 Bonjour (le matin)
 1002340 0 Bonne journée
-1002360 0 Excusez-moi de vous avoir fait attendre
+1002360 0 excusez-moi de vous avoir fait attendre
 1002370 0 ma mère
 1002390 0 bon retour
 1002390 0 faites attention à vous
@@ -231,6 +250,7 @@
 1002570 0 merci bien (de vos efforts)
 1002590 0 père
 1002590 0 papa (poli)
+1002600 0 prendre un bain
 1002610 0 estomac
 1002650 0 mère
 1002650 0 maman (poli)
@@ -242,6 +262,8 @@
 1002770 0 qui suit la mode
 1002770 1 habillé à la mode
 1002770 1 bien habillé
+1002770 2 s'habiller
+1002770 2 être à la mode
 1002790 0 certainement!je n'y manquerai pas! (plutôt à un supérieur)
 1002790 0 entendu!
 1002840 0 cliquetis
@@ -250,6 +272,9 @@
 1002840 0 obstiné
 1002840 0 peur bleue
 1002840 0 tic-tac
+1002840 2 durci (matière)
+1002840 2 têtu (personne)
+1002840 2 tendu (situation)
 1002910 0 piquer un colère
 1002910 0 s'emporter
 1002950 0 ne pas être au même niveau que quelqu'un
@@ -258,9 +283,11 @@
 1002950 1 intolérable (chaleur, bruit)
 1002950 2 incapable de
 1002950 2 ne peut pas faire
+1002960 2 propriétaire
 1002970 0 ça se pourrait
 1002970 0 peut-être
 1002970 0 possible
+1003000 2 rire aux éclats
 1003040 0 (changeant) brusquement et complètement
 1003040 0 du tout au tout
 1003060 0 faible
@@ -292,6 +319,8 @@
 1003390 0 complètement
 1003400 0 avec précision
 1003400 0 exactement
+1003410 0 exactement
+1003410 0 précisément
 1003420 0 avec précision
 1003420 0 bien ajusté (vêtement)
 1003420 0 juste
@@ -306,6 +335,9 @@
 1003450 0 fort
 1003450 0 sévère
 1003450 0 serré
+1003450 1 décidé
+1003450 1 énergique, vigoureux
+1003450 1 impressionnant
 1003450 2 corsé
 1003450 2 fort
 1003450 3 serré
@@ -325,9 +357,9 @@
 1003560 0 denté
 1003560 0 dentelé
 1003560 0 ondulé
-1003590 0 bondé
-1003590 0 bourré
-1003590 0 serré
+1003590 0 bondé (en bondant)
+1003590 0 tassé (en tassant)
+1003590 0 serré (en serrant)
 1003600 0 accabler
 1003600 0 bondé
 1003600 0 craquement de cuir, de porte
@@ -347,6 +379,8 @@
 1003700 0 sombre (humeur)
 1003710 0 éternuement
 1003730 0 chatouilleux
+1003730 1 embarassant
+1003730 1 gênant
 1003740 0 chatouiller
 1003770 0 être à plat
 1003770 0 être épuisé
@@ -357,7 +391,14 @@
 1003810 0 se fatiguer
 1003860 0 adhérer à
 1003860 0 coller à
-1003860 0 rester collé à qqun
+1003860 0 rester collé à 
+1003860 1 rester proche de
+1003860 1 accompagner
+1003860 1 coopérer avec
+1003860 2 être impliqué dans
+1003860 2 être couvert de
+1003860 2 être rempli de
+1003860 2 devenir intimes
 1003870 0 attacher
 1003870 0 coller
 1003870 0 fixer
@@ -381,6 +422,8 @@
 1004070 0 épuisé
 1004070 0 (sl) crevé
 1004070 0 exténué
+1004080 0 fermement
+1004080 0 bien serré
 1004110 0 mouvement irrégulier
 1004110 0 prélassant
 1004140 0 tournoyé
@@ -413,6 +456,8 @@
 1004610 0 l'autre jour
 1004610 0 récemment
 1004610 0 il y a peu
+1004620 0 bonjour
+1004620 0 bonne journée (acceuil de jour)
 1004690 0 l'autre jour
 1004690 0 la dernière fois
 1004690 1 en attendant,
@@ -421,6 +466,7 @@
 1004790 0 à présent
 1004790 0 dès maintenant
 1004820 0 jusqu'ici
+1004830 0 ces, ceux-là, celles-là
 1004840 0 bruit d'un petit objet qui roule
 1004840 0 changement (conversation)
 1004840 0 voix aiguë et agréable
@@ -431,7 +477,10 @@
 1005020 0 oisiveté
 1005020 0 ronronnement
 1005020 0 tonnerre
-1005030 0 j'apprecie tes efforts
+1005030 0 merci beaucoup pour…
+1005030 0 j'apprecie vos efforts
+1005070 0 ne vous inquiétez pas
+1005070 0 tant pis
 1005080 0 C'était très bon (formule de politesse en fin de repas)
 1005080 0 Quel bon repas
 1005110 0 allez!
@@ -439,12 +488,20 @@
 1005180 0 tout à l'heure (dans le passé)
 1005190 0 rapidement
 1005200 0 soudainement
+1005200 1 tout à coup
+1005200 1 soudainement (surtout utilisé dans le cas de la pluie, du vent etc...)
 1005210 0 equilibré
 1005210 0 ordonné
 1005210 0 se sentir à l'aise
+1005210 1 soigné, ordonné
+1005210 1 tailler
+1005210 3 complètement
+1005210 3 totalement
 1005210 4 pas le moins du monde (dans une phrase négative)
 1005210 4 rien du tout
 1005210 4 que dalle
+1005210 5 pas du tout
+1005210 5 absolument pas
 1005310 0 bruissement
 1005310 0 murmurent
 1005340 0 Mme
@@ -459,6 +516,8 @@
 1005480 0 frequement
 1005480 0 repétitivement
 1005480 0 sans cesse
+1005480 1 fort, vigoureusement
+1005480 1 avec enthousiasme
 1005500 0 échouer
 1005500 0 manquer son coup
 1005500 0 rater
@@ -466,18 +525,33 @@
 1005550 0 persistant
 1005550 0 pressant
 1005550 0 tenace
+1005550 1 trop fort (goût, etc.)
+1005550 1 gras
+1005550 1 lourd
+1005550 1 graisseux
 1005570 0 doucement
 1005580 0 souvent
 1005600 0 merde
 1005600 0 zut
+1005610 0 sincèrement
+1005610 0 complètement
+1005610 0 avec sérieux
+1005610 1 posément
 1005630 0 s'accroupir
 1005650 0 hoquet
+1005670 0 sucer
+1005670 0 mâcher
+1005670 0 mâchoner
 1005710 0 constamment
 1005710 0 toujours
 1005740 0 être découragé
 1005860 0 consciencieusement
 1005870 0 fermement
 1005870 0 fixement
+1005870 1 fixement (p.e par curiosité)
+1005870 2 patience, patiemment
+1005870 3 fermement (immobilisation)
+1005870 3 sans bouger
 1005890 0 humide
 1005890 0 moite
 1005900 0 bien
@@ -488,11 +562,21 @@
 1005900 2 simple copule
 1005930 0 patate
 1005950 0 bruit d'éclaboussement
+1005970 0 jeu du "rock-paper-scissors" (équivalent du jeu à pile ou face utilisant trois configurations de la main, rock -poing serré, paper - main étendue et scissors -poing fermé avec deux doigts étendus)
+1005990 0 irriter
 1006110 0 complètement
 1006110 0 entièrement
 1006120 0 bien fait
 1006120 0 clair
 1006120 0 ordonné
+1006120 2 proprement
+1006120 2 sans histoire
+1006120 3 clairement
+1006120 3 distinctement
+1006120 4 complètement
+1006120 4 sans rien oublier
+1006120 5 pas du tout (dans une phrase négative)
+1006120 5 pas même légèrement
 1006140 0 directement
 1006140 0 doucement
 1006140 0 droit
@@ -512,6 +596,10 @@
 1006310 0 sur la marge
 1006310 0 sur le bord de
 1006310 0 tres pres de
+1006320 0 svelte
+1006320 1 sans effort
+1006320 1 facilement
+1006320 1 naturellement
 1006340 0 de facon déchirante
 1006340 0 douleur de palpitation
 1006380 0 à l'extrême
@@ -526,18 +614,31 @@
 1006380 3 droit
 1006400 0 franchement
 1006400 0 une fois pour toutes
-1006420 0 remettre a plus tard
-1006420 0 retarder
+1006410 0 trempé
+1006410 0 dégoulinant
+1006420 0 déplacer
+1006420 0 écarter
+1006420 0 dégager
+1006420 1 remettre à plus tard
+1006430 0 en ligne
+1006430 0 en rang
+1006430 0 bien aligné
 1006440 0 traîner (en longueur) - ennui
 1006440 0 traîner (objet)
 1006450 0 décalage
 1006460 0 glisser
+1006460 0 se disloquer
+1006460 0 être désaligné
+1006460 0 être délogé
+1006460 0 dévier
+1006460 0 être désynchronisé
 1006480 0 à la hâte
 1006480 0 impétueusement
 1006490 0 harceler
 1006550 0 impatient
 1006550 0 pressé
 1006570 0 au moins
+1006570 0 au plus
 1006600 0 ce type-là
 1006610 0 ainsi
 1006610 0 vraiment
@@ -559,6 +660,13 @@
 1006740 0 distrait
 1006740 0 imprudent
 1006740 0 inattentif
+1006760 0 en dépit de
+1006760 0 en dépit de soi-même
+1006760 0 en quelque sorte
+1006760 0 sans savoir pourquoi
+1006760 0 vaguement
+1006770 0 marche lente et détendue
+1006770 0 flâner
 1006780 0 par là (direction distance du locuteur, proche de l'auditeur)
 1006780 1 là (endroit éloigné de l'orateur, proche de l'auditeur)
 1006780 2 celui-là (quelque chose proche de l'auditeur)
@@ -572,10 +680,22 @@
 1006830 0 ça (quelque chose ou quelqu'un éloigné de l'orateur, proche de l'auditeur; actions de l'auditeur, ou les idées exprimées ou comprises par l'auditeur)
 1006830 1 hum...
 1006830 1 euh...
+1006850 0 de ce fait
+1006850 0 pour cette raison
+1006850 0 en conséquence
 1006860 0 après cela
 1006860 0 plus tard
 1006880 0 en outre
-1006900 0 etc...
+1006880 0 de plus
+1006880 1 en plus de cela
+1006880 1 là-dessus
+1006900 0 etc.
+1006900 0 autrement
+1006900 0 sinon
+1006900 0 en plus
+1006900 0 de plus
+1006900 0 et le reste
+1006900 0 et ainsi de suite
 1006930 0 par la suite
 1006930 0 tôt ou tard
 1006950 0 d'abord
@@ -613,15 +733,18 @@
 1007310 0 donc
 1007310 0 par conséquence
 1007340 0 seulement
+1007370 0 toutefois, cependant
 1007400 0 dans ce cas
 1007420 0 dans ce cas
 1007430 0 ample
 1007430 0 desserré
-1007480 0 couvert de
+1007480 0 suggérant (négativement) que quelque chose est bourré de (ex: fautes)
 1007480 0 plein de (excès non souhaité)
+1007480 1 complètement recouvert de... (par exemple: de sang)
 1007500 0 indolent
 1007500 0 négligent
-1007500 0 relaché
+1007500 0 relâché
+1007500 0 indiscipliné
 1007510 0 lentement
 1007510 0 mollement
 1007510 0 sans ardeur
@@ -638,6 +761,8 @@
 1007910 0 clignotant
 1007910 0 par intermittence
 1007910 0 tremblant
+1007920 0 par accident
+1007920 0 par hasard
 1008030 0 par erreur
 1008030 0 plutôt, involontairement, inconsciemment
 1008050 0 à l'occasion
@@ -689,6 +814,12 @@
 1008460 5 charlatant
 1008460 5 n'a que le nom de
 1008460 6 faute de mieux à faire
+1008490 0 si
+1008490 0 dans le cas où
+1008490 1 et
+1008490 2 avec
+1008490 3 particule utilisée pour citer (discours, pensée, etc.)
+1008490 4 pion promu (shogi)
 1008570 0 cependant
 1008570 0 même si
 1008630 0 très
@@ -702,6 +833,7 @@
 1008770 0 sérieux
 1008770 0 terrible
 1008770 0 vraiment pas
+1008770 2 très
 1008790 0 Hors de question!
 1008790 0 Quel culot!
 1008790 0 blessant
@@ -715,6 +847,7 @@
 1008950 0 au mieux
 1008950 0 de toute façon
 1008950 0 de toute manière
+1008960 0 enchanté de vous rencontrer
 1008990 0 d'une façon ou d'une autre
 1009000 0 merci
 1009000 1 merci beaucoup
@@ -722,10 +855,14 @@
 1009000 2 tout à fait, exactement
 1009000 2 vraiment
 1009000 3 d'une manière ou d'une autre
-1009000 4 quoi que l'on fasse
+1009000 4 malgré soi
+1009000 4 peu importe les efforts pour (on ne parvient pas à faire) (avec un verbe négatif)
+1009000 4 peu importe les efforts contre (on finit par le faire) (avec un verbe affirmatif, en partieculier -shimau)
 1009000 5 Salutations
 1009000 5 Salut!
 1009000 5 Au revoir!
+1009010 0 comment
+1009010 0 de quelle façon
 1009020 0 d'une manière ou d'une autre
 1009020 0 il semble que
 1009030 0 je vous en prie
@@ -734,6 +871,9 @@
 1009040 0 sentir un choc
 1009050 0 battement (rapide)
 1009050 0 pulsation
+1009050 1 battre à toute allure (coeur)
+1009050 1 palpiter
+1009050 1 battre en rythme
 1009100 0 bruit d'une marche à pas marqués
 1009100 0 constamment
 1009100 0 l'un après l'autre
@@ -741,6 +881,13 @@
 1009100 0 sans hésitation
 1009130 0 bruit
 1009130 0 bruyant
+1009160 0 à la fois
+1009160 0 l'un ou l'autre
+1009160 0 tout
+1009160 0 tous
+1009160 0 chaque
+1009210 0 soudain
+1009210 0 soudainement
 1009250 0 à quelle distance
 1009250 0 combien
 1009250 0 combien de temps
@@ -766,12 +913,18 @@
 1009420 0 la raison est que...
 1009420 0 parce que
 1009420 0 pour
+1009550 0 en
+1009550 0 sur
+1009550 0 à (lieu)
+1009550 0 en ce qui concerne
 1009570 0 sourire
 1009620 0 grand sourire
 1009620 0 rire
 1009870 0 glissant
 1009870 0 visqueux
 1009890 0 tournevis
+1010000 0 en outre
+1010000 0 aussi bien que
 1010040 0 doucement
 1010040 0 lentement
 1010050 0 à loisir
@@ -816,6 +969,9 @@
 1010640 0 par hasard
 1010640 0 si cela se trouve
 1010640 0 peut-être
+1010640 1 par accident
+1010640 1 par hasard
+1010640 1 involontairement
 1010680 0 frémissement
 1010680 0 froissement (de vêtements)
 1010730 0 être nerveux
@@ -852,14 +1008,25 @@
 1011130 0 bouffant
 1011130 0 trop gros
 1011160 0 brusque
+1011180 0 frapper sur
 1011180 0 entrer en collision avec
-1011180 0 frapper
+1011180 0 entrer en conflit
+1011180 1 rencontrer par hasard
+1011180 1 affronter
+1011180 2 se cogner
+1011180 2 rentrer en conflit
 1011190 0 enfoncer un clou dans
 1011190 0 frapper
 1011190 0 frapper fort
 1011190 0 rentrer dans
+1011190 0 tester (une idée ) sur quelqu'un
 1011200 0 grognement
+1011200 0 grommelement
 1011200 0 plainte à voix basse
+1011200 1 boutons
+1011200 1 éruption cutanée
+1011200 1 acné
+1011200 2 coupant en petits morceaux
 1011230 0 flâner
 1011230 0 oscillement
 1011230 0 paresseusement
@@ -869,9 +1036,11 @@
 1011240 0 être suspendu à
 1011240 0 osciller
 1011240 0 se balancer
-1011250 0 balancer
-1011250 0 faire osciller
+1011250 0 pendre
 1011250 0 suspendre
+1011250 0 (se) balancer
+1011250 0 osciller
+1011250 0 faire osciller
 1011260 0 frisson de froid ou de peur
 1011260 0 secousse
 1011260 0 tremblement
@@ -903,6 +1072,8 @@
 1011920 0 distrait
 1011920 0 flou
 1011920 0 terne
+1011920 2 paresseusement
+1011920 2 sans but
 1011930 0 bruit de coups sur quelqu'un
 1011930 0 chaleur à travers le corps
 1011940 0 époustouflé
@@ -913,6 +1084,11 @@
 1011960 0 eau qui coule
 1012050 0 vous pourriez dire
 1012070 0 comme-ci comme-ça
+1012070 1 bon, bon (utilisé pour calmer un interlocuteur excité)
+1012070 2 Voyons !
+1012070 2 Tu m'en diras tant !
+1012070 2 Mon Dieu !
+1012070 2 (expression de surprise)
 1012100 0 être confus
 1012100 0 être troublé
 1012110 0 confus
@@ -933,6 +1109,9 @@
 1012440 0 montrer des signes de
 1012440 1 se masturber
 1012470 0 sensiblement
+1012470 0 remarquablement
+1012470 0 considérablement
+1012470 0 beaucoup
 1012480 0 déjà
 1012480 0 plus (dans le sens "fini")
 1012480 1 bientôt
@@ -944,9 +1123,11 @@
 1012480 3 assez ! J'en ai assez (exaspération)
 1012490 0 se débatre
 1012490 0 se démener ?
+1012490 1 être impatient
 1012500 0 au cas où
 1012500 0 si
 1012510 0 peut être
+1012510 0 par hasard
 1012530 0 peut être
 1012550 0 allô (au téléphone)
 1012550 1 Excusez moi! (en appelant quelqu'un)
@@ -957,6 +1138,11 @@
 1012630 0 accueil
 1012630 0 hospitalité
 1012730 0 avant longtemps
+1012730 1 presque
+1012730 1 presque
+1012730 2 finalement
+1012730 2 à la fin
+1012730 2 finalement
 1012760 0 yakuza
 1012790 0 arriver
 1012800 0 enfin
@@ -976,18 +1162,46 @@
 1012960 0 façon de faire
 1012960 0 méthode
 1012960 0 manière
-1012980 0 faire
-1012980 1 avoir des rapports sexuels
-1012980 2 tuer
-1012980 3 donner (à des inférieurs, animaux, etc)
-1012980 4 faire pour (inférieur)
-1012980 5 envoyer (quelqu'un quelque part)
-1012980 5 expédier (une lettre) (expédition)
-1012980 6 déplacer (qqch quelque part)
-1012980 6 ramer (bateau)
-1012980 7 (utilisé à la place d'autres verbes) prendre (nourriture, boisson)
-1012980 7 étudier
-1012980 7 faire tourner (un restaurant)
+1012980 0 envoyer
+1012980 0 expédier
+1012980 1 mettre
+1012980 1 déplacer
+1012980 1 tourner (la tête, le regard, etc.)
+1012980 10 avoir des relations sexuelles avec
+1012980 11 vivre
+1012980 11 survivre
+1012980 11 bien s'entendre avec
+1012980 12 faire … totalement
+1012980 13 faire … largement
+1012980 14 faire ... pour quelqu'un (de status égal ou inférieur)
+1012980 14 faire ... (parfois avec une nuance négative)
+1012980 15 faire des efforts actifs pour ...
+1012980 2 donner (en particulier à quelqu'un d'un statut inférieur ou égal)
+1012980 2 laisser avoir
+1012980 2 offrir
+1012980 2 accorder
+1012980 2 octroyer
+1012980 2 conférer
+1012980 3 accélérer (un véhicule)
+1012980 4 faire
+1012980 4 entreprendre
+1012980 4 accomplir
+1012980 4 jouer (à un jeu)
+1012980 4 étudier
+1012980 5 gérer (une affaire)
+1012980 5 conserver
+1012980 5 être engagé dans
+1012980 5 pratiquer (la médecine, etc.)
+1012980 5 s'entraîner
+1012980 6 prendre (un repas, une boisson, etc.)
+1012980 6 manger
+1012980 6 boire
+1012980 6 fumer
+1012980 7 jouer (un rôle)
+1012980 7 faire un show
+1012980 8 se libérer (mentalement)
+1012980 9 blesser
+1012980 9 faire mal
 1013000 0 (onomatopée marquant le désappointement ou le soulagement)
 1013050 0 lentement
 1013050 0 tranquillement
@@ -997,6 +1211,7 @@
 1013080 0 vibrer
 1013100 0 bienvenue
 1013140 0 envoyer
+1013140 0 transmettre
 1013140 1 confier (par exemple de l'argent)
 1013140 1 transmettre
 1013160 0 salive ?
@@ -1019,46 +1234,123 @@
 1013300 0 être bruyant
 1013310 0 être excité
 1013310 0 être nerveux
+1013380 0 archive
+1013540 0 archerie occidentale
+1013540 0 tir à l'arc occidental
+1013620 0 intelligence artificielle
 1013970 0 glace
 1013980 0 crème glacée
+1014060 0 hockey sur glace
 1014210 0 idée
 1014340 0 idole
+1014500 0 ivoire
+1014520 0 agoraphobie
 1014590 0 fer
 1014680 0 extérieur
+1014910 0 hors-la-loi
+1015100 0 acoustique
+1015160 0 accident
 1015220 0 accessoire
 1015220 0 bijou
-1015310 0 accent
+1015300 0 accelerateur
+1015310 0 accent (en parlant)
+1015310 1 accentuation
+1015310 1 intonation
+1015310 1 accent
+1015450 0 actrice
+1015470 0 acrylique (matière, fibre d’acrylique, fibre)
+1015510 1 acrobatie
 1015840 0 Asie (en particulier "l'Extrême-Orient")
 1015840 1 asiatique
+1015920 0 Code américain normalisé pour l'échange d'information
+1015920 0 ASCII
+1016040 0 astrologie
+1016100 0 aspirine
 1016120 0 asphalte
+1016180 0 athlète
 1016610 0 vers le haut
+1016860 0 atome
+1016980 1 adresse
 1017070 0 avertissement
 1017070 0 conseil
+1017080 0 publicité
+1017090 0 annonce
+1017090 0 publicité
+1017090 0 réclame
+1017240 1 adresse email
+1017270 0 adrénaline
+1017300 0 anarchie
+1017310 0 anarchiste
+1017320 0 anarchisme
 1017330 0 présentateur
+1017470 0 analyste
+1017480 0 analogue
+1017480 0 analogique
+1017520 0 ordinateur analogique
+1017530 0 analogie
+1017570 0 animal
+1017590 1 animation
+1017600 1 film animé
+1017600 1 dessin animé
+1017610 0 animateur
+1017670 0 Anonymous
+1017680 0 anonyme
 1017760 0 immeuble d'appartements (à la structure très légère par opposition à mansion)
 1017760 1 appartement
+1017820 0 apartheid
 1017870 0 appel
+1017900 0 aphorisme
+1018140 0 absolutisme
 1018310 0 couple
+1018320 0 avenue
+1018330 0 moyen
+1018330 0 moyenne
 1018550 0 amateur
+1018620 0 amusement, attraction
+1018680 0 amnistie
+1018700 0 amibe
+1018770 0 football Américain
+1018780 0 rugby Américain
+1018950 0 allah
+1019090 0 arène
+1019120 0 aristocratie
 1019160 0 alibi
+1019170 0 archaïsme
 1019210 0 alcalin
+1019270 0 alcôve
 1019280 0 alcool
+1019300 0 algorithmique
+1019310 0 algorithme
 1019420 0 boulot
 1019420 0 job
 1019420 0 mi temps
 1019420 1 petit boulot
 1019420 1 job précaire
+1019430 0 albatros
 1019450 0 album
+1019500 0 alpiniste
+1019520 0 alpha
 1019530 0 alphabet
+1019570 0 Alpes
 1019620 0 aluminium
 1019650 0 aluminium
+1019700 0 Alexandrite
 1019740 0 allergie
+1019880 0 souterrain
 1019940 0 enquète
+1019990 0 ensemble
+1019990 0 tout compris
+1020030 0 anthologie, florilège
 1020200 0 soulignement
 1020410 0 antenne
+1020410 1 personne qui rassemble des informations ou des opinions
 1021180 0 Oeuf de saumon salé (p.e. des oeufs individuels matures)
+1021220 0 égale
+1021220 1 le signe égale (=)
+1021220 2 égale (A = B)
 1021500 0 idéologie
-1021750 0 image
+1021750 0 image (de quelqu'un)
+1021750 1 image (d'ordinateur)
 1021910 0 boucle d'oreille
 1022210 0 encre
 1022550 0 instantané
@@ -1072,6 +1364,7 @@
 1024400 0 grippe
 1024430 0 inflation
 1024440 0 inflation
+1024950 0 femme
 1025010 0 laine
 1025040 0 weekend
 1025050 0 jour de la semaine
@@ -1093,6 +1386,7 @@
 1028990 0 usage
 1029100 0 essai
 1029430 0 énergie
+1029760 0 tablier
 1030630 0 ascenseur
 1030630 1 ascenseur (aviation)
 1030950 0 moteur
@@ -1104,9 +1398,14 @@
 1032390 1 dépassant
 1032390 1 allant au-delà
 1032390 1 exagéré
+1032390 2 balle frappée au-dessus de la tête d'un joueur de champ extérieur (baseball)
 1032990 0 ouverture
+1033900 0 gasoil
+1033900 0 fuel
+1033900 0 kérosène
+1034660 0 bureau
 1035710 0 olympique
-1035780 0 organe
+1035780 0 orgue
 1035860 0 orange
 1036290 0 rideau
 1036400 0 carte
@@ -1115,7 +1414,9 @@
 1036560 1 balle courbe (baseball)
 1036580 0 tapis
 1037130 0 froissement
-1037400 0 cassette
+1037400 0 cassette (magnétique)
+1037400 1 cartouche (jeu vidéo)
+1037400 1 cassette
 1037410 0 enregistrement cassette
 1037560 0 catalogue
 1037670 0 coupe (pour boire, instrument de mesure, prix, etc.)
@@ -1126,7 +1427,10 @@
 1037960 0 couverture
 1038350 0 appareil photo
 1038390 0 photographe
-1038500 0 couleur
+1038500 0 col
+1038500 0 collier
+1038500 1 couleur
+1038660 0 karaoké
 1038970 0 culture
 1039140 0 curry
 1039220 0 calendrier
@@ -1145,6 +1449,7 @@
 1040250 0 essence
 1040260 0 station essence
 1040260 0 station service
+1040350 0 chewing gum
 1040380 0 verre
 1040380 1 vitreux
 1040530 0 garage
@@ -1155,9 +1460,11 @@
 1041030 0 bise
 1041030 0 bisou
 1041150 0 cuisine
+1041150 1 chitine
 1041200 0 kit
 1041430 0 carte de crédit
 1041430 0 carte de paiement
+1041850 0 capitaine
 1041870 0 chou
 1042050 0 annulation
 1042150 0 campus universitaire
@@ -1174,6 +1481,8 @@
 1042620 0 kilogramme
 1042650 0 kilomètre
 1042820 0 guitare
+1043150 0 gang
+1043150 1 gangster
 1043310 0 air conditionné
 1043310 0 climatiseur
 1043470 0 quiz
@@ -1181,8 +1490,11 @@
 1044020 0 classique
 1044070 0 classe
 1044310 0 club
+1044310 1 trèfle (couleur de carte)
 1044310 2 crabe
-1044440 0 blanchisserie
+1044440 0 blanchissage
+1044440 0 nettoyage
+1044440 0 nettoyage à sec
 1044480 0 crème
 1044830 0 noël
 1046340 0 terrain de sport
@@ -1190,6 +1502,7 @@
 1046430 1 herbe
 1046610 0 graphique
 1046810 0 gramme
+1046840 0 glande
 1046950 0 vert
 1047300 0 groupe
 1047860 0 gâteau
@@ -1206,13 +1519,21 @@
 1049000 1 court (de tennis)
 1049000 1 terrain (de basket ...)
 1049010 0 code
+1049010 1 fil (d'alimentation)
+1049010 1 câble
+1049010 2 accord
+1049010 2 corde
 1049110 0 coin
 1049180 0 café
 1049260 0 grain de café
 1049330 0 cocacola
+1049340 0 chœur
 1049870 0 pièce
 1050310 0 cuisinier
 1050310 1 robinet
+1050310 1 vanne
+1050310 2 coq (poulet mâle)
+1050310 3 pénis
 1050380 0 coton
 1050390 0 verre (pour boire)
 1050390 1 flic
@@ -1223,10 +1544,14 @@
 1050590 2 faire une copie
 1050720 0 publicité
 1050980 0 communication
+1051540 0 collection
+1051540 0 compilation
+1051540 1 correction
 1051840 0 concours
 1051860 0 béton
 1051970 0 concert
 1052330 0 prise de courant
+1052330 1 prise (électrique)
 1052590 0 concours
 1053350 0 ordinateur
 1053800 0 complexe
@@ -1234,8 +1559,11 @@
 1054300 0 Golden Week ?
 1054570 0 caoutchouc
 1054570 0 gomme
+1054570 1 gomme
+1054570 2 préservatif
 1054620 0 golf
 1054850 0 cercle
+1054850 0 club
 1055000 0 service
 1055000 0 support
 1055000 1 biens ou service inclu dans le prix, sans suplément
@@ -1248,13 +1576,13 @@
 1057580 0 sécher la classe
 1057580 0 sécher un cours
 1057850 0 salade
-1057900 0 un plat de salade
 1057960 0 cadre
 1057960 0 employé
 1057960 0 salarié
 1058300 0 lunettes de soleil
 1058480 0 sandale
 1058580 0 sandwich
+1058760 0 échantillon
 1059300 0 saison (sport)
 1059400 0 drap
 1059450 0 feuille
@@ -1262,16 +1590,19 @@
 1060300 0 système
 1060830 0 scénario
 1061300 0 porte-mine (lit. crayon pointu)
+1061440 0 obturateur photographique
 1061440 0 rideau de fer
 1061440 0 volet
 1061520 0 chemise
 1061520 0 maillot de corps
+1061710 0 pelle
 1061820 0 douche
 1061970 0 chaussures
 1062660 0 choc
 1062760 0 courses
 1062760 0 magasinage (Can.)
 1062760 0 shopping
+1062820 0 boutique
 1062910 0 séries
 1063530 0 individuel
 1063530 0 pour une personne (chambre, lit)
@@ -1280,6 +1611,7 @@
 1063940 0 symbole
 1063980 0 symposium
 1064050 0 jeans (pantalons)
+1064120 0 jean
 1064250 0 jet (avion à réaction)
 1064980 0 journaliste
 1064990 0 journalisme
@@ -1292,6 +1624,8 @@
 1065950 0 égalité (tennis)
 1065950 0 boisson non alcoolisée (soda)
 1065950 0 jus
+1065950 2 égalité
+1065950 2 deux
 1066360 0 jogging
 1066680 0 complet
 1066680 0 costume
@@ -1299,6 +1633,8 @@
 1066690 0 valise
 1066710 0 super
 1066710 1 supermarché
+1066710 2 superposer
+1066710 3 superhétérodyne
 1066710 4 (film avec) sous-titres
 1066930 0 supermarché
 1067040 0 bouillon
@@ -1306,6 +1642,7 @@
 1067040 0 soupe
 1067210 0 interrupteur
 1067470 0 jupe
+1067480 0 écharpe
 1067770 0 ski
 1068230 0 école
 1068550 0 écran
@@ -1353,11 +1690,17 @@
 1073570 0 élégant
 1073570 0 chic
 1073570 0 svelte (élancé)
+1073570 1 svelte
 1073660 0 doux
 1073660 0 régulier
 1073710 0 brouillard
 1073710 0 smog
 1073760 0 diapositive
+1073760 1 varier (en valeur ou en situation)
+1073760 1 variation proportionnelle
+1073760 2 coulissant (porte)
+1073760 2 (~ する) glisser
+1073760 2 (~ する) coulisser
 1073900 0 pantoufle
 1073900 0 pantoufles
 1073910 0 combinaison
@@ -1380,7 +1723,11 @@
 1075040 0 centre
 1075060 0 centi-
 1075060 0 centimètre
+1075060 1 centi-
+1075060 1 10^-2
+1075060 2 sentimental
 1075070 0 czntimètre
+1075160 0 séminaire
 1075270 0 sauce
 1075270 0 source (information)
 1075480 0 canapé (sofa)
@@ -1390,6 +1737,7 @@
 1075500 1 chapeau mou
 1075500 2 logiciel
 1075760 0 terminus
+1075840 0 pneu
 1075940 0 genre
 1075940 0 taper à la machine
 1075940 0 type
@@ -1413,6 +1761,7 @@
 1076490 0 pétrolier
 1076490 0 tanker
 1076650 0 douzaine
+1076680 0 diagramme
 1076790 0 dynamite
 1076860 0 teinturier
 1076860 1 diagramme
@@ -1423,32 +1772,38 @@
 1076980 0 (mettre) à terre
 1076980 0 down
 1077110 0 double
+1077110 1 métis
 1077140 0 barrage
-1077140 0 dumb (informatique : dumb terminal = terminal passif, muet)
+1077140 1 stupide
+1077140 1 borné
+1077140 1 muet (informatique )
 1077250 0 danse
 1077330 0 fromage
 1077360 0 équipe
 1077420 0 chaîne
+1077550 0 chèque
 1077650 0 échange
 1077650 0 change (habits)
 1077650 0 changement
 1077680 0 poulet
 1077720 0 billet
 1077720 0 ticket
+1077740 0 pourboire
+1077740 1 puce électronique
 1077930 0 fermeture éclair (lit: chuck)
 1077960 0 chaîne (de télévision)
 1078040 0 chance
 1078040 0 occasion
 1078060 0 champion
 1078160 0 tulipe
-1078240 0 choc
 1078240 0 craie
+1078240 0 starter (étouffoir sur l'entrée d'air d'un moteur)
 1078270 0 chocolat
 1078630 0 table
 1078750 0 cassette (audio)
 1078750 0 bande magnétique
 1078810 0 magnétophone
-1078830 0 sujet (allemand: Thema)
+1078830 0 sujet
 1078830 0 thème
 1079090 0 mouchoir en papier (kleenex)
 1079290 0 texte
@@ -1461,6 +1816,7 @@
 1079760 0 examen
 1079760 0 épreuve
 1080000 0 tennis
+1080030 0 court de tennis
 1080510 0 télévision
 1080510 0 télé
 1080510 0 TV
@@ -1499,6 +1855,7 @@
 1088120 0 document
 1088140 0 docteur
 1088320 0 point
+1088320 2 pixel (point sur un moniteur)
 1088450 0 sec
 1088580 0 conduire
 1088580 0 voyage en voiture
@@ -1561,10 +1918,13 @@
 1096830 0 manette
 1096830 0 poignée
 1096830 0 volant
+1096830 1 volant
+1096830 2 guidon (de bicyclette)
 1096860 0 hamburger
 1096870 0 steak haché
 1097030 0 affaire
 1097030 0 soldes
+1097430 0 barril
 1097740 0 violon
 1097810 0 moto
 1097870 0 octet
@@ -1586,6 +1946,8 @@
 1098760 0 dos crawlé (natation)
 1098760 0 revers (tennis)
 1098760 0 soutien (protection, appui)
+1098760 1 (~する) revenir en arrière 
+1098760 2 (suivi de する) rembourser un client
 1099100 0 bogue (bug informatique)
 1099100 0 sac
 1099110 0 badge
@@ -1602,6 +1964,9 @@
 1099950 1 vallée
 1099960 0 volleyball
 1099970 0 ballet
+1100240 0 groupe
+1100240 1 jouer dans un groupe
+1100240 1 former un groupe (de musique)
 1100610 0 pour cent
 1100760 0 fête
 1100810 0 partie
@@ -1666,6 +2031,7 @@
 1106010 0 facture
 1106010 0 note
 1106010 1 facture
+1106040 0 bâtiment
 1106180 0 pic
 1106180 0 pointe
 1106400 0 piano
@@ -1744,6 +2110,7 @@
 1119940 0 véranda
 1120010 0 sonnerie
 1120010 0 sonnette
+1120010 1 sonnerie, sonnette
 1120070 0 ceinture (pour habits occidentaux)
 1120280 0 établi
 1120280 0 banc
@@ -1795,9 +2162,6 @@
 1127870 0 masque
 1127900 0 communication de masse
 1128430 0 match (compétition)
-1128430 1 allumette
-1128430 2 s'accorder
-1128430 2 qui va bien avec
 1128740 0 manières (bonnes, mauvaises)
 1128740 0 savoir-vivre
 1128940 0 argent
@@ -1832,6 +2196,7 @@
 1131240 0 mini
 1131680 0 musique
 1131830 0 milli-
+1131830 1 millimètre
 1131930 0 millimètre
 1131990 0 lait
 1132190 0 ambiance
@@ -1841,6 +2206,8 @@
 1132440 0 prix public conseillé
 1132530 0 compteur
 1132530 0 taximètre
+1132530 1 mètre (unité)
+1132530 1 compteur (d'électricité, etc.)
 1132570 0 mètre
 1132570 0 compteur
 1132570 1 mètre
@@ -1858,6 +2225,7 @@
 1134990 0 moderne
 1135270 0 modèle
 1135480 0 mono
+1135680 0 monorail
 1136850 0 humour
 1137620 0 yacht
 1137720 0 nouilles chinoises
@@ -1876,6 +2244,8 @@
 1139190 0 heure de pointe
 1140100 0 déjeuner (lunch)
 1140100 0 lancement
+1140100 1 déjeuner
+1140100 2 ranch
 1140270 0 course
 1140270 1 débardeur
 1140710 0 être à la tête
@@ -1906,6 +2276,7 @@
 1145220 0 loisirs
 1145310 0 restaurant (en particulier de style occidental)
 1145910 0 niveau
+1145910 1 niveau
 1145990 0 compte-rendu
 1145990 0 rapport
 1145990 0 reportage
@@ -1921,6 +2292,8 @@
 1147220 0 médaillon
 1147560 0 consigne automatique
 1147560 0 vestiaire
+1147560 1 casier
+1147560 1 consigne
 1147600 0 clé (lutte, catch)
 1147600 0 rock'n roll
 1147800 0 hall (hôtel)
@@ -1967,6 +2340,8 @@
 1150640 0 chien affectueux
 1150640 0 chienchien
 1150740 0 patriotisme
+1150790 0 amour des livres
+1150790 1 livre préféré (spécial)
 1150840 0 surnom affectif
 1150860 0 affection
 1150860 0 amour
@@ -1977,9 +2352,13 @@
 1151090 0 préféré
 1151120 0 présentation
 1151120 0 salutation
+1151120 1 discours (de félicitations ou reconnaissant)
+1151120 1 adresse
 1151120 2 réponse
 1151120 3 représailles
 1151120 3 vengeance
+1151120 4 une bonne chose à dire (utilisé dans le cadre d'une réponse sarcastique à une remarque grossière)
+1151120 5 (sens originel) dialoguer (avec un autre pratiquant zen pour déterminer leur niveau d'éveil)
 1151230 0 mal
 1151260 0 mauvais
 1151260 0 de faible qualité
@@ -1996,6 +2375,7 @@
 1151300 0 désolé mais ...
 1151300 0 ne m'en veuillez pas mais...
 1151390 0 mauvaise intention
+1151390 2 mauvaise intention
 1151450 0 épidémie
 1151470 0 aggravation
 1151470 0 dégénération
@@ -2028,8 +2408,10 @@
 1152070 0 malin (cancer)
 1152070 0 mauvais
 1152070 0 virulent
+1152110 0 mauvais gouvernement
 1152170 0 argent mal gagné
 1152170 0 fausse monnaie
+1152330 0 sale môme
 1152510 0 Satan
 1152510 0 démon
 1152510 0 diable
@@ -2037,6 +2419,8 @@
 1152530 0 cauchemar
 1152530 0 mauvais rêve
 1152570 0 abus
+1152600 0 mauvaise route
+1152600 0 route défoncée
 1152680 0 nigirizushi (poisson cru au centre d'une boulette de riz)
 1152700 0 attraper fermement
 1152720 0 attraper
@@ -2086,6 +2470,7 @@
 1153910 0 repos
 1153930 0 sécurité
 1153930 1 sécurité
+1154060 0 coup sûr (baseball)
 1154070 0 paix
 1154070 0 sécurité
 1154070 0 tranquillité
@@ -2168,6 +2553,9 @@
 1155060 0 sous
 1155060 1 en dessous (par exemple d'un standard)
 1155060 1 sous (par exemple d'un niveau)
+1155060 2 ci-dessous
+1155060 2 ci-après
+1155060 2 le reste
 1155090 0 à l'exception de
 1155090 0 sauf
 1155100 0 après quoi
@@ -2181,12 +2569,25 @@
 1155120 0 davantage
 1155120 0 plus que
 1155120 0 puisque
+1155120 1 au delà... (de ses propres forces)
+1155120 1 plus (ex : rien de plus à ajouter)
+1155120 1 plus que (ex : je ne peux payer plus que ça)
+1155120 2 ci-dessus
+1155120 3 depuis...
+1155120 3 Etant donné que...
+1155120 4 voilà tout
+1155120 4 pour marquer la fin d'une allocution, d'un discours
+1155130 0 télépathie
 1155150 0 autrefois
 1155150 0 avant
 1155180 0 avant de
 1155180 0 moins de
 1155210 0 depuis
 1155210 0 dorénavant
+1155300 0 élégance
+1155300 0 dandysme
+1155300 0 raffinement
+1155300 0 ayant un style
 1155390 0 ordre traditionnel du syllabaire japonais, équivalent de ABC pour l'écriture latine
 1155400 0 grade
 1155400 0 rang
@@ -2202,14 +2603,14 @@
 1155780 0 admirable
 1155780 0 célèbre
 1155780 0 grand
+1155780 1 affreux
+1155780 1 epouvantable
 1155820 0 vue exceptionnelle
 1155840 0 destin exceptionnel
 1155840 0 exploit
 1155840 0 fait exceptionnel
 1155840 0 haut faits
 1155850 0 haut fait
-1155880 0 grand talent
-1155880 0 prodige
 1155890 0 grand homme
 1155890 0 héros
 1155900 0 grand homme
@@ -2222,12 +2623,19 @@
 1155980 0 clôturer
 1155980 0 encercler
 1155980 0 entourer
+1155980 1 assiéger
+1155980 1 faire le siège de
+1155980 2 jouer (au go, au shogi, etc.)
 1155990 0 Jeu de go
+1156020 1 provincial (dans le sens d'une personne vivant loin d'une grande ville)
+1156020 3 étranger
+1156020 3 barbare
 1156090 0 confier à
 1156090 0 s'en remettre à
 1156100 0 membre d'un comité
 1156110 0 comité
 1156110 0 commission
+1156120 0 président de comité
 1156140 0 détail
 1156160 0 commission
 1156160 0 consignation
@@ -2236,6 +2644,8 @@
 1156180 0 procuration
 1156220 0 intimidation
 1156220 0 menace
+1156220 1 menacer
+1156220 1 intimider
 1156270 0 dignité
 1156290 0 prestige
 1156300 0 puissance
@@ -2289,9 +2699,15 @@
 1157080 2 conséquence
 1157080 2 résultat
 1157080 2 effet
+1157080 3 à propos de
+1157080 3 concernant
 1157090 0 faire
 1157130 0 accomplir
 1157130 0 faire
+1157130 2 accomplir
+1157130 2 réussir
+1157130 3 se transformer en
+1157130 6 enfanter
 1157170 0 faire
 1157170 1 faire devenir
 1157170 1 rendre
@@ -2322,6 +2738,7 @@
 1157170 9 s'écouler
 1157300 0 homme d'état
 1157330 0 change (d'argent)
+1157330 1 change (de monnaie)
 1157510 0 être différent de
 1157510 0 différer
 1157580 0 objection
@@ -2329,10 +2746,13 @@
 1157580 0 protestation
 1157610 0 paganisme
 1157670 0 pays étranger
+1157690 0 grand talent
+1157690 0 prodige
 1157700 0 hétérogène
 1157760 0 étrangeté
 1157760 0 anomalie
 1157860 0 sexe opposé
+1157890 0 opinion inverse, divergente, différente
 1157940 0 hérésie
 1157970 0 changement
 1157970 0 mouvement
@@ -2343,6 +2763,8 @@
 1158210 0 être déménager
 1158210 0 être transféré
 1158210 1 être contagieux
+1158210 2 s'écouler (durée de temps)
+1158210 3 etre imprégné par une couleur ou une odeur
 1158210 4 être infecté
 1158210 4 être contagieux
 1158210 4 se répandre (comme le feu)
@@ -2403,10 +2825,12 @@
 1159090 0 dommage
 1159090 0 regret
 1159130 0 testament
+1159220 0 cendres d'un défunt
 1159230 0 rancœur
 1159230 0 rancune
 1159260 0 héritage
 1159260 0 patrimoine
+1159320 0 perte
 1159330 0 objet perdu
 1159380 0 ruines
 1159380 0 vestiges
@@ -2415,14 +2839,20 @@
 1159430 0 dépouille
 1159430 0 restes
 1159460 0 hérédité
+1159500 0 gène
 1159680 0 complet
 1159680 0 sans omission
+1159770 0 département de médecine
 1159810 0 médecine
 1159880 0 faculté de médecine
 1159890 0 terme médical
 1159930 0 médecin
 1159980 0 docteur (médical)
 1159980 0 médecin
+1160030 0 école médicale
+1160090 0 cabinet du médecin
+1160090 0 cabinet médical
+1160090 0 infirmerie
 1160110 0 médicament
 1160110 0 produit pharmaceutique
 1160140 0 soins médicaux
@@ -2453,6 +2883,7 @@
 1160830 0 séparément
 1160830 0 un par un
 1160980 0 une poignée
+1161000 0 soulagement
 1161070 0 membre
 1161130 0 toute la région
 1161130 0 un yen
@@ -2510,6 +2941,7 @@
 1163170 0 un type (~ de)
 1163170 0 une sorte (~ de)
 1163170 0 une variété (~ de)
+1163260 0 une semaine
 1163340 0 un instant
 1163340 0 un moment
 1163400 0 ensemble
@@ -2591,6 +3023,7 @@
 1164690 0 d'autant plus
 1164690 0 plus
 1164690 1 une partie (de discours)
+1164690 2 une partie (de discours)
 1164710 0 pause
 1164740 0 accord
 1164740 0 coïncidence
@@ -2708,6 +3141,9 @@
 1167840 0 récolte du riz
 1167860 0 éclair
 1167870 0 récolte de riz
+1167880 0 criquet de riz (du genre Oxya)
+1167880 1 sauterelle
+1167880 1 sauterelle
 1167920 0 la tête du riz
 1167960 0 patate
 1167960 0 pomme de terre
@@ -2731,6 +3167,9 @@
 1168660 0 dépendre de
 1168660 0 provenir de
 1168660 0 venir de
+1168660 1 dépendre de
+1168660 2 provenir de
+1168660 2 venir de
 1168670 0 destin
 1168670 0 fatalité
 1168670 1 cause
@@ -2788,6 +3227,8 @@
 1169280 0 fermer (boutique)
 1169280 0 se sentir inférieur
 1169280 0 être honteux, géné (ki ga ~)
+1169280 1 se sentir inférieur
+1169280 1 être honteux, géné (ki ga ~)
 1169310 0 désavantage
 1169310 0 point faible
 1169320 0 culbuter
@@ -3330,8 +3771,27 @@
 1180470 0 appuyer
 1180470 1 appuyer
 1180470 1 presser
+1180470 10 engager ses troupes
+1180470 10 attaquer
+1180470 11 (de la lumiére) être diffusée sur la totalité d'une surface
 1180470 2 tamponner (un passeport)
 1180470 2 appliquer un sceau
+1180470 3 appliquer (ex. une feuille d'or)
+1180470 4 presser (quelqu'un pour quelque chose)
+1180470 4 recommander avec insistence
+1180470 4 forcer
+1180470 4 influencer
+1180470 5 submerger
+1180470 5 vaincre
+1180470 5 terrasser
+1180470 5 réprimer
+1180470 6 pousser (vers un but)
+1180470 6 faire avancer (un plan)
+1180470 7 faire malgré …
+1180470 7 faire même si …
+1180470 7 forcer
+1180470 8 s'assurer 
+1180470 9 avoir peu de temps
 1180490 0 rimer (poésie)
 1180510 0 confiscation
 1180510 0 réquisition
@@ -3489,16 +3949,17 @@
 1183990 0 lire a voix haute
 1184000 0 lecture on (chinoise) d'un kanji
 1184040 0 note (musique)
-1184140 0 en-dessous
-1184140 0 en bas
 1184140 0 sous
+1184140 0 au-dessous
+1184140 0 derrière
+1184140 0 benjamine (ex. fille)
 1184140 1 bas
 1184140 2 dessous
 1184140 2 en dessous
 1184140 3 juste après
 1184140 3 juste ensuite
-1184140 4 plus jeune
-1184140 4 moins expérimenté
+1184140 4 infériorité
+1184140 4 son inférieur (c.a.d. quelqu'un de plus jeune que soi)
 1184140 5 trade-in
 1184140 6 préliminaire
 1184140 6 préparatoire
@@ -3572,6 +4033,9 @@
 1185930 0 sous-vêtements
 1185940 0 shitamachi
 1185940 0 ville basse
+1185960 0 visage rond
+1185960 1 élargi en bas
+1185960 1 joufflu
 1185970 0 investigation préliminaire
 1185970 0 préparation
 1186030 0 de bas niveau
@@ -3584,9 +4048,6 @@
 1186260 0 œuvre sous-tendant (une œuvre plus récente)
 1186260 0 sous-* (objet mis à plat sous quelque chose)
 1186260 0 sous-main
-1186410 0 élargi en bas
-1186410 0 joufflu
-1186410 0 visage rond
 1186540 0 diarrhée
 1186560 0 aval (rivière)
 1186560 0 couche basse
@@ -3724,6 +4185,7 @@
 1190120 0 processus de fabrication
 1190120 0 traitement
 1190370 0 accélération
+1190390 0 accélération
 1190430 0 être admis
 1190430 0 adhérer
 1190430 0 devenir membre
@@ -3815,6 +4277,8 @@
 1192360 0 rubrique familiale (journal)
 1192410 0 ordre de succession d'héritage
 1192420 0 ma femme
+1192420 1 mon épouse
+1192420 1 au sein de la famille
 1192460 0 (de) bonne famille
 1192460 0 famille (respectée)
 1192460 0 lignée
@@ -3884,13 +4348,15 @@
 1193450 0 chanson
 1193460 0 chanson populaire
 1193520 0 torrent, rivière ou fleuve (générique)
-1193530 0 lit de rivière
 1193600 0 bord de rivière
 1193600 0 rive de fleuve
 1193610 0 feu
 1193610 0 flamme
 1193720 0 cocktail Molotov
 1193760 0 étincelle
+1193860 0 cratère
+1193860 0 caldeira
+1193860 0 bouche d'un volcan
 1193870 0 lac de cratère
 1193880 0 embrasement
 1193880 0 incendie
@@ -4010,6 +4476,9 @@
 1195970 3 surpasser
 1195970 3 être au dessus
 1195970 4 ne pas être plus que...
+1195970 5 (souvent utilisé après le radical d'un adjectif ou d'un verbe)
+1195970 5 trop
+1195970 5 être ou faire en excès
 1196000 0 passer (le temps)
 1196010 0 erreur
 1196010 0 faute
@@ -4221,8 +4690,14 @@
 1199890 0 briser
 1199890 0 casser
 1199890 0 détruire
+1199890 1 détruire
+1199890 1 ruiner
+1199890 1 abîmer
+1199890 2 casser (un billet, faire de la monnaie, etc.)
 1199900 0 se briser
 1199900 0 se casser
+1199900 1 s'écrouler
+1199900 1 n'aboutir à rien
 1199920 0 scorbut
 1199930 0 anéantissement
 1199930 0 destruction
@@ -4254,6 +4729,9 @@
 1200450 0 faire ses condoléances
 1200450 0 regretter
 1200450 0 se repentir
+1200450 1 être désolé
+1200450 1 regretter
+1200450 1 se repentir
 1200460 0 remords
 1200470 0 regret
 1200470 0 remords
@@ -4285,6 +4763,17 @@
 1200740 0 une nouvelle fois
 1200750 0 changer
 1200750 0 modifier
+1200750 1 réformer
+1200750 1 corriger
+1200750 1 modifier
+1200750 1 améliorer
+1200750 1 réviser
+1200750 2 examiner
+1200750 2 vérifier
+1200750 2 inspecter
+1200750 2 contrôler
+1200750 3 procéder de manière correcte
+1200750 3 procéder de manière formelle
 1200780 0 amélioration
 1200780 0 réforme
 1200810 0 changement constitutionnel
@@ -4383,6 +4872,11 @@
 1202410 0 crabe
 1202440 0 ouvrir
 1202440 0 s'ouvrir
+1202440 1 étendre
+1202440 1 ouvrir (bourgeon de fleur, parapluie, etc)
+1202440 1 élargir (écart, distance, largeur)
+1202440 2 tenir une conférence
+1202440 2 donner (une réception)
 1202450 0 ouvrir (une porte, etc.)
 1202450 0 déballer (un paquet, un cadeau)
 1202450 1 ouvrir (pour un commerce, etc)
@@ -4392,6 +4886,8 @@
 1202450 3 se lever (l'aube, le jour)
 1202450 3 s’éclairer
 1202450 4 finir
+1202450 5 devenir clair
+1202450 5 se lever (aube)
 1202460 0 se civiliser
 1202460 0 se développer
 1202460 0 se moderniser
@@ -4497,6 +4993,8 @@
 1203990 0 télégramme de l'étranger
 1204070 0 externe
 1204070 0 l'extérieur
+1204070 1 extérieur
+1204070 1 externe
 1204090 0 riz de l'étranger
 1204090 0 riz non-japonais
 1204120 0 douves extérieures (château)
@@ -4718,6 +5216,7 @@
 1207060 0 frais d'étude
 1207080 0 U.E.R.
 1207080 0 faculté
+1207080 1 étudiant(e)
 1207130 0 connaissance
 1207130 0 science
 1207150 0 camarade d'école
@@ -4735,6 +5234,8 @@
 1207240 0 agréable
 1207240 0 amusant
 1207250 0 plaisir
+1207250 1 excitation
+1207250 1 attendre quelque chose avec impatience
 1207270 0 prendre plaisir à
 1207270 0 se divertir
 1207290 0 le Paradis
@@ -4841,6 +5342,12 @@
 1208020 0 se cliver
 1208020 0 se fendre
 1208020 0 se fissurer
+1208020 1 fendre
+1208020 1 casser
+1208020 1 fissurer
+1208020 1 être déchiré
+1208020 2 être divisé
+1208020 2 fendre
 1208080 0 cession (de territoire)
 1208180 0 éclaicissements !
 1208180 0 déclaration
@@ -4874,6 +5381,8 @@
 1208640 0 déraper
 1208640 0 glisser
 1208640 0 patiner
+1208640 1 échouer (à un examen)
+1208640 1 éclater de rire (en racontant une blague)
 1208660 0 amusant
 1208660 0 comique
 1208660 0 divertissant
@@ -5008,6 +5517,10 @@
 1211340 0 intolérable
 1211350 0 pardon
 1211350 0 patience
+1211380 0 agaçant
+1211380 0 bruyant
+1211380 1 rigoureux
+1211380 1 strict
 1211440 0 achèvement
 1211440 0 conclusion
 1211480 0 accomplissement
@@ -5112,6 +5625,8 @@
 1212660 0 expérience
 1212660 0 pratique
 1212670 0 s'habituer à
+1212670 1 devenir domestiqué
+1212670 1 devenir apprivoisé
 1212700 0 coutume
 1212700 0 us et coutumes
 1212730 0 expression courante
@@ -5301,17 +5816,28 @@
 1215230 0 espace
 1215230 0 intervalle
 1215230 0 pendant
+1215230 1 temps, durée (entre deux instants)
+1215230 1 pause
+1215230 2 la durée (temporelle ou spatiale)
+1215230 2 l'étirement
+1215230 2 période (tandis que)
+1215230 3 relation (entre deux ou plusieurs personnes)
+1215230 5 en raison de
+1215230 5 à cause de
 1215240 0 écart
 1215240 0 espace
 1215240 0 intervalle de temps
 1215260 0 arriver à temps
 1215260 0 suffire
+1215260 1 convenir
+1215260 1 remplir (atteindre) l'objectif
 1215290 0 bientôt
 1215290 0 sous peu
 1215320 0 erreur
 1215320 0 faute
 1215330 0 faire une erreur
 1215330 0 se tromper
+1215330 1 confondre qqch pur qqch d'autre
 1215340 0 à un cheveu
 1215340 0 de justesse
 1215380 0 écartement
@@ -5339,8 +5865,14 @@
 1215810 0 à cause de
 1215810 0 liaison
 1215810 0 rapport
+1215810 1 participation
+1215810 1 implication
 1215810 2 influence
 1215810 2 effet
+1215810 3 relations sexuelles
+1215810 3 relation sexuelle
+1215810 4 connecté à...
+1215810 4 en relation avec...
 1215860 0 barrière
 1215870 0 intérêt
 1215910 0 Kansai (région de Kyoto et d'Osaka)
@@ -5434,6 +5966,12 @@
 1217700 0 insister
 1217700 0 persister
 1217700 0 tenir ferme
+1217700 1 insister
+1217700 1 s'en tenir (à son opinion première)
+1217700 2 rester à son poste
+1217700 2 refuser de bouger
+1217710 0 entêtement
+1217710 0 obstination
 1217730 0 visage (personne)
 1217730 0 figure
 1217820 0 mine
@@ -5509,10 +6047,13 @@
 1218560 0 danger
 1218560 0 péril
 1218560 0 risque
+1218560 1 dangereux
 1218680 0 agonie
 1218680 0 proche de la mort
 1218760 0 être joyeux
 1218760 0 se réjouir
+1218760 1 féliciter
+1218760 2 accepter avec reconnaissance
 1218780 0 joie
 1218780 0 ravissement
 1218810 0 comédie
@@ -5698,6 +6239,14 @@
 1221500 0 le chemin du retour
 1221520 0 esprit
 1221520 0 humeur
+1221520 1 nature
+1221520 1 disposition, tempérament
+1221520 2 motivation
+1221520 2 intention
+1221520 3 humeur
+1221520 3 sentiments
+1221520 4 atmosphère
+1221520 4 essence
 1221740 0 agréer
 1221770 0 "c'est triste"
 1221770 0 "quelle pitié !"
@@ -6021,6 +6570,11 @@
 1226310 0 bon présage
 1226320 0 bonne nouvelle
 1226340 0 bégayer
+1226360 0 être surpris
+1226360 0 être stupéfait
+1226360 0 avoir peur
+1226360 0 être étonné
+1226360 1 surprise (p.e. fête surprise)
 1226380 0 boire
 1226380 0 faire une pause
 1226380 0 fumer
@@ -6049,6 +6603,14 @@
 1226620 0 rejet (d'une proposition...)
 1226630 0 client
 1226630 0 hôte
+1226630 1 client
+1226630 1 client
+1226630 1 client
+1226630 1 client, spectateur/-trice
+1226630 1 public
+1226630 1 touriste
+1226630 1 touriste
+1226630 1 passager/-ère
 1226640 0 hospitalité
 1226690 0 objectivité
 1226700 0 objectif
@@ -6197,6 +6759,14 @@
 1228560 0 urgent
 1228560 1 escarpé
 1228560 1 raide
+1228560 2 rapide
+1228560 2 rapide
+1228560 2 rapide
+1228560 3 urgence
+1228560 3 crise
+1228560 4 empressement
+1228560 4 hâte
+1228560 5 fin d'une chanson (dans le Noh ou le Gagaku)
 1228580 0 faire se dépêcher
 1228580 0 presser quelqu'un
 1228650 0 se dépêcher
@@ -6209,6 +6779,7 @@
 1228680 0 brusque
 1228680 0 soudain
 1228690 0 train express
+1228690 1 express (train qui ne s'arrête pas à toutes les stations)
 1228750 0 point névralgique
 1228750 0 point vital
 1228750 0 talon d'Achille
@@ -6482,6 +7053,7 @@
 1234080 0 match
 1234140 0 compétition
 1234140 0 concours
+1234140 1 rivaliser
 1234190 0 course
 1234210 0 course de chevaux
 1234220 0 criée
@@ -6570,8 +7142,6 @@
 1236150 0 souligner
 1236170 0 forcé
 1236170 0 par la force
-1236180 0 de force
-1236180 0 par la force
 1236200 0 intensification
 1236200 0 renforcement
 1236230 0 énergique
@@ -6934,6 +7504,9 @@
 1240530 0 balle
 1240530 0 joyau
 1240530 0 sphère
+1240530 4 balle (de pistolet)
+1240530 4 cartouche
+1240530 4 munition
 1240580 0 défaite honorable
 1240580 0 mort honorable
 1240590 0 sceau impérial
@@ -7427,6 +8000,10 @@
 1247240 0 ordre
 1247250 0 toi (mon ami)
 1247250 0 tu
+1247250 1 monarque
+1247250 1 seigneur
+1247250 1 dirigeant
+1247250 1 (son) maître
 1247260 0 Monsieur (jeune)
 1247260 0 garçon
 1247260 0 suffixe pour les noms de personne
@@ -7580,6 +8157,7 @@
 1250220 0 forme
 1250220 0 ligne (femme)
 1250220 0 type
+1250220 1 visage
 1250260 0 souvenir
 1250270 0 constituer
 1250270 0 façonner
@@ -7837,6 +8415,10 @@
 1253190 0 accueillir en son sein
 1253190 0 aller à la rencontre de
 1253190 0 aller chercher
+1253190 1 accueillir, recevoir
+1253190 1 accueillir
+1253190 2 accepter (en tant que membre d'un groupe ou d'une famille)
+1253190 3 inviter
 1253200 0 attaquer
 1253200 0 rencontrer l'ennemi
 1253250 0 être opportuniste
@@ -7857,6 +8439,9 @@
 1253570 0 détruire
 1253570 0 frapper
 1253570 0 tirer
+1253570 1 assaillir
+1253570 1 attaquer
+1253570 1 combattre
 1253600 0 couler (bateau)
 1253610 0 abattre (un avion)
 1253670 0 émotion violente
@@ -7912,6 +8497,9 @@
 1254160 0 être confus
 1254160 0 être gêné
 1254180 0 décider
+1254180 3 avoir pour habitude de
+1254180 4 considérer comme acquis
+1254180 7 immobiliser par une clé de bras (au sumo, judo etc.)
 1254210 0 réprimander
 1254220 0 décision
 1254220 0 détermination
@@ -7930,8 +8518,6 @@
 1254430 0 se rompre (négociations)
 1254440 0 pur
 1254440 0 viril
-1254450 0 héroique
-1254450 0 viril
 1254460 0 innocent
 1254460 0 intègre
 1254460 0 pur
@@ -7998,6 +8584,7 @@
 1255410 0 larmes de tristesse, de colère
 1255430 0 lune
 1255430 0 mois
+1255430 1 mois
 1255470 0 fusée lunaire
 1255530 0 publication mensuelle
 1255560 0 salaire mensuel
@@ -8030,6 +8617,7 @@
 1256170 0 santé
 1256300 0 en bonne santé
 1256330 0 en très bonne santé
+1256350 0 examen médical
 1256360 0 équilibré
 1256360 0 sain
 1256440 0 tendance à oublier
@@ -8043,6 +8631,7 @@
 1256670 0 travail simultané
 1256730 0 coupon
 1256730 0 ticket
+1256750 0 épée
 1256810 0 pièce d'épée (sans cape...)
 1256810 0 théâtre de samurai
 1256910 0 kendo
@@ -8056,6 +8645,17 @@
 1257110 0 dur (spéc. bois)
 1257110 0 ferme
 1257110 0 honorable
+1257110 1 raide
+1257110 1 rigide
+1257110 1 strict
+1257110 2 net (photographie)
+1257110 3 sûr
+1257110 3 honnête
+1257110 4 têtu
+1257110 4 entêté
+1257110 5 littéraire
+1257110 5 formel
+1257110 5 rigide
 1257130 0 cérémonieux
 1257130 0 trop sérieux
 1257140 0 ferme
@@ -8154,6 +8754,9 @@
 1258520 0 étude
 1258520 0 investigation
 1258520 0 recherche
+1258570 0 laboratoire
+1258570 1 salle de séminaire
+1258570 2 laboratoire
 1258710 0 soie
 1258730 0 articles en soie
 1258740 0 aiguille pour le travail de la soie
@@ -8174,6 +8777,9 @@
 1259140 0 être vu
 1259140 0 apparaître
 1259140 0 sembler
+1259140 1 regarder
+1259140 1 sembler
+1259140 1 apparaître
 1259170 0 mésestimer
 1259170 0 sous-estimer
 1259180 0 minable
@@ -8406,6 +9012,12 @@
 1262530 0 intense (froid)
 1262530 0 sévère
 1262530 0 strict
+1262530 1 sévère
+1262530 1 austère
+1262530 1 grave
+1262530 1 solennel
+1262530 1 majestueux
+1262530 2 intense (froid)
 1262560 0 garde renforcée
 1262570 0 austérité
 1262570 0 rigidité
@@ -9502,6 +10114,12 @@
 1279640 0 relu
 1279680 0 être concerné
 1279680 0 s'intéresser
+1279680 1 prendre soin de
+1279680 1 s'occuper de
+1279680 3 interférer avec
+1279680 3 se mêler de
+1279680 4 s'inquiéter
+1279680 4 se soucier
 1279700 0 édifier
 1279700 0 ériger
 1279700 0 établir
@@ -9728,6 +10346,7 @@
 1282650 0 minéral
 1282680 0 acier
 1282740 0 acier
+1282770 0 commencer à pleuvoir
 1282790 0 grêler
 1282790 0 neiger
 1282790 0 pleuvoir
@@ -9778,6 +10397,7 @@
 1283400 0 de haut niveau
 1283400 0 de première classe
 1283400 0 rang élevé
+1283400 1 rang élevé
 1283440 0 noblesse
 1283440 0 pureté
 1283490 0 haut plateau
@@ -9840,6 +10460,16 @@
 1284430 0 convenir
 1284430 0 faire l'affaire
 1284430 0 s'adapter à
+1284430 1 s'adapter
+1284430 1 faire correspondre
+1284430 1 en fonction
+1284430 1 être d'accord avec
+1284430 1 correct
+1284430 2 être rentable
+1284430 2 être équitable
+1284430 3 faire ensemble
+1284430 3 se faire l'un l'autre
+1284430 3 (après le radical d'un verbe)
 1284460 0 être face à face
 1284460 0 comparer
 1284460 0 faire correspondre
@@ -9861,6 +10491,8 @@
 1284480 0 se mélanger
 1284480 0 unir
 1284480 0 vérifier
+1284480 1 joindre
+1284480 1 réunir
 1284550 0 accord
 1284550 0 consentement
 1284550 0 entente
@@ -10080,6 +10712,9 @@
 1288480 0 tout de suite
 1288490 0 devenir sénile
 1288490 0 s'affaiblir
+1288490 1 déteindre
+1288490 1 se décolorer
+1288490 1 se faner (couleur)
 1288500 0 être amoureux
 1288500 0 être charmé par
 1288500 0 tomber amoureux
@@ -10223,8 +10858,6 @@
 1290320 0 mixture
 1290330 0 race mixe
 1290330 0 sang-mêlé
-1290340 0 métis
-1290340 0 personne d'origines mélangées
 1290360 0 mélange
 1290360 0 mixture
 1290390 0 bousculade
@@ -10344,6 +10977,8 @@
 1291470 0 enquête
 1291470 0 interrogatoire
 1291500 0 sable
+1291500 1 sable
+1291500 1 gravier
 1291520 0 dune
 1291520 0 dune de sable
 1291540 0 sablier
@@ -10551,6 +11186,7 @@
 1295070 0 être payé
 1295070 0 finir
 1295070 0 s'en tirer
+1295070 2 se sentir à l'aise
 1295080 0 calamité
 1295080 0 catastrophe
 1295090 0 accident
@@ -10597,6 +11233,9 @@
 1295530 0 petit
 1295530 1 fin
 1295530 1 minutieux
+1295530 2 mineur
+1295530 2 trivial
+1295530 3 sensible, requérant l'attention
 1295560 0 léger
 1295560 0 modest
 1295570 0 s'amincir
@@ -11067,6 +11706,9 @@
 1304390 0 acidité
 1304390 0 aigreur
 1304420 0 peu de temps après (un peu long)
+1304420 1 pendant un certain temps
+1304420 1 pendant un moment
+1304420 2 cela fait longtemps
 1304440 0 court moment
 1304450 0 expérimental
 1304450 0 temporaire
@@ -11162,7 +11804,6 @@
 1305990 2 consommer
 1305990 3 utiliser (une langue)
 1305990 3 parler
-1305990 4 prendre (un repas)
 1306030 0 ambassade
 1306030 0 délégué
 1306030 0 envoyé
@@ -11481,13 +12122,26 @@
 1310640 0 cesser
 1310640 0 stopper
 1310670 0 arrêter (qqchose)
+1310670 1 se concentrer sur
+1310670 1 faire attention à
+1310670 2 se rappeler
+1310670 2 garder à l'esprit
+1310670 5 attacher
+1310670 5 fixer
+1310670 6 garder
+1310670 6 retenir
 1310680 0 cesser
 1310680 0 stopper
 1310680 0 terminer
+1310680 1 annuler
+1310680 1 abandonner
+1310680 1 renoncer à
+1310680 1 abolir
 1310700 0 hémostatique
 1310700 0 outils, instrument pour arrêter l'hémorragie
 1310720 0 décès
 1310720 0 mort
+1310720 1 peine de mort (par strangulation ou décapitation)
 1310730 0 mourir
 1310740 0 cause de la mort
 1310800 0 mort
@@ -11660,6 +12314,12 @@
 1313540 0 vexé
 1313580 0 chose
 1313580 0 le fait de
+1313580 2 circonstances
+1313580 2 situation
+1313580 2 état des lieux
+1313580 3 travail
+1313580 3 activité
+1313580 3 affaire
 1313590 0 en fonction des circonstances
 1313670 0 affaire
 1313670 0 entreprise
@@ -11668,6 +12328,8 @@
 1313830 0 incident
 1313850 0 accident
 1313850 0 incident
+1313850 1 circonstances
+1313850 1 raisons
 1313910 0 article
 1313910 0 matière
 1313910 0 sujet
@@ -11722,6 +12384,8 @@
 1315130 0 écriture
 1315130 0 caractère
 1315130 0 lettre
+1315130 1 écriture manuscrite
+1315130 1 calligraphie
 1315140 0 dictionnaire
 1315150 0 nombre de coups de pinceau dans un caractère
 1315200 0 façon de former les lettres
@@ -11787,8 +12451,8 @@
 1316040 0 période
 1316040 0 saison
 1316040 0 temps
-1316080 0 avant l'heure
-1316080 0 en avance
+1316070 0 avant l'heure
+1316070 0 en avance
 1316090 0 l'occasion
 1316090 0 le bon moment
 1316100 0 salaire à l'heure
@@ -11815,6 +12479,13 @@
 1316300 0 ère
 1316300 0 époque
 1316300 0 période
+1316300 1 les temps
+1316300 1 cette époque
+1316300 2 vieillesse
+1316300 2 ancienneté
+1316300 2 antiquité
+1316300 3 ancien
+1316300 3 pièce d'époque
 1316360 0 annonce de l'heure
 1316360 0 bulletin
 1316360 0 horloge sonore
@@ -12005,6 +12676,8 @@
 1319060 0 équation
 1319060 0 cérémonie
 1319060 0 formule
+1319060 1 cérémonie
+1319060 2 style
 1319080 0 expression de salutation consacrée pour s'enquérir de sa place à une cérémonie
 1319080 0 salutation cérémoniale
 1319160 0 discernement
@@ -12060,6 +12733,10 @@
 1320170 0 désespoir
 1320230 0 discourtoisie
 1320230 0 impolitesse
+1320230 1 excusez-moi
+1320230 1 au revoir
+1320230 2 quitter
+1320230 3 grossier
 1320240 0 excusez moi
 1320240 0 je suis désolé
 1320250 0 cœur brisé
@@ -12414,7 +13091,6 @@
 1326040 0 chef (d'un projet)
 1326040 0 responsable
 1326160 0 femme au foyer
-1326240 0 leader (d'une coalition)
 1326290 0 rôle principal
 1326320 0 principal
 1326530 0 manière d'utiliser
@@ -12504,6 +13180,7 @@
 1327190 10 une main (aux cartes)
 1327190 11 coté
 1327190 11 direction
+1327190 12 mouvement (dans le go, le shogi, etc.)
 1327190 2 poignée (de porte, etc.)
 1327190 3 assistant
 1327190 3 travailleur
@@ -12682,6 +13359,9 @@
 1329000 0 intérêt
 1329000 0 passe-temps
 1329000 0 préférence
+1329000 1 goûts
+1329000 1 préférence
+1329000 1 affection
 1329010 0 alcool
 1329010 0 saké
 1329015 0 alcool
@@ -12717,6 +13397,7 @@
 1329390 0 résultat
 1329410 0 capitale
 1329410 0 métropole
+1329430 0 leader (d'une coalition)
 1329460 0 Confucianiste
 1329470 0 Confucianisme
 1329490 0 érudit du confucianisme
@@ -12732,6 +13413,16 @@
 1329590 0 prendre une leçon
 1329590 0 subir
 1329590 0 subir (un test)
+1329590 1 attraper (par exemple un ballon)
+1329590 10 être bien reçu
+1329590 10 devenir populaire
+1329590 10 être bien tombé
+1329590 2 être frappé par (le vent, les vagues, la lumière du soleil, etc...)
+1329590 6 suivre
+1329590 6 réussir
+1329590 6 descendre de
+1329590 7 pour faire face à (au sud, etc)
+1329590 9 obtenir (un élément mis en gage, etc) en payant des frais
 1329600 0 hériter
 1329600 0 prendre la relève
 1329600 0 succéder
@@ -12935,9 +13626,6 @@
 1332400 0 réfection
 1332400 0 réparation
 1332450 0 achèvement (d'un cours)
-1332490 0 démoralisé
-1332490 0 malheureux
-1332490 0 triste
 1332520 0 10
 1332520 0 le chiffre dix(utilisé dans les documents officiels)
 1332560 0 objet trouvé
@@ -12992,8 +13680,11 @@
 1333040 0 arrêt (?)
 1333040 0 fermeture
 1333040 0 fin
-1333070 0 étudier
-1333070 0 apprendre
+1333070 0 prendre des leçons de
+1333070 0 être enseigné
+1333070 0 apprendre (d'un professeur)
+1333070 0 étudier (sous le contrôle d'un professeur)
+1333070 0 recevoir une formation
 1333090 0 coutumes
 1333090 0 habitudes
 1333090 0 manières
@@ -13338,7 +14029,6 @@
 1338240 1 être publié
 1338240 1 apparaître
 1338240 2 répondre (à la porte, au téléphone)
-1338280 0 temple d'Izumo (Shimane)
 1338290 0 entrée en scène
 1338290 0 représentation (théâtre)
 1338330 0 départ de feux
@@ -13737,6 +14427,7 @@
 1345250 0 de sexe féminin
 1345250 0 femme
 1345250 0 le sexe féminin
+1345250 1 féminin
 1345370 0 domestique
 1345370 0 servante
 1345420 0 (mon) épouse
@@ -13757,6 +14448,13 @@
 1345600 0 bientôt
 1345600 0 doucement
 1345600 0 lentement
+1345605 0 lentement
+1345605 0 tranquillement
+1345605 0 régulièrement
+1345605 0 progressivement
+1345605 0 avec précaution
+1345605 1 bientôt
+1345605 1 momentanément
 1345610 0 marcher lentement
 1345640 0 éliminer
 1345640 0 enlever
@@ -13770,11 +14468,6 @@
 1345770 0 inauguration (cérémonie)
 1345790 0 excommunication
 1345790 0 expulsion
-1345820 0 endommager
-1345830 0 avarier(marchandise,nourriture)
-1345830 0 blesser
-1345830 0 endommager
-1345830 0 gâter
 1345840 0 accident
 1345840 0 blessure
 1345840 0 dommage
@@ -13924,9 +14617,6 @@
 1348910 0 rare
 1348910 0 un petit nombre
 1348910 0 un peu
-1348980 0 courte pause
-1348980 0 récréation
-1348980 0 relâche
 1349000 0 capitaine de corvette
 1349000 0 chef d'escadrille
 1349000 0 commandant
@@ -13994,6 +14684,7 @@
 1349900 0 pinède
 1349950 0 aiguille de pin
 1349970 0 forêt de pins
+1350000 0 bûcheron
 1350010 0 étang
 1350010 0 marais
 1350020 0 étang
@@ -14033,9 +14724,18 @@
 1350600 0 cuire
 1350600 0 griller
 1350600 0 rôtir
+1350600 1 développer (des photos)
+1350600 2 bronzer
+1350600 3 brûler (dans les flammes, complètement)
+1350600 3 griller
+1350600 3 graver (un CD, DVD, etc...)
+1350600 4 brûler
+1350600 4 griller
 1350610 0 être brûlé
 1350610 0 être bronzé
 1350610 0 être grillé
+1350610 1 être grillé
+1350610 1 cuit
 1350670 0 alcool distillé
 1350670 0 liqueur
 1350710 0 (sl)faire cramer
@@ -14151,10 +14851,10 @@
 1352090 0 porte coulissante japonaise (en papier)
 1352110 0 barrage
 1352110 0 barrière
-1352130 0 au-dessus
-1352130 0 dessus
-1352130 0 supérieur
 1352130 0 sur
+1352130 0 au-dessus
+1352130 0 en haut
+1352130 0 aîné (ex. fille)
 1352130 1 le dessus
 1352130 1 sommet
 1352130 10 place d'un supérieur (ex. le trône)
@@ -14204,6 +14904,7 @@
 1352290 0 s'élever
 1352290 0 se lever
 1352290 1 entrer (poli)
+1352290 13 gagner (dans un jeu de cartes, etc.)
 1352290 2 débarquer
 1352290 2 sortir de
 1352290 3 être efficace
@@ -14242,15 +14943,16 @@
 1352320 20 mener (une cérémonie, particulièrement un mariage)
 1352320 21 monter (pour la marée)
 1352320 22 vomir
-1352320 23 (après la forme en -te d'un verbe, marque que l'action est faite dans l'intérêt de quelqu'un)
-1352320 24 (après le radical d'un verbe) marque que l'action est conduite à son terme
-1352320 25 (après le radical d'un verbe d'humilité) marque un accroissement du niveau d'humilité
+1352320 23 faire (au nom de quelqu'un d'autre)
+1352320 24 achever
+1352320 25 faire avec humilité
 1352320 3 décharger (un bateau)
 1352320 4 frire
 1352320 5 faire visiter (une pièce, etc.)
 1352320 6 (RU) convoquer (pour les geishas, etc.)
 1352320 7 congédier
-1352320 8 inscrire (son enfant à l'école) 
+1352320 8 inscrire quelqu'un (à une école, un club)
+1352320 8 enrôler
 1352320 9 augmenter (prix, qualité, statut, etc.)
 1352410 0 avancer/mettre en avant/soulever (un problème)/présenter (la nourriture)
 1352420 0 avancer/mettre en avant/soulever (un problème)/présenter (la nourriture)
@@ -14400,7 +15102,6 @@
 1355650 0 filandreux
 1355650 0 prolixe
 1355650 0 verbeux
-1355670 0 personnes en trop
 1355690 0 excédent
 1355690 0 reste
 1355690 0 surplus
@@ -14665,6 +15366,7 @@
 1358430 0 service (de table)
 1358430 0 vaisselle
 1358490 0 repas
+1358490 1 manger
 1358530 0 table à manger
 1358550 0 cafétéria
 1358550 0 restaurant
@@ -14802,6 +15504,8 @@
 1360310 0 trahir
 1360320 0 faire la grasse matinée
 1360320 0 se lever tard
+1360320 1 lève-tard
+1360320 1 dormeur
 1360360 0 délibération
 1360380 0 enquête
 1360380 0 examen
@@ -14818,6 +15522,7 @@
 1360480 0 âme
 1360480 0 cœur
 1360480 0 esprit
+1360480 1 sens d'une phrase, d'une expression (devinette, etc...)
 1360500 0 état d'esprit
 1360500 0 attachement
 1360500 0 dessein
@@ -14860,6 +15565,10 @@
 1360930 0 angoisse
 1360930 0 anxiété
 1360930 0 souci
+1360930 1 prendre soin
+1360930 1 aider
+1360930 1 assistance
+1360930 1 s'inquiéter
 1360970 0 admiration et abandon
 1360970 0 dévotion
 1360990 0 axe
@@ -14965,6 +15674,7 @@
 1362480 0 futurs conjoints
 1362480 0 jeunes mariés
 1362490 0 forêt
+1362490 1 forêt
 1362500 0 silence
 1362530 0 bois
 1362530 0 forêts
@@ -15366,6 +16076,10 @@
 1369940 0 demander
 1369940 0 interroger
 1369940 0 s'informer
+1369940 1 effectuer une recherche
+1369940 1 chercher
+1369940 1 examiner
+1369940 1 enquêter
 1369950 0 personne recherchée
 1369960 0 normal
 1369960 0 ordinaire
@@ -15711,13 +16425,14 @@
 1374440 0 onduler
 1374440 0 serpenter
 1374450 0 pièce avec un toit en biseau?
-1374470 0 tissu à côtes
 1374510 0 correction
 1374510 0 révision
 1374520 0 accord
 1374520 0 approbation
 1374530 0 certainement
 1374530 0 sans aucun doute
+1374530 1 vrai et faux
+1374530 1 pour et contre
 1374550 0 extra
 1374550 0 extraordinaire
 1374550 0 formidable
@@ -15725,6 +16440,10 @@
 1374550 0 incroyable
 1374550 0 super
 1374550 0 terrible
+1374550 1 incroyable (par exemple, par la force)
+1374550 1 grand (par exemple des compétences)
+1374550 1 merveilleux
+1374550 1 formidable
 1374620 0 organisation
 1374620 0 régime
 1374620 0 système
@@ -15886,6 +16605,7 @@
 1376300 0 aligner
 1376300 0 mettre en ligne
 1376310 0 étoile
+1376310 1 suspect (argot policier)
 1376340 0 ciel étoilé
 1376360 0 constellation
 1376380 0 bannière étoilée (drapeau américain)
@@ -15893,9 +16613,11 @@
 1376410 0 horoscope
 1376450 0 clarifier
 1376450 0 dissiper les doutes
+1376460 0 temps clair (éventuellement avec quelques nuages)
 1376460 0 beau temps
+1376460 1 formel
+1376460 1 cérémoniel
 1376460 1 public
-1376460 1 officiel
 1376460 2 blanchi (sens figuré)
 1376470 0 beau temps
 1376470 0 ensoleillé
@@ -15966,6 +16688,7 @@
 1378270 0 net
 1378270 0 pur
 1378280 0 eau de source
+1378280 1 eau pure
 1378310 0 limpide
 1378320 0 nettoiement
 1378320 0 nettoyage
@@ -16285,6 +17008,7 @@
 1382430 0 légende
 1382430 0 vieux conte
 1382440 0 pierre
+1382440 1 pierre
 1382450 0 unité de volume (environ 180 litres)
 1382480 0 quartz
 1382530 0 chaux
@@ -16488,7 +17212,6 @@
 1385530 0 service (nourriture)
 1385690 0 Celsius
 1385690 0 centigrade
-1385700 0 20 degrés Celsius
 1385710 0 absorption
 1385710 0 prise
 1385710 1 assimilation de
@@ -16882,6 +17605,7 @@
 1391780 0 fil
 1391780 0 ligne
 1391780 0 rayon
+1391780 1 ligne (ex: ligne téléphonique)
 1391840 0 baguette d'encens
 1391880 0 ligne
 1391880 0 voie ferrée
@@ -17139,6 +17863,8 @@
 1396820 0 ancêtre
 1396830 0 culte des ancêtres
 1396840 0 grand-père
+1396840 1 vieil homme
+1396840 2 masque utilisé pour le rôle d'un vieil homme dans le Kyogen
 1396860 0 grand-mère
 1396870 0 colonie
 1396870 0 concession
@@ -17657,6 +18383,7 @@
 1403550 0 donner
 1403550 0 offrir
 1403550 0 conférer
+1403550 1 conférer
 1403560 0 corruption
 1403570 0 cadeau
 1403570 0 présent
@@ -17734,6 +18461,8 @@
 1404700 0 achever
 1404700 0 ajouter
 1404700 0 completer
+1404700 1 ajouter (quelque chose)
+1404700 1 compléter (avec quelque chose)
 1404740 0 être suffisant
 1404740 0 suffire
 1404750 0 suffire
@@ -17978,6 +18707,7 @@
 1408910 0 (médecine) percution
 1408910 0 percuter
 1408910 0 sonder (l'opinion de quelqu'un sur un sujet)
+1408910 1 sonder (l'opinion de quelqu'un sur un sujet)
 1408950 0 écraser
 1408950 0 abolir
 1408950 0 briser
@@ -18000,6 +18730,9 @@
 1409110 0 désespéré
 1409110 0 nul
 1409110 0 pas bien
+1409110 2 ne peut pas
+1409110 2 ne doit pas
+1409110 2 pas permis
 1409140 0 corps (physique)
 1409140 0 santé
 1409140 1 santé
@@ -18567,6 +19300,7 @@
 1416690 0 suivre (une route)
 1416700 0 étagère
 1416700 0 rayon
+1416700 1 étagère
 1416720 0 dénombrement
 1416720 0 inventaire
 1416730 0 ajourner/enterrer (un dossier)/classer (une affaire)
@@ -18834,6 +19568,7 @@
 1420110 0 homme(s) et femme(s)
 1420160 0 mâle
 1420160 0 sexe masculin
+1420160 1 masculin
 1420180 0 bel homme
 1420200 0 domination de l'homme sur la femme
 1420200 0 machisme
@@ -19122,6 +19857,7 @@
 1423220 0 détournement
 1423220 0 malversation
 1423240 0 kimono
+1423240 1 kimono (ou un autre vêtement traditionnel japonais)
 1423280 0 atterissage
 1423280 0 atterir
 1423310 0 à l'intérieur
@@ -19302,6 +20038,8 @@
 1426290 0 pause de midi
 1426370 0 sieste
 1426380 0 juste avant midi
+1426410 0 déjeuner (masc.)
+1426410 0 repas de midi
 1426430 0 jour et nuit
 1426480 0 pilier
 1426480 0 poteau
@@ -19480,6 +20218,8 @@
 1428190 0 tirer des leçon (de quelque chose)
 1428190 0 être écœuré de
 1428190 0 être lassé de
+1428190 1 être écœuré de
+1428190 1 être lassé de
 1428200 0 discipline
 1428200 0 peine (disciplinaire)
 1428200 0 punition
@@ -19532,6 +20272,8 @@
 1428720 0 courant maritime
 1428720 0 courant spirituel
 1428720 0 tendance
+1428720 1 courant spirituel
+1428720 1 tendance
 1428760 0 banlieue
 1428760 0 faubourgs
 1428760 0 périphérie
@@ -19556,6 +20298,7 @@
 1428900 0 audition
 1428900 0 ouïe
 1428900 0 réception radio
+1428900 1 réception radio
 1428910 0 auditeur
 1428910 0 auditoire
 1428910 0 public
@@ -19783,6 +20526,8 @@
 1431670 0 tomber
 1431670 0 décliner (soleil)
 1431670 0 se sentir déprimé
+1431670 1 décliner (soleil)
+1431670 2 se sentir déprimé
 1431680 0 couler
 1431680 0 enfoncer
 1431680 0 immerger
@@ -19881,6 +20626,9 @@
 1432680 1 insupportable
 1432710 0 subir une douleur
 1432720 0 se faire mal (douleur)
+1432720 1 avarier(marchandise,nourriture)
+1432720 1 endommager
+1432720 1 gâter
 1432770 0 grand regret
 1432780 0 blessure grave
 1432820 0 mordant/sévère
@@ -19895,12 +20643,19 @@
 1432880 0 être expert en
 1432880 0 être fort en
 1432880 0 s'y connaitre en
+1432880 1 marcher (fonctionner)
+1432880 2 comprendre
+1432880 3 être au courant de
+1432880 3 être expert en
+1432880 3 être fort en
+1432880 3 s'y connaitre en
 1432900 0 laisser passer/faire passer
 1432920 0 avenue
 1432920 0 boulevard
 1432920 0 rue
 1432920 1 circulation
 1432920 1 trafic
+1432920 2 circulation (de l'eau, l'air, etc.)
 1432930 0 ainsi que
 1432930 0 comme
 1432930 0 suivant...
@@ -19913,6 +20668,8 @@
 1432940 0 se trouver que quelqu'un passe par
 1432980 0 passer devant
 1433030 0 passer à travers
+1433030 12 être bien informé
+1433030 12 être sage
 1433040 0 se rendre à l'hôpital
 1433050 0 devise (monétaire)
 1433070 0 passage
@@ -19984,11 +20741,13 @@
 1434050 0 se contrebalancer
 1434050 0 s'assortir
 1434050 0 s'harmoniser
+1434050 1 s'assortir
+1434050 1 s'harmoniser
 1434120 0 pêche à la ligne
 1434130 0 grue (oiseau)
 1434160 0 patron/hôte
-1434180 0 bas
-1434180 0 court
+1434180 0 bas (hauteur, rang, degré, coût, contenu, qualité, etc.)
+1434180 0 petit
 1434190 0 être abaissé
 1434200 0 abaisser
 1434250 0 baisser
@@ -20025,6 +20784,8 @@
 1435400 0 numerus closus
 1435400 0 capacité (moyen de transport, etc.)
 1435400 0 nombre de places (moyen de transport, lieux public, salles, etc.)
+1435400 1 capacité (moyen de transport, etc.)
+1435400 1 nombre de places (moyen de transport, lieux public, salles, etc.)
 1435410 0 prix fixé
 1435480 0 statuts
 1435490 0 terme
@@ -20445,8 +21206,11 @@
 1441370 0 chute
 1441370 0 dégradation
 1441370 0 effondrement
+1441370 1 dégradation
+1441370 1 effondrement
 1441390 0 marque
 1441390 0 point
+1441390 1 point
 1441400 0 prendre feu
 1441400 0 s'allumer (électricité)
 1441400 0 s'enflammer
@@ -20504,6 +21268,8 @@
 1442490 0 seigneur
 1442490 0 demeure
 1442490 0 palais
+1442490 1 demeure
+1442490 1 palais
 1442500 0 monseigneur
 1442520 0 son altesse
 1442520 0 votre altesse
@@ -20763,6 +21529,11 @@
 1445790 0 tomber
 1445790 1 succomber
 1445790 2 être ruiné
+1445790 3 faire faillite
+1445790 3 être ruiné
+1445790 3 avoir une mauvaise dette
+1445790 4 être vaincu (dans un jeu)
+1445790 5 chuter (des gouvernements, des dictateurs, etc.)
 1445840 0 renversement d'un gouvernement
 1445880 0 inversion
 1445880 0 perversion
@@ -20886,6 +21657,7 @@
 1448550 0 escroquerie
 1448550 0 plagiat
 1448580 0 eau chaude
+1448580 1 eau chaude
 1448600 0 buée
 1448600 0 vapeur
 1448610 0 source d'eau chaude
@@ -20931,6 +21703,10 @@
 1448820 0 espoirs
 1448820 0 fins
 1448820 0 sûr (mérite la confiance)
+1448820 6 attente
+1448820 6 but
+1448820 6 destination
+1448820 6 objectif
 1448860 0 toucher
 1448860 1 appliquer
 1448860 1 mettre
@@ -20996,6 +21772,8 @@
 1449670 0 unification
 1449670 0 uniformité
 1449670 0 unité
+1449680 1 administration
+1449680 1 contrôle
 1449710 0 statistiques
 1449760 0 intégration
 1449760 0 synthèse
@@ -21093,6 +21871,7 @@
 1450900 0 cerveau
 1450900 0 tête
 1450900 0 entendement
+1450900 1 entendement
 1450970 0 augmentation
 1451020 0 conflit
 1451020 0 grève
@@ -21129,6 +21908,11 @@
 1451170 2 entraîner
 1451170 2 mobiliser
 1451170 2 secouer
+1451170 3 mettre en mouvement
+1451170 3 actionner
+1451170 4 entraîner
+1451170 4 mobiliser
+1451170 4 secouer
 1451180 0 activité
 1451180 0 fonctionnement
 1451180 0 marche
@@ -21199,6 +21983,7 @@
 1451850 0 approbation
 1451850 0 consentement
 1451850 0 opinion commune
+1451850 1 de sens identique
 1451900 0 égalité
 1451900 0 identité
 1451900 0 similitude
@@ -21223,6 +22008,7 @@
 1452410 0 camarade
 1452410 0 une même pensée
 1452410 0 uni dans l'esprit
+1452410 1 camarade
 1452440 0 celui-ci
 1452440 0 la dite personne
 1452500 0 au même moment
@@ -21365,6 +22151,7 @@
 1454750 0 express
 1454750 0 rapide
 1454780 0 brevet
+1454780 1 propriétaire -par opposition à libre-
 1454830 0 brevet
 1454850 0 entraînement spécial
 1454870 0 privilège
@@ -21417,6 +22204,7 @@
 1455500 0 poison
 1455500 0 toxique
 1455500 0 venin
+1455500 1 mauvaise influence
 1455540 0 empoisonnement
 1455580 0 langue de vipère
 1455600 0 plante vénéneuse
@@ -21543,6 +22331,7 @@
 1458550 0 intérieur
 1458550 0 intime
 1458550 0 inscrit (cercle inscrit dans un triangle)
+1458550 1 inscrit (cercle inscrit dans un triangle)
 1458560 0 rapport interne/rapport confidentiel
 1458600 0 politique intérieure
 1458640 0 guerre civile
@@ -21580,6 +22369,7 @@
 1459690 0 mystère
 1459720 0 casserole
 1459720 0 marmite
+1459720 1 ragout
 1459780 0 familiarité
 1459830 0 corde/cordage/fibre
 1459840 0 corde à sauter
@@ -21636,10 +22426,10 @@
 1461130 0 colle (poser une)
 1461130 0 question difficile, ardue
 1461140 0 deux
-1461150 0 deux chiffres
 1461160 0 deux
 1461420 0 à l'étage
 1461420 0 premier étage
+1461540 0 deux chiffres
 1461870 0 secondaire/subalterne
 1461960 0 alternative
 1462080 0 double
@@ -21795,6 +22585,8 @@
 1466210 0 entrer dans une pièce
 1466210 0 atteindre un niveau élevé dans l'apprentissage des arts
 1466210 0 recevoir l'enseignement d'un maitre Bouddhiste
+1466210 1 atteindre un niveau élevé dans l'apprentissage des arts
+1466210 1 recevoir l'enseignement d'un maitre Bouddhiste
 1466260 0 rentrer dans une entreprise
 1466290 0 mettre la main sur
 1466290 0 obtenir
@@ -21811,6 +22603,7 @@
 1466790 0 entrée
 1466790 0 introduction
 1466790 0 manuel (d'initiation)
+1466790 1 manuel (d'initiation)
 1466820 0 baignade
 1466850 0 entrée (des données)
 1466930 0 comme
@@ -22057,9 +22850,13 @@
 1470080 0 approbation
 1470080 0 compréhension
 1470080 0 saisir
+1470080 1 compréhension
+1470080 1 saisir
 1470090 0 paiement
 1470090 0 fourniture
 1470090 0 livraison
+1470090 1 fourniture
+1470090 1 livraison
 1470120 0 don
 1470120 0 talent
 1470120 1 théâtre nô
@@ -22218,6 +23015,7 @@
 1472140 0 invalide
 1472150 0 tomber en désuétude
 1472150 0 extinction
+1472150 1 extinction
 1472170 0 abolition des fiefs et établissement des préfectures
 1472220 0 implorer
 1472220 0 supplier
@@ -22577,6 +23375,9 @@
 1477480 0 émanation
 1477480 0 émission
 1477480 0 exhalation
+1477480 1 émanation
+1477480 1 émission
+1477480 1 exhalation
 1477490 0 décharger
 1477490 0 projeter
 1477490 0 tirer (arme à feux)
@@ -22586,6 +23387,7 @@
 1477520 0 origine
 1477520 0 provenance
 1477520 0 apparation d'un heureux présage
+1477520 1 apparation d'un heureux présage
 1477530 0 berceau (d'une civilisation, etc...)
 1477530 0 lieu de naissance
 1477560 0 émettre
@@ -22675,6 +23477,10 @@
 1478190 2 sauter
 1478190 2 battre
 1478190 2 surpasser
+1478190 3 enlever
+1478190 3 retirer
+1478190 4 omettre
+1478190 4 sauter
 1478200 0 sortir
 1478200 1 tomber
 1478200 2 partir de l'avant
@@ -22861,6 +23667,8 @@
 1481420 0 déborder
 1481420 0 débordement
 1481420 0 inondation
+1481420 1 débordement
+1481420 1 inondation
 1481480 0 édition
 1481510 0 gravure
 1481520 0 droits d'auteur
@@ -22907,11 +23715,19 @@
 1481920 0 assourdissant
 1481920 0 bruyant
 1481920 0 tapageur
-1481920 1 pointilleux
-1481920 2 ennuyeux
-1481920 2 dérangeant
-1481920 2 fatiguant
-1481920 2 inopportun
+1481920 1 ennuyeux
+1481920 1 problématique
+1481920 1 fatiguant
+1481920 1 persistant
+1481920 1 importun
+1481920 2 tatillon
+1481920 2 chipoteur
+1481920 2 pinailleur
+1481920 2 ennuyant
+1481920 2 embêtant
+1481920 2 casse-pieds
+1481920 2 fastidieux
+1481920 2 (trop) autoritaire
 1481940 0 énervant
 1481940 0 compliqué
 1481940 0 ennuyeux
@@ -23012,12 +23828,14 @@
 1483070 0 il
 1483070 0 lui
 1483070 0 petit ami
+1483070 2 petit ami
 1483090 0 ils
 1483100 0 semaine equinoxiale
 1483140 0 mon copain (pour une fille)
 1483140 0 petit ami
 1483150 0 elle
 1483150 1 petite amie
+1483150 2 petite amie
 1483160 0 ce type
 1483160 0 celui-ci
 1483160 0 celui-là
@@ -23124,7 +23942,6 @@
 1483800 2 enveloppe
 1483830 0 graisse sous-cutanée
 1483850 0 cuir
-1483860 0 travail du cuir
 1483880 0 début
 1483880 0 départ
 1483890 0 superficiel
@@ -23924,6 +24741,7 @@
 1496840 0 tissu
 1496850 0 torchon
 1496890 0 futon (sorte de matelas japonais)
+1496890 1 coussin rond utilisé pour la méditation Zen (traditionnellement faite de feuilles de jonc tressé)
 1496920 0 préfecture (bâtiment)
 1496930 0 être effrayé
 1496930 0 avoir peur
@@ -23966,6 +24784,7 @@
 1497190 0 ordinaire
 1497190 0 usuel
 1497190 1 omnibus (train)
+1497190 2 train omnibus
 1497230 0 suffrage universel
 1497340 0 air découragé
 1497340 0 faire la tête
@@ -24041,6 +24860,8 @@
 1497980 0 être vaincu
 1497980 0 perdre
 1497980 1 faire une réduction
+1497980 2 être vaincu
+1497980 2 perdre
 1497990 0 émulation
 1497990 0 esprit de compétition
 1498010 0 outsider
@@ -24206,6 +25027,7 @@
 1500220 0 cacher
 1500220 0 tendre (embuscade)
 1500220 0 poser (tuyaux)
+1500220 1 cacher
 1500290 0 annonce du développement à venir (intrigue)
 1500290 0 indice sur ce qui va suivre(roman)
 1500290 0 préparation
@@ -24911,6 +25733,7 @@
 1514100 0 rue pavée
 1514110 0 être attrapé
 1514110 0 être pris
+1514110 1 s'agripper à
 1514140 0 attraper
 1514140 0 prendre
 1514160 0 capture
@@ -24980,6 +25803,8 @@
 1514950 0 soleil couchant
 1514960 0 se coucher (pour le soleil)
 1514960 0 se terminer
+1514960 2 être plongé (dans le désespoir)
+1514960 2 être perdu
 1514990 0 mère
 1515020 0 voyelle
 1515040 0 alma mater
@@ -25900,8 +26725,9 @@
 1526900 0 arriver a son terme
 1526900 0 expiration
 1526910 0 terme de baseball lorsque les bases sont pleines
-1526920 0 bande déssinées
-1526920 0 manga
+1526920 0 dessin animé
+1526920 0 BD
+1526920 0 bande dessinée
 1526930 0 errance
 1526930 0 sans but
 1526940 0 bavardage
@@ -25913,6 +26739,9 @@
 1527040 0 idée principale
 1527040 0 miso
 1527040 0 pâte à base de soje
+1527040 1 moment clé (principal)
+1527040 1 bonne partie (de quelque chose)
+1527040 2 personne faible
 1527050 0 soupe miso
 1527070 0 mon (notre) camp
 1527090 0 bélier (signe du Zodiaque chinois), (arch) 13h-15h, sud-sud-ouest, juin
@@ -26284,7 +27113,6 @@
 1532510 0 étoile du berger
 1532510 0 Vénus
 1532510 1 Lucifer
-1532510 2 étoile (littéraire)
 1532540 0 demain matin
 1532590 0 demain soir
 1532620 0 clarté
@@ -26338,6 +27166,7 @@
 1532880 0 faire claquer
 1532880 0 faire sonner
 1532880 0 s'ébrouer (renifler bruyamment)
+1532880 1 s'ébrouer (renifler bruyamment)
 1532910 0 carillonner
 1532910 0 gronder
 1532910 0 hurler
@@ -26681,6 +27510,9 @@
 1537700 0 vaurien
 1537760 0 flèche
 1537770 0 flèche de direction
+1537780 0 à tort et à travers
+1537780 0 imprudemment
+1537780 0 excessivement
 1537820 0 charge
 1537820 0 ennui
 1537820 0 souci
@@ -26980,6 +27812,7 @@
 1542380 0 poster
 1542390 0 frais de port
 1542390 0 frais de transport
+1542420 0 facteur
 1542430 0 La Poste
 1542430 0 poste
 1542470 0 facteur
@@ -27205,6 +28038,11 @@
 1546200 0 affaire
 1546200 0 tâche
 1546200 0 utilisation
+1546200 1 utiliser
+1546200 1 devoir
+1546200 1 service
+1546200 2 appel de la nature
+1546200 2 excrétion
 1546210 0 en faire l'utilisation
 1546210 0 utiliser
 1546220 0 préparation
@@ -27782,6 +28620,7 @@
 1554270 0 frais
 1554270 0 prix
 1554270 0 matériau
+1554270 1 matériau
 1554280 0 frais
 1554280 0 prix
 1554280 0 taxe
@@ -27958,6 +28797,8 @@
 1556570 0 tous les ans
 1556570 0 année habituelle
 1556570 0 année ordinaire
+1556570 1 année habituelle
+1556570 1 année ordinaire
 1556590 0 exemple (phrase modèle)
 1556630 0 refroidir
 1556630 0 se rafraîchir (temps)
@@ -27971,6 +28812,8 @@
 1556740 0 refroidir
 1556740 0 calmer
 1556740 0 jeter un froid
+1556740 1 calmer
+1556740 1 jeter un froid
 1556750 0 refroidir
 1556750 0 se refroidir
 1556750 1 se calmer (enthousiasme
@@ -28004,8 +28847,6 @@
 1557160 0 plein de sang-froid
 1557160 0 posé
 1557170 0 congélation
-1557180 0 congélateur
-1557180 0 freezer
 1557290 0 air conditionné (froid uniquement)
 1557350 0 donner (de la voix)
 1557350 0 encourager
@@ -28861,6 +29702,7 @@
 1578760 0 rouge foncé
 1578780 0 érable
 1578780 0 couleurs d'automne
+1578780 1 feuillage jaunie
 1578790 0 déplacement
 1578790 0 un aller (sans retour)
 1578790 0 voyage
@@ -28877,6 +29719,8 @@
 1578850 2 mourir
 1578850 2 trépasser
 1578850 3 continuer
+1578850 4 décéder
+1578850 4 mourir
 1578870 0 plaque d'acier
 1578880 0 aromatique
 1578880 0 doux
@@ -29039,6 +29883,8 @@
 1580570 0 couchette
 1580570 0 divan
 1580570 0 lit
+1580580 0 pourpre
+1580580 0 vermillon
 1580600 0 direct
 1580600 0 droit
 1580600 0 en face
@@ -29059,6 +29905,8 @@
 1580640 2 personnalité
 1580640 3 homme de talent
 1580640 3 homme véritable
+1580640 4 une autre personne
+1580640 4 autres personnes
 1580640 4 les autres
 1580640 5 adulte
 1580650 0 chacun
@@ -29092,6 +29940,10 @@
 1581180 0 dans tout le pays
 1581180 0 du pays
 1581180 0 national
+1581210 0 autrefois
+1581210 0 dans le temps
+1581210 0 jadis
+1581210 0 une fois
 1581300 0 plantes
 1581300 0 végétation
 1581310 0 alentour
@@ -29609,10 +30461,6 @@
 1586430 0 se réchauffer
 1586440 0 chauffer
 1586450 0 surnom
-1586490 0 attente
-1586490 0 but
-1586490 0 destination
-1586490 0 objectif
 1586500 0 adresse du destinataire
 1586520 0 adresse du destinataire
 1586530 0 adapter
@@ -29694,7 +30542,6 @@
 1587610 0 désagréable
 1587610 0 ne pas aimer
 1587610 0 ne pas apprécier
-1587630 0 pas du tout
 1587670 0 de plus en plus
 1587670 0 finalement
 1587670 0 sans aucun doute
@@ -30163,6 +31010,8 @@
 1592250 4 terre
 1592260 0 pays (pluriel)
 1592270 0 cou
+1592280 0 dans chaque coin
+1592280 0 tout partout
 1592290 0 association
 1592290 0 combinaison
 1592310 0 érection
@@ -30561,6 +31410,8 @@
 1596510 0 endommager
 1596510 0 échouer
 1596510 0 commettre une bévue
+1596510 1 échouer
+1596510 1 commettre une bévue
 1596560 0 de sa propre initiative
 1596570 0 candeur
 1596570 0 franchise
@@ -30668,6 +31519,9 @@
 1597350 0 par étapes
 1597350 0 petit à petit
 1597350 0 progressivement
+1597350 1 marches (d'escalier)
+1597350 1 cage d'escalier
+1597350 1 rangée
 1597360 0 champs en terrace
 1597380 0 court chemin
 1597380 0 raccourci
@@ -30818,7 +31672,6 @@
 1598650 0 nomination
 1598650 0 promotion
 1598660 0 démêler (les cheveux)
-1598660 1 faire fondre
 1598670 0 de temps en temps
 1598680 0 de temps en temps
 1598680 0 quelquefois
@@ -30908,6 +31761,9 @@
 1599200 0 Allemagne
 1599250 0 activité
 1599250 0 mouvement
+1599260 0 ouvertement
+1599260 0 publiquement
+1599260 0 sans hésitation
 1599290 0 alliance
 1599290 0 le même nom
 1599290 0 ligue
@@ -31295,6 +32151,7 @@
 1601830 0 soleil
 1601860 0 gaucher
 1601860 0 buveur de sake
+1601860 1 buveur de sake
 1601880 0 déménagement
 1601880 0 emménagement
 1601890 0 desespoir
@@ -31604,6 +32461,9 @@
 1604080 0 livide
 1604130 0 fête
 1604130 0 festival
+1604135 0 festival
+1604135 0 fête
+1604135 0 carnaval
 1604140 0 planche à découper
 1604160 0 paralysie
 1604160 0 stupeur
@@ -32091,6 +32951,8 @@
 1609100 0 accusation mensongère
 1609100 0 prétexte
 1609110 0 ancre
+1609130 0 animé
+1609130 0 vivement
 1609140 0 allé aux extrêmes ?
 1609140 0 allé trop loin
 1609170 0 combien de fois
@@ -32398,6 +33260,8 @@
 1610690 0 non-récupérable
 1610690 0 dans l' état
 1610690 0 rester tel quel
+1610690 1 dans l' état
+1610690 1 rester tel quel
 1610700 0 à tout prix/coûte que coûte
 1610710 0 s'opposer à/résister à
 1610720 0 rebâtir/reconstruire/rétablir/redresser
@@ -32476,6 +33340,7 @@
 1611300 0 devenir mère
 1611300 0 tomber enceinte
 1611300 0 se gonfler
+1611300 1 se gonfler
 1611310 0 (plat) du jour
 1611330 0 viande hachée
 1611340 0 matériel pour prendre des notes
@@ -32632,9 +33497,6 @@
 1612070 0 s'enchevêtrer
 1612080 0 capacité de mémorisation
 1612080 0 mémoire
-1612090 0 à tort et à travers
-1612090 0 imprudemment
-1612090 0 excessivement
 1612100 0 inéluctable
 1612100 0 inévitable
 1612110 0 matière organique
@@ -32670,6 +33532,8 @@
 1612260 0 tripler la même classe etc.
 1612270 0 eaux territoriales
 1612280 0 espace aérien territorial
+1612300 0 évident
+1612300 0 patent
 1612310 0 qui fait vieux
 1612310 0 vieillisement
 1612310 0 vieillissant
@@ -32879,23 +33743,50 @@
 1634040 0 compteur de questions
 1634500 0 occasionnellement
 1634500 0 rarement
+1636710 0 lit de rivière
+1660250 0 courte pause
+1660250 0 récréation
+1660250 0 relâche
+1670710 0 boîte à déjeuner (contenant du riz et 10-15 petites portions de poisson, de viande, et de légumes)
+1670710 2 entracte (entre les actes)
+1670710 2 interlude
 1678830 0 "trop tard !"
+1686780 0 réservoir d'eau
+1689570 0 courroucé
+1689570 0 enragé
+1689570 0 indigné
 1694410 0 remise
 1694410 1 bonus
 1694410 1 prime
 1694410 1 supplément
 1694410 2 exagération
+1736280 0 canotage
+1736280 0 en bateau
+1736280 0 promenade en canot
+1755200 0 kerria (Kerria japonica = Corète du Japon)
+1755200 0 rose jaune japonaise
+1755200 1 jaune d'or lumineux
+1755200 2 pièce d'or
+1757590 0 audace
+1757590 0 couarge
+1757590 0 cran
+1760400 0 travail du cuir
 1779760 0 marteau (de fer)
 1779760 1 châtiment (~ wo kudasu)
+1783400 0 tissu à côtes
 1791630 0 fille chérie
 1838030 0 arrêt
 1838030 0 interruption
 1838030 0 panne
+1875990 0 accords de paix
+1875990 0 paix
 1894690 0 continuation
 1894690 0 continuité
 1894690 0 suite
 1920240 0 quel (interrogatif)
 1923080 0 Iran-Irak
+1948700 0 congélateur
+1948700 0 freezer
 1956280 0 le plus
 1956280 0 l'extrême
 1956400 0 collection
@@ -32999,22 +33890,39 @@
 2149890 0 compteur pour les personnes
 2149890 1 (usuellement dans un nom composé) personne
 2153790 1 prénom
+2154660 0 choléra
+2154660 0 peste
 2154810 0 au revoir
 2158900 3 Taoïsme
+2194790 2 bras
+2194790 2 main d'œuvre
+2194790 3 aide
 2194990 0 Merci beaucoup
 2198520 0 tabun (gaz neurotoxique)
 2220600 0 bain
 2225040 0 le 1er du mois
 2225040 1 les 10 premiers jours du mois lunaire
+2231000 0 grand-père
+2231000 1 homme âgé
 2255350 0 Ohh (ordre utilisé pour arrêter un cheval...)
 2257550 0 ne .. pas
 2257550 1 suffixe emphatique (utilisé après la racine d'un adjectif)
+2259610 0 école
+2259610 1 épreuve
 2259690 0 préfixe honorifique
 2261490 0 oncle
 2261490 1 homme plus âgé
 2261490 1 Monsieur ! (interjection)
 2261490 2 Rouget de manybar (Parupeneus multifasciatus)
 2261500 0 tante
+2261510 0 (pop) la mère (unetelle)
+2261510 0 dame
+2261510 0 femme
+2261510 0 madame
+2261510 0 tante
 2267560 0 compteur de temples
 2272760 0 Comment allez-vous ?
 2276200 0 Excusez-moi !
+2568440 0 corriger (en rouge)
+2756190 0 métis
+2756190 0 personne d'origines mélangées

@@ -1,9 +1,0 @@
-$ tx pull -a -f
-
-$ ./updatesources.sh
-
-$ ./jmdict-extract.py jmdict
-
-$ ./jmdict-extract.py kanjidic2
-
-$ tx push -s -t

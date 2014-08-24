@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Fernando <gordoviajao@yahoo.com.br>, 2013
-# Fernando <gordoviajao@yahoo.com.br>, 2012
+# Fernando Henrique de Sousa <gordoviajao@yahoo.com.br>, 2013
+# Fernando Henrique de Sousa <gordoviajao@yahoo.com.br>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: JMdict Internationalization\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
 "POT-Creation-Date: 2012-04-05 00:06:01+0000\n"
-"PO-Revision-Date: 2013-02-23 00:35+0000\n"
-"Last-Translator: Fernando <gordoviajao@yahoo.com.br>\n"
+"PO-Revision-Date: 2013-11-20 10:37+0000\n"
+"Last-Translator: Fernando Henrique de Sousa <gordoviajao@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/jmdict-i18n/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
