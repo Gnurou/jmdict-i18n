@@ -17,3 +17,4 @@ for lang in fr it cs th ru tr; do
   tx push -t -l $lang
 done
 
+git push origin master
