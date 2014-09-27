@@ -4,16 +4,20 @@
 # Parker <benoit.lepouze@gmail.com>, 2013
 # Parker <benoit.lepouze@gmail.com>, 2012
 # evou <evejapon@hotmail.com>, 2012
+# evou <evejapon@hotmail.com>, 2012
+# ジュリアン <inactive+julroy67@transifex.com>, 2012
 # jerome bianchi <jeje2a@gmail.com>, 2012
 # José Fournier <jaaf.forums@zoraldia.com>, 2013
 # ジュリアン <inactive+julroy67@transifex.com>, 2012
+# MrCaca <pierreaujapon@gmail.com>, 2012
+# Parker <benoit.lepouze@gmail.com>, 2012-2013
 # MrCaca <pierreaujapon@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: JMdict Internationalization\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2014-08-24 04:13:12+0000\n"
-"PO-Revision-Date: 2014-08-24 06:40+0000\n"
+"POT-Creation-Date: 2014-09-13 11:58:51+0000\n"
+"PO-Revision-Date: 2014-09-13 12:03+0000\n"
 "Last-Translator: jmdicti18nbot <grurou@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/jmdict-i18n/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -8501,11 +8505,16 @@ msgctxt "1335830 0"
 msgid ""
 "重ねる\tかさねる\n"
 "to pile up\n"
-"to put something on another\n"
-"to heap up\n"
-"to add\n"
-"to repeat"
-msgstr "empiler\nentasser\nmettre l'un sur l'autre\nrépéter (une action)"
+"to put something on top of another\n"
+"to stack up"
+msgstr ""
+
+msgctxt "1335830 1"
+msgid ""
+"重ねる\tかさねる\n"
+"to repeat many times over\n"
+"to go through something repeatedly"
+msgstr ""
 
 msgctxt "1336570 0"
 msgid ""
@@ -18486,8 +18495,8 @@ msgstr "rouille"
 msgctxt "1594050 0"
 msgid ""
 "明明後日\tしあさって\n"
-"(in) three days time (two days after tomorrow)"
-msgstr "dans trois jours (après après demain)"
+"(in) three days' time (two days after tomorrow)"
+msgstr ""
 
 msgctxt "1594270 0"
 msgid ""
