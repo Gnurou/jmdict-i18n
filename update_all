@@ -17,5 +17,6 @@ for lang in fr it cs th ru tr; do
   tx push -t -l $lang
 done
 
-git commit -m "Automatic update with update_all"
+git add .
+git commit -a -m "Automatic update with update_all"
 git push origin master
