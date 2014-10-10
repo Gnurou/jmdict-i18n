@@ -1,4 +1,5 @@
 #!/bin/bash
+set -o errexit
 
 tx pull -a -f
 
@@ -11,11 +12,8 @@ tx pull -a -f
 # push translation source
 tx push -s
 
-# Cannot just push all languages translations
-# since error is output for languages without any translation (e.g. vietnamese for now)
-for lang in fr it cs th ru tr; do
-  tx push -t -l $lang
-done
+# push translations and ignore errors
+tx push -t --skip
 
 git add .
 git commit -a -m "Automatic update with update_all"
