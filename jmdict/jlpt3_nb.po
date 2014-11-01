@@ -1,11 +1,12 @@
 # 
 # Translators:
 # Tokiko <tokikoenai@gmail.com>, 2012
+# Tokiko <tokikoenai@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: JMdict Internationalization\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2014-10-18 04:25:03+0000\n"
+"POT-Creation-Date: 2014-10-25 02:42:58+0000\n"
 "PO-Revision-Date: 2014-10-18 04:27+0000\n"
 "Last-Translator: jmdicti18nbot <grurou@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/jmdict-i18n/language/nb/)\n"
