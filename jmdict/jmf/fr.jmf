@@ -1724,6 +1724,9 @@
 1046810 0 gramme
 1046840 0 grand
 1046840 1 glande
+1046840 2 terre (par ex. terrain)
+1046840 2 masse (électrique)
+1046840 2 de base (par ex. pour la matière d'un textile)
 1046950 0 vert
 1047300 0 groupe (en général de personnes)
 1047860 0 gâteau
@@ -2134,6 +2137,7 @@
 1086410 0 cartes à jouer
 1087100 0 entraînement
 1087630 0 tunnel
+1087630 1 erreur de l'équipe défensive (baseball)
 1087690 0 beignet (lit. donut)
 1087820 0 porte (à l'occidentale)
 1087990 0 Allemand
@@ -2840,6 +2844,8 @@
 1153440 4 discuter
 1153440 5  traiter A comme B
 1153440 6 servir d'intermédiaire (dans un conflit)
+1153440 7 être trop pour une seule personne
+1153440 7 trouver ingérable
 1153440 8 bavarder
 1153440 8 jaser
 1153440 8 cancaner
@@ -3465,6 +3471,7 @@
 1164510 1 pas possible
 1164510 1 vraiment
 1164510 2 en général
+1164510 3 une image bouddhiste (ou une sculpture, etc.)
 1164510 4 généralement
 1164510 4 en général
 1164570 0 toute une région
@@ -3565,6 +3572,14 @@
 1166510 2 dans un seul sens
 1166510 2 seulement
 1166510 2 uniquement
+1166510 3 (après un nom, le radical d'un adjectif ou un verbe simple) ne cesser de
+1166510 3 être enclin à...
+1166510 3 avoir tendance à être...
+1166510 3 avoir tendance à faire...
+1166510 3 continuellement...
+1166510 3 en permanence...
+1166510 3 ne faire que...
+1166510 3 seulement
 1166790 0 un air de
 1166790 0 une touche de
 1166790 1 exhalation
@@ -4100,12 +4115,22 @@
 1177390 0 singe (en part. le macaque japonais, Macaca fusvata)
 1177390 0 primate non humain
 1177390 1 personne sournoise
+1177390 2 idiot
+1177390 2 imbécile
+1177390 2 péquenaud
+1177390 2 plouc
+1177390 3 pêne en bois (pour tenir une porte ou une fenêtre fermé)
+1177390 4 fermoir utilisé pour contrôler la hauteur d'une crémaillère
+1177390 5 prostitué(e) d'un « établissement de bains »
 1177490 0 connexion
 1177490 0 destin
 1177490 0 karma
 1177490 0 relation
+1177500 0 jante
 1177500 0 bord
-1177500 0 coin (extérieur)
+1177500 0 bordure
+1177500 0 rebord
+1177500 0 arête
 1177540 0 augure
 1177540 0 histoire
 1177540 0 origine
@@ -4337,6 +4362,7 @@
 1180860 0 croiser (p.e. les bras)
 1180860 0 traverser
 1180900 0 croisement
+1180900 1 transversal
 1180910 0 passage piéton
 1180920 0 fourberie
 1180920 0 malhonnêteté
@@ -4440,7 +4466,10 @@
 1183450 0 onsen
 1183450 0 source chaude
 1183470 0 zone tempérée
-1183480 0 chaleur
+1183480 0 chaud
+1183480 0 doux
+1183480 0 tempéré
+1183480 0 chaleureux
 1183510 0 température
 1183590 0 calme
 1183590 0 gentille
@@ -4522,6 +4551,8 @@
 1184360 0 stupide
 1184360 0 trivial
 1184370 0 (train) s'éloignant de Tokyo
+1184370 1 pente descendante
+1184370 1 allant vers le bas
 1184380 0 déclin
 1184380 0 décroissance
 1184380 0 descente
@@ -4594,6 +4625,7 @@
 1186710 0 prendre une autre forme pour se déguiser
 1186710 0 se transformer
 1186760 0 chimie
+1186760 1 entreprise de produits chimiques (par ex. entreprise de produits chimique Acme)
 1186980 0 combinaison chimique
 1187020 0 lavabos
 1187020 0 toilettes
@@ -4637,6 +4669,15 @@
 1188410 0 quoi qu'...
 1188420 0 comme on peut
 1188420 0 d'une façon ou d'une autre
+1188420 1 en quelque sorte
+1188420 1 d'une certaine manière
+1188420 1 de toute façon
+1188420 1 en tout cas
+1188420 1 d'une façon ou d'une autre
+1188490 0 rien (avec les verbes négatifs) 
+1188490 0 aucun
+1188490 1 et tout le reste (avec un nom plus « mo »)
+1188490 1 tout
 1188530 0 le mieux
 1188530 0 le plus
 1188530 0 le plus important
@@ -4652,6 +4693,11 @@
 1188740 0 rien (+nég.)
 1188760 0 quand
 1188770 0 quelle heure (est-il ?)
+1188790 0 un jour
+1188790 0 un moment ou un autre
+1188790 0 tôt ou tard
+1188790 0 l'autre jour
+1188790 0 en temps voulu
 1188850 0 avant qu'on s'en rende compte
 1188850 0 inaperçu
 1188880 0 éternellement
@@ -4709,10 +4755,16 @@
 1189760 0 travail exceptionnel
 1189810 0 belle femme
 1189820 0 il est rare d'allier la beauté et la chance
-1189960 0 additionner à
 1189960 0 ajouter
-1189960 0 augmenter
-1189960 0 rajouter
+1189960 0 additionner
+1189960 0 accumuler
+1189960 0 résumer
+1189960 0 joindre
+1189960 0 annexer
+1189960 1 accroître
+1189960 1 augmenter
+1189960 1 prendre (par ex. de la vitesse)
+1189960 1 reprendre
 1189980 0 augmenter
 1189980 0 rejoindre
 1189980 0 s'ajouter à
@@ -5205,6 +5257,7 @@
 1199330 2 islam
 1199330 3 Hui (ethnie)
 1199350 0 tourner
+1199350 6 investir
 1199360 0 détour
 1199400 0 récurrence
 1199400 0 récursion
@@ -6900,6 +6953,9 @@
 1220870 0 machinerie
 1220870 0 moteur
 1220870 0 organe
+1220870 2 système
+1220870 2 installation
+1220870 2 équipements
 1220880 0 locomotive
 1220880 0 moteur
 1220890 0 mitrailleuse
@@ -8527,6 +8583,8 @@
 1244320 0 difficile
 1244320 0 douloureux
 1244320 0 pénible
+1244320 4 (après radical en masu) difficile à faire
+1244320 4 désagréable
 1244340 0 douleur
 1244340 0 peine
 1244340 0 souffrance
@@ -9755,14 +9813,17 @@
 1260670 1 ancien
 1260670 1 précédent
 1260700 0 depuis le début
-1260720 0 en bonne santé
-1260720 0 robuste
-1260720 0 vigueur
-1260720 0 énergie
-1260720 0 vitalité
-1260720 0 stamina
-1260720 0 esprit
-1260720 0 courage
+1260720 0 vif
+1260720 0 plein d'esprit
+1260720 0 plein d'énergie
+1260720 0 énergique
+1260720 0 vigoureux
+1260720 0 plein de vitalité
+1260720 0 fougueux
+1260720 1 sain
+1260720 1 bien
+1260720 1 adapté
+1260720 1 en bonne santé
 1260800 0 nom d'ère
 1260870 0 souverain
 1260890 0 général d'armée (5 étoiles)
@@ -13006,6 +13067,9 @@
 1310090 0 appuyer
 1310090 0 soutenir
 1310090 0 supporter
+1310090 1 tenir à distance 
+1310090 1 endiguer
+1310090 1 enrayer
 1310100 0 aide
 1310100 0 assistance
 1310100 0 soutien
@@ -18670,6 +18734,8 @@
 1386160 0 jointure
 1386160 0 mélodie
 1386160 0 nœud
+1386160 2 nœud (du bois)
+1386160 2 nœud dans une tige de bambou
 1386220 0 économie
 1386220 0 épargne
 1386290 0 intégrité
@@ -19379,6 +19445,7 @@
 1397630 0 construction
 1397630 0 organisation
 1397630 0 système
+1397630 3 système
 1397670 0 composition
 1397670 0 constitution
 1397710 0 plainte
@@ -25042,6 +25109,7 @@
 1473440 0 vecteur
 1473460 0 prune
 1473460 0 prunier
+1473460 1 le plus bas (dans un classement à trois niveaux)
 1473500 0 prunes confites sechees au soleil
 1473510 0 aller contempler les fleurs de prunier
 1473520 0 boisson composée de saké et de prune
@@ -31848,8 +31916,13 @@
 1577100 0 que
 1577100 0 quel
 1577100 0 quoi
-1577100 1 combien (quelques compteurs)
-1577100 2 euphémisme pour les parties génitales ou le sexe
+1577100 1 combien (suivi d'un compteur)
+1577100 2 vous-savez-quoi
+1577100 2 que
+1577100 3 machin
+1577100 3 truc
+1577100 4 quoi ? (exprimant la surprise)
+1577100 5 hé ! (exprimant la colère ou l'irritation)
 1577120 0 comment (uniq. dans "comment se fait-il")
 1577120 0 pourquoi
 1577130 0 jamais (neg)
@@ -33011,6 +33084,7 @@
 1588760 0 acquérir
 1588760 0 gagner
 1588760 0 obtenir
+1588760 3 (après le radical masu d'un verbe) être capable de..., pouvoir...
 1588790 0 protection
 1588790 0 secours
 1588790 0 soutien
