@@ -3372,6 +3372,7 @@
 1162170 0 un coup d'œil
 1162170 0 un regard
 1162170 1 première rencontre
+1162170 3 première rencontre
 1162190 0 une maison
 1162280 0 un mot ou deux
 1162290 0 un morceau
@@ -4103,6 +4104,8 @@
 1177010 0 chaire
 1177010 0 tribune
 1177070 0 flamme
+1177070 1 flammes (d'un émotion intense, par ex. l'amour, la jalousie, la colère)
+1177070 1 passion
 1177100 0 inflammation
 1177110 0 sources des flammes
 1177180 0 fumée
@@ -4774,8 +4777,24 @@
 1190080 0 ajustement
 1190080 0 influence du temps
 1190080 0 prendre en compte
+1190080 1 allocation pour
+1190080 1 provision pour
+1190080 2 degré
+1190080 2 étendue
+1190080 2 ampleur
+1190080 2 mesure
 1190080 3 condition
 1190080 3 état de santé
+1190080 4 assaisonnement
+1190080 4 saveur
+1190080 4 goût
+1190080 4 modération
+1190080 4 ménagement
+1190080 4 ajustement
+1190080 4 réglage
+1190080 5 influence (de la météo)
+1190080 6 chance
+1190080 6 hasard
 1190120 0 processus de fabrication
 1190120 0 traitement
 1190370 0 accélération
@@ -4818,8 +4837,10 @@
 1191040 0 combustibilité
 1191050 0 combustible
 1191050 0 produit inflammable
+1191060 0 potentiel
 1191060 0 faisable
 1191060 0 possible
+1191060 0 praticable
 1191060 0 réalisable
 1191080 0 possibilité
 1191080 0 potentialité
@@ -4831,6 +4852,7 @@
 1191610 0 vêtements d'été
 1191680 0 belle-fille
 1191680 0 brue
+1191680 1 (sa) belle-fille
 1191690 0 épouser
 1191720 0 épousailles
 1191720 0 marriage
@@ -4853,6 +4875,8 @@
 1191920 0 livre de compte familial
 1191980 0 travail à la maison
 1191980 0 travail domestique
+1191980 1 affaires familiales
+1191980 1 affaires du ménage
 1191990 0 propriétaire (logement)
 1192030 0 quitter la maison
 1192030 0 se sauver de la maison
@@ -5042,6 +5066,10 @@
 1195680 0 boutique de pâtisserie
 1195680 0 pâtisserie
 1195710 0 compteur pour les chapitres ou les leçons
+1195710 1 section (dans une organisation)
+1195710 1 division
+1195710 1 département
+1195710 2 compteur pour les leçons et les chapitres (d'un livre)
 1195790 0 taxation
 1195820 0 sujet
 1195820 0 tâche
@@ -5076,6 +5104,14 @@
 1195970 5 dépasser
 1195970 5 exagérer
 1196000 0 passer (le temps)
+1196000 1 exagérer (en part. pour sa consommation d'alcool)
+1196000 1 boire (de l'alcool)
+1196000 2 prendre soin de
+1196000 2 soutenir
+1196000 3 en faire trop
+1196000 3 dépasser les bornes
+1196000 3 abuser
+1196000 4 ... sans passer à l'action
 1196010 0 erreur
 1196010 0 faute
 1196010 0 indiscrétion
@@ -5083,6 +5119,8 @@
 1196030 0 le passé
 1196030 0 le précédent
 1196030 0 les temps anciens
+1196030 1 un passé (c.-à-d. une histoire personnelle que l'on préférerait garder secrète)
+1196030 1 son passé
 1196030 3 vie antérieure
 1196070 0 extrémistes
 1196070 0 partie radical
@@ -5123,6 +5161,9 @@
 1197020 0 désobéissance
 1197020 0 entêtement
 1197020 1 désobéissance
+1197020 2 caprice
+1197020 2 fantaisie
+1197020 2 lubie
 1197050 0 trait (de crayon, de pinceau)
 1197060 0 délimiter
 1197060 0 limiter
@@ -5196,6 +5237,7 @@
 1198530 0 réunion
 1198530 0 rassemblement
 1198530 1 association
+1198530 2 conjonction
 1198550 0 compagnie
 1198550 0 entreprise
 1198550 0 société
@@ -5218,13 +5260,39 @@
 1198880 0 dialogue
 1198880 0 discussion
 1198890 0 dénouer
-1198890 0 résoudre
+1198890 0 délier
+1198890 0 desserrer
+1198890 0 détacher
+1198890 0 déballer
+1198890 0 défaire
+1198890 1  découdre
+1198890 2 résoudre
+1198890 2 travailler sur
+1198890 2 répondre
+1198890 3 dissiper (un malentendu, etc.)
+1198890 3 éclaircir
+1198890 3 écarter (des soupçons)
+1198890 3 apaiser
+1198890 4 rompre (un contrat)
+1198890 4 résilier
+1198890 4 annuler
+1198890 4 supprimer (une interdiction)
+1198890 4 lever (un embargo ou un siège)
+1198890 5 libérer (du service)
+1198890 5 soulager
+1198890 5 congédier
+1198890 6 peigner
+1198890 6 carder
+1198890 6 démêler (les cheveux)
 1198900 0 défaire
 1198900 0 dénouer
 1198910 0 se dénouer
 1198910 0 se résoudre
 1198910 1 se délier
 1198910 1 se dénouer
+1198910 2 être supprimé (par ex.une restriction)
+1198910 2 être dissipé (par ex. un malentendu)
+1198910 2 être brisé (par ex. un sort, une malédictions)
 1198910 3 fondre
 1198920 0 se défaire
 1198920 0 se dénouer
@@ -5257,7 +5325,16 @@
 1199330 2 islam
 1199330 3 Hui (ethnie)
 1199350 0 tourner
+1199350 1 circuler
+1199350 1 faire circuler
+1199350 1 diffuser
+1199350 2 entourer
+1199350 2 encercler
+1199350 3 utiliser quelque chose à une nouvelle fin (par ex. des restes)
+1199350 4 (après un radical verbal) ... autour
+1199350 5 composer (par ex. un numéro de téléphone)
 1199350 6 investir
+1199350 7 violer en réunion
 1199360 0 détour
 1199400 0 récurrence
 1199400 0 récursion
@@ -5286,6 +5363,9 @@
 1199720 0 guérison
 1199720 0 récupération
 1199720 0 rétablissement
+1199720 1 rétablissement (d'une maladie)
+1199720 1 récupération
+1199720 1 convalescence
 1199800 0 circulation
 1199830 0 circuit (électrique)
 1199860 0 corridor
@@ -5776,9 +5856,14 @@
 1205880 0 décision
 1205880 0 définition (math)
 1205880 0 stipulation
-1205900 0 affirmation
 1205900 0 confirmation
 1205900 0 vérification
+1205900 0 validation
+1205900 0 examen
+1205900 0 revue
+1205900 0 contrôle
+1205900 0 affirmation
+1205900 0 identification
 1205920 0 assurance
 1205920 0 guarantie
 1205920 0 maintien
@@ -5799,13 +5884,25 @@
 1206050 3 considérer
 1206060 0 réveiller
 1206060 0 se réveiller
+1206060 1 détromper
+1206060 2 se dégriser
+1206060 3 étouffer
+1206060 3 calmer
+1206060 3 jeter un froid sur
+1206060 3 gâcher
 1206070 0 se réveiller
+1206070 1 devenir sobre
+1206070 1 se dégriser
+1206070 1 reprendre conscience (par ex. après une anesthésie)
+1206070 2 revenir à la raison
+1206070 2 être désillusionné
 1206080 0 décision
 1206080 0 préparation
 1206080 0 résignation
 1206080 0 résolution
 1206100 0 angle
 1206100 1 fou (du jeu d'échec japonais le shogi)
+1206100 2 fou (du jeu d'échec japonais le shogi)
 1206110 0 coin
 1206110 1 bord
 1206110 1 rebord
@@ -6044,11 +6141,15 @@
 1208300 0 caractères d'imprimerie
 1208360 0 action
 1208360 0 activité
+1208360 1 film (en part. pour le cinéma muet)
 1208410 0 actif
 1208410 0 vif
 1208450 0 activité
 1208460 0 conjugaison
 1208460 0 utilisation
+1208460 1 conjugaison
+1208460 1 déclinaison
+1208460 1 inflexion
 1208480 0 énergie
 1208480 0 vitalité
 1208510 0 soif
@@ -6090,6 +6191,13 @@
 1208920 0 action (bourse)
 1208920 0 souche (d'arbre)
 1208920 0 titre
+1208920 1 souche
+1208920 2 racine
+1208920 2 rhizome
+1208920 3 souche (de bactérie, etc.)
+1208920 4 écart d'acquisition
+1208920 4 goodwill
+1208920 5 son (point) fort
 1208960 0 action (bourse)
 1208970 0 action boursière
 1208980 0 société par actions (S.A.)
@@ -6218,6 +6326,12 @@
 1211330 0 perdre patience
 1211340 0 insupportable
 1211340 0 intolérable
+1211340 1 irrésistible
+1211340 1 formidable
+1211340 1 extraordinaire
+1211340 2 ne pas pouvoir s'empêcher de (faire)
+1211340 2 ne pas faire autrement que
+1211340 2 être impatient de
 1211350 0 pardon
 1211350 0 patience
 1211380 0 agaçant
@@ -6652,6 +6766,7 @@
 1216880 0 inclure
 1216880 0 renfermer
 1216880 0 retenir
+1216880 1 tenir dans la bouche
 1216890 0 inclure
 1216890 0 y compris
 1216950 0 pénétrant
@@ -7136,6 +7251,8 @@
 1223440 0 dossier
 1223440 0 enregistrement
 1223440 0 minutes (d'un procès)
+1223440 2 enregistrer
+1223440 2 documenter
 1223520 0 coûteux
 1223520 0 de valeur
 1223520 0 précieux
@@ -7192,6 +7309,10 @@
 1224190 0 démon
 1224190 0 monstre
 1224190 0 ogre
+1224190 1 esprit d'une personne décédée
+1224190 5 très
+1224190 5 extrêmement
+1224190 5 super-
 1224200 0 (jeu de) chat perché
 1224200 0 colin-maillard
 1224220 0 génie
@@ -8399,6 +8520,10 @@
 1241750 0 muscle
 1241750 0 source (d'une information)
 1241750 0 tendon
+1241750 1 veine
+1241750 1 artère
+1241750 8 aptitude
+1241750 8 talent
 1241760 0 absurdité
 1241760 0 crampe
 1241760 0 entorse
@@ -10321,6 +10446,7 @@
 1269330 0 après
 1269330 0 ensuite
 1269330 1 futur
+1269330 2 après sa (propre) mort
 1269410 0 arrière
 1269410 0 derrière
 1269410 0 dos
@@ -26682,6 +26808,7 @@
 1495740 0 avoir de la chance
 1495740 0 prendre racine
 1495740 0 s'allumer (lumière)
+1495740 13 (après un radical verbal, une onomatopée ou un mot mimétique) devenir (un état, une condition, etc.)
 1495750 0 addition (dans le sens de facture) que l'on peut payer à crédit
 1495750 0 note
 1495770 0 allumer
@@ -29453,6 +29580,8 @@
 1533820 0 cheveu
 1533820 0 poil
 1533820 0 fourrure
+1533820 1 laine
+1533820 2 plume
 1533850 0 antipahie
 1533850 0 parti pris
 1533850 0 préjugé
@@ -29502,6 +29631,7 @@
 1534500 0 se procurer
 1534520 0 arbre
 1534520 0 bois (matière)
+1534520 1 bois (matière)
 1534540 0 bourgeon du poivrier
 1534560 0 feuillage
 1534570 0 couvert (d'un arbre)
@@ -29591,6 +29721,7 @@
 1535850 0 retourner
 1535880 0 revenir
 1535880 0 se retourner
+1535880 1 revenir
 1535910 0 recevoir
 1535910 0 prendre
 1535910 0 accepter
@@ -29665,6 +29796,8 @@
 1537270 0 extérieur
 1537270 0 campagne
 1537270 0 champs
+1537270 1 campagne
+1537270 1 champs
 1537290 0 photographie d'extérieur
 1537300 0 base-ball
 1537330 0 bœuf
@@ -29779,6 +29912,7 @@
 1538370 0 traducteur
 1538440 0 dancer
 1538440 0 bondir
+1538445 0 bondir
 1538460 0 bond en avant
 1538460 0 essor
 1538460 0 progrès rapide
@@ -31299,6 +31433,9 @@
 1559240 0 s'étendre à (de grande proportions, etc.)
 1559240 0 être aligné en ligne
 1559240 0 participer (en tant que membre à un groupe, une association)
+1559240 1 atteindre
+1559240 1 s'étendre à (de grande proportions, etc.)
+1559240 2 participer (en tant que membre à un groupe, une association)
 1559250 0 rejoindre
 1559250 0 se joindre à
 1559260 0 compagnie (personne qui accompagne)
@@ -32258,6 +32395,9 @@
 1580480 0 fort
 1580480 0 résistant
 1580480 0 solide
+1580485 0 gentilhomme
+1580485 0 guerrier
+1580485 0 héros
 1580490 0 passager
 1580510 0 émotion
 1580510 0 sentiment
@@ -32394,6 +32534,8 @@
 1581620 0 retrousser
 1581620 0 abréger
 1581620 0 raccourcir
+1581620 1 abréger
+1581620 1 raccourcir
 1581630 0 coût
 1581630 0 mérites
 1581630 0 prix
@@ -32413,6 +32555,7 @@
 1581760 0 faire ses condoléances
 1581760 0 pleurer (la mort de quelqu'un)
 1581760 0 faire une cérémonie commémorative
+1581760 1 faire une cérémonie commémorative
 1581780 0 petit déjeuner
 1581790 0 bientôt
 1581790 0 immédiatement
@@ -32484,6 +32627,7 @@
 1582340 0 travailleur
 1582340 0 soutien de famille
 1582340 0 personne compétente
+1582340 1 personne compétente
 1582360 0 frères
 1582360 0 frères et sœurs
 1582360 0 fratrie
@@ -33084,7 +33228,7 @@
 1588760 0 acquérir
 1588760 0 gagner
 1588760 0 obtenir
-1588760 3 (après le radical masu d'un verbe) être capable de..., pouvoir...
+1588760 3 (après un radical verbal) être capable de..., pouvoir...
 1588790 0 protection
 1588790 0 secours
 1588790 0 soutien
@@ -36668,9 +36812,6 @@
 2154660 0 peste
 2154810 0 au revoir
 2158900 3 Taoïsme
-2194790 2 bras
-2194790 2 main d'œuvre
-2194790 3 aide
 2194990 0 Merci beaucoup
 2198520 0 tabun (gaz neurotoxique)
 2217040 0 voir
@@ -36711,5 +36852,9 @@
 2409210 0 se comportant comme...
 2568440 0 corriger (en rouge)
 2643970 2 même (par ex. même un enfant pourrait le soulever)
+2649690 1 être imprimé (dans le journal)
+2649690 1 être mentionné
+2649690 1 être noté, conservé
+2649690 1 paraître (dans le journal)
 2756190 0 métis
 2756190 0 personne d'origines mélangées
