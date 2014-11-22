@@ -229,7 +229,7 @@
 1002280 0 auparavant
 1002280 1 devant
 1002280 2 excusez-moi de partir (avant vous)
-1002290 0 toi, tu ( autrefois honorifique, maintenant parfois dépréciatif envers un égal ou un inférieur)
+1002290 0 toi, tu (autrefois honorifique, maintenant parfois dépréciatif envers un égal ou un inférieur)
 1002290 1 présence (d'un dieu, noble, etc.)
 1002320 0 grand-père
 1002320 1 citoyens adultes masculins
@@ -360,11 +360,13 @@
 1003440 0 clairement
 1003440 0 distinctement
 1003440 0 nettement
-1003450 0 fort
+1003450 0 intense
 1003450 0 sévère
-1003450 0 serré
+1003450 0 fort
+1003450 0 vif
 1003450 1 décidé
-1003450 1 énergique, vigoureux
+1003450 1 énergique
+1003450 1 vigoureux
 1003450 1 impressionnant
 1003450 2 corsé
 1003450 2 fort
@@ -503,14 +505,18 @@
 1004790 0 à présent
 1004790 0 dès maintenant
 1004820 0 jusqu'ici
-1004830 0 ces, ceux-là, celles-là
+1004830 0 ces
+1004830 0 ceux-là
+1004830 0 celles-là
 1004840 0 bruit d'un petit objet qui roule
 1004840 0 changement (conversation)
 1004840 0 voix aiguë et agréable
 1004880 0 cette sorte de (utilisé à propos de quelque chose ou quelqu'un de proche du locuteur (y-compris le locuteur lui-même), ou à propos d'idées exprimées par le locuteur)
 1004880 0 comme ceci
 1004890 0 ainsi
-1004890 0 de cette facon
+1004890 0 comme ça
+1004890 0 comme ceci
+1004890 0 de cette façon
 1005020 0 oisiveté
 1005020 0 ronronnement
 1005020 0 tonnerre
@@ -544,8 +550,7 @@
 1005200 0 soudainement
 1005200 1 tout à coup
 1005200 1 soudainement (surtout utilisé dans le cas de la pluie, du vent etc...)
-1005210 0 equilibré
-1005210 0 ordonné
+1005210 0 se sentir rafraîchi
 1005210 0 se sentir à l'aise
 1005210 1 soigné
 1005210 1 ordonné
@@ -556,6 +561,7 @@
 1005210 3 totalement
 1005210 4 pas le moins du monde (dans une phrase négative)
 1005210 4 rien du tout
+1005210 5 totalement ignorant
 1005210 5 pas du tout
 1005210 5 absolument pas
 1005310 0 bruissement
@@ -567,6 +573,7 @@
 1005340 1 rend les mots plus polis (surtout dans des expressions figées)
 1005360 0 bruit de versement d'eau
 1005390 0 approximativement
+1005390 0 en chiffre rond
 1005390 1 superficiellement
 1005390 1 brièvement
 1005420 0 se sentir rugueux
@@ -810,6 +817,14 @@
 1007310 0 donc
 1007310 0 par conséquence
 1007340 0 seulement
+1007340 0 juste
+1007340 0 uniquement
+1007340 0 simplement
+1007340 0 pas plus de
+1007340 0 rien que
+1007340 0 seul
+1007340 1 que (par ex. aussitôt que, autant que)
+1007340 2 équivalent à
 1007370 0 toutefois, cependant
 1007400 0 dans ce cas
 1007420 0 dans ce cas
@@ -3015,6 +3030,14 @@
 1155400 0 grade
 1155400 0 rang
 1155400 0 trône
+1155400 3 niveau (de qualité, etc.)
+1155400 3 échelon
+1155400 3 rang
+1155400 4 chiffre (par ex. les dizaines, les centaines, etc.)
+1155400 4 position
+1155400 5 degré
+1155400 5 étendue
+1155400 5 montant
 1155490 0 position des unités dans un nombre
 1155650 0 comme toujours/comme jusqu'à présent
 1155660 0 comme toujours
@@ -3196,9 +3219,11 @@
 1158160 0 infecter
 1158160 0 retirer
 1158160 0 transporter
+1158160 1 changer l'objet de son intérêt ou de sa concentration
 1158160 2 passer ou prendre du temps
 1158160 3 infecter
 1158160 4 imprégner quelque chose avec l'odeur ou la couleur de quelque chose
+1158160 5 passer à l'étape suivante ou différente du (projet, etc.)
 1158210 0 déménager (une maison)
 1158210 0 transférer (un département)
 1158210 1 être contagieux
@@ -3214,9 +3239,16 @@
 1158310 0 transplantation
 1158390 0 déménagement
 1158390 0 transfert
-1158400 0 déplacement
-1158400 0 migration
 1158400 0 mouvement
+1158400 0 déplacement
+1158400 0 transfert
+1158400 0 migration
+1158400 0 déménagement
+1158400 1 mobile
+1158400 1 en mouvement
+1158400 1 en voyage
+1158400 1 nomade
+1158400 1 itinérant
 1158440 0 émigré
 1158440 0 émigration
 1158440 0 immigrant
@@ -3258,9 +3290,12 @@
 1158880 4 n'est-ce pas ?
 1158890 0 changer
 1158900 0 anticonstitutionnel
+1158950 0 violation
+1158950 0 infraction
 1158950 0 délit
 1158950 0 transgression
-1158950 0 violation
+1158950 0 atteinte
+1158950 0 contravention
 1158960 0 illégal
 1159090 0 dommage
 1159090 0 regret
@@ -3924,6 +3959,7 @@
 1173710 0 se refléter
 1173720 0 film
 1173750 0 cinéma (bâtiment)
+1173750 0 salle de cinéma
 1173790 0 projecteur
 1173800 0 image
 1173800 0 réflexion
@@ -5485,7 +5521,8 @@
 1201120 0 changer de nom
 1201140 0 amélioration
 1201190 0 mer
-1201190 0 plage
+1201190 0 océan
+1201190 0 eaux
 1201220 0 marin
 1201220 0 matelot
 1201260 0 étranger
@@ -6675,6 +6712,8 @@
 1215290 0 sous peu
 1215320 0 erreur
 1215320 0 faute
+1215320 2 conduite inappropriée (par ex. entre un homme et une femme)
+1215320 2 indiscrétion
 1215330 0 faire une erreur
 1215330 0 se tromper
 1215330 1 confondre qqch pur qqch d'autre
@@ -6741,14 +6780,25 @@
 1216250 0 cercle
 1216250 0 rond
 1216250 0 suffixe pour noms de bateaux
+1216250 1 intégralité
+1216250 1 ensemble
+1216250 1 plein
+1216250 1 complet
+1216250 2 argent
+1216250 2 fric
+1216250 2 pognon
+1216250 3 enceinte à l'intérieur des murs d'un château
+1216250 4 tortue à carapace molle
 1216270 0 à fond
 1216270 0 completement
 1216270 0 parfaitement
+1216280 0 tout à fait
 1216280 0 absolument
-1216280 0 comme si
-1216280 0 entièrment
-1216280 0 on dirait que
-1216280 0 totalement
+1216280 0 entièrement
+1216280 0 complètement
+1216280 0 du tout
+1216280 1 comme si
+1216280 1 tout comme
 1216290 0 arrondi
 1216290 0 rondeur
 1216290 0 rotondité
@@ -6785,6 +6835,9 @@
 1217200 0 un regard
 1217270 0 roc
 1217270 0 rocher
+1217270 1 escarpement
+1217270 1 falaise
+1217270 2 ancre
 1217280 0 sel gemme
 1217290 0 caverne
 1217290 0 grotte
@@ -6844,6 +6897,10 @@
 1217950 0 espérer
 1217950 0 implorer
 1217950 0 souhaiter
+1217950 1 mendier
+1217950 1 demander
+1217950 1 implorer
+1217950 1 prier
 1217970 0 j'aimerais bien
 1217970 0 j'espère
 1218050 0 acte de candidature
@@ -7027,6 +7084,7 @@
 1220230 0 discussion académique
 1220230 0 théorie abstraite
 1220240 0 drapeau
+1220240 1 pataka (bannière)
 1220270 0 situation (guerre, fortune) (?)
 1220310 0 déjà
 1220310 0 trop tard
@@ -7062,12 +7120,21 @@
 1220800 0 opportunité
 1220810 0 mécanisme
 1220810 0 machine
+1220810 1 instrument
+1220810 1 appareil
+1220810 1 dispositif
 1220820 0 mécanisation
 1220850 0 civilisation technique
 1220870 0 machine
 1220870 0 machinerie
 1220870 0 moteur
 1220870 0 organe
+1220870 1 agence
+1220870 1 organisation
+1220870 1 organisme
+1220870 1 institution
+1220870 1 organe
+1220870 1 corps
 1220870 2 système
 1220870 2 installation
 1220870 2 équipements
@@ -7076,6 +7143,10 @@
 1220890 0 mitrailleuse
 1220930 0 disposition
 1220930 0 humeur
+1220930 1 sécurité
+1220930 1 santé
+1220930 1 bien-être
+1220930 1 sa (propre) situation
 1220940 0 mécanisme
 1220940 0 organisation
 1221020 0 fuselage
@@ -7251,6 +7322,9 @@
 1223440 0 dossier
 1223440 0 enregistrement
 1223440 0 minutes (d'un procès)
+1223440 1 un record (par ex. sportif)
+1223440 1 résultats
+1223440 1 score
 1223440 2 enregistrer
 1223440 2 documenter
 1223520 0 coûteux
@@ -7310,6 +7384,7 @@
 1224190 0 monstre
 1224190 0 ogre
 1224190 1 esprit d'une personne décédée
+1224190 3 loup (dans le jeu du loup)
 1224190 5 très
 1224190 5 extrêmement
 1224190 5 super-
@@ -7490,6 +7565,17 @@
 1226510 0 raccourcir (vt)
 1226510 0 remplir
 1226510 0 travailler d'arrache-pied
+1226510 1 raccourcir
+1226510 1 rétrécir
+1226510 1 resserer
+1226510 1 rapprocher
+1226510 10 mettre quelqu'un aux abois
+1226510 10 mettre quelqu'un dans une situation difficile
+1226510 2 réduire (les dépenses)
+1226510 2 économiser
+1226510 3 se concentrer intensément sur
+1226510 3 se forcer à faire
+1226510 3 faire des efforts pour
 1226550 0 bourrer a craquer
 1226570 0 contre-interrogatoire
 1226610 0 à l'inverse
@@ -7972,6 +8058,7 @@
 1234700 0 communauté
 1234700 1 être commun
 1234700 1 être partagé
+1234700 2 commun à
 1234720 0 langue commune
 1234740 0 destruction mutuelle
 1234740 0 faillite commune
@@ -29577,11 +29664,12 @@
 1533740 0 pousser ave luxuriance
 1533740 0 pousser dru
 1533740 0 s'épaissir (verdure)
-1533820 0 cheveu
-1533820 0 poil
-1533820 0 fourrure
+1533820 0 cheveux
+1533820 1 fourrure
 1533820 1 laine
-1533820 2 plume
+1533820 2 plumage
+1533820 2 plumes
+1533820 2 duvet
 1533850 0 antipahie
 1533850 0 parti pris
 1533850 0 préjugé
@@ -29630,7 +29718,8 @@
 1534500 0 obtenir
 1534500 0 se procurer
 1534520 0 arbre
-1534520 0 bois (matière)
+1534520 0 arbuste
+1534520 0 buisson
 1534520 1 bois (matière)
 1534540 0 bourgeon du poivrier
 1534560 0 feuillage
@@ -29719,9 +29808,15 @@
 1535850 0 restaurer
 1535850 0 restituer
 1535850 0 retourner
-1535880 0 revenir
-1535880 0 se retourner
+1535880 0 revenir en arrière (par ex. à mi-chemin)
+1535880 0 rebrousser chemin
+1535880 1 retourner
 1535880 1 revenir
+1535880 2 retrouver (par ex. quelque chose de perdu)
+1535880 2 être retourné
+1535880 2 être restitué
+1535880 3 rebondir
+1535880 3 revenir en position initiale (par ex. pour un ressort)
 1535910 0 recevoir
 1535910 0 prendre
 1535910 0 accepter
@@ -31292,6 +31387,7 @@
 1556760 0 se moquer de
 1556760 1 discuter avec un marchand sans intention d'acheter
 1556760 1 refroidir
+1556760 2 discuter avec un marchand sans intention d'acheter
 1556770 0 réfrigérer
 1556770 0 refroidir
 1556900 0 accueil froid

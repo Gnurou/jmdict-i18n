@@ -10,15 +10,16 @@
 万 myriade
 万 10000
 丈 longueur
-丈 10 pieds (jo)
+丈 dix shaku
 丈 mesure
-丈 M
+丈 M.
 丈 Mme
+丈 hauteur
 丈 taille
-丈 stature
-丈 tout (ce qu'on a)
+丈 tout (ce que l'on a)
 丈 seulement
 丈 c'est tout
+丈 uniquement
 三 trois
 上 au-dessus
 上 haut
@@ -164,6 +165,7 @@
 事 peut-être
 二 deux
 二 radical deux (no. 2)
+云 dire
 互 mutuel
 互 réciproque
 互 ensemble
@@ -331,6 +333,7 @@
 伴 amener avec soi
 伴 compagnon
 伴 époux / épouse
+伶 acteur
 伸 allonger
 伸 étirer
 伸 accroître
@@ -451,6 +454,7 @@
 俊 génie
 俊 excellence
 俊 avisé
+俐 astucieux
 俗 vulgaire
 俗 coutumes
 俗 manières
@@ -559,7 +563,7 @@
 傍 en outre
 傍 pendant que
 傍 tout près
-傍 les autres
+傍 troisième personne
 傑 grandeur
 傑 excellence
 傘 parapluie
@@ -1143,10 +1147,9 @@
 厄 malchance
 厄 infortune
 厄 désastre
-厘 un petit peu
-厘 fifrelin
-厘 1/10 de sen = 0.001 yen
-厘 1/10 de bu = 0.303 cm
+厘 rin
+厘 1/10 sen
+厘 1/10 bu
 厚 épais
 厚 lourd
 厚 cordial
@@ -1576,8 +1579,8 @@
 坑 mine
 坑 fosse
 坑 trou
-坪 aire de 2 tatamis
-坪 tsubo (3,306 m² )
+坪 aire de 2 tatamis standards
+坪 environ 3,3 m²
 垂 pendre
 垂 suspendre
 垂 tomber
@@ -2090,7 +2093,7 @@
 寮 pavillon
 寮 pavillon de thé
 寸 dimension
-寸 sun = 3,03 cm (1/10 de shaku)
+寸 un dixième de shaku
 寸 un peu
 寸 petit
 寺 temple bouddhiste
@@ -2278,7 +2281,7 @@
 嶌 île
 川 rivière
 川 fleuve
-川 radical rivière (no. 47)
+川 radical de la rivière ou de la rivière en trois traits (nº 47)
 州 province
 州 état
 巡 patrouille
@@ -3553,9 +3556,9 @@
 斑 point
 斑 corrections
 斗 Grande Ourse
-斗 tonnelet de saké
-斗 to (18,039 litres)
-斗 radical points et croix (no. 68)
+斗 louche à saké
+斗 dix sho (volume)
+斗 radical points et croix (nº 68)
 料 redevance
 料 recette
 料 frais
@@ -3629,8 +3632,9 @@
 旨 expert
 早 tôt
 早 rapide
-旬 décade
-旬 saison (fruits, poisson, ...)
+旬 décaméron
+旬 période de dix jours
+旬 saison (pour des produits specifiques)
 旭 soleil levant
 旺 florissant
 旺 ayant du succès
@@ -5105,9 +5109,9 @@
 畜 bétail
 畜 animaux domestiques
 畝 sillon
-畝 30 tsubo (100 m²)
-畝 raie
-畝 côte (côtelé)
+畝 trente tsubo
+畝 crête
+畝 côte
 略 abréviation
 略 omission
 略 résumé
@@ -5304,7 +5308,7 @@
 瞬 pétiller (yeux)
 瞭 clair
 瞭 clarifié
-瞳 pupille (oeil)
+瞳 pupille (de l'œil)
 矛 hallebarde
 矛 armes
 矛 char de festival
@@ -6443,11 +6447,10 @@
 蒸 torride
 蒸 fomenter
 蒸 renfermé
-蓄 accumuler
-蓄 stocker
-蓄 mettre de côté
-蓄 gramophone
-蓄 avoir une maîtresse
+蓄 amasser
+蓄 augmenter
+蓄 magot
+蓄 magasin
 蓋 couvercle
 蔑 ignorer
 蔑 mépriser
