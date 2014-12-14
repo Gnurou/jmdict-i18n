@@ -15,6 +15,5 @@ tx push -s
 # push translations and ignore errors
 tx push -t --skip
 
-git add .
 git commit -a -m "Automatic update with update_all"
 git push origin master

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2014-11-22 02:13:23+0000\n"
+"POT-Creation-Date: 2014-12-14 02:20:20+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -2712,9 +2712,10 @@ msgid ""
 "Kentucky"
 msgstr "Кентукки"
 
+#, fuzzy
 msgctxt "1048290 0"
 msgid ""
-"ケンブリッジ\n"
+"剣橋\tケンブリッジ\n"
 "Cambridge"
 msgstr "Кембридж"
 
@@ -2965,10 +2966,11 @@ msgid ""
 "consortium"
 msgstr "консо́рциум"
 
+#, fuzzy
 msgctxt "1052910 0"
 msgid ""
 "コンドル\n"
-"condor (inc. other New World vultures of family Cathartidae)"
+"condor (incl. other New World vultures of family Cathartidae)"
 msgstr "кондор"
 
 msgctxt "1052910 1"
@@ -5350,9 +5352,10 @@ msgid ""
 "billiards"
 msgstr "билья́рд"
 
+#, fuzzy
 msgctxt "1106080 0"
 msgid ""
-"緬甸\tビルマ\n"
+"緬甸\tめんでん\n"
 "Burma"
 msgstr "Би́рма"
 
@@ -5512,10 +5515,11 @@ msgid ""
 "phoenix (bird of Egyptian mythology)"
 msgstr "феникс"
 
+#, fuzzy
 msgctxt "1109880 1"
 msgid ""
 "フェニックス\n"
-"phoenix (any palm tree of genus Phoenix, inc. the date palm)"
+"phoenix (any palm tree of genus Phoenix, incl. the date palm)"
 msgstr "феникс"
 
 msgctxt "1109920 0"
@@ -6775,9 +6779,10 @@ msgid ""
 "pixelated obscuring in images and video, usu. for censorship"
 msgstr "мозаика"
 
+#, fuzzy
 msgctxt "1134920 0"
 msgid ""
-"モスクワ\n"
+"莫斯科\tモスクワ\n"
 "Moscow"
 msgstr "Москва"
 
@@ -7411,8 +7416,8 @@ msgstr "широ́кий (en: wide)"
 #, fuzzy
 msgctxt "1149020 0"
 msgid ""
-"ワシントン\n"
-"Washington (US state)"
+"華府\tワシントン\n"
+"Washington, DC (capital of the United States of America)"
 msgstr "Ва́шингтон"
 
 msgctxt "1149130 0"
@@ -10099,10 +10104,12 @@ msgstr ""
 "увольнять\n"
 "выгонять с работы"
 
+#, fuzzy
 msgctxt "1330000 0"
 msgid ""
 "受動喫煙\tじゅどうきつえん\n"
-"passive smoking (i.e. second-hand smoking)"
+"passive smoking\n"
+"second-hand smoking"
 msgstr "пасси́вное куре́ние"
 
 msgctxt "1331540 0"
@@ -11371,10 +11378,11 @@ msgid ""
 "second quantization"
 msgstr "втора́я квантиза́ция"
 
+#, fuzzy
 msgctxt "1416790 0"
 msgid ""
 "鱈\tたら\n"
-"gadid (any fish of the family Gadidae, inc. cod, haddock, whiting and pollack)"
+"gadid (any fish of the family Gadidae, incl. cod, haddock, whiting and pollack)"
 msgstr "треска"
 
 msgctxt "1416790 1"
@@ -12832,10 +12840,12 @@ msgid ""
 "we"
 msgstr "мы"
 
+#, fuzzy
 msgctxt "1521890 0"
 msgid ""
 "睦月\tむつき\n"
-"first month of the lunar calendar"
+"first month (esp. of the lunar calendar)\n"
+"January"
 msgstr "первый месяц лунного календаря"
 
 msgctxt "1523410 0"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2014-11-22 02:13:23+0000\n"
+"POT-Creation-Date: 2014-12-14 02:20:20+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -265,17 +265,14 @@ msgid ""
 "concrete"
 msgstr "бето́н"
 
+#, fuzzy
 msgctxt "1052330 0"
 msgid ""
 "コンセント\n"
-"electrical outlet (concentric plug)"
+"electrical outlet\n"
+"wall socket\n"
+"power plug"
 msgstr "(электрическая) розетка (en: concentric (plug))"
-
-msgctxt "1052330 2"
-msgid ""
-"コンセント\n"
-"concentric"
-msgstr "(электрическая) розе́тка (en: concentric (plug))"
 
 #, fuzzy
 msgctxt "1054850 0"
@@ -4127,10 +4124,11 @@ msgid ""
 "belly button"
 msgstr "пупок"
 
+#, fuzzy
 msgctxt "1571470 0"
 msgid ""
 "茹でる\tゆでる\n"
-"to boil"
+"to boil (something in hot water)"
 msgstr "отварить"
 
 #, fuzzy

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2014-11-22 02:13:23+0000\n"
+"POT-Creation-Date: 2014-12-14 02:20:20+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1664,9 +1664,10 @@ msgid ""
 "cancel"
 msgstr "annulation"
 
+#, fuzzy
 msgctxt "1042520 0"
 msgid ""
-"基督\tきりすと\n"
+"基督\tキリスト\n"
 "Christ"
 msgstr "christ"
 
@@ -7837,10 +7838,11 @@ msgid ""
 "linking little fingers to confirm a promise"
 msgstr "croiser les doigts pour sceller une promesse"
 
+#, fuzzy
 msgctxt "2029080 0"
 msgid ""
 "ね\n"
-"(sentence end) indicates emphasis, agreement, request for confirmation, etc.\n"
+"indicates emphasis, agreement, request for confirmation, etc.\n"
 "is it so"
 msgstr "oui vraiment"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2014-11-22 02:13:23+0000\n"
+"POT-Creation-Date: 2014-12-14 02:20:20+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -589,10 +589,11 @@ msgid ""
 "history"
 msgstr "tarih"
 
+#, fuzzy
 msgctxt "1576900 1"
 msgid ""
 "音\tおと\n"
-"note (music)"
+"note"
 msgstr "nota (müzik)"
 
 #, fuzzy
