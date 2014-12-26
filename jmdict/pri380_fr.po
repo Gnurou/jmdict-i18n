@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2014-12-14 02:20:20+0000\n"
+"POT-Creation-Date: 2014-12-26 03:04:34+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -239,10 +239,11 @@ msgid ""
 "being content with one's present position"
 msgstr "vie tranquille"
 
+#, fuzzy
 msgctxt "1154060 0"
 msgid ""
 "安打\tあんだ\n"
-"safe hit (baseball)"
+"safe hit"
 msgstr "coup sûr (baseball)"
 
 msgctxt "1154070 0"
@@ -8115,10 +8116,11 @@ msgid ""
 "spring equinox"
 msgstr "équinoxe de printemps"
 
+#, fuzzy
 msgctxt "1341580 0"
 msgid ""
 "準決勝\tじゅんけっしょう\n"
-"semifinal (in sports)"
+"semifinal"
 msgstr "demi-finale"
 
 msgctxt "1341780 0"
@@ -17314,10 +17316,11 @@ msgid ""
 "going before an audience or on-air"
 msgstr "représentation (sans répétition)"
 
+#, fuzzy
 msgctxt "1523310 0"
 msgid ""
 "本塁打\tほんるいだ\n"
-"home run (baseball)"
+"home run"
 msgstr "home run (terme de base-ball)"
 
 msgctxt "1523340 0"
@@ -17425,10 +17428,11 @@ msgstr ""
 "état chronique\n"
 "chronique(maladie)"
 
+#, fuzzy
 msgctxt "1526910 0"
 msgid ""
 "満塁\tまんるい\n"
-"bases loaded (baseball)"
+"bases loaded"
 msgstr "terme de baseball lorsque les bases sont pleines"
 
 msgctxt "1527650 0"
@@ -17550,10 +17554,12 @@ msgid ""
 "drowsiness"
 msgstr "somnolence"
 
+#, fuzzy
 msgctxt "1529370 0"
 msgid ""
 "眠り\tねむり\n"
-"sleep"
+"sleep\n"
+"sleeping"
 msgstr "sommeil"
 
 msgctxt "1529480 0"
@@ -18155,10 +18161,11 @@ msgid ""
 "oil field"
 msgstr "champ pétrolifère"
 
+#, fuzzy
 msgctxt "1538760 0"
 msgid ""
 "癒着\tゆちゃく\n"
-"adhesion (medical)\n"
+"adhesion\n"
 "conglutination"
 msgstr ""
 "adhésion\n"
