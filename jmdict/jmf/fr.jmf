@@ -726,7 +726,7 @@
 1006610 0 ainsi
 1006610 0 vraiment
 1006610 0 comme cela
-1006610 1 (après la forme en -masu et la forme adjective) il apparait que
+1006610 1 (après le radical du verbe ou de l'adjectif) il apparait que
 1006610 1 sembler
 1006610 1 ressembler à
 1006610 1 avoir l'apparence de
@@ -14453,10 +14453,20 @@
 1316980 0 porcelaine
 1316990 0 magnétisme
 1317080 0 aimant
-1317110 0 dénoter
-1317110 0 indiquer
-1317110 0 marquer
 1317110 0 montrer
+1317110 0 démontrer
+1317110 0 exprimer
+1317110 0 illustrer
+1317110 0 exemplifier
+1317110 0 rendre évident
+1317110 1 pointer (pour un doigt, l'aiguille de l'horloge, une aiguille, etc.)
+1317110 1 désigner
+1317110 1 indiquer
+1317110 2 indiquer
+1317110 2 montrer
+1317110 2 représenter
+1317110 2 signifier
+1317110 2 afficher
 1317130 0 indice
 1317130 0 suggestion
 1317140 0 décision de la cour (droit)
@@ -15166,6 +15176,8 @@
 1326990 1 disparaître (pour la douleur, la fièvre, etc.)
 1326990 2 être pris
 1326990 2 être récolté
+1326990 3 être interprété (comme)
+1326990 3 être considéré comme
 1326990 4 être atteint (par ex. pour un équilibre)
 1326990 5 être obtenu
 1327020 0 données
@@ -15648,6 +15660,7 @@
 1331840 0 état
 1331840 0 province
 1331840 0 comté
+1331840 0 oblast
 1331840 0 département (de la Chine ancienne)
 1331840 1 continent
 1331840 2 (après le nom de quelqu'un) cher
@@ -16861,6 +16874,8 @@
 1349370 0 sol
 1349370 0 soubassement
 1349380 0 plancher
+1349380 1 scène (pour le narrateur et le joueur de shamisen)
+1349380 2 terrase de restaurant construite au dessus d'une rivière
 1349400 0 alcôve (pièce traditionnelle japonaise)
 1349410 0 coiffeur
 1349410 0 salon de coiffure
@@ -17784,6 +17799,12 @@
 1358760 0 fesse
 1358760 0 fessier
 1358760 0 postérieur
+1358760 1 face inférieure
+1358760 1 dessous
+1358760 2 dernière place
+1358760 2 fin
+1358760 2 extrémité
+1358760 2 bout
 1358760 3 conséquence
 1358800 0 bout
 1358800 0 queue
@@ -17842,9 +17863,10 @@
 1359580 0 croyance
 1359580 0 foi
 1359620 0 confiance
-1359620 0 confier
+1359620 0 dépendance
 1359620 0 crédit
-1359620 0 se fier
+1359620 0 foi
+1359620 0 croyance
 1359730 0 confiance
 1359800 0 envahir
 1359800 0 franchir
@@ -17942,6 +17964,11 @@
 1360750 0 corps et âme
 1360760 0 adoration
 1360770 0 cœur
+1360770 1 tripes
+1360770 1 nerf
+1360770 1 joue
+1360770 1 fiel
+1360770 1 colonne vertébrale
 1360770 2 partie centrale
 1360820 0 sensation
 1360820 0 sentiment
@@ -17974,8 +18001,12 @@
 1361100 0 avisé
 1361100 0 circonspect
 1361100 0 prudent
-1361110 0 circonspection
-1361110 0 prudence
+1361110 0 prudent
+1361110 0 attentif
+1361110 0 circonspect
+1361110 0 réfléchi
+1361110 0 avisé
+1361110 0 précautionneux
 1361130 0 affecter de
 1361130 0 faire semblant de
 1361130 0 feindre de
@@ -18215,6 +18246,8 @@
 1364380 0 minuit
 1364400 0 vérité
 1364440 0 dieu
+1364440 1 incroyable
+1364440 1 fantastique
 1364440 2 empereur du Japon
 1364440 3 tonnerre
 1364490 0 prêtre Shintoïste
@@ -18222,6 +18255,8 @@
 1364510 0 miracle
 1364510 0 prodige
 1364520 0 nerf
+1364520 1 nerfs
+1364520 1 sensibilité
 1364670 0 temple shinto
 1364690 0 prêtre shinto
 1364710 0 âme
@@ -18401,13 +18436,29 @@
 1366160 0 suite
 1366160 0 tournure (événements)
 1366180 0 pénétration
-1366190 0 avancement
-1366190 0 développement
 1366190 0 progrès
+1366190 0 avancement
+1366190 0 amélioration
+1366190 0 développement
 1366200 0 chemin
 1366200 0 route
 1366210 0 aiguille (couture, horloge)
 1366210 0 hameçon
+1366210 1 crochet
+1366210 1 hameçon
+1366210 2 dard
+1366210 2 aiguillon
+1366210 2 épine
+1366210 3 aiguille (par ex. d'une horloge)
+1366210 3 pointeur
+1366210 3 curseur
+1366210 4 agrafe
+1366210 5 couture
+1366210 5 travaux d'aiguille
+1366210 6 malice
+1366210 6 méchanceté
+1366210 6 malveillance
+1366210 7 compteur pour les points de suture
 1366250 0 fil de fer
 1366290 0 trembler
 1366290 0 vibrer
@@ -18512,6 +18563,8 @@
 1369070 0 personnage
 1369070 0 personnalité
 1369070 0 personne d'envergure (de talent)
+1369070 2 personne douée
+1369070 2 personne talentueuse
 1369140 0 sciences humaines
 1369200 0 personnalité
 1369200 0 personne de caractère
@@ -18591,6 +18644,8 @@
 1370320 0 figure
 1370320 0 plan
 1370320 0 schéma
+1370320 1 vue
+1370320 1 scène
 1370380 0 figure
 1370390 0 illustrer
 1370410 0 livre
@@ -18779,6 +18834,8 @@
 1372630 0 à la fin
 1372630 0 enfin
 1372630 0 finalement
+1372630 1 à la fin
+1372630 1 finalement
 1372640 0 accomplissement
 1372640 0 exécution
 1372650 0 se griser
@@ -18962,6 +19019,9 @@
 1375040 0 force
 1375040 0 vigueur
 1375040 0 vivacité
+1375040 3 naturellement
+1375040 3 forcément
+1375040 3 nécessairement
 1375150 0 énergie
 1375150 0 force
 1375150 0 vigueur
@@ -19045,6 +19105,10 @@
 1375730 0 murissement
 1375740 0 adulte
 1375740 0 majorité
+1375740 1 grandir
+1375740 1 mûrir
+1375740 2 atteindre la majorité
+1375740 2 arriver à l'âge adulte
 1375760 0 performances
 1375760 0 résultats
 1375770 0 carnet de notes
@@ -19092,8 +19156,18 @@
 1376240 0 agencement
 1376240 0 aménagement
 1376240 0 entretien
+1376250 0 tri
+1376250 0 arrangement
+1376250 0 agencement
+1376250 0 organisation
 1376250 0 mise en ordre
-1376250 0 rangement
+1376250 0 ajustement
+1376250 0 régulation
+1376250 1 liquidation
+1376250 1 règlement
+1376250 1 consolidation
+1376250 1 apurement (par ex. d'une dette)
+1376250 1 remboursement
 1376300 0 aligner
 1376300 0 mettre en ligne
 1376310 0 étoile
@@ -19892,8 +19966,11 @@
 1386160 0 jointure
 1386160 0 mélodie
 1386160 0 nœud
+1386160 1 mélodie
 1386160 2 nœud (du bois)
 1386160 2 nœud dans une tige de bambou
+1386160 3 partie
+1386160 3 caractéristique notable
 1386220 0 économie
 1386220 0 épargne
 1386290 0 intégrité
@@ -19901,8 +19978,15 @@
 1386290 1 fidélité
 1386350 0 économie
 1386350 0 épargne
-1386370 0 opinion
 1386370 0 théorie
+1386370 0 doctrine
+1386370 1 opinion
+1386370 1 avis
+1386370 2 rumeur
+1386370 2 commérages
+1386370 2 ragots
+1386370 2 ouï-dire
+1386370 2 on-dit
 1386420 0 expliquer
 1386420 0 persuader
 1386420 0 préconiser
@@ -19950,6 +20034,11 @@
 1386810 0 splendide
 1386840 0 absolu
 1386840 0 inconditionnel
+1386840 1 absolu
+1386840 1 inconditionnel
+1386840 1 indubitable
+1386840 1 indéniable
+1386840 2 absolu
 1386920 0 énorme
 1386920 0 immense
 1386920 0 impressionnant
@@ -19961,6 +20050,8 @@
 1386970 0 admirable
 1386970 0 exquis
 1386970 0 merveilleux
+1386990 0 destruction
+1386990 0 extinction
 1387000 0 hors pair
 1387000 0 incomparable
 1387000 0 sans égal
@@ -20425,6 +20516,9 @@
 1394800 0 parfaitement
 1394800 0 totalement
 1394800 0 vraiment
+1394800 1 en effet
+1394800 1 effectivement
+1394800 2 bon sang (expression d'exaspération)
 1394840 0 tous
 1394840 0 tous les membres
 1394940 0 guérison complète
@@ -20788,6 +20882,10 @@
 1400390 0 repaire
 1400390 0 ruche
 1400390 0 toile (d'une araignée)
+1400390 1 tanière
+1400390 2 repaire
+1400390 2 lieu de prédilection
+1400390 3 toile (d'araignée)
 1400470 0 devenir indépendant
 1400470 0 quitter le nid
 1400530 0 pagayer
@@ -20840,6 +20938,10 @@
 1401000 0 compagnie
 1401000 0 compagnon
 1401000 0 partenaire
+1401000 1 correspondant
+1401000 1 destinataire
+1401000 2 adversaire (sports, etc.)
+1401000 2 opposant
 1401040 0 symétrie
 1401070 0 estimation
 1401070 0 marché des valeurs
@@ -20856,6 +20958,8 @@
 1401240 0 convenable
 1401240 0 propre
 1401240 0 tolérable
+1401240 1 considérable
+1401240 1 substantiel
 1401270 0 accompagner
 1401310 0 comme d'habitude
 1401310 0 comme toujours
@@ -21354,6 +21458,8 @@
 1407810 0 plus ou moins
 1407810 0 quelque peu
 1407810 0 un peu
+1407810 1 montant
+1407810 1 quantité
 1407860 0 grand nombre
 1407860 0 innombrable
 1407860 0 majorité
@@ -21564,8 +21670,17 @@
 1409780 0 tas
 1409800 0 contre
 1409800 0 opposition
+1409800 1 versus
+1409800 1 vs.
+1409800 1 v.
+1409800 2 à (par ex. « nous avons gagné le match cinq à trois »)
+1409800 3 pied d'égalité
+1409800 3 égal à égal
 1409810 0 couple
 1409810 0 paire
+1409810 1 antithèse
+1409810 2 compteur pour les objets qui sont groupés par paires
+1409810 3 compteur pour les ensembles (de vêtements, petits meubles, ustensiles, etc.)
 1409840 0 correspondance
 1409840 0 faire face à
 1409840 0 interaction
@@ -21609,6 +21724,7 @@
 1410400 0 vie difficile
 1410410 0 bande
 1410410 0 ceinture (kimono)
+1410410 1 emballage de papier sur les livres, CD, etc.
 1410430 0 être chargé (d'une mission)
 1410430 0 être investi (d'un pouvoir)
 1410430 0 porter
@@ -21642,6 +21758,7 @@
 1410660 0 fainéanter
 1410660 0 négliger
 1410660 0 paresser
+1410660 1 négliger (par ex. son travail)
 1410670 0 paresseux
 1410710 0 manquer à
 1410710 0 négliger
@@ -21760,6 +21877,7 @@
 1412560 4 monture (ex. en joaillerie)
 1412560 5  
 1412640 0 cuisine
+1412640 1 situation financière
 1412760 0 scénario
 1412760 0 texte (pièce de théâtre)
 1412770 0 (n'arriver à) rien
@@ -22026,6 +22144,9 @@
 1415470 0 sujet
 1415470 0 thème
 1415470 0 titre
+1415470 1 problème (pour un test)
+1415470 1 question
+1415470 2 compteur pour les questions (dans un test)
 1415480 0 sujet
 1415480 0 thème
 1415490 0 titre
@@ -22085,6 +22206,13 @@
 1416170 0 taper
 1416170 1 jouer de la batterie
 1416170 1 jouer du tambour
+1416170 2 invectiver
+1416170 2 injurier (par ex. sur Internet)
+1416170 2 insulter
+1416170 2 outrager
+1416170 3 dépenser de l'argent
+1416170 4 invoquer
+1416170 4 appeler (par ex. une fonction)
 1416190 0 mais
 1416190 0 pourvu que
 1416190 0 quelque...que
@@ -22171,6 +22299,7 @@
 1417030 0 simplement
 1417030 0 uniquement
 1417040 0 unité
+1417040 1 unité de valeur (en école ou faculté)
 1417100 0 individuel
 1417100 0 seul
 1417100 0 simple
@@ -24521,8 +24650,15 @@
 1445240 0 perte de mémoire
 1445240 0 trou de mémoire
 1445260 0 poids et mesures
-1445270 0 sol
 1445270 0 terre
+1445270 0 sol
+1445270 0 saleté
+1445270 0 argile
+1445270 0 boue
+1445270 1 la terre (historiquement, en part. par opposition aux cieux)
+1445270 1 le sol
+1445270 2 torinoko-gami de faible qualité (contenant de la boue)
+1445270 3 (période d') abstention de construire dans le sens du dieu de la terre (dans le On'youdou)
 1445290 0 motte de terre
 1445300 0 sol de terre battue
 1445340 0 déluge
@@ -24546,6 +24682,9 @@
 1445460 1 échafaud
 1445470 0 lopin de terre
 1445470 0 parcelle
+1445470 1 localité
+1445470 1 région
+1445470 1 lieu
 1445530 0 sac de sable
 1445550 0 arène
 1445550 0 ring
@@ -24584,6 +24723,8 @@
 1445770 0 vaincre
 1445770 1 tuer
 1445770 2 arnaquer
+1445770 3 partir sans rémunération
+1445770 3 tricher
 1445790 0 être terrassé
 1445790 0 s'effondrer
 1445790 0 tomber
@@ -24605,6 +24746,8 @@
 1445930 0 inversion
 1445930 0 mettre la charrue avant les bœufs
 1445980 0 parti (politique)
+1445980 1 faction
+1445980 1 -ite
 1445990 0 membre d'un parti
 1446000 0 chef d'un parti
 1446030 0 faction (politique)
