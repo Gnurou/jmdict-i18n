@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2015-01-11 07:12:25+0000\n"
+"POT-Creation-Date: 2015-01-18 03:10:42+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -819,22 +819,25 @@ msgid ""
 "Tuesday"
 msgstr "Salı"
 
+#, fuzzy
 msgctxt "1194500 2"
 msgid ""
 "花\tはな\n"
-"ikebana"
+"beauty"
 msgstr "ikebana"
 
+#, fuzzy
 msgctxt "1194500 3"
 msgid ""
 "花\tはな\n"
-"Japanese playing cards"
+"blooming (esp. of cherry blossoms)"
 msgstr "Japon oyun kartları"
 
+#, fuzzy
 msgctxt "1194500 4"
 msgid ""
 "花\tはな\n"
-"beauty"
+"ikebana"
 msgstr "güzellik"
 
 msgctxt "1195430 1"

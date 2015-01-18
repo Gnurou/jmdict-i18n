@@ -1571,8 +1571,9 @@
 1019420 0 travail à mi-temps
 1019420 0 temps partiel
 1019420 0 boulot d'appoint
-1019420 1 petit boulot
-1019420 1 job précaire
+1019420 0 petit boulot
+1019420 0 job précaire
+1019420 1 albite
 1019430 0 albatros
 1019450 0 album
 1019500 0 alpiniste
@@ -2692,7 +2693,6 @@
 1145910 1 niveau
 1145990 0 compte-rendu
 1145990 0 rapport
-1145990 0 reportage
 1146020 0 citron
 1146140 0 lentille (optique)
 1146180 0 location
@@ -2712,7 +2712,7 @@
 1147800 0 hall (hôtel)
 1147870 0 robot
 1148010 0 romantique
-1148520 0 appareil de traitement de texte
+1148520 0 traitement de texte
 1148640 0 chemise
 1148850 0 vin
 1149070 0 watt
@@ -3378,6 +3378,7 @@
 1159680 0 sans omission
 1159770 0 département de médecine
 1159810 0 médecine
+1159810 0 science médicale
 1159880 0 faculté de médecine
 1159890 0 terme médical
 1159930 0 médecin
@@ -3610,7 +3611,8 @@
 1165640 0 un lot
 1165670 0 quantité nécessaire pour remplir un contenant (par ex. une tasse, une cuillère, etc.)
 1165670 0 boisson (en général alcoolique)
-1165670 1 ivre
+1165670 1 plein
+1165670 1 complet
 1165670 2 à fond
 1165670 2 au maximum
 1165670 2 plein de
@@ -19820,11 +19822,27 @@
 1384840 0 part
 1384840 0 pièce de tissu
 1384840 0 tranche
+1384840 1 tissu
+1384840 1 toile
+1384840 1 étoffe
+1384840 2 acuité
+1384840 2 tranchant
+1384840 3 compteur pour les morceaux, les débris, les pièces, etc.
 1384860 0 être tranchant
 1384860 0 bien couper
 1384860 1 s'écrouler
 1384860 1 s'épuiser
 1384860 1 s'effondrer
+1384860 12 courber
+1384860 12 dévier
+1384860 12 virer (de bord)
+1384860 13 mélanger (les cartes)
+1384860 14 se mettre en colère
+1384860 14 craquer
+1384860 14 exploser de rage
+1384860 14 perdre son sang-froid
+1384860 14 devenir dingue
+1384860 15 pouvoir faire complètement
 1384860 2 éclater
 1384860 2 être blessé
 1384860 3 être cassé
@@ -19837,6 +19855,8 @@
 1384860 4 manquer de
 1384860 5 perspicace
 1384860 5 sagace
+1384860 8 bien couper
+1384860 8 être aiguisé
 1385050 0 sérieux
 1385050 0 sincère
 1385050 0 urgent
@@ -20158,8 +20178,9 @@
 1389410 0 la bonne aventure
 1389410 0 la bonne fortune
 1389430 0 prédire
-1389460 0 comprendre
-1389460 0 contenir
+1389460 0 occuper
+1389460 0 tenir
+1389460 0 maintenir
 1389460 1 occuper
 1389460 1 remplir
 1389590 0 possession
@@ -20644,6 +20665,7 @@
 1397100 0 humble
 1397100 0 rude
 1397100 0 simple
+1397100 0 miteux
 1397120 0 grossier
 1397120 0 rude
 1397120 0 rustique
@@ -20758,6 +20780,7 @@
 1398710 0 jumelles
 1398740 0 épaules
 1398750 0 jumeau
+1398750 0 jumeaux
 1398840 0 jumeau
 1398940 0 deux
 1398940 0 deux chemins
@@ -24201,6 +24224,8 @@
 1437760 0 repli des troupes
 1437760 0 repliement des troupes
 1437780 0 fer
+1437780 2 chemin de fer
+1437780 3 passionné de chemin de fer
 1437790 0 casque d'acier
 1437800 0 conduite en fer
 1437800 0 tube en fer
@@ -24213,7 +24238,9 @@
 1437860 0 minerai de fer
 1437890 0 charpente en fer, armature en fer
 1437900 0 construction métallique
-1437960 0 chemin(s) de fer
+1437960 0 chemin de fer
+1437960 0 voie ferrée
+1437960 0 transport ferroviaire
 1437990 0 bouilloire en fer
 1438010 0 fusil
 1438030 0 barre de fer
@@ -24475,6 +24502,7 @@
 1443260 0 étincelle
 1443260 0 foudre
 1443320 0 électron
+1443320 1 (en part. comme préfixe) électronique
 1443520 0 électro-aimant
 1443530 0 train
 1443530 0 train électrique
@@ -24610,6 +24638,7 @@
 1444900 0 finir
 1444950 0 capitale (ville)
 1444970 0 ville
+1444970 1 Assemblée métropolitaine de Tokyo
 1444980 0 circonstances
 1444980 0 condition
 1444980 0 occasion
@@ -24773,6 +24802,9 @@
 1446360 0 gelure
 1446420 0 épée
 1446420 0 lame
+1446420 1 poignard
+1446420 1 couteau
+1446420 2 scalpel
 1446490 0 épées
 1446490 0 armes blanches
 1446640 0 dynastie Tang (chine, 618-907)
@@ -24907,6 +24939,7 @@
 1448810 1 se charger de (enquête)
 1448810 1 se chauffer
 1448810 1 traiter
+1448810 17 raser
 1448820 0 attentes
 1448820 0 but
 1448820 0 espoirs
@@ -24920,6 +24953,7 @@
 1448860 1 appliquer
 1448860 1 mettre
 1448860 1 poser
+1448860 4 deviner (une réponse)
 1448890 0 kanji utilisé comme équivalent phonétique
 1448890 0 lecture "plaquée"
 1448930 0 appliquer (une règle)
@@ -25019,6 +25053,14 @@
 1450020 0 exemplaire
 1450030 0 haricots
 1450030 0 pois
+1450030 1 graines de soja
+1450030 1 soja (Glycine max)
+1450030 1 soya
+1450030 2 organes génitaux féminins (en part. le clitoris)
+1450030 3 rein
+1450030 4 miniature
+1450030 4 minuscule
+1450030 5 enfant
 1450070 0 tofu (bloc de soja fermenté)
 1450080 0 livre miniature
 1450110 0 être basé sur
@@ -25101,6 +25143,24 @@
 1451040 0 opération
 1451040 0 résultat
 1451040 0 travail
+1451040 1 réalisation
+1451040 1 réussite
+1451040 1 performance
+1451040 1 capacité
+1451040 1 talent
+1451040 2 salaire
+1451040 2 traitement
+1451040 2 revenu
+1451040 2 rémunération
+1451040 3 action
+1451040 3 activité
+1451040 3 fonctionnement
+1451040 3 fonction
+1451040 3 opération
+1451040 3 déplacement
+1451040 3 mouvement
+1451040 4 conjugaison
+1451040 4 inflexion
 1451070 0 poste
 1451070 0 travail
 1451080 0 dur à la tâche
@@ -25131,6 +25191,7 @@
 1451170 4 entraîner
 1451170 4 mobiliser
 1451170 4 secouer
+1451170 5 gérer (par ex. des fonds)
 1451180 0 activité
 1451180 0 fonctionnement
 1451180 0 marche
@@ -25364,8 +25425,19 @@
 1454500 0 aquérir
 1454500 0 gagner
 1454500 0 obtenir
+1454500 1 obtenir
+1454500 1 acquérir
+1454500 1 se procurer
+1454500 1 gagner
+1454500 1 sécuriser
+1454500 1 atteindre
 1454510 0 fierté
 1454510 0 orgeuil
+1454510 1 fierté
+1454510 1 orgueil
+1454510 2 son point fort
+1454510 2 sa spécialité
+1454510 3 client régulier
 1454590 0 but
 1454590 0 point
 1454590 0 score
@@ -25402,6 +25474,8 @@
 1455080 0 particularité
 1455130 0 traitement spécial
 1455170 0 caractéristique
+1455170 0 caractère
+1455170 0 trait
 1455170 0 particularité
 1455200 0 mérite
 1455210 0 déterminé
@@ -25434,6 +25508,12 @@
 1455500 0 toxique
 1455500 0 venin
 1455500 1 mauvaise influence
+1455500 2 mauvaise volonté
+1455500 2 malice
+1455500 2 malveillance
+1455500 2 méchanteté
+1455500 3 langage offensant
+1455500 3 langage injurieux
 1455540 0 empoisonnement
 1455580 0 langue de vipère
 1455600 0 plante vénéneuse
@@ -25521,6 +25601,9 @@
 1457100 0 pénétration
 1457200 0 parvenir
 1457200 0 recevoir
+1457200 1 être attentif
+1457200 1 prêter attention
+1457200 1 accorder de l'attention
 1457210 0 envoyer
 1457210 0 expédier
 1457210 0 livrer
@@ -25533,7 +25616,7 @@
 1457210 1 donner un avis
 1457210 1 s'inscrire
 1457230 0 destination
-1457320 0 tonne
+1457320 0 tonne (maintenant en général une tonne métrique, c.-à-d. 1000 kg)
 1457390 0 cochon
 1457410 0 côtelette de porc
 1457420 0 porcherie
@@ -25633,12 +25716,15 @@
 1459690 0 énigme
 1459690 0 devinette
 1459690 0 mystère
+1459690 1 énigmatique
+1459690 1 mystérieux
 1459720 0 casserole
 1459720 0 marmite
 1459720 1 ragout
 1459780 0 familiarité
 1459830 0 corde
 1459830 0 cordelette
+1459830 1 corde de policier
 1459840 0 corde à sauter
 1459840 1 saut à la corde
 1459850 0 ère Jomon/période Jomon
@@ -26135,6 +26221,10 @@
 1469890 0 épais
 1469890 0 dense
 1469890 0 fort
+1469890 1 fort (gout, odeur, etc.)
+1469890 2 épais
+1469890 2 dense
+1469890 3 forte (possibilité, etc.)
 1469910 0 épaisseur
 1469910 0 concentration
 1469910 0 densité
@@ -26281,7 +26371,7 @@
 1471520 0 injurier
 1471520 0 insulter
 1471560 0 cheval
-1471560 1 fou promu (au shogi)
+1471560 1 fou promu
 1471740 0 absurde
 1471740 0 idiot
 1471740 0 ridicule
@@ -27011,6 +27101,8 @@
 1481340 0 point
 1481340 0 tache
 1481350 0 planche
+1481350 4 plateau (de théâtre)
+1481350 4 scène
 1481410 0 clôture en bois
 1481420 0 déborder
 1481420 0 débordement
@@ -27026,6 +27118,8 @@
 1481570 0 crime
 1481570 0 offense
 1481590 0 crime
+1481590 0 infraction
+1481590 0 délit
 1481630 0 criminel
 1481630 0 délinquant
 1481640 0 équipe
@@ -27097,9 +27191,12 @@
 1482000 0 approvisionnement
 1482000 0 distribution
 1482000 0 répartition
-1482010 0 nourriture
-1482010 0 plat
-1482010 0 repas
+1482010 0 riz (cuit)
+1482010 1 repas
+1482010 1 nourriture
+1482010 2 son gagne-pain
+1482010 2 ses moyens de subsistance
+1482010 2 ses moyens d'existence
 1482040 0 bâtiment de chantier
 1482040 0 baraquement
 1482040 0 préfabriqués
@@ -27166,6 +27263,9 @@
 1482990 0 démenti
 1482990 0 négation
 1482990 0 refus
+1482990 1 opération logique NON
+1482990 1 fonction NON
+1482990 1 négation logique
 1483040 0 démenti
 1483040 0 désapprobation
 1483040 0 refus
@@ -27294,6 +27394,9 @@
 1483800 0 peau
 1483800 1 écorce
 1483800 2 enveloppe
+1483800 3 masque (cachant sa vraie nature)
+1483800 3 apparence
+1483805 0 cuir
 1483830 0 graisse sous-cutanée
 1483850 0 cuir
 1483880 0 début
@@ -27317,8 +27420,13 @@
 1484040 0 recette
 1484040 0 secret
 1484060 0 secrétaire (privé)
-1484150 0 mystère
 1484150 0 secret
+1484150 0 confidentialité
+1484150 0 intimité
+1484150 0 vie privée
+1484150 1 secret
+1484150 1 mystère
+1484150 2 enseignements ésotériques
 1484230 0 grève
 1484240 0 déchargement
 1484240 0 libération
@@ -27369,8 +27477,9 @@
 1484330 9 être trompé
 1484340 0 endurer
 1484340 0 souffrir
-1484350 0 dégâts
 1484350 0 dommage
+1484350 0 blessure
+1484350 0 dégâts
 1484350 0 ravages
 1484370 0 blessé
 1484370 0 victime
@@ -27418,6 +27527,8 @@
 1484920 0 étonnant
 1484920 0 extraordinaire
 1484920 0 urgence
+1484920 1 extraordinaire
+1484920 1 inhabituel
 1484930 0 considérablement
 1484930 0 extrêmement
 1484930 0 très
@@ -29820,7 +29931,7 @@
 1521310 0 au nord
 1521310 0 du nord
 1521400 0 moi (parole masculine)
-1521400 1 tu (utilisé pour s'adresser aux jeunes enfants)
+1521400 1 tu
 1521400 1 toi
 1521400 2 valet
 1521400 2 domestique
