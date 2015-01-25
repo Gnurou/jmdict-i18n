@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2015-01-18 03:10:42+0000\n"
+"POT-Creation-Date: 2015-01-25 03:25:14+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -3712,10 +3712,11 @@ msgid ""
 "gold medal"
 msgstr "médaille d'or"
 
+#, fuzzy
 msgctxt "1242650 0"
 msgid ""
 "金壱万円\tきんいちまんえん\n"
-"10,000 Yen"
+"10,000 yen"
 msgstr "10.000 Yens"
 
 msgctxt "1242710 0"
@@ -3736,10 +3737,11 @@ msgid ""
 "golden chain"
 msgstr "chaîne en or"
 
+#, fuzzy
 msgctxt "1242990 0"
 msgid ""
 "金拾万円\tきんじゅうまんえん\n"
-"100,000 Yen"
+"100,000 yen"
 msgstr "100.000 Yens"
 
 msgctxt "1243110 0"
@@ -6958,10 +6960,11 @@ msgid ""
 "found article"
 msgstr "objet trouvé"
 
+#, fuzzy
 msgctxt "1332600 0"
 msgid ""
 "拾万円\tじゅうまんえん\n"
-"100,000 Yen"
+"100,000 yen"
 msgstr "100.000 yen"
 
 msgctxt "1332640 0"

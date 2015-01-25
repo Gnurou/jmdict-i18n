@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2015-01-18 03:10:42+0000\n"
+"POT-Creation-Date: 2015-01-25 03:25:14+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1658,10 +1658,11 @@ msgid ""
 "cabbage (Brassica oleracea)"
 msgstr "chou"
 
+#, fuzzy
 msgctxt "1042050 0"
 msgid ""
 "キャンセル\n"
-"cancel"
+"cancellation"
 msgstr "annulation"
 
 #, fuzzy
@@ -4406,10 +4407,11 @@ msgstr ""
 "sans cesse\n"
 "sans interruption"
 
+#, fuzzy
 msgctxt "1388790 0"
 msgid ""
 "千円札\tせんえんさつ\n"
-"1,000 Yen bill"
+"1,000 yen bill"
 msgstr "billet de 1000 yens"
 
 msgctxt "1390770 0"
@@ -6291,10 +6293,11 @@ msgstr ""
 "hypothèse\n"
 "supposition"
 
+#, fuzzy
 msgctxt "1591500 0"
 msgid ""
 "胡瓜\tきゅうり\n"
-"cucumber"
+"cucumber (Cucumis sativus)"
 msgstr ""
 "concombre\n"
 "cornichon"
