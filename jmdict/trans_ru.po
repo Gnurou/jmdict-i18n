@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2015-01-25 03:25:14+0000\n"
+"POT-Creation-Date: 2015-01-31 01:21:32+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -6576,10 +6576,12 @@ msgid ""
 "million"
 msgstr "миллио́н"
 
+#, fuzzy
 msgctxt "1131870 0"
 msgid ""
 "ミリグラム\n"
-"milligram"
+"milligram\n"
+"mg"
 msgstr "миллиграмм"
 
 msgctxt "1132270 0"
@@ -7435,10 +7437,11 @@ msgid ""
 "bark"
 msgstr "один"
 
+#, fuzzy
 msgctxt "1149190 0"
 msgid ""
 "ワンタッチ\n"
-"one touch"
+"single button press"
 msgstr "одно прикосновение"
 
 #, fuzzy
@@ -19543,9 +19546,10 @@ msgid ""
 "fourth"
 msgstr "четвёртый"
 
+#, fuzzy
 msgctxt "2274150 0"
 msgid ""
-"グレートブリテン\n"
+"大不列顛\tグレートブリテン\n"
 "Great Britain"
 msgstr "Великобритания"
 
