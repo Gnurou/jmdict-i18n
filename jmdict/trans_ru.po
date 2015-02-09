@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2015-01-31 01:21:32+0000\n"
+"POT-Creation-Date: 2015-02-09 13:16:50+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -2364,16 +2364,19 @@ msgid ""
 "cast"
 msgstr "гипс"
 
+#, fuzzy
 msgctxt "1043120 0"
 msgid ""
 "ギャルソン\n"
-"boy"
+"(male) waiter"
 msgstr "гарсон"
 
+#, fuzzy
 msgctxt "1043120 1"
 msgid ""
 "ギャルソン\n"
-"male waiter"
+"boy (in hotel)\n"
+"bell-boy"
 msgstr "гарсо́н"
 
 #, fuzzy
@@ -2610,10 +2613,12 @@ msgid ""
 "Greenland"
 msgstr "Гренла́ндия"
 
+#, fuzzy
 msgctxt "1047220 0"
 msgid ""
 "グリル\n"
-"grill"
+"grill\n"
+"grill room"
 msgstr "гриль"
 
 msgctxt "1047250 0"
