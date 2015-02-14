@@ -8994,7 +8994,9 @@
 1242130 0 près de
 1242160 0 alentours
 1242160 0 voisinage
-1242160 1 presque (ex : "cela a pris presque un an)
+1242160 1 presque (par ex. « cela a pris presque un an »)
+1242160 1 près de
+1242160 1 à peu près
 1242160 2 sous peu
 1242160 2 à court terme
 1242160 2 bientôt
@@ -9374,6 +9376,7 @@
 1246720 0 marchand de chaussures
 1246740 0 chaussette
 1246740 0 chaussettes
+1246740 0 bas (lingerie)
 1246760 0 blessure du pied par les chaussures
 1246830 0 cavité
 1246830 0 creux
@@ -9799,11 +9802,12 @@
 1252560 2 non-important
 1252560 2 trivial
 1252560 3 doux
-1252560 3 petite
+1252560 3 petit
 1252560 3 léger
 1252560 4 facile
 1252560 4 simple
 1252560 5 sans discernement
+1252560 5 sans distinction
 1252580 0 musique légère
 1252600 0 agile
 1252600 0 léger
@@ -10108,7 +10112,7 @@
 1255840 0 fin de mois
 1255870 0 nuit de clair de lune
 1255880 0 Lundi
-1255890 0 Lundi
+1255890 0 lundi
 1255920 0 période du cycle lunaire
 1256010 0 économie
 1256010 0 frugalité
@@ -10140,9 +10144,16 @@
 1256810 0 pièce d'épée (sans cape...)
 1256810 0 théâtre de samurai
 1256910 0 kendo
-1257040 0 bagarre
 1257040 0 querelle
+1257040 0 bagarre
+1257040 0 lutte
+1257040 0 dispute
 1257040 0 rixe
+1257040 0 altercation
+1257040 0 engueulade
+1257040 0 grabuge
+1257040 0 controverse
+1257040 0 polémique
 1257080 0 sphère
 1257090 0 hors sphère
 1257090 0 hors zone
@@ -10194,6 +10205,8 @@
 1257500 0 architecture
 1257500 0 construction
 1257510 0 architecte
+1257540 0 bâtiment
+1257540 0 construction
 1257540 0 immeuble
 1257550 0 construction
 1257560 0 charte
@@ -10247,7 +10260,7 @@
 1258200 0 privilège
 1258220 0 autorité
 1258220 0 pouvoir politique
-1258330 0 chien
+1258330 0 chien (Canis (lupus) familiaris)
 1258330 1 fouineur
 1258330 1 mouchard
 1258330 2 perdant
@@ -10322,7 +10335,7 @@
 1259290 2 garder un œil sur
 1259290 2 prendre soin de
 1259290 3 voir
-1259290 3 regarder (un film)
+1259290 3 regarder
 1259290 4 essayer
 1259290 4 tenter
 1259290 5 voir que...
@@ -10750,7 +10763,7 @@
 1264670 0 restriction
 1264690 0 frontière
 1264690 0 limite
-1264740 0 compteur pour petits objets
+1264740 0 compteur pour les articles (objets)
 1264740 1 compteur pour les unités militaires
 1264740 2 individuel
 1264770 0 individu
@@ -10843,9 +10856,10 @@
 1266860 0 isolement
 1266890 0 soi-même
 1266940 0 en forme d'arche
-1266970 0 porte coulissante (de style Japonais)
-1266970 1 entrée (d'une habitation)
+1266970 0 porte (en part. de style japonais)
+1266970 1 entrée (d'un domicile)
 1266970 2 goulet
+1266970 2 passage étroit
 1266990 0 prise de vue extérieur
 1266990 0 tournage à l'extérieur
 1267000 0 entrée
@@ -11238,10 +11252,10 @@
 1272410 0 dépenses de voyage
 1272410 0 péage
 1272430 0 réseau de communication
-1272500 0 antenne de police
 1272500 0 kiosque de police
+1272500 0 petit poste de police
 1272500 1 alternance
-1272500 1 alternatif(ex. courant)
+1272500 1 alternatif (par ex. courant)
 1272520 0 livrer
 1272520 0 procurer
 1272520 0 remettre
@@ -11380,7 +11394,7 @@
 1275300 0 gradient
 1275300 0 inclinaison
 1275300 0 pente
-1275320 0 epais
+1275320 0 épais
 1275320 0 profond
 1275320 0 lourd
 1275320 1 aimable
@@ -11423,6 +11437,7 @@
 1275640 4 langage parlé
 1275640 4 commérage
 1275640 5 goût
+1275640 5 palais
 1275640 6 bouche (à nourrir)
 1275640 7 poste disponible
 1275640 7 poste vacant
@@ -12035,6 +12050,7 @@
 1283190 0 grand
 1283190 0 haut
 1283190 1 cher
+1283190 1 coûteux
 1283200 0 hauteur
 1283220 0 être promu
 1283220 0 grossir
@@ -12633,9 +12649,8 @@
 1291290 0 pour l'instant
 1291290 0 pour le moment
 1291320 0 renvoyer
-1291330 0 faire apparaitre (?)
-1291330 0 lever les mains
-1291330 0 sortir
+1291330 0 briller
+1291330 0 rayonner
 1291330 1 être visible
 1291330 10 faire avancer avec une perche (bateau)
 1291330 11 verser
@@ -12882,7 +12897,7 @@
 1294890 0 adoption (chose)
 1294890 0 engagement (personne)
 1294910 0 culture (en agriculture)
-1294940 0 -ans (âge)
+1294940 0 ans (âge)
 1294940 1 capacité
 1294940 1 don
 1294940 1 talent
@@ -13009,6 +13024,7 @@
 1296400 0 exister
 1296400 1 avoir
 1296400 2 être situé
+1296400 2 se situer
 1296400 3 être équipé de
 1296400 4 survenir
 1296400 4 arriver
@@ -13135,6 +13151,7 @@
 1297960 0 écriture
 1297960 0 composition
 1297960 1 verbiage
+1297960 1 écriture formelle avec peu de véritable signification
 1297980 0 manières
 1297980 0 étiquette
 1297980 0 bienséance
@@ -14064,7 +14081,9 @@
 1311060 0 nom et prénoms
 1311110 0 moi-même
 1311110 0 personnel
-1311110 1 je (fem)
+1311110 1 affaires privées
+1311110 1 affaire personnelle
+1311110 1 secret
 1311110 2 égoïsme
 1311200 0 moi-même
 1311200 0 soi-même
@@ -14517,7 +14536,8 @@
 1317170 0 oreille
 1317170 1 audition
 1317170 2 bordure
-1317170 2 croûte 
+1317170 2 bord
+1317170 2 croûte
 1317170 3 lisière (d'un tissu)
 1317250 0 qui fait mal aux oreilles
 1317300 0 oto-rhyno-laryngologue
@@ -20350,8 +20370,9 @@
 1389870 0 directeur
 1389870 0 gérant
 1389880 0 spécialité
-1389880 0 sujet d'études
+1389880 0 sujet d'étude
 1389880 0 expert
+1389880 0 domaine d'expertise
 1389890 0 spécialiste
 1389950 0 parking privé
 1389970 0 devenir pointu
@@ -20840,12 +20861,17 @@
 1397580 0 assembler
 1397580 0 construire
 1397590 0 réunir
+1397590 6 émettre (par ex. un mandat postal)
 1397600 0 formation d'un cabinet gouvernemental
 1397620 0 association
 1397620 0 syndicat
+1397620 0 guilde
 1397630 0 construction
 1397630 0 organisation
 1397630 0 système
+1397630 1 structure
+1397630 1 construction
+1397630 2 tissu
 1397630 3 système
 1397670 0 composition
 1397670 0 constitution
@@ -24778,7 +24804,7 @@
 1444550 0 sans soin
 1444600 0 bac
 1444600 0 ferry
-1444610 0 faire traverser (en bac, bateau,etc.)
+1444610 0 faire traverser (en bac, bateau, etc.)
 1444610 0 transporter de l'autre coté
 1444610 0 traverser
 1444610 1 placer à cheval sur 
@@ -25035,7 +25061,7 @@
 1447400 0 embarcation
 1447400 0 prendre place à bord
 1447420 0 carte d'embarquement
-1447440 0 est
+1447440 0 Est
 1447460 0 Asie de l'est
 1447560 0 Europe de l'Est
 1447690 0 Tokyo
@@ -26296,11 +26322,12 @@
 1467970 0 fièvre
 1468040 0 ardent
 1468040 0 passionné
-1468060 0 âge
 1468060 0 année
-1468060 1 années
+1468060 1 plusieurs années
+1468060 1 nombreuses années
 1468060 2 âge
-1468060 3 après le prime jeunesse
+1468060 3 après sa prime jeunesse
+1468060 3 vieux jours
 1468060 3 vieillesse
 1468230 0 plus jeune
 1468240 0 carte de vœux
@@ -26841,9 +26868,7 @@
 1475380 0 craie
 1475450 0 importé
 1475460 0 marchandises importées
-1475480 0 dilué
-1475480 0 léger
-1475480 0 pâle
+1475480 0 fin
 1475480 1 pâle
 1475480 1 léger
 1475480 2 trop liquide
@@ -26935,7 +26960,7 @@
 1476610 0 passer sa colère sur n'importe qui
 1476840 0 cerisier à fleur double
 1476920 0 le 8 (jour du mois)
-1476920 1 8 jours
+1476920 1 huit jours
 1476960 0 marchand de légumes
 1477020 0 tous côtés
 1477020 0 toutes directions
@@ -27409,7 +27434,6 @@
 1482040 0 baraquement
 1482040 0 préfabriqués
 1482060 0 gamelle (de soldat)
-1482110 0 nuit
 1482110 0 soir
 1482110 0 soirée
 1482110 1 compteur pour les nuits
@@ -27421,6 +27445,8 @@
 1482230 0 soir de la vie
 1482280 0 chien de garde
 1482290 0 numéro
+1482290 0 nombre
+1482290 0 série de chiffres
 1482340 0 émission (par ex. de télévision)
 1482340 0 programme
 1482360 0 adresse
@@ -29131,6 +29157,9 @@
 1505090 0 phrase
 1505090 0 proposition (grammaticale)
 1505090 0 un écrit
+1505090 2 arts littéraires (par opposition aux arts militaires)
+1505090 2 milieu universitaire
+1505090 2 littérature
 1505120 0 civilisation
 1505120 0 culture
 1505120 1 ère Bunka (11 février 1804 - 22 avril 1818)
@@ -29147,8 +29176,13 @@
 1505220 0 un littéraire
 1505230 0 prix littéraire
 1505240 0 théâtre de poupées japonais
-1505260 0 formule (de langage)
+1505260 0 plainte
+1505260 0 grief
+1505260 0 grogne
 1505260 0 objection
+1505260 1 phrase
+1505260 1 mots
+1505260 1 expression
 1505280 0 arts libéraux
 1505280 0 sciences humaines, sociales et artistiques
 1505290 0 arts et lettres
@@ -29163,6 +29197,8 @@
 1505370 0 langue littéraire
 1505390 0 caractère (d'écriture)
 1505390 0 lettre (de l'alphabet)
+1505390 1 littéral
+1505390 1 mot à mot
 1505420 0 littéralement
 1505420 0 mot à mot
 1505470 0 phrase
@@ -29206,9 +29242,12 @@
 1506000 0 néanmoins
 1506000 0 pourtant
 1506000 0 toutefois
-1506050 0 d'ailleurs
+1506050 0 en outre
 1506050 0 de plus
-1506050 0 en plus
+1506050 0 par ailleurs
+1506050 1 cependant
+1506050 1 toutefois
+1506050 1 et pourtant
 1506070 0 écrire en parallèle
 1506110 0 absorption (d'un territoire)
 1506110 0 annexion
@@ -29228,6 +29267,8 @@
 1506870 0 clôture
 1506870 0 mur
 1506870 0 muraille
+1506870 1 clôture
+1506870 1 barrière
 1506880 0 système monétaire
 1506890 0 ordinaire
 1506890 0 paume de la main
@@ -29282,12 +29323,20 @@
 1508280 0 notre société
 1508290 0 manche
 1508290 0 poignée
+1508290 1 tige (d'un champignon, d'une feuille, etc.)
 1508300 0 caractère (d'une personne)
 1508300 0 motif
 1508300 0 taille
 1508300 1 corpulence
 1508300 1 figure
 1508300 1 physique
+1508300 2 qualités essentielles
+1508300 2 caractère
+1508300 2 nature
+1508300 3 approprié pour
+1508300 3 adapté pour
+1508300 3 convenable
+1508300 3 adéquat
 1508340 0 aligné
 1508340 0 rangée
 1508350 0 ainsi que
@@ -29346,14 +29395,22 @@
 1509290 2 constellation chinoise du « Mur » (une des 28 loges lunaires)
 1509310 0 peinture murale
 1509330 0 papier peint
-1509350 0 (mauvaise) habitude
-1509350 0 défaut
+1509350 0 habitude (souvent une mauvaise habitude, c.-à-d. un vice)
+1509350 0 tendance
+1509350 1 particularité
+1509350 1 idiosyncrasie
+1509350 2 pli
+1509350 2 ride
+1509350 2 boucle
+1509350 2 entortillement
 1509430 0 autre
 1509430 0 difference
 1509430 0 distinction
 1509430 0 séparé
 1509480 0 rien de particulier
 1509480 0 rien de spécial
+1509480 1 séparément
+1509480 1 à part
 1509490 0 départ
 1509490 0 partagé
 1509490 0 sépareation
@@ -29423,6 +29480,12 @@
 1510870 0 changement
 1510890 0 changement
 1510890 0 transformation
+1510890 1 variété
+1510890 1 diversité
+1510890 2 inflexion
+1510890 2 déclinaison
+1510890 2 conjugaison
+1510890 3 esquive
 1510940 0 réforme
 1510940 0 révolution
 1510950 0 changement
@@ -29447,7 +29510,8 @@
 1511500 0 transfiguration
 1511500 0 transformation
 1511520 0 changement d'apparence
-1511600 0 katakana (syllabaire japonais)
+1511600 0 katakana
+1511600 0 syllabaire japonais utilisé principalement pour les mots empruntés
 1511610 0 (dans) un coin
 1511690 0 une des deux mains
 1511720 0 un des cotés
@@ -29476,12 +29540,22 @@
 1512040 0 organisation
 1512060 0 admission
 1512060 0 incorporation
-1512070 0 la proximité
-1512070 0 les alentours
+1512070 0 zone
+1512070 0 environs
+1512070 0 alentours
+1512070 0 proximité
+1512070 0 région
 1512070 1 coté (d'un polygone)
 1512070 2 circonstances
 1512080 0 proximité
 1512080 0 voisinage
+1512080 1 (dans le) quartier
+1512080 1 quartier
+1512080 1 environs
+1512080 1 alentours
+1512080 1 voisinage
+1512080 1 à proximité
+1512080 1 proche
 1512110 0 région éloignée
 1512130 0 rendre
 1512130 1 rendre
@@ -29510,6 +29584,12 @@
 1512360 0 courrier
 1512360 0 lettre
 1512360 0 vol (aérien)
+1512360 1 courrier
+1512360 1 poste
+1512360 1 lettre
+1512360 2 chance
+1512360 2 occasion
+1512360 2 opportunité
 1512370 0 circonstances favorables
 1512370 0 excréments
 1512410 0 informations
@@ -29544,7 +29624,7 @@
 1513040 0 parole
 1513040 0 propos
 1513060 0 panier repas
-1513065 0 bento (boîte-repas à japonaise)
+1513065 0 bento (boîte-repas japonaise)
 1513140 0 excuse
 1513140 0 explication
 1513140 0 justification
@@ -32632,13 +32712,21 @@
 1551740 0 corps solide
 1551780 0 début de l'hiver
 1551780 0 premier jour de l'hiver
-1551790 0 distingué
-1551790 0 grand
-1551790 0 légitime
-1551790 0 magnificence
-1551790 0 noble
-1551790 0 splendeur
 1551790 0 splendide
+1551790 0 beau
+1551790 0 élégant
+1551790 0 imposant
+1551790 0 proéminent
+1551790 0 distingué
+1551790 1 digne d'éloges
+1551790 1 honorable
+1551790 1 digne
+1551790 2 légal
+1551790 2 légitime
+1551790 2 licite
+1551790 3 incontestable (par ex. pour un crime)
+1551790 3 indiscutable
+1551790 3 solide
 1551800 0 colère
 1551800 0 fureur
 1551800 0 indignation
@@ -33431,9 +33519,11 @@
 1562820 0 courbe
 1562850 0 avant-bras
 1562850 0 bras
-1562850 1 aptitude
-1562850 1 talent
 1562850 1 compétence
+1562850 1 talent
+1562850 1 efforts
+1562850 1 capacité
+1562850 1 aptitude
 1562870 0 montre
 1562870 0 montre-bracelet
 1562890 0 capacité
@@ -37415,8 +37505,8 @@
 1606630 0 notre terre (le japon)
 1606650 0 notre chez-nous
 1606650 0 notre maison
-1606680 0 bouillir
-1606680 0 chauffer
+1606680 0 faire chauffer (par ex. de l'eau)
+1606680 0 faire bouillir
 1606680 1 être dans un état d'excitation
 1606680 1 bouillonner
 1606680 1 s'enflammer
