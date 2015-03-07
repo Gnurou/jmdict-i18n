@@ -619,6 +619,7 @@
 1005610 0 complètement
 1005610 0 avec sérieux
 1005610 1 posément
+1005610 1 calmement
 1005630 0 s'accroupir
 1005650 0 hoquet
 1005670 0 sucer
@@ -3184,6 +3185,8 @@
 1156530 0 point de vue
 1156530 0 commentaire
 1156560 0 volonté
+1156560 0 intention
+1156560 0 détermination
 1156580 0 entente mutuelle
 1156610 0 dessein
 1156610 0 intention
@@ -3284,6 +3287,7 @@
 1157700 0 hétérogène
 1157760 0 étrangeté
 1157760 0 anomalie
+1157760 0 trouble
 1157860 0 sexe opposé
 1157890 0 opinion inverse, divergente, différente
 1157940 0 hérésie
@@ -4861,7 +4865,7 @@
 1188690 0 (nég) rien, pas le moindre
 1188740 0 n'importe quel
 1188740 0 n'importe quoi
-1188740 0 quelquechose
+1188740 0 quelque chose
 1188740 0 rien (+nég.)
 1188760 0 quand
 1188760 0 dans combien de temps
@@ -4958,19 +4962,17 @@
 1189980 3 être appliqué (par ex. chaleur, pression)
 1189980 3 être exercé
 1190030 0 assaillant
-1190080 0 état de santé
-1190080 0 addition et soustraction
-1190080 0 ajustement
-1190080 0 influence du temps
-1190080 0 prendre en compte
-1190080 1 allocation pour
-1190080 1 provision pour
-1190080 2 degré
-1190080 2 étendue
-1190080 2 ampleur
-1190080 2 mesure
-1190080 3 condition
-1190080 3 état de santé
+1190080 0 degré
+1190080 0 étendue
+1190080 0 ampleur
+1190080 0 mesure
+1190080 0 la quantité exacte de
+1190080 1 condition
+1190080 1 état de santé
+1190080 2 ajustement
+1190080 2 réglage
+1190080 2 modération
+1190080 3 addition et soustraction
 1190120 0 processus de fabrication
 1190120 0 traitement
 1190370 0 accélération
@@ -5273,20 +5275,22 @@
 1195960 0 passé
 1195960 0 après
 1195960 1 trop
-1195970 0 dépasser
-1195970 0 passer
-1195970 0 trop (+verbe)
-1195970 1 passer (le temps)
+1195970 0 traverser
+1195970 0 passer à côté
+1195970 0 outrepasser
+1195970 1 passer (pour le temps)
 1195970 1 s'écouler
 1195970 2 arrivé à terme
 1195970 2 être terminé
+1195970 2 être écoulé
+1195970 2 avoir expiré
 1195970 3 dépasser
 1195970 3 surpasser
 1195970 3 être au dessus
 1195970 4 ne pas être plus que...
-1195970 5 être trop
+1195970 5 être trop...
 1195970 5 être en excès
-1195970 5 dépasser
+1195970 5 être excessif
 1195970 5 exagérer
 1196000 0 passer (le temps)
 1196000 1 exagérer (en part. pour sa consommation d'alcool)
@@ -6879,6 +6883,7 @@
 1215240 0 écart
 1215240 0 espace
 1215240 0 intervalle de temps
+1215240 0 pause
 1215260 0 arriver à temps
 1215260 0 être à l'heure
 1215260 1 convenir
@@ -6936,6 +6941,7 @@
 1215810 4 connecté à...
 1215810 4 en relation avec...
 1215860 0 barrière
+1215870 0 préoccupation
 1215870 0 intérêt
 1215910 0 Kansai (région de Kyoto et d'Osaka)
 1215920 0 dialecte du Kansai
@@ -6962,7 +6968,6 @@
 1216160 0 trappe
 1216250 0 cercle
 1216250 0 rond
-1216250 0 suffixe pour noms de bateaux
 1216250 1 intégralité
 1216250 1 ensemble
 1216250 1 plein
@@ -7398,7 +7403,7 @@
 1221900 0 folie
 1221900 0 fou
 1221920 0 magnanime
-1221950 0 température
+1221950 0 température atmosphérique
 1222010 0 agréable
 1222010 0 plaisant
 1222020 0 anxiété
@@ -7511,9 +7516,11 @@
 1223240 0 récit
 1223240 0 rapport
 1223250 0 journaliste
+1223250 0 reporter
 1223280 0 description
 1223300 0 insigne
 1223300 0 médaille
+1223330 0 inscription
 1223330 0 remplissage d'un formulaire
 1223340 0 commémoration
 1223340 0 célébration
@@ -7995,8 +8002,7 @@
 1228870 0 augmentation rapide
 1228870 0 croissance rapide
 1228870 0 explosion
-1228890 0 brusque (ex.: un développement)
-1228890 0 rapide
+1228890 0 rapide (par ex. des progrès)
 1228950 0 maladie subite
 1228960 0 accident
 1228960 1 changement brutal
@@ -8659,7 +8665,8 @@
 1238420 0 très intéressant
 1238450 0 développement
 1238450 0 prospérité
-1238460 0 soba (nouilles de sarasin)
+1238460 0 sarrasin (Fagopyrum esculentum)
+1238460 0 blé noir
 1238460 1 soja
 1238460 1 nouilles de sarrasin japonaises
 1238500 0 mal du pays
@@ -8899,7 +8906,7 @@
 1241320 0 division en parts égales
 1241380 0 unité de poids (environ 600 g)
 1241390 0 poids
-1241450 0 koto (harpe japonaise)
+1241450 0 koto (harpe japonaise à 13 cordes)
 1241450 1 instrument à cordes
 1241450 2 zheng (cithare chinoise)
 1241450 2 guzheng
@@ -9015,6 +9022,7 @@
 1242120 0 "avec les compliments de l'auteur"
 1242120 0 hommage de l'auteur
 1242130 0 près
+1242130 0 proche
 1242130 0 près de
 1242160 0 alentours
 1242160 0 environs
@@ -9492,7 +9500,7 @@
 1247590 0 groupe d'îles
 1247660 0 armée
 1247660 0 forces armées
-1247660 0 troupe
+1247660 0 troupes
 1247740 0 expansion de l'armement
 1247830 0 cuirassé
 1247830 0 navire de guerre
@@ -9820,7 +9828,7 @@
 1252560 0 léger (c.-à-d. pas lourd)
 1252560 0 semblant léger (c.-à-d. offrant peu de résistance, bougeant facilement)
 1252560 1 (pied) léger
-1252560 1 abile
+1252560 1 habile
 1252560 1 vif
 1252560 2 futile
 1252560 2 mineur
@@ -10480,7 +10488,7 @@
 1260460 0 envoyer
 1260480 0 envoyer (à T'ang, Chine)
 1260490 0 clé
-1260490 1 cadenas
+1260490 1 serrure
 1260530 0 aiguisé (regard, parole)
 1260530 0 périlleux
 1260530 0 très pentu (endroit)
@@ -11059,7 +11067,7 @@
 1269410 0 arrière
 1269410 0 derrière
 1269410 0 dos
-1269420 0 silhouette(vue de dos)
+1269420 0 silhouette (vue de dos)
 1269430 0 appui
 1269430 0 soutien
 1269470 0 appui
@@ -16914,7 +16922,7 @@
 1348350 0 enfant
 1348350 0 personne de petite taille
 1348350 1 nain
-1348350 2 personne à l'esprit étroite
+1348350 2 personne à l'esprit étroit
 1348350 2 personne mesquine
 1348370 0 fraction décimale
 1348380 0 virgule décimale
@@ -19222,6 +19230,16 @@
 1375260 0 sexe
 1375260 1 sexe
 1375260 2 genre
+1375260 3 -anse
+1375260 3 -ence
+1375260 3 -at
+1375260 3 -ité
+1375260 3 -eté
+1375260 3 -té
+1375260 3 -ie
+1375260 3 -esse
+1375260 3 -ise
+1375260 3 -eur
 1375290 0 caractère
 1375290 0 tempérament
 1375310 0 hatif
@@ -21511,7 +21529,7 @@
 1404040 0 côté
 1404040 0 flanc
 1404040 0 latéral
-1404100 0 c'est à dire
+1404100 0 c'est-à-dire
 1404130 0 impromptu
 1404130 0 improvisé
 1404130 0 improvisation
@@ -21649,7 +21667,7 @@
 1405930 0 diplôme de fin d'études
 1405980 0 apoplexie
 1405980 0 attaque cérébral
-1406000 0 manche (vêtement)
+1406000 0 manche (de vêtement)
 1406000 1 aile (d'un bâtiment, etc.)
 1406000 1 coulisse (d'une scène de théâtre, etc.)
 1406000 1 battant (d'une porte, etc.)
@@ -23532,7 +23550,7 @@
 1427840 0 former un saillie
 1427840 0 saillir
 1427870 0 être plein d'entrain
-1427870 0 être tendue au maximum
+1427870 0 être tendu au maximum
 1427900 0 apposer
 1427900 0 coller
 1427900 0 fixer
@@ -25315,7 +25333,7 @@
 1449080 0 partie intéressée
 1449080 0 personne concernée
 1449090 0 à cette époque
-1449090 0 en ce temps là
+1449090 0 en ce temps-là
 1449110 0 commencement
 1449110 0 début
 1449120 0 la personne concernée
@@ -26352,7 +26370,7 @@
 1467130 0 confier (à quelqu'un)
 1467150 0 confier
 1467150 0 laisser faire
-1467150 1 faire quelquechose dans son temps libre, quand on a le temps
+1467150 1 faire quelque chose dans son temps libre, quand on a le temps
 1467150 2 laisser suivre son cours naturel
 1467150 3 continuer (quelque chose) de façon naturelle (sans but particulier)
 1467150 4 compter totalement sur (sa pleine puissance, sa grande capacité, un temps considérable) pour faire quelque chose
@@ -27174,7 +27192,7 @@
 1477480 1 exhalation
 1477490 0 décharger
 1477490 0 projeter
-1477490 0 tirer (arme à feux)
+1477490 0 tirer (arme à feu)
 1477490 0 vider (seringue)
 1477500 0 départ d'un véhicule
 1477520 0 débuts
@@ -28034,6 +28052,8 @@
 1487260 0 homme simple
 1487260 0 homme vulgaire/rustique
 1487320 0 genou
+1487320 1 giron
+1487320 1 genou et cuisse (en position assise)
 1487380 0 coude
 1487400 0 certainement
 1487400 0 invariablement
@@ -28095,6 +28115,9 @@
 1487970 0 maquereau
 1487970 0 proxénète
 1487970 0 souteneur
+1487970 1 homme qui est financièrement dépendant d'une femme (comme un gigolo ou, dans le cas d'une prostituée, un proxénète)
+1487970 1 souteneur
+1487970 1 maquereau
 1488000 0 100
 1488000 0 cent
 1488090 0 grand magasin
@@ -29742,6 +29765,9 @@
 1512080 1 voisinage
 1512080 1 à proximité
 1512080 1 proche
+1512080 2 aux alentours de (dimanche, l'an dernier, etc.)
+1512080 2 aux environs de
+1512080 2 vers
 1512080 3 par exemple
 1512110 0 région éloignée
 1512130 0 rendre
@@ -29843,6 +29869,7 @@
 1513820 0 garant
 1513940 0 conservation
 1513940 0 préservation
+1513940 0 sauvegarde (d'un fichier)
 1514030 0 differer
 1514030 0 reporter
 1514030 0 reserve
@@ -29856,6 +29883,7 @@
 1514110 0 être attrapé
 1514110 0 être pris
 1514110 1 s'agripper à
+1514110 3 être détenu par
 1514140 0 attraper
 1514140 0 prendre
 1514160 0 capture
@@ -29918,12 +29946,19 @@
 1514910 0 éprouver de la nostalgie
 1514910 0 manquer
 1514920 0 désir
-1514930 0 subsister
-1514930 0 vivre
+1514930 0 vie
+1514930 0 existence
+1514930 0 moyens de subsistance
+1514930 0 conditions de vie
 1514940 0 vivre
+1514940 1 passer (du temps)
 1514950 0 coucher du soleil
 1514950 0 crépuscule
 1514950 0 tombée de la nuit
+1514950 1 extrémité
+1514950 1 fin
+1514950 2 fin d'année
+1514950 2 fin de l'année
 1514960 0 s'assombrir
 1514960 1 se terminer
 1514960 1 arriver à sa fin
@@ -30008,6 +30043,10 @@
 1516290 0 mort de l'Empereur
 1516310 0 recruter
 1516310 0 tenir ou porter entre les bras
+1516310 1 avoir (en part. des problèmes, des dettes, etc.)
+1516310 2 employer
+1516310 2 engager
+1516310 2 embaucher
 1516350 0 étreindre
 1516350 0 embrasser
 1516410 0 calin
@@ -30020,6 +30059,7 @@
 1516460 0 éloigner
 1516460 0 libérer
 1516460 0 séparer
+1516460 1 ajouter (des morceaux d'aubergine, de pomme de terre, etc.) à l'eau, au bouillon, etc.
 1516490 0 enflammer
 1516490 0 envoyer
 1516490 0 libérer
@@ -30074,6 +30114,9 @@
 1516950 0 direction
 1516980 0 dialecte
 1516990 0 direction
+1516990 0 orientation
+1516990 0 sens
+1516990 1 ligne (par ex. de conduite)
 1517030 0 forme
 1517030 0 méthode
 1517030 0 système
@@ -30167,6 +30210,10 @@
 1518130 0 nombreux
 1518130 0 riche
 1518130 0 somptueux
+1518130 1 très
+1518130 1 extrêmement
+1518130 1 plein de
+1518130 1 grand
 1518140 0 bonne pêche
 1518140 0 bonne prise
 1518150 0 bonne récolte
@@ -32294,10 +32341,10 @@
 1544870 0 parti politique
 1544900 0 honneur
 1544960 0 quelque-chose confié à la garde
-1544970 0 confier à la garde
+1544970 0 garder (un enfant)
 1544970 0 prendre en charge
 1544990 0 confier à la garde
-1544990 0 prendre en charge
+1544990 0 laisser en dépôt
 1545020 0 compte en banque
 1545020 0 dépôt
 1545110 0 puéril
@@ -32496,6 +32543,9 @@
 1546990 0 gaieté
 1546990 0 saison
 1546990 0 temps
+1546990 1 temps
+1546990 1 saison
+1546990 2 esprit du yang
 1547010 0 lumière du soleil
 1547010 0 soleil
 1547020 0 proton
@@ -32684,9 +32734,10 @@
 1548550 9 se faire avoir (par une ruse)
 1548560 0 s'assembler
 1548560 0 se rencontrer
-1548570 0 devenir sombre, triste
-1548570 0 survenir de manière inattendu
-1548570 0 tomber
+1548570 0 déprimer
+1548570 1 aller mal (les affaires, l’économie, etc.)
+1548570 1 se trouver dans une conjecture défavorable
+1548570 2 tomber dans (un trou, etc.)
 1548580 0 calme
 1548580 0 tranquille
 1548590 0 aplomb
@@ -36279,8 +36330,13 @@
 1595680 0 encourager
 1595680 0 proposer (du vin)
 1595680 0 recommender
+1595730 0 tout
 1595730 0 (en) totalité
-1595730 0 entièrement
+1595730 0 l'ensemble
+1595730 1 entièrement
+1595730 1 complètement
+1595730 1 totalement
+1595730 1 tout
 1595740 0 glissoire
 1595740 0 plateforme de lancement
 1595740 0 toboggan
@@ -36941,6 +36997,10 @@
 1600650 0 inspecter
 1600650 0 mesurer
 1600650 0 peser
+1600650 1 conjecturer
+1600650 1 déduire
+1600650 1 inférer
+1600650 1 présumer
 1600660 0 combiner
 1600660 0 concevoir
 1600660 0 envisager
@@ -36960,11 +37020,19 @@
 1600680 0 chaussures
 1600680 0 socques
 1600700 0 élever
-1600720 0 furieux
-1600720 0 intense
-1600720 0 tempétueux
-1600720 0 véhément
 1600720 0 violent
+1600720 0 furieux
+1600720 0 tempétueux
+1600720 1 extrême
+1600720 1 intense
+1600720 1 féroce
+1600720 2 fervent
+1600720 2 véhément
+1600720 3 incessant
+1600720 3 implacable
+1600720 4 escarpé
+1600720 4 raide
+1600720 4 abrupte
 1600740 0 insérer (?)
 1600740 0 interposer
 1600740 0 maintenir au milieu
@@ -37057,6 +37125,7 @@
 1601260 0 idiot
 1601260 0 imbécile
 1601260 0 insensé
+1601260 3 Mactra chinensis (espèces de coquillages)
 1601270 0 dérouter
 1601270 0 désorienter
 1601270 0 enchanter
@@ -37157,6 +37226,8 @@
 1601890 0 frénétique
 1601890 0 mort certaine
 1601890 0 sort inéluctable
+1601890 1 mort inévitable
+1601890 2 futur échec et mat inévitable
 1601900 0 étirer
 1601900 0 tirer
 1601900 0 trainer
@@ -37891,7 +37962,7 @@
 1606700 0 part
 1606700 0 portion
 1606700 0 quota
-1606710 0 en faisat exprès
+1606710 0 en faisant exprès
 1606710 0 expréssement
 1606710 0 spécialement
 1606740 0 riz à mûrissement précoce
@@ -38941,8 +39012,6 @@
 1982860 6 compteur pour les générations (d'héritiers au trône, etc.)
 1982860 7 entreprise mandataire
 1982860 8 pronom
-2002710 0 oh
-2002710 0 ah
 2005860 0 à nouveau
 2005860 0 encore une fois
 2005990 0 façon de nager
