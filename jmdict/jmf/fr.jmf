@@ -822,6 +822,7 @@
 1007040 0 aussi
 1007060 0 à ce point
 1007060 0 à ce degré
+1007060 0 ampleur
 1007120 0 agité
 1007120 0 nerveux
 1007130 0 tel (telle, tels, telles ; à propos des actions de l'auditeur, ou des idées exprimées ou comprises par l'auditeur)
@@ -6090,7 +6091,7 @@
 1206050 3 penser
 1206050 3 considérer
 1206060 0 réveiller
-1206060 0 se réveiller
+1206060 0 éveiller
 1206060 1 détromper
 1206060 2 se dégriser
 1206060 3 étouffer
@@ -7980,7 +7981,7 @@
 1228560 3 crise
 1228560 4 empressement
 1228560 4 hâte
-1228560 5 fin d'une chanson (dans le Noh ou le Gagaku)
+1228560 5 fin d'une chanson (dans le nô ou le gagaku)
 1228580 0 faire se dépêcher
 1228580 0 presser quelqu'un
 1228650 0 se dépêcher
@@ -10206,6 +10207,8 @@
 1257110 3 stable
 1257110 3 honnête
 1257110 3 inébranlable
+1257110 4 obstiné
+1257110 4 opiniâtre
 1257110 4 têtu
 1257110 4 entêté
 1257110 5 littéraire
@@ -14512,6 +14515,8 @@
 1316360 0 bulletin
 1316360 0 horloge sonore
 1316380 0 suivant
+1316380 0 prochain
+1316380 0 ultérieur
 1316380 1 étape
 1316380 1 arrêt (de bus)
 1316390 0 en second
@@ -14669,7 +14674,6 @@
 1318340 0 automatique
 1318340 1 verbe intransitif
 1318400 0 automobile
-1318400 0 voiture
 1318480 0 distributeur automatique
 1318500 0 être pris a son propre piège
 1318530 0 aveu
@@ -24040,23 +24044,48 @@
 1432850 2 circuler (par ex. le sang, l'électricité)
 1432850 2 être communiqué (par ex. la pensée)
 1432850 3 ressembler
+1432880 0 être ouvert (à la circulation)
 1432880 0 conduire à
-1432880 0 desservir
-1432880 0 mener à
-1432880 0 relier
-1432880 0 marcher (fonctionner)
-1432880 0 comprendre
-1432880 0 être au courant de
-1432880 0 être expert en
-1432880 0 être fort en
-1432880 0 s'y connaitre en
+1432880 0 communiquer (avec)
 1432880 1 marcher (fonctionner)
 1432880 2 comprendre
 1432880 3 être au courant de
 1432880 3 être expert en
 1432880 3 être fort en
 1432880 3 s'y connaitre en
-1432900 0 laisser passer/faire passer
+1432880 4 bien connaitre
+1432880 4 être bien informé
+1432880 4 être au courant de
+1432880 5 communiquer clandestinement
+1432880 5 rester en contact (par ex. avec l'ennemi)
+1432880 6 avoir une liaison
+1432880 6 être intime
+1432880 7 se répandre largement
+1432880 7 se diffuser
+1432900 0 faire passer
+1432900 1 se répandre partout
+1432900 1 se diffuser complètement
+1432900 10 continuer (dans un état) 
+1432900 10 persister dans
+1432900 11 faire pour l'ensemble de
+1432900 11 couvrir tout...
+1432900 11 s'étendre sur l'ensemble...
+1432900 12 faire du début à la fin sans pause
+1432900 13 transmettre (ses idées, etc.) à l'autre partie
+1432900 14 (après la forme en -te d'un verbe) faire jusqu'à la fin
+1432900 14 mener à bien
+1432900 14 compléter
+1432900 2 construire un chemin entre deux points
+1432900 3 procéder d'une manière logique
+1432900 4 laisser passer
+1432900 4 être perméable à
+1432900 5 mener (quelqu'un) dans (une maison, chambre, etc.)
+1432900 5 faire entrer
+1432900 6 passer par (un intermédiaire)
+1432900 7 (regarder, écouter) à travers (une fenêtre, un mur, etc.)
+1432900 8 faire passer (une loi, un candidat, etc.)
+1432900 9 forcer à accepter
+1432900 9 forcer un accord
 1432920 0 avenue
 1432920 0 boulevard
 1432920 0 rue
@@ -24142,7 +24171,9 @@
 1433030 9 avoir un sens
 1433040 0 se rendre à l'hôpital
 1433050 0 devise (monétaire)
-1433070 0 passage
+1433070 0 passage sans arrêt (par ex. un train qui passe sans s'arrêter dans une gare)
+1433070 0 transit
+1433070 1 passer (par ex. un examen, un projet de loi au parlement)
 1433090 0 se rendre à l'école ou l'université
 1433120 0 évent
 1433130 0 connaisseur/calé
@@ -24354,6 +24385,9 @@
 1436410 0 demande
 1436410 0 présentation
 1436410 0 requête
+1436410 1 présentation
+1436410 1 soumission
+1436410 1 dépôt
 1436420 0 discussion
 1436420 0 offre
 1436420 0 plaidoyer
@@ -24651,6 +24685,7 @@
 1439520 0 nature (tempérament)
 1439520 0 tempérament naturel
 1439580 0 nature (nom)
+1439580 1 tête de pont aérienne naturelle
 1439600 0 jus fruit naturel
 1439670 0 petite vérole
 1439670 0 variole
@@ -25303,6 +25338,8 @@
 1448810 11 traiter (en part. durement)
 1448810 11 s'en prendre à
 1448810 12 être inutile
+1448810 13 bien frapper
+1448810 13 être sur une série de frappe
 1448810 17 raser
 1448810 8 entreprendre
 1448810 8 être affecté (à une tâche)
@@ -25542,16 +25579,17 @@
 1451150 2 s'entraîner
 1451150 2 pratiquer
 1451150 3 être conjugué
-1451170 0 décaler
 1451170 0 déplacer
+1451170 0 décaler
+1451170 0 remuer
+1451170 0 agiter
 1451170 0 secouer
+1451170 0 bouger
+1451170 0 changer de position
 1451170 1 mettre en mouvement
-1451170 2 actionner
+1451170 2 changer
 1451170 2 modifier
-1451170 2 influencer
-1451170 2 entraîner
-1451170 2 mobiliser
-1451170 2 secouer
+1451170 2 nier
 1451170 3 mettre en mouvement
 1451170 3 actionner
 1451170 4 entraîner
@@ -28636,6 +28674,8 @@
 1495770 0 joindre
 1495770 0 mettre sous garde
 1495770 0 porter
+1495770 1 meubler (une maison avec)
+1495770 10 garder (un œil sur) 
 1495770 4 évaluer
 1495770 4 fixer (un prix)
 1495770 4 établir (un prix)
@@ -32613,6 +32653,7 @@
 1547520 0 année suivante
 1547530 0 ailes
 1547530 1 constellation chinoise des « Ailes » (une des 28 loges lunaires)
+1547530 2 compteur pour les oiseaux ou les ailes d'oiseaux
 1547560 0 aiguille aimantée
 1547570 0 compas
 1547580 0 énumération
@@ -32808,6 +32849,12 @@
 1549470 0 gains
 1549470 0 intérêts (politiques, économiques)
 1549470 0 profits
+1549470 1 bénéfice
+1549470 1 avantage
+1549470 1 intérêt (du public, etc.)
+1549470 2 grâce (de Dieu, Bouddha, etc.) (en part. atteint par des actions légitimes, la prière, l'adhésion à sa foi, etc.)
+1549470 2 bénédiction
+1549470 2 miracle
 1549500 0 avantages et désavantages
 1549500 0 intérêt
 1549530 0 égoïsme
@@ -39310,7 +39357,7 @@
 2269050 1 tout de suite
 2272760 0 Comment allez-vous ?
 2276200 0 Excusez-moi !
-2394370 0 Ah ! (expression de surprise, de rappel, etc.)
+2394370 0 Ah ! (expression de surprise, de souvenir, etc.)
 2394370 0 Oh !
 2394370 1 Hé ! (pour obtenir l'attention de quelqu'un)
 2409210 0 semblant être...
