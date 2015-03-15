@@ -3671,14 +3671,20 @@
 1165960 0 pendant la nuit
 1165960 0 toute la nuit
 1165960 0 une soirée
-1165970 0 le meilleur
-1165970 0 le premier
-1165970 0 le plus
-1165970 0 le numéro un
-1165970 1 un tour (jeu, épreuve sportive)
-1165970 1 round
-1165970 1 un événement
-1165970 1 une épreuve (sportive)
+1165970 0 numéro un
+1165970 0 premier
+1165970 0 première place
+1165970 1 le meilleur
+1165970 1 le plus
+1165970 2 jeu
+1165970 2 tour (de jeu, d'épreuve sportive)
+1165970 2 round
+1165970 3 comme un test
+1165970 3 comme une expérience
+1165970 3 à titre d'essai
+1165970 3 provisoirement
+1165970 4 chant (par ex. de nô)
+1165970 4 morceau
 1166100 0 un plein sac
 1166110 0 une voix (élection)
 1166180 0 un exemplaire (d'un document)
@@ -7569,6 +7575,10 @@
 1223660 0 dresser
 1223660 0 réveiller
 1223660 0 relever
+1223660 5 tomber malade avec
+1223660 6 transcrire
+1223660 6 écrire (ce qui est dit)
+1223660 7 retourner (une carte)
 1223680 0 arriver
 1223680 0 avoir lieu
 1223680 0 se produire
@@ -11059,7 +11069,8 @@
 1269320 4 successeur
 1269320 4 descendant
 1269320 5 passé
-1269320 5 precedent
+1269320 5 précédent
+1269320 5 antérieur
 1269320 6 plus (par ex. encore cinq minutes de plus)
 1269320 6 restant
 1269330 0 après
@@ -12643,6 +12654,7 @@
 1290790 0 inciter
 1290790 0 tenter (quelqu'un)
 1290800 0 gauche
+1290800 0 côté gauche
 1290810 0 gauche et droite
 1290810 1 contrôle
 1290810 1 domination
@@ -12690,7 +12702,7 @@
 1291330 0 briller
 1291330 0 rayonner
 1291330 1 être visible
-1291330 10 faire avancer avec une perche (bateau)
+1291330 10 faire avancer avec une perche (un bateau)
 1291330 11 verser
 1291330 11 ajouter (du liquide)
 1291330 11 servir (des boissons)

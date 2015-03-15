@@ -1,6 +1,8 @@
 #!/bin/bash
 set -o errexit
 
+git pull
+
 tx pull -a -f
 
 ./updatesources.sh
