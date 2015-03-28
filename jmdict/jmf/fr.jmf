@@ -9784,6 +9784,7 @@
 1251640 0 débours
 1251640 0 dépenses
 1251640 0 frais
+1251670 0 à travers
 1251670 0 via
 1251670 1 passer par
 1251670 1 passer via
@@ -10124,12 +10125,14 @@
 1254710 0 tuberculose
 1254730 0 finalement
 1254760 0 splendide
+1254760 0 joli
+1254760 0 beau
 1254760 0 bien
 1254760 0 merveilleux
 1254760 0 délicieux
 1254760 0 gentil
 1254760 1 suffisant
-1254760 1 bien (dans le sens de "je vais bien")
+1254760 1 bien (dans le sens de « je vais bien »)
 1254760 1 (par implication) non merci
 1254760 2 assez bien
 1254760 2 OK
@@ -10262,7 +10265,7 @@
 1257240 0 haïssable
 1257240 1 soupçon
 1257240 1 tendance
-1257240 1 sentir
+1257240 1 penchant
 1257240 2 distinction
 1257240 2 discrimination
 1257250 0 détester
@@ -28161,9 +28164,6 @@
 1487430 0 mémento
 1487430 0 manuel (de base)
 1487430 0 vade mecum
-1487460 0 à corps perdu
-1487460 0 désespérément
-1487460 0 frénétiquement
 1487500 0 articles de première nécessité
 1487500 0 articles indispensables
 1487510 0 obligatoire (matière)
@@ -29021,9 +29021,11 @@
 1499290 0 département
 1499290 0 partie
 1499290 1 compteur pour exemplaires (d'une publication)
-1499320 0 chambre
-1499320 0 pièce
 1499320 0 salle
+1499320 0 pièce
+1499320 0 chambre
+1499320 0 appartement
+1499320 0 piaule
 1499320 1 écurie
 1499350 0 inférieur (pour un employé)
 1499350 0 subordonné
@@ -29258,6 +29260,9 @@
 1501760 0 bouddha
 1501760 0 défunt
 1501760 0 mort
+1501760 1 les morts
+1501760 1 personne morte
+1501760 1 esprit des morts
 1501930 0 bouddhisme
 1502190 0 statue de bouddha
 1502390 0 chose
@@ -35799,6 +35804,10 @@
 1589780 0 échanger
 1589780 0 remplacer
 1589780 0 substituer
+1589780 1 échanger
+1589780 1 interchanger
+1589780 2 remplacer
+1589780 2 substituer
 1589810 0 ami
 1589810 0 connaissance
 1589820 0 fragrance
@@ -35807,6 +35816,11 @@
 1589830 0 sentir bon
 1589840 0 officiel
 1589840 0 responsable
+1589840 1 lien
+1589840 1 connexion
+1589840 1 raccordement
+1589840 1 enchaînement
+1589840 1 liaison
 1589850 0 officiel (à la douane)
 1589850 0 responsable
 1589880 0 être en rapport avec
@@ -37444,6 +37458,7 @@
 1602300 0 ration (armée)
 1602330 0 déjeuner
 1602330 0 repas de midi
+1602330 1 nourriture servie à un thé (cérémonie du thé)
 1602340 0 déjeuner
 1602340 0 repas de midi
 1602360 0 atteindre
@@ -37541,11 +37556,12 @@
 1602920 0 échanger
 1602920 0 remplacer(?)
 1602920 0 virement
-1603050 0 (mon) ancienne habitation
-1603050 0 lieu de naissance
-1603050 0 village ancien
-1603050 0 village historique
 1603050 0 ville natale
+1603050 0 pays natal
+1603050 0 lieu de naissance
+1603050 0 (mon) ancienne maison
+1603050 1 ruines
+1603050 1 vestiges historiques
 1603090 0 offrir (une réception)
 1603090 0 régaler (vt)
 1603090 0 recevoir
@@ -37657,6 +37673,7 @@
 1603930 0 se mêler à
 1603940 0 anesthésie
 1603950 0 de plus en plus
+1603950 0 de moins en moins (en cas de baisse)
 1603970 0 enfourcher
 1603970 0 s'étendre sur
 1603980 0 de nouveau
@@ -39050,6 +39067,16 @@
 1632320 0 sourire gentiment
 1632320 0 sourire
 1632320 0 faire risette
+1632430 0 avec un choc
+1632430 0 avec un bruit sourd
+1632430 0 avec un bang
+1632430 0 avec un flop
+1632430 0 en tombant brusquement
+1632430 1 (rencontrer quelqu'un) par hasard
+1632430 1 tomber sur (quelqu'un)
+1632430 2 (finir) tout d'un coup
+1632430 2 (finir) soudainement
+1632430 2 (s'arrêter) brutalement
 1633690 0 marche
 1633690 0 escalier
 1633690 0 (rangée de) points de couture
@@ -39064,6 +39091,13 @@
 1634500 0 occasionnellement
 1634500 0 rarement
 1636710 0 lit de rivière
+1643510 0 vieillesse
+1643510 0 personne âgée
+1643510 0 vieillard
+1643510 0 l'ancien
+1643510 0 les personnes âgées
+1660100 0 déjeuner
+1660100 0 midi
 1660250 0 courte pause
 1660250 0 récréation
 1660250 0 relâche
@@ -39110,6 +39144,8 @@
 1894690 0 continuation
 1894690 0 continuité
 1894690 0 suite
+1919590 0 classe, grade, rang
+1919590 0 classe d'école, niveau
 1920240 0 quel (interrogatif)
 1922780 0 in-
 1922780 0 im-
@@ -39125,8 +39161,11 @@
 1929870 0 salle
 1929870 0 édifice
 1929870 0 bâtiment
+1929950 0 poème
+1929950 0 verset de poésie
 1948700 0 congélateur
 1948700 0 freezer
+1949190 0 autre (en part. les gens et les questions abstraites)
 1956280 0 le plus
 1956280 0 l'extrême
 1956400 0 collection
