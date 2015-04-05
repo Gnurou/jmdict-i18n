@@ -9291,6 +9291,8 @@
 1244720 0 galoper
 1244740 0 courir partout
 1244740 0 s'activer
+1244780 0 entrer en courant (à la dernière minute)
+1244780 0 se ruer
 1244800 0 (au) pas de course
 1244840 0 aiguillonner
 1244840 0 aller (en voiture, à cheval)
@@ -11509,7 +11511,7 @@
 1275640 2 ouverture (d'un vase, etc.)
 1275640 3 porte
 1275640 3 portail
-1275640 3 entree
+1275640 3 entrée
 1275640 3 sortie
 1275640 4 parole, propos
 1275640 4 langage parlé
@@ -15355,6 +15357,7 @@
 1327170 0 esclave de l'argent
 1327180 0 défense
 1327190 0 main
+1327190 0 bras
 1327190 1 patte de devant
 1327190 1 patte avant
 1327190 10 une main (aux cartes)
@@ -15368,6 +15371,7 @@
 1327190 4 souci
 1327190 4 attention
 1327190 4 soin
+1327190 4 effort
 1327190 5 moyen
 1327190 5 manière
 1327190 5 astuce
@@ -16094,7 +16098,6 @@
 1335590 0 bête.
 1335610 0 vétérinaire
 1335640 0 hauteur
-1335640 0 longueur
 1335640 1 longueur
 1335640 2 du nord au sud
 1335640 3 hiérarchie
@@ -16678,8 +16681,7 @@
 1343370 0 impôt sur le revenu
 1343390 0 possession
 1343390 0 propriété
-1343460 0 chaud (température de l'air)
-1343460 0 faire chaud
+1343460 0 chaud (pour le temps, etc.)
 1343480 0 chaleur lourde
 1343480 0 chaud
 1343490 0 chaleur (température de l'air)
@@ -16934,6 +16936,7 @@
 1347710 0 futur (en général proche)
 1347710 0 perspectives
 1347750 0 petit
+1347750 0 minuscule
 1347800 0 lieutenant
 1347810 0 pluie fine
 1347810 0 pluie légère
@@ -17337,7 +17340,7 @@
 1352130 4 autorité supérieure
 1352130 5 de plus
 1352130 6 sur la base de (une expertise, etc.)
-1352130 7 en ce qui concerne (dans の上で）
+1352130 7 en ce qui concerne...
 1352130 8 puisque
 1352130 9 suffixe marquant un statut social plus élévé
 1352150 0 amont (rivière)
@@ -17544,9 +17547,11 @@
 1353850 0 progrès
 1353850 1 communication des opinions de la population générale aux personnes de haut rang
 1354020 0 cérémonie (à l'occasion de la construction d'une maison)
-1354030 0 bon
+1354030 0 supériorité
+1354030 0 de première classe
 1354030 0 de qualité
 1354030 0 excellent
+1354030 0 très bon
 1354030 1 (c'est) très bien !
 1354030 1 vas-y !
 1354180 0 buste
@@ -17687,6 +17692,13 @@
 1355980 0 bonne route
 1355980 0 route habituelle
 1356000 0 sens commun
+1356000 0 bon sens
+1356000 0 connaissance commune
+1356000 0 connaissances générales
+1356000 0 pratique courante
+1356000 0 pratique acceptée
+1356000 0 étiquette sociale
+1356000 0 convenance sociale
 1356010 0 coutume
 1356010 0 habitude
 1356110 0 membre permanent (comité, commission)
@@ -17956,12 +17968,12 @@
 1358550 1 dîner
 1358590 0 frais de nourriture
 1358600 0 aliment
-1358600 0 denrées
+1358600 0 denrée
 1358600 0 produit alimentaire
 1358620 0 aliment
 1358620 0 denrées
 1358620 0 produit alimentaire
-1358660 0 appétit
+1358660 0 appétit (pour la nourriture)
 1358670 0 nourriture
 1358670 0 provisions
 1358670 0 vivres
@@ -18080,7 +18092,7 @@
 1360010 0 s'allonger
 1360010 1 aller au lit
 1360010 1 se coucher
-1360010 2 dormir
+1360010 2 dormir (couché)
 1360010 3 coucher (avec quelqu'un)
 1360010 4 se reposer allongé 
 1360040 0 chemise de nuit
@@ -20729,7 +20741,8 @@
 1392580 3 en présence de
 1392580 4 fois (resservice à table)
 1392580 4 portion
-1392580 5 parties privatives
+1392580 5 parties intimes
+1392580 5 parties génitales
 1392620 0 avant-garde
 1392680 0 la dernière fois
 1392680 0 la fois précédente
@@ -22256,6 +22269,7 @@
 1412880 0 beaucoup
 1412880 0 très
 1412890 0 grand
+1412890 0 gros
 1412890 0 large
 1412910 0 dimension
 1412910 0 taille
@@ -23890,8 +23904,7 @@
 1430240 0 pointe
 1430240 0 sommet
 1430250 0 oiseau
-1430250 0 volaille
-1430250 1 nourriture pour oiseau (en particulier pour le poulet)
+1430250 1 viande d'oiseau (en particulier pour le poulet)
 1430250 1 volaille 
 1430280 0 torii (portique à l'entrée des temples shinto)
 1430300 0 parc naturel
@@ -25368,34 +25381,48 @@
 1448800 0 ordinaire
 1448800 0 raisonnable
 1448810 0 être frappé
-1448810 0 être situé (vers une direction)
-1448810 0 affronter
-1448810 0 atteindre son but
-1448810 0 avoir du succès
-1448810 0 entreprendre
+1448810 0 être touché
+1448810 0 frapper
 1448810 0 heurter
-1448810 0 réussir
-1448810 1 être équivalent à
-1448810 1 être appliquable
-1448810 1 être assigné
-1448810 1 maltraiter
-1448810 1 s'appliquer à
-1448810 1 s'intoxiquer
-1448810 1 se charger de (enquête)
-1448810 1 se chauffer
-1448810 1 traiter
+1448810 0 atteindre
+1448810 1 toucher
+1448810 1 être en contact
+1448810 1 être fixé
 1448810 10 être appelé (par le professeur)
 1448810 11 traiter (en part. durement)
 1448810 11 s'en prendre à
 1448810 12 être inutile
+1448810 12 ne pas être nécessaire
 1448810 13 bien frapper
 1448810 13 être sur une série de frappe
 1448810 14 (à la pêche) sentir une touche
-1448810 15 (d'un fruit, etc) être meurtri
+1448810 15 (d'un fruit, etc.) être meurtri
 1448810 15 gâcher
+1448810 16 sentir (quelque chose)
+1448810 16 sonder
+1448810 16 vérifier (c.-à-d. en comparant)
 1448810 17 raser
+1448810 18 être un parent d'une personne
+1448810 18 avoir une relation
+1448810 2 être équivalent à
+1448810 2 être applicable à
+1448810 2 s'appliquer à
+1448810 3 être parfaitement correct (d'une prédiction, d'une critique, etc.)
+1448810 4 être choisi (dans une loterie, etc.)
+1448810 4 gagner
+1448810 5 réussir
+1448810 5 bien aller
+1448810 5 avoir du succès
+1448810 5 faire fureur
+1448810 5 faire recette
+1448810 6 faire face
+1448810 6 affronter
+1448810 7 reposer (en direction de)
 1448810 8 entreprendre
 1448810 8 être affecté (à une tâche)
+1448810 8 être assigné
+1448810 9 être frappé (par une intoxication alimentaire, la chaleur, etc.)
+1448810 9 être atteint
 1448820 0 attentes
 1448820 0 but
 1448820 0 espoirs
@@ -25409,6 +25436,11 @@
 1448860 1 appliquer
 1448860 1 mettre
 1448860 1 poser
+1448860 2 appliquer (par ex. un patch)
+1448860 2 mettre sur
+1448860 2 mettre contre
+1448860 2 tenir
+1448860 2 tenir contre
 1448860 3 attribuer
 1448860 3 faire appel à quelqu'un (par ex. en classe)
 1448860 4 deviner (une réponse)
@@ -26504,11 +26536,10 @@
 1467470 0 espion
 1467500 0 endurance
 1467500 0 patience
-1467530 0 accepter
-1467530 0 admettre
-1467530 0 apprécier
-1467530 0 approuver
 1467530 0 reconnaître
+1467530 0 observer
+1467530 0 remarquer
+1467530 0 constater
 1467540 0 autorisation
 1467540 0 permission
 1467550 0 connaissance
@@ -27404,6 +27435,12 @@
 1478200 2 porter 
 1478200 3 être omis
 1478200 3 manquer
+1478200 4 être clair
+1478200 4 être transparent (par ex. le ciel)
+1478200 5 être stupide
+1478200 5 être distrait
+1478200 5 être négligent
+1478200 5 être inattentif
 1478200 6 sortir (d'une boucle de programme)
 1478220 0 s'échapper de
 1478220 0 s'éclipser de
@@ -27430,7 +27467,8 @@
 1478560 0 la magistrature
 1478620 0 jugement
 1478620 0 décision
-1478620 0 augure
+1478620 0 conclusion
+1478620 0 arbitrage
 1478620 1 divination
 1478620 2 jugement
 1478650 0 (faculté de) jugement
@@ -28099,6 +28137,15 @@
 1486170 0 délicat
 1486170 0 sensible
 1486170 0 subtil
+1486170 1 difficile
+1486170 1 (cas) délicat
+1486170 1 compliqué
+1486170 1 complexe
+1486170 2 douteux
+1486170 2 discutable
+1486170 2 contestable
+1486170 2 risqué
+1486170 2 délicat
 1486270 0 sourcil
 1486330 0 sourcil
 1486350 0 beau (arts)
@@ -29356,6 +29403,9 @@
 1502850 0 2,4 mm (un dixième de « mon », une unité traditionnelle utilisée pour mesurer les tailles de chaussures)
 1502850 0 0,1 degré (un dixième de « do », utilisé pour mesurer la température du corps dans toutes les échelles de température)
 1502850 1 chances de gagner
+1502850 2 épaisseur
+1502850 3 circonstances favorables
+1502850 4 un dixième de monme d'argent
 1502860 0 morceau
 1502860 0 part
 1502860 0 portion
@@ -29558,6 +29608,7 @@
 1505630 0 contexte
 1505650 0 civilisation
 1505650 0 culture
+1505650 1 ère Bunmei (28 avril 1469 - 20 juillet 1487)
 1505680 0 analphabétisme
 1505710 0 chanter pour qqn
 1505710 0 informer
@@ -32479,6 +32530,14 @@
 1544730 0 décerner
 1544730 0 donner
 1544730 0 offrir
+1544730 1 fournir
+1544730 1 offrir
+1544730 1 procurer
+1544730 2 assigner
+1544730 2 attribuer
+1544730 2 affecter
+1544730 3 causer
+1544730 4 passer (une variable à une fonction)
 1544870 0 parti au pouvoir
 1544870 0 parti politique
 1544900 0 honneur
@@ -32491,6 +32550,9 @@
 1545020 0 dépôt
 1545110 0 puéril
 1545110 0 très jeune
+1545110 1 puéril
+1545110 1 enfantin
+1545110 1 immature
 1545120 0 ami d'enfance
 1545150 0 bébé
 1545150 0 nourrisson
@@ -34445,6 +34507,12 @@
 1577610 0 poisson sèché
 1577620 0 couronne
 1577620 1 clé de kanji au dessus
+1577620 2 premier vers d'un haikai, etc.
+1577620 3 meilleur
+1577620 3 mieux
+1577620 3 hors pair
+1577620 3 sans égal
+1577620 3 premier
 1577640 0 tronc (d'arbre)
 1577650 0 tube
 1577650 0 tuyaux
@@ -34554,6 +34622,7 @@
 1578790 0 déplacement
 1578790 0 un aller (sans retour)
 1578790 0 voyage
+1578790 1 aller (vers)
 1578800 0 brouille
 1578800 0 désaccord
 1578800 0 malentendu
@@ -34711,6 +34780,24 @@
 1580260 0 coupure
 1580260 0 entaille
 1580260 0 point faible
+1580260 1 ébréchure
+1580260 1 éraflure
+1580260 1 écaille
+1580260 1 fissure
+1580260 1 fente
+1580260 1 fêlure
+1580260 1 rayure
+1580260 1 taillade
+1580260 1 entaille
+1580260 2 défaut (par ex. de conception)
+1580260 2 vice (par ex. de forme)
+1580260 2 faiblesse
+1580260 2 point faible
+1580260 3 tache (sur sa propre réputation)
+1580260 3 honte
+1580260 3 déshonneur
+1580260 4 blessé (émotionnellement)
+1580260 4 préjudice moral
 1580270 0 commerçant
 1580270 0 marchand
 1580280 0 urine
@@ -34880,6 +34967,9 @@
 1581610 0 pointe
 1581610 0 rebord
 1581610 1 du début (départ)
+1581610 2 bric à brac
+1581610 2 bout (par ex. de papier)
+1581610 2 moindre (chose)
 1581620 0 relever
 1581620 0 retrousser
 1581620 0 abréger
@@ -35088,6 +35178,10 @@
 1583250 1 pourquoi
 1583260 0 éviter
 1583260 0 fuir
+1583260 1 éviter (la situation)
+1583260 2 conjurer
+1583260 2 parer
+1583260 2 prévenir
 1583300 0 épistaxis
 1583300 0 saignement de nez
 1583320 0 papier de soie
@@ -35107,6 +35201,8 @@
 1583470 0 dignité
 1583470 0 goût (avoir bon, mauvais ~)
 1583470 1 (numéral pour les plats d'un repas)
+1583470 2 coquetterie
+1583470 2 charme
 1583490 0 hôte
 1583490 0 invité d'honneur
 1583520 0 difformité
@@ -35170,6 +35266,7 @@
 1584070 0 offrir (avec respect)
 1584070 0 révérer
 1584070 0 faire respectueusement
+1584070 1 faire respectueusement
 1584080 0 objet précieux
 1584080 0 trésor
 1584090 0 étreindre
@@ -36108,6 +36205,23 @@
 1592100 1 vivre
 1592100 1 gagner sa vie
 1592100 1 survivre
+1592100 2 mordre
+1592100 2 piquer (comme les insectes)
+1592100 3 taquiner
+1592100 3 tourmenter
+1592100 3 narguer
+1592100 3 railler
+1592100 3 prendre à la légère
+1592100 3 faire peu de cas de
+1592100 3 se moquer de
+1592100 4 empiéter sur
+1592100 4 rogner sur
+1592100 4 consommer
+1592100 5 vaincre un supérieur
+1592100 5 menacer une position
+1592100 6 consommer du temps ou des ressources
+1592100 7 recevoir quelque chose (en général un événement défavorable)
+1592100 8 avoir des relations sexuelles avec une femme, en part. pour la première fois
 1592110 0 diviser
 1592110 0 division
 1592110 0 section
@@ -36209,6 +36323,8 @@
 1593070 0 passer au-desssus de
 1593070 0 passer de l'autre coté de
 1593070 0 traverser
+1593070 1 excéder
+1593070 1 dépasser
 1593100 0 congeler
 1593100 0 frigorifier
 1593100 0 geler
@@ -37284,6 +37400,19 @@
 1601260 0 idiot
 1601260 0 imbécile
 1601260 0 insensé
+1601260 1 chose insignifiante
+1601260 1 chose futile
+1601260 1 chose légère
+1601260 1 folie
+1601260 1 bêtise
+1601260 1 sottise
+1601260 1 absurdité
+1601260 2 stupide
+1601260 2 bête
+1601260 2 idiot
+1601260 2 sot
+1601260 2 absurde
+1601260 2 ridicule
 1601260 3 Mactra chinensis (espèces de coquillages)
 1601270 0 dérouter
 1601270 0 désorienter
@@ -38215,6 +38344,14 @@
 1609010 0 place
 1609010 0 vide
 1609010 0 marge
+1609010 1 débouché
+1609010 1 vacance
+1609010 1 poste vacant
+1609010 1 siège vide
+1609010 2 temps libre
+1609010 2 temps à perdre
+1609010 3 désuétude
+1609010 3 chose utilisée
 1609020 0 assommant
 1609020 0 fatigue
 1609020 0 lassitude
