@@ -13287,7 +13287,7 @@
 1298460 0 espèce de prunier
 1298470 0 rose (pâle)
 1298490 0 viande de cheval
-1298520 0 compteur de livres
+1298520 0 compteur pour les livres
 1298520 1 tome
 1298520 1 volume
 1298530 0 brochure
@@ -13436,7 +13436,7 @@
 1302650 0 présence
 1302680 0 mont
 1302680 0 montagne
-1302680 1 mine (mine de charbon, par exemple)
+1302680 1 mine (par ex. mine de charbon)
 1302680 10 temple
 1302680 10 enceinte du temple
 1302680 11 sauvage
@@ -15111,7 +15111,7 @@
 1323540 0 emprunt
 1323540 0 prêt
 1323560 0 emprunter
-1323560 0 louer
+1323560 0 avoir un prêt
 1323560 1 louer
 1323930 0 dette (international)
 1323940 0 dette
@@ -15360,7 +15360,7 @@
 1327190 0 bras
 1327190 1 patte de devant
 1327190 1 patte avant
-1327190 10 une main (aux cartes)
+1327190 10 main (aux cartes)
 1327190 11 coté
 1327190 11 direction
 1327190 12 mouvement (dans le go, le shogi, etc.)
@@ -29214,6 +29214,12 @@
 1500840 0 vengeance
 1500880 0 influence
 1500880 0 largeur
+1500880 1 liberté (par ex. de pensée)
+1500880 1 latitude
+1500880 2 écart
+1500880 2 différence (par ex. de prix)
+1500880 2 étendue (par ex. de la voix)
+1500880 2 tessiture
 1500890 0 avoir une grande influence sur
 1500900 0 large
 1500920 0 grand
@@ -29237,6 +29243,22 @@
 1501110 0 ventre
 1501110 1 utérus
 1501110 10 compteur pour les récipients avec un centre bombé (pots, vases, etc.)
+1501110 2 son esprit
+1501110 2 ses intentions réelles
+1501110 2 son vrai mobile
+1501110 3 courage
+1501110 3 culot
+1501110 3 volonté
+1501110 4 générosité
+1501110 4 magnanimité
+1501110 5 sentiments
+1501110 5 émotions
+1501110 6 grande partie du milieu
+1501110 6 partie renflée
+1501110 7 intérieur
+1501110 7 partie interne
+1501110 8 anti-noeud
+1501110 9 compteur pour les œufs de poisson
 1501150 0 ceinture de protection abdominale
 1501260 0 péritoine
 1501270 0 péritonite
@@ -35316,6 +35338,9 @@
 1584340 0 être comblé (rempli)
 1584340 0 être couvert
 1584340 0 déborder
+1584340 1 être comblé (rempli)
+1584340 1 être couvert
+1584340 1 déborder
 1584350 0 tous les mois
 1584350 0 chaque mois
 1584350 0 mensuel
@@ -35369,6 +35394,7 @@
 1584695 5 facette
 1584695 5 côté
 1584695 6 chanfrein
+1584695 7 compteur pour les objets étendus ou plats, niveaux ou stades, par ex. dans un jeu vidéo
 1584710 0 crédulité
 1584730 0 (se faire des) illusions
 1584760 0 aveugle
@@ -39303,6 +39329,14 @@
 1948700 0 congélateur
 1948700 0 freezer
 1949190 0 autre (en part. les gens et les questions abstraites)
+1955950 0 volume (d'un livre)
+1955950 0 bobine (de cinéma)
+1955970 0 sentiment
+1955970 0 sensation
+1955970 0 émotion
+1955970 0 admiration
+1955970 0 impression
+1956150 0 lecture japonaise native (transposition) d'un caractère chinois
 1956280 0 le plus
 1956280 0 l'extrême
 1956400 0 collection
