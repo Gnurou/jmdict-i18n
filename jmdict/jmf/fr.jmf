@@ -3120,6 +3120,8 @@
 1155680 0 degré de dépendance
 1155710 0 demande
 1155710 0 requête
+1155710 0 commission
+1155710 0 expédition
 1155710 1 dépendance
 1155710 1 confiance
 1155780 0 éminent
@@ -3277,6 +3279,8 @@
 1157330 1 change (de monnaie)
 1157510 0 être différent de
 1157510 0 différer
+1157510 0 varier
+1157510 0 être en désaccord
 1157580 0 objection
 1157580 0 opposition
 1157580 0 protestation
@@ -3336,6 +3340,7 @@
 1158450 0 conservation
 1158450 0 entretien
 1158450 0 maintenance
+1158450 0 amélioration
 1158460 0 coûts de maintenance
 1158470 0 restauration (de Meiji)
 1158480 0 parallèle
@@ -3779,7 +3784,8 @@
 1168430 0 dividendes
 1168430 0 royalties
 1168610 0 membre
-1168660 0 dépendre de
+1168660 0 être dû à
+1168660 0 être causé par
 1168660 0 provenir de
 1168660 0 venir de
 1168660 1 dépendre de
@@ -7678,9 +7684,10 @@
 1224890 0 convenablement
 1224890 0 proprement
 1224890 1 meilleures salutations
-1224890 1 veuillez vous rappeler de moi
+1224890 1 je compte sur vous
 1224890 1 veuillez me traiter favorablement
-1224890 1 veuillez prendre soin
+1224890 1 veuillez prendre soin de
+1224890 1 je vous confie (par ex. mon fils)
 1224890 2 tout comme...
 1224890 2 comme si l'on était...
 1224890 3 à tout prix
@@ -10534,6 +10541,7 @@
 1260480 0 envoyer (à T'ang, Chine)
 1260490 0 clé
 1260490 1 serrure
+1260490 1 verrou
 1260530 0 aiguisé (regard, parole)
 1260530 0 périlleux
 1260530 0 très pentu (endroit)
@@ -13102,11 +13110,11 @@
 1296360 0 être en évidence
 1296360 0 être proéminent
 1296360 0 se détacher
-1296400 0 être
+1296400 0 être (en général pour les objects inanimés)
 1296400 0 exister
+1296400 0 vivre
 1296400 1 avoir
 1296400 2 être situé
-1296400 2 se situer
 1296400 3 être équipé de
 1296400 4 survenir
 1296400 4 arriver
@@ -14927,9 +14935,8 @@
 1321040 0 réalisation
 1321040 0 mise en œuvre
 1321040 0 implémentation
-1321110 0 état actuel
+1321110 0 aspect pratique
 1321110 0 pratique
-1321110 0 statu quo
 1321110 1 réalité
 1321110 1 actualité
 1321110 1 conditions réelles
@@ -16271,11 +16278,11 @@
 1338180 1 annoncer
 1338180 1 révéler
 1338180 1 montrer
-1338180 2 soumettre (une thèse)
+1338180 2 soumettre (par ex. une thèse)
 1338180 2 rendre
 1338180 3 publier
 1338180 3 rendre publique
-1338180 4 envoyer (par exemple une lettre)
+1338180 4 envoyer (par ex. une lettre)
 1338180 5 émettre
 1338180 5 déclencher
 1338180 6 servir (de la nourriture)
@@ -16477,7 +16484,9 @@
 1340980 0 vif d'esprit
 1341000 0 printemps
 1341000 1 Nouvel An
-1341000 2 la fleur de l'âge
+1341000 2 meilleur (de sa vie, etc.)
+1341000 2 fleur de l'âge
+1341000 2 force de l'âge
 1341000 3 adolescence
 1341000 3 puberté
 1341000 4 sexualité
@@ -16783,7 +16792,7 @@
 1344930 1 maîtresse
 1344930 1 femme (de quelqu'un)
 1344940 1 constellation chinoise de la « Servante » (une des 28 loges lunaires)
-1344970 0 fille
+1344970 0 jeune fille
 1344970 0 petite fille
 1344980 0 femme
 1344990 0 typiquement féminin
@@ -17115,9 +17124,16 @@
 1350080 0 caoutchouc
 1350110 0 effacer
 1350110 0 supprimer
-1350110 1 éteindre (appareil)
+1350110 0 gommer
+1350110 0 enlever
+1350110 0 rayer
+1350110 0 barrer
+1350110 0 biffer
+1350110 1 éteindre (un appareil)
+1350110 1 arrêter (un appareil)
 1350110 2 éteindre
 1350110 3 liquider
+1350110 3 supprimer
 1350140 0 digestion
 1350160 0 éteindre un feu
 1350170 0 extincteur
@@ -17324,10 +17340,11 @@
 1352130 0 sur
 1352130 0 au-dessus
 1352130 0 en haut
-1352130 0 aîné (ex. fille)
-1352130 1 le dessus
+1352130 0 aîné (par ex. fille)
+1352130 1 haut
 1352130 1 sommet
-1352130 10 place d'un supérieur (ex. le trône)
+1352130 1 cime
+1352130 10 place d'un supérieur (par ex. le trône)
 1352130 11 empereur
 1352130 11 souverain
 1352130 11 shogun
@@ -17337,6 +17354,8 @@
 1352130 2 dessus
 1352130 3 en avance
 1352130 3 devant
+1352130 3 précédent
+1352130 3 antérieur
 1352130 4 autorité supérieure
 1352130 5 de plus
 1352130 6 sur la base de (une expertise, etc.)
@@ -17449,11 +17468,13 @@
 1352320 11 remporter
 1352320 11 obtenir
 1352320 12 louer (faire l'éloge)
+1352320 12 vanter
 1352320 13 donner (un exemple, etc.)
 1352320 13 citer
-1352320 14 déployer (toute son energie,etc.)
-1352320 15 arrêter
+1352320 14 rassembler (toute son énergie, etc.)
+1352320 15 arrêter (quelqu'un)
 1352320 16 nommer
+1352320 16 désigner
 1352320 17 donner
 1352320 17 offrir
 1352320 17 refiler
@@ -22943,7 +22964,7 @@
 1420110 0 homme(s) et femme(s)
 1420160 0 homme
 1420160 0 masculin
-1420160 1 masculin
+1420160 1 genre masculin
 1420180 0 bel homme
 1420200 0 domination de l'homme sur la femme
 1420200 0 machisme
@@ -23634,6 +23655,7 @@
 1427900 4 mettre
 1427900 4 placarder
 1427900 5 être coûteux
+1427900 5 être cher
 1427900 6 avoir besoin d'une seule tuile pour gagner
 1427950 0 ciseler
 1427950 0 creuser
@@ -24317,7 +24339,8 @@
 1434050 0 s'harmoniser
 1434050 1 s'assortir
 1434050 1 s'harmoniser
-1434120 0 pêche à la ligne
+1434120 0 pêcher (à la ligne)
+1434120 0 attraper
 1434120 1 attirer
 1434120 1 tenter
 1434120 1 attirer
@@ -26549,8 +26572,7 @@
 1467590 0 reconnaissance
 1467610 0 mouiller
 1467610 0 tremper
-1467620 0 être mouillé
-1467620 0 être trempé
+1467620 0 mouiller
 1467630 0 oignon vert
 1467640 0 chat
 1467640 1 shamisen 
@@ -26565,8 +26587,6 @@
 1467680 0 avoir le dos rond
 1467680 0 ne pas se tenir droit
 1467710 0 chaleur
-1467710 0 fièvre
-1467710 0 température
 1467710 1 fièvre
 1467710 1 température
 1467710 2 zèle
@@ -28367,9 +28387,17 @@
 1489990 0 commentaire
 1489990 0 critique
 1489990 0 remarque
-1490010 0 évaluer
-1490010 0 apprécier (quelque chose)
-1490010 0 estimer (un prix)
+1490010 0 évaluation
+1490010 0 estimation
+1490010 0 appréciation
+1490010 0 classement
+1490010 1 évaluer
+1490010 1 apprécier
+1490010 1 noter
+1490010 1 estimer une valeur
+1490010 2 apprécier
+1490010 2 accorder une grande valeur
+1490010 2 reconnaître la valeur (de quelque chose)
 1490070 0 notoriété
 1490070 0 popularité
 1490070 0 réputation
@@ -30087,6 +30115,7 @@
 1514110 0 être attrapé
 1514110 0 être pris
 1514110 1 s'agripper à
+1514110 2 trouver (par ex. une preuve ou un taxi)
 1514110 3 être détenu par
 1514140 0 attraper
 1514140 0 prendre
@@ -30569,12 +30598,21 @@
 1519620 0 désir
 1519620 0 espoir
 1519620 0 souhait
+1519620 1 perspective
+1519620 1 attente
+1519620 1 espérance
+1519620 1 (ses) espoirs
 1519630 0 "embrasser d'un coup d'œil"
 1519630 0 attendre
 1519630 0 désirer
 1519630 0 dominer (visuel)
 1519630 0 espérer
 1519630 0 souhaiter
+1519630 1 désirer
+1519630 1 souhaiter
+1519630 1 attendre
+1519630 2 voir
+1519630 2 apercevoir
 1519650 0 jumelles
 1519650 0 longue-vue
 1519650 0 lunette astronomique
@@ -32036,6 +32074,7 @@
 1537250 0 champ
 1537250 1 élément (structurel) caché
 1537250 2 sauvage
+1537250 3 manquer un poste politique
 1537260 0 singe sauvage
 1537270 0 air libre
 1537270 0 en plein air
@@ -32435,6 +32474,7 @@
 1542430 0 La Poste
 1542430 0 poste
 1542470 0 facteur
+1542480 0 code postal
 1542500 0 affranchissement
 1542540 0 grandeur
 1542540 0 magnificence
@@ -34415,6 +34455,7 @@
 1576150 1 célibataire
 1576150 1 solitaire
 1576200 0 la vie
+1576200 1 (le seul, le plus grand, etc.) de sa propre vie
 1576250 0 une fois
 1576250 1 temporairement
 1576250 1 pour un moment
@@ -35220,6 +35261,9 @@
 1583460 0 peindre
 1583460 1 décrire
 1583460 1 dépeindre
+1583460 2 se représenter dans son esprit
+1583460 2 imaginer
+1583460 3 former une certaine figure (par ex. la trajectoire d'une action, l'apparence d'un objet, etc.)
 1583470 0 dignité
 1583470 0 goût (avoir bon, mauvais ~)
 1583470 1 (numéral pour les plats d'un repas)
@@ -35236,6 +35280,8 @@
 1583640 0 couple
 1583640 0 couple marié
 1583640 0 homme et femme
+1583640 1 pour elle et lui
+1583640 1 paire d'objets, un plus grand (pour l'homme), un plus petit (pour la femme)
 1583650 0 millionnaire
 1583650 0 riche
 1583650 0 les puissants
@@ -35628,10 +35674,17 @@
 1587290 3 avoir (comme chef)
 1587290 3 vivre sous (la coupe de)
 1587290 3 installer (un président)
-1587300 0 dommage
 1587300 0 douleur
-1587300 0 souci
-1587300 0 tristesse
+1587300 0 mal
+1587300 0 endolorissement
+1587300 0 peine
+1587300 0 détresse
+1587300 1 dommage
+1587300 1 blessure
+1587300 1 usure
+1587300 1 bleu (sur la peau)
+1587300 1 contusion
+1587300 1 rupture
 1587310 0 place
 1587310 0 position
 1587310 0 situation
@@ -35772,6 +35825,7 @@
 1588890 0 exagération
 1588920 0 colline
 1588920 0 partie de terrain surélevé
+1588920 1 points bonus attribués au gagnant à la fin d'un jeu
 1588930 0 o-kazu
 1588930 0 plat accompagnant le riz
 1588990 0 haute mer
@@ -35790,14 +35844,21 @@
 1589080 0 réprimer
 1589080 0 retenir
 1589080 0 saisir
-1589090 0 fournir
-1589090 0 mettre
-1589090 0 obtenir
-1589090 0 payer
-1589090 0 prendre
-1589090 0 ranger
-1589090 0 recueillir
-1589090 0 stocker
+1589090 0 dédier
+1589090 0 consacrer (par ex. du temps ou de l'argent)
+1589090 0 faire une offre
+1589090 0 payer (des frais)
+1589090 1 fournir
+1589090 2 stocker
+1589090 2 entreposer
+1589090 3 finir
+1589090 3 terminer
+1589090 3 conclure
+1589090 3 mettre fin à
+1589090 4 remettre (quelque chose à sa place)
+1589090 4 rétablir
+1589090 5 atteindre (par ex. un résultat)
+1589090 5 réaliser
 1589110 0 placard
 1589120 0 forcer
 1589120 0 vente forcée
@@ -35904,6 +35965,11 @@
 1589580 0 descendre
 1589580 0 faire tomber
 1589580 0 lancer
+1589580 1 déposer (le passager d'un véhicule)
+1589580 1 lâcher (une personne)
+1589580 2 retirer de l'argent d'un compte
+1589580 3 porter (un vêtement) pour la première fois
+1589580 4 préparer (par ex. un poisson) en filets
 1589590 0 fin
 1589600 0 finir
 1589620 0 délicat
@@ -36978,6 +37044,7 @@
 1598530 0 rencontrer par hasard
 1598530 1 avoir un rendez-vous
 1598530 1 fixer un rendez-vous
+1598530 2 apparaître et combattre (un ennemi)
 1598540 0 entrée
 1598550 0 partir (par ex. en excursion ou pour une sortie)
 1598550 0 sortir
@@ -37238,11 +37305,24 @@
 1600270 2 publier (une annonce)
 1600280 0 gorge
 1600280 1 voix chantante
-1600290 0 allonger
-1600290 0 prolonger
-1600290 0 rallonger
+1600290 0 pousser (par ex. pour les cheveux, les ongles)
+1600290 0 croitre
+1600290 0 s'allonger
+1600290 0 grandir
 1600290 1 reporter
 1600290 2 faire pousser(la barbe)
+1600290 3 redresser
+1600290 3 lisser
+1600290 3 aplanir
+1600290 4 répartir uniformément (une pâte, une crème, etc.)
+1600290 4 étaler
+1600290 5 diluer
+1600290 5 dégarnir
+1600290 6 reporter
+1600290 6 retarder
+1600290 6 ajourner
+1600290 6 remettre à plus tard
+1600290 7 prolonger
 1600290 8 renforcer
 1600290 8 développer
 1600290 8 étendre
@@ -38434,6 +38514,7 @@
 1609340 0 renversé
 1609350 0 lieu de naissance
 1609350 0 naissance
+1609350 1 né dans (un pays, un mois, une ère impériale, une année zodiacale, etc.)
 1609370 0 hygiénique
 1609370 0 sanitaire
 1609380 0 accepter
@@ -38506,6 +38587,18 @@
 1609660 0 règlement
 1609660 0 résolution
 1609660 0 usage
+1609660 1 règlement
+1609660 1 conclusion
+1609660 1 fin
+1609660 1 accord
+1609660 1 arrangement
+1609660 2 habitude
+1609660 2 coutume
+1609660 2 manière habituelle
+1609660 3 figure en face d'une autre personne
+1609660 3 visage
+1609660 3 face
+1609660 4  relation amoureuse entre un client et une prostituée
 1609670 0 vanité
 1609680 0 ascétique
 1609680 0 austère
@@ -39349,6 +39442,8 @@
 1979930 0 mutuel
 1979930 0 réciproque
 1979930 0 l'un l'autre
+1981450 0 à ce point
+1981450 0 à ce degré
 1982860 0 coût
 1982860 0 prix
 1982860 1 génération
@@ -39498,6 +39593,18 @@
 2078590 0 compteur pour les bâtiments  (en part. les maisons)
 2078590 1 suffixe pour un nom de plume, nom de scène, etc.
 2079550 0 cigogne (en part. la cigogne orientale, Ciconia boyciana)
+2080210 0 aval (d'un cours d'eau)
+2080210 1 bas
+2080210 1 partie inférieure
+2080210 2 moitié inférieure (du corps, en part. les parties intimes)
+2080210 2 fèces
+2080210 2 excréments
+2080210 2 urine
+2080210 2 règles (de la menstruation)
+2080210 2 menstrues
+2080210 3 fin
+2080210 3 loin du palais impérial (c.-à-d. loin de Kyoto, en part. de l'ouest du Japon)
+2080210 4 cochon (par ex. pour une blague)
 2080530 0 non
 2081300 0 chaud
 2081300 0 doux
