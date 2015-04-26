@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2015-04-18 07:37:24+0000\n"
+"POT-Creation-Date: 2015-04-26 10:24:02+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10147,11 +10147,13 @@ msgid ""
 "setting a question (for an exam)"
 msgstr "proposer un problème"
 
+#, fuzzy
 msgctxt "1340190 0"
 msgid ""
 "出品\tしゅっぴん\n"
 "exhibit\n"
-"display"
+"display\n"
+"putting something up for sale"
 msgstr "exposition"
 
 #, fuzzy

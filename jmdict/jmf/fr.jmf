@@ -17988,8 +17988,9 @@
 1358550 1 salle à manger
 1358550 1 dîner
 1358590 0 frais de nourriture
+1358600 0 nourriture
 1358600 0 aliment
-1358600 0 denrée
+1358600 0 denrées
 1358600 0 produit alimentaire
 1358620 0 aliment
 1358620 0 denrées
@@ -20396,6 +20397,8 @@
 1387000 0 sans égal
 1387000 0 sans pareil
 1387010 0 langue (anat.)
+1387010 1 objet en forme de langue
+1387010 1 battant (de cloche)
 1387020 0 paroles malheureuses
 1387050 0 altercation
 1387050 0 joute oratoire
@@ -26860,11 +26863,18 @@
 1471150 0 dérivation
 1471180 0 clan
 1471180 0 faction
-1471200 0 briser
-1471200 0 casser
 1471200 0 déchirer
+1471200 0 casser
 1471200 0 détruire
-1471200 0 profaner
+1471200 1 faire une brèche (dans les défenses d'un ennemi)
+1471200 2 vaincre
+1471200 2 battre
+1471200 3 briser (un rêve)
+1471200 3 rompre (la paix)
+1471200 3 déranger
+1471200 4 transgresser (une règle)
+1471200 4 rompre (une promesse)
+1471200 5 battre (un record)
 1471210 0 se déchirer
 1471210 0 se détruire
 1471210 0 être battu
@@ -38057,9 +38067,10 @@
 1604740 0 race
 1604740 0 coutumes locales
 1604740 0 folklore
-1604750 0 de l'autre côté de la rue
 1604750 0 en face
-1604750 0 l'autre côté
+1604750 0 opposé
+1604750 0 de l'autre côté de la rue
+1604750 0 vis-à-vis
 1604800 0 être en face de
 1604800 0 faire face à
 1604800 1 progresser vers
@@ -38190,8 +38201,11 @@
 1605640 0 tristesse
 1605670 0 se retirer volontairement
 1605670 0 adieux volontaires
-1605680 0 courrier
 1605680 0 service postal
+1605680 0 courrier
+1605680 0 poste
+1605680 1 de(s) poste(s) (bureau, employé...)
+1605680 1 postal (colis, code...)
 1605700 0 calme
 1605700 0 détendu
 1605700 0 tranquille
