@@ -19239,7 +19239,7 @@
 1374520 0 accord
 1374520 0 approbation
 1374530 0 certainement
-1374530 0 sans aucun doute
+1374530 0 sans faute
 1374530 1 vrai et faux
 1374530 1 pour et contre
 1374550 0 terrible
@@ -24870,6 +24870,7 @@
 1441120 0 mutation
 1441120 0 transfert
 1441190 0 sous-location
+1441210 0 changement de profession
 1441320 0 déplacement
 1441320 0 mutation
 1441340 0 chavirement
