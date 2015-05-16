@@ -3791,6 +3791,8 @@
 1168660 1 dépendre de
 1168660 2 provenir de
 1168660 2 venir de
+1168660 3 être basé à (un endroit, une organisation)
+1168660 3 avoir son siège social situé à
 1168670 0 destin
 1168670 0 fatalité
 1168670 1 cause
@@ -8596,7 +8598,6 @@
 1237150 1 laboratoire
 1237150 2 école avec une seule salle de classe
 1237150 2 petite école
-1237160 0 enseignement
 1237160 0 professeur
 1237160 1 enseignement
 1237160 1 instruction
@@ -8958,7 +8959,8 @@
 1241470 0 interdire
 1241480 0 défendre
 1241480 0 interdire
-1241490 0 Défense de fumer!
+1241490 0 s'abstenir de fumer
+1241490 0 arrêter de fumer
 1241490 1 Défense de fumer
 1241490 1 Interdiction de fumer
 1241490 1 Ne pas fumer
@@ -9282,6 +9284,8 @@
 1244550 0 ennuis
 1244550 0 peine
 1244560 0 douleur
+1244560 0 peine
+1244560 0 agonie
 1244610 0 chagrin
 1244610 0 détresse
 1244610 0 douleur
@@ -10079,6 +10083,7 @@
 1254370 0 décision
 1254370 0 jugement
 1254380 0 décision
+1254380 0 détermination
 1254430 0 finir
 1254430 0 se rompre (négociations)
 1254440 0 pur
@@ -10164,7 +10169,7 @@
 1255000 0 conjonctivite
 1255010 0 conclusion
 1255010 0 fin
-1255020 0 conclusion (d'un rapport etc.
+1255020 0 conclusion
 1255060 0 sang
 1255060 0 consanginité
 1255110 0 pression sanguine
@@ -10529,7 +10534,7 @@
 1260320 0 intelligence
 1260320 0 prudence
 1260320 0 sagesse
-1260330 0 gouttière
+1260330 0 corniche
 1260330 1 allée étroite entourant le coeur d'un temple
 1260360 0 nombre de maisons
 1260370 0 bord de la gouttière
@@ -11003,11 +11008,12 @@
 1267460 0 entrejambe
 1267520 0 assis les jambes croisées (à l'indienne)
 1267600 0 poivre
-1267610 0 tigre
+1267610 0 tigre (Panthera tigris)
 1267610 1 ivrogne
 1267610 1 buveur
 1267610 1 soûlard
 1267740 0 fierté
+1267740 0 vantardise
 1267760 0 s'honorer
 1267760 0 se glorifier
 1267770 0 étalage
@@ -11305,12 +11311,12 @@
 1271710 0 commerce
 1271710 0 trafic
 1271750 0 échange
-1271750 0 équivalent (?)
-1271750 0 compensation (financière)
+1271750 0 commutation
 1271750 0 réciprocité
-1271750 0 substitution
-1271750 0 succédané (?)
 1271750 0 troc
+1271750 0 substitution
+1271750 0 remplacement
+1271750 0 compensation (de chèques)
 1271910 0 orchestre symphonique
 1271930 0 symphonie
 1271940 0 mutuel
@@ -11896,8 +11902,7 @@
 1280520 0 durcissement
 1280520 0 sclérose
 1280520 0 vulcanisation
-1280530 0 monnaie
-1280530 0 pièce
+1280530 0 pièce (de monnaie)
 1280530 1 monnaie forte
 1280530 1 devise forte
 1280590 0 dureté
@@ -24405,6 +24410,7 @@
 1435490 2 titre de transport à durée déterminée
 1435490 3 dépôt à terme
 1435490 4 contrats à terme
+1435510 0 carte de transport en commun
 1435510 0 ticket périodique
 1435520 0 règle à mesurer
 1435530 0 définir
@@ -27347,6 +27353,7 @@
 1477360 0 radiation
 1477360 0 rayonnement
 1477390 0 publier
+1477390 1 émettre un évènement (logiciel)
 1477450 0 fermentation
 1477470 0 accès
 1477470 0 attaque
@@ -27410,6 +27417,10 @@
 1477720 0 développement
 1477720 0 essor
 1477720 0 expansion
+1477720 1 expansion
+1477720 1 extension
+1477720 1 agrandissement
+1477720 1 élargissement
 1477720 2 être un coureur de jupons
 1477720 2 avoir une vie sexuelle active
 1477740 0 pays en voie de développement
@@ -27421,8 +27432,10 @@
 1477810 0 mettre en vente
 1477810 0 mise en vente
 1477840 0 annonce
-1477840 0 parution
 1477840 0 publication
+1477840 0 présentation
+1477840 0 déclaration
+1477840 0 communiqué
 1477870 0 (vs) tomber malade
 1477880 0 mousser
 1477900 0 tirer (arme à feux)
@@ -29019,6 +29032,19 @@
 1497800 2 devenir inutile
 1497800 2 s'émousser
 1497800 2 s'affaiblir (par manque de pratique)
+1497800 3 être dépravé
+1497800 3 être dégénéré
+1497800 3 être moralement en faillite
+1497800 3 être corrompu
+1497800 4 être déprimé
+1497800 4 être découragé
+1497800 4 se sentir découragé
+1497800 4 se sentir déprimé
+1497800 5 indique le mépris ou dédain pour l'action de quelqu'un
+1497800 6 perdre un pari
+1497800 7 être trempé
+1497800 7 être mouillé
+1497800 7 être dégoulinant
 1497810 0 corroder
 1497810 0 pourrir
 1497810 0 putréfier
@@ -39624,6 +39650,11 @@
 2078590 0 compteur pour les bâtiments  (en part. les maisons)
 2078590 1 suffixe pour un nom de plume, nom de scène, etc.
 2079550 0 cigogne (en part. la cigogne orientale, Ciconia boyciana)
+2080200 0 faiblesse
+2080200 0 bassesse
+2080200 0 infériorité
+2080200 1 second volume (de deux)
+2080200 1 troisième volume (de trois)
 2080210 0 aval (d'un cours d'eau)
 2080210 1 bas
 2080210 1 partie inférieure
