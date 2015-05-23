@@ -78,15 +78,15 @@
 1000820 0 gaiement
 1000910 0 horriblement
 1000910 0 terriblement
-1000920 0 (impératif poli) venez
-1000920 0 allez
-1000920 0 restez
+1000920 0 venir
+1000920 0 aller
+1000920 0 rester
 1000920 1 bienvenue !
 1000930 0 bienvenue ! (dans les magasins, etc.)
 1000940 0 venir
 1000940 0 aller
 1000940 0 être (quelque part)
-1000940 1 (après la forme -te ou la particule « de ») en train de
+1000940 1 être en train de (faire)
 1000980 0 brûlant d'envie de faire quelque chose
 1000980 0 impatient de
 1001010 0 étourdiment
@@ -730,7 +730,7 @@
 1006610 0 ainsi
 1006610 0 vraiment
 1006610 0 comme cela
-1006610 1 (après le radical du verbe ou de l'adjectif) il apparait que
+1006610 1 il apparait que
 1006610 1 sembler
 1006610 1 ressembler à
 1006610 1 avoir l'apparence de
@@ -973,7 +973,7 @@
 1008630 0 très
 1008630 0 vraiment
 1008630 0 excessivement
-1008630 1 (pas) du tout (avant une forme négative)
+1008630 1 (pas) du tout
 1008630 1 absolument pas
 1008630 1 absolument impossible
 1008770 0 abominable
@@ -4009,8 +4009,8 @@
 1172660 1 aller
 1172660 2 manier (un outil, etc.)
 1172660 2 utiliser
-1172660 3 aller (bien, etc)
-1172660 3 procéder
+1172660 3 aller (bien, etc.)
+1172660 3 poursuivre (une action)
 1172660 3 progresser
 1172670 0 avec chance
 1172690 0 administration
@@ -4727,7 +4727,7 @@
 1184170 3 desservir (une table)
 1184170 3 retirer (de la nourriture, etc. d'une table ou d'un autel)
 1184270 0 s'il vous plaît (donnez-moi)
-1184270 1 faites ceci (pour moi) s'il vous plaît (après la forme en -te d'un verbe ou un nom précédé de la particule o- ou go-)
+1184270 1 faites (ceci) pour moi s'il vous plaît
 1184280 0 donner
 1184280 0 conférer
 1184280 0 accorder
@@ -12235,7 +12235,7 @@
 1284430 1 correct
 1284430 2 être rentable
 1284430 2 être équitable
-1284430 3 (après le radical -masu d'un verbe) faire... l'un à l'autre
+1284430 3 faire... l'un à l'autre
 1284430 3 faire... ensemble
 1284460 0 être face à face
 1284460 0 comparer
@@ -12764,8 +12764,8 @@
 1291330 2 être teinté de
 1291330 3 augmenter (pour le niveau des eaux)
 1291330 3 affluer
-1291330 4 être ressentie (ex. comme une émotion)
-1291330 4 saisir (ex. la peur le saisit)
+1291330 4 être ressentie (par ex. comme une émotion)
+1291330 4 saisir (par ex. la peur le saisit)
 1291330 5 tenir en l'air (un parapluie, etc.)
 1291330 5 ériger
 1291330 5 élever
@@ -12912,7 +12912,8 @@
 1293810 0 ultime
 1293810 0 le dernier
 1293810 0 le plus récent
-1293810 1 (après forme en -tara ou en -ta suivi de « ga ») pas avant que
+1293810 1 pas avant
+1293810 1 à peine... que...
 1293810 1 juste après (ayant souvent des conséquences négatives)
 1293810 2 dernières heures avant de mourir
 1293810 2 derniers instants
@@ -13319,8 +13320,8 @@
 1298740 0 sentir
 1298740 0 sympathiser avec
 1298790 0 photographier
-1298790 0 prendre une photo
-1298790 1 enregistrer (vidéo, audio, ..)
+1298790 0 prendre (une photo)
+1298790 1 enregistrer (une vidéo, du son, etc.)
 1298790 1 faire (un film)
 1298800 0 photographier
 1298800 0 prendre une photo
@@ -13449,6 +13450,7 @@
 1302650 0 présence
 1302680 0 mont
 1302680 0 montagne
+1302680 0 colline
 1302680 1 mine (par ex. mine de charbon)
 1302680 10 temple
 1302680 10 enceinte du temple
@@ -14179,8 +14181,8 @@
 1311060 0 identité
 1311060 0 nom complet
 1311060 0 nom et prénoms
-1311110 0 moi-même
-1311110 0 personnel
+1311110 0 je
+1311110 0 moi
 1311110 1 affaires privées
 1311110 1 affaire personnelle
 1311110 1 secret
@@ -14574,7 +14576,7 @@
 1316380 0 prochain
 1316380 0 ultérieur
 1316380 1 étape
-1316380 1 arrêt (de bus)
+1316380 1 arrêt (par ex. de bus)
 1316390 0 en second
 1316390 0 par la suite
 1316390 0 suivant
@@ -15331,6 +15333,8 @@
 1326980 0 remporter
 1326980 0 choisir
 1326980 1 voler
+1326980 1 dérober
+1326980 1 cambrioler
 1326980 2 manger
 1326980 2 prendre (un repas)
 1326980 3 enlever (ses lunettes, etc.)
@@ -16137,6 +16141,7 @@
 1335750 3 important
 1335750 3 sérieux
 1335750 4 sérieux
+1335750 4 sévère
 1335750 4 critique
 1335750 5 solide
 1335750 5 reconnu
@@ -17468,14 +17473,14 @@
 1352320 0 dresser
 1352320 0 hisser
 1352320 1 relever
-1352320 10 produire (un son)
+1352320 10 produire (un son fort)
 1352320 10 élever (la voix)
 1352320 11 remporter
 1352320 11 obtenir
 1352320 12 louer (faire l'éloge)
 1352320 12 vanter
-1352320 13 donner (un exemple, etc.)
-1352320 13 citer
+1352320 13 énumérer
+1352320 13 donner (un exemple)
 1352320 14 rassembler (toute son énergie, etc.)
 1352320 15 arrêter (quelqu'un)
 1352320 16 nommer
@@ -18627,8 +18632,7 @@
 1365850 0 épicé
 1365850 0 piquant
 1365850 0 relevé
-1365850 1 acerbe
-1365850 1 sévère (envers quelqu'un)
+1365850 1 salé
 1365850 2 sévère (critique, punition)
 1365850 2 dur (avec quelqu'un)
 1365850 2 strict
@@ -19650,7 +19654,7 @@
 1378660 0 causer
 1378660 0 produire
 1378660 0 provoquer
-1378690 0 naître
+1378690 0 être né
 1378720 0 engendrer
 1378720 1 inventer
 1378760 0 faire, laisser pousser (barbe, plantes)
@@ -19873,11 +19877,12 @@
 1381380 4 immature
 1381380 4 pas mûr
 1381380 4 jeune
-1381390 0 bleu (profond)
-1381390 0 vert (des plantes)
+1381390 0 bleu
+1381390 0 vert
 1381390 1 pâle
 1381390 2 pas mûr
 1381390 2 novice
+1381390 2 inexpérimenté
 1381420 0 devenir blême
 1381420 0 pâlir
 1381470 0 ciel bleu
@@ -20028,7 +20033,7 @@
 1383230 0 devoir
 1383230 0 obligation
 1383240 0 rouge
-1383240 1 rouge (c.-à-d. communiste)
+1383240 1 Rouge (c.-à-d. communiste)
 1383260 0 bébé
 1383260 0 nourrisson
 1383280 0 rougir
@@ -20115,6 +20120,8 @@
 1384830 4 déchirer (suivant les pointillés)
 1384830 5 ouvrir (quelque chose de scellé)
 1384830 6 commencer
+1384830 6 démarrer
+1384830 6 débuter
 1384830 7 fixer (une limite)
 1384830 7 faire (quelque chose) en moins d'un certain temps ou dans un certain délai
 1384830 7 émettre (des timbres, des coupons, etc.)
@@ -21658,7 +21665,7 @@
 1404630 2 démarche
 1404630 3 rythme
 1404630 3 allure (de la marche)
-1404630 4 composant structurel de base (ex. radical) d'un kanji
+1404630 4 composant structurel (c.-à-d. radical) en bas d'un kanji
 1404630 5 moyen de transport
 1404630 6 argent
 1404630 6 pièce de monnaie
@@ -21692,9 +21699,9 @@
 1404975 1 prématuré
 1404975 2 (trop) tôt
 1404975 2 pas encore
+1404975 3 facile
 1404975 3 simple
 1404975 3 rapide
-1404975 3 facile
 1404990 0 rapidité
 1404990 0 vitesse
 1405000 0 rapidement
@@ -22019,7 +22026,6 @@
 1409110 2 ne doit pas
 1409110 2 pas permis
 1409140 0 corps (physique)
-1409140 0 santé
 1409140 1 torse
 1409140 1 tronc
 1409140 2 constitution
@@ -22190,7 +22196,7 @@
 1410770 0 préparations à
 1410780 0 attitude
 1410780 0 manières
-1410800 0 "Bon appétit" (dit avant un repas)
+1410800 0 expression de gratitude avant les repas
 1410870 0 l'Occident
 1410870 0 l'Ouest
 1410880 0 peinture occidentale
@@ -22216,7 +22222,7 @@
 1411110 0 prêt
 1411120 0 louer un bateau
 1411130 0 prêter
-1411160 0 faire crédit à quelqu'un
+1411160 0 faire crédit
 1411160 0 louer
 1411160 0 prêter
 1411160 1 mettre en location
@@ -22284,9 +22290,10 @@
 1412560 0 support
 1412560 0 table
 1412560 1 socle
+1412560 1 support
 1412560 2 ceinture
 1412560 3 compteur de machines et véhicules
-1412560 4 monture (ex. en joaillerie)
+1412560 4 monture (par ex. en joaillerie)
 1412560 5  
 1412640 0 cuisine
 1412640 1 situation financière
@@ -22630,7 +22637,7 @@
 1416190 0 mais
 1416190 0 pourvu que
 1416190 0 quelque...que
-1416220 0 suffixe du pluriel
+1416220 0 suffixe du pluriel (en part. pour les personnes et les animaux ; auparavant honorifique)
 1416230 0 atteindre
 1416230 0 aboutir à
 1416230 0 arriver à
@@ -24116,7 +24123,6 @@
 1432670 0 exil
 1432680 0 avoir mal (douleur)
 1432680 1 excédant
-1432680 1 insupportable
 1432710 0 subir une douleur
 1432720 0 se faire mal (douleur)
 1432720 1 avarier(marchandise,nourriture)
@@ -25154,7 +25160,7 @@
 1445140 0 grand travailleur
 1445140 0 personne appliquée
 1445150 0 fois
-1445160 0 degrés
+1445160 0 degré (angle, température, échelle, etc.)
 1445160 1 (compteur) fois
 1445160 2 degré (d'un alcool) 
 1445190 0 courage
@@ -26443,7 +26449,7 @@
 1465590 2 devenir membre de
 1465590 2 faire partie de
 1465590 3 contenir
-1465590 4 percevoir(un revenu)
+1465590 4 percevoir (un revenu de)
 1465590 5 obtenir
 1465590 5 recevoir
 1465590 5 marquer (des points)
@@ -30062,7 +30068,7 @@
 1512130 2 rembourser
 1512130 2 riposter
 1512130 2 rendre la pareille
-1512130 3 (après le radical d'un verbe) répéter
+1512130 3 répéter
 1512130 3 faire quelque chose en retour
 1512150 0 retourner
 1512150 0 revenir
@@ -34660,8 +34666,8 @@
 1577980 2 (après la forme en -te d'un verbe) indique une action ou un état pas encore terminé (par ex. être en train de..., avoir été en train de...)
 1577985 0 être (êtres animés)
 1577985 0 exister
-1577985 1 (après la forme en -te d'un verbe) indique une action ou un état qui dure (c.-à-d. être en train de...)
-1577985 2 (après le radical -masu du verbe) indique du mépris ou du dédain pour les actions d'un autre
+1577985 1 verbe indiquant une action ou un état qui dure (c.-à-d. être en train de...)
+1577985 2 indique du mépris ou du dédain pour les actions d'un autre
 1578010 0 poisson
 1578040 0 aucun (neg)
 1578040 0 aussi bien que
@@ -35450,10 +35456,11 @@
 1584380 0 benjamin
 1584380 0 cadet
 1584380 0 le plus jeune enfant
-1584460 0 10.000
+1584460 0 10000
 1584460 0 dix mille
 1584460 1 innombrables
 1584460 2 tout
+1584460 2 totalité
 1584460 3 divers
 1584500 0 tout le monde
 1584500 1 10 000 personnes
@@ -35511,7 +35518,9 @@
 1584900 0 adaptation
 1584900 0 prêter (argent)
 1584900 0 souplesse
-1584910 0 souper (dîner en France)
+1584910 0 souper
+1584910 0 dîner en France
+1584910 0 repas du soir
 1584920 0 prédiction
 1584920 0 présage
 1584930 0 résidu
@@ -36379,7 +36388,7 @@
 1592250 1 région
 1592250 2 gouvernement national
 1592250 2 gouvernement central
-1592250 3 chez soi (c.a.d. son pays, sa ville)
+1592250 3 chez soi (c.-à-.d. son pays, sa ville)
 1592250 4 province (du Japon)
 1592250 5 territoire
 1592250 5 terre
@@ -36455,6 +36464,7 @@
 1592920 0 inviter
 1592930 0 bonne fortune
 1592930 0 chance
+1592970 0 carrefour
 1592970 0 croisement
 1592970 0 intersection
 1592980 0 veau
@@ -37474,7 +37484,7 @@
 1600780 0 en effet
 1600780 0 vraiment
 1600790 0 (être âgé de) 20 ans
-1600790 1 vingt ans
+1600790 1 vingt
 1600800 0 désagréable)
 1600800 0 le touché de
 1600800 0 sensation (agréable
@@ -37592,6 +37602,7 @@
 1601320 0 disséminer
 1601320 0 jeter son argent par les fenêtres
 1601340 0 dîner
+1601340 0 souper
 1601340 0 repas du soir
 1601350 0 10 000 ans (de régne pour l'empereur)
 1601350 0 félicitation
@@ -38524,8 +38535,11 @@
 1609040 0 être digne
 1609040 0 mériter
 1609040 0 valoir
-1609050 0 réunion
 1609050 0 rassemblement
+1609050 0 réunion
+1609050 0 assemblée
+1609050 0 collection
+1609050 0 fréquentation
 1609060 0 appel
 1609070 0 douceur
 1609070 0 goût sucré
@@ -38755,6 +38769,20 @@
 1610160 0 affronter
 1610160 0 faire face à
 1610160 0 opposer
+1610160 1 être dirigé vers (l'avenir, etc.)
+1610160 1 être en réponse à
+1610160 1 être lié à
+1610160 2 recevoir (un client, etc.)
+1610160 3 comparer avec
+1610160 3 différer de
+1610160 3 contraster avec
+1610160 3 être en opposition avec
+1610160 3 être opposé à
+1610160 4 faire face à
+1610160 4 affronter
+1610160 4 s'opposer
+1610160 4 concurrencer
+1610160 4 rivaliser avec
 1610170 0 orange (couleur)
 1610180 0 décadent
 1610180 0 dégénéré
@@ -39357,8 +39385,7 @@
 1628530 1 cette personne (hab. indiquant quelqu'un dans l'un des groupes)
 1628530 2 maintenant
 1628530 3 ici
-1628530 4 je
-1628530 4 moi
+1628530 4 je (moi)
 1628530 5 certainement
 1629200 0 roi
 1629200 0 souverain
@@ -39508,7 +39535,7 @@
 1982860 1 temps
 1982860 1 règne
 1982860 2 ère
-1982860 3 (après le nom ou le titre de quelqu'un) un représentant de
+1982860 3 un représentant de
 1982860 3 au nom de
 1982860 3 pour (quelqu'un)
 1982860 4 utilisé après un numéro de téléphone pour indiquer un numéro de central téléphonique
@@ -39532,7 +39559,7 @@
 2013900 0 écarlate
 2013900 1 couleur contenant du rouge (ex. brun, rose, orange)
 2013900 2 Rouge (communiste)
-2013900 3 rouge (feu de signalisation)
+2013900 3 feu rouge
 2013900 4 à l'encre rouge (en comptabilité, etc.)
 2013900 4 rouge (dans le )
 2013900 5 complet
@@ -39598,7 +39625,7 @@
 2028940 4 l'autre
 2028960 0 des choses telles que (liste non exhaustive liée à un moment et un lieu précis)
 2028960 0 et... et
-2028960 1 (après la forme du dictionnaire d'un verbe) à la minute (où)...
+2028960 1 à la minute (où)...
 2028960 1 à peine...
 2028960 1 aussitôt que
 2028960 2 ponctuation d'exclamation dans le haïku, le renga, etc.
@@ -39771,7 +39798,7 @@
 2217040 0 voir
 2217040 0 regarder
 2217040 0 observer
-2217040 1 (après la forme en -te d'un verbe) essayer de
+2217040 1 essayer de
 2220280 0 -ien (utilisé après un nom indique le métier de quelqu'un, ses activités, ses inclinations, etc.)
 2220280 0 -ier
 2220600 0 bain
