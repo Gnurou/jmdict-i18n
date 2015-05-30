@@ -3555,9 +3555,11 @@
 1164000 0 durant tout une vie
 1164000 0 pendant toute ma vie
 1164000 0 une vie (durée)
+1164010 0 très dur
+1164010 0 très fort
 1164010 0 de tous ses efforts
 1164010 0 de toutes ses forces
-1164010 0 très fort
+1164010 0 comme si sa vie en dépendait
 1164040 0 immédiatement
 1164040 0 simultanément
 1164050 0 en même temps
@@ -3715,10 +3717,9 @@
 1166510 2 mais en même temps
 1166510 2 en attendant
 1166510 2 à son tour
-1166510 3 (après un nom, le radical d'un adjectif ou un verbe simple) ne cesser de
+1166510 3 ne cesser de
 1166510 3 être enclin à...
-1166510 3 avoir tendance à être...
-1166510 3 avoir tendance à faire...
+1166510 3 avoir tendance à (être ou faire)...
 1166510 3 continuellement...
 1166510 3 en permanence...
 1166510 3 ne faire que...
@@ -4534,8 +4535,8 @@
 1180740 0 grand champion (titre le plus élevé du sumo)
 1180840 0 usurper
 1180850 0 écrire horizontalement
-1180860 0 croiser (p.e. les bras)
-1180860 0 traverser
+1180860 0 traverser (par ex. une route)
+1180860 0 franchir
 1180900 0 croisement
 1180900 0 passage
 1180900 0 traversée
@@ -5000,8 +5001,9 @@
 1190560 0 addition
 1190580 0 affiliation
 1190580 0 participation
+1190710 0 passable
 1190710 0 acceptable
-1190710 0 correct
+1190710 0 tolérable
 1190730 0 être affectueux avec
 1190730 0 aimer
 1190730 0 gâter
@@ -5543,7 +5545,8 @@
 1199350 2 entourer
 1199350 2 encercler
 1199350 3 utiliser quelque chose à une nouvelle fin (par ex. des restes)
-1199350 4 (après un radical verbal) ... autour
+1199350 4 ... aux alentours (par ex. chercher quelqu'un aux alentours)
+1199350 4 ... dans les environs
 1199350 5 composer (par ex. un numéro de téléphone)
 1199350 6 investir
 1199350 7 violer en réunion
@@ -6610,7 +6613,7 @@
 1212200 0 être malade
 1212200 0 se tourmenter
 1212200 0 souffrir de
-1212210 0 un patient
+1212210 0 (un) patient
 1212240 0 partie atteinte (maladie)
 1212250 0 feeling
 1212250 0 impression
@@ -7226,6 +7229,8 @@
 1219490 0 drôle
 1219490 0 singulier
 1219510 0 content
+1219510 0 heureux
+1219510 0 agréable
 1219560 0 approcher
 1219560 0 envoyer (?)
 1219560 0 mettre de côté
@@ -7403,6 +7408,7 @@
 1221500 0 le chemin du retour
 1221520 0 esprit
 1221520 0 humeur
+1221520 0 cœur
 1221520 1 nature
 1221520 1 disposition, tempérament
 1221520 2 motivation
@@ -10775,6 +10781,7 @@
 1263650 0 en ce moment
 1263650 0 maintenant
 1263710 0 réalité
+1263710 0 fait indéniable
 1263740 0 adresse (actuelle)
 1263750 0 phénomène
 1263760 0 scène
@@ -15831,7 +15838,7 @@
 1331840 0 oblast
 1331840 0 département (de la Chine ancienne)
 1331840 1 continent
-1331840 2 (après le nom de quelqu'un) cher
+1331840 2 cher (par ex. cher ami)
 1331850 0 banc de sable
 1331890 0 bien se conduire
 1331890 0 se contrôler
@@ -16749,7 +16756,7 @@
 1344120 0 librairie
 1344130 0 calligraphie
 1344140 0 critique littéraire d'un livre
-1344150 0 livre
+1344150 0 livres
 1344170 0 nom de plume
 1344170 0 pseudonyme
 1344200 0 acte
@@ -17240,6 +17247,7 @@
 1351250 1 se prétendre
 1351260 0 titre (noblesse, doctorat, ...)
 1351270 0 chapitre
+1351270 0 section
 1351270 1 médaille
 1351280 0 rire
 1351280 0 éclat de rire
@@ -17479,8 +17487,8 @@
 1352320 11 obtenir
 1352320 12 louer (faire l'éloge)
 1352320 12 vanter
-1352320 13 énumérer
-1352320 13 donner (un exemple)
+1352320 13 donner (un exemple, etc.)
+1352320 13 citer
 1352320 14 rassembler (toute son énergie, etc.)
 1352320 15 arrêter (quelqu'un)
 1352320 16 nommer
@@ -17623,22 +17631,33 @@
 1355000 0 en retard (sur son époque)
 1355000 0 manquer
 1355000 0 rater (bus, train, etc.)
+1355120 0 monter dans (un train, un avion, un bus, un bateau, etc.)
+1355120 0 entrer dans
+1355120 0 monter à bord
+1355120 0 prendre
 1355120 0 embarquer
-1355120 0 monter
-1355120 0 prendre (train)
-1355120 1 rejoindre
-1355120 1 se joindre à
-1355120 2 être joint à
-1355120 3 être imprimé (dans le journal)
-1355120 3 être mentionné
-1355120 3 être noté, conservé
-1355120 3 paraître (dans le journal)
+1355120 1 monter sur (par ex. un tabouret)
+1355120 1 marcher sur
+1355120 1 sauter sur
+1355120 1 s'asseoir sur
+1355120 1 grimper
+1355120 2 atteindre
+1355120 2 franchir
+1355120 2 passer
+1355120 2 surmonter
+1355120 3 suivre
+1355120 3 rester (sur la piste)
+1355120 3 aller de pair avec
+1355120 3 vivre avec (son temps, etc.)
 1355120 4 prendre part à
 1355120 4 participer
-1355120 4 rejoindre (un groupe)
-1355120 5 entrer dans (la danse, le complot, etc.)
+1355120 4 joindre
+1355120 4 rejoindre
+1355120 5 entrer dans (la danse, etc.)
+1355120 5 se mettre dans l'ambiance
+1355120 5 se mettre dans le bain
 1355120 6 être trompé
-1355120 6 être pris par
+1355120 6 se laisser prendre à
 1355120 7 être emporté
 1355120 7 être répandu
 1355120 7 être dispersé
@@ -17646,6 +17665,7 @@
 1355120 8 attacher
 1355120 8 prendre
 1355120 8 continuer
+1355120 8 poursuivre
 1355270 0 monter (en voiture, en train...)
 1355290 0 billet bus
 1355290 0 ticket
@@ -18500,6 +18520,10 @@
 1364380 0 minuit
 1364400 0 vérité
 1364440 0 dieu
+1364440 0 déité
+1364440 0 divinité
+1364440 0 esprit
+1364440 0 kami
 1364440 1 incroyable
 1364440 1 fantastique
 1364440 2 empereur du Japon
@@ -18915,7 +18939,7 @@
 1370320 1 scène
 1370380 0 figure
 1370390 0 illustrer
-1370410 0 livre
+1370410 0 livres
 1370420 0 bibliothèque
 1370440 0 bibliothèque
 1370490 0 diagramme
@@ -19144,6 +19168,7 @@
 1372870 0 adulation
 1372870 0 culte
 1372900 0 compter
+1372900 0 énumérer
 1372960 0 des millions d'années
 1372980 0 arithmétique
 1372980 0 mathématique
@@ -19219,6 +19244,7 @@
 1373970 0 le monde
 1373970 0 les gens
 1373990 0 siècle
+1373990 0 ère
 1374060 0 compliment
 1374060 0 flatterie
 1374080 0 hérédité
@@ -24170,7 +24196,7 @@
 1432900 11 s'étendre sur l'ensemble...
 1432900 12 faire du début à la fin sans pause
 1432900 13 transmettre (ses idées, etc.) à l'autre partie
-1432900 14 (après la forme en -te d'un verbe) faire jusqu'à la fin
+1432900 14 faire jusqu'à la fin
 1432900 14 mener à bien
 1432900 14 compléter
 1432900 2 construire un chemin entre deux points
@@ -25953,9 +25979,8 @@
 1454490 0 bénéfice
 1454490 0 gain
 1454490 0 profit
-1454500 0 aquérir
-1454500 0 gagner
-1454500 0 obtenir
+1454500 0 être capable de...
+1454500 0 pouvoir...
 1454500 1 obtenir
 1454500 1 acquérir
 1454500 1 se procurer
@@ -27950,6 +27975,7 @@
 1483500 0 présentation!
 1483500 0 réception (mariage)
 1483540 0 comparer
+1483540 0 faire une comparaison
 1483540 1 concurrencer
 1483540 1 rivaliser
 1483560 0 comparaison
@@ -28060,7 +28086,7 @@
 1484330 2 recevoir (un blâme)
 1484330 2 assumer (une responsabilité)
 1484330 2 mettre sur les épaules
-1484330 3 se superposer (ex. son ou couleur)
+1484330 3 se superposer (par ex. des sons ou couleurs)
 1484330 4 être similaire
 1484330 4 être redondant
 1484330 5 être voilé (à cause d'une surexposition, etc.)
@@ -29255,10 +29281,12 @@
 1500070 0 raffinement
 1500080 0 énergie éolienne
 1500090 0 carillon à vent (clochettes suspendues à l'entrée d'une maison)
-1500100 0 bain (style japonais)
+1500100 0 bain
+1500100 0 baignoire
 1500100 1 salle de bain
+1500100 1 bains publics
 1500100 2 local pour sécher des objets fraîchement laqué
-1500100 3 pièce de bois intermédiaire, assurant la liaison entre le manche et la lame de certains outils de conception particulière, encore disponibles au Japon mais difficiles à trouver en France, tels que houe, bêche etc.
+1500100 3 base (joint en bois reliant la lame d'une houe, bêche, etc., à la poignée)
 1500110 0 bains publics
 1500140 0 salle de bains
 1500150 0 carré de tissus noué par les coins (porte affaire de toilettes, cadeau pour une visite, bentou, etc...)
@@ -29312,8 +29340,8 @@
 1500920 0 grand
 1500920 0 large
 1500920 0 vaste
-1500940 0 vêtement
-1500940 1 compteur pour doses de médicaments, gorgées de thé, bouffée de cigarette, etc.
+1500940 0 vêtements (en part. occidentaux) 
+1500940 1 compteur pour doses de médicaments, gorgées de thé, bouffées de cigarette, etc.
 1500950 0 obéissance
 1500950 0 soumission
 1500960 0 mode et accessoires
@@ -29531,6 +29559,17 @@
 1503000 0 diviser
 1503000 0 partager
 1503000 0 séparer
+1503000 1 partager
+1503000 1 distribuer
+1503000 2 distinguer
+1503000 2 discriminer
+1503000 2 différencier (entre)
+1503000 3 mettre fin à (un combat)
+1503000 3 s'interposer
+1503000 3 négocier
+1503000 3 servir de médiateur
+1503000 4 faire match nul
+1503000 5 se frayer un chemin à travers (la foule)
 1503000 6 vendre
 1503210 0 analyse
 1503210 0 décomposition
@@ -31896,7 +31935,7 @@
 1533720 3 modèle
 1533720 3 motif
 1533720 3 exemple
-1533720 4 (après un nom) indique que ce nom semble probable (par ex. pluie ou tempête)
+1533720 4 indique que ce nom semble probable (par ex. pluie ou tempête)
 1533740 0 être luxuriant
 1533740 0 pousser ave luxuriance
 1533740 0 pousser dru
@@ -32129,7 +32168,7 @@
 1537060 0 incontinence nocturne
 1537150 0 aube
 1537150 0 aurore
-1537250 0 campagne
+1537250 0 plaine
 1537250 0 champ
 1537250 1 élément (structurel) caché
 1537250 2 sauvage
@@ -32305,8 +32344,11 @@
 1538870 0 import
 1538870 0 introduction
 1538870 1 afférent
-1538900 0 gratuit
-1538900 0 seulement
+1538900 0 ordinaire
+1538900 0 courant
+1538900 0 commun
+1538900 0 habituel
+1538900 0 usuel
 1538900 1 gratuit
 1538900 1 gratis
 1538900 2 non affecté
@@ -32667,6 +32709,8 @@
 1544970 0 prendre en charge
 1544990 0 confier à la garde
 1544990 0 laisser en dépôt
+1544990 1 s'appuyer sur
+1544990 1 mettre son poids sur
 1545020 0 compte en banque
 1545020 0 dépôt
 1545110 0 puéril
@@ -32742,8 +32786,9 @@
 1545790 2 situation
 1545790 2 apparence
 1545820 0 état
-1545820 0 apparence
-1545820 0 aspect
+1545820 0 état des choses
+1545820 0 situation
+1545820 0 circonstances
 1545820 1 apparence
 1545820 1 allure
 1545820 1 aspect
@@ -33190,6 +33235,7 @@
 1549980 0 directeur
 1550010 0 la raison
 1550020 0 idéal
+1550020 0 idéaux
 1550040 0 idéal
 1550060 0 doctrine
 1550060 0 idée
@@ -33416,6 +33462,21 @@
 1552140 0 ruisseler
 1552140 1 être emporté
 1552140 1 être transporté
+1552140 2 dériver
+1552140 2 flotter (par ex. les nuages)
+1552140 2 errer
+1552140 3 balayer (par ex. une rumeur, le feu)
+1552140 3 se répandre
+1552140 3 circuler
+1552140 4 être entendu (par ex. de la musique)
+1552140 4 être joué
+1552140 5 sombrer (dans l'indolence, le désespoir)
+1552140 6 passer (temps)
+1552140 6 s'écouler
+1552140 7 être suspendu (match, projet)
+1552140 7 être annulé
+1552140 8 disparaître
+1552140 8 être enlevé
 1552200 0 étoile filante
 1552200 0 météore
 1552230 0 bassin fluvial
@@ -34208,17 +34269,20 @@
 1565120 0 murmurer
 1565180 0 immédiatement
 1565180 0 tout de suite
-1565300 0 fredonner
 1565300 0 gémir
 1565300 0 geindre
 1565300 0 grogner
-1565300 0 gronder
-1565300 0 hurler
-1565300 0 mugir
-1565300 0 murmurer (vent)
-1565300 0 ronfler
-1565300 0 rugir
-1565300 0 vrombir
+1565300 1 rugir
+1565300 1 hurler
+1565300 1 mugir
+1565300 2 vrombir (par ex. pour un moteur)
+1565300 2 murmurer (par ex. pour des cordes dans le vent)
+1565300 2 fredonner
+1565300 2 bruire
+1565300 2 bourdonner
+1565300 2 bruit faible et sourd
+1565300 3 pousser des ho ! et des ha ! (d'admiration)
+1565300 4 chanter dans une voix forte et grave (en part. un chant traditionnel ou une récitation)
 1565440 0 Ah ! 
 1565440 0 Oh ! 
 1565440 0 Hélas !
@@ -35864,10 +35928,21 @@
 1588750 0 col
 1588750 0 cou
 1588750 0 revers
-1588760 0 acquérir
-1588760 0 gagner
 1588760 0 obtenir
-1588760 3 (après un radical verbal) être capable de..., pouvoir...
+1588760 0 recevoir
+1588760 0 recueillir
+1588760 0 gagner
+1588760 0 acquérir
+1588760 0 se procurer
+1588760 0 atteindre
+1588760 0 sécuriser
+1588760 0 remporter
+1588760 1 comprendre
+1588760 1 appréhender
+1588760 1 saisir (par ex. un concept)
+1588760 2 recevoir quelque chose d'indésirable (par ex. une punition)
+1588760 2 tomber (malade)
+1588760 3 être capable de..., pouvoir...
 1588790 0 protection
 1588790 0 secours
 1588790 0 soutien
@@ -36912,6 +36987,11 @@
 1596960 0 affronter
 1596960 0 combattre
 1596960 0 se battre
+1596960 1 concurrencer
+1596960 1 rivaliser (avec)
+1596960 2 lutter (contre les adversités, etc.)
+1596960 2 combattre
+1596960 2 résister
 1596980 0 (sous) condition
 1596980 0 (sous) réserve
 1597010 0 défense d'entrer
@@ -38393,12 +38473,10 @@
 1606560 1 être découvert
 1606560 1 être réalisé (compris)
 1606560 1 être trouvé
-1606590 0 être partagé
-1606590 0 diverger
-1606590 0 s'éparpiller
-1606590 0 se diviser
-1606590 0 se séparer de
-1606590 0 se séparer en
+1606590 0 être divisé
+1606590 0 quitter
+1606590 0 se séparer (surtout pour les personnes)
+1606590 0 faire ses adieux
 1606600 0 être partagé
 1606600 0 diverger
 1606600 0 s'éparpiller
@@ -38852,6 +38930,13 @@
 1610430 0 enfin
 1610430 0 farce
 1610430 0 final
+1610430 3 rétrécissement
+1610430 4 fin
+1610430 4 conclusion
+1610430 5 impasse
+1610430 5 coin
+1610430 6 détresse
+1610430 6 être à bout de souffle
 1610440 0 saison des pluies
 1610460 0 amener quelqu'un
 1610470 0 adroitment
@@ -39232,6 +39317,11 @@
 1612600 0 prénom
 1612620 0 çà et là
 1612620 0 ici et là
+1612620 0 tout autour
+1612620 0 partout
+1612620 0 tout au long de
+1612620 1 avoir des choses dans le désordre (de l'arrière vers l'avant)
+1612620 1 devenir embrouillé
 1612630 0 pas nécessairement
 1612640 0 excuse-moi
 1612640 0 excusez-moi
@@ -39506,6 +39596,13 @@
 1948700 0 congélateur
 1948700 0 freezer
 1949190 0 autre (en part. les gens et les questions abstraites)
+1955900 0 -ologie
+1955900 0 -ique
+1955900 0 étude de...
+1955900 1 apprentissage
+1955900 1 érudition
+1955900 1 savoir
+1955900 1 connaissance
 1955950 0 volume (d'un livre)
 1955950 0 bobine (de cinéma)
 1955970 0 sentiment
@@ -39518,6 +39615,20 @@
 1956280 0 l'extrême
 1956400 0 collection
 1956400 0 compilation
+1956960 0 rien
+1956960 0 néant
+1956960 0 nul
+1956960 0 zéro
+1956960 1 in-
+1956960 1 im-
+1956960 1 il-
+1956960 1 ir-
+1956960 1 dé-
+1956960 1 dés-
+1956960 1 a-
+1956960 1 non-
+1956960 1 mal-
+1956960 1 mé-
 1957110 1 théorie
 1957110 1 doctrine
 1957110 2 essai
@@ -39872,6 +39983,9 @@
 2643970 3 aussi
 2643970 3 également
 2643970 3 en outre
+2643970 4 on dit que
+2643970 4 d'après ce que j'entends
+2643970 4 vous voulez dire
 2649690 1 être imprimé (dans le journal)
 2649690 1 être mentionné
 2649690 1 être noté, conservé
