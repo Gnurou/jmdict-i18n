@@ -412,6 +412,7 @@
 1003700 0 froissé
 1003700 0 sombre (humeur)
 1003710 0 éternuement
+1003710 1 énoncé deux fois en réponse à quelqu'un qui éternue comme un charme contre une mort prématurée
 1003730 0 chatouilleux
 1003730 1 embarassant
 1003730 1 gênant
@@ -562,6 +563,7 @@
 1005190 0 immédiatement
 1005190 0 rapidement
 1005190 0 sans délai
+1005190 1 indifféremment
 1005200 0 soudainement
 1005200 1 tout à coup
 1005200 1 soudainement (surtout utilisé dans le cas de la pluie, du vent etc...)
@@ -662,9 +664,12 @@
 1006110 0 tout
 1006110 0 complètement
 1006110 0 entièrement
-1006120 0 bien fait
-1006120 0 clair
-1006120 0 ordonné
+1006120 0 se sentir rafraîchi
+1006120 0 se sentir bien
+1006120 0 se sentir lucide
+1006120 1 bien fait
+1006120 1 soigneusement
+1006120 1 de manière raffinée
 1006120 2 proprement
 1006120 2 sans histoire
 1006120 3 clairement
@@ -1008,10 +1013,16 @@
 1008910 0 comment
 1008910 0 de quelle manière
 1008910 0 que diriez vous...
-1008950 0 après tout
-1008950 0 au mieux
 1008950 0 de toute façon
 1008950 0 de toute manière
+1008950 0 dans tous les cas
+1008950 0 à tout prix
+1008950 0 après tout
+1008950 0 du tout
+1008950 0 quel que soit
+1008950 0 peu importe
+1008950 1 au mieux
+1008950 1 au plus
 1008960 0 enchanté de vous rencontrer
 1008990 0 d'une façon ou d'une autre
 1009000 0 merci
@@ -1113,6 +1124,11 @@
 1010080 3 comment ?
 1010080 4 hue (cheval)
 1010080 4 au galop
+1010090 0 vivement
+1010090 0 intelligemment
+1010090 0 rapidement
+1010090 0 clairement
+1010090 0 avec lucidité
 1010150 0 clairement
 1010150 0 nettement
 1010150 0 distinctement
@@ -1226,7 +1242,8 @@
 1011200 1 boutons
 1011200 1 éruption cutanée
 1011200 1 acné
-1011200 2 coupant en petits morceaux
+1011200 2 couper en petits morceaux
+1011200 3 frémissement
 1011230 0 flâner
 1011230 0 oscillement
 1011230 0 paresseusement
@@ -1611,13 +1628,16 @@
 1020030 0 anthologie, florilège
 1020200 0 soulignement
 1020410 0 antenne
-1020410 1 personne qui rassemble des informations ou des opinions
+1020410 1 dispositif ou méthode qui rassemble des informations ou des opinions
 1021220 0 égale
 1021220 1 le signe égale (=)
 1021220 2 égale (A = B)
 1021500 0 idéologie
 1021750 0 image (de quelqu'un)
-1021750 1 image (d'ordinateur)
+1021750 1 image (numérique)
+1021750 2 image mentale
+1021750 2 impression
+1021750 2 vue d'artiste
 1021910 0 boucle d'oreille
 1022210 0 encre
 1022550 0 instantané
@@ -1688,7 +1708,7 @@
 1036450 0 œillet
 1036560 0 virage
 1036560 0 tournant
-1036560 1 balle courbe (baseball)
+1036560 1 balle courbe
 1036560 2 cave à vin
 1036580 0 tapis
 1037130 0 froissement
@@ -1704,7 +1724,12 @@
 1037840 0 catholique
 1037960 0 couverture (d'un livre)
 1037960 0 couverture, traitement (d'une information)
+1037960 1 compenser (une perte)
+1037960 1 couvrir (une faiblesse)
+1037960 1 contrebalancer
 1037960 2 kava, kava-kava (Piper methysticum)
+1037960 3 cava
+1037960 3 vin mousseux espagnol
 1038350 0 appareil photo
 1038390 0 photographe
 1038500 0 col
@@ -1744,6 +1769,8 @@
 1040260 0 station essence
 1040260 0 station-service
 1040350 0 chewing gum
+1040350 1 gomme
+1040350 1 caoutchouc
 1040380 0 verre
 1040380 0 vitre
 1040380 1 vitreux
@@ -1937,6 +1964,7 @@
 1062760 0 magasinage (Can.)
 1062760 0 shopping
 1062820 0 boutique
+1062820 0 magasin
 1062910 0 séries
 1063530 0 individuel
 1063530 0 pour une personne (chambre, lit)
@@ -2049,9 +2077,8 @@
 1073760 0 diapositive
 1073760 1 varier (en valeur ou en situation)
 1073760 1 variation proportionnelle
-1073760 2 coulissant (porte)
-1073760 2 (~ する) glisser
-1073760 2 (~ する) coulisser
+1073760 2 glisser
+1073760 2 coulisser
 1073900 0 pantoufle
 1073900 0 pantoufles
 1073910 0 combinaison
@@ -2075,7 +2102,6 @@
 1075000 0 bon goût (musique, art, tact,etc...)
 1075000 0 sens
 1075040 0 centre
-1075060 0 centi-
 1075060 0 centimètre
 1075060 1 centi-
 1075060 1 10^-2
@@ -2122,13 +2148,14 @@
 1076490 0 tanker
 1076650 0 douzaine
 1076680 0 diagramme
+1076680 0 schéma
 1076790 0 dynamite
 1076860 0 diamant
 1076860 1 horaires (de train)
 1076860 2 diagramme
 1076860 3 teinturier
 1076890 0 diamant
-1076900 0 cadran (composer)
+1076900 0 cadran
 1076980 0 (mettre) à terre
 1076980 0 down
 1077100 4 faire une double faute (au tennis)
@@ -2230,6 +2257,7 @@
 1085920 0 ennuis (parfois utilisé comme verbe)
 1085920 0 troubles
 1086410 0 cartes à jouer
+1087100 0 formation
 1087100 0 entraînement
 1087630 0 tunnel
 1087630 1 erreur de l'équipe défensive
@@ -2240,6 +2268,7 @@
 1088120 0 document
 1088140 0 docteur
 1088320 0 point
+1088320 1 pois (par ex. maillot à pois)
 1088320 2 pixel (point sur un moniteur)
 1088450 0 sec
 1088580 0 conduire
@@ -2263,7 +2292,8 @@
 1089890 0 couteau
 1089930 0 nylon
 1090860 0 numéro
-1091130 0 sourire
+1091130 0 avec un sourire amical
+1091130 0 souriant
 1091500 0 informations
 1091500 0 journal (TV)
 1091500 0 nouvelles
@@ -2341,8 +2371,11 @@
 1098760 0 dos crawlé (natation)
 1098760 0 revers (tennis)
 1098760 0 soutien (protection, appui)
-1098760 1 (~する) revenir en arrière 
-1098760 2 (suivi de する) rembourser un client
+1098760 1 revenir en arrière
+1098760 1 inverser
+1098760 1 renverser
+1098760 2 rembourser un client
+1098760 3 levrette (position sexuelle)
 1099100 0 sac
 1099110 0 badge
 1099110 0 emblème
@@ -2475,6 +2508,10 @@
 1110110 1 folk
 1110110 2 faucon
 1111160 0 poêle à frire
+1111640 0 gratuit
+1111640 0 libre
+1111640 1 free-lance
+1111640 1 pigiste
 1112040 0 fruit
 1112990 0 façade
 1112990 0 front (météo)
@@ -2619,6 +2656,7 @@
 1129240 1 tenancière
 1129260 0 mayonnaise
 1129290 0 marathon
+1129290 1 malathion
 1130040 0 hôtel particulier
 1130040 0 immeuble résidentiel (de standing, par opposition a apa-to)
 1130270 0 regard d'égout
@@ -2640,6 +2678,7 @@
 1131240 0 mini
 1131680 0 musique
 1131830 0 milli-
+1131830 0 10^-3
 1131830 1 millimètre
 1131930 0 millimètre
 1131990 0 lait
@@ -2648,10 +2687,9 @@
 1132420 0 fabricant
 1132440 0 prix d'éditeur
 1132440 0 prix public conseillé
-1132530 0 compteur
+1132530 0 compteur (c.-à-d. appareil de mesure)
 1132530 0 taximètre
-1132530 1 mètre (unité)
-1132530 1 compteur (d'électricité, etc.)
+1132530 1 mètre (c.-à-d. 100 cm)
 1132570 0 mètre
 1132570 1 compteur
 1132570 1 jauge
@@ -2659,6 +2697,7 @@
 1133570 0 message
 1133620 0 médias
 1133790 0 menu
+1133790 2 menu (d'un logiciel)
 1133830 0 mémo
 1133830 0 note
 1133830 0 mémorandum
@@ -2687,9 +2726,10 @@
 1139180 0 barge (LASH: Lighter Aboard SHip)
 1139180 0 heure de pointe
 1139190 0 heure de pointe
-1140100 0 déjeuner (lunch)
-1140100 0 lancement
-1140100 1 déjeuner
+1140100 0 repas de midi
+1140100 0 déjeuner (en France)
+1140100 0 diner (en Suisse, en Belgique et au Canada)
+1140100 1 lancement
 1140100 2 ranch
 1140270 0 course
 1140270 1 débardeur
@@ -2735,9 +2775,9 @@
 1147220 0 médaillon
 1147220 1 fusée
 1147560 0 consigne automatique
+1147560 0 casier
 1147560 0 vestiaire
-1147560 1 casier
-1147560 1 consigne
+1147560 1 rocker
 1147600 0 clé (lutte, catch)
 1147600 0 rock'n roll
 1147800 0 hall (hôtel)
@@ -2966,6 +3006,7 @@
 1153690 0 reposant
 1153690 0 tranquille
 1153720 0 facile
+1153720 0 simple
 1153770 0 euthanasie
 1153780 0 nonchalance
 1153780 0 oisiveté
@@ -3201,7 +3242,8 @@
 1156410 0 inattendu
 1156410 0 surprenant
 1156480 0 vaincre une difficulté
-1156520 0 moral
+1156520 0 sens
+1156520 0 signification
 1156530 0 avis
 1156530 0 opinion
 1156530 0 point de vue
@@ -3441,7 +3483,7 @@
 1160110 0 produit pharmaceutique
 1160140 0 soins médicaux
 1160140 0 traitement médical
-1160330 0 puits
+1160330 0 puits à eau
 1160460 0 puits
 1160520 0 éducation
 1160520 0 croissance
@@ -4662,8 +4704,10 @@
 1183390 0 serre
 1183410 0 couche de fumier (utilisée pour faire pousser une plante)
 1183410 0 foyer
-1183450 0 onsen
+1183450 0 spa
+1183450 0 station thermale
 1183450 0 source chaude
+1183450 0 onsen
 1183470 0 zone tempérée
 1183480 0 chaud
 1183480 0 doux
@@ -10540,6 +10584,9 @@
 1260070 0 point de vue
 1260090 0 être fatigué de regarder
 1260100 0 échantillon
+1260100 0 spécimen
+1260100 1 modèle
+1260100 1 exemple
 1260140 0 laisser échapper
 1260140 0 ne pas remarquer
 1260190 0 humilité
@@ -10576,6 +10623,9 @@
 1260530 0 aiguisé (regard, parole)
 1260530 0 périlleux
 1260530 0 très pentu (endroit)
+1260530 1 sombre
+1260530 1 sinistre
+1260530 1 sévère
 1260550 0 rue en pente
 1260560 0 dangereux
 1260560 0 menaçant(temps)
@@ -10890,7 +10940,15 @@
 1264960 0 idiosyncrasie
 1264960 0 individualité
 1264960 0 personnalité
-1264980 0 un individu
+1264980 0 individu
+1264980 0 spécimen
+1265060 0 article usagé
+1265060 0 article d'occasion
+1265060 0 article de seconde main
+1265060 1 vieux
+1265060 1 ancien
+1265060 1 usagé
+1265060 1 précédent
 1265070 0 vieux (sauf pour les personnes)
 1265070 0 âgé
 1265070 0 ancien
@@ -11028,8 +11086,9 @@
 1267320 0 rive d'un lac
 1267330 0 surface d'un lac
 1267340 0 renard
-1267400 0 amidon
 1267400 0 pâte
+1267400 0 colle
+1267400 1 amidon
 1267440 0 vêtement formel en forme de jupe pour homme
 1267460 0 aine
 1267460 0 entrejambe
@@ -11624,8 +11683,9 @@
 1277080 1 (se) tourner vers
 1277080 2 être adapté à
 1277080 2 convenir à
-1277090 0 à l'intention de ~
-1277090 0 orienté vers ~
+1277090 0 à l'intention de...
+1277090 0 orienté vers...
+1277090 0 pointé vers...
 1277100 0 (se) tourner vers
 1277140 0 l'autre partie
 1277140 0 le côté opposé
@@ -11864,6 +11924,8 @@
 1279640 0 corrigé
 1279640 0 en dernière lecture
 1279640 0 relu
+1279670 0 pas de problème
+1279670 0 peu importe
 1279680 0 être concerné
 1279680 0 s'intéresser
 1279680 1 prendre soin de
@@ -30717,7 +30779,7 @@
 1519510 0 augmentation brusque
 1519510 0 boom
 1519510 0 croissance soudaine
-1519520 0 éleute
+1519520 0 émeute
 1519520 0 insurrection
 1519520 0 révolte
 1519520 0 sédition
