@@ -1236,6 +1236,10 @@
 1011180 2 rentrer en conflit
 1011190 0 clouer
 1011190 0 fixer avec des clous
+1011190 1 frapper
+1011190 1 se cogner (la tête)
+1011190 2 jeter (par ex. une pierre)
+1011190 2 lancer
 1011200 0 grognement
 1011200 0 grommelement
 1011200 0 plainte à voix basse
@@ -1269,9 +1273,10 @@
 1011580 0 fluent
 1011580 0 maîtrise
 1011710 0 regarde!
+1011740 0 à peine
+1011740 0 seulement
 1011740 0 juste
-1011740 0 que
-1011740 0 seul
+1011740 0 même pas (avec un verbe négatif)
 1011770 0 affaiblissement
 1011770 0 idiot
 1011770 0 imbécile
@@ -1847,7 +1852,17 @@
 1047880 1 génie logiciel assisté par ordinateur
 1047880 1 CASE
 1048400 0 jeu
+1048830 0 chemin
+1048830 0 parcours
+1048830 0 piste
+1048830 0 itinéraire
 1048830 0 course
+1048830 0 cours (par ex. universitaire)
+1048830 0 cycle d'études
+1048830 0 option
+1048830 0 direction
+1048830 1 repas complet (plusieurs plats servis à la suite)
+1048830 1 repas à prix fixe
 1048910 0 coach
 1048910 0 entraineur
 1048910 0 moniteur
@@ -2079,6 +2094,8 @@
 1073760 1 variation proportionnelle
 1073760 2 glisser
 1073760 2 coulisser
+1073760 3 changer (de valeur, par ex. avec une échelle mobile)
+1073760 3 changer (de situation)
 1073900 0 pantoufle
 1073900 0 pantoufles
 1073910 0 combinaison
@@ -2158,10 +2175,14 @@
 1076900 0 cadran
 1076980 0 (mettre) à terre
 1076980 0 down
+1077100 0 être dupliqué
+1077100 0 être répété
 1077100 4 faire une double faute (au tennis)
 1077110 0 double
 1077110 1 lit double
 1077110 1 chambre d'hôtel avec un lit double
+1077110 2 croisé (par ex. pour un costume)
+1077110 5 double (par ex. en tennis)
 1077140 0 barrage
 1077140 1 stupide
 1077140 1 borné
@@ -2199,6 +2220,7 @@
 1078160 0 tulipe
 1078240 0 craie
 1078240 0 starter (étouffoir sur l'entrée d'air d'un moteur)
+1078240 1 starter (de moteur)
 1078270 0 chocolat
 1078630 0 table
 1078750 0 cassette (audio)
@@ -2529,6 +2551,7 @@
 1114300 0 bulldozer
 1114300 0 taureau
 1114640 0 frein
+1114910 0 broche
 1115150 0 piscine
 1115150 1 billard américain
 1115150 2 groupement
@@ -2549,8 +2572,11 @@
 1115820 0 quai (gare)
 1115900 0 plan
 1115900 0 projet
-1116300 0 imprimé
-1116300 0 polycopié
+1116300 0 impression
+1116300 0 copie
+1116300 1 tract
+1116300 1 prospectus
+1116300 1 flyer
 1116840 0 cadeau
 1116840 0 présent
 1116840 1 faire un cadeau
@@ -2561,6 +2587,7 @@
 1118090 0 état furieux ou coléreux
 1118090 0 odeur forte (pénétrante)
 1118780 0 hélicoptère
+1118820 0 enfer
 1119530 0 (son) mieux
 1119530 0 meilleur
 1119650 0 lit
@@ -2657,8 +2684,9 @@
 1129260 0 mayonnaise
 1129290 0 marathon
 1129290 1 malathion
-1130040 0 hôtel particulier
-1130040 0 immeuble résidentiel (de standing, par opposition a apa-to)
+1130040 0 copropriété (souvent dans un immeuble de moyenne ou de grande hauteur)
+1130040 0 immeuble résidentiel
+1130040 0 appartement
 1130270 0 regard d'égout
 1130380 0 réunion
 1130490 0 micro
@@ -2762,6 +2790,7 @@
 1145310 0 restaurant (en particulier de style occidental)
 1145910 0 niveau
 1145910 1 niveau
+1145910 4 rebelle
 1145990 0 compte-rendu
 1145990 0 rapport
 1146020 0 citron
@@ -11773,6 +11802,7 @@
 1278220 0 dessein
 1278220 0 moyen
 1278220 0 projet
+1278220 1 dévouement au développement spirituel (en part. par la méditation Zen)
 1278230 0 travailleur
 1278290 0 adresse
 1278290 0 aptitude
@@ -11810,6 +11840,8 @@
 1278450 0 répandre
 1278460 0 diffuser
 1278460 0 propager
+1278460 0 populariser
+1278460 0 disséminer
 1278510 0 publicité
 1278510 0 réclame
 1278550 0 affiche publicitaire
@@ -12118,6 +12150,7 @@
 1281690 0 colonne
 1281690 0 ligne
 1281690 1 verset
+1281690 3 écriture semi-cursive (style de calligraphie)
 1281720 0 destination (d'un voyage)
 1281720 1 environs
 1281720 1 voisinage
@@ -12156,8 +12189,10 @@
 1282180 0 destination
 1282190 0 manquant
 1282190 0 porté disparu
-1282220 0 ligne
-1282220 0 suite
+1282220 0 file
+1282220 0 queue
+1282220 0 procession
+1282220 0 parade
 1282220 1 matrice (maths)
 1282240 0 conférence
 1282240 0 discours
@@ -12283,7 +12318,6 @@
 1283810 0 haut et bas
 1283810 0 montée et descente
 1283830 0 altitude
-1283830 0 avancé
 1283830 0 hauteur
 1283840 0 développement avancé
 1283850 0 rang élevé
@@ -35702,7 +35736,6 @@
 1584930 2 trop
 1584930 2 trop-plein
 1584930 3 submergé par la joie
-1584930 4 plus que
 1584940 0 comportement en société
 1584940 0 sortie
 1584940 1 meilleurs vêtements
@@ -39629,7 +39662,6 @@
 1628150 0 requiem
 1628160 0 Japon et France
 1628160 0 franco-japonais
-1628170 0 Société nippo-germanique
 1628180 0 se décider
 1628190 0 canal
 1628200 0 être rafraîchi
