@@ -4094,9 +4094,12 @@
 1172610 0 chance
 1172610 0 destinée
 1172610 0 fortune
+1172660 0 porter
 1172660 0 déplacer
+1172660 0 bouger
 1172660 0 faire avancer
 1172660 0 transporter
+1172660 0 véhiculer
 1172660 1 venir
 1172660 1 aller
 1172660 2 manier (un outil, etc.)
@@ -5544,7 +5547,10 @@
 1198550 0 société
 1198550 1 lieu de travail
 1198600 0 signe de tête (salut)
-1198660 0 lieu ou se tient une réunion
+1198660 0 salle de réunion
+1198660 0 lieu de rencontre
+1198660 0 lieu d'un événement
+1198660 0 terrain
 1198670 0 diner (tous) ensemble
 1198680 0 plaisir éprouvé quand les choses avancent bien
 1198680 0 satisfaction (de ce qu'on a réalisé)
@@ -5557,8 +5563,6 @@
 1198770 0 président (d'une société)
 1198860 0 cotisation (de membre)
 1198880 0 conversation
-1198880 0 dialogue
-1198880 0 discussion
 1198890 0 dénouer
 1198890 0 délier
 1198890 0 desserrer
@@ -7413,8 +7417,13 @@
 1220430 0 prêt-à-porter
 1220430 0 vêtements de confection
 1220510 0 rapport précédent
-1220550 0 délai
+1220540 1 ère
+1220540 3 session (par ex. du parlement)
+1220540 4 stade (par ex. d'une maladie)
+1220550 0 periode
+1220550 0 durée
 1220550 0 terme
+1220550 0 intervalle
 1220560 0 échéance
 1220560 0 terme
 1220570 0 anticipation
@@ -7511,9 +7520,10 @@
 1221520 4 atmosphère
 1221520 4 essence
 1221740 0 agréer
-1221770 0 "c'est triste"
-1221770 0 "quelle pitié !"
 1221770 0 pitoyable
+1221770 0 malheureux
+1221770 0 triste
+1221770 0 (c'est) dommage
 1221810 0 égoïsme
 1221880 0 pression atmosphérique
 1221900 0 folie
@@ -7670,6 +7680,9 @@
 1223615 0 vous, toi (pour un interlocuteur de même statut ou inférieur)
 1223615 1 chéri (appellation d'un mari par sa femme)
 1223640 0 se lever
+1223640 0 augmenter
+1223640 0 monter
+1223640 0 flamber
 1223640 1 se réveiller
 1223640 1 être éveillé
 1223640 1 rester éveillé
@@ -7738,10 +7751,8 @@
 1224140 0 cavalier
 1224160 0 (aller) à cheval
 1224180 0 cavalerie
-1224190 0 chat (dans le jeu de chat perché)
-1224190 0 démon
-1224190 0 monstre
 1224190 0 ogre
+1224190 0 démon
 1224190 1 esprit d'une personne décédée
 1224190 2 personne ogresque (c.-à-d. féroce, implacable, impitoyable, etc.)
 1224190 3 loup (dans le jeu du loup)
@@ -7885,7 +7896,8 @@
 1226120 0 siège parlementaire
 1226130 0 ordre du jour
 1226130 0 sujet de la discussion
-1226140 0 président (d'une assemblée)
+1226140 0 président (par ex. du conseil, du sénat, etc.)
+1226140 0 modérateur (par ex. d'un groupe de discussion)
 1226160 0 débat
 1226160 0 dispute
 1226200 0 racler
@@ -8294,7 +8306,7 @@
 1231650 5 ... dernier (par ex. « avril dernier »)
 1231690 0 l'année dernière
 1231700 0 aller et venir
-1231720 0 salon
+1231720 0 salon (de style occidental)
 1231730 0 salon et chambre
 1231740 0 parasite
 1231740 0 squatteur
@@ -10423,8 +10435,9 @@
 1257840 0 inspection
 1257880 0 arrestation
 1257880 0 poursuite
+1257890 0 inspection (par ex. des douanes, d'une usine)
 1257890 0 examen
-1257890 0 inspection (ex. douane, usine)
+1257890 0 scanner (par ex. IRM, TEP, etc.)
 1257910 0 examen
 1257910 0 procureur
 1257930 0 procureur général
@@ -10670,8 +10683,9 @@
 1260670 0 source
 1260670 0 origine
 1260670 0 fondement
-1260670 1 ancien
-1260670 1 précédent
+1260670 1 base
+1260670 1 fondation
+1260670 1 racine
 1260670 2 cause
 1260670 3 ingrédient
 1260670 3 matière
@@ -11461,8 +11475,7 @@
 1272410 0 dépenses de voyage
 1272410 0 péage
 1272430 0 réseau de communication
-1272500 0 kiosque de police
-1272500 0 petit poste de police
+1272500 0 petite station de police de quartier
 1272500 1 alternance
 1272500 1 alternatif (par ex. courant)
 1272520 0 livrer
@@ -13895,7 +13908,6 @@
 1307210 0 membre
 1307250 0 arrondi au chiffre supérieur
 1307280 0 4,5 tatami (taille standard pour une pièce)
-1307320 0 le quatre (du mois)
 1307320 0 quatrième jour du mois
 1307320 1 quatre jours
 1307370 0 les 4 directions
@@ -14198,6 +14210,7 @@
 1310460 0 à succès
 1310460 1 délicieux
 1310460 1 appétissant
+1310460 1 savoureux
 1310460 2 chanceux
 1310460 2 splendide
 1310460 2 prometteur
@@ -17027,6 +17040,7 @@
 1346250 0 vainqueur
 1346290 0 unité de volume (1,8 litre)
 1346370 0 manger
+1346370 0 boire
 1346450 0 acheter
 1346450 0 appeler
 1346450 0 attraper (un rhume)
@@ -18238,7 +18252,9 @@
 1359620 0 crédit
 1359620 0 foi
 1359620 0 croyance
+1359730 0 dépendance
 1359730 0 confiance
+1359730 0 foi
 1359800 0 envahir
 1359800 0 franchir
 1359800 0 s'introduire
@@ -18365,6 +18381,8 @@
 1360970 0 dévotion
 1360990 0 axe
 1360990 0 essieu
+1361000 0 état d'esprit
+1361000 0 mentalité
 1361000 0 psychologie
 1361010 0 psychologie
 1361050 0 portrait psychologique
@@ -18636,7 +18654,6 @@
 1363780 0 réalité
 1363780 0 vérité
 1363810 0 perle
-1363910 0 Pearl Harbour
 1363970 0 sincérité
 1364110 0 fait réel
 1364110 0 vérité
@@ -19555,8 +19572,9 @@
 1375740 1 mûrir
 1375740 2 atteindre la majorité
 1375740 2 arriver à l'âge adulte
-1375760 0 performances
 1375760 0 résultats
+1375760 0 record
+1375760 0 notes
 1375770 0 carnet de notes
 1375790 0 croissance
 1375790 0 développement
@@ -19651,14 +19669,15 @@
 1376560 0 beau temps avec des nuages?
 1376590 0 officiel
 1376590 0 régulier
-1376600 0 juste
-1376600 0 vrai
-1376600 0 légal
+1376600 0 juste (par ex. pour un résultat)
 1376600 0 correct
-1376600 0 vertueux
-1376600 0 honnête
-1376600 0 véridique
-1376600 0 parfait
+1376600 1 correct
+1376600 1 vertueux
+1376600 1 juste
+1376600 1 honnête
+1376600 1 véridique
+1376600 1 licite
+1376600 1 légal
 1376630 0 corriger
 1376630 0 rectifier
 1376640 0 certainement
@@ -25516,7 +25535,6 @@
 1447560 0 Europe de l'Est
 1447690 0 Tokyo
 1447740 0 aire métropolitaine de Tokyo
-1447760 0 baie de Tokyo
 1447910 0 "votre attention s'il vous plaît"
 1447910 0 est et ouest
 1447910 0 orient et occident
@@ -35469,8 +35487,7 @@
 1582900 0 brûler
 1582920 0 ceci
 1582940 0 poste de police
-1582960 0 pluie (de la saison des pluies)
-1582960 0 saison des pluies
+1582960 0 saison des pluies (au Japon de début Juin à mi-Juillet)
 1582960 1 pluie durant la saison des pluies
 1582990 0 arracher
 1582990 0 décoller
@@ -35735,7 +35752,8 @@
 1584930 2 surplus
 1584930 2 trop
 1584930 2 trop-plein
-1584930 3 submergé par la joie
+1584930 3 plus que
+1584930 3 au delà de
 1584940 0 comportement en société
 1584940 0 sortie
 1584940 1 meilleurs vêtements
@@ -36554,6 +36572,7 @@
 1591810 0 tronquer
 1591900 0 beau
 1591900 0 joli
+1591900 0 charmant
 1591900 1 propre
 1591900 1 clair
 1591900 1 pur
@@ -38570,7 +38589,6 @@
 1605860 0 condenser
 1605860 0 résumer
 1605860 0 résumé
-1605870 0 être habile
 1605870 0 bien
 1605870 0 convenablement
 1605870 0 habilement
