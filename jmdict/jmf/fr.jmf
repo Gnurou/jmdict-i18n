@@ -207,7 +207,7 @@
 1002000 0 enfant
 1002030 0 révérence (courbette)
 1002030 0 salutation (en s'inclinant en avant)
-1002050 0 excusez-moi de vous déranger, de vous interrompre
+1002050 0 excusez-moi de vous déranger (de vous interrompre)
 1002050 0 salutation employée lorsqu'on entre chez quelqu'un
 1002060 0 amulette
 1002060 0 porte-bonheur
@@ -280,7 +280,7 @@
 1002770 0 endimanché
 1002770 0 qui suit la mode
 1002770 1 personne vêtue avec élégance
-1002770 2 s'habiller
+1002770 2 bien s'habiller
 1002770 2 être à la mode
 1002790 0 certainement !
 1002790 0 je n'y manquerai pas !
@@ -391,9 +391,9 @@
 1003560 0 denté
 1003560 0 dentelé
 1003560 0 ondulé
-1003590 0 bondé (en bondant)
-1003590 0 tassé (en tassant)
-1003590 0 serré (en serrant)
+1003590 0 bondé
+1003590 0 bourré
+1003590 0 serré
 1003600 0 accabler
 1003600 0 bondé
 1003600 0 craquement de cuir, de porte
@@ -659,7 +659,7 @@
 1005900 2 simple copule
 1005930 0 patate
 1005950 0 bruit d'éclaboussement
-1005970 0 jeu du "rock-paper-scissors" (équivalent du jeu à pile ou face utilisant trois configurations de la main, rock -poing serré, paper - main étendue et scissors -poing fermé avec deux doigts étendus)
+1005970 0 jeu de pierre-feuille-ciseaux
 1005990 0 irriter
 1006110 0 tout
 1006110 0 complètement
@@ -2177,6 +2177,10 @@
 1076980 0 down
 1077100 0 être dupliqué
 1077100 0 être répété
+1077100 1 se chevaucher
+1077100 1 tomber au même moment (pour des dates, etc.)
+1077100 1 coïncider
+1077100 2 redoubler (une année scolaire, etc.)
 1077100 4 faire une double faute (au tennis)
 1077110 0 double
 1077110 1 lit double
@@ -2221,13 +2225,18 @@
 1078240 0 craie
 1078240 0 starter (étouffoir sur l'entrée d'air d'un moteur)
 1078240 1 starter (de moteur)
+1078240 2 cale
 1078270 0 chocolat
 1078630 0 table
 1078750 0 cassette (audio)
 1078750 0 bande magnétique
 1078810 0 magnétophone
-1078830 0 sujet
 1078830 0 thème
+1078830 0 sujet
+1078830 0 objet
+1078830 0 motif
+1078830 0 projet
+1078830 0 slogan
 1079090 0 mouchoir en papier (kleenex)
 1079290 0 texte
 1079290 1 livre de référence
@@ -2423,6 +2432,7 @@
 1100240 0 groupe
 1100240 1 jouer dans un groupe
 1100240 1 former un groupe (de musique)
+1100240 2 Le Bund (à Shanghai en Chine)
 1100610 0 pour cent
 1100610 0 pourcentage
 1100760 0 fête
