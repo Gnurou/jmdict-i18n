@@ -2209,6 +2209,7 @@
 1077550 1 scruter
 1077550 1 inspecter
 1077550 2 chèque
+1077550 2 note (de restaurant)
 1077650 0 échange
 1077650 0 change (habits)
 1077650 0 changement
@@ -5366,7 +5367,7 @@
 1194470 0 négoce
 1194470 0 occupation
 1194470 0 travail
-1194480 0 (nombre de) mois
+1194480 0 mois (durée)
 1194490 0 paragraphe (d'un texte)
 1194490 0 points (d'un article)
 1194500 0 fleurs
@@ -5386,7 +5387,8 @@
 1194570 0 futur mariée
 1194570 0 jeune mariée
 1194580 0 feux d'artifice
-1194660 0 sortie ou excursion pour admirer la floraison des cerisiers
+1194660 0 admirer la floraison des cerisiers
+1194660 0 admirer les fleurs
 1194780 0 fleurs en pleine floraison
 1194790 0 bouquet
 1194790 0 groupe de fleurs
@@ -5441,8 +5443,9 @@
 1195820 0 sujet
 1195820 0 tâche
 1195820 0 thème
-1195840 0 chef de groupe
+1195840 0 chef de service
 1195840 0 chef de section
+1195840 0 responsable de section
 1195850 0 curriculum
 1195850 0 cursus
 1195870 0 camionnette
@@ -5455,6 +5458,7 @@
 1195960 0 passé
 1195960 0 après
 1195960 1 trop
+1195960 1 sur- (par ex. surchauffe)
 1195970 0 traverser
 1195970 0 passer à côté
 1195970 0 outrepasser
@@ -7125,9 +7129,9 @@
 1215230 1 temps (entre deux instants)
 1215230 1 durée
 1215230 1 pause
-1215230 2 la durée (temporelle ou spatiale)
-1215230 2 l'étirement
-1215230 2 période (tandis que)
+1215230 2 durée (temporelle ou spatiale)
+1215230 2 étirement
+1215230 2 période (pendant que)
 1215230 3 relation (entre deux ou plusieurs personnes)
 1215230 4 membres (dans, parmi)
 1215230 5 en raison de
@@ -7437,8 +7441,13 @@
 1218920 0 instrument
 1218920 0 outil
 1218920 0 ustensile
+1218960 0 agile
 1218960 0 adroit
 1218960 0 habile
+1218960 0 fin (avec les doigts)
+1218960 1 astucieux
+1218960 1 judicieux
+1218960 1 ingénieux
 1219020 0 fonds (capital)
 1219050 0 première pierre
 1219060 0 base
@@ -7658,13 +7667,14 @@
 1221520 0 humeur
 1221520 0 cœur
 1221520 1 nature
-1221520 1 disposition, tempérament
+1221520 1 disposition
+1221520 1 tempérament
 1221520 2 motivation
 1221520 2 intention
 1221520 3 humeur
 1221520 3 sentiments
 1221520 4 atmosphère
-1221520 4 essence
+1221520 4 fond
 1221740 0 agréer
 1221770 0 pitoyable
 1221770 0 malheureux
@@ -7762,9 +7772,10 @@
 1222940 0 journal de voyage
 1222950 0 journal de voyage
 1223010 0 régulation
-1223020 0 règle
-1223020 0 règlement
+1223020 0 règles
+1223020 0 règlements
 1223020 0 réglementation
+1223020 0 conventions
 1223060 0 prescription
 1223060 0 règlement
 1223090 0 échelle
@@ -8272,6 +8283,7 @@
 1228550 0 arc et flèches
 1228560 0 soudain
 1228560 0 urgent
+1228560 0 brusque
 1228560 1 escarpé
 1228560 1 raide
 1228560 2 rapide
@@ -14852,7 +14864,7 @@
 1315880 0 crachin
 1315880 0 pluie fine en fin d'automne et en début d'hiver
 1315920 0 temps
-1315920 1 heures
+1315920 1 heures (durée)
 1315940 0 gagner du temps
 1315940 0 jouer la montre
 1315960 0 emploi du temps
@@ -15173,9 +15185,11 @@
 1320090 0 affaiblissement moral
 1320090 0 avilissement
 1320140 0 erreur
-1320140 0 faillite
-1320140 0 faire une bavure
-1320140 0 insuccès
+1320140 0 faute
+1320140 0 ratage
+1320140 0 fiasco
+1320140 0 bévue
+1320140 0 gaffe
 1320170 0 déception
 1320170 0 désappointement
 1320170 0 désespoir
@@ -15743,7 +15757,7 @@
 1327190 8 possession
 1327190 8 détention
 1327190 8 propriété
-1327190 9 capacité à traiter
+1327190 9 capacité à faire face
 1327340 0 réponse
 1327360 0 bagages à main
 1327370 0 consigne à court terme pour les bagages a main
@@ -16271,6 +16285,12 @@
 1333150 1 suspect
 1333150 1 louche
 1333150 2 maladroit
+1333150 2 inexpérimenté
+1333150 3 odeur de
+1333150 4 ressemblant à
+1333150 4 apparaissant comme
+1333150 4 ayant le goût de
+1333150 4 -esque
 1333170 0 mauvaise odeur
 1333170 0 odeur fétide
 1333170 0 puanteur
@@ -16286,8 +16306,7 @@
 1333450 0 semaine
 1333460 0 hebdomadaire
 1333490 0 (document) hebdomadaire
-1333500 0 hebdomadaire
-1333500 0 semaine
+1333500 0 semaines (durée)
 1333520 0 fin de semaine
 1333520 0 week-end
 1333540 0 se réunir
@@ -16340,8 +16359,9 @@
 1334040 0 habiter
 1334040 0 résider
 1334040 0 vivre(à)
-1334080 0 adresse
+1334080 0 adresse (par ex. d'une maison)
 1334080 0 domicile
+1334080 0 résidence
 1334110 0 habitant
 1334110 0 résident
 1334150 0 habitation
@@ -16382,9 +16402,10 @@
 1335080 0 satisfaisant
 1335080 0 suffisant
 1335080 1 division par 10
-1335080 2 complètement
 1335080 2 parfaitement
+1335080 2 complètement
 1335080 2 totalement
+1335080 2 entièrement
 1335210 0 accompagner
 1335210 0 obéir
 1335210 0 se conformer
@@ -19028,10 +19049,17 @@
 1365850 3 difficile
 1365850 3 pénible
 1365850 3 rude
-1365860 0 difficile
-1365860 0 dur
-1365860 0 pénible
-1365860 0 rude
+1365860 0 douloureux
+1365860 0 amer
+1365860 0 crève-cœur
+1365860 0 difficile (émotionnellement)
+1365860 1 difficile
+1365860 1 pénible
+1365860 1 rude
+1365860 1 dur (en général de situations)
+1365860 2 cruel
+1365860 2 sévère
+1365860 2 froid
 1365890 0 épreuve
 1365890 0 difficultés
 1365890 0 peine
@@ -23403,6 +23431,8 @@
 1420400 0 notification
 1420400 0 avertissement
 1420400 0 information
+1420400 1 augure
+1420400 1 présage
 1420410 0 annoncer
 1420410 0 faire savoir
 1420410 0 notifier
@@ -25305,6 +25335,7 @@
 1441390 0 marque
 1441390 0 point
 1441390 1 point
+1441390 1 pois
 1441390 2 note (par ex. à un examen)
 1441390 2 score
 1441390 2 points
@@ -27066,9 +27097,11 @@
 1468040 0 ardent
 1468040 0 passionné
 1468060 0 année
-1468060 1 plusieurs années
-1468060 1 nombreuses années
-1468060 2 âge
+1468060 1 âge
+1468060 1 années
+1468060 2 après sa prime jeunesse
+1468060 2 vieux jours
+1468060 2 vieillesse
 1468230 0 plus jeune
 1468240 0 carte de vœux
 1468240 0 vœux de nouvel an
@@ -27076,7 +27109,7 @@
 1468250 0 carte de vœux
 1468370 0 annales
 1468370 0 chronique
-1468380 0 année (durée)
+1468380 0 années (durée)
 1468540 0 retraite
 1468550 0 date
 1468580 0 longue ancienneté
@@ -33067,11 +33100,21 @@
 1544520 0 reste
 1544570 0 le restant de sa vie
 1544570 0 ses derniers jours
-1544590 0 marge
-1544590 0 place
-1544590 0 remise
+1544590 0 excédent
 1544590 0 surplus
+1544590 0 marge
+1544590 0 latitude
+1544590 0 place
 1544590 0 temps
+1544590 0 allocation
+1544590 0 souplesse
+1544590 0 flexibilité
+1544590 0 portée
+1544590 0 corde
+1544590 1 flegme
+1544590 1 placidité
+1544590 1 complaisance
+1544590 1 calme
 1544600 0 avoir assez à économiser
 1544600 0 calme et tranquille
 1544730 0 décerner
@@ -39803,7 +39846,8 @@
 1612680 0 congé
 1612680 0 repos
 1612680 1 "Bonne nuit"
-1612690 0 il y a (forme honorifique)
+1612690 0 être
+1612690 0 exister
 1612700 0 (la chose)-mêe
 1612710 0 mouchoir en papier
 1612710 0 papier hygiénique
@@ -39898,6 +39942,8 @@
 1620400 5 durant (un certain temps quand quelqu'un fait ou a fait quelque chose)
 1620400 5 en cours de (construction, etc.)
 1620400 5 pendant
+1620400 6 volume deux (sur trois)
+1620400 6 tome deux (sur trois)
 1620810 0 de petite taille
 1621470 0 métropolitain
 1621470 0 municipal
@@ -39986,8 +40032,9 @@
 1633690 1 échelon
 1633690 2 compteur pour les pauses de la langue écrite (ou de la parole, etc.)
 1634040 0 compteur de questions
-1634500 0 occasionnellement
-1634500 0 rarement
+1634500 0 de temps en temps
+1634500 0 de temps à autre
+1634500 0 parfois
 1636710 0 lit de rivière
 1643510 0 vieillesse
 1643510 0 personne âgée
@@ -40484,6 +40531,8 @@
 2643970 4 on dit que
 2643970 4 d'après ce que j'entends
 2643970 4 vous voulez dire
+2646460 0 vomir
+2646460 0 cracher
 2649690 1 être imprimé (dans le journal)
 2649690 1 être mentionné
 2649690 1 être noté, conservé
