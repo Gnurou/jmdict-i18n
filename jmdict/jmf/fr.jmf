@@ -3750,8 +3750,17 @@
 1164780 0 un quartier
 1164780 1 un morceau
 1164800 0 quartier 1
-1164910 0 en gros
-1164910 0 globalement
+1164910 0 (en) général
+1164910 0 grande (par ex. connaissance)
+1164910 0 les bases
+1164910 1 ordinaire
+1164910 1 usuel
+1164910 1 habituel
+1164910 1 commun
+1164910 2 brièvement
+1164910 2 grossièrement
+1164910 2 en gros
+1164910 3 une méthode
 1164950 0 défini
 1164950 0 déterminé
 1164950 0 fixé
@@ -7008,7 +7017,15 @@
 1213990 0 enseigne
 1213990 0 panneau
 1213990 0 panneau publicitaire
+1213990 1 attraction
+1213990 1 moment fort
+1213990 1 porte-parole
+1213990 1 figure de proue
+1213990 1 figure emblématique
 1213990 2 réputation (d'un magasin)
+1213990 3 apparence
+1213990 3 allure
+1213990 3 aspect
 1213990 4 heure de fermeture
 1214030 0 soigner
 1214030 0 veiller
@@ -7457,8 +7474,13 @@
 1219110 0 base
 1219130 0 idée dominante
 1219130 0 ton dominant
-1219170 0 base
+1219170 0 fondation
 1219170 0 fondement
+1219170 0 base
+1219170 0 assise
+1219170 0 infrastructure
+1219170 1 roche-mère
+1219170 2 substrat (d'un circuit imprimé)
 1219190 0 base
 1219190 0 fondement
 1219190 0 principe
@@ -7525,6 +7547,7 @@
 1219950 0 combien?
 1219950 0 plusieurs
 1219950 0 quelques
+1219950 2 combien ?
 1219960 0 combien ?
 1219960 1 quel âge ?
 1219980 0 combien ?
@@ -9716,9 +9739,11 @@
 1246440 0 recoin
 1246440 1 arrière-scène droit (sur une scène de Noh)
 1246490 0 peigne
-1246510 0 chutes
 1246510 0 déchets
-1246510 0 miettes
+1246510 0 rebut
+1246510 0 ferraille
+1246510 0 ordures
+1246510 0 lie
 1246570 0 indentation
 1246570 0 inflexion
 1246570 0 sinuosité
@@ -32319,9 +32344,19 @@
 1533550 0 soin
 1533560 0 désagréable
 1533560 0 ennuyeux
-1533580 0 amusant
-1533580 0 bizarre
 1533580 0 intéressant
+1533580 0 fascinant
+1533580 0 intrigant
+1533580 0 captivant
+1533580 0 passionnant
+1533580 1 amusant
+1533580 1 marrant
+1533580 1 drôle
+1533580 1 comique
+1533580 2 plaisant
+1533580 2 agréable
+1533580 2 amusant
+1533580 2 divertissant
 1533590 0 crédit
 1533590 0 dignité
 1533590 0 face (perdre, sauver)
@@ -35059,6 +35094,7 @@
 1576650 0 eau salée
 1576750 0 crépuscule
 1576760 0 jaune
+1576760 0 ambré
 1576820 0 fièvre jaune
 1576830 0 fièvre jaune
 1576870 0 je
@@ -35647,7 +35683,7 @@
 1581900 0 raser
 1581930 0 petit frère
 1581930 0 frère cadet
-1581930 1 pupille
+1581930 1 élève
 1581930 1 apprenti
 1581960 0 élève
 1581960 0 apprenti
@@ -35749,16 +35785,15 @@
 1582640 0 dur
 1582670 0 deux personnes
 1582670 0 couple
-1582670 0 paire
 1582680 0 pour deux personnes
 1582700 0 un nombre de jours
 1582710 0 Japon
 1582730 0 mamelon
 1582730 0 téton
-1582820 0 bouche (métro)
 1582820 0 entrée
 1582820 0 porte
 1582820 0 voie d'accès
+1582820 0 bouche (de métro)
 1582850 0 comment
 1582860 0 années
 1582860 0 chaque année
@@ -35787,7 +35822,7 @@
 1583030 1 occasion
 1583050 0 cheveux blancs
 1583050 0 cheveux gris
-1583090 0 huit (8)
+1583090 0 huit
 1583095 0 huit
 1583130 0 fondation
 1583130 0 inauguration
@@ -36105,8 +36140,8 @@
 1585650 0 caisse
 1585650 0 coffre
 1585650 0 paquet
-1585650 1 voiture (d'un train ..)
-1585650 2 coffret pour shamisen
+1585650 1 voiture (d'un train, etc.)
+1585650 2 étui pour shamisen
 1585650 2 shamisen
 1585650 3 bâtiment public
 1585650 3 bâtiment communautaire
@@ -40326,11 +40361,11 @@
 2081300 0 agréable
 2081570 0 impôt
 2081570 0 taxe
-2082160 0 magasin
-2082160 0 boutique
-2082160 0 échoppe
-2082160 1 personne qui tient un commerce
-2082160 2 (derrière un trait de caractère particulier) personne porteuse de ce trait
+2082160 0 magasin (de quelque chose)
+2082160 0 boutique (de quelque chose)
+2082160 0 échoppe (de quelque chose)
+2082160 1 quelqu'un qui vend (quelque chose) ou travaille en tant que...
+2082160 2 personne porteuse d'un (certain) trait de caractère
 2082160 3 maison
 2082160 4 toit
 2083100 0 dimanche
@@ -40350,7 +40385,7 @@
 2083570 0 durant
 2083570 1 partout dans
 2083570 1 tout le long de (chemin)
-2084840 0 année (date)
+2084840 0 année (par ex. apr. J.-C.)
 2084840 1 compteur pour les années
 2085080 0 comme ça (utilisé pour quelque chose ou quelqu'un éloigné de l'orateur et de l'auditeur)
 2085080 0 ainsi
@@ -40373,7 +40408,7 @@
 2101130 2 lui
 2101130 3 compteur pour les personnes
 2104230 0 mois (calendaire)
-2104230 0 utilisé après un nombre ou un interrogatif (ex : nan ou nani)
+2104230 0 utilisé après un nombre ou un interrogatif (par ex. nan ou nani)
 2135480 0 à tout à l'heure (dans une conversation ou correspondance informelle)
 2135480 0 au revoir
 2135480 0 Salutations (lettre)
@@ -40395,8 +40430,9 @@
 2147990 0 dos
 2147990 0 colonne vertébrale
 2147990 0 échine
-2147990 1 inverse
-2147990 1 côté arrière
+2147990 1 verso
+2147990 1 revers
+2147990 1 face arrière
 2147990 2 hauteur
 2147990 2 taille
 2147990 3 crête (d'une montagne)
