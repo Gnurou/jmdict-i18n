@@ -3165,6 +3165,10 @@
 1155100 0 après quoi
 1155100 0 désormais
 1155100 0 dorénavant
+1155100 1 par la suite
+1155100 1 depuis (verbe) (après la forme -te du verbe)
+1155100 1 après (un temps)
+1155100 1 depuis
 1155110 0 à l'avenir
 1155110 0 à partir de
 1155110 0 désormais
@@ -3432,6 +3436,7 @@
 1158280 0 migration
 1158310 0 greffe
 1158310 0 transplantation
+1158390 0 déplacement
 1158390 0 déménagement
 1158390 0 transfert
 1158400 0 mouvement
@@ -4580,6 +4585,12 @@
 1179200 0 avoir un creux
 1179200 0 perdre de l'argent
 1179200 0 s'enfoncer
+1179200 1 être dépassé
+1179200 1 se sentir déprimé
+1179200 1 être forcé de céder
+1179200 1 être intimidé
+1179200 1 être rabroué
+1179200 1 être rembarré
 1179220 0 lentille concave
 1179280 0 accidenté (sol)
 1179280 0 inégal
@@ -4611,8 +4622,9 @@
 1179750 0 anciennement
 1179750 0 aux temps anciens
 1179750 0 il y a des années
-1179760 0 aller
-1179760 0 retour
+1179760 0 faire l'aller-retour
+1179760 0 faire la navette
+1179760 1 billet aller-retour
 1179790 0 aller et retour
 1179790 0 circulation
 1179790 0 correspondance
@@ -4964,8 +4976,8 @@
 1185720 0 réunion de conciliation
 1185780 0 geta (sandale de bois japonaises)
 1185930 0 sous-vêtements
-1185940 0 shitamachi
-1185940 0 ville basse
+1185940 0 partie basse d'une ville (contenant en général les magasins, les usines, etc.)
+1185940 1 Shitamachi (région de basse altitude à l'est de Tokyo près de la baie de Tokyo, incluant Asakusa, Shitaya, Kanda, Fukugawa, Honjo, Nihonbashi, Kyobashi et les environs)
 1185960 0 visage rond
 1185960 1 élargi en bas
 1185960 1 joufflu
@@ -5171,6 +5183,8 @@
 1190430 0 joindre
 1190430 0 s'affilier
 1190430 0 s'inscrire
+1190470 0 chauffage
+1190470 0 application de chaleur
 1190560 0 addition
 1190580 0 affiliation
 1190580 0 participation
@@ -5247,6 +5261,9 @@
 1191980 1 affaires du ménage
 1191990 0 propriétaire, 
 1191990 0 logeur
+1191990 1 propriétaire de maison
+1191990 1 chef de ménage
+1191990 1 chef de famille
 1192030 0 quitter la maison
 1192030 0 se sauver de la maison
 1192100 0 économie familiale
@@ -5290,6 +5307,7 @@
 1192660 0 timide
 1192680 0 département
 1192680 0 section
+1192680 2 famille (taxonomique)
 1192700 0 science
 1192750 0 scientifique
 1192790 0 pendant son temps libre
@@ -5346,6 +5364,7 @@
 1193860 0 cratère
 1193860 0 caldeira
 1193860 0 bouche d'un volcan
+1193860 1 brûleur (par ex. d'un four)
 1193870 0 lac de cratère
 1193880 0 embrasement
 1193880 0 incendie
@@ -5461,6 +5480,7 @@
 1195870 0 fourgon
 1195870 0 wagon (de marchandises)
 1195890 0 cargaison
+1195890 1 argent ou biens
 1195930 0 argent
 1195930 0 change
 1195940 0 taux de change
@@ -5512,6 +5532,8 @@
 1196120 0 accident
 1196120 0 erreur
 1196120 0 gaffe
+1196120 1 faute
+1196120 1 défaut
 1196170 0 excès
 1196220 0 dépeuplement
 1196270 0 processus
@@ -5876,6 +5898,9 @@
 1200980 0 exhumation et réinhumation d'un cercueil
 1201000 0 remodelage
 1201000 0 transformation
+1201000 1 modding
+1201000 1 tuning PC
+1201000 1 modification de logiciel ou matériel électronique
 1201020 0 reconstruction
 1201030 0 refaçonner
 1201030 0 refonte (d'un objet)
@@ -6393,8 +6418,7 @@
 1206990 0 recteur
 1207010 0 écolier
 1207010 0 élève du primaire
-1207030 0 niveaux d'étude
-1207030 0 nombre d'année scolaire
+1207030 0 année scolaire
 1207060 0 droit d'inscription
 1207060 0 frais d'étude
 1207080 0 faculté
@@ -8164,6 +8188,7 @@
 1226730 0 salle de réception
 1226740 0 voiture de voyageurs (dans les chemins de fer)
 1226760 0 place (dans une salle de spectacle)
+1226760 1 audience
 1226770 0 bateau pour le transport de passagers
 1226830 0 dramatisation (porter une histoire au cinéma ou sur les planches)
 1226850 0 note(s) de bas de page
