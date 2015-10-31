@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 # Handling regressions:
 # We want regressions to be preserved as "fuzzy" in the .po files, but we also want them
