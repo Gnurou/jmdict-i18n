@@ -8286,9 +8286,11 @@
 1227630 0 volcan endormi
 1227660 0 arrêt temporaire de ses études
 1227700 0 fermeture (d'un magasin ou d'une entreprise)
-1227720 0 break
 1227720 0 pause
 1227720 0 repos
+1227720 0 break
+1227720 0 récréation
+1227720 0 entracte
 1227730 0 heure de la pause
 1227750 0 salle de repos
 1227760 0 fermeture provisoire d4une école
@@ -10606,8 +10608,11 @@
 1256520 0 tenir
 1256670 0 deuxième emploi (travail)
 1256670 0 travail simultané
-1256730 0 coupon
+1256730 0 billet
 1256730 0 ticket
+1256730 0 coupon
+1256730 0 bon
+1256730 0 certificat
 1256750 0 épée
 1256810 0 pièce d'épée (sans cape...)
 1256810 0 théâtre de samurai
@@ -11126,13 +11131,13 @@
 1263430 0 spécialiste
 1263470 0 riz brun
 1263470 0 riz complet
-1263490 0 exprimer
-1263490 0 indiquer
-1263490 0 montrer
 1263490 0 représenter
-1263490 1 exprimer
-1263490 2 représenter
-1263490 2 signifier
+1263490 0 signifier
+1263490 0 désigner
+1263490 1 révéler
+1263490 1 montrer
+1263490 1 afficher
+1263490 2 exprimer
 1263490 3 faire largement connaître
 1263490 3 rendre célèbre
 1263500 0 en fait
@@ -12044,9 +12049,11 @@
 1277480 0 apprécier
 1277490 0 agréable
 1277490 0 désirable
-1277500 0 goût
 1277500 0 penchant
+1277500 0 inclinaison
 1277500 0 préférence
+1277500 0 goût
+1277500 0 choix
 1277520 0 aimer
 1277520 0 préférer
 1277530 0 bienveillance
@@ -39658,10 +39665,15 @@
 1611020 0 pour quelle raison ?
 1611020 1 comment ?
 1611020 1 par quels moyens ?
+1611030 0 quelconque
+1611030 0 quoi que
+1611030 0 n'importe quoi
 1611030 0 d'une manière ou d'une autre
 1611030 0 n'importe comment
-1611030 1 chaque chose
-1611030 1 tout
+1611030 0 par tous les moyens
+1611030 0 tout
+1611030 1 on dit
+1611030 1 il parait
 1611050 0 fuite/évasion
 1611060 0 nippo-coréen/entre le Japon et la Corée
 1611070 0 salaire d'une journée
@@ -40415,7 +40427,7 @@
 2067900 1 entre
 2067900 1 inter-
 2068010 0 rang
-2068010 0 place (par exemple la première place)
+2068010 0 place (par ex. la première place)
 2068010 1 décimale
 2068010 2 compteur de fantômes
 2069620 0 oui
