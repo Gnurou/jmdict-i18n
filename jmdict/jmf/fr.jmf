@@ -493,6 +493,10 @@
 1004520 0 secrètement
 1004530 0 cliquetant
 1004530 0 tambourinage
+1004550 0 pouvoir (faire)
+1004550 0 être capable de (faire)
+1004550 0 pouvoir être fait
+1004550 0 est capable de faire
 1004570 0 tout à fait
 1004610 0 l'autre jour
 1004610 0 récemment
@@ -1640,6 +1644,8 @@
 1020200 0 soulignement
 1020410 0 antenne
 1020410 1 dispositif ou méthode qui rassemble des informations ou des opinions
+1020470 0 et
+1020470 0 esperluette
 1021220 0 égale
 1021220 1 le signe égale (=)
 1021220 2 égale (A = B)
@@ -1667,6 +1673,7 @@
 1025040 0 weekend
 1025050 0 jour de la semaine
 1025140 0 whisky
+1025250 0 oui
 1025450 0 virus
 1025670 0 garçon
 1025670 0 serveur
@@ -1964,6 +1971,7 @@
 1058480 0 sandale
 1058580 0 sandwich
 1058760 0 échantillon
+1059100 0 publicité (à la télé, à la radio, etc.)
 1059300 0 saison (sport)
 1059400 0 drap
 1059450 0 feuille
@@ -2112,6 +2120,7 @@
 1074260 0 pantalon
 1074270 0 pull-over
 1074270 0 tricot (sweater)
+1074320 0 uniforme de marin
 1074360 0 représentant
 1074570 0 rapport sexuel
 1074570 0 sexe
@@ -2183,6 +2192,8 @@
 1076900 0 cadran
 1076980 0 (mettre) à terre
 1076980 0 down
+1077010 0 téléchargement
+1077010 0 télécharger
 1077100 0 être dupliqué
 1077100 0 être répété
 1077100 1 se chevaucher
@@ -3271,7 +3282,7 @@
 1155980 1 assiéger
 1155980 1 faire le siège de
 1155980 2 jouer (au go, au shogi, etc.)
-1155990 0 Jeu de go
+1155990 0 jeu de go
 1156020 1 provincial (dans le sens d'une personne vivant loin d'une grande ville)
 1156020 3 étranger
 1156020 3 barbare
@@ -3527,6 +3538,8 @@
 1159430 0 restes
 1159460 0 hérédité
 1159500 0 gène
+1159500 1 génétique
+1159500 1 génique
 1159680 0 complet
 1159680 0 sans omission
 1159770 0 département de médecine
@@ -3586,8 +3599,9 @@
 1160980 0 une poignée
 1161000 0 soulagement
 1161070 0 membre
-1161130 0 toute la région
 1161130 0 un yen
+1161130 1 dans toute (la région)
+1161130 1 secteur entier
 1161170 0 plus ou moins
 1161170 0 mais pas tout à fait satisfaisant
 1161170 0 d'une certaine manière
@@ -3601,7 +3615,10 @@
 1161240 0 une année
 1161300 0 juste
 1161300 0 simplement
+1161380 0 un étage
+1161380 0 rez-de-chaussée
 1161390 0 dans l'ensemble ?
+1161400 1 une corne
 1161470 0 ensemble
 1161470 0 groupé
 1161470 0 joint
@@ -3633,7 +3650,10 @@
 1162360 0 mot pour mot
 1162360 0 un mot
 1162370 0 bouchée
-1162370 0 gorgée
+1162370 1 gorgée
+1162370 1 trait
+1162370 2 un mot
+1162370 2 en un mot
 1162410 0 pas du tout
 1162500 0 un instant
 1162500 0 un moment
@@ -3650,6 +3670,7 @@
 1163170 0 variété
 1163170 0 genre
 1163260 0 une semaine
+1163270 0 une semaine
 1163340 0 instant
 1163340 0 moment
 1163400 0 ensemble
@@ -3706,6 +3727,7 @@
 1164170 0 tout
 1164190 0 un morceau
 1164190 0 une tranche
+1164280 0 ligne
 1164340 0 davantage
 1164340 0 encore plus
 1164340 0 beaucoup plus
@@ -3786,6 +3808,8 @@
 1165340 0 tout le monde
 1165490 0 tous les autres jours
 1165500 0 au long de la journée
+1165580 0 annuel (plante)
+1165580 1 étudiant de première année
 1165600 0 pendant un an
 1165600 0 toute l'année
 1165640 0 un lot
@@ -3875,6 +3899,15 @@
 1166510 3 en permanence...
 1166510 3 ne faire que...
 1166510 3 seulement
+1166600 1 une version
+1166600 2 un livre
+1166600 2 un certain livre
+1166600 3 ippon
+1166600 3 un point
+1166600 3 un coup
+1166600 4 geisha expérimentée
+1166710 0 un objet plat
+1166710 0 une feuille
 1166790 0 un air de
 1166790 0 une touche de
 1166790 1 exhalation
@@ -3907,6 +3940,7 @@
 1167270 3 un drapeau
 1167270 3 une bannière
 1167270 3 une banderole
+1167370 0 première base
 1167610 0 déborder
 1167610 0 inonder
 1167650 0 détourner
@@ -4112,7 +4146,12 @@
 1171210 0 la droite (politique)
 1171230 0 coté droit
 1171230 1 style de musique de court japonaise, aussi uhoukomagaku
-1171270 0 aile droite (oiseau, armée, parti politique, base-ball)
+1171270 0 aile droite (politique)
+1171270 1 groupe d'extrême droite
+1171270 3 champ droit
+1171270 3 flanc droit
+1171270 3 aile droite
+1171270 4 ailier droit
 1171300 0 cosmos
 1171300 0 espace
 1171300 0 univers
@@ -4216,6 +4255,7 @@
 1173010 0 transporter
 1173030 0 destin
 1173050 0 transport
+1173060 0 Ministère des transports
 1173090 0 investissement
 1173090 0 mise en application
 1173090 0 usage pratique
@@ -4757,11 +4797,14 @@
 1181450 0 diadéme
 1181480 0 monarchie
 1181480 0 royaume
+1181490 0 trône
 1181500 0 prince
 1181500 1 sanctuaire subordonné de Kumano
 1181540 0 monarque
 1181540 0 roi
+1181540 1 champion en titre
 1181560 0 princesse
+1181570 0 roi
 1181670 0 reine
 1181700 0 roi
 1181720 0 fusuma
@@ -4860,10 +4903,11 @@
 1183710 0 gamme musicale
 1183720 0 musique
 1183720 0 mouvement musical
+1183780 0 son
+1183780 0 bruit
 1183780 0 écho
 1183780 0 acoustique
-1183780 0 bruit
-1183780 0 son
+1183780 0 audio
 1183810 0 lecture des kanji
 1183880 0 (concept du) son
 1183880 0 voix
@@ -4873,6 +4917,7 @@
 1183990 0 lire a voix haute
 1184000 0 lecture on (chinoise) d'un kanji
 1184040 0 note (musique)
+1184120 0 volume sonore
 1184140 0 sous
 1184140 0 au-dessous
 1184140 0 en dessous
@@ -4927,6 +4972,8 @@
 1184280 1 avoir la bonté de
 1184320 0 faire descendre
 1184320 0 laisser descendre
+1184320 2 faire soi-même
+1184320 2 faire par soi-même
 1184360 0 bon à rien
 1184360 0 sans intêret
 1184360 0 sans valeur
@@ -4945,6 +4992,7 @@
 1184450 3 capituler
 1184450 5 avoir la courante
 1184450 5 avoir la diarrhée
+1184510 0 chambre basse (du Parlement)
 1184620 0 ce bas-monde
 1184620 0 ici-bas
 1184620 0 monde d'hades(?)
@@ -8150,11 +8198,16 @@
 1226390 0 action de fumer
 1226440 0 café (lieu)
 1226440 0 salon de thé
-1226480 0 être bloqué, bloquer
-1226480 0 être coincé, coincer (sous la poussée)
-1226480 0 être plein a craquer
-1226480 0 raccourcir (vi)
-1226480 1 frapper la balle près de la poignée de la batte (baseball)
+1226480 0 être plein (de)
+1226480 0 être comble (lieu, agenda, etc.)
+1226480 0 être bondé
+1226480 1 être bouché (route, tuyau, etc.)
+1226480 1 être engorgé
+1226480 3 être perplexe
+1226480 3 ne pas savoir que faire
+1226480 3 ne pas savoir quoi dire
+1226480 5 devenir une consonne géminée
+1226480 6 frapper la balle près de la poignée de la batte (baseball)
 1226490 0 être en échec et mat (aux échecs chinois (shôgi))
 1226490 0 se retrouver coincé
 1226510 0 bloquer (vt)
@@ -9187,6 +9240,8 @@
 1240180 0 extrêmement
 1240180 0 tout à fait
 1240180 0 très
+1240180 1 10^48
+1240180 1 octillion
 1240190 0 comble
 1240190 0 fin
 1240190 0 hauteur
@@ -9810,8 +9865,12 @@
 1246680 0 creuser à travers
 1246680 0 excaver
 1246680 0 percer
-1246690 0 crsuer
+1246690 0 creuser
 1246690 0 excaver
+1246690 0 évider
+1246690 1 fouiller
+1246690 2 déterrer (par ex. des légumes)
+1246690 3 (pour deux hommes) pratiquer la sodomie
 1246700 0 chaussures
 1246700 0 bottes
 1246700 0 souliers
@@ -10039,6 +10098,10 @@
 1250310 0 formalisme
 1250310 0 formalité
 1250310 0 forme
+1250310 1 méthode
+1250310 1 système
+1250310 1 style
+1250310 3 expression mathématique
 1250320 0 formel
 1250360 0 formation
 1250420 0 apparence
@@ -10049,6 +10112,9 @@
 1250420 0 qualification
 1250430 0 adjectif
 1250430 0 adjectif japonais en "i"
+1250450 0 adjectif en "na"
+1250450 0 quasi-adjectif
+1250450 0 adjectif nominal
 1250480 0 bénir
 1250480 0 faire l'aumône
 1250480 0 faire la charité
@@ -10094,7 +10160,8 @@
 1250730 0 donner au batteur (baseball) un "but sur balles intentionnel (BBI)"
 1250740 0 formule de politesse standard à la fin d'une lettre
 1250750 0 terme de respect
-1250750 0 terme honorifique
+1250750 0 expression polie
+1250750 0 langage honorifique
 1250780 0 amour et respect
 1250780 0 estime
 1250780 0 vénération
@@ -10121,10 +10188,16 @@
 1251010 0 arbre généalogique
 1251010 0 généalogie
 1251010 0 pedigree
-1251030 0 ascendance
-1251030 0 formation géologique
-1251030 0 lignée (famille)
 1251030 0 système
+1251030 1 ascendance
+1251030 1 lignée (familiale)
+1251030 2 groupe (par ex. de couleurs)
+1251030 2 famille (par ex. des langues)
+1251030 2 parti
+1251030 2 école (de pensée)
+1251030 3 relation (évolutive) proche
+1251030 4 population partageant un ancêtre commun (en génétique)
+1251030 4 souche (par ex. bactérienne)
 1251070 0 arbre généalogique
 1251070 0 généalogie
 1251070 0 pedigree
@@ -10186,9 +10259,10 @@
 1251870 0 connection
 1251870 0 lien
 1251870 0 relation
-1251880 0 être connecté
-1251880 0 être lié
-1251880 0 être relié
+1251880 0 être attaché ensemble
+1251880 0 être connecté à
+1251880 0 être lié à
+1251880 2 avoir des liens de sang
 1251900 0 attacher
 1251900 0 connecter
 1251900 0 passer (un appel téléphonique)
@@ -10203,6 +10277,10 @@
 1252040 0 le fruit d'études intensives
 1252050 0 plan
 1252050 0 projets
+1252050 1 compteur
+1252050 1 appareil de mesure
+1252050 2 (au) total
+1252050 2 total (de)
 1252070 0 arranger
 1252070 0 diriger
 1252070 0 discuter
@@ -10334,6 +10412,7 @@
 1253600 0 couler (bateau)
 1253610 0 abattre (un avion)
 1253670 0 émotion violente
+1253690 0 augmentation soudaine
 1253700 0 colère noire
 1253700 0 furie
 1253700 0 indignation
@@ -10364,6 +10443,10 @@
 1253790 2 négligence
 1253800 0 chiffre
 1253800 0 poutre
+1253800 1 chiffre
+1253800 1 dizaine
+1253800 1 décade
+1253800 1 ordre de grandeur
 1253840 0 chef-d'œuvre
 1253860 0 distingué
 1253860 0 meilleur de son genre
@@ -10398,6 +10481,7 @@
 1253950 1 lacune
 1253970 0 rapport d'une absence (travail) (?)
 1254010 0 bâillement
+1254010 1 radical de kanji « bâillement » (radical 76)
 1254020 0 absence
 1254030 0 rapport d'une absence (cours, classe)
 1254040 0 déficit
@@ -10602,10 +10686,9 @@
 1256440 0 tendance à oublier
 1256450 0 amnésie
 1256450 0 perte de mémoire
-1256520 0 être incapable
-1256520 0 faire plusieurs choses a la fois
-1256520 0 servir
-1256520 0 tenir
+1256520 0 être dans l'impossibilité de 
+1256520 0 trouver difficile (déplaisant, bizarre) de faire
+1256520 3 hésiter à faire quelque chose (par égard pour les autres)
 1256670 0 deuxième emploi (travail)
 1256670 0 travail simultané
 1256730 0 billet
@@ -10823,6 +10906,8 @@
 1259300 0 méprendre
 1259370 0 d'en haut
 1259370 0 regarder de haut
+1259370 1 mépriser
+1259370 1 prendre de haut
 1259390 0 opinion
 1259390 0 point de vue
 1259440 0 observation
@@ -10858,17 +10943,27 @@
 1259710 0 index
 1259710 0 sous-titre
 1259710 0 titre
+1259710 1 index
+1259710 2 entrée (de dictionnaire)
 1259740 0 admirer
 1259740 0 regarder vers le haut
+1259740 1 admirer
+1259740 1 respecter
 1259770 0 vue
 1259780 0 offrir un beau point de vue
 1259800 0 estimation écrite
 1259820 0 adieux
 1259820 0 raccompagnement (à la gare, à l'aéroport)
-1259830 0 accompagner (pour un départ)
-1259830 0 dire au-revoir
-1259830 1 escorter
+1259830 0 dire au revoir (à une gare, un aéroport, etc.)
+1259830 0 raccompagner (par ex. à la maison)
+1259830 1 suivre quelque chose avec ses yeux jusqu'à ce qu'il soit hors de vue
 1259830 2 laisser passer
+1259830 3 enterrer (un projet, etc.)
+1259830 3 ajourner
+1259830 3 reporter
+1259830 4 avoir une relation ou un proche qui vient de mourir
+1259830 4 enterrer quelqu'un
+1259830 5 prendre soin de quelqu'un jusqu'à sa mort
 1259840 0 faire une erreur de jugement, se méprendre sur
 1259870 0 point de vue
 1259880 0 garder
@@ -22348,7 +22443,7 @@
 1406460 0 estime
 1406460 0 respect
 1406480 0 titre honorifique
-1406550 0 arogance
+1406550 0 arrogance
 1406550 0 hauteur
 1406550 0 suffisance
 1406660 0 dommages
@@ -24862,6 +24957,10 @@
 1433770 0 relier (un livre)
 1433820 0 écraser
 1433820 0 broyer
+1433820 2 contrecarrer
+1433820 2 bloquer
+1433820 3 tuer (le temps)
+1433820 4 gaspiller (par ex. son talent)
 1433830 0 s'écraser
 1433830 0 s'écrouler
 1433830 1 faire faillite
@@ -25052,6 +25151,7 @@
 1436540 0 environ
 1436540 0 approximativement
 1436560 0 (se) fermer
+1436560 0 être fermé
 1436560 1 être ferme (d'un corps, un visage, etc.)
 1436560 1 être bien tricoté
 1436560 2 être fermé
@@ -25702,7 +25802,7 @@
 1445140 0 personne appliquée
 1445150 0 fois
 1445160 0 degré (angle, température, échelle, etc.)
-1445160 1 (compteur) fois
+1445160 1 compteur pour un nombre de fois
 1445160 2 degré (d'un alcool) 
 1445190 0 courage
 1445190 0 cran
@@ -26426,7 +26526,8 @@
 1453870 0 grotte
 1453890 0 discernement
 1453900 0 prunelle
-1453900 0 pupille (œil)
+1453900 0 pupille (de l'œil)
+1453900 1 œil
 1453920 0 enfant
 1453950 0 visage d'enfant
 1453970 0 naïveté d'enfant
@@ -26972,6 +27073,7 @@
 1464760 0 à travers le japon
 1464760 0 au japon
 1464780 0 épée japonaise
+1464780 0 katana
 1464800 0 de style japonais
 1464800 0 style japonais
 1464880 0 dimanche
@@ -29701,15 +29803,15 @@
 1499290 0 département
 1499290 0 partie
 1499290 1 compteur pour exemplaires (d'une publication)
-1499320 0 salle
-1499320 0 pièce
 1499320 0 chambre
-1499320 0 appartement
-1499320 0 piaule
-1499320 1 écurie
+1499320 0 pièce
+1499320 0 salle
+1499320 1 appartement
+1499320 1 piaule
+1499320 2 écurie
 1499350 0 inférieur (pour un employé)
 1499350 0 subordonné
-1499400 0 radical (d'un kanji)
+1499400 0 clé (d'un kanji)
 1499420 0 clan
 1499420 0 famille
 1499420 0 maison
@@ -30360,6 +30462,7 @@
 1507670 0 égalité
 1507670 0 impartialité
 1507720 0 Jour de la semaine
+1507720 1 radical de kanji 73
 1507740 0 année civile
 1507740 0 année ordinaire
 1507760 0 année normale
@@ -32497,6 +32600,7 @@
 1533880 0 chenille (de papillon)
 1533930 0 fourrure
 1533930 0 peau
+1533930 1 radical de kanji « fourrure »
 1533940 0 pinceau
 1533950 0 couverture (de laine)
 1533990 0 chien féroce
@@ -32868,6 +32972,8 @@
 1538670 0 huiles grasses
 1538690 0 inattention
 1538690 0 négligence
+1538690 0 étourderie
+1538690 0 baisser la garde
 1538710 0 blatte
 1538710 0 cafard
 1538710 0 parasite
@@ -32879,6 +32985,7 @@
 1538770 0 faire reconnaître
 1538770 0 persuader
 1538780 0 explication (d'un supérieur à un inférieur)
+1538810 0 transfusion sanguine
 1538820 0 exportation
 1538820 1 efférent
 1538850 0 transport
@@ -33040,8 +33147,12 @@
 1541570 0 utile
 1541600 0 ayant de l'avenir
 1541600 0 d'avenir
-1541610 0 oui et non
-1541610 0 présence et absence
+1541610 0 existence ou non-existence
+1541610 0 présence ou absence
+1541610 1 acceptation ou refus
+1541610 1 oui ou non
+1541610 2 drapeau (informatique)
+1541610 2 marqueur de présence ou d'absence
 1541620 0 célèbre
 1541620 1 célébrité
 1541690 0 payant
