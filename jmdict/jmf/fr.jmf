@@ -4099,7 +4099,11 @@
 1169660 0 référence
 1169660 0 citation
 1169670 0 citation
-1169720 0 gravité
+1169720 0 attraction (magnétique, gravitationnelle)
+1169720 0 affinité
+1169720 0 gravitation
+1169720 1 charme
+1169720 1 magnétisme
 1169870 0 boire
 1169870 0 engloutir
 1169870 0 avaler
@@ -4343,6 +4347,7 @@
 1174390 0 grand talent
 1174420 0 anglais (langue)
 1174620 0 phrase en Anglais
+1174620 1 littérature anglaise (domaine d'études)
 1174670 0 traduction en anglais
 1174680 0 grand homme
 1174680 0 héros
@@ -4467,6 +4472,7 @@
 1176510 0 élongation
 1176510 0 extension
 1176510 0 prolongation
+1176510 1 ère Enchô (11/04/923 - 26/04/931)
 1176650 0 renforcement
 1176660 0 aide
 1176660 0 assistance
@@ -4511,6 +4517,7 @@
 1177200 0 gêné par la fumée
 1177220 0 fumer
 1177320 0 cheminée
+1177320 1 Transporter un passager sans allumer le taximètre
 1177350 0 hirondelle
 1177390 0 singe (en part. le macaque japonais, Macaca fusvata)
 1177390 0 primate non humain
@@ -6447,9 +6454,16 @@
 1206310 0 ministre
 1206340 0 s'écarter
 1206340 0 s'éloigner de
-1206360 0 être séparé
-1206360 0 exclure
-1206360 0 séparer
+1206360 0 séparer (par la distance, le temps, etc.)
+1206360 0 isoler
+1206360 0 partitionner
+1206360 0 diviser
+1206360 0 partager
+1206360 1 interposer
+1206360 1 intercaler
+1206360 2 aliéner
+1206360 2 écarter
+1206360 2 éloigner
 1206440 0 isolement
 1206440 0 séquestration
 1206460 0 chaussures de cuir
@@ -6507,6 +6521,8 @@
 1207010 0 écolier
 1207010 0 élève du primaire
 1207030 0 année scolaire
+1207030 1 année scolaire
+1207030 1 niveau d'étude
 1207060 0 droit d'inscription
 1207060 0 frais d'étude
 1207080 0 faculté
@@ -10224,8 +10240,11 @@
 1250950 0 vallée étroite
 1250960 0 ruisseau de montagne
 1250960 0 torrent
+1250990 0 pratique
 1250990 0 étude
+1250990 0 leçon
 1250990 0 entrainement
+1250990 0 répétition
 1250990 0 exercice
 1251010 0 arbre généalogique
 1251010 0 généalogie
@@ -10490,6 +10509,7 @@
 1253800 1 décade
 1253800 1 ordre de grandeur
 1253840 0 chef-d'œuvre
+1253840 0 meilleure œuvre
 1253860 0 distingué
 1253860 0 meilleur de son genre
 1253860 0 remarquable
@@ -11157,6 +11177,8 @@
 1261400 0 accusateur
 1261400 0 procureur
 1261450 0 création originale
+1261470 0 lieu d'origine
+1261470 0 habitat
 1261500 0 origine
 1261500 0 primitif
 1261540 0 primitif
@@ -11973,6 +11995,7 @@
 1273820 0 formalité
 1273820 0 formule (scientifique)
 1273820 0 officiel
+1273820 1 formule
 1273880 0 duc
 1273880 0 prince
 1273900 0 public
@@ -12775,6 +12798,10 @@
 1284120 0 virilité
 1284220 0 nombre
 1284220 0 numéro d'édition (magazine)
+1284220 1 sobriquet
+1284220 1 surnom
+1284220 1 pseudonyme
+1284220 1 nom de plume
 1284230 0 supplément (d'un journal)
 1284250 0 cri
 1284250 0 gémissement
@@ -12866,6 +12893,7 @@
 1285140 0 incorporation
 1285140 0 réunion
 1285140 0 union
+1285140 1 congruence
 1285270 0 légal
 1285270 0 légalité
 1285270 0 légitime
@@ -13812,6 +13840,7 @@
 1297710 0 auteur
 1297710 0 femme auteur
 1297790 0 fabrication
+1297790 0 production
 1297800 0 manœuvre
 1297800 0 opération militaire
 1297800 0 stratégie
@@ -13823,7 +13852,7 @@
 1297910 0 production
 1297950 0 production (par ex. agricole)
 1297950 0 récolte
-1297960 0 écriture
+1297960 0 écriture (d'un essai, de prose, etc.)
 1297960 0 composition
 1297960 1 verbiage
 1297960 1 écriture formelle avec peu de véritable signification
@@ -14045,8 +14074,10 @@
 1302680 3 filet (d'une vis)
 1302680 3 bande de roulement (d'un pneu)
 1302680 3 partie saillante d'un objet
-1302680 4 moment critique
+1302680 4 climax
+1302680 4 apogée
 1302680 4 point culminant
+1302680 4 moment critique
 1302680 5 supposition
 1302680 5 spéculation
 1302680 6 affaire criminelle
@@ -17282,10 +17313,14 @@
 1343080 0 premier amour
 1343100 0 endroit
 1343100 0 lieu
+1343100 0 scène
+1343100 0 site
+1343100 0 emplacement
 1343100 1 adresse
 1343100 2 quartier
 1343100 2 zone
 1343100 2 localité
+1343100 3 sa maison
 1343100 3 logis
 1343100 3 foyer
 1343100 4 point (sujet)
@@ -17293,8 +17328,8 @@
 1343100 5 partie
 1343100 6 espace
 1343100 6 place (espace libre)
-1343100 7 sur quoi
-1343100 7 en conséquence de quoi
+1343100 7 après quoi
+1343100 7 par conséquence
 1343100 8 sur le point de
 1343100 9 venait de faire
 1343100 9 était en train de faire
@@ -19953,8 +19988,7 @@
 1374700 0 restriction
 1374800 0 punition
 1374800 0 sanction
-1374810 0 créer
-1374810 0 produire (un film)
+1374810 0 œuvre (film, livre)
 1374850 0 empêchement
 1374850 0 interdiction
 1374870 0 établir
@@ -20523,7 +20557,7 @@
 1380610 0 fabrication de chaussures
 1380630 0 sidérurgie
 1380640 0 aciérie
-1380650 0 manufacture
+1380650 0 fabrication
 1380650 0 production
 1380670 0 dessin
 1380670 0 plan
@@ -20603,6 +20637,7 @@
 1381750 0 jeunes
 1381760 0 blême
 1381760 0 pâle
+1381760 1 blanc bleuté
 1381770 0 légumes
 1381770 1 herbes (comestibles, potagères)
 1381780 0 œdème
@@ -20625,6 +20660,7 @@
 1381970 0 nature morte
 1381980 0 veine (vaisseau)
 1382090 0 douane
+1382090 0 bureau des douanes
 1382100 0 impôt
 1382100 0 taxe
 1382130 0 système fiscal
@@ -21276,7 +21312,7 @@
 1390020 0 cours d'eau
 1390020 0 fleuve
 1390020 0 rivière
-1390020 1 rivière (suffixe utilisé avec les noms des rivières)
+1390020 1 rivière (suffixe utilisé avec les noms de rivières)
 1390040 0 le long de la rivière
 1390050 0 aval
 1390060 0 berge
@@ -21482,11 +21518,13 @@
 1392580 0 auparavant
 1392580 0 avant
 1392580 0 précédent
-1392580 0 moins (5 heures moins 10)
-1392580 1 devant
+1392580 0 moins (par ex. 5 heures moins 10)
+1392580 1 en face (de)
+1392580 1 devant (par ex. la maison)
 1392580 2 tête (de ligne)
+1392580 2 avant (par ex. d'un bus)
+1392580 2 partie antérieure
 1392580 3 en présence de
-1392580 4 fois (resservice à table)
 1392580 4 portion
 1392580 5 parties intimes
 1392580 5 parties génitales
@@ -21596,6 +21634,7 @@
 1395390 0 destruction complète (par le feu)
 1395410 0 en pied (portrait)
 1395410 0 le corps tout entier
+1395410 1 systémique
 1395560 0 au plus haut de sa prospérité
 1395560 0 florissant
 1395620 0 pas du tout (avec une forme négative)
@@ -21614,10 +21653,10 @@
 1396020 0 universel
 1396080 0 général
 1396080 0 universel
-1396130 0 entièrement
+1396130 0 tout
 1396130 0 intégralité
 1396130 0 totalité
-1396130 0 tout
+1396130 0 entièreté
 1396240 0 être anéanti
 1396240 0 être détruit
 1396300 0 complètement
@@ -21849,9 +21888,11 @@
 1398300 0 secte Sokagakkai
 1398320 0 fondation (d'un journal)
 1398320 0 premier numéro
-1398420 0 création littéraire
 1398420 0 production
+1398420 0 création littéraire
 1398420 0 travail
+1398420 0 œuvre
+1398420 0 ouvrage
 1398560 0 création
 1398640 0 établissement
 1398640 0 fondement
@@ -22084,6 +22125,8 @@
 1401350 0 complice
 1401350 0 partenaire
 1401360 0 combat de sumo
+1401360 1 lutteur
+1401360 1 rikishi
 1401380 0 lutteur de sumo
 1401400 0 fenêtre
 1401420 0 guichet
@@ -22134,7 +22177,8 @@
 1401980 0 manuscrit
 1402000 0 écriture cursive
 1402000 0 kanji en forme d'herbe
-1402060 0 sandale de paille
+1402060 0 zori
+1402060 0 sandales japonaises
 1402110 0 gravité
 1402110 0 sérieux
 1402110 0 solennité
@@ -22175,7 +22219,8 @@
 1402540 3 battre en retraite (au combat)
 1402540 3 s'enfuir
 1402540 4 s'enfuir de la maison
-1402540 5 s'enfuir ensemble
+1402540 5 s'échapper
+1402540 5 faire une fugue
 1402540 6 avoir une forte tendance à
 1402580 0 durée du parcours
 1402620 0 piste de course
@@ -22225,6 +22270,9 @@
 1402980 0 aiguilles de glace
 1403000 0 agité
 1403000 0 bruyant
+1403000 1 troublé (pour une ère, etc.)
+1403000 1 agité
+1403000 1 mouvementé
 1403020 0 agitation
 1403020 0 bruit
 1403020 0 tapage
@@ -22720,6 +22768,8 @@
 1408970 0 contusion
 1408990 0 barre
 1408990 0 gouvernail
+1409000 0 ellipse
+1409000 0 ovale
 1409020 0 sucreries bon marché
 1409040 0 mauvais travail
 1409040 0 saloperie
@@ -23258,6 +23308,7 @@
 1415070 0 grosse somme d'argent/somme importante
 1415080 0 maître
 1415080 0 seigneur féodal japonais
+1415090 0 grand arbre
 1415150 0 continent
 1415150 1 Asie continentale (en part. la Chine continentale)
 1415150 2 Europe continentale
@@ -23287,6 +23338,7 @@
 1415480 0 thème
 1415490 0 titre
 1415520 0 cascade
+1415520 1 rapides
 1415530 0 haut de cascade
 1415550 0 bassin sous cascade
 1415560 0 (poisson) remontée de cascade
@@ -24690,8 +24742,10 @@
 1430610 3 à deux pas
 1430610 3 juste (devant, à coté...)
 1430610 3 tout près
-1430620 0 instantanément
+1430620 0 aussitôt
 1430620 0 immédiatement
+1430620 0 sur le champ
+1430620 0 tout de suite
 1430670 0 aussitôt
 1430670 0 directement
 1430670 0 en personne(?)
@@ -26486,10 +26540,13 @@
 1451330 0 mouvement
 1451330 0 orientation
 1451330 0 tendance
-1451350 0 comportement
+1451350 0 action
+1451350 0 mouvements
+1451350 0 motion
 1451350 0 geste
+1451350 0 comportement
+1451350 0 exécution
 1451350 0 manières
-1451350 0 mouvement
 1451380 0 verbe (grammaire)
 1451410 0 la faune et la flore
 1451470 0 animal
@@ -26998,13 +27055,16 @@
 1459870 0 Sud
 1459980 0 latitude sud
 1460180 0 pôle sud/Antarctique
+1460180 1 l'Antarctique
 1460200 0 cercle Antarctique
 1460280 0 entrée sud
 1460500 0 barbares (envahisseurs) du sud
 1460500 1 piment
 1460530 0 Sud
 1460570 0 Amérique du sud
-1460600 0 nord-sud
+1460600 0 le Nord et le Sud
+1460600 0 du nord au sud
+1460600 1 Corée du Sud et Corée du Nord
 1460730 0 mou/tendre/souple/doux
 1460740 0 ramollissement/assouplissement/adoucissement
 1460760 0 cartilage
@@ -27109,6 +27169,8 @@
 1463800 0 coucher du soleil
 1463830 0 Japon-URSS
 1463840 0 ombre
+1463840 1 ensoleillement
+1463840 1 lumière du soleil
 1463860 0 chose faite chaque jour
 1463860 0 routine
 1463880 0 quotidien (parution)
@@ -27154,6 +27216,7 @@
 1464540 0 traitement de texte en japonais
 1464630 0 histoire du japon
 1464640 0 papier japonais
+1464650 0 style japonais
 1464670 0 alcool de riz japonais
 1464670 0 saké
 1464700 0 japonais(e)
@@ -27204,7 +27267,7 @@
 1465610 3 inclure
 1465610 4 payer (son loyer, etc.)
 1465610 5 mettre dans l'urne (un bulletin de vote)
-1465610 6 préparer (thé, café, etc.)
+1465610 6 préparer (du thé, du café, etc.)
 1465610 7 actionner (un interrupteur, etc.)
 1465610 7 allumer
 1465610 7 mettre en marche
@@ -27365,7 +27428,7 @@
 1467710 3 manie
 1467710 3 vogue
 1467710 3 rage
-1467720 0 chaud (objet)
+1467720 0 (objet) chaud
 1467720 1 passionnés (des sentiments, etc.) 
 1467720 1 ardent
 1467720 1 brulant (un regard, etc.)
@@ -27581,8 +27644,9 @@
 1470710 0 produit agricole
 1470720 0 ferme
 1470720 0 plantation
-1470730 0 village agricole
-1470730 0 village rural
+1470730 0 communauté agricole
+1470730 0 village fermier
+1470730 1 rural
 1470740 0 champs
 1470740 0 terres cultivées
 1470750 0 serf
@@ -27859,7 +27923,7 @@
 1473740 0 acheter
 1473740 1 valoriser
 1473740 1 avoir une haute opinion
-1473740 2 agacer
+1473740 2 inciter
 1473740 2 provoquer
 1473780 0 acheter
 1473780 0 corrompre
@@ -28061,6 +28125,9 @@
 1477090 0 écuelle
 1477090 0 bol
 1477090 0 pot
+1477090 1 pot de fleur
+1477090 2 couronne
+1477090 2 crâne
 1477120 0 départ
 1477120 1 commencement
 1477120 1 début
@@ -28639,6 +28706,8 @@
 1483160 0 lui
 1483180 0 là-bas
 1483185 0 par là (direction distante à la fois du locuteur et de l'auditeur)
+1483185 0 là bas
+1483185 0 là
 1483185 1 celui-là (quelque chose physiquement éloigné du locuteur et de l'auditeur, ou quelque chose non visible mais connu à la fois par le locuteur et l'auditeur)
 1483185 1 ça
 1483185 1 cela
@@ -30824,10 +30893,17 @@
 1512080 2 vers
 1512080 3 par exemple
 1512110 0 région éloignée
-1512130 0 rendre
-1512130 1 rendre
+1512130 0 rendre (quelque chose)
+1512130 0 reporter (quelque chose)
+1512130 0 rapporter
+1512130 0 renvoyer
+1512130 0 restaurer
+1512130 0 remettre à sa place
+1512130 1 tourner
+1512130 1 retourner
+1512130 1 renverser
+1512130 1 mettre à l'envers
 1512130 1 mettre sens dessus dessous
-1512130 1 se retourner
 1512130 2 rembourser
 1512130 2 riposter
 1512130 2 rendre la pareille
@@ -30874,6 +30950,7 @@
 1512640 0 papier a lettre
 1512660 0 études
 1512670 0 études
+1512670 1 diligence
 1512670 1 assiduité
 1512670 2 rabais
 1512670 2 réduction
@@ -32401,7 +32478,7 @@
 1531440 0 morceau célèbre (musique)
 1531490 0 bien connu
 1531490 0 célèbre
-1531500 0 chef d'œuvre
+1531500 0 chef-d'œuvre
 1531510 0 badge
 1531510 0 plaque
 1531530 0 restes
@@ -35414,7 +35491,8 @@
 1576590 0 cercle
 1576590 0 de forme arrondie
 1576590 1 de forme circulaire (comme le boulevard)
-1576630 0 sel
+1576630 0 sel (c.-à-d. chlorure de sodium)
+1576630 0 sel ordinaire
 1576630 0 sel de table
 1576630 1 sel (chlorure de sodium, sulfate de calcium, etc.)
 1576630 2 épreuve
@@ -35536,7 +35614,7 @@
 1577870 0 jour de chance
 1577900 0 éternité
 1577930 0 station service
-1577980 0 être (êtres animés)
+1577980 0 être (pour les êtres animés)
 1577980 0 exister
 1577980 1 rester
 1577980 2 (après la forme en -te d'un verbe) indique une action ou un état pas encore terminé (par ex. être en train de..., avoir été en train de...)
@@ -36140,7 +36218,9 @@
 1582880 0 doyen
 1582890 0 chronologie
 1582900 0 brûler
-1582920 0 ceci
+1582920 0 ce (quelque chose ou quelqu'un proche du locuteur (incluant le locuteur), ou des idées exprimés par le locuteur)
+1582920 0 celui-ci
+1582920 0 celui-là
 1582940 0 poste de police
 1582960 0 saison des pluies (au Japon de début Juin à mi-Juillet)
 1582960 1 pluie durant la saison des pluies
@@ -36184,7 +36264,7 @@
 1583300 0 saignement de nez
 1583320 0 papier de soie
 1583370 0 compteur pour les petits animaux
-1583370 1 compteur pour rouleaux de tissu
+1583370 1 compteur pour rouleaux de tissu (ayant une taille de deux han)
 1583370 2 compteur pour chevaux
 1583370 3 rouleau de tissu
 1583390 0 (numéral pour les sacs)
@@ -36334,10 +36414,12 @@
 1584380 0 le plus jeune enfant
 1584460 0 10000
 1584460 0 dix mille
-1584460 1 innombrables
+1584460 1 myriade
+1584460 1 innombrable
 1584460 2 tout
 1584460 2 totalité
 1584460 3 divers
+1584460 3 varié
 1584500 0 tout le monde
 1584500 1 10 000 personnes
 1584510 0 perfection
@@ -37923,19 +38005,16 @@
 1597860 0 au fur et à mesure
 1597860 0 les un(e)s après les autres
 1597860 0 successivement
-1597890 0 élaborer
-1597890 0 établir
-1597890 0 ajuster
-1597890 0 construire
-1597890 0 créer
-1597890 0 cultiver
-1597890 0 fabriquer
-1597890 0 organiser
-1597890 0 préparer
+1597890 0 faire
 1597890 0 produire
+1597890 0 fabriquer
+1597890 0 confectionner
+1597890 0 construire
+1597890 0 bâtir
+1597890 0 élaborer
 1597890 0 réaliser
-1597890 1 préparer (nourriture)
-1597890 1 brasser (boisson alcoolisée)
+1597890 1 préparer (de la nourriture)
+1597890 1 brasser (une boisson alcoolisée)
 1597890 10 former (une ligne, etc.)
 1597890 11 établir (un record)
 1597890 12 commettre (un péché, etc.)
@@ -37943,9 +38022,10 @@
 1597890 2 éduquer
 1597890 2 cultiver
 1597890 2 entraîner
+1597890 2 former
 1597890 3 labourer
-1597890 4 rédiger (un document)
-1597890 4 produire
+1597890 4 rédiger
+1597890 4 dresser (un document)
 1597890 4 préparer
 1597890 4 écrire
 1597890 5 créer (une œuvre d'art, etc.)
@@ -37955,10 +38035,9 @@
 1597890 6 établir
 1597890 6 fonder
 1597890 7 faire (un enfant)
-1597890 7 donner naissance
 1597890 8 se maquiller
-1597890 9 forger (une excuse, etc.)
-1597890 9 fabriquer
+1597890 9 inventer (une excuse, etc.)
+1597890 9 forger
 1597990 0 à travers tout le pays
 1597990 0 sur tout le pays
 1598000 0 être précautionneux
@@ -40596,13 +40675,11 @@
 2020680 1 temps (spécifié)
 2020680 1 quand...
 2020680 1 durant...
-2022640 0 suffixe qui, placé après un nombre, le transforme en nombre ou adjectif ordinal
-2022640 0 (derrière un nombre) numéro
-2022640 1 tour (c'est mon tour)
-2022640 2 tour de veille
-2022640 2 gardien
-2022640 2 vigile
-2022640 2 sentinelle
+2022640 0 nombre (dans une série)
+2022640 1 (son) tour
+2022640 2 surveillance
+2022640 2 garde
+2022640 2 guet
 2022640 3 combat
 2022640 3 match
 2026870 0 plus (accentuation)
