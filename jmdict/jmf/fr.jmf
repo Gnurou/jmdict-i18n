@@ -11162,6 +11162,10 @@
 1261090 0 sénateur
 1261140 0 champ
 1261140 0 prairie
+1261140 0 plaine
+1261140 0 toundra
+1261140 0 lande
+1261140 0 milieu sauvage
 1261150 0 champs ouverts
 1261150 0 parcelle de terrain libre
 1261150 0 plaine
@@ -30478,7 +30482,17 @@
 1505060 0 conflit
 1505060 0 différend
 1505060 0 litige
+1505070 0 humeur
 1505070 0 ambiance
+1505070 0 atmosphère
+1505070 0 halo
+1505070 0 sensation
+1505070 1 un certain air
+1505070 1 présence
+1505070 1 aura particulière
+1505070 1 quelque chose (chez quelqu'un)
+1505070 2 air
+1505070 2 atmosphère
 1505080 0 écrits
 1505080 0 lettre (postale)
 1505090 0 phrase
@@ -36469,6 +36483,8 @@
 1584800 0 porte
 1584800 1 discipline fondée sur les enseignements d'un maître unique
 1584800 2 division
+1584800 2 embranchement
+1584800 2 phylum
 1584800 3 compteur pour les canons
 1584820 0 se promener le soir
 1584820 0 train de nuit
