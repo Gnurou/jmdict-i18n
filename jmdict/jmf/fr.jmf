@@ -5081,6 +5081,8 @@
 1186260 0 œuvre sous-tendant (une œuvre plus récente)
 1186260 0 sous-* (objet mis à plat sous quelque chose)
 1186260 0 sous-main
+1186260 2 modèle
+1186260 2 patron
 1186540 0 diarrhée
 1186560 0 aval (rivière)
 1186560 0 couche basse
@@ -5091,6 +5093,7 @@
 1186710 0 se transformer
 1186760 0 chimie
 1186760 1 entreprise de produits chimiques (par ex. entreprise de produits chimique Acme)
+1186940 0 armes chimiques
 1186980 0 combinaison chimique
 1187020 0 lavabos
 1187020 0 toilettes
@@ -5110,6 +5113,8 @@
 1187290 0 temporaire
 1187300 0 en supposant que
 1187300 0 si
+1187610 0 nom temporaire
+1187610 0 nom provisoire
 1187790 0 déguisement
 1187790 0 mascarade
 1187870 0 hypothése
@@ -5147,6 +5152,7 @@
 1188530 0 le plus
 1188530 0 le plus important
 1188630 0 lequel (emphatique)
+1188650 0 combien de fois ?
 1188680 0 innocemment
 1188680 0 non intentionnellement
 1188680 0 par inadvertance
@@ -5175,7 +5181,7 @@
 1188890 0 à chaque fois
 1188890 1 jamais
 1188950 0 combien de temps
-1188960 0 quand à peu près
+1188960 0 à peu près quand
 1189000 0 quelque part
 1189000 0 n'importe où
 1189000 0 à certains égards
@@ -5222,6 +5228,9 @@
 1189760 0 travail exceptionnel
 1189810 0 belle femme
 1189820 0 il est rare d'allier la beauté et la chance
+1189940 0 addition
+1189940 0 augmentation
+1189940 1 Canada
 1189960 0 ajouter
 1189960 0 additionner
 1189960 0 accumuler
@@ -5471,6 +5480,7 @@
 1194290 0 mardi
 1194300 0 à vapeur
 1194300 0 énergie thermique
+1194300 1 puissance de feu
 1194360 0 (à l'origine) braséro posé dans un trou dans le plancher
 1194360 0 table basse à radiateur
 1194410 0 racine du mal
@@ -5615,6 +5625,8 @@
 1196030 2 prétérit
 1196030 2 passé simple
 1196030 3 vie antérieure
+1196060 0 extrême
+1196060 0 radical
 1196070 0 extrémistes
 1196070 0 partie radical
 1196120 0 accident
@@ -5622,6 +5634,8 @@
 1196120 0 gaffe
 1196120 1 faute
 1196120 1 défaut
+1196150 0 sous-estimation
+1196150 0 sous-évaluation
 1196170 0 excès
 1196220 0 dépeuplement
 1196270 0 processus
@@ -5843,6 +5857,7 @@
 1199400 0 récurrence
 1199400 0 récursion
 1199400 0 révolution
+1199400 1 régression
 1199430 0 islam
 1199440 0 évocation
 1199440 0 rétrospection
@@ -5855,6 +5870,8 @@
 1199510 0 fréquence
 1199510 0 nombre de fois
 1199520 0 carnet (de tickets)
+1199570 0 circuit
+1199570 0 ligne
 1199590 0 mémoire
 1199590 0 souvenir
 1199610 0 réexpédition
@@ -5946,6 +5963,8 @@
 1200600 0 torche électrique
 1200650 0 donner un avertissement
 1200650 0 donner un conseil
+1200650 1 interdire
+1200650 3 punire
 1200700 0 précepte
 1200710 0 partir avec la caisse
 1200710 0 s'enfuir en volant de l'argent
@@ -6020,6 +6039,7 @@
 1201600 0 pirate
 1201620 0 algue séchée
 1201650 0 fond de la mer
+1201650 1 sous-marin
 1201680 0 accident en mer
 1201680 0 naufrage
 1201700 0 altitude
@@ -6360,6 +6380,7 @@
 1205490 1 exceptionnellement
 1205510 0 noyau
 1205510 0 nucleus
+1205580 0 essai nucléaire
 1205590 0 cœur
 1205590 0 noyau
 1205630 0 combustible nucléaire
@@ -6474,6 +6495,8 @@
 1206530 0 étudier en profondeur, à fond
 1206540 0 diplôme universitaire
 1206540 0 titre universitaire
+1206560 0 institut
+1206560 0 académie
 1206570 0 école
 1206570 0 établissement d'enseignement
 1206570 0 campus
@@ -7637,6 +7660,13 @@
 1219560 0 envoyer (?)
 1219560 0 mettre de côté
 1219560 0 rassembler
+1219560 1 approcher
+1219560 1 rapprocher
+1219560 1 rassembler
+1219560 3 laisser quelqu'un rendre visite
+1219560 4 additionner
+1219560 7 utiliser comme prétexte
+1219560 8 mettre de côté
 1219580 0 mélange
 1219580 0 pot-pourri
 1219630 0 réunir
@@ -34780,6 +34810,9 @@
 1557630 0 zéro
 1557640 0 répandre
 1557640 0 verser
+1557640 1 ronchonner
+1557640 1 se plaindre
+1557640 2 laisser paraître ses sentiments
 1557650 0 déborder
 1557660 0 en-dessous de zero degrés C°
 1557680 0 insignifiant
@@ -35026,6 +35059,10 @@
 1561920 0 harmonie
 1561920 0 somme
 1561920 0 union
+1561920 1 harmonie
+1561920 1 paix
+1561920 2 Japon
+1561920 2 de style japonais
 1561930 0 s'adoucir
 1561930 0 s'apaiser
 1561930 0 se calmer
@@ -35058,9 +35095,11 @@
 1562200 0 texte japonais
 1562210 0 paix
 1562290 0 un mélange des style japonais et occidentaux
-1562300 0 aborder
-1562300 0 accoster qqn
-1562300 0 adresser la parole à qqn
+1562300 0 s'adresser (à quelqu'un)
+1562300 0 accoster une personne
+1562300 0 parler (à quelqu'un)
+1562300 1 commencer à parler
+1562300 1 engager une conversation
 1562310 0 discuter
 1562320 0 être en pleine conversation
 1562320 0 bavarder longtemps
@@ -35107,14 +35146,14 @@
 1562670 0 excuses
 1562710 0 chaume
 1562710 0 paille
-1562780 0 bol (soupe japonaise)
-1562780 0 sébile (bol en bois)
+1562780 0 bol (en bois)
 1562790 0 cueillir
 1562800 0 anse
 1562800 0 baie
 1562800 0 crique
 1562800 0 golfe
 1562820 0 courbe
+1562840 0 bol (en céramique ou porcelaine)
 1562850 0 avant-bras
 1562850 0 bras
 1562850 1 compétence
@@ -35132,6 +35171,7 @@
 1562960 0 bracelet
 1562970 0 bol de porcelaine
 1562970 0 bol de riz avec une garniture dessus
+1562970 1 bol de riz avec de la nourriture par dessus
 1563040 0 faire allusion à
 1563040 0 insinuer
 1563040 0 laisser entendre
@@ -35255,12 +35295,11 @@
 1567450 0 pickpocket
 1567460 0 loi
 1567460 0 règle
-1567610 0 chiffonner
-1567610 0 entraîner
-1567610 0 froisser (papier)
-1567610 0 frotter
-1567610 0 masser
-1567610 0 s'inquiéter
+1567610 0 frictionner
+1567610 0 froisser
+1567610 1 masser
+1567610 3 entraîner
+1567610 3 donner des leçons
 1567630 0 se brouiller
 1567630 0 se disputer
 1567650 0 ridiculiser
@@ -35278,6 +35317,7 @@
 1567920 0 imprécis
 1567920 0 obscur
 1567920 0 vague
+1567920 1 flou
 1568280 0 écriture d'imprimerie (kanjis)
 1568410 0 bergerie
 1568410 0 cage
@@ -35365,6 +35405,7 @@
 1571320 0 sucer (bonbon)
 1571460 0 fraise
 1571470 0 faire bouillir
+1571470 0 cuire à l'eau bouillante
 1571560 0 natte
 1571560 0 paillasson
 1571760 0 rose
@@ -35406,6 +35447,7 @@
 1573400 0 échouer
 1573400 0 faire erreur
 1573400 0 trébucher
+1573400 1 échouer
 1573410 0 éducation
 1573410 0 discipline familiale
 1573650 0 de forte carrure
@@ -35419,7 +35461,8 @@
 1574220 0 balancement
 1574310 0 acquiescer
 1574430 0 gyôza (sorte de ravioli chinois en forme de croissant et garni de porc émincé, chou chinois, oignon et ail odoriférant. faire dégorger le chou émincé dans du sel avant de le mélanger au reste)
-1574470 0 nouilles (japonaises, de blé)
+1574470 0 udon
+1574470 0 nouilles de blé japonaises épaisses
 1574550 0 abuser
 1574550 0 escroquer
 1574550 0 tricher
@@ -35709,6 +35752,7 @@
 1578780 0 érable
 1578780 0 couleurs d'automne
 1578780 1 feuillage jaunie
+1578780 4 venaison
 1578790 0 déplacement
 1578790 0 un aller (sans retour)
 1578790 0 voyage
@@ -35831,6 +35875,11 @@
 1579780 0 maître
 1579780 0 propriétaire
 1579780 0 son mari
+1579780 1 (mon) mari
+1579780 2 (mon) employeur
+1579780 2 (mon) maître
+1579780 3 hôte
+1579780 3 hôtesse
 1579800 0 étude
 1579800 0 apprentissage
 1579800 0 discipline
@@ -35891,6 +35940,7 @@
 1580270 0 commerçant
 1580270 0 marchand
 1580280 0 urine
+1580280 1 rompre un contrat
 1580290 0 fille
 1580290 0 fillette
 1580290 0 jeune fille
@@ -35939,6 +35989,8 @@
 1580600 1 honnête
 1580600 1 franc
 1580620 0 blanc immaculé
+1580620 1 vierge (papier)
+1580620 1 vide (esprit)
 1580640 0 homme
 1580640 0 messager
 1580640 0 personnage
@@ -36710,6 +36762,7 @@
 1587290 3 avoir (comme chef)
 1587290 3 vivre sous (la coupe de)
 1587290 3 installer (un président)
+1587290 4 obtenir de quelqu'un qu'il fasse quelque chose
 1587300 0 douleur
 1587300 0 mal
 1587300 0 endolorissement
@@ -37205,6 +37258,7 @@
 1590870 0 vital
 1590950 0 (porter un) toast
 1590950 0 Santé!
+1590950 2 tchin-tchin
 1590970 0 parfait
 1591040 0 faim et soif
 1591040 0 famine
@@ -38099,7 +38153,10 @@
 1598300 0 prise (escalade)
 1598320 0 garde-fou
 1598320 0 rampe
-1598330 0 carnet de note
+1598330 0 carnet
+1598330 0 calepin
+1598330 0 agenda de poche
+1598330 1 certificat
 1598340 0 se consacrer entièrement à
 1598340 0 se vouer à
 1598350 0 formalité
@@ -40199,7 +40256,10 @@
 1612020 0 irréprochable
 1612020 0 parfait
 1612030 0 je ne sais comment m'excuser
-1612040 0 inexcusable
+1612040 0 je vous demande pardon
+1612040 0 je n'ai pas d'excuses
+1612040 0 je suis désolé
+1612040 0 je me sens coupable
 1612050 0 au cas où
 1612050 0 si
 1612060 0 charge
@@ -40326,6 +40386,7 @@
 1612680 0 congé
 1612680 0 repos
 1612680 1 "Bonne nuit"
+1612680 2 Bonne nuit
 1612690 0 être
 1612690 0 exister
 1612700 0 (la chose)-mêe
@@ -40349,6 +40410,7 @@
 1612770 0 fête
 1612780 0 bonjour
 1612780 0 bonsoir (lorsque l'on s'adresse a une personne qui rentre)
+1612780 1 bienvenue à la maison
 1612790 0 étrange
 1612790 0 ridicule
 1612800 0 un autre plat
@@ -40427,6 +40489,7 @@
 1620810 0 de petite taille
 1621470 0 métropolitain
 1621470 0 municipal
+1622630 0 eau souterraine
 1625780 0 Comment allez-vous ?
 1625780 0 Enchanté
 1627320 0 vagues dans un champ de blé
@@ -40566,9 +40629,11 @@
 1858120 0 n'importe quelle quantité
 1875990 0 accords de paix
 1875990 0 paix
+1888910 0 il y a deux semaines
 1894690 0 continuation
 1894690 0 continuité
 1894690 0 suite
+1912410 0 examen blanc
 1919590 0 classe (par ex. d'école)
 1919590 0 grade
 1919590 0 rang
@@ -40686,6 +40751,8 @@
 2019640 0 coupe (pour boissons alcoolisées)
 2019640 1 compteur pour les tasses pleines
 2019640 2 compteur pour les bateaux, pieuvres et calmars
+2020140 0 je m'en vais
+2020140 0 à plus tard
 2020680 0 heure (durée)
 2020680 0 heures (à la pendule)
 2020680 1 temps (spécifié)
@@ -40751,6 +40818,14 @@
 2028970 6 de cette façon
 2028970 6 de cette manière
 2029080 0 oui vraiment
+2036370 0 image
+2036370 0 dessin
+2036370 0 peinture
+2036370 0 croquis
+2037700 0 occasion
+2037700 0 opportunité
+2037700 1 machine
+2037700 2 avion
 2037700 3 compteur d'avions
 2037700 4 compteur de vies restantes (dans les jeux vidéos)
 2038290 0 compteur de bateaux
@@ -40779,6 +40854,7 @@
 2069620 2 quoi ?
 2069620 2 hein ?
 2069620 3 soupir
+2074820 4 le vide (l'un des cinq éléments)
 2077160 0 compteur pour les (petits) bateaux
 2078590 0 compteur pour les bâtiments  (en part. les maisons)
 2078590 1 suffixe pour un nom de plume, nom de scène, etc.
@@ -40801,9 +40877,23 @@
 2080210 3 loin du palais impérial (c.-à-d. loin de Kyoto, en part. de l'ouest du Japon)
 2080210 4 cochon (par ex. pour une blague)
 2080530 0 non
+2080720 0 les deux (par ex. les deux épaules)
+2080720 1 ryô (unité de monnaie obsolète)
+2080720 2 ryô (41-42g, un seizième de kin)
+2080720 3 2 tan (unité de mesure de tissu)
+2080720 4 spécifique numéral pour les voitures (par ex. dans un train)
+2080720 4 spécifique numéral pour les véhicules
+2080730 0 guerre
+2080730 0 bataille
+2080730 1 match
+2080730 1 compétition
+2080900 0 Histoire
 2081300 0 chaud
 2081300 0 doux
 2081300 0 agréable
+2081540 0 ministère
+2081540 0 département
+2081540 1 province (de Chine)
 2081570 0 impôt
 2081570 0 taxe
 2082160 0 magasin (de quelque chose)
@@ -40834,7 +40924,12 @@
 2084840 1 compteur pour les années
 2085080 0 comme ça (utilisé pour quelque chose ou quelqu'un éloigné de l'orateur et de l'auditeur)
 2085080 0 ainsi
-2085760 0 îles (dans les noms de lieux)
+2085690 0 Mt.
+2085690 0 Mont
+2085690 1 Mt.
+2085690 1 Mont
+2085750 0 port
+2085760 0 île
 2086640 0 (à la fin d'une phrase) indique l'une (de plusieurs) raisons
 2087990 0 lac (dans les noms de lieu)
 2088240 0 vie
