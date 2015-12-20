@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2015-12-12 03:25:08+0000\n"
+"POT-Creation-Date: 2015-12-20 03:11:20+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13818,10 +13818,12 @@ msgstr ""
 "à l'est\n"
 "orient"
 
+#, fuzzy
 msgctxt "1448330 0"
 msgid ""
 "桃色\tももいろ\n"
-"pink (colour, color)"
+"pink (colour, color)\n"
+"colour of peach (flowers)"
 msgstr "rose (couleur)"
 
 msgctxt "1448450 0"
@@ -14377,11 +14379,13 @@ msgstr ""
 "épée japonaise\n"
 "katana"
 
+#, fuzzy
 msgctxt "1465350 0"
 msgid ""
 "乳母車\tうばぐるま\n"
 "baby carriage\n"
-"perambulator"
+"perambulator\n"
+"pram"
 msgstr "poussette"
 
 #, fuzzy

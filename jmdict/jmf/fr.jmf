@@ -625,6 +625,7 @@
 1005580 0 souvent
 1005580 0 encore et encore
 1005580 0 fréquemment
+1005580 0 à plusieurs reprises
 1005600 0 merde !
 1005600 0 zut !
 1005600 0 oups !
@@ -3851,6 +3852,10 @@
 1165690 0 une part
 1165700 0 une nuit (d'hôtel)
 1165700 0 une nuitée
+1165730 2 coup de circuit
+1165730 2 home run
+1165730 3 essai
+1165730 3 tentative
 1165790 0 général
 1165790 0 universel
 1165790 1 ordinaire
@@ -3919,6 +3924,8 @@
 1166510 3 en permanence...
 1166510 3 ne faire que...
 1166510 3 seulement
+1166560 0 unilatéral
+1166560 0 arbitraire
 1166600 1 une version
 1166600 2 un livre
 1166600 2 un certain livre
@@ -4124,6 +4131,7 @@
 1169990 0 boisson
 1170000 0 eau (à boire)
 1170000 0 eau potable
+1170210 0 directeur (d'école, d'hôpital)
 1170280 0 mélancolique
 1170280 0 obscure
 1170280 0 sombre
@@ -4131,7 +4139,7 @@
 1170380 0 négatif (attitude, réaction)
 1170500 0 complot
 1170500 0 conspiration
-1170570 0 issue dérobée
+1170570 0 tiroir secrêt
 1170580 0 talent caché
 1170650 0 cacher
 1170650 0 dissimuler
@@ -4172,6 +4180,7 @@
 1171230 1 style de musique de court japonaise, aussi uhoukomagaku
 1171270 0 aile droite (politique)
 1171270 1 groupe d'extrême droite
+1171270 2 aile droite (avion, oiseau, etc.)
 1171270 3 champ droit
 1171270 3 flanc droit
 1171270 3 aile droite
@@ -4800,6 +4809,7 @@
 1180990 0 largeur
 1181020 0 écriture à l'Européenne
 1181020 0 écriture horizontale
+1181020 1 langue occidentale
 1181030 0 arrogance
 1181030 0 hauteur
 1181030 0 insolence
@@ -4847,6 +4857,7 @@
 1182500 0 pleine mer
 1182520 0 période, ère alluviale (géologie)
 1182530 0 période, ère alluviale (géologie)
+1182580 1 Okinawa (ville)
 1182620 0 10^8
 1182620 0 100 000 000
 1182620 0 cent millions
@@ -7095,7 +7106,7 @@
 1213210 0 dynastie Han
 1213220 0 littérature chinoise (classique)
 1213220 0 texte chinois
-1213240 0 médicament à base d'herbe
+1213240 0 herbe médicinale chinoise
 1213260 0 Chine et Japon
 1213260 1 chinois et japonais (comme langues)
 1213260 2 dictionnaire des caractères chinois-japonais
@@ -7103,6 +7114,7 @@
 1213280 0 environnement
 1213280 0 milieu
 1213280 0 situation
+1213310 0 Ministère de l'Environnement
 1213370 0 atoll
 1213370 0 récif corallien circulaire
 1213380 0 annulaire
@@ -7143,6 +7155,8 @@
 1213590 0 édulcorant
 1213610 0 emprisonnement
 1213620 0 prison
+1213650 0 auditeur
+1213650 0 inspecteur
 1213680 0 garde
 1213680 0 observation
 1213680 0 surveillance
@@ -7240,12 +7254,14 @@
 1214570 0 ouvre-boîtes
 1214630 0 courage
 1214630 0 foie
+1214640 0 hépatite
 1214650 0 cirrhose du foie
 1214660 0 foie
 1214670 0 huile de foie de morue
 1214680 0 essentiel
 1214680 0 important
 1214680 0 principal
+1214690 0 navire de guerre
 1214740 0 escadrille
 1214740 0 flotte
 1214760 0 flotte de guerre
@@ -7396,6 +7412,7 @@
 1216150 0 reddition
 1216160 0 piège
 1216160 0 trappe
+1216170 1 Empire de Corée (1897-1910)
 1216250 0 cercle
 1216250 0 rond
 1216250 1 intégralité
@@ -7625,6 +7642,7 @@
 1219110 0 base
 1219130 0 idée dominante
 1219130 0 ton dominant
+1219130 1 tendance
 1219170 0 fondation
 1219170 0 fondement
 1219170 0 base
@@ -7791,6 +7809,7 @@
 1220670 0 abstention (vote)
 1220670 0 renoncement à un droit
 1220760 0 métier à tisser
+1220770 0 opportunité
 1220800 0 chance
 1220800 0 opportunité
 1220810 0 mécanisme
@@ -8126,6 +8145,7 @@
 1224220 0 prodige
 1224260 0 tortue
 1224340 0 imitation
+1224340 1 pseudo-
 1224390 0 falsifier
 1224390 0 mentir
 1224390 0 prétendre
@@ -8231,6 +8251,7 @@
 1225870 0 juste indignation
 1225880 0 belle-mère
 1225880 0 mère adoptive
+1225880 2 belle-mère
 1225890 0 belle-sœur cadette (sœur cadette du conjoint ou femme du petit frère)
 1225900 0 devoir
 1225900 0 obligation
@@ -8477,6 +8498,8 @@
 1228260 2 imprégner
 1228260 3 embrasser
 1228270 0 absorption
+1228310 0 vampire
+1228310 0 suceur de sang
 1228330 0 absorption
 1228330 0 attraction
 1228330 0 succion
@@ -8596,6 +8619,7 @@
 1229940 0 bulbe (plante)
 1229940 0 oignon
 1229970 0 stade de base-ball
+1230010 0 équipe de base-ball
 1230040 0 dernier
 1230040 0 final
 1230040 0 ultime
@@ -8696,6 +8720,7 @@
 1232060 0 virtuose
 1232090 0 colosse
 1232090 0 géant
+1232090 1 Tôkyô Giants (équipe de base-ball)
 1232110 0 étoile géante
 1232110 0 grosse pointure
 1232180 0 énorme
@@ -9439,6 +9464,7 @@
 1241310 0 égalité
 1241310 0 parité
 1241320 0 division en parts égales
+1241340 0 brocart
 1241380 0 unité de poids (environ 600 g)
 1241390 0 poids
 1241450 0 koto (harpe japonaise à 13 cordes)
@@ -9468,6 +9494,7 @@
 1241600 0 tabou
 1241660 0 chose interdite
 1241660 0 tabou
+1241670 0 embargo
 1241690 0 Défense de chasser!
 1241690 0 chasse interdite
 1241750 0 muscle
@@ -9663,6 +9690,7 @@
 1243390 0 vérification
 1243410 0 médaille d'argent
 1243440 0 Voie Lactée
+1243440 1 galaxie
 1243450 0 pièce d'argent
 1243490 0 banque
 1243530 0 Ginza (Champs-Elysées de Tokyo)
@@ -9672,6 +9700,7 @@
 1243570 0 coupe en argent
 1243570 0 timbale
 1243600 0 neuf (nombre)
+1243660 0 septembre
 1243710 0 Kyushu (la plus au sud des 4 îles principales du Japon)
 1243850 0 le neuf (du mois)
 1243850 0 le neuvième jour du mois
@@ -9802,6 +9831,7 @@
 1244870 0 détruire
 1244870 0 expulser
 1244870 0 exterminer
+1244930 2 chevalet (de violon, etc.)
 1244950 0 ingrédients
 1244950 0 moyens
 1244950 0 numéral pour armures,costumes, meubles
@@ -9893,6 +9923,7 @@
 1245610 0 taxi libre
 1245610 0 voiture libre
 1245620 0 karaté
+1245620 1 les mains vides
 1245650 0 attaque aérienne
 1245650 0 raid aérien
 1245720 0 futile
@@ -10262,6 +10293,8 @@
 1250870 0 panorama
 1250870 0 paysage
 1250870 0 site
+1250890 0 katsura (Cercidiphyllum japonicum)
+1250890 0 arbre au caramel
 1250940 0 gorge
 1250940 0 ravin
 1250950 0 canyon
@@ -10392,7 +10425,9 @@
 1252310 0 mesures de précaution
 1252310 0 mise en garde
 1252310 0 vigilance
+1252330 0 officier de police
 1252330 0 policier
+1252330 0 gendarme
 1252360 0 avertissement
 1252360 0 avis
 1252390 0 police
@@ -10939,6 +10974,7 @@
 1258570 0 laboratoire
 1258570 1 salle de séminaire
 1258570 2 bureau du professeur
+1258590 0 chercheur
 1258710 0 soie
 1258730 0 articles en soie
 1258740 0 aiguille pour le travail de la soie
@@ -26345,6 +26381,7 @@
 1449530 0 réponse
 1449530 0 solution
 1449540 0 répondre
+1449540 0 répliquer
 1449550 0 copie d'examen
 1449560 0 réponse
 1449560 0 rapport
@@ -26608,13 +26645,16 @@
 1451730 0 ibid
 1451730 0 ledit (ladite,lesdits, lesdites)
 1451730 0 même
-1451750 0 "la même chose"
-1451750 0 égal
-1451750 0 équivalent
-1451750 0 identique
+1451750 0 même
 1451750 0 pareil
-1451750 0 similaire
+1451750 0 identique
+1451750 0 égal
 1451750 0 uniforme
+1451750 0 équivalent
+1451750 0 similaire
+1451750 0 semblable
+1451750 0 commun (par ex. un fondement)
+1451750 0 immuable
 1451750 1 (après un conditionel en 'nara') de toutes façons
 1451750 1 dans tous les cas
 1451850 0 approbation
