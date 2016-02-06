@@ -816,6 +816,8 @@
 1006930 0 mentionné précédemment
 1006950 0 d'abord
 1006950 0 en premier lieu
+1006950 2 début
+1006950 2 commencement
 1006960 0 brise douce
 1006960 0 vent léger
 1006970 0 ça (indique quelque chose ou quelqu'un de proche de l'auditeur, l'action de l'auditeur, ou l'objet de leur pensée) 
@@ -2956,8 +2958,12 @@
 1151260 4 désolé
 1151300 0 désolé mais ...
 1151300 0 ne m'en veuillez pas mais...
+1151390 0 rancune
+1151390 0 malveillance
 1151390 0 mauvaise intention
+1151390 0 méchanceté
 1151390 2 mauvaise intention
+1151390 3 méchanceté
 1151450 0 épidémie
 1151470 0 aggravation
 1151470 0 dégénération
@@ -3015,7 +3021,8 @@
 1152570 0 abus
 1152600 0 mauvaise route
 1152600 0 route défoncée
-1152680 0 nigirizushi (poisson cru au centre d'une boulette de riz)
+1152680 0 nigirizushi
+1152680 0 sushi mis en forme à la main et recouvert de poisson, fruit de mer, etc.
 1152700 0 attraper fermement
 1152720 0 serrer
 1152720 0 saisir
@@ -3029,6 +3036,7 @@
 1152720 2 saisir
 1152730 0 poignée de main
 1152750 0 poigne
+1152820 0 roseau commun (Phragmites australis)
 1153030 0 compression
 1153030 0 pression
 1153040 0 compresseur
@@ -3119,6 +3127,8 @@
 1154230 0 en sécurité
 1154250 0 article économique
 1154250 0 truc bon marché
+1154260 0 traité de coopération mutuelle et de sécurité entre les États-Unis et le Japon
+1154260 0 sécurité
 1154270 0 sommeil calme
 1154270 0 sommeil tranquille
 1154320 0 massage
@@ -3296,6 +3306,13 @@
 1155950 0 enclos
 1155950 0 palissage
 1155960 0 entourer
+1155960 0 encercler
+1155960 0 clôturer
+1155960 0 emmurer
+1155960 2 entretenir (par ex. une maîtresse)
+1155960 3 stocker (des légumes, fruits, etc.)
+1155960 3 conserver
+1155960 4 protéger
 1155980 0 entourer 
 1155980 0 encercler 
 1155980 0 clôturer
@@ -3500,6 +3517,7 @@
 1158450 0 amélioration
 1158460 0 coûts de maintenance
 1158470 0 restauration (de Meiji)
+1158470 1 restauration de Meiji
 1158480 0 parallèle
 1158490 0 latitude
 1158500 0 estomac
@@ -4619,6 +4637,8 @@
 1178840 0 saveur
 1178870 0 contenu en sel
 1178870 0 salé
+1178880 0 goût salé
+1178880 0 salinité
 1178940 0 sale
 1178940 0 malpropre
 1178940 0 répugnant
@@ -4857,6 +4877,8 @@
 1182500 0 pleine mer
 1182520 0 période, ère alluviale (géologie)
 1182530 0 période, ère alluviale (géologie)
+1182580 0 Okinawa (préfecture)
+1182580 0 Région qui regroupe la plupart des îles du Sud-Ouest du Japon (en part. l'île d'Okinawa)
 1182580 1 Okinawa (ville)
 1182620 0 10^8
 1182620 0 100 000 000
@@ -5099,6 +5121,7 @@
 1186560 0 couche basse
 1186560 0 niveau inférieur
 1186560 0 partie "basse" d'une rivière (proche de l'embouchure)
+1186560 1 Classes populaires
 1186710 0 changer en mal
 1186710 0 prendre une autre forme pour se déguiser
 1186710 0 se transformer
@@ -5173,6 +5196,7 @@
 1188740 0 n'importe quoi
 1188740 0 quelque chose
 1188740 0 rien (+nég.)
+1188740 1 rien (avec un verbe au négatif)
 1188760 0 quand
 1188760 0 dans combien de temps
 1188770 0 quelle heure (est-il ?)
@@ -5233,6 +5257,9 @@
 1189500 0 valeur
 1189600 0 mérite
 1189600 0 valeur
+1189610 0 sens des valeurs
+1189610 0 valeurs
+1189610 0 code moral
 1189700 0 chute (d'une blague)
 1189700 0 point culminant (de l'histoire)
 1189760 0 produit de grande qualité
@@ -5343,6 +5370,7 @@
 1191680 0 jeune mariée
 1191680 1 (sa) belle-fille
 1191690 0 épouser
+1191690 1 avoir des relations sexuelles
 1191720 0 épousailles
 1191720 0 marriage
 1191730 0 maison
@@ -5417,6 +5445,7 @@
 1192680 0 section
 1192680 2 famille (taxonomique)
 1192700 0 science
+1192730 0 Agence des Sciences et des Technologies
 1192750 0 scientifique
 1192790 0 pendant son temps libre
 1192800 0 être long
@@ -5742,6 +5771,7 @@
 1198180 1 avoir une mauvaise expérience
 1198230 0 membres (d'une association)
 1198280 0 liste de membres
+1198330 0 session (parlementaire)
 1198360 0 assemblée
 1198360 0 conférence
 1198360 0 congrès
@@ -6057,6 +6087,9 @@
 1201720 0 bord de mer
 1201720 0 rivage
 1201750 0 plage
+1201750 0 littoral
+1201750 0 bord de mer
+1201750 0 côte
 1201760 0 bruit de la mer
 1201770 0 éponge
 1201780 0 niveau de la mer
@@ -6290,6 +6323,7 @@
 1203800 0 sortir
 1203830 0 manger en ville (dehors)
 1203850 0 étranger
+1203850 1 étranger
 1203870 0 pour les étrangers
 1203940 0 ministre des affaires étrangères
 1203990 0 télégramme de l'étranger
@@ -6724,9 +6758,11 @@
 1208300 0 caractère mobile
 1208300 1 texte imprimé
 1208300 1 impression
+1208330 0 activité, animation
 1208360 0 action
 1208360 0 activité
 1208360 1 film (en part. pour le cinéma muet)
+1208370 0 activiste
 1208410 0 actif
 1208410 0 vif
 1208450 0 activité (en part. énergique)
@@ -6790,6 +6826,7 @@
 1208920 4 écart d'acquisition
 1208920 4 goodwill
 1208920 5 son (point) fort
+1208950 0 cours boursier
 1208960 0 action (bourse)
 1208970 0 action boursière
 1208980 0 société par actions (S.A.)
@@ -7555,6 +7592,7 @@
 1218120 0 projeter de
 1218120 0 se proposer de
 1218120 0 tenter de
+1218120 2 se tenir sur la pointe des pieds
 1218130 0 astuce
 1218130 0 intention
 1218130 0 plan
@@ -8202,12 +8240,12 @@
 1225100 0 technique
 1225110 0 ingénieur
 1225110 0 technicien
-1225130 0 art
-1225130 0 artisanat
-1225130 0 technique
 1225130 0 technologie
 1225130 0 ingénierie
-1225130 0 compétence
+1225130 1 technique
+1225130 1 compétence
+1225130 2 art
+1225130 2 artisanat
 1225230 0 compétence technique
 1225270 0 bruitages
 1225270 0 effets sonores
@@ -8245,12 +8283,13 @@
 1225800 0 belle-sœur aînée (sœur aînée du conjoint ou femme du grand frère)
 1225810 0 fausse dent
 1225850 0 beau-frère cadet aîné (frère cadet du conjoint ou mari de la petite sœur)
-1225860 0 beau-père
-1225860 0 père adoptif
+1225860 0 beau-père (père du conjoint)
+1225860 1 père adoptif
+1225860 2 beau-père (nouveau conjoint de la mêre)
 1225870 0 juste colère
 1225870 0 juste indignation
-1225880 0 belle-mère
-1225880 0 mère adoptive
+1225880 0 belle-mère (mère du conjoint)
+1225880 1 mère adoptive
 1225880 2 belle-mère
 1225890 0 belle-sœur cadette (sœur cadette du conjoint ou femme du petit frère)
 1225900 0 devoir
@@ -8510,6 +8549,7 @@
 1228440 0 préfecture de Miyagi (région de Touhoku)
 1228460 0 la Cour
 1228470 0 palais
+1228480 0 Agence de la Famille Impériale
 1228490 0 arc (à flèches)
 1228530 0 tir à l'arc (japonais)
 1228540 0 tir à l'arc (un des arts militaires japonais (budô))
@@ -8872,6 +8912,7 @@
 1234470 0 "rideau de fer"
 1234470 0 pays communistes
 1234490 0 communisme
+1234550 0 Party Communiste
 1234700 0 commun
 1234700 0 communauté
 1234700 1 être commun
@@ -8891,6 +8932,7 @@
 1235290 0 usage commun
 1235290 0 usage public
 1235330 0 république
+1235390 0 parti républicain
 1235440 0 mauvaise récolte
 1235550 0 association
 1235550 0 société
@@ -9075,9 +9117,11 @@
 1236890 0 leçon
 1236890 0 précepte
 1236900 0 enseigner
-1236900 0 indiquer
-1236900 0 informer
+1236900 0 apprendre
 1236900 0 instruire
+1236900 1 dire
+1236900 1 informer
+1236900 2 prêcher
 1236930 0 méthode d'enseignement
 1236940 0 apprendre
 1236950 0 éducation
@@ -9599,6 +9643,7 @@
 1242220 0 myopie
 1242220 0 vue basse
 1242230 0 s'approcher de quelque chose
+1242240 0 Kinki (région environnant Ôsaka, Kyôto et Nara)
 1242250 0 courte distance
 1242250 0 petite distance
 1242270 0 alentours
@@ -9617,11 +9662,14 @@
 1242420 0 de nos jours
 1242420 0 temps modernes
 1242490 0 les jours qui viennent
+1242510 0 ces dernières années
 1242520 0 approcher quelque chose de quelque chose
 1242520 0 rapprocher quelque chose de quelque chose
 1242530 0 environs
 1242530 0 proximité
 1242530 0 voisinage
+1242570 0 voisinage
+1242570 0 environs
 1242590 0 argent
 1242590 0 monnaie
 1242590 1 métal
@@ -9695,6 +9743,7 @@
 1243490 0 banque
 1243530 0 Ginza (Champs-Elysées de Tokyo)
 1243530 0 monnaie d'argent (période d'Edo)
+1243530 1 atelier de frappe des monnaies d'argent (époque Edo)
 1243550 0 papier d'argent
 1243560 0 argenté
 1243570 0 coupe en argent
@@ -9831,6 +9880,9 @@
 1244870 0 détruire
 1244870 0 expulser
 1244870 0 exterminer
+1244930 0 pièce (de shogi, d'échecs, etc.)
+1244930 1 cheval
+1244930 1 poulain
 1244930 2 chevalet (de violon, etc.)
 1244950 0 ingrédients
 1244950 0 moyens
@@ -9922,6 +9974,7 @@
 1245600 0 ressemblance fortuite
 1245610 0 taxi libre
 1245610 0 voiture libre
+1245610 1 parking avec des places libres
 1245620 0 karaté
 1245620 1 les mains vides
 1245650 0 attaque aérienne
@@ -10010,6 +10063,7 @@
 1246920 0 renvoi
 1247000 0 avancer
 1247000 0 faire progresser
+1247010 1 de manière répétée
 1247030 0 répéter
 1247030 0 refaire
 1247040 0 dévider (fil)
@@ -10346,6 +10400,8 @@
 1251250 0 cours
 1251250 0 déroulement
 1251250 0 développement
+1251260 0 Agence de planification économique (disparue en 2001)
+1251260 0 Commissariat au Plan
 1251270 0 expérience
 1251320 0 économie
 1251320 0 affaires
@@ -10434,6 +10490,7 @@
 1252390 1 policier
 1252390 2 commissariat de police
 1252410 0 commissariat de police
+1252420 0 Agence de Police Nationale
 1252440 0 commissaire de police
 1252450 0 Préfecture de police
 1252470 0 sonnerie d'alarme
@@ -10486,6 +10543,7 @@
 1252990 0 coq
 1252990 0 poule
 1252990 0 poulet
+1252990 1 (viande de) poulet
 1253000 0 Poulailler
 1253010 0 célasie à crête (nom de fleur)
 1253010 0 crête de coq
@@ -10983,8 +11041,11 @@
 1258810 0 préfecture (du Japon)
 1258810 1 comté (de Chine)
 1258840 0 assemblée préfectorale
+1258860 0 police préfectorale
+1258870 0 gouverneur (d'une préfecture)
 1258880 0 bureau préfectoral
 1258900 0 route préfectorale
+1258910 0 dans la préfecture
 1258940 0 préfectoral (institution)
 1258950 0 épaule
 1259030 0 épaulette
@@ -11685,6 +11746,7 @@
 1268060 0 cinq
 1268070 0 cinq
 1268130 0 les cinq sens
+1268170 0 Mai
 1268260 0 céréales
 1268260 0 les cinq céréales (blé, riz, pois, millet (awa et kibi))
 1268300 0 ensemble de syllabes japonaises
@@ -11697,6 +11759,8 @@
 1268590 0 à part égale
 1268590 0 50%
 1268590 0 moitié
+1268590 1 5 parts
+1268590 1 5%
 1268670 0 être dans le brouillard
 1268670 0 ne pas voir clair
 1268750 0 Jeux Olympiques
@@ -11780,6 +11844,7 @@
 1269540 0 finale
 1269540 0 période ultérieure
 1269590 0 successeur
+1269590 1 successeur
 1269640 0 tourner le dos à
 1269650 0 seconde femme
 1269680 0 successeur
@@ -15388,6 +15453,7 @@
 1317810 0 auto-réglé
 1317810 0 autogouverné
 1317810 0 autonomie
+1317820 0 Ministère des Affaires Intérieures (disparu en 2001)
 1317860 0 autonomie
 1317860 0 indépendance
 1317880 0 autonome
@@ -15852,8 +15918,9 @@
 1324140 1 pipe (fam)
 1324190 0 rang de court
 1324190 0 titre
+1324230 0 Siddhārtha Gautama
 1324230 0 Shakyamuni
-1324230 0 le Bouddha
+1324230 0 Bouddha historique (5ème siècle av. JC)
 1324260 0 acquittement
 1324260 0 libération
 1324270 0 explication
@@ -15864,6 +15931,7 @@
 1324300 1 inexpérimenté
 1324300 2 faible (nombre)
 1324300 2 petit
+1324310 0 jeunesse
 1324320 0 ou bien
 1324330 0 quelques
 1324330 0 un peu
@@ -15928,6 +15996,9 @@
 1325260 0 doctrine
 1325260 0 principe
 1325260 0 règle
+1325270 2 socialiste
+1325270 2 communiste
+1325270 2 anarchiste
 1325360 0 souveraineté
 1325420 0 sujet
 1325450 0 sponsor
@@ -16745,9 +16816,14 @@
 1334740 0 feux croisés (d'arme à feu)
 1334750 0 carrefour
 1334750 0 croisement
+1334890 0 12
+1334890 0 douze
+1334910 0 Décembre
 1335000 0 le dix (du mois)
 1335000 0 dixième jour du mois
 1335000 1 dix jours
+1335050 0 18
+1335050 0 dix-huit
 1335070 0 10 minutes
 1335080 0 adéquat
 1335080 0 assez
@@ -16759,6 +16835,8 @@
 1335080 2 complètement
 1335080 2 totalement
 1335080 2 entièrement
+1335140 0 100.000
+1335140 0 cent mille
 1335210 0 accompagner
 1335210 0 obéir
 1335210 0 se conformer
@@ -16901,6 +16979,8 @@
 1336260 1 souligner
 1336310 0 maladie grave
 1336360 0 centre de gravité
+1336360 1 centre de masse
+1336360 1 barycentre
 1336440 0 lourde responsabilité
 1336500 0 grave
 1336500 0 important
@@ -17894,8 +17974,9 @@
 1350290 0 consommation
 1350290 0 dépense
 1350300 0 consommateur
-1350340 0 pompiers
 1350340 0 lutte contre l'incendie
+1350340 1 pompiers
+1350340 1 sapeurs-pompiers
 1350360 0 camion de pompiers
 1350370 0 caserne de pompiers
 1350380 0 annihilation (physique)

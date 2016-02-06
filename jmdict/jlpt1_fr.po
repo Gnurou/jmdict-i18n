@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2015-12-20 03:11:20+0000\n"
+"POT-Creation-Date: 2016-02-06 14:02:50+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -7503,11 +7503,12 @@ msgstr ""
 "nationalisé\n"
 "publique (propriété)"
 
+#, fuzzy
 msgctxt "1287210 0"
 msgid ""
 "国連\tこくれん\n"
-"UN\n"
-"United Nations"
+"United Nations\n"
+"UN"
 msgstr ""
 "ONU\n"
 "nations unies"
@@ -14225,9 +14226,10 @@ msgstr ""
 "se laisser aller a la réverie\n"
 "se perdre dans"
 
+#, fuzzy
 msgctxt "1419070 0"
 msgid ""
-"蛋白質\tたんぱくしつ\n"
+"タンパク質\tタンパクしつ\n"
 "protein"
 msgstr "proteine"
 
@@ -14256,10 +14258,12 @@ msgstr ""
 "union\n"
 "unité"
 
+#, fuzzy
 msgctxt "1419250 0"
 msgid ""
 "団扇\tうちわ\n"
-"fan"
+"uchiwa\n"
+"type of traditional Japanese handheld fan"
 msgstr "eventail"
 
 msgctxt "1419320 0"
@@ -24806,10 +24810,12 @@ msgstr ""
 "se coucher tard\n"
 "veiller tard"
 
+#, fuzzy
 msgctxt "1606010 0"
 msgid ""
 "夜更け\tよふけ\n"
-"late at night"
+"late at night\n"
+"small hours of the morning"
 msgstr "tard dans la nuit"
 
 #, fuzzy

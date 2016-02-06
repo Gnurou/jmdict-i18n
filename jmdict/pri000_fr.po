@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2015-12-20 03:11:20+0000\n"
+"POT-Creation-Date: 2016-02-06 14:02:50+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -578,10 +578,12 @@ msgstr ""
 "humide\n"
 "moite"
 
+#, fuzzy
 msgctxt "1005950 0"
 msgid ""
 "じゃぶじゃぶ\n"
-"splashing water sound"
+"splashing water sound\n"
+"with a splash"
 msgstr "bruit d'éclaboussement"
 
 #, fuzzy
