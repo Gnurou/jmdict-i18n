@@ -1733,6 +1733,10 @@
 1036400 0 carte
 1036400 1 fromage blanc
 1036400 1 caillot
+1036400 2 match
+1036400 2 partie
+1036400 2 jeu
+1036400 2 rassemblement dans une compétition ou d'un tournoi
 1036450 0 œillet
 1036560 0 virage
 1036560 0 tournant
@@ -3423,12 +3427,19 @@
 1157170 1 faire devenir
 1157170 1 rendre
 1157170 1 transformer 
-1157170 10 suffixe de transformation en verbe (s'applique aux noms repérés dans ce dictionnaire par « vs »)
-1157170 11 utilisé pour former un verbe à la forme humble (après un nom avec le préfixe « o » ou « go »)
-1157170 12 être sur le point de
-1157170 12 commencer à peine à
-1157170 12 essayer de
-1157170 12 tenter de
+1157170 10 nommer, ou promouvoir, une personne A à un poste ou un statut B
+1157170 11 transformer A en B
+1157170 11 échanger A pour B
+1157170 12 utiliser A pour B
+1157170 12 voir A comme B
+1157170 12 gérer A comme si c'était B
+1157170 13 sentir A à propos de B
+1157170 14 suffixe de transformation en verbe (s'applique aux noms repérés dans ce dictionnaire par « vs »)
+1157170 15 utilisé pour former un verbe à la forme humble (après un nom avec le préfixe « o » ou « go »)
+1157170 16 être sur le point de
+1157170 16 commencer à peine à
+1157170 16 essayer de
+1157170 16 tenter de
 1157170 2 servir comme
 1157170 2 agir comme
 1157170 2 travailler comme
@@ -5732,8 +5743,7 @@
 1197610 0 scène(théâtre)
 1197630 0 papier à dessin
 1197640 0 galerie d'image
-1197710 0 bourgeon
-1197710 0 bouton (de fleur)
+1197710 0 pousse
 1197710 0 germe
 1197730 0 bourgeon
 1197730 0 bouton (de fleur)
@@ -5769,7 +5779,9 @@
 1198180 0 revoir
 1198180 1 avoir un accident
 1198180 1 avoir une mauvaise expérience
-1198230 0 membres (d'une association)
+1198230 0 membre
+1198230 0 adhérent
+1198230 0 adhésion
 1198280 0 liste de membres
 1198330 0 session (parlementaire)
 1198360 0 assemblée
@@ -5778,9 +5790,15 @@
 1198360 0 réunion
 1198380 0 salle de réunion
 1198380 0 salle du conseil
-1198430 0 addition
-1198430 0 comptabilité
 1198430 0 compte
+1198430 0 comptabilité
+1198430 0 finance
+1198430 0 comptable
+1198430 0 trésorier
+1198430 0 caissier
+1198430 0 calcul
+1198430 0 facture
+1198430 0 addition
 1198500 0 entretien
 1198500 0 entrevue
 1198500 0 interview
@@ -7926,8 +7944,10 @@
 1221520 2 intention
 1221520 3 humeur
 1221520 3 sentiments
+1221520 4 ambiance
 1221520 4 atmosphère
-1221520 4 fond
+1221520 4 humeur
+1221520 4 esprit
 1221740 0 agréer
 1221770 0 pitoyable
 1221770 0 malheureux
@@ -8168,6 +8188,7 @@
 1224140 0 cavalier
 1224160 0 (aller) à cheval
 1224180 0 cavalerie
+1224190 0 oni
 1224190 0 ogre
 1224190 0 démon
 1224190 1 esprit d'une personne décédée
@@ -11644,9 +11665,11 @@
 1266890 0 soi-même
 1266940 0 en forme d'arche
 1266970 0 porte (en part. de style japonais)
-1266970 1 entrée (d'un domicile)
-1266970 2 goulet
-1266970 2 passage étroit
+1266970 1 volet
+1266970 1 volet de fenêtre
+1266970 2 entrée (d'une habitation)
+1266970 3 goulet
+1266970 3 passage étroit
 1266990 0 prise de vue extérieur
 1266990 0 tournage à l'extérieur
 1267000 0 entrée
@@ -16303,22 +16326,33 @@
 1328780 0 joyau
 1328780 0 pierre précieuse
 1328790 0 calcul au boulier
-1328820 0 graine
+1328820 0 graine (par ex. d'une plante)
 1328820 0 pépin
-1328820 0 semence
 1328820 0 genre
 1328820 0 variété
 1328820 0 qualité
-1328820 0 ton
-1328820 1 matière
+1328820 1 matériau (par ex. d'un article)
+1328820 1 matière (par ex. d'une histoire)
 1328820 1 question
 1328820 1 sujet
 1328820 1 thème
-1328820 1 levain (pain)
-1328820 2 cause
-1328820 2 source
-1328820 2 truc (d'un tour de magie)
-1328820 2 secret
+1328820 1 papier (d'actualité)
+1328820 2 ingrédient
+1328820 2 levain (du pain)
+1328820 2 ingrédient principal d'un sushi
+1328820 3 cause
+1328820 3 source
+1328820 4 truc
+1328820 4 astuce
+1328820 4 secret
+1328820 4 tour de magicien
+1328820 4 histoire vécue
+1328820 5 sang paternel
+1328820 5 lignée
+1328820 5 filiation
+1328820 6 race (d'un cheptel)
+1328820 6 sperme
+1328820 6 semence
 1328830 0 graine
 1328830 0 noyau
 1328850 0 inoculation
@@ -23256,7 +23290,7 @@
 1413230 0 principalement
 1413240 0 établissement d'enseignement post-secondaire, comprenant l'université, etc.
 1413240 1 ancienne université de Kyoto (fondée sous le système de lois Ritsuryo pour la formation des administrateurs gouvernementaux)
-1413240 2 la Grande Étude - l'un des Quatre Livres du Confucianisme 
+1413240 2 la Grande Étude (un des Quatre Livres du Confucianisme)
 1413250 0 3ème cycle d'université (bâtiment)
 1413260 0 étudiant (université)
 1413310 0 grande joie
@@ -31510,9 +31544,9 @@
 1518030 0 prix
 1518050 0 prix
 1518050 0 récompense
+1518070 0 visiter
 1518070 0 aller voir
 1518070 0 rendre visite à
-1518070 0 visiter
 1518080 0 aller voir
 1518080 0 rendre visite à
 1518080 0 visiter
@@ -36542,10 +36576,16 @@
 1584090 0 étreindre
 1584090 0 embrasser
 1584090 0 porter dans ses bras
-1584090 1 coucher avec
-1584090 2 éprouver (un sentiment)
-1584090 2 ressentir
-1584090 3 couver (œufs)
+1584090 1 porter (par ex. rancune)
+1584090 1 supporter
+1584090 1 éprouver
+1584090 1 ressentir
+1584090 1 avoir (par ex. de l'ambition)
+1584090 1 nourrir (par ex. un espoir, une suspicion)
+1584090 2 avoir des rapports sexuels avec
+1584090 2 faire l'amour avec
+1584090 2 coucher avec
+1584090 3 couver des œufs
 1584100 0 ceci et cela
 1584100 0 dans toute direction
 1584100 0 de tous côtés
@@ -40163,9 +40203,8 @@
 1610840 0 sellotape (marque de bande adhésive anglaise)
 1610850 0 prémisse d'un syllogisme/la majeure
 1610860 0 vieux/vieil/âgé
-1610870 0 juste (au moment, etc.)
-1610870 0 au moment
-1610870 0 à l'instant
+1610870 0 (au moment, à l'instant, etc.) même où
+1610870 0 aussitôt que
 1610880 0 ou (interrogatif)
 1610900 0 dissimuler
 1610900 0 faire l'innocent
