@@ -10823,8 +10823,10 @@
 1254760 2 assez bien
 1254760 2 OK
 1254760 2 tolérable
-1254760 3 raisonnablement
 1254760 3 assez
+1254760 3 raisonnablement
+1254760 3 d'une manière acceptable
+1254760 3 d'une manière tolérable
 1254760 4 construction
 1254760 4 architecture
 1254770 0 union
@@ -23327,6 +23329,8 @@
 1413940 0 important
 1413940 0 précieux
 1413940 0 chose sérieuse
+1413940 1 sûr (dialecte de Tochigi)
+1413940 1 OK
 1413970 0 Amnistie
 1414010 0 porte principale du château
 1414010 1 deux bras ouverts
@@ -34682,9 +34686,11 @@
 1554310 1 gérer
 1554370 0 frais
 1554370 0 rafraîchissant
-1554370 1 clair (par ex. les yeux)
+1554370 1 clair (par ex. pour les yeux)
 1554370 1 vif
+1554370 1 brillant
 1554370 2 clair
+1554370 2 distinct
 1554370 2 net
 1554370 3 calme
 1554370 3 posé
@@ -34770,7 +34776,6 @@
 1555130 0 aide
 1555130 0 assistance
 1555130 0 secours
-1555300 0 verdure
 1555300 0 vert
 1555300 1 verdure
 1555320 0 vert
@@ -41275,3 +41280,6 @@
 2649690 1 paraître (dans le journal)
 2756190 0 métis
 2756190 0 personne d'origines mélangées
+2825953 2 bras
+2825953 2 main d'œuvre
+2825953 3 aide
