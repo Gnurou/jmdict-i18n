@@ -1232,6 +1232,7 @@
 1010950 0 piqûre
 1010950 0 se brûler la langue
 1010960 0 vivement
+1010980 0 fumer (une cigarette)
 1011060 0 étourdi
 1011060 0 chancelant
 1011060 0 instable
@@ -1528,6 +1529,7 @@
 1013220 0 vaciller
 1013230 0 chancelant
 1013240 0 il semble que
+1013270 0 liste
 1013300 0 être agité
 1013300 0 être bruyant
 1013310 0 être excité
@@ -2440,7 +2442,7 @@
 1098760 1 inverser
 1098760 1 renverser
 1098760 2 rembourser un client
-1098760 3 levrette (position sexuelle)
+1098760 3 revers
 1098760 7 levrette (position sexuelle)
 1099100 0 sac
 1099110 0 badge
@@ -3289,6 +3291,7 @@
 1155710 0 expédition
 1155710 1 dépendance
 1155710 1 confiance
+1155720 0 client
 1155780 0 éminent
 1155780 0 admirable
 1155780 0 célèbre
@@ -11016,8 +11019,9 @@
 1258000 0 discussion
 1258000 0 analyse
 1258000 0 vérification
-1258080 0 autorité
-1258080 0 le droit (de faire...)
+1258080 0 droit (de faire quelque chose)
+1258080 1 autorité
+1258080 1 pouvoir
 1258090 0 autorité
 1258090 0 influence
 1258090 0 puissance
@@ -11048,6 +11052,8 @@
 1258480 0 exemplaire
 1258500 0 menu
 1258500 0 programme
+1258500 1 programme
+1258500 1 planning
 1258510 0 étude
 1258520 0 étude
 1258520 0 investigation
@@ -11936,7 +11942,11 @@
 1270730 0 client
 1270730 0 hôte
 1270730 0 invité
+1270760 0 (s'il vous plaît) essayez de
 1270760 1 regardez (s'il vous plaît)
+1270760 2 voir
+1270760 2 regarder
+1270760 2 observer
 1270790 0 tombe impériale
 1270800 0 (mademoiselle votre ) fille
 1270800 0 une demoiselle (de bonne famille)
@@ -12069,6 +12079,7 @@
 1272280 0 relation
 1272280 0 trafic
 1272280 0 échange (d'idée, etc.)
+1272320 0 moyens de transport
 1272350 0 accident de la route
 1272410 0 dépenses de voyage
 1272410 0 péage
@@ -12806,6 +12817,7 @@
 1282100 0 attitude
 1282100 0 mobilisation
 1282180 0 destination
+1282180 1 résultat
 1282190 0 manquant
 1282190 0 porté disparu
 1282220 0 file
@@ -14467,6 +14479,17 @@
 1305720 0 porteur
 1305720 0 usage
 1305720 0 utilisation
+1305720 1 messager
+1305720 1 porteur
+1305720 1 garçon de courses
+1305720 2 génie familier
+1305720 2 démon familier
+1305720 3 utilisation
+1305720 3 usage
+1305720 3 utilisateur
+1305720 3 entraîneur
+1305720 3 dompteur
+1305720 3 charmeur
 1305900 0 utilisation
 1305950 0 façon de traiter quelqu'un(?)
 1305950 0 mode d'emploi
@@ -15650,6 +15673,8 @@
 1320250 0 désillusion
 1320280 0 jalousie
 1320300 0 pièce (immobilier)
+1320300 1 épouse (de quelqu'un de haut rang)
+1320300 2 fourreau
 1320300 3 constellation chinoise de la « Maison » (une des 28 loges lunaires)
 1320310 0 cave
 1320310 0 cellier
@@ -15709,11 +15734,18 @@
 1320800 1 sincérité
 1320800 1 honnêteté
 1320800 1 fidélité
+1320800 2 contenu
+1320800 2 substance
+1320800 3 (bon) résultat
 1320810 0 contenu
 1320810 0 fruit
 1320810 0 noisette
 1320810 0 noix
 1320810 0 résultat (économie, finance)
+1320810 1 graine
+1320810 2 des morceaux de viande, de légumes, etc. (dans un bouillon)
+1320810 3 contenu
+1320810 3 substance
 1320830 0 en fait
 1320830 0 en réalité
 1320830 0 à vrai dire
@@ -17038,6 +17070,7 @@
 1336900 0 poids
 1336900 0 poids lourd (sportif
 1336900 0 véhicule)
+1336900 1 boxeur poids lourd
 1336980 0 gravité
 1336980 0 pesanteur
 1337000 0 arme à feu
@@ -17115,6 +17148,8 @@
 1337830 0 composés de kanji
 1337830 0 expression idiomatique
 1337830 0 idiotisme
+1337830 1 idiome
+1337830 1 expression idiomatique
 1337860 0 sommeil profond
 1337860 0 sommeil réparateur
 1337930 0 dextérité
@@ -17247,6 +17282,7 @@
 1339010 0 délivrance
 1339220 0 composition (théâtre)
 1339220 0 participation
+1339220 1 participation (par ex. à un tournoi)
 1339260 0 origine d'une personne (par ex. ville, pays, filiation, école)
 1339340 0 carrière rapide
 1339340 0 réussite
@@ -17323,6 +17359,7 @@
 1340820 0 donner (son avis)
 1340820 0 exprimer (son opinion)
 1340830 0 évocation nostalgique
+1340840 0 prédicat
 1340880 0 génie
 1340880 0 talent
 1340890 0 personne charismatique
@@ -17417,12 +17454,17 @@
 1342030 0 rencontrer par hasard
 1342050 0 tourner autour
 1342050 0 tourner en rond
+1342050 1 retourner
+1342050 1 revenir
+1342050 2 entourer
+1342050 3 préoccuper (en général à propos de conflits)
 1342070 0 patrouille
 1342070 0 ronde
 1342070 0 tour
 1342080 0 tournée (spectacle)
 1342090 0 croisière
 1342110 0 policier
+1342110 0 gendarme
 1342120 0 inspection
 1342120 0 tournée d'inspection
 1342120 0 visite
@@ -17441,6 +17483,8 @@
 1342220 1 docile
 1342220 1 soumis
 1342220 1 doux
+1342230 0 à tour de rôle
+1342230 0 l'un après l'autre
 1342260 0 classement
 1342260 0 ordre
 1342280 0 adaptation
@@ -17645,6 +17689,8 @@
 1344930 1 petite amie
 1344930 1 maîtresse
 1344930 1 femme (de quelqu'un)
+1344940 0 femme
+1344940 0 fille
 1344940 1 constellation chinoise de la « Servante » (une des 28 loges lunaires)
 1344970 0 (petite) fille
 1344970 0 fille (de quelqu'un)
@@ -17666,7 +17712,11 @@
 1345250 1 féminin
 1345370 0 domestique
 1345370 0 servante
-1345420 0 (mon) épouse
+1345420 0 épouse (en part. sa propre épouse)
+1345420 1 dame de cour
+1345420 1 femme attachée à la cour
+1345420 1 femme qui a servi au palais impérial
+1345420 2 femme (en part. comme partenaire)
 1345430 0 actrice
 1345470 0 convenance
 1345470 0 occasion
@@ -17757,6 +17807,13 @@
 1346460 0 citation (justice)
 1346500 0 convocation (du parlement)
 1346500 0 rassemblement
+1346570 0 quotient
+1346570 1 transaction
+1346570 1 revendeur
+1346570 1 boutique
+1346570 1 magasin
+1346570 2 deuxième degré (des gammes pentatoniques japonaise et chinoise)
+1346570 3 Shang (dynastie chinoise)
 1346590 0 vendre
 1346590 0 commercer
 1346740 0 affaire
@@ -21660,7 +21717,7 @@
 1392080 0 bateau
 1392080 0 navire
 1392100 0 courrier maritime
-1392100 0 transport par bateau
+1392100 0 colis par bateau
 1392110 0 croisière
 1392110 0 traversée
 1392110 0 voyage en bateau
