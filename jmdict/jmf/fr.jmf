@@ -393,8 +393,9 @@
 1003560 0 dentelé
 1003560 0 ondulé
 1003590 0 bondé
-1003590 0 bourré
+1003590 0 entassé
 1003590 0 serré
+1003590 0 dense
 1003600 0 accabler
 1003600 0 bondé
 1003600 0 craquement de cuir, de porte
@@ -4241,7 +4242,7 @@
 1171900 0 pluie
 1171910 0 nuage de pluie
 1171940 0 tenue de pluie
-1171970 0 porte coulissante protégeant de l'orage
+1171970 0 volet coulissant protégeant d'une tempête
 1172040 0 se mettre a l'abri de la pluie
 1172090 0 gouttes de pluie
 1172100 0 temps pluvieux
@@ -4290,6 +4291,7 @@
 1172690 0 management
 1172690 0 opération
 1172710 0 canal
+1172710 0 voie navigable
 1172730 0 interruption du service (trains)
 1172750 0 motion
 1172750 0 révolution
@@ -4387,7 +4389,9 @@
 1174380 1 école de langue anglaise par la conversation
 1174390 0 grand talent
 1174420 0 anglais (langue)
-1174620 0 phrase en Anglais
+1174620 0 phrase en anglais
+1174620 0 article en anglais
+1174620 0 texte anglais
 1174620 1 littérature anglaise (domaine d'études)
 1174670 0 traduction en anglais
 1174680 0 grand homme
@@ -4429,8 +4433,8 @@
 1174970 0 fluide
 1174970 0 liquide
 1174980 0 liquéfaction
-1175030 0 fluide
 1175030 0 liquide
+1175030 0 fluide
 1175080 0 disenterie infantile
 1175110 0 insecte utile
 1175140 0 gare
@@ -4496,7 +4500,7 @@
 1176260 0 horticulture
 1176260 0 jardinage
 1176320 0 fête
-1176320 0 sauterie(vx)
+1176320 0 banquet
 1176330 0 banquet
 1176330 0 dinner
 1176330 0 soirée
@@ -5581,10 +5585,10 @@
 1195040 0 demi-monde
 1195040 0 quartier de plaisir
 1195100 0 calendrier des fleurs
-1195140 0 battre
+1195140 0 taquiner
 1195140 0 embêter
-1195140 0 persécuter
 1195140 0 tourmenter
+1195140 0 persécuter
 1195240 0 aubergine
 1195250 0 bagages
 1195250 0 cargaison
@@ -7666,6 +7670,7 @@
 1218680 0 agonie
 1218680 0 proche de la mort
 1218760 0 être joyeux
+1218760 0 être content
 1218760 0 se réjouir
 1218760 1 féliciter
 1218760 2 accepter avec reconnaissance
@@ -9802,6 +9807,8 @@
 1244060 0 ponctuation
 1244080 0 arrondissement
 1244080 0 circonscription
+1244080 0 district
+1244080 0 section
 1244090 0 domaine
 1244090 0 frontière
 1244090 0 limite
@@ -10043,6 +10050,7 @@
 1246440 0 coin
 1246440 0 encoignure
 1246440 0 recoin
+1246440 0 renfoncement
 1246440 1 arrière-scène droit (sur une scène de Noh)
 1246490 0 peigne
 1246510 0 déchets
@@ -25144,7 +25152,8 @@
 1432640 0 heurter l'arrière d'une voiture
 1432660 0 chérir la mémoire d'un défunt
 1432670 0 exil
-1432680 0 avoir mal (douleur)
+1432680 0 douloureux
+1432680 0 endolori
 1432680 1 excédant
 1432710 0 subir une douleur
 1432720 0 se faire mal (douleur)
@@ -29834,21 +29843,25 @@
 1494970 0 déplaisir
 1494970 0 insatisfaction
 1494970 0 mécontentement
-1495000 0 fade (dans le sens mauvais, voire immangeable)
-1495000 0 sans goût
+1495000 0 pas appétissant
+1495000 0 désagréable (pour un goût, une apparence, une situation)
 1495000 1 sans maîtrise
 1495000 1 incompétent
 1495000 1 maladroit
 1495000 1 gauche
 1495000 2 hideux
-1495000 2 peu attirant
-1495000 2 simple
+1495000 2 laid
+1495000 2 ordinaire
 1495000 2 banal
+1495000 2 peu attrayant
+1495000 2 peu attirant
 1495000 3 embarrassant
+1495000 3 gênant
 1495000 3 mal à propos
 1495000 3 inopportun
 1495000 3 défavorable
 1495000 3 déraisonnable
+1495000 3 malavisé
 1495010 0 état éveillé
 1495010 0 insomnie
 1495020 0 état éveillé
@@ -30875,7 +30888,8 @@
 1507070 0 paisible
 1507070 0 tranquille
 1507080 0 paix et tranquillité
-1507090 0 hiragana &gt; alphabet phonétique constitué de 46 signes de base
+1507090 0 hiragana
+1507090 0 syllabaire cursif japonais utilisé principalement pour les mots d'origine japonaise (en part. les mots fonctionnels, les désinences, etc.)
 1507180 0 "cool"
 1507180 0 calme
 1507180 0 indifférence
@@ -30946,6 +30960,8 @@
 1508390 0 mettre en rang
 1508390 0 disposer en ligne
 1508390 1 énumérer
+1508390 1 dénombrer
+1508390 1 détailler
 1508390 1 décomposer (en éléments constitutifs)
 1508390 2 être égal (à)
 1508390 2 être semblable (à)
@@ -31497,13 +31513,14 @@
 1516920 0 manière
 1516920 0 personne
 1516925 0 direction
+1516925 0 sens
 1516925 1 personne
 1516925 1 dame
 1516925 1 monsieur
 1516925 2 méthode pour
 1516925 2 façon de
 1516925 2 manière de
-1516925 3 chez ( qui réside dans la maison de )
+1516925 3 chez... (c.-à-d. qui réside dans le logement de)
 1516925 4 personne en charge de...
 1516925 5 coté (par ex. au coté de ma mère)
 1516930 0 direction
@@ -32830,13 +32847,15 @@
 1532340 0 s'éclaircir (le ciel, à l'aube)
 1532350 0 clair
 1532350 0 radieux
+1532350 0 brillant
+1532350 0 coloré
 1532350 1 gai
-1532350 2 familier avec
-1532350 2 bien au courant de
-1532350 2 bien informé de
+1532350 2 familier (avec)
+1532350 2 bien au courant (de)
+1532350 2 bien informé (de)
+1532350 3 équitable (par ex. pour une politique)
 1532350 3 impartial
-1532350 3 équitable
-1532350 3 propre (ex. homme politique)
+1532350 3 propre
 1532380 0 clair-obscur
 1532380 0 lumière et obscurité
 1532380 0 lumière et ombre
@@ -33386,8 +33405,10 @@
 1538130 2 fatalité
 1538150 0 à peu près la moitié
 1538160 0 médicament
-1538160 1 un produit chimique efficace (ex. insecticide, répulsif, désinfectant,etc.)
-1538160 2 (poterie) émail
+1538160 0 produit pharmaceutique
+1538160 1 produit chimique efficace (c.-à-d. poudre à canon, pesticide, etc.)
+1538160 2 émail (d'une céramique)
+1538160 2 glaçure
 1538160 3 pot-de-vin
 1538170 0 pharmacie
 1538170 0 pharmacien
@@ -34156,9 +34177,10 @@
 1548370 1 appeler (un taxi, etc.)
 1548370 1 commander (un plat, etc.)
 1548370 1 réserver
-1548370 2 confier
+1548370 2 confier à
+1548370 3 compter sur
+1548370 3 reposer sur
 1548370 3 dépendre de
-1548370 3 faire confiance
 1548380 0 digne de confiance
 1548380 0 fiable
 1548380 0 plein d'espoir
@@ -37099,6 +37121,8 @@
 1588540 0 fournisseur
 1588540 0 vendeur
 1588550 0 lieu de vente
+1588550 1 période favorable pour vendre
+1588550 1 bon moment pour vendre
 1588560 0 année bissextile
 1588580 0 être attristé
 1588580 0 être chagriné
