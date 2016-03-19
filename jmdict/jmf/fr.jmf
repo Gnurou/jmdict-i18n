@@ -2221,6 +2221,7 @@
 1077110 1 lit double
 1077110 1 chambre d'hôtel avec un lit double
 1077110 2 croisé (par ex. pour un costume)
+1077110 3 à poignets doubles
 1077110 5 double (par ex. en tennis)
 1077140 0 barrage
 1077140 1 stupide
@@ -5261,6 +5262,12 @@
 1189290 0 quelques centaines
 1189310 0 de toute façon
 1189310 0 s'il vous plait (appuie une requête)
+1189310 1 s'il vous plait
+1189310 2 en tous cas
+1189310 2 de toute façon
+1189310 2 de toute manière
+1189310 2 à tout prix
+1189310 2 après tout
 1189340 0 avec quelle fréquence
 1189340 0 combien de fois
 1189360 0 quelle direction
@@ -5461,6 +5468,13 @@
 1192660 0 timide
 1192680 0 département
 1192680 0 section
+1192680 0 faculté
+1192680 0 école
+1192680 0 branche
+1192680 1 programme (scolaire)
+1192680 1 domaine d'étude
+1192680 1 filière
+1192680 1 spécialisation
 1192680 2 famille (taxonomique)
 1192700 0 science
 1192730 0 Agence des Sciences et des Technologies
@@ -5981,6 +5995,8 @@
 1199970 0 plaisant
 1199980 0 plaisir
 1200000 0 gaieté
+1200060 0 temps clair
+1200060 0 temps sans nuage
 1200060 0 beau temps
 1200080 0 célérité
 1200080 0 haute vitesse
@@ -6039,6 +6055,13 @@
 1200730 0 changer
 1200740 0 à nouveau
 1200740 0 une nouvelle fois
+1200740 1 formellement
+1200740 1 officiellement
+1200740 1 notamment
+1200740 1 surtout
+1200740 1 particulièrement
+1200740 1 intentionnellement
+1200740 1 délibérément
 1200750 0 changer
 1200750 0 modifier
 1200750 1 réformer
@@ -9114,6 +9137,7 @@
 1236740 0 désolé
 1236740 0 obligé
 1236740 0 reconnaissant
+1236740 1 reculer de peur
 1236750 0 épouvante
 1236750 0 consternation
 1236750 0 effroi
@@ -10665,6 +10689,8 @@
 1253800 1 ordre de grandeur
 1253840 0 chef-d'œuvre
 1253840 0 meilleure œuvre
+1253840 1 erreur amusante
+1253840 1 gaffe
 1253860 0 distingué
 1253860 0 meilleur de son genre
 1253860 0 remarquable
@@ -10999,6 +11025,10 @@
 1257720 0 inquiétude
 1257720 0 peur
 1257720 0 souci
+1257730 0 ardeur
+1257730 0 ferveur
+1257730 0 acharnement
+1257730 0 risquer sa vie
 1257750 0 poing
 1257800 0 retrousser
 1257800 0 soulever
@@ -11070,6 +11100,8 @@
 1258570 1 salle de séminaire
 1258570 2 bureau du professeur
 1258590 0 chercheur
+1258660 0 formation (en part. continue)
+1258660 0 cours d'initiation
 1258710 0 soie
 1258730 0 articles en soie
 1258740 0 aiguille pour le travail de la soie
@@ -11233,8 +11265,10 @@
 1260210 0 humilité
 1260210 0 modestie
 1260220 0 vertue de modestie
+1260240 0 humble
 1260240 0 humilité
 1260240 0 modestie
+1260240 0 être humble
 1260260 0 brillant
 1260260 0 intelligent
 1260260 0 sage
@@ -11568,6 +11602,21 @@
 1264610 0 au mieux
 1264610 0 autant que possible
 1264610 0 limite(s)
+1264610 1 degré
+1264610 1 étendue
+1264610 1 ampleur
+1264610 1 portée
+1264610 2 le plus loin possible
+1264610 2 autant que possible
+1264610 2 au mieux de ses capacités
+1264610 2 beaucoup
+1264610 3 à moins que (après une forme verbale négative)
+1264610 3 sauf si
+1264610 4 fin
+1264610 4 terme
+1264610 5 aussi longtemps que
+1264610 5 tant que
+1264610 5 seulement
 1264640 0 limiter
 1264640 0 restreindre
 1264640 1 être restreint à
@@ -11691,10 +11740,13 @@
 1267000 0 entrée
 1267000 0 porte d'entrée
 1267030 0 état civil
-1267050 0 armoire
-1267050 0 garde-robe
-1267050 0 penderie
 1267050 0 placard
+1267050 0 casier
+1267050 0 armoire
+1267050 0 penderie
+1267050 0 garde-robe
+1267050 0 cabinet
+1267050 0 buffet
 1267060 0 enfermement
 1267060 0 fermer portes et fenêtres
 1267090 0 être déconcerté
@@ -12068,6 +12120,7 @@
 1271940 0 réciproque
 1271940 0 tour à tour
 1271970 0 traverser
+1271970 1 enjambement (génétique) 
 1271990 0 amitié
 1271990 0 association
 1271990 0 compagnie
@@ -12876,10 +12929,8 @@
 1282740 0 acier
 1282770 0 commencer à pleuvoir
 1282770 0 commencer à neiger
-1282790 0 grêler
-1282790 0 neiger
-1282790 0 pleuvoir
-1282790 0 tomber du ciel
+1282790 0 précipiter (pour une substance dans une solution chimique)
+1282790 0 tomber (par ex. pour la pluie)
 1282820 0 pluviosité (pluviométrie)
 1282820 0 quantité de précipitation
 1282830 0 approche (avion)
@@ -14018,7 +14069,9 @@
 1297650 0 composer (de la musique)
 1297650 0 composition
 1297710 0 auteur
-1297710 0 femme auteur
+1297710 0 écrivain
+1297710 0 compositeur
+1297710 0 artiste
 1297790 0 fabrication
 1297790 0 production
 1297800 0 manœuvre
@@ -14111,9 +14164,11 @@
 1298790 0 prendre (une photo)
 1298790 1 enregistrer (une vidéo, du son, etc.)
 1298790 1 faire (un film)
+1298800 0 photographie (fixe ou en mouvement)
 1298800 0 photographier
-1298800 0 prendre une photo
-1298800 0 tourner un film
+1298800 0 tournage (d'un film)
+1298800 0 prise de vue
+1298800 0 enregistrement (vidéo)
 1298820 0 studio
 1298910 0 frotter
 1298910 0 gratter
@@ -14150,6 +14205,10 @@
 1299280 0 (bruits) parasites
 1299280 0 bruit
 1299280 0 friture
+1299280 1 potin
+1299280 1 commérage
+1299280 1 ragot
+1299280 1 critique irresponsable
 1299310 0 impressions diverses
 1299310 0 impressions sans importance
 1299370 0 chiffon
@@ -15863,6 +15922,9 @@
 1322390 0 guérison
 1322390 0 rémission
 1322400 0 obliquité
+1322400 1 inhabituel
+1322400 1 (vision du monde) biaisée
+1322400 1 mauvaise (humeur)
 1322440 0 strabisme
 1322450 0 ligne oblique
 1322460 0 hypoténuse
@@ -15914,6 +15976,8 @@
 1323080 1 roue
 1323090 0 chaise roulante
 1323120 0 garage
+1323120 0 abri pour voiture
+1323120 0 dépôt (de train, de bus, etc.)
 1323150 0 axe
 1323150 0 essieu
 1323170 0 conducteur de train
@@ -15983,6 +16047,7 @@
 1324140 1 pipe (fam)
 1324190 0 rang de court
 1324190 0 titre
+1324210 0 servir du sake
 1324230 0 Siddhārtha Gautama
 1324230 0 Shakyamuni
 1324230 0 Bouddha historique (5ème siècle av. JC)
@@ -16040,6 +16105,12 @@
 1324840 0 mauviette
 1324840 0 peureux
 1324870 0 point faible
+1324870 0 faiblesse
+1324870 0 défaut
+1324870 0 anomalie
+1324870 0 faille
+1324870 0 point douloureux
+1324870 0 point sensible
 1324940 0 important
 1324940 0 principal
 1324950 0 maître
@@ -16101,6 +16172,8 @@
 1326160 0 ménagère
 1326160 0 maîtresse de maison
 1326290 0 rôle principal
+1326290 0 acteur principal
+1326290 0 actrice principale
 1326320 0 principal
 1326320 0 capital
 1326320 0 majeur
@@ -16270,6 +16343,10 @@
 1327620 1 se contenir
 1327620 1 se retenir
 1327630 0 rênes
+1327660 0 modéré
+1327660 0 pratique
+1327660 0 commode
+1327660 0 raisonnable
 1327690 0 habileté
 1327690 0 performance
 1327690 0 tact
@@ -16291,6 +16368,9 @@
 1327980 0 commission
 1328020 0 lavabos
 1328020 0 toilettes
+1328020 1 toilettes
+1328020 1 lavabo
+1328020 2 lavage à la main (pour la lessive, etc.)
 1328030 0 avant
 1328030 0 ce côté
 1328030 0 nous
@@ -16522,7 +16602,7 @@
 1329670 0 recevoir
 1329690 0 être accepté
 1329690 0 recevoir (une demande)
-1329740 0 passer un examen
+1329740 0 passer un examen (en part. pour l'entrée dans une école ou une université)
 1329750 0 l'enfer des examen (surnom donné au stress des étudiants japonais préparant le concours d'entrée universitaire)
 1329770 0 reçu
 1329800 0 lauréat
@@ -16640,6 +16720,7 @@
 1331300 0 circonférence
 1331300 0 environs
 1331300 0 périphérie
+1331300 1 périphérique (informatique)
 1331350 0 billet
 1331350 0 excursion
 1331350 0 périple
@@ -16804,6 +16885,8 @@
 1333340 0 assaut
 1333340 0 attaque
 1333400 0 donner un coup de pied
+1333400 1 refuser
+1333400 1 rejeter
 1333450 0 semaine
 1333460 0 hebdomadaire
 1333490 0 (document) hebdomadaire
@@ -20837,6 +20920,7 @@
 1381100 0 les pays occidentaux
 1381120 0 occidental
 1381140 0 Ere chrétienne
+1381140 1 calendrier (grégorien) occidental
 1381160 0 sincèrement
 1381160 0 véritablement
 1381160 0 vraiment
@@ -20982,11 +21066,14 @@
 1382910 0 s'entasser
 1382950 0 épargne
 1382950 0 mise en réserve (de fonds)
-1382970 0 accumuler
-1382970 0 amasser
-1382970 0 charger
 1382970 0 empiler
 1382970 0 entasser
+1382970 0 amonceler
+1382970 1 charger (une voiture, un bateau, etc.)
+1382970 1 embarquer
+1382970 2 acquérir
+1382970 2 accumuler
+1382970 2 amasser
 1382980 0 intention
 1382980 0 projet
 1382980 1 conviction
@@ -21508,6 +21595,9 @@
 1389410 0 la bonne aventure
 1389410 0 la bonne fortune
 1389430 0 prédire
+1389450 0 j'ai compris
+1389450 0 d'accord
+1389450 0 très bien
 1389460 0 occuper
 1389460 0 tenir
 1389460 1 représenter
@@ -21561,6 +21651,10 @@
 1389950 0 parking privé
 1389970 0 devenir pointu
 1389970 0 s'aiguiser
+1389970 1 avoir l'air mécontent
+1389970 1 avoir l'air amer
+1389970 1 être crispé
+1389970 1 être sensible
 1390020 0 cours d'eau
 1390020 0 fleuve
 1390020 0 rivière
@@ -22904,7 +22998,7 @@
 1408170 0 grande quantité
 1408180 0 épais
 1408180 0 gros
-1408180 1 grave (voix)
+1408180 1 grave (pour une voix)
 1408180 2 audacieux
 1408180 2 éhonté
 1408180 2 effronté
@@ -23174,7 +23268,9 @@
 1410580 0 attendre avec anxiété
 1410580 0 attendre impatiemment
 1410590 0 attendre
-1410590 1 mettre ses espérances dans quelque chose
+1410590 1 attendre
+1410590 1 espérer
+1410590 1 anticiper
 1410590 2 dépendre de
 1410590 2 avoir besoin de
 1410600 0 être en alerte
@@ -27572,10 +27668,12 @@
 1466850 0 entrée (des données)
 1466930 0 comme
 1466930 0 tel
-1466940 0 dans quel but
+1466940 0 pourquoi ?
+1466940 0 pour quelle raison
+1466940 0 comment
+1466940 0 de quelle façon
 1466940 0 par quel moyen
-1466940 0 pour quelle raison?
-1466940 0 pourquoi?
+1466940 0 dans quel but
 1466950 0 de toute façon
 1466950 0 par tous les moyens
 1466950 0 quoi qu'il arrive
@@ -28973,7 +29071,7 @@
 1483185 2 cette personne là (quelqu'un physiquement éloigné du locuteur et de l'auditeur, ou quelqu'un non présent mais connu à la fois par le locuteur et l'auditeur)
 1483185 3 là (endroit distant à la fois du locuteur et de l'auditeur)
 1483185 3 là-bas
-1483185 3 pays étranger (en particulier a pays occidental)
+1483185 3 pays étranger (en part. un pays occidental)
 1483190 0 affligé
 1483190 0 triste
 1483200 0 être affecté
@@ -40725,13 +40823,13 @@
 1620400 1 modération
 1620400 2 collège
 1620400 3 Chine
-1620400 4 dans
-1620400 4 sur (par ex. trois personnes sur dix)
+1620400 4 volume deux (sur trois)
+1620400 4 tome deux (sur trois)
 1620400 5 durant (un certain temps quand quelqu'un fait ou a fait quelque chose)
 1620400 5 en cours de (construction, etc.)
 1620400 5 pendant
-1620400 6 volume deux (sur trois)
-1620400 6 tome deux (sur trois)
+1620400 6 dans
+1620400 6 sur (par ex. trois personnes sur dix)
 1620810 0 de petite taille
 1621470 0 métropolitain
 1621470 0 municipal
@@ -41341,6 +41439,10 @@
 2423740 0 mé-
 2423740 1 mauvais...
 2568440 0 corriger (en rouge)
+2573390 0 cinq saveurs (sucré, salé, épicé, aigre, amer)
+2573390 0 cinq goûts
+2573390 1 cinq saveurs (lait aux différentes étapes de fabrication du ghee : lait frais, crème, lait caillé, beurre et ghee)
+2573390 1 les cinq périodes de l'enseignement du Bouddha
 2629920 0 taper
 2629920 0 frapper
 2643970 0 après tout
