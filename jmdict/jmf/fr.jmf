@@ -1729,8 +1729,8 @@
 1032880 0 pardessus
 1032930 0 four
 1032990 0 ouverture
-1033900 0 gasoil
-1033900 0 fuel
+1033900 0 pétrole
+1033900 0 huile moteur
 1033900 0 kérosène
 1034660 0 bureau
 1035710 0 olympique
@@ -1746,6 +1746,7 @@
 1036400 2 jeu
 1036400 2 rassemblement dans une compétition ou d'un tournoi
 1036450 0 œillet
+1036560 0 courbe
 1036560 0 virage
 1036560 0 tournant
 1036560 1 balle courbe
@@ -2879,6 +2880,7 @@
 1145310 0 restaurant (en particulier de style occidental)
 1145910 0 niveau
 1145910 1 niveau
+1145910 2 numéro de version mineur (pour un logiciel)
 1145910 4 rebelle
 1145990 0 compte-rendu
 1145990 0 rapport
@@ -7510,7 +7512,8 @@
 1215860 0 barrière
 1215870 0 préoccupation
 1215870 0 intérêt
-1215910 0 Kansai (région de Kyoto et d'Osaka)
+1215910 0 Kansai
+1215910 0 région d'Osaka, Kobe, Kyoto et des préfectures alentour
 1215920 0 dialecte du Kansai
 1215930 0 douanes
 1215930 0 droits de douane
@@ -10609,8 +10612,10 @@
 1252560 1 vif
 1252560 2 futile
 1252560 2 mineur
-1252560 2 non-important
+1252560 2 sans importance
+1252560 2 pas sérieux
 1252560 2 trivial
+1252560 2 banal
 1252560 3 doux
 1252560 3 petit
 1252560 3 léger
@@ -11032,8 +11037,9 @@
 1257140 0 solide
 1257150 0 tenir fermement
 1257220 0 forteresse
-1257240 0 détestable
-1257240 0 haïssable
+1257240 0 detestation
+1257240 0 haine
+1257240 0 aversion
 1257240 1 soupçon
 1257240 1 tendance
 1257240 1 penchant
@@ -20600,7 +20606,21 @@
 1376310 0 étoile
 1376310 0 tout corps céleste émettant (ou réfléchissant) de la lumière (sauf pour le soleil et la lune)
 1376310 1 délinquant
-1376310 1 suspect (argot policier)
+1376310 1 contrevenant
+1376310 1 suspect
+1376310 2 point étoile (au go)
+1376310 2 hoshi
+1376310 2 intersection marquée d'un point
+1376310 3 symbole circulaire (dit être en forme d'étoile brillante)
+1376310 4 bulle
+1376310 4 mouche
+1376310 4 mille
+1376310 4 centre d'une cible
+1376310 5 sa propre étoile (parmi les neuf étoiles)
+1376310 5 l'étoile qui détermine son destin
+1376310 6 petit point
+1376310 7 point
+1376310 7 score
 1376340 0 ciel étoilé
 1376360 0 constellation
 1376380 0 bannière étoilée (drapeau américain)
@@ -33228,6 +33248,8 @@
 1533720 3 motif
 1533720 3 exemple
 1533720 4 indique que ce nom semble probable (par ex. pluie ou tempête)
+1533720 5 territoire potentiel (au jeu de go)
+1533720 5 moyo
 1533740 0 être luxuriant
 1533740 0 pousser ave luxuriance
 1533740 0 pousser dru
