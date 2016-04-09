@@ -1847,6 +1847,7 @@
 1042820 0 guitare
 1043150 0 gang
 1043150 1 gangster
+1043310 0 glacière
 1043310 0 air conditionné
 1043310 0 climatiseur
 1043470 0 quiz
@@ -1943,6 +1944,8 @@
 1051860 0 béton
 1051970 0 concert
 1052330 0 prise de courant
+1052330 0 prise murale
+1052330 0 prise électrique
 1052590 0 concours
 1053350 0 ordinateur
 1053800 0 complexe
@@ -1986,7 +1989,7 @@
 1057580 0 sécher la classe
 1057580 0 sécher un cours
 1057850 0 salade
-1057960 0 cadre
+1057960 0 travailleur de bureau
 1057960 0 employé
 1057960 0 salarié
 1058300 0 lunettes de soleil
@@ -1994,18 +1997,18 @@
 1058580 0 sandwich
 1058760 0 échantillon
 1059100 0 publicité (à la télé, à la radio, etc.)
-1059300 0 saison (sport)
+1059300 0 saison (pour les fruits et légumes, le sport, les vacances)
 1059400 0 drap
+1059400 0 drap de lit
 1059450 0 feuille
 1059450 0 siège
 1060300 0 système
 1060830 0 scénario
 1061300 0 porte-mine (lit. crayon pointu)
 1061440 0 obturateur photographique
-1061440 0 rideau de fer
-1061440 0 volet
-1061440 1 volet
-1061440 1 persienne
+1061440 1 volet (de porte, de fenêtre, etc.)
+1061440 1 rideau (de fer)
+1061440 1 store
 1061520 0 maillot de corps 
 1061520 0 maillot
 1061520 1 chemise (en part. une chemise habillée)
@@ -2067,6 +2070,8 @@
 1068870 0 horaire
 1068870 0 plan
 1068870 0 programme
+1068870 0 planning
+1068870 0 calendrier
 1069210 0 start (de cinéma, sportive, etc.)
 1069210 0 vedette
 1069210 0 célébrité
@@ -2346,7 +2351,7 @@
 1088140 0 docteur
 1088320 0 point
 1088320 1 pois (par ex. maillot à pois)
-1088320 2 pixel (point sur un moniteur)
+1088320 2 pixel
 1088450 0 sec
 1088580 0 conduire
 1088580 0 voyage en voiture
@@ -2518,6 +2523,8 @@
 1101600 0 échantillon
 1101600 0 motif
 1101600 0 patron (couture)
+1101600 1 schéma comportemental
+1101600 1 prévisibilité
 1101650 0 son d'un claquement de mains
 1101660 0 pachinko (billard électrique vertical)
 1101950 0 voiture de patrouille (abr.)
@@ -2531,6 +2538,8 @@
 1103110 1 punk
 1103210 0 panda
 1103270 0 slip
+1103270 0 culotte
+1103270 0 short
 1103270 1 pantalon (en part. de femme)
 1103270 1 jodhpurs
 1103270 1 culotte
@@ -2570,7 +2579,6 @@
 1106400 0 piano
 1106530 0 pique-nique
 1106660 0 pistolet
-1106660 0 revolver
 1107000 0 période
 1107000 0 point final
 1107060 0 épingle (par ex. épingle à cheveux)
@@ -2590,6 +2598,9 @@
 1107320 0 tennis de table
 1107460 0 premier
 1107460 1 rapide
+1108160 0 attache
+1108160 0 fermeture
+1108160 0 glissière
 1108160 0 fermeture éclair
 1108180 0 facsimile
 1108180 0 fax
@@ -2767,8 +2778,9 @@
 1129240 1 tenancière
 1129260 0 mayonnaise
 1129290 0 marathon
+1129290 0 course de fond
 1129290 1 malathion
-1130040 0 copropriété (souvent dans un immeuble de moyenne ou de grande hauteur)
+1130040 0 copropriété (souvent dans un immeuble en béton de moyenne ou de grande hauteur)
 1130040 0 immeuble résidentiel
 1130040 0 appartement
 1130270 0 regard d'égout
@@ -2879,8 +2891,22 @@
 1145220 0 loisirs
 1145310 0 restaurant (en particulier de style occidental)
 1145910 0 niveau
-1145910 1 niveau
+1145910 0 standard
+1145910 0 quantité
+1145910 0 degré
+1145910 0 graduation
+1145910 0 qualité
+1145910 0 rang
+1145910 0 classe
+1145910 0 étage
+1145910 0 couche
+1145910 0 strate
+1145910 0 échelon
+1145910 1 niveau à bulle
+1145910 1 niveau (de géomètre)
 1145910 2 numéro de version mineur (pour un logiciel)
+1145910 3 plat
+1145910 3 niveau
 1145910 4 rebelle
 1145990 0 compte-rendu
 1145990 0 rapport
@@ -2889,8 +2915,10 @@
 1146180 0 location
 1146230 0 rayons X (lit: Rœntgen)
 1146750 0 corde
-1146810 0 caractères latins
+1146810 0 alphabet latin
+1146810 0 translittération du japonais en caractères latins ou « romains »
 1146810 0 romanisation
+1146810 0 romaji
 1147020 0 prêt
 1147220 0 médaillon
 1147220 1 fusée
@@ -2900,7 +2928,9 @@
 1147560 1 rocker
 1147600 0 clé (lutte, catch)
 1147600 0 rock'n roll
-1147800 0 hall (hôtel)
+1147800 0 lobby
+1147800 0 hall
+1147800 0 salon
 1147870 0 robot
 1148010 0 romantique
 1148520 0 traitement de texte
@@ -3494,7 +3524,7 @@
 1157170 9 passer (à propos du temps)
 1157170 9 s'écouler
 1157300 0 homme d'état
-1157330 0 change (d'argent)
+1157330 0 mandat (transfert d'argent)
 1157330 1 change (de monnaie)
 1157510 0 être différent de
 1157510 0 différer
@@ -3565,9 +3595,8 @@
 1158470 0 restauration (de Meiji)
 1158470 1 restauration de Meiji
 1158480 0 parallèle
-1158490 0 latitude
+1158490 0 latitude (pour la navigation)
 1158500 0 estomac
-1158500 0 ventre
 1158500 1 constellation chinoise de l'« Estomac » (une des 28 loges lunaires)
 1158530 0 ptôse gastrique
 1158540 0 cancer gastrique
@@ -3582,7 +3611,7 @@
 1158760 0 habit
 1158760 0 robe
 1158760 0 vêtement
-1158780 0 la nourriture, le vêtement et le couvert
+1158780 0 besoins essentiels (nourriture, vêtements et abris)
 1158800 0 les secrets de l'art
 1158810 0 vêtements
 1158830 0 habit
@@ -3795,8 +3824,8 @@
 1164010 0 de tous ses efforts
 1164010 0 de toutes ses forces
 1164010 0 comme si sa vie en dépendait
-1164040 0 immédiatement
 1164040 0 simultanément
+1164040 0 tout à la fois
 1164050 0 en même temps
 1164050 0 simultanément
 1164110 0 opinion
@@ -3844,9 +3873,7 @@
 1164510 4 en général
 1164570 0 toute une région
 1164570 0 toute une zone
-1164650 0 pour l'instant
-1164650 0 pour le moment
-1164650 0 temporairement
+1164650 0 une fois
 1164650 1 pour le moment
 1164650 1 pour l'instant
 1164650 1 temporairement
@@ -4656,8 +4683,11 @@
 1178240 0 grande plage
 1178240 0 haut-fond
 1178260 0 ballade
-1178260 0 pique-nique
+1178260 0 excursion
+1178260 0 promenade
 1178260 0 randonnée
+1178260 0 sortie
+1178260 0 voyage
 1178340 0 endroit éloingné
 1178340 0 grande distance
 1178450 0 réserve
@@ -4709,9 +4739,14 @@
 1178940 3 vil
 1178940 4 radin
 1178940 4 cupide
+1178960 0 polluer
+1178960 0 contaminer
 1178960 0 salir
-1178960 0 saloper(pop)
 1178960 0 souiller
+1178960 0 tacher
+1178960 1 faire honte à
+1178960 1 déshonorer
+1178960 1 profaner
 1178980 0 dégoutant
 1178980 0 immonde
 1178980 0 sale
@@ -5136,11 +5171,14 @@
 1185330 0 période du 21 à la fin d'un mois
 1185370 0 brouillon
 1185510 0 écoulement des eaux
-1185510 0 égout
+1185510 0 drainage
+1185510 0 fossé
+1185510 0 gouttière
 1185510 0 caniveau
-1185510 0 gouttière(?)
+1185510 0 assainissement
+1185510 0 égout
 1185510 1 eaux usées
-1185510 1 eaux d'égoûts
+1185510 1 eaux d'égout
 1185530 0 canalisation
 1185530 0 tuyau d'écoulement
 1185640 0 souligner
@@ -5202,19 +5240,25 @@
 1187610 0 nom provisoire
 1187790 0 déguisement
 1187790 0 mascarade
-1187870 0 hypothése
+1187870 0 hypothèse
 1187870 0 postulat
 1187870 0 supposition
 1188000 0 maladie simulée
 1188050 0 couture provisoire
 1188050 0 faufiler
-1188100 0 utilisation du syllabaire (kana)
+1188100 0 orthographe en kana
+1188100 0 orthographe syllabaire
 1188220 0 masque
 1188220 1 déguisement
 1188270 0 quelque chose
 1188330 0 dans tous les cas
 1188330 0 de toute façon
+1188330 0 de toute manière
 1188330 0 quoi qu'il en soit
+1188330 0 à tout prix
+1188330 0 car
+1188330 0 parce que
+1188330 0 comme vous le savez
 1188350 0 d'une certaine façon
 1188350 0 un peu
 1188370 0 comme...!
@@ -5241,8 +5285,13 @@
 1188680 0 innocemment
 1188680 0 non intentionnellement
 1188680 0 par inadvertance
-1188690 0 (aff) complètement
-1188690 0 (nég) rien, pas le moindre
+1188690 0 assez
+1188690 0 vraiment
+1188690 0 très
+1188690 0 extrêmement
+1188690 1 rien
+1188690 1 pas le moins
+1188690 1 pas du tout
 1188740 0 n'importe quel
 1188740 0 n'importe quoi
 1188740 0 quelque chose
@@ -7767,6 +7816,7 @@
 1219020 0 fonds (capital)
 1219050 0 première pierre
 1219060 0 base
+1219060 0 fondation
 1219060 0 fondement
 1219080 0 fondations
 1219100 0 connaissances fondamentales
@@ -9078,6 +9128,7 @@
 1235950 4 objet cognitif
 1235950 4 uelque chose de perceptible par les organes sensoriels ou par l'esprit
 1235960 0 frontière
+1235960 0 limite
 1236000 0 circonstances
 1236000 0 environnement
 1236020 0 enceinte (du temple)
@@ -13574,6 +13625,7 @@
 1290560 0 confusion
 1290560 0 désordre
 1290590 0 bleu marine
+1290590 0 bleu foncé
 1290600 0 bleu foncé
 1290600 0 bleu marine
 1290640 0 esprit malin
@@ -15093,7 +15145,9 @@
 1310880 0 blessé
 1310880 0 perte
 1310900 0 mort (corps)
-1310920 0 corps
+1310920 0 corps sans vie
+1310920 0 dépouille
+1310920 0 cadavre
 1310950 0 décès
 1310950 0 mort
 1310950 0 mortalité
@@ -15144,12 +15198,13 @@
 1311560 0 matrice ?
 1311560 0 papier stencil
 1311580 0 sac en papier
-1311600 0 billet
-1311600 0 papier monnaie
+1311600 0 billet (de banque)
+1311600 0 papier-monnaie
 1311610 0 paquet emballé (dans du papier)
 1311620 0 document
 1311620 0 espace (page)
 1311640 0 violet
+1311640 0 pourpre
 1311640 1 Erythrorhizon Lithospermum (espèces de grémil)
 1311640 2 type de sauce soja
 1311650 0 nuages violets porte-bonheur
@@ -28854,9 +28909,8 @@
 1479920 0 par contre
 1480050 0 unité de mesure de terrain (environ 1000 métres carrés)
 1480050 0 unité de mesure de tissu (environ 9 mètres)
-1480060 0 antagonisme
 1480060 0 anti-
-1480060 0 opposition
+1480060 1 antithèse
 1480080 0 être contraire à
 1480080 0 aller à l'encontre de
 1480080 0 aller contre
@@ -29380,9 +29434,13 @@
 1484660 0 trouver refuge
 1484690 0 contraception
 1484700 0 paratonnerre
-1484710 0 in-
-1484710 0 non-
-1484710 1 faute
+1484710 0 faute
+1484710 0 erreur
+1484710 1 aller mal
+1484710 1 être désavantageux
+1484710 1 être défavorable
+1484710 2 in-
+1484710 2 non-
 1484840 0 confidentiel
 1484840 0 privé
 1484840 0 interne
@@ -29513,8 +29571,7 @@
 1486650 0 délicieux
 1486650 0 excellent
 1486650 0 exquis
-1486670 0 beauté
-1486670 0 soins de beauté
+1486670 0 beauté de la figure ou de la forme
 1486680 0 salon de coiffure
 1486720 0 nez
 1486820 0 son nasal
@@ -29670,8 +29727,9 @@
 1489510 0 représentation
 1489510 1 représentation
 1489510 1 notation
-1489600 0 couverture
+1489600 0 couverture (d'un livre, d'un magazine, etc.)
 1489600 0 reliure
+1489600 1 paraître sur la couverture d'un magazine
 1489610 0 indication
 1489610 0 expression
 1489610 0 manifestation
@@ -32389,9 +32447,13 @@
 1523690 0 mode d'emploi
 1523690 0 notes explicatives
 1523690 0 remarque préliminaire
-1523700 0 Fête bouddhique des morts
-1523700 0 Fête des lanternes
 1523700 0 plateau
+1523700 1 famille
+1523700 1 foyer
+1523700 2 O-Bon
+1523700 2 Fête de Bon
+1523700 2 Fête des lanternes
+1523700 2 Fête des morts
 1523720 0 jardin miniature
 1523720 0 paysage miniature
 1523730 0 arbre nain
@@ -32467,7 +32529,7 @@
 1524620 0 énumération
 1524620 0 compte détaillé
 1524620 0 dénombrement
-1524630 0 nombre de feuilles (ou d'objets plats)
+1524630 0 nombre d'objets plats
 1524640 0 chaque
 1524650 0 chaque
 1524650 0 tous
@@ -32482,6 +32544,7 @@
 1524700 0 chaque matin
 1524700 0 tous les matins
 1524710 0 chaque fois
+1524710 1 merci pour votre fidélité
 1524720 0 chaque jour
 1524720 0 tous les jours
 1524730 0 chaque soir
@@ -32493,6 +32556,7 @@
 1524820 0 gouvernement shogounal
 1524820 0 shogounat
 1524860 0 oreiller
+1524860 0 traversin
 1524880 0 thon
 1524930 0 de nouveau
 1524930 0 encore
@@ -32663,6 +32727,7 @@
 1527830 0 non fixé, indeterminé
 1527910 0 impayé
 1528030 0 veuve
+1528040 0 moins que
 1528040 0 insuffisant
 1528050 0 Le point du jour
 1528050 0 l'aube
@@ -32719,6 +32784,8 @@
 1528770 0 action civile
 1528770 0 procès civil
 1528790 0 démocratie
+1528790 0 souveraineté populaire
+1528790 1 démocratique
 1528840 0 démocratie
 1528870 0 démocratique
 1528920 0 le peuple
@@ -32854,6 +32921,7 @@
 1530600 0 sans prévenir
 1530630 0 ignorance
 1530650 0 uni (couleur)
+1530650 0 sans ornement
 1530660 0 confusion
 1530660 0 désordre
 1530670 0 absurde
@@ -32958,6 +33026,8 @@
 1531570 0 substantif
 1531600 0 lieu célèbre
 1531600 0 site célèbre
+1531600 1 nom d'une partie (d'un instrument, etc.)
+1531600 2 nom et adresse
 1531610 0 maître artisan
 1531620 0 nom
 1531680 0 champion
@@ -33032,6 +33102,7 @@
 1532260 0 le jour suivant
 1532260 0 le lendemain
 1532300 0 aube
+1532300 0 aurore
 1532310 0 évident
 1532310 0 clair
 1532310 0 manifeste
@@ -33197,8 +33268,8 @@
 1533500 0 aire
 1533500 0 superficie
 1533500 0 surface
-1533510 0 entretien
-1533510 0 interview
+1533510 0 entretien (par ex. pour un emploi)
+1533510 0 entrevue
 1533550 0 difficulté
 1533550 0 problème
 1533550 0 soin
@@ -33297,6 +33368,7 @@
 1534280 0 angle mort
 1534340 0 cécité
 1534380 0 filet
+1534380 0 toile
 1534380 1 réseau
 1534420 0 filet à provisions
 1534450 0 comprendre
@@ -33346,8 +33418,14 @@
 1535030 0 consentement tacite
 1535050 0 droit de garder le silence
 1535140 0 rencontrer (quelqu'un de statut plus élevé)
+1535280 0 critère
+1535280 0 standard
+1535280 0 étalon
+1535280 0 référence
 1535280 0 but
 1535280 0 objectif
+1535280 1 estimation grossière
+1535280 1 approximation
 1535300 0 marque
 1535300 0 signe
 1535320 0 junior
@@ -34891,6 +34969,8 @@
 1552870 0 sulfure d'hydrogène
 1552880 0 acide sulfurique
 1552890 0 grain
+1552890 0 goutte
+1552890 1 compteur pour les petits objets ronds dont les grains, les graines, les pilules, les gouttes
 1552910 0 grain
 1552910 0 particule
 1552920 0 granuleux
@@ -34962,12 +35042,13 @@
 1554240 0 élève en internat
 1554240 0 interne
 1554250 0 intendant de l'internat
-1554270 0 charge
-1554270 0 droit(taxe)
+1554270 0 tarif
 1554270 0 frais
+1554270 0 charges
 1554270 0 prix
-1554270 0 matériau
+1554270 0 taux
 1554270 1 matériau
+1554270 1 matière
 1554280 0 frais
 1554280 0 prix
 1554280 0 taxe
@@ -35020,6 +35101,8 @@
 1554730 0 consul
 1554740 0 consulat
 1554750 0 reçu
+1554750 0 bon
+1554750 1 recevoir
 1554760 0 reçu
 1554770 0 reçu
 1554780 0 domaine

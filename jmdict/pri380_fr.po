@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2016-04-02 01:32:22+0000\n"
+"POT-Creation-Date: 2016-04-09 08:08:22+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -7340,9 +7340,12 @@ msgstr ""
 "envoyé\n"
 "mission"
 
+#, fuzzy
 msgctxt "1306860 0"
 msgid ""
 "史上\tしじょう\n"
+"in history\n"
+"ever\n"
 "historical"
 msgstr "historique"
 
@@ -22737,11 +22740,13 @@ msgstr ""
 "s'assurer de\n"
 "voir de ses propres yeux"
 
+#, fuzzy
 msgctxt "1604640 0"
 msgid ""
 "見習い\tみならい\n"
-"learn by observation\n"
-"apprentice"
+"apprenticeship\n"
+"probation\n"
+"learning by observation"
 msgstr "apprentissage (apprendre par l'observation)"
 
 #, fuzzy
