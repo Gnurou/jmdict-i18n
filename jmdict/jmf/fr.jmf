@@ -594,7 +594,6 @@
 1005340 0 Mlle
 1005340 0 -san
 1005340 1 rend les mots plus polis (surtout dans des expressions figées)
-1005360 0 bruit de versement d'eau
 1005390 0 approximativement
 1005390 0 en nombre arrondi
 1005390 1 superficiellement
@@ -1996,6 +1995,7 @@
 1058480 0 sandale
 1058580 0 sandwich
 1058760 0 échantillon
+1058910 0 bruit de versement d'eau
 1059100 0 publicité (à la télé, à la radio, etc.)
 1059300 0 saison (pour les fruits et légumes, le sport, les vacances)
 1059400 0 drap
@@ -7554,7 +7554,7 @@
 1215320 2 conduite inappropriée (par ex. entre un homme et une femme)
 1215320 2 indiscrétion
 1215330 0 faire une erreur
-1215330 0 se tromper
+1215330 0 commettre une erreur (par ex. dans un calcul) 
 1215330 1 se méprendre
 1215330 1 se tromper
 1215330 1 confondre
@@ -12601,7 +12601,11 @@
 1277450 0 apprécié
 1277450 0 penchant pour
 1277460 0 ce que l'on aime et ce que l'on déteste
+1277460 0 goûts et dégoûts
+1277460 0 être difficile (à propos de la nourriture)
+1277460 0 côté tatillon
 1277460 0 goûts
+1277460 0 préférences
 1277480 0 être enclin
 1277480 0 aimer
 1277480 0 apprécier
@@ -12640,13 +12644,13 @@
 1277760 0 favorable
 1277790 0 plat préféré
 1277810 0 Confucius
-1277880 0 piété filial
-1277880 0 respect des Anciens
+1277880 0 piété filiale
 1277940 0 dégagement des obligation filiales
 1277980 0 ouvrier
 1278010 0 ingénieur
 1278040 0 industrie (manufacturière)
-1278090 0 travaux manuels
+1278090 0 arts industriels
+1278090 0 artisanat
 1278100 0 construction
 1278100 0 travail
 1278100 0 travail manuel
@@ -12799,13 +12803,14 @@
 1279480 0 correction
 1279480 0 inspection
 1279510 0 drapeau de l'école
-1279540 0 école (bâtiment)
+1279540 0 bâtiments scolaire
 1279560 0 corriger des épreuves
 1279560 0 relire
 1279580 0 règlement intérieur scolaire
 1279590 0 directeur
 1279590 0 principal
 1279590 0 proviseur
+1279600 0 cour d'école
 1279600 0 campus
 1279640 0 corrigé
 1279640 0 en dernière lecture
@@ -12903,6 +12908,7 @@
 1280860 0 exécution par pendaison
 1280860 0 pendaison
 1280880 0 corde
+1280880 1 ceinture tressée du grand champion
 1280900 0 discipline
 1280900 0 loi et ordre
 1280900 0 cordes(?)
@@ -12915,7 +12921,6 @@
 1280970 0 agriculture
 1280970 0 culture
 1280990 0 terre arable
-1280990 0 terre cultivée
 1281000 0 réflexion
 1281000 0 pensée
 1281000 0 vision
@@ -13004,10 +13009,13 @@
 1281570 0 travail difficile
 1281570 0 travail harassant
 1281620 0 ruine
+1281690 0 ligne (par ex. de texte)
 1281690 0 colonne
-1281690 0 ligne
-1281690 1 verset
-1281690 3 écriture semi-cursive (style de calligraphie)
+1281690 0 verset
+1281690 0 vers
+1281690 1 carya (austérités)
+1281690 2 samskara (formations)
+1281690 3 écriture courante (style de kanji semi-cursif)
 1281720 0 destination (d'un voyage)
 1281720 1 environs
 1281720 1 voisinage
@@ -13027,7 +13035,7 @@
 1281890 0 comportement
 1281910 0 pratique
 1281910 0 usage
-1281930 0 événement
+1281930 0 évènement
 1281930 0 fonction
 1281980 0 marche de défilé
 1281980 0 parade
@@ -13051,7 +13059,7 @@
 1282220 0 queue
 1282220 0 procession
 1282220 0 parade
-1282220 1 matrice (maths)
+1282220 1 matrice
 1282240 0 conférence
 1282240 0 colloque
 1282240 0 discours
@@ -13140,10 +13148,11 @@
 1283300 0 prix élevé
 1283330 0 haut fonctionnaire
 1283370 0 forte pression atmosphérique
-1283400 0 de haut niveau
-1283400 0 de première classe
-1283400 0 rang élevé
+1283400 0 haut de gamme
+1283400 0 haut niveau
+1283400 0 première classe
 1283400 1 rang élevé
+1283400 1 ancienneté
 1283440 0 noblesse
 1283440 0 pureté
 1283490 0 haut plateau
@@ -13158,8 +13167,11 @@
 1283610 0 raffiné
 1283680 0 grand prêtre
 1283680 0 prêtre vertueux
+1283690 0 à plusieurs étages
+1283690 0 de grande hauteur
+1283690 0 haut
+1283690 0 grand
 1283690 0 élevé
-1283690 0 supérieur
 1283700 0 grande vitesse
 1283700 0 vitesse rapide
 1283700 1 autoroute
@@ -13176,8 +13188,16 @@
 1283810 0 montée et descente
 1283830 0 altitude
 1283830 0 hauteur
+1283830 0 élévation
+1283830 0 taille
+1283830 1 avancé
+1283830 1 sophistiqué
+1283830 1 perfectionné
+1283830 1 supérieur
+1283830 1 puissant
 1283840 0 développement avancé
-1283850 0 rang élevé
+1283850 0 supérieur
+1283850 0 haut de gamme
 1283860 0 lycée
 1283870 0 augmentation soudaine, brutale des prix
 1283880 0 forte fièvre
@@ -13286,17 +13306,15 @@
 1285100 0 accord
 1285100 0 concordance à
 1285140 0 combinaison
-1285140 0 congruence
-1285140 0 fusion
-1285140 0 incorporation
-1285140 0 réunion
 1285140 0 union
+1285140 0 incorporation
+1285140 0 amalgame
+1285140 0 fusion
 1285140 1 congruence
 1285270 0 légal
 1285270 0 légalité
 1285270 0 légitime
 1285330 0 rationnel
-1285330 0 sensé
 1285340 0 rationalisation
 1285380 0 logique
 1285380 0 raisonnable
@@ -13347,9 +13365,13 @@
 1285890 1 sculpter
 1285890 1 graver
 1285890 1 ciseler
+1285890 1 tailler
 1285890 1 entailler
-1285890 3 graver dans sa mémoire
+1285890 2 s'écouler (pour le temps)
+1285890 2 enregistrer les moments qui passent
+1285890 3 graver (dans son esprit)
 1285890 3 se souvenir clairement
+1285890 4 avoir tatoué
 1285890 5 tourmenter
 1285900 0 heure par heure
 1285900 0 progressivement
@@ -16072,7 +16094,13 @@
 1321650 0 pelouse
 1321660 0 gazon
 1321660 0 pelouse
+1321670 0 bande
+1321670 0 rayure
+1321670 0 zébrure
+1321670 0 barre
+1321670 0 traînée
 1321670 0 raie
+1321670 0 strie
 1321820 0 être photographié
 1321820 0 être projeté (média)
 1321860 0 réaliste
@@ -16085,7 +16113,7 @@
 1322120 0 description
 1322120 0 esquisse
 1322170 0 briller
-1322170 0 frapper
+1322170 0 rayonner
 1322180 0 abattre
 1322180 0 tirer
 1322240 0 tirer pour tuer
@@ -16101,7 +16129,12 @@
 1322320 2 renoncer à
 1322390 0 guérison
 1322390 0 rémission
-1322400 0 obliquité
+1322400 0 oblique
+1322400 0 en biais
+1322400 0 incliné
+1322400 0 en pente
+1322400 0 diagonal
+1322400 0 oblique
 1322400 1 inhabituel
 1322400 1 (vision du monde) biaisée
 1322400 1 mauvaise (humeur)
@@ -16143,7 +16176,8 @@
 1322870 0 sociable
 1322890 0 éditorial
 1322920 0 directeur
-1322920 0 président
+1322920 0 président (d'une entreprise)
+1322920 0 gérant
 1322990 0 individu
 1322990 0 personne
 1323010 0 s'excuser
@@ -23137,7 +23171,7 @@
 1406120 0 ranger
 1406120 0 remettre en ordre
 1406120 0 rendre uniforme
-1406140 0 savoir
+1406140 0 penser, sentir, considérer, savoir, etc.
 1406150 0 l'être
 1406150 0 l'existence
 1406190 0 continuité
@@ -23240,7 +23274,6 @@
 1408220 0 prendre du poids
 1408260 0 les temps anciens
 1408280 0 tambour
-1408280 0 tambourin
 1408310 0 caractères gras
 1408340 0 épée longue
 1408360 0 Océan Pacifique
@@ -23259,8 +23292,12 @@
 1408510 0 renoncement
 1408520 0 plan de compromis
 1408530 0 accord
+1408540 0 valide
 1408540 0 adéquat
+1408540 0 correct
+1408540 0 juste
 1408540 0 approprié
+1408540 0 raisonnable
 1408560 0 apathie
 1408560 0 indolence
 1408560 0 nonchalance
@@ -23395,7 +23432,8 @@
 1409520 0 complexion
 1409520 0 constitution (physique)
 1409520 0 prédisposition génétique
-1409540 0 poids (de son corps)
+1409540 0 poids corporel
+1409540 0 son propre poids
 1409550 0 ordre
 1409550 0 organisation
 1409550 0 régime
@@ -23492,7 +23530,9 @@
 1410500 0 être à l'affût de
 1410500 0 attendre au passage (embuscade, guet-apens)
 1410510 0 rendez-vous
-1410520 0 donnez un rendez-vous à quelqu'un
+1410520 0 donner un rendez-vous
+1410520 0 se rencontrer en un lieu et à une heure convenus
+1410520 0 organiser une rencontre
 1410530 0 attendre en vain
 1410540 0 attendre
 1410560 0 embuscade
@@ -23563,6 +23603,12 @@
 1411080 0 impasse
 1411110 0 crédit
 1411110 0 prêt
+1411110 1 faveur
+1411110 1 dette
+1411110 1 obligation
+1411110 2 créancier
+1411110 2 façon de prêter
+1411110 2 secteur du crédit 
 1411120 0 louer un bateau
 1411130 0 prêter
 1411160 0 faire crédit
@@ -23624,6 +23670,10 @@
 1412300 0 parler pour qqun
 1412300 0 payer par procuration
 1412340 0 pronom
+1412340 1 synonyme
+1412340 1 exemple type
+1412340 1 modèle
+1412340 1 élément représentatif
 1412360 0 substitution
 1412400 0 remplaçant
 1412400 0 représentation
@@ -23982,16 +24032,23 @@
 1416010 0 champignon
 1416170 0 battre
 1416170 0 frapper
+1416170 0 cogner
+1416170 0 rosser
 1416170 0 taper
+1416170 0 tapoter
 1416170 1 jouer de la batterie
 1416170 1 jouer du tambour
 1416170 2 invectiver
 1416170 2 injurier (par ex. sur Internet)
 1416170 2 insulter
 1416170 2 outrager
-1416170 3 dépenser de l'argent
-1416170 4 invoquer
-1416170 4 appeler (par ex. une fonction)
+1416170 3 consulter
+1416170 3 sonder
+1416170 3 demander un avis
+1416170 4 se vanter
+1416170 4 fanfaronner
+1416170 5 invoquer
+1416170 5 appeler (par ex. une fonction)
 1416190 0 mais
 1416190 0 pourvu que
 1416190 0 quelque...que
@@ -24297,7 +24354,7 @@
 1419790 0 lambeau
 1419790 0 miette
 1419850 0 hiver doux
-1419860 0 chauffage
+1419860 0 chauffage (intérieur)
 1419880 0 courant chaud
 1419890 0 crédit
 1419890 0 réputation
@@ -26766,6 +26823,8 @@
 1447910 0 "votre attention s'il vous plaît"
 1447910 0 est et ouest
 1447910 0 orient et occident
+1447910 1 orient et occident
+1447910 2 "votre attention s'il vous plaît"
 1448050 0 Asie du sud-est
 1448100 0 Est..
 1448100 0 partie orientale
@@ -36048,13 +36107,26 @@
 1568800 0 se répandre
 1568800 0 suinter
 1568800 0 tacher
+1568910 0 réchauffer (par ex. ses mains sur le feu)
+1568910 0 sécher
+1568910 1 bruler
+1568910 1 flamber
+1568910 1 rôtir
+1568910 1 griller
 1568920 0 faire revenir (cuisine)
 1568920 0 faire sauter
 1569000 0 réchaud à gaz
 1569000 0 réchaud portable
+1569240 0 sournois
+1569240 0 rusé
+1569240 0 futé
 1569240 0 malin
 1569240 0 roublard
-1569240 0 rusé
+1569240 0 malhonnête
+1569240 0 injuste
+1569240 0 déloyal
+1569240 1 avare
+1569240 1 pingre
 1569570 0 qui démange
 1569570 0 qui gratte
 1569620 0 s'endormir (membre, pieds,..)
@@ -37431,6 +37503,15 @@
 1586700 0 incertain
 1586700 0 soupçonneux
 1586700 0 suspect
+1586730 0 restes (après avoir fileté un poisson)
+1586730 1 paille de riz
+1586730 2 défaut (en part. d'une personne)
+1586730 3 grossier
+1586730 3 grossièrement
+1586730 4 brut
+1586730 4 cru
+1586730 4 naturel
+1586730 4 sauvage
 1586740 0 fruste
 1586740 0 grossier
 1586740 0 violent
@@ -37440,8 +37521,9 @@
 1586780 0 tous
 1586780 0 toutes
 1586820 0 merci
-1586840 0 un (article indéfini)
-1586840 0 un certain
+1586840 0 un certain...
+1586840 0 quelque...
+1586840 0 tel...
 1586850 0 ou
 1586850 0 ou bien
 1586910 0 apprendre par cœur
@@ -37475,8 +37557,6 @@
 1587140 0 guerre
 1587170 0 haie
 1587180 0 arrangement de fleurs
-1587180 0 façon de disposer les fleurs
-1587180 0 ikebana
 1587180 1 fleurs fraîches
 1587190 0 disposer (fleurs)
 1587200 0 idée
@@ -37526,8 +37606,13 @@
 1587610 0 ne pas aimer
 1587610 0 ne pas apprécier
 1587670 0 de plus en plus
-1587670 0 finalement
-1587670 0 sans aucun doute
+1587670 0 toujours plus
+1587670 0 d'autant plus
+1587670 1 enfin
+1587670 1 finalement
+1587670 1 sans aucun doute
+1587670 2 (au) dernier moment
+1587670 2 pire moment possible
 1587690 0 ambition
 1587690 0 désir
 1587700 0 s'énerver
@@ -37541,6 +37626,8 @@
 1587820 0 fausse dent
 1587820 0 prothèse dentaire
 1587840 0 récipient
+1587840 0 boîtier
+1587840 0 réceptacle
 1587840 1 (euphémisme pour) cercueil
 1587850 0 divers
 1587850 0 varié
@@ -37549,9 +37636,9 @@
 1587900 0 convention
 1587900 0 coutume
 1587900 0 tradition
+1587970 0 arbustes de jardin
 1587970 0 arbres
-1587970 0 arbustes
-1587970 0 plante mise en pot
+1587970 0 plante en pot
 1587980 0 (mort par) famine
 1588010 0 saison des pluies
 1588030 0 relief
@@ -37609,7 +37696,11 @@
 1588450 0 preuve
 1588450 0 sécurité
 1588450 0 soutien
-1588500 0 produit d'une vente
+1588500 0 quantité vendue
+1588500 0 ventes
+1588500 0 produit des ventes
+1588500 0 recette
+1588500 0 chiffre d'affaires
 1588520 0 vendeur
 1588520 0 vendeuse
 1588540 0 fournisseur
@@ -37622,6 +37713,8 @@
 1588580 0 être chagriné
 1588580 0 être inquiet
 1588580 0 se lamenter
+1588590 0 ventes
+1588590 0 demande
 1588620 0 transport maritime
 1588710 0 carte postale illustrée
 1588720 0 crevette
@@ -37669,6 +37762,7 @@
 1588920 1 points bonus attribués au gagnant à la fin d'un jeu
 1588930 0 o-kazu
 1588930 0 plat accompagnant le riz
+1588930 1 matière à réflexion (en part. dans le cadre d'une conversation, ou de matériel pour s'exciter pendant la masturbation)
 1588990 0 haute mer
 1588990 0 le large
 1589010 0 ornement
@@ -37853,16 +37947,20 @@
 1589840 1 liaison
 1589850 0 officiel (à la douane)
 1589850 0 responsable
-1589880 0 être en rapport avec
-1589880 0 être relié à
-1589880 0 se préoccuper de
+1589880 0 être affecté
+1589880 0 être influencé
+1589880 0 être touché
 1589900 0 été
 1589950 0 premier écrit de l'année
 1589950 0 résolution de nouvelle année
-1589960 0 enregistrement
-1589960 0 mis par écrit
-1589960 0 prise de note
-1589970 0 dictée
+1589960 0 courrier recommandé
+1589960 1 recommandation (par ex. du courrier)
+1589960 1 mis par écrit
+1589960 1 enregistrement
+1589960 1 prise de note
+1589970 0 noter à partir d'autres documents écrits
+1589970 0 écriture du texte en kanji à partir des hiragana
+1589970 1 transcription (de la parole)
 1590010 0 haut-parleur
 1590040 0 pari
 1590080 0 multiplication
