@@ -1512,7 +1512,7 @@
 1013100 0 bienvenue
 1013140 0 envoyer
 1013140 0 transmettre
-1013140 1 confier (par exemple de l'argent)
+1013140 1 confier (par ex. de l'argent)
 1013140 1 transmettre
 1013160 0 salive ?
 1013170 0 chancelant
@@ -3655,8 +3655,10 @@
 1159230 0 rancune
 1159260 0 héritage
 1159260 0 patrimoine
+1159310 0 orphelin
 1159320 0 perte
 1159330 0 objet perdu
+1159340 1 oeuvre posthume
 1159380 0 ruines
 1159380 0 vestiges
 1159420 0 famille d'un défunt
@@ -3682,6 +3684,7 @@
 1160090 0 cabinet du médecin
 1160090 0 cabinet médical
 1160090 0 infirmerie
+1160100 0 médicament
 1160110 0 médicament
 1160110 0 produit pharmaceutique
 1160140 0 soins médicaux
@@ -4144,7 +4147,14 @@
 1169090 0 dévoyer (recruter ailleurs)
 1169090 0 extraire
 1169120 0 match nul
-1169140 0 revenir à son point de départ
+1169140 0 revenir en arrière
+1169140 0 faire demi-tour
+1169140 0 retourner
+1169140 0 répéter
+1169140 0 renvoyer
+1169140 0 ramener
+1169140 0 revenir sur ses pas
+1169140 0 rebrousser chemin
 1169180 0 rétablir
 1169180 0 ramener à son point de départ
 1169190 0 écarter l'un de l'autre
@@ -4185,14 +4195,24 @@
 1169280 1 être honteux, géné (ki ga ~)
 1169310 0 désavantage
 1169310 0 point faible
-1169320 0 culbuter
+1169320 0 être renversé
 1169320 0 se retourner
-1169320 0 tomber à l'eau
+1169320 0 culbuter
+1169320 0 être inversé
+1169320 0 tomber
+1169320 0 basculer
 1169340 0 déménager
-1169350 0 avoir des doutes
-1169350 0 se coincer (dans)
-1169350 0 se faire avoir
-1169350 0 se prendre (dans)
+1169350 0 être pris dans
+1169350 0 être coincé dans
+1169350 1 passer (par ex. pour dire bonjour)
+1169350 1 s'arrêter pour une courte visite
+1169350 1 être retardé
+1169350 1 prendre du temps
+1169350 3 se faire avoir
+1169350 3 être trompé
+1169350 5 être obstrué
+1169350 5 être entravé
+1169350 6 éclabousser
 1169360 0 enfiler rapidement (un vêtement)
 1169360 0 suspendre (quelquechose à)
 1169360 1 accrocher
@@ -4960,11 +4980,13 @@
 1181450 0 capsule (de bouteille)
 1181450 0 couronne
 1181450 0 diadéme
+1181460 0 palais royal
 1181480 0 monarchie
 1181480 0 royaume
 1181490 0 trône
 1181500 0 prince
 1181500 1 sanctuaire subordonné de Kumano
+1181530 0 famille royale
 1181540 0 monarque
 1181540 0 roi
 1181540 1 champion en titre
@@ -4976,6 +4998,7 @@
 1181720 0 panneau coulissant japonais
 1181760 0 jaune
 1181860 0 or
+1181880 0 Age d'Or
 1182030 0 jaune
 1182030 1 haute fréquence (voix)
 1182030 1 perçant
@@ -5626,6 +5649,8 @@
 1193260 0 opéra
 1193280 0 paroles d'une chanson
 1193290 0 chanteur
+1193320 0 chanson
+1193320 0 chant
 1193410 0 (grande) chanteuse
 1193420 0 kabuki (théâtre traditionnel japonais)
 1193450 0 ballade
@@ -5638,6 +5663,7 @@
 1193610 0 flamme
 1193720 0 cocktail Molotov
 1193760 0 étincelle
+1193780 0 armes à feu
 1193860 0 cratère
 1193860 0 caldeira
 1193860 0 bouche d'un volcan
@@ -5645,6 +5671,7 @@
 1193870 0 lac de cratère
 1193880 0 embrasement
 1193880 0 incendie
+1193890 0 assurance contre les incendies
 1193910 0 volcan
 1193920 0 cendre volcanique
 1193950 0 incendie
@@ -5686,8 +5713,6 @@
 1194500 4 ikebana
 1194500 5 cartes à jouer traditionnelles japonaises  
 1194500 6 beauté
-1194500 7 (le) meilleur
-1194500 7 (le) mieux
 1194520 0 pétale
 1194560 0 fleuriste
 1194570 0 futur mariée
@@ -6030,6 +6055,7 @@
 1199330 1 compteur pour manches (baseball)
 1199330 2 islam
 1199330 3 Hui (ethnie)
+1199340 2 viol en réunion
 1199350 0 tourner
 1199350 0 pivoter
 1199350 0 tournoyer
@@ -6158,6 +6184,7 @@
 1200650 0 donner un conseil
 1200650 1 interdire
 1200650 3 punire
+1200660 0 loi martiale
 1200700 0 précepte
 1200710 0 partir avec la caisse
 1200710 0 s'enfuir en volant de l'argent
@@ -6783,6 +6810,7 @@
 1207200 0 formation
 1207210 0 montagne
 1207210 0 pic
+1207210 1 montagne
 1207220 0 beau-père
 1207230 0 aise
 1207230 0 confort
@@ -7180,6 +7208,7 @@
 1211630 0 achèvement
 1211630 0 conclusion
 1211630 1 parfait (temps du verbe, forme, aspect)
+1211640 0 bureaucratie
 1211670 0 autorité
 1211670 0 fonctionnaire
 1211730 0 organisme gouvernemental
@@ -7482,6 +7511,8 @@
 1214680 0 important
 1214680 0 principal
 1214690 0 navire de guerre
+1214730 0 vaisseau (bateau)
+1214730 0 navire de guerre
 1214740 0 escadrille
 1214740 0 flotte
 1214760 0 flotte de guerre
@@ -7873,6 +7904,7 @@
 1218920 0 instrument
 1218920 0 outil
 1218920 0 ustensile
+1218950 2 mobilier
 1218960 0 agile
 1218960 0 adroit
 1218960 0 habile
@@ -7909,6 +7941,7 @@
 1219300 0 mystérieux
 1219310 0 excentrique
 1219320 0 rencontre fortuite
+1219360 0 attaque surprise
 1219370 0 magie
 1219370 0 prestidigitation
 1219410 0 nombre impair
@@ -7959,6 +7992,7 @@
 1219740 0 pension
 1219750 0 parasitisme
 1219750 0 pique-assiette
+1219770 0 parasite
 1219840 0 carrefour
 1219840 0 croisement
 1219840 0 embranchement
@@ -8190,6 +8224,7 @@
 1222410 0 generositie
 1222460 0 gaz
 1222460 0 vapeur
+1222490 0 cylindre
 1222510 0 indication
 1222510 0 signe
 1222510 0 tendance
@@ -8407,6 +8442,7 @@
 1224510 0 parjure
 1224580 0 contrefaçon
 1224580 0 faux
+1224690 0 cérémonie
 1224700 0 cérémonie
 1224700 0 formalité
 1224700 0 rite
@@ -8487,6 +8523,7 @@
 1225630 0 doute
 1225630 0 problème
 1225630 0 question
+1225660 0 point d'interrogation
 1225680 0 défiance
 1225680 0 doute
 1225680 0 méfiance
@@ -8647,6 +8684,7 @@
 1227010 0 adversité
 1227020 0 effet contraire
 1227020 0 résultat inverse
+1227090 0 contre-attaque
 1227110 0 être fou de quelqu'un ou quelque chose
 1227110 0 avoir des vertiges (dus à un afflux de sang dans la tête)
 1227110 0 devenir orgueilleux
@@ -8761,6 +8799,7 @@
 1228410 0 visite à un temple
 1228430 0 Palais Impérial
 1228440 0 préfecture de Miyagi (région de Touhoku)
+1228450 0 Cour Impériale
 1228460 0 la Cour
 1228470 0 palais
 1228480 0 Agence de la Famille Impériale
@@ -8795,6 +8834,7 @@
 1228680 0 soudain
 1228690 0 à grande vitesse
 1228690 1 express (par ex. un train qui ne s'arrête pas à toutes les stations)
+1228730 0 mort subite
 1228750 0 point névralgique
 1228750 0 point vital
 1228750 0 talon d'Achille
@@ -8932,6 +8972,7 @@
 1231330 0 ancien engagement
 1231330 0 ancien testament
 1231330 0 ancienne promesse
+1231330 1 Ancien Testament
 1231340 0 ancien testament
 1231430 0 ancien calendrier lunaire
 1231490 0 bovin (Bos taurus)
@@ -8978,7 +9019,6 @@
 1232090 0 géant
 1232090 1 Tôkyô Giants (équipe de base-ball)
 1232110 0 étoile géante
-1232110 0 grosse pointure
 1232180 0 énorme
 1232180 0 colossal
 1232180 0 gigantesque
@@ -9094,6 +9134,7 @@
 1234040 0 rivaliser
 1234050 0 enchérir
 1234050 0 vendre aux enchères
+1234050 1 enchérir
 1234060 0 épreuve de natation
 1234060 0 course de natation
 1234080 0 épreuve
@@ -9105,6 +9146,7 @@
 1234140 1 concourir
 1234140 1 rivaliser
 1234190 0 course
+1234200 0 course de bateaux
 1234210 0 course de chevaux
 1234220 0 criée
 1234220 0 vente aux enchères
@@ -9884,6 +9926,7 @@
 1242420 0 aujourd'hui
 1242420 0 de nos jours
 1242420 0 temps modernes
+1242460 0 moderne
 1242490 0 les jours qui viennent
 1242510 0 ces dernières années
 1242520 0 approcher quelque chose de quelque chose
@@ -9911,6 +9954,7 @@
 1242600 8 carat
 1242630 0 médaille d'or
 1242650 0 10.000 Yens
+1242680 0 pièce d'or
 1242690 0 lingot d'or
 1242690 0 pépite
 1242700 0 montant
@@ -10447,6 +10491,7 @@
 1249900 0 frère aîné
 1249900 0 grand frère
 1249910 0 frère ainé
+1249930 0 frère ainé
 1249960 0 frères et sœurs
 1249960 0 fratrie
 1249960 1 frères et sœurs
@@ -10733,6 +10778,7 @@
 1252450 0 Préfecture de police
 1252470 0 sonnerie d'alarme
 1252470 0 tocsin
+1252470 1 avertissement
 1252480 0 corne de brume
 1252480 0 coup de sifflet
 1252480 0 klaxon
@@ -10795,6 +10841,7 @@
 1253060 0 beaux-arts
 1253130 0 le monde du spectacle
 1253150 0 personnalité du spectacle
+1253170 0 nom de scène
 1253180 0 aller à la rencontre de qq'un
 1253180 0 aller chercher qq'un (à la gare)
 1253190 0 aller à la rencontre de
@@ -11073,6 +11120,7 @@
 1255160 0 circulation sanguine
 1255170 0 lien de sang
 1255180 0 vaisseaux sanguins
+1255250 0 tache de sang
 1255350 0 sucres présents dans le sang (glucose, etc...)
 1255410 0 larmes de tristesse, de colère
 1255430 0 lune
@@ -11128,6 +11176,7 @@
 1256730 0 bon
 1256730 0 certificat
 1256750 0 épée
+1256750 1 baïonnette
 1256810 0 pièce d'épée (sans cape...)
 1256810 0 théâtre de samurai
 1256910 0 kendo
@@ -11216,6 +11265,7 @@
 1257730 0 ferveur
 1257730 0 acharnement
 1257730 0 risquer sa vie
+1257740 0 poing
 1257750 0 poing
 1257800 0 retrousser
 1257800 0 soulever
@@ -11560,6 +11610,7 @@
 1261190 0 raison
 1261190 0 source
 1261190 0 origine
+1261280 0 sens primitif
 1261300 0 prototype
 1261310 0 forme originelle
 1261340 0 manuscrit (original)
@@ -11587,6 +11638,7 @@
 1262020 0 forêt primitive
 1262020 0 forêt primordiale
 1262020 0 forêt vierge
+1262040 0 sous-marin nucléaire
 1262070 0 principe
 1262070 0 règle de base
 1262070 0 règle générale
@@ -11894,6 +11946,7 @@
 1266470 1 truc
 1266470 1 astuce
 1266470 1 secret (pour faire quelque chose)
+1266480 0 organes respiratoires
 1266550 0 coaguler
 1266550 0 durcir
 1266550 0 se figer
@@ -12764,6 +12817,7 @@
 1278860 0 objection
 1278860 0 protestation
 1278900 0 antibactérien
+1278910 0 antigène
 1278950 0 controverse
 1278950 0 différend
 1278950 0 dispute
@@ -13180,6 +13234,7 @@
 1283400 0 première classe
 1283400 1 rang élevé
 1283400 1 ancienneté
+1283420 0 salaire élevé
 1283440 0 noblesse
 1283440 0 pureté
 1283490 0 haut plateau
@@ -13308,6 +13363,7 @@
 1284600 0 réussir (examen)
 1284600 0 succès
 1284670 0 intervalle
+1284730 0 alliage
 1284740 0 montant total
 1284740 0 somme totale
 1284850 0 camp d'entraînement
@@ -13386,6 +13442,7 @@
 1285800 0 détaillé
 1285800 0 diligent
 1285800 0 fidèle
+1285820 2 victoire
 1285890 0 hacher
 1285890 0 couper fin
 1285890 0 émincer
@@ -13523,6 +13580,7 @@
 1287830 0 personne noire
 1287970 0 courant japonais (courant maritime chaud au Sud-Est du Japon)
 1288080 0 tableau noir
+1288160 0 rideau noir
 1288300 0 prison
 1288340 0 dos
 1288340 0 bas du dos
@@ -13840,6 +13898,7 @@
 1291410 0 distinction
 1291430 0 inspection
 1291430 0 investigation
+1291440 0 visa
 1291450 0 évaluation
 1291450 0 audit
 1291450 0 estimation
@@ -13997,6 +14056,7 @@
 1294170 0 maintenant
 1294180 0 le plus grand (-no)
 1294180 0 maximum
+1294210 0 le plus court
 1294220 0 le dernier
 1294220 0 le pire
 1294220 0 le plus bas
@@ -14467,6 +14527,7 @@
 1299970 0 triangle
 1299970 0 triangulaire
 1300290 0 séparation des pouvoirs
+1301230 1 troisième enfant de sexe masculin
 1301330 0 le trois (du mois)
 1301330 0 le troisième jour du mois
 1301330 1 trois jours
@@ -14626,6 +14687,7 @@
 1303650 0 quai
 1303660 0 chemin escarpé au bord d'un précipice (?)
 1303720 0 récif corallien
+1303740 0 obstétrique
 1303770 0 industrie
 1303770 1 gagne-pain
 1303770 1 moyen d'existence
@@ -14847,6 +14909,7 @@
 1306710 0 commandant
 1306710 0 commandement
 1306710 0 contrôle
+1306750 0 historien
 1306840 0 fait historique
 1306860 0 historique
 1307030 0 héritier
@@ -14971,6 +15034,7 @@
 1308610 0 maire
 1308640 0 (à l'intérieur de la) ville
 1308660 0 marketing
+1308680 0 zone urbaine
 1308690 0 citoyen
 1308690 0 public
 1308690 1 citadin
@@ -15312,6 +15376,7 @@
 1311470 0 début
 1311470 0 extrémité d'un fil
 1311470 0 indice
+1311470 2 indice
 1311480 0 rouet à filer
 1311530 0 papier
 1311540 0 une feuille de papier
@@ -15433,6 +15498,7 @@
 1313080 0 dentiste
 1313110 0 dentisterie
 1313120 0 dentiste
+1313140 0 dentiste
 1313290 0 gencive
 1313330 0 frein
 1313350 0 couronne dentaire
@@ -16207,6 +16273,7 @@
 1322700 0 le monde
 1322700 1 études sociales
 1322720 0 sciences sociales
+1322730 0 sociologie
 1322770 0 membre important d'une société
 1322800 0 parti Socialiste
 1322810 0 assistance sociale
@@ -16291,6 +16358,7 @@
 1323960 0 emprunt
 1324100 0 ancienne unité de volume (18ml, dixième d'un go)
 1324110 0 ancienne unité de longueur (0.303m)
+1324110 2 longueur
 1324120 0 ancien système de poids et mesures japonais
 1324130 0 échelle
 1324130 0 mesure
@@ -16308,6 +16376,7 @@
 1324260 0 libération
 1324270 0 explication
 1324270 0 justification
+1324280 0 étain (Sn)
 1324300 0 jeune
 1324300 0 juvénile
 1324300 1 immature
@@ -16619,6 +16688,7 @@
 1327970 0 travail
 1327980 0 coût de main d'œuvre
 1327980 0 commission
+1327990 0 fait main
 1328020 0 lavabos
 1328020 0 toilettes
 1328020 1 toilettes
@@ -16675,6 +16745,7 @@
 1328360 0 couture à la main
 1328390 0 exemple
 1328390 0 modèle
+1328470 1 sang
 1328480 0 sceau (rouge)
 1328560 0 écarlate
 1328560 0 vermillon
@@ -16950,6 +17021,7 @@
 1330880 2 garder(?)
 1330880 3 admettre
 1330880 4 introduire (dans un dictionnaire)
+1330980 1 enregistrement
 1330990 0 corruption
 1330990 0 escroquerie
 1330990 0 recevoir un pot de vin ou une enveloppe
@@ -19526,6 +19598,8 @@
 1360920 0 être informé
 1360920 0 connaître
 1360920 0 savoir
+1360920 1 consentir
+1360920 1 être d'accord
 1360930 0 inquiétude
 1360930 0 souci
 1360930 0 préoccupation
@@ -19562,7 +19636,10 @@
 1361140 0 façon
 1361140 0 manière
 1361140 0 style
-1361150 0 furigana (petits hiragana au-dessus des kanjis)
+1361140 1 après (une certaine période) à nouveau (par ex. rencontrer à nouveau après un an)
+1361140 1 pour la première fois en (une période)
+1361150 0 furigana
+1361150 0 kanas au-dessus ou au-dessous des kanjis pour indiquer la prononciation
 1361190 0 se retourner
 1361190 0 se tourner vers
 1361290 0 regarder en arrière
@@ -19750,6 +19827,8 @@
 1363190 0 noir absolu
 1363190 0 noir complet
 1363190 0 nuit noire
+1363190 1 avenir sombre
+1363190 1 mauvaises perspectives
 1363210 0 au beau milieu de
 1363250 0 cramoisi
 1363250 0 pourpre
@@ -19758,8 +19837,9 @@
 1363250 1 complet
 1363250 1 total
 1363250 1 absolu
-1363260 0 en premier
-1363260 0 le premier
+1363260 0 la tête
+1363260 0 au premier rang
+1363260 0 tout devant
 1363390 0 intention réelle
 1363390 0 sens réel
 1363390 0 véritable intention
@@ -19915,6 +19995,7 @@
 1365450 0 examiner
 1365460 0 consultation (médicale)
 1365480 0 diagnostic
+1365480 0 examen médical
 1365500 0 diagnostic
 1365500 0 examen clinique et traitement
 1365520 0 chair
@@ -20392,7 +20473,12 @@
 1371980 0 cruche d'eau
 1372000 0 marin
 1372000 0 matelot
+1372010 0 eau
+1372010 0 liquide
+1372010 0 fluide
 1372010 0 humidité
+1372010 0 sève
+1372010 0 jus
 1372040 0 à l'horizontale
 1372040 0 horizontal
 1372040 0 horizontale
@@ -20960,8 +21046,9 @@
 1378280 0 eau de source
 1378280 1 eau pure
 1378310 0 limpide
-1378320 0 nettoiement
 1378320 0 nettoyage
+1378320 0 nettoiement
+1378320 0 collecte des ordures
 1378340 0 éboueur
 1378340 0 balayeur
 1378350 0 tolérant
@@ -21011,9 +21098,12 @@
 1378480 0 grandir
 1378480 0 pousser
 1378480 1 faire ses dents
-1378490 0 germer (plantes)
-1378490 0 grandir, pousser (plante, poils, crocs, dents)
-1378490 1 faire ses dents
+1378490 0 grandir
+1378490 0 pousser
+1378490 0 surgir
+1378490 0 jaillir
+1378490 0 germer
+1378490 1 faire (ses dents)
 1378520 0 exister
 1378520 0 vivre
 1378520 1 gagner sa vie
@@ -21041,9 +21131,9 @@
 1378650 1 résulter de
 1378650 1 provenir
 1378650 1 être généré
-1378660 0 causer
 1378660 0 produire
-1378660 0 provoquer
+1378660 0 donner
+1378660 0 causer
 1378690 0 être né
 1378720 0 engendrer
 1378720 1 inventer
@@ -21086,6 +21176,9 @@
 1379210 0 Désolé, mais...
 1379230 0 existence
 1379230 0 survivance
+1379230 1 exister
+1379230 1 vivre
+1379230 1 survivre
 1379260 0 vivisection
 1379280 0 écologie
 1379280 0 mode de vie
@@ -36113,12 +36206,20 @@
 1566420 4 tromper
 1566420 4 duper
 1566420 4 piéger quelqu'un (par ex. pour accuser un innocent d'un crime, etc.)
-1566450 0 blaguer
-1566450 0 fôlatrer
-1566450 0 flirter
-1566450 0 gambader
+1566450 0 rigoler
 1566450 0 plaisanter
-1566450 0 s'ébattre
+1566450 0 blaguer
+1566450 1 se moquer de
+1566450 1 rire de
+1566450 1 jouer un tour
+1566450 1 faire une blague
+1566450 2 folâtrer
+1566450 2 gambader
+1566450 2 batifoler
+1566450 2 s'amuser
+1566450 2 faire l'imbécile
+1566450 2 glander
+1566450 3 s'embrasser
 1566500 0 balai
 1566680 0 comète
 1566730 0 errer
@@ -36290,6 +36391,7 @@
 1571320 0 sucer (bonbon)
 1571460 0 fraise
 1571470 0 faire bouillir (quelque chose dans de l'eau chaude)
+1571470 1 traiter avec de la vapeur médicinale (un gonflement, etc.)
 1571560 0 natte
 1571560 0 paillasson
 1571760 0 rose
@@ -36301,6 +36403,11 @@
 1572410 0 passer
 1572410 0 se décolorer
 1572410 0 se faner
+1572500 0 chiffon
+1572500 0 guenille
+1572500 0 loque
+1572500 0 haillon
+1572500 0 vêtements en lambeaux
 1572570 0 accent
 1572570 0 dialecte
 1572680 0 commander qqch
@@ -36350,6 +36457,11 @@
 1574550 0 abuser
 1574550 0 escroquer
 1574550 0 tricher
+1574550 1 amadouer
+1574550 1 cajoler
+1574550 1 enjôler
+1574550 1 câliner
+1574550 1 apaiser et ménager
 1575200 0 girafe
 1575320 0 être influencé par qqun
 1575320 0 battre (des cils)
@@ -36357,6 +36469,7 @@
 1575320 0 s'incliner
 1575320 0 saluer
 1575380 0 moisissure
+1575380 0 moisi
 1575400 0 bactérie(s)
 1575400 0 microbe(s)
 1575410 0 qui sent le moisi
@@ -36833,6 +36946,7 @@
 1580290 0 jeune fille
 1580290 0 petite fille
 1580290 0 femme en général entre 7 et 18 ans
+1580290 1 femme de 17 à 20 ans (période ritsuryo)
 1580300 0 la paume (de la main)
 1580310 0 épuisement
 1580310 0 consommation
