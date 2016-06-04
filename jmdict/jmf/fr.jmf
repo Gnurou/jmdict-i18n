@@ -22761,9 +22761,11 @@
 1397820 0 interdiction
 1397820 0 obstacle
 1397820 0 obstruction
-1397830 0 faire rétroactivement
-1397830 0 remonter (à une certaine date)
-1397830 0 remonter (un fleuve)
+1397830 0 aller en amont
+1397830 0 remonter (par ex. un fleuve)
+1397830 1 revenir (dans le temps, à l'origine)
+1397830 1 remonter à (une certaine date)
+1397830 1 faire rétroactivement
 1397840 0 rat
 1397840 0 souris
 1397840 1 couleur ardoise
@@ -24377,11 +24379,9 @@
 1416540 0 déshydratation
 1416550 0 évasion fiscale
 1416550 0 fraude
-1416560 0 écart
-1416560 0 digression
-1416560 0 divagation
-1416560 0 excursus
-1416560 0 parenthèse
+1416560 0 déraillement
+1416560 1 digression
+1416560 1 déviation
 1416570 0 abandon
 1416570 0 demission d'un parti
 1416570 0 organisation
@@ -24443,7 +24443,6 @@
 1417550 0 candide
 1417550 0 naïf
 1417550 0 simple
-1417670 0 forme singulière
 1417670 0 singulier
 1417760 0 monotone
 1417760 0 peu varié
@@ -24518,7 +24517,6 @@
 1418630 0 Tanka
 1418630 0 poème japonais de 31 syllabes
 1418640 0 court terme
-1418640 0 courte a periode
 1418650 0 école qui se fait en deux ans après le lycée
 1418670 0 tempérament impulsif
 1418680 0 courte portée
@@ -24587,7 +24585,8 @@
 1419270 0 association
 1419270 0 organisation
 1419290 0 voyage organisé
-1419300 0 agglomération de logement
+1419300 0 grand ensemble de logements
+1419300 0 complexe d'appartements
 1419320 0 estrade
 1419320 0 tribune
 1419320 1 mandala
@@ -25680,6 +25679,7 @@
 1430520 0 ordre impérial
 1430570 0 avancer
 1430570 0 marcher (pour le travail ou les affaires)
+1430580 0 droit
 1430610 0 aussitôt
 1430610 0 immédiatement
 1430610 0 sur le champ
@@ -25715,6 +25715,7 @@
 1430780 0 intuition
 1430780 0 perspicacité
 1430800 0 angle droit
+1430800 0 perpendiculaire
 1430810 0 contrôle direct
 1430810 0 sous contrôle
 1430810 0 surveillance directe
@@ -26717,7 +26718,8 @@
 1442490 0 palais
 1442490 1 demeure
 1442490 1 palais
-1442500 0 monseigneur
+1442500 0 titre utilisé pour les lettres officielles, les lettres d'affaires, et les lettres aux inférieurs
+1442500 0 M.
 1442520 0 son altesse
 1442520 0 votre altesse
 1442730 0 rizière
@@ -26735,6 +26737,7 @@
 1442830 0 (littéralement)rizières et champs
 1442830 0 champs
 1442840 0 rizière
+1442840 0 ferme
 1442850 0 voltage
 1443000 0 électricité
 1443000 1 lumière (électrique)
@@ -26757,10 +26760,13 @@
 1443630 0 poteau électrique
 1443630 0 poteau télégraphique
 1443630 0 poteau téléphonique
+1443630 0 lampadaire
+1443630 0 réverbère
 1443660 0 lampe
 1443660 0 lumière électrique
-1443720 0 onde électrique
 1443720 0 onde électromagnétique
+1443720 0 onde radio
+1443720 1 dire des choses étranges
 1443760 0 télégramme
 1443790 0 courant électrique
 1443810 0 énergie électrique
@@ -26869,8 +26875,10 @@
 1444760 0 aller à l'école
 1444780 0 alpinisme
 1444780 0 escalade
-1444800 0 entrée en scène
-1444800 0 présent sur la scène
+1444800 0 entrée (en scène)
+1444800 0 apparition (à l'écran)
+1444800 1 entrée
+1444800 1 l'introduction (dans un marché)
 1444810 0 enregistrement
 1444810 0 inscription
 1444840 0 jouer
@@ -26973,6 +26981,12 @@
 1445640 0 individu
 1445640 0 mec
 1445640 0 type
+1445640 0 gars
+1445640 1 chose
+1445640 1 objet
+1445640 2 (péjoratif ou familier) il
+1445640 2 elle
+1445640 2 lui
 1445650 0 esclave
 1445650 0 serviteur
 1445670 0 colère
@@ -27108,11 +27122,11 @@
 1447560 0 Europe de l'Est
 1447690 0 Tokyo
 1447740 0 aire métropolitaine de Tokyo
-1447910 0 "votre attention s'il vous plaît"
 1447910 0 est et ouest
-1447910 0 orient et occident
-1447910 1 orient et occident
-1447910 2 "votre attention s'il vous plaît"
+1447910 1 Orient et Occident
+1447910 1 Est et Ouest
+1447910 2 Mesdames et Messieurs !
+1447910 2 Votre attention s'il vous plait !
 1448050 0 Asie du sud-est
 1448100 0 Est..
 1448100 0 partie orientale
@@ -27120,7 +27134,7 @@
 1448120 0 orient
 1448160 0 nord-est
 1448160 1 les 6 préfectures les plus à l'est de Honshu
-1448230 0 orient
+1448230 0 Orient
 1448290 0 pêche
 1448300 0 jour, festival des poupée (3 mars)
 1448310 0 Eden
@@ -27162,19 +27176,24 @@
 1448680 0 chaudière
 1448680 0 chauffe-eau
 1448730 0 phare
-1448760 0 huile (lampe)
+1448730 1 ancien luminaire intérieur comprenant un poteau en bois avec un recipient rempli d'huile et une mèche le surmontant
+1448760 0 huile (pour lampe)
 1448760 0 kérosène
 1448760 0 pétrole lampant
 1448780 0 coup
 1448780 0 par ... (unités)
 1448780 0 réussite
 1448780 0 succès
-1448800 0 évident
-1448800 0 banal
-1448800 0 commun
 1448800 0 naturel
-1448800 0 ordinaire
 1448800 0 raisonnable
+1448800 0 évident
+1448800 1 habituel
+1448800 1 usuel
+1448800 1 courant
+1448800 1 commun
+1448800 1 ordinaire
+1448800 1 banal
+1448800 1 la norme
 1448810 0 être frappé
 1448810 0 être touché
 1448810 0 frapper
@@ -27415,9 +27434,8 @@
 1450870 0 au-dessus de la tête
 1450870 0 là haut dans le ciel
 1450890 0 mal de tête
-1450900 0 cerveau
 1450900 0 tête
-1450900 0 entendement
+1450900 0 cerveau
 1450900 1 entendement
 1450970 0 augmentation
 1451020 0 conflit
@@ -27545,7 +27563,7 @@
 1451660 0 force motrice
 1451660 0 puissance
 1451730 0 ibid
-1451730 0 ledit (ladite,lesdits, lesdites)
+1451730 0 ledit (ladite, lesdits, lesdites)
 1451730 0 même
 1451750 0 même
 1451750 0 pareil
@@ -27571,6 +27589,9 @@
 1451960 0 absorption
 1451960 0 adaptation
 1451960 0 assimilation
+1452000 0 même rang
+1452000 0 égalité
+1452000 0 apposition
 1452020 0 accord
 1452020 0 même avis
 1452020 0 même opinion
@@ -27655,7 +27676,8 @@
 1453950 0 visage d'enfant
 1453970 0 naïveté d'enfant
 1453990 0 chanson pour enfant
-1454000 0 contes pour enfants
+1454000 0 conte de fée
+1454000 0 conte pour enfants
 1454010 0 caisse
 1454010 0 corps
 1454010 0 fût
@@ -27757,6 +27779,8 @@
 1454950 0 particularité
 1454960 0 amnistie
 1454970 0 spécial
+1454970 0 particulier
+1454970 0 unique
 1454990 0 acier spécial
 1455010 0 caractéristique
 1455010 0 particularité
@@ -27886,6 +27910,7 @@
 1456890 2 utiliser (une canne)
 1456890 2 se soutenir avec
 1456890 2 appuyer contre (le sol, etc.)
+1456890 3 attaquer
 1456920 0 mettre (ses chaussons)
 1456940 0 se fourrer dans (une mauvaise affaire)
 1456940 0 se lancer dans
@@ -28581,6 +28606,7 @@
 1469950 0 ombre et lumière
 1469970 0 concentration
 1469970 0 densité
+1469970 1 cardinalité
 1469990 0 brouillard épais
 1470020 0 hangar
 1470020 0 remise
@@ -28610,6 +28636,7 @@
 1470300 0 masque de nô
 1470320 0 fonctionnaire capable
 1470330 0 efficacité
+1470330 1 moment (magnétique)
 1470370 0 capacité
 1470370 0 compétence
 1470380 0 cerveau
@@ -29395,6 +29422,8 @@
 1480050 0 unité de mesure de tissu (environ 9 mètres)
 1480060 0 anti-
 1480060 1 antithèse
+1480060 2 fanqie
+1480060 2 système phonétique traditionnel chinois dans laquelle deux caractères sont utilisés : le premier pour l'attaque, le second pour la rime et le ton
 1480080 0 être contraire à
 1480080 0 aller à l'encontre de
 1480080 0 aller contre
@@ -29440,6 +29469,10 @@
 1480540 0 introspection
 1480540 0 méditation
 1480540 0 réflection
+1480540 1 regret
+1480540 1 repentance
+1480540 1 remords
+1480540 1 être désolé
 1480550 0 preuve du contraire
 1480550 0 réfutation
 1480620 0 contre la guerre
@@ -30358,8 +30391,11 @@
 1491210 0 inattendu
 1491210 0 inespéré
 1491210 0 subit
-1491290 0 infortune
+1491290 0 malheur
+1491290 0 adversité
 1491290 0 malchance
+1491290 0 mauvaise fortune
+1491290 0 infortune
 1491370 0 déconseillé
 1491370 0 impropre
 1491370 0 injustifiable
@@ -30706,6 +30742,7 @@
 1496240 0 alentours
 1496240 0 environs
 1496240 0 voisinage
+1496240 1 approchant
 1496270 0 accessoire à
 1496270 0 accompagnant
 1496270 0 annexe à
@@ -30771,6 +30808,8 @@
 1497020 0 étaler
 1497020 0 déployer
 1497020 0 recouvrir
+1497020 1 prendre position
+1497020 2 imposer largement (par ex. pour une ville)
 1497030 0 pas (d'une porte)
 1497030 0 seuil
 1497040 0 caution
@@ -30816,9 +30855,10 @@
 1497420 0 surnager
 1497420 1 ménager (argent)
 1497420 2 agacer (dents)
-1497430 0 faire surface
 1497430 0 flotter
 1497430 1 venir à l'esprit
+1497430 2 venir à l'esprit
+1497430 2 avoir l'inspiration
 1497450 0 flirt
 1497450 0 inconstance
 1497450 0 infidélité
@@ -30838,6 +30878,7 @@
 1497710 0 marque
 1497710 0 signe
 1497710 0 symbole
+1497710 1 signe (par ex. positif, négatif)
 1497750 0 coïncidence
 1497750 0 concordance
 1497780 0 corroder
@@ -30930,8 +30971,8 @@
 1498270 0 affront
 1498270 0 dédain
 1498270 0 mépris
-1498290 0 caresser (son chien, ou une personne)
-1498290 0 se peigner (délicatement)
+1498290 0 brosser doucement
+1498290 0 caresser
 1498460 0 arme
 1498460 0 armes
 1498460 1 arme (quelque chose pour obtenir un avantage)
@@ -30965,10 +31006,16 @@
 1499230 0 raisin
 1499230 0 vigne
 1499250 0 vin (de raisin)
-1499290 0 catégorie
-1499290 0 département
-1499290 0 partie
-1499290 1 compteur pour exemplaires (d'une publication)
+1499290 0 département (d'une organisation)
+1499290 0 division
+1499290 0 section
+1499290 0 bureau
+1499290 1 club
+1499290 2 partie
+1499290 2 composant
+1499290 2 élément
+1499290 3 catégorie
+1499290 4 compteur pour les exemplaires d'un journal ou un magazine
 1499320 0 chambre
 1499320 0 pièce
 1499320 0 salle
@@ -31020,11 +31067,16 @@
 1499720 1 comportement
 1499720 2 rhume
 1499720 2 grippe
-1499730 0 aspect
 1499730 0 façon
 1499730 0 méthode
 1499730 0 manière
 1499730 0 style
+1499730 1 apparence
+1499730 1 aspect
+1499730 1 air
+1499730 2 tendance
+1499730 3 chanson folklorique (genre de Shi Jing)
+1499730 4 vent (un des cinq éléments)
 1499740 0 vent et pluie
 1499750 0 vent et nuages
 1499750 1 situation
@@ -31045,7 +31097,7 @@
 1499840 0 paysage splendide
 1499850 0 direction du vent
 1499860 0 satire
-1499940 0 ballon (en baudruche)
+1499940 0 ballon (en particulier petit, comme jouet)
 1499950 0 vitesse du vent
 1499960 0 coutumes
 1499960 0 mœurs
@@ -31077,7 +31129,8 @@
 1500100 3 base (joint en bois reliant la lame d'une houe, bêche, etc., à la poignée)
 1500110 0 bains publics
 1500140 0 salle de bains
-1500150 0 carré de tissus noué par les coins (porte affaire de toilettes, cadeau pour une visite, bentou, etc...)
+1500150 0 tissu pour envelopper
+1500150 0 emballage en tissu
 1500220 0 mettre quelque chose sens dessus dessous
 1500220 0 retourner
 1500220 0 cacher
@@ -31092,6 +31145,10 @@
 1500330 0 assistant- (président, directeur, préfet, chef)
 1500330 0 sous-
 1500330 0 vice-
+1500330 1 double
+1500330 1 duplicata
+1500330 1 copie
+1500330 2 adverbe
 1500380 0 emploi accessoire
 1500380 0 travail d'appoint
 1500400 0 effet secondaire
@@ -31188,8 +31245,9 @@
 1501520 0 déguisement
 1501520 0 masque
 1501520 0 voile
-1501580 0 déposer (argent)
+1501580 0 déposer (de l'argent)
 1501580 0 verser
+1501580 0 faire un versement
 1501610 0 rembourser
 1501620 0 payer (par ex. de l'argent, une facture)
 1501620 1 brosser
@@ -31287,8 +31345,9 @@
 1502510 0 conduite
 1502510 0 maintien
 1502510 0 manières
-1502530 0 double-décimètre
+1502530 0 mètre (pour mesurer)
 1502530 0 règle
+1502530 0 toise
 1502540 0 biens
 1502540 0 matériaux
 1502540 0 ressources
@@ -31363,6 +31422,10 @@
 1503210 0 décomposition
 1503210 0 démontage
 1503210 0 désassemblage
+1503210 1 factorisation
+1503210 2 décomposition
+1503210 2 résolution
+1503210 3 déblocage
 1503280 0 division
 1503280 0 partage
 1503300 0 location-vente
@@ -31624,9 +31687,17 @@
 1507080 0 paix et tranquillité
 1507090 0 hiragana
 1507090 0 syllabaire cursif japonais utilisé principalement pour les mots d'origine japonaise (en part. les mots fonctionnels, les désinences, etc.)
-1507180 0 "cool"
 1507180 0 calme
+1507180 0 quiétude
+1507180 0 sérénité
+1507180 0 flegme
+1507180 0 sang-froid
+1507180 0 insouciance
 1507180 0 indifférence
+1507180 0 impassibilité
+1507180 1 très bien
+1507180 1 d'accord
+1507180 1 OK
 1507310 0 équilibre
 1507310 0 balance
 1507320 0 sens de l'équilibre
@@ -31862,6 +31933,8 @@
 1511690 0 une des deux mains
 1511720 0 un des cotés
 1511760 0 aller simple
+1511760 0 (voyage) sans retour
+1511760 1 billet aller simple
 1511770 0 arranger
 1511770 0 mettre en ordre
 1511770 0 ranger
@@ -31880,9 +31953,15 @@
 1511810 0 un coté
 1511810 0 une partie
 1511830 0 un œil
-1511950 0 éditer
-1511950 0 assembler
-1511950 0 coudre
+1511870 0 compilation (pour un texte)
+1511870 0 édition
+1511870 1 volume (d'un texte)
+1511870 1 tome
+1511870 2 œuvre littéraire complète
+1511950 0 tricoter
+1511950 0 tresser
+1511950 1 compiler (une anthologie, un dictionnaire, etc.)
+1511950 1 éditer
 1512040 0 organisation
 1512060 0 admission
 1512060 0 incorporation
@@ -31924,8 +32003,13 @@
 1512130 2 rendre la pareille
 1512130 3 répéter
 1512130 3 faire quelque chose en retour
+1512150 0 rentrer
 1512150 0 retourner
 1512150 0 revenir
+1512150 0 regagner
+1512150 1 tourner
+1512150 2 (après un radical verbal) (devenir) extrêmement
+1512150 2 (devenir) complètement
 1512170 0 retour
 1512170 0 retro cession
 1512180 0 retour (d'un emprunt)
@@ -42031,6 +42115,8 @@
 2014380 1 secret
 2014380 2 compte-rendu
 2014380 2 amende
+2014380 3 bouddhisme ésotérique
+2014380 3 enseignement bouddhiste secret
 2015610 0 à l'instant
 2015610 0 très bientôt
 2019640 0 verre de saké
