@@ -32472,6 +32472,9 @@
 1517040 0 direction
 1517040 0 ojectif
 1517060 0 équation
+1517060 0 formule
+1517060 1 méthode de résolution d'un problème
+1517060 1 moyen déterminé pour obtenir un résultat particulier
 1517090 0 méthode
 1517090 0 manière
 1517100 0 direction
@@ -37286,11 +37289,10 @@
 1580570 0 lit
 1580580 0 pourpre
 1580580 0 vermillon
+1580600 0 (tout) droit
 1580600 0 direct
-1580600 0 droit
-1580600 0 en face
-1580600 0 franc
-1580600 0 honnête
+1580600 0 vertical
+1580600 0 debout
 1580600 1 direct
 1580600 1 honnête
 1580600 1 franc
@@ -37298,12 +37300,10 @@
 1580620 1 vierge (papier)
 1580620 1 vide (esprit)
 1580640 0 homme
-1580640 0 messager
-1580640 0 personnage
 1580640 0 personne
-1580640 0 visiteur
 1580640 1 être humain
 1580640 1 humanité
+1580640 1 les gens
 1580640 2 être humain (home sapiens)
 1580640 2 les hommes comme espèce
 1580640 3 caractère
@@ -37360,12 +37360,10 @@
 1581210 0 une fois
 1581300 0 plantes
 1581300 0 végétation
-1581310 0 alentour
-1581310 0 côté
-1581310 0 ligne
+1581310 0 côté (de quelque chose)
+1581310 0 parti (par ex. prendre le parti de quelqu'un)
 1581310 0 partie
-1581310 1 valise
-1581310 1 boîtier
+1581310 1 boîtier (de montre)
 1581320 0 administrer
 1581320 0 contrôler
 1581320 0 croiser (les bras)
@@ -37624,7 +37622,6 @@
 1583190 0 une demi année
 1583230 0 bateau à voiles
 1583230 0 voilier
-1583250 0 négatif
 1583250 0 non
 1583250 1 euh
 1583250 1 hmm
