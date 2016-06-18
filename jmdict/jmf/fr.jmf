@@ -14729,7 +14729,14 @@
 1303350 0 scène de désolation
 1303400 0 éparpiller
 1303400 0 disperser
-1303400 0 semer
+1303400 0 arroser
+1303400 0 parsemer
+1303400 1 distribuer (des tracts, etc.)
+1303400 1 diffuser (des rumeurs, etc.)
+1303400 1 répandre
+1303400 2 fausser compagnie à
+1303400 2 se débarrasser de
+1303400 2 perdre
 1303420 0 éparpiller
 1303420 0 disperser
 1303420 0 mettre en désordre
@@ -14738,9 +14745,19 @@
 1303440 0 éparpillement
 1303440 0 feuillets
 1303460 0 éparpiller
-1303460 0 disperser
-1303460 0 distribuer
-1303460 0 répartir
+1303460 0 provoquer une pluie de
+1303460 1 disperser
+1303460 1 distribuer
+1303460 1 propager
+1303460 1 répandre
+1303460 2 résoudre (un symptôme, un état, etc.)
+1303460 2 soulager
+1303460 2 se débarrasser de
+1303460 2 guérir
+1303460 3 distraire
+1303460 3 divertir
+1303460 4 faire... sauvagement (c.-à-d. de façon désordonnée ou fréquemment)
+1303460 4 faire... partout
 1303480 0 être éparpillé
 1303490 0 tomber (par ex. pour des fleurs ou des feuilles)
 1303490 1 se disperser
@@ -17606,10 +17623,7 @@
 1336820 0 majeur
 1336820 0 principal
 1336820 0 capital
-1336900 0 pesanteur
 1336900 0 poids
-1336900 0 poids lourd (sportif
-1336900 0 véhicule)
 1336900 1 boxeur poids lourd
 1336980 0 gravité
 1336980 0 pesanteur
@@ -36044,7 +36058,12 @@
 1557640 1 bougonner
 1557640 1 se plaindre
 1557640 2 laisser paraître ses sentiments
+1557650 0 se répandre
+1557650 0 se déverser
 1557650 0 déborder
+1557650 1 regarder à travers
+1557650 1 devenir visible (alors que ce n'est pas le cas normalement)
+1557650 2 s'échapper (pour un sourire, des larmes, etc.)
 1557660 0 en-dessous de zero degrés C°
 1557680 0 insignifiant
 1557680 0 petitesse
@@ -36277,8 +36296,9 @@
 1561620 0 débattre
 1561620 0 discuter
 1561630 0 traîter complètement
-1561640 0 débattre
+1561640 0 argumenter
 1561640 0 discuter
+1561640 0 débattre
 1561660 0 discussion
 1561680 0 traîter de façon exhaustive
 1561690 0 argument
@@ -36716,13 +36736,26 @@
 1572500 0 loque
 1572500 0 haillon
 1572500 0 vêtements en lambeaux
+1572500 1 faute (en part. dans une dissimulation)
+1572500 1 défaut
+1572500 2 délabré
+1572500 2 miteux
+1572500 2 minable
 1572570 0 accent
 1572570 0 dialecte
 1572680 0 commander qqch
-1572760 0 importun
-1572760 0 lourd (goût)
-1572760 0 prolixe
+1572760 0 bavard
 1572760 0 verbeux
+1572760 0 importun
+1572760 0 prolixe
+1572760 0 répétitif
+1572760 1 lourd (pour un goût)
+1572760 1 riche
+1572760 1 fort
+1572760 1 écœurant
+1572760 1 voyant
+1572760 1 criard
+1572760 1 bruyant
 1573090 0 convoiter
 1573090 0 convoiter insatiablement
 1573090 0 désirer profondément
@@ -36743,9 +36776,9 @@
 1573330 0 se recroqueviller
 1573330 0 se tapir
 1573390 0 hésiter
-1573400 0 échouer
-1573400 0 faire erreur
 1573400 0 trébucher
+1573400 0 faire un faux pas
+1573400 0 achopper
 1573400 1 échouer
 1573410 0 éducation
 1573410 0 discipline familiale
@@ -36759,11 +36792,15 @@
 1574170 0 grain de beauté
 1574220 0 balancement
 1574310 0 acquiescer
+1574310 0 incliner la tête en signe d'assentiment
+1574310 0 être d'accord
 1574430 0 gyôza (sorte de ravioli chinois en forme de croissant et garni de porc émincé, chou chinois, oignon et ail odoriférant. faire dégorger le chou émincé dans du sel avant de le mélanger au reste)
 1574470 0 udon
 1574470 0 nouilles de blé japonaises épaisses
+1574550 0 tromper
 1574550 0 abuser
-1574550 0 escroquer
+1574550 0 duper
+1574550 0 rouler (quelqu'un)
 1574550 0 tricher
 1574550 1 amadouer
 1574550 1 cajoler
@@ -36802,6 +36839,8 @@
 1575990 0 un mot
 1576020 0 groupe
 1576020 0 troupe
+1576030 0 deux jours avant hier
+1576030 0 il y a trois jours
 1576050 0 avant-hier
 1576060 0 il y a deux ans
 1576080 0 enfant unique
@@ -36937,6 +36976,7 @@
 1577300 0 embouchure
 1577300 0 estuaire
 1577310 0 brûlure
+1577310 0 échaudure
 1577430 0 extérieur
 1577430 0 monde extérieur
 1577440 0 extérieur
@@ -36996,12 +37036,15 @@
 1578050 0 coexistence
 1578060 0 chantage
 1578060 0 extorsion
-1578070 0 contraindre
-1578070 0 forcer
 1578070 0 menacer
+1578070 1 surprendre
+1578070 1 étonner
 1578080 0 divertissement
 1578080 0 intérêt
 1578080 0 plaisir
+1578110 0 bientôt
+1578110 0 proximité
+1578110 0 d'ici peu
 1578120 0 couleur dorée
 1578150 0 neuf
 1578210 0 décliner
@@ -37054,9 +37097,10 @@
 1578750 0 pont (d'un bateau)
 1578760 0 pourpre
 1578760 0 rouge foncé
-1578780 0 érable
 1578780 0 couleurs d'automne
-1578780 1 feuillage jaunie
+1578780 0 feuilles changeant de couleur
+1578780 1 feuilles qui rougissent
+1578780 1 feuilles rouges
 1578780 2 feuilles qui jaunissent
 1578780 2 feuilles jaunies
 1578780 3 érable du Japon (Acer japonicum)
@@ -37511,6 +37555,14 @@
 1582300 0 et ainsi de suite
 1582300 1 ou autre chose
 1582300 2 comme
+1582305 0 classe
+1582305 0 ordre
+1582305 0 rang
+1582305 1 et cetera
+1582305 1 etc.
+1582305 1 et autres
+1582305 2 égal
+1582305 2 iso-
 1582310 0 tête
 1582310 1 chevelure
 1582310 1 cheveux
@@ -37537,6 +37589,7 @@
 1582360 0 fratrie
 1582360 0 compatriote
 1582390 0 cuivre (Cu)
+1582390 1 (médaille de) bronze
 1582400 0 livre de lecture
 1582410 0 inégalité (sol)
 1582410 0 irrégularité (du relief, sol...)
@@ -42216,7 +42269,7 @@
 2013900 2 Rouge (communiste)
 2013900 3 feu rouge
 2013900 4 à l'encre rouge (en comptabilité, etc.)
-2013900 4 rouge (dans le )
+2013900 4 (dans le) rouge
 2013900 5 complet
 2013900 5 total
 2013900 5 parfait
