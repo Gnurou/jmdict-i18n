@@ -27387,6 +27387,7 @@
 1449210 0 le jour même
 1449220 0 être de garde
 1449220 0 être en service
+1449220 0 être (à) son tour
 1449230 0 pour le moment
 1449230 0 provisoirement
 1449290 0 confusion
@@ -27489,8 +27490,14 @@
 1450300 0 étude sur le terrain
 1450300 0 enquête
 1450300 0 exploration
-1450320 0 laisser s'échapper
+1450320 0 manquer
+1450320 0 perdre
+1450320 0 rater
+1450320 0 laisser aller
 1450320 0 libérer
+1450320 0 lâcher
+1450320 0 détacher
+1450320 0 laisser échapper
 1450330 0 fuir
 1450330 0 s'enfuir
 1450390 0 fuir
@@ -27888,7 +27895,11 @@
 1455060 0 édition spéciale
 1455060 0 numéro spécial
 1455080 0 caractéristique
+1455080 0 caractère
 1455080 0 particularité
+1455080 0 couleur personnelle
+1455080 1 ton direct (en imprimerie)
+1455080 1 couleur d’accompagnement
 1455130 0 traitement spécial
 1455170 0 caractéristique
 1455170 0 trait
@@ -27998,18 +28009,19 @@
 1456820 0 percer à jour
 1456820 0 transpercer
 1456820 0 traverser
-1456890 0 donner un coup (de poignard, d'épée)
-1456890 0 frapper
-1456890 0 heurter
-1456890 0 percer (lance)
 1456890 0 piquer
-1456890 1 aiguiller
-1456890 1 pousser (du coude)
-1456890 1 titiller
+1456890 0 poignarder
+1456890 1 pousser
+1456890 1 repousser
+1456890 1 tisonner
+1456890 1 frapper
+1456890 1 donner un coup
 1456890 2 utiliser (une canne)
 1456890 2 se soutenir avec
 1456890 2 appuyer contre (le sol, etc.)
 1456890 3 attaquer
+1456890 4 braver (la pluie, etc.)
+1456890 4 affronter
 1456920 0 mettre (ses chaussons)
 1456940 0 se fourrer dans (une mauvaise affaire)
 1456940 0 se lancer dans
@@ -28079,7 +28091,8 @@
 1457730 6 empereur
 1457730 7 je (utilisé principalement par les femmes et les enfants)
 1457730 7 moi
-1457830 0 généraliste (médecin)
+1457830 0 médecine interne, c.-à-d. un traitement par des procédures médicales plutôt que des interventions chirurgicales
+1457830 1 département de médecine interne (dans un hôpital, etc.)
 1457910 0 cabinet
 1457910 0 ministère
 1458020 0 farouche
@@ -28169,7 +28182,7 @@
 1460500 0 barbares (envahisseurs) du sud
 1460500 1 piment
 1460530 0 Sud
-1460570 0 Amérique du sud
+1460570 0 Amérique du Sud
 1460600 0 le Nord et le Sud
 1460600 0 du nord au sud
 1460600 1 Corée du Sud et Corée du Nord
@@ -28297,7 +28310,7 @@
 1464070 0 habituellement
 1464080 0 ombrelle/parasol
 1464100 0 agenda
-1464110 0 date
+1464110 0 date et heure
 1464140 0 rendez-vous
 1464140 0 jour du rendez-vous
 1464180 0 de tous les jours
@@ -28601,7 +28614,8 @@
 1468830 0 revenu annuel
 1468870 0 aîné
 1468870 0 plus âgé
-1468900 0 élève, étudiant de ... année
+1468900 0 élève de ... année
+1468900 0 étudiant de ... année
 1468950 0 époque
 1468950 0 génération
 1468950 0 période
@@ -28614,13 +28628,12 @@
 1469000 2 moyenne section (d'une école maternelle, etc.)
 1469030 0 aîné
 1469030 0 plus âgé
-1469050 0 année
-1469050 0 année fiscale
-1469050 0 exercice (fiscal)
-1469050 0 année scolaire
-1469050 1 année fiscale
-1469050 1 exercice (fiscal)
-1469050 2 année scolaire
+1469050 0 année fiscale (en général du 1er avril au 31 mars au Japon)
+1469050 0 exercice fiscal
+1469050 0 année financière
+1469050 1 année scolaire
+1469050 1 année académique
+1469050 2 année d'un produit
 1469070 0 d'ici la fin de l'année
 1469070 0 dans l'année
 1469090 0 âgé
@@ -28765,6 +28778,9 @@
 1470750 0 serf
 1470770 0 fermiers
 1470770 0 paysans
+1470780 0 produit chimique agricole (c.-à-d. pesticide, herbicide, fongicide, etc.)
+1470780 0 agrochimie
+1470780 0 agrochimique
 1470790 0 agriculture (et des forêts) (ministère de l')
 1470840 0 épier (par une serrure, une fente, etc.)
 1470840 0 regarder à la dérobée
@@ -30941,8 +30957,8 @@
 1497340 0 faire la tête
 1497340 0 mine maussade
 1497360 0 faire flotter
+1497360 1 exprimer
 1497360 1 avoir l'air (triste, heureux)
-1497360 1 montrer (sentiments)
 1497370 0 s'amuser
 1497370 0 se réjouir
 1497400 0 de bonne humeur
@@ -32791,6 +32807,10 @@
 1519930 0 filature
 1519940 0 usine de coton
 1519940 0 usine de filature
+1519970 0 grossir
+1519970 0 gonfler
+1519970 0 dilater
+1519970 0 balonner
 1519990 0 enfler
 1519990 0 grossir
 1519990 0 se gonfler
@@ -32882,9 +32902,12 @@
 1521400 2 domestique
 1521400 2 serviteur
 1521410 0 nous (langage masculin)
+1521510 0 sumi
 1521510 0 encre de Chine
-1521510 0 encre noire
-1521510 0 pierre d'encre
+1521510 0 bâton d'encre
+1521510 1 encre de seiche
+1521510 1 encre de poulpe
+1521510 2 cordeau à tracer (pour menuisier)
 1521530 0 dessin à l'encre de Chine
 1521570 0 attachement (à une tradition, à une coutume)
 1521580 0 encre de Chine
@@ -33146,10 +33169,7 @@
 1523720 0 jardin miniature
 1523720 0 paysage miniature
 1523730 0 arbre nain
-1523760 0 bassin (en géographie)
-1523760 0 bassin synclinal (en géologie)
-1523760 0 plaine
-1523760 0 vallée
+1523760 0 bassin (par ex. entre des montagnes)
 1523780 0 danse de la Fête de Bon
 1523790 0 caresser (pour soulager)
 1523790 0 frotter doucement de la main (pour soulager)
@@ -33219,6 +33239,7 @@
 1524620 0 compte détaillé
 1524620 0 dénombrement
 1524630 0 nombre d'objets plats
+1524630 1 différence entre victoires et défaites qui influe sur le classement des lutteurs
 1524640 0 chaque
 1524650 0 chaque
 1524650 0 tous
@@ -33246,6 +33267,8 @@
 1524820 0 shogounat
 1524860 0 oreiller
 1524860 0 traversin
+1524860 1 introduction (par ex. dans une pièce de rakugo)
+1524860 1 prologue
 1524880 0 thon
 1524930 0 de nouveau
 1524930 0 encore
@@ -33375,6 +33398,17 @@
 1526960 3 plein d'esprit
 1526960 3 étrange
 1527010 0 goûter
+1527010 0 savourer
+1527010 0 déguster
+1527010 1 apprécier
+1527010 1 profiter
+1527010 1 savourer
+1527010 1 digérer
+1527010 2 goûter
+1527010 2 découvrir
+1527010 2 subir
+1527010 2 supporter
+1527010 2 éprouver
 1527020 0 goût
 1527040 0 miso
 1527040 0 condiment fermenté à base de soja en général
@@ -33665,7 +33699,7 @@
 1531080 0 évidemment
 1531080 0 bien sur
 1531090 0 contradiction
-1531090 0 désaccord
+1531090 0 incohérence
 1531100 0 diriger une attaque contre
 1531100 0 pointe de fer
 1531110 0 brouillard
@@ -33884,8 +33918,16 @@
 1532880 0 faire carillonner
 1532880 0 faire claquer
 1532880 0 faire sonner
+1532880 0 battre (par ex. un tambour)
 1532880 0 s'ébrouer (renifler bruyamment)
-1532880 1 s'ébrouer (renifler bruyamment)
+1532880 0 faire claquer (ses doigts)
+1532880 1 être populaire
+1532880 1 être estimé
+1532880 1 être réputé
+1532880 2 insister
+1532880 2 se plaindre
+1532880 2 rouspéter
+1532880 3 péter (bruyamment)
 1532910 0 carillonner
 1532910 0 gronder
 1532910 0 hurler
@@ -37221,15 +37263,12 @@
 1579720 0 solitaire
 1579730 0 abandonné
 1579730 0 seul
-1579780 0 chef de famille
-1579780 0 employé
-1579780 0 hôte
-1579780 0 maître
-1579780 0 propriétaire
-1579780 0 son mari
-1579780 1 (mon) mari
-1579780 2 (mon) employeur
-1579780 2 (mon) maître
+1579780 0 chef (de famille)
+1579780 0 propriétaire (d'un magasin ou d'un logement)
+1579780 0 logeur
+1579780 1 son mari
+1579780 2 (son) employeur
+1579780 2 (son) maître
 1579780 3 hôte
 1579780 3 hôtesse
 1579800 0 étude
@@ -37340,6 +37379,7 @@
 1580600 1 direct
 1580600 1 honnête
 1580600 1 franc
+1580620 0 blan pur
 1580620 0 blanc immaculé
 1580620 1 vierge (papier)
 1580620 1 vide (esprit)
@@ -38041,8 +38081,17 @@
 1586350 0 envie
 1586350 0 tache de vin
 1586390 0 à ses pieds
-1586390 1 allure
+1586390 0 sous les pieds
+1586390 0 ses pieds (comme dans « attention où vous mettez vos pieds »)
 1586390 1 démarche
+1586390 1 allure
+1586390 1 rythme
+1586390 1 marche
+1586390 2 le plus récent
+1586390 2 courant
+1586390 2 actuel
+1586390 3 toi
+1586390 3 tu
 1586400 0 chinchard
 1586420 0 chaud
 1586420 0 doux
