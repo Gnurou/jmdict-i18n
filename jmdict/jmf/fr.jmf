@@ -14236,6 +14236,8 @@
 1295190 0 se briser
 1295190 0 se casser
 1295190 0 se fracasser
+1295190 3 devenir facile à comprendre (par ex. une histoire)
+1295190 4 être inquiet
 1295210 0 décombres
 1295210 0 pierres concassées
 1295250 0 adorer
@@ -14542,6 +14544,7 @@
 1298980 0 liasse de billets
 1299030 0 tuer
 1299060 0 soif de sang
+1299060 0 sanguinaire
 1299070 0 pasteuriser
 1299070 0 stériliser
 1299100 0 assassinat
@@ -23331,6 +23334,11 @@
 1403390 0 détestable
 1403390 0 haïssable
 1403390 0 odieux
+1403390 1 incroyable
+1403390 1 fantastique
+1403390 1 admirable
+1403390 1 magnifique
+1403390 1 formidable
 1403400 0 haine
 1403410 0 méchant garçon
 1403420 0 langage injurieux
@@ -23551,15 +23559,28 @@
 1406090 0 là-dessus
 1406090 0 maintenant
 1406090 0 sur ce
-1406110 0 être égal
-1406110 0 être tous présents
 1406110 0 devenir complet
-1406110 0 rassembler
-1406120 0 égaliser
-1406120 0 compléter
-1406120 0 ranger
-1406120 0 remettre en ordre
-1406120 0 rendre uniforme
+1406110 0 être tous présents
+1406110 0 être un ensemble complet
+1406110 0 tout avoir à sa disposition
+1406110 1 être égal
+1406110 1 être uniforme
+1406110 2 recueillir
+1406110 2 assembler
+1406110 2 rassembler
+1406110 2 réunir
+1406120 0 collecter
+1406120 0 rassembler
+1406120 0 réunir
+1406120 0 compléter (une collection)
+1406120 1 organiser
+1406120 1 mettre en ordre
+1406120 1 ranger
+1406120 1 préparer
+1406120 2 uniformiser
+1406120 2 égaliser
+1406120 2 faire correspondre
+1406120 2 assortir
 1406140 0 penser, sentir, considérer, savoir, etc.
 1406150 0 l'être
 1406150 0 l'existence
@@ -23595,8 +23616,8 @@
 1406730 0 dédommagement
 1406750 0 dommages
 1406750 0 pertes
-1406770 0 avantage et désavantage
 1406770 0 perte et gain
+1406770 0 avantage et désavantage
 1406800 0 diminution
 1406800 0 usure
 1406820 0 village
@@ -23809,8 +23830,9 @@
 1409310 0 constitution
 1409310 0 physique
 1409370 0 silhouette
-1409390 0 organisation
 1409390 0 système
+1409390 0 organisation
+1409390 0 architecture
 1409420 0 expérience personnelle
 1409480 0 (se donner des)airs
 1409480 0 apparence
@@ -23873,14 +23895,16 @@
 1409940 0 rive opposée
 1410000 0 confrontation
 1410020 0 opposition
-1410050 0 contre mesure
-1410050 0 mesure à prendre
-1410050 0 remède
+1410050 0 mesure (à prendre)
+1410050 0 disposition
+1410050 0 étape
+1410050 0 contre-mesure
+1410050 0 contre-plan
 1410070 0 faire face à
 1410070 0 prendre des mesures contre quelque chose
+1410080 0 contraste
 1410080 0 antithèse
 1410080 0 comparaison
-1410080 0 contraste
 1410100 0 symétrie
 1410120 0 but
 1410120 0 objectif
@@ -23895,9 +23919,9 @@
 1410260 0 contraste
 1410270 0 interview
 1410270 0 rencontre
-1410290 0 antagonisme
 1410290 0 confrontation
 1410290 0 opposition
+1410290 0 antagonisme
 1410300 0 conversation
 1410300 0 dialogue
 1410300 0 interaction
@@ -24011,10 +24035,23 @@
 1411190 0 prêt
 1411240 0 prêt
 1411260 0 repousser
-1411270 0 ôter
-1411270 0 enlever
-1411270 0 exclure
-1411270 0 omettre
+1411270 0 mettre à l'écart (quelque chose, quelqu'un)
+1411270 1 retirer
+1411270 1 ôter
+1411270 1 éliminer
+1411270 1 omettre
+1411270 1 enlever
+1411270 1 exclure
+1411270 2 mettre de côté
+1411270 2 mettre à part
+1411270 3 écarter (quelqu'un) du groupe
+1411270 3 éviter
+1411270 3 fuir
+1411270 4 bien faire malgré les difficultés
+1411270 4 accomplir malgré l'adversité
+1411270 5 faire résolument
+1411270 5 faire avec audace
+1411270 5 faire hardiment
 1411300 0 sortir de l'hopital
 1411340 0 arrêt d'études
 1411360 0 retraite
@@ -24094,9 +24131,10 @@
 1412910 0 dimension
 1412910 0 taille
 1412910 0 volume
+1412950 0 grossier (c.-à-d.non précis)
 1412950 0 approximatif
+1412950 0 général
 1412950 0 en gros
-1412950 0 grossier (non précis)
 1412960 0 énorme
 1412960 0 considérable
 1412960 0 grand
@@ -24125,7 +24163,7 @@
 1413240 0 établissement d'enseignement post-secondaire, comprenant l'université, etc.
 1413240 1 ancienne université de Kyoto (fondée sous le système de lois Ritsuryo pour la formation des administrateurs gouvernementaux)
 1413240 2 la Grande Étude (un des Quatre Livres du Confucianisme)
-1413250 0 3ème cycle d'université (bâtiment)
+1413250 0 établissement de deuxième cycle universitaire
 1413260 0 étudiant (université)
 1413310 0 grande joie
 1413330 0 atmosphère
@@ -24344,10 +24382,10 @@
 1415200 0 production de masse
 1415220 0 peinture du japon ancien
 1415230 0 l'esprit japonais
-1415260 0 préfixe pour les grades
-1415270 0 le plus avancé
-1415270 0 numéro 1
+1415260 0 ordinal
 1415270 0 premier
+1415270 0 le plus avancé
+1415270 0 numéro un
 1415300 0 première leçon
 1415310 0 premier mouvement (musique)
 1415330 0 article premier
@@ -24732,7 +24770,7 @@
 1419730 0 chagrin profond
 1419730 0 idées noires
 1419730 0 tristesse envahissante
-1419740 0 conclusion catégorique
+1419740 0 conclusion
 1419740 0 décision
 1419780 0 abandon
 1419780 0 renonciation
@@ -24917,7 +24955,10 @@
 1421290 0 carte
 1421290 0 plan
 1421310 0 impôt foncier
+1421360 0 région
+1421360 0 aire
 1421360 0 zone
+1421360 0 ceinture (géographique)
 1421380 0 endroit
 1421380 0 lieu
 1421380 0 point
@@ -25106,10 +25147,14 @@
 1422970 0 parvenir à
 1422970 1 siéger
 1422970 1 s'asseoir à (ex. la table)
+1422990 0 mettre des vêtements sur (quelqu'un)
 1422990 0 couvrir
 1422990 0 habiller
 1422990 0 revêtir
-1422990 1 imputer à
+1422990 1 plaquer
+1422990 1 dorer
+1422990 2 accuser (d'un crime)
+1422990 2 donner (une mauvaise réputation)
 1423000 0 être habillé de
 1423000 0 enfiler
 1423000 0 mettre ses habits
@@ -25210,8 +25255,9 @@
 1424440 0 otite moyenne
 1424440 0 tympanite (inflammation de l'oreille moyenne)
 1424470 0 banc de sable dans un fleuve
-1424490 0 deuxième période de dix jours dans un mois
 1424490 0 milieu d'un mois
+1424490 0 deuxième tiers dans un mois
+1424490 0 du 11e au 20e jour d'un mois
 1424500 0 calomnie
 1424500 0 diffamation
 1424520 0 petit et moyen
@@ -25234,8 +25280,8 @@
 1424660 0 soutien
 1424660 0 homme clé
 1424660 0 personnage central
-1424690 0 médiéval
-1424690 0 moyen âge
+1424690 0 Moyen Âge (au Japon en part. les périodes Kamakura et Muromachi)
+1424690 0 époque médiévale
 1424710 0 neutralité (y compris chimique, électrique, etc.)
 1424710 0 indifférence
 1424710 1 asexué
@@ -25662,6 +25708,11 @@
 1429260 0 conciliation
 1429260 0 entremise
 1429260 0 médiation
+1429280 0 provisions
+1429280 0 équipement
+1429280 0 ameublement
+1429280 0 meubles
+1429280 0 appareils
 1429290 0 assaisonnement
 1429290 0 condiment
 1429310 0 cuisine
@@ -25697,6 +25748,14 @@
 1429700 1 gambader
 1429710 0 bond
 1429710 0 saut
+1429740 0 responsable
+1429740 0 chef
+1429740 0 dirigeant
+1429740 0 aîné
+1429740 1 mérite
+1429740 1 point fort
+1429740 2 supériorité
+1429740 3 majeur
 1429750 0 long (distance)
 1429750 1 long (durée)
 1429750 1 longuet
@@ -25779,6 +25838,11 @@
 1430570 0 avancer
 1430570 0 marcher (pour le travail ou les affaires)
 1430580 0 droit
+1430580 1 ordinaire
+1430580 1 commun
+1430580 1 courant
+1430580 1 habituel
+1430580 2 ne rien faire
 1430610 0 aussitôt
 1430610 0 immédiatement
 1430610 0 sur le champ
@@ -26347,6 +26411,8 @@
 1436440 0 ententer, introduire une action
 1436440 0 porter plainte
 1436480 0 échelle
+1436480 1 escaliers
+1436480 2 aller à plusieurs endroits successivement (par ex. de bar en bar)
 1436510 0 bornes
 1436510 0 degré
 1436510 0 dimension
@@ -26462,11 +26528,10 @@
 1437270 0 but
 1437270 0 cible
 1437270 0 point de mire
-1437290 0 convenable
-1437290 0 exact
-1437290 0 judicieux
-1437290 0 juste
 1437290 0 précis
+1437290 0 exact
+1437290 0 approprié
+1437290 0 exactement le bon
 1437300 0 atteindre le but
 1437300 0 faire mouche
 1437300 0 se réaliser
@@ -26570,9 +26635,8 @@
 1437800 0 conduite en fer
 1437800 0 tube en fer
 1437800 0 tuyau en fer
-1437820 0 pont de fer
-1437820 0 pont de voie ferrée
-1437820 0 pont en fer
+1437820 0 pont ferroviaire
+1437820 0 pont métallique
 1437830 0 armature (de béton armé)
 1437830 0 barre d'acier (pour béton armé)
 1437860 0 minerai de fer
@@ -26583,6 +26647,8 @@
 1437960 0 transport ferroviaire
 1437990 0 bouilloire en fer
 1438010 0 fusil
+1438010 1 poteau en bois que les lutteurs frappent à l'entrainement
+1438010 2 fugu
 1438030 0 barre de fer
 1438030 0 pince (à levier)
 1438040 0 Code (de loi)
@@ -26658,10 +26724,15 @@
 1440340 0 faîte
 1440340 0 sommet
 1440590 0 tempura (beignet) (portugais : tempero)
-1440600 0 déploiement
 1440600 0 développement
-1440600 0 dilatation
-1440600 0 expansion (contraire de compression)
+1440600 0 évolution
+1440600 0 progression
+1440600 0 déroulement
+1440600 1 expansion
+1440600 1 étalement
+1440600 1 prolongation
+1440600 1 déploiement
+1440600 1 construction
 1440610 0 étalage
 1440610 0 démonstration
 1440610 0 exposition
@@ -26700,17 +26771,39 @@
 1440920 0 résumé
 1440920 0 sommaire
 1440930 0 collecter
-1440930 0 mettre en ordre
+1440930 0 assembler
 1440930 0 rassembler
-1440930 0 regrouper
-1440930 0 systématiser
-1440980 0 faire rouler
-1440980 0 renverser
+1440930 0 intégrer
+1440930 0 consolider
+1440930 0 unifier
+1440930 1 résumer
+1440930 1 récapituler
+1440930 1 agréger
+1440930 2 apporter une conclusion
+1440930 2 finaliser
+1440930 2 régler
+1440930 2 mettre en ordre
+1440930 3 établir
+1440930 3 decider
 1440980 0 rouler
-1441000 0 (vi)rouler
+1440980 1 retourner
+1440980 1 basculer
+1440980 1 laisser tomber
+1440980 2 partir
+1440980 3 acheter et vendre (rapidement pour le profit)
+1441000 0 rouler
 1441000 0 dégringoler
-1441000 0 s'enrouler
-1441000 0 tomber
+1441000 1 culbuter
+1441000 1 tomber
+1441000 1 se renverser
+1441000 1 capoter
+1441000 2 s'allonger
+1441000 2 se coucher
+1441000 3 être répandu
+1441000 3 être commun
+1441000 3 être courant
+1441000 4 (d'une situation ou d'un résultat) changer
+1441000 4 se révéler
 1441010 0 (vi)rouler
 1441010 0 dégringoler
 1441010 0 s'enrouler
@@ -27907,9 +28000,13 @@
 1455170 0 particularité
 1455170 0 distinction
 1455200 0 mérite
-1455210 0 déterminé
-1455210 0 précis
 1455210 0 spécifique
+1455210 0 particulier
+1455210 0 désigné
+1455210 0 spécial
+1455210 1 spécifier
+1455210 1 identifier
+1455210 1 localiser
 1455220 0 faveur
 1455220 0 privilège
 1455240 0 correspondant
@@ -28322,6 +28419,8 @@
 1464250 0 sino-japonais
 1464250 1 sino-japonais
 1464300 0 programme
+1464300 0 planning
+1464300 0 ordre du jour
 1464320 0 Japonais et Allemand
 1464340 0 date
 1464340 0 datation
@@ -28844,9 +28943,13 @@
 1471200 4 rompre (une promesse)
 1471200 5 battre (un record)
 1471210 0 se déchirer
-1471210 0 se détruire
-1471210 0 être battu
-1471210 1 être battu
+1471210 0 se briser
+1471210 0 se casser
+1471210 0 se rompre
+1471210 0 s'user
+1471210 1 être rompu (pour des négociations, etc.)
+1471210 1 s'effondrer
+1471210 1 tomber en ruine
 1471220 0 déchirure
 1471220 0 fente
 1471250 0 destruction
@@ -28922,9 +29025,13 @@
 1472170 0 abolition des fiefs et établissement des préfectures
 1472220 0 implorer
 1472220 0 supplier
-1472230 0 prier
-1472230 0 supplier
-1472230 1 regarder
+1472230 0 prendre la posture de prière
+1472230 0 joindre les paumes et les doigts des deux mains
+1472230 0 faire la révérence (par ex. devant une statue du Bouddha)
+1472230 0 témoigner son respect
+1472230 1 supplier
+1472230 1 faire une supplication
+1472230 2 regarder (quelque chose ou quelqu'un de statut élevé)
 1472240 0 audience
 1472260 0 cher Mr ... (formule de politesse au début d'une lettre)
 1472270 0 regarder
@@ -28985,6 +29092,11 @@
 1472780 0 infidélité
 1472780 0 trahison
 1472800 0 dos
+1472860 0 être chargé de
+1472860 0 assumer la responsabilité de
+1472860 0 porter sur le dos ou sur l'épaule
+1472860 1 avoir (quelque chose) en arrière-plan
+1472860 1 être devant (quelque chose)
 1472870 0 poumon
 1472880 0 pneumonie
 1472890 0 capacité pulmonaire
@@ -28995,6 +29107,7 @@
 1472930 0 maladie du poumon
 1472980 0 production abondante (de talents, personnes)
 1472990 0 distribuer
+1472990 0 livrer
 1473060 0 épouse
 1473060 0 conjoint
 1473060 0 mari
@@ -29065,8 +29178,8 @@
 1473860 1 lancer
 1473870 0 épuisé
 1473870 0 complet
-1473880 0 être épuisé (article)
-1473880 0 complet (sold out)
+1473880 0 être épuisé (pour un article)
+1473880 0 complet (par ex. pour un spectacle)
 1473930 0 argument de vente
 1473930 0 article de vente
 1473930 1 "à vendre"
@@ -29080,7 +29193,11 @@
 1474040 0 échoppe
 1474040 0 kiosque
 1474040 0 stand
+1474050 0 commerce
 1474050 0 négoce
+1474050 0 acheter et vendre
+1474050 0 trafic (par ex. d'êtres humains, d'armes, de drogue)
+1474050 0 transaction
 1474110 0 compensations
 1474120 0 compensations financières
 1474140 0 souper avec son supérieur
@@ -29093,10 +29210,13 @@
 1474220 0 trébuchet
 1474260 0 comte
 1474280 0 être égal (personnes)
-1474370 0 écorcer
 1474370 0 éplucher
-1474370 0 décortiquer
 1474370 0 peler
+1474370 0 décortiquer
+1474370 0 écorcer
+1474370 0 écosser
+1474370 0 montrer (par ex. les dents)
+1474370 0 ouvrir grand (par ex. les yeux)
 1474380 0 (se) peler
 1474390 0 s'écailler
 1474390 0 se décolorer
@@ -29119,6 +29239,9 @@
 1474850 1 être à quai
 1474850 1 être amarré
 1474850 1 mouiller (pour un bateau)
+1474860 0 donner un abri à
+1474860 0 loger
+1474860 0 accueillir
 1474860 0 héberger
 1474870 0 invité de maison
 1474890 0 frais d'hôtel
@@ -29166,6 +29289,7 @@
 1475480 4 faible (probabilité, etc.)
 1475480 4 petit
 1475500 0 diluer
+1475500 0 édulcorer
 1475510 0 devenir pale
 1475510 0 maigrir
 1475510 0 s'affaiblir
@@ -29184,11 +29308,15 @@
 1475620 0 s'habiller légèrement
 1475690 0 crépuscule
 1475690 0 pénombre
-1475720 0 (s')approcher
-1475720 0 exiger
-1475720 0 harceler
-1475720 0 réclamer
+1475720 0 approcher
+1475720 0 s'approcher
 1475720 0 se rapprocher
+1475720 0 être imminent
+1475720 1 presser (quelqu'un pour quelque chose)
+1475720 1 pousser
+1475720 1 exhorter
+1475720 1 contraindre
+1475720 1 forcer
 1475730 0 persécution
 1475770 0 force
 1475770 0 intensité
@@ -29233,10 +29361,11 @@
 1476450 3 type
 1476480 0 couleur chair
 1476480 0 couleur peau
-1476500 0 chemise de nuit
-1476500 0 lingerie
-1476500 0 maillot de corps
 1476500 0 sous-vêtements
+1476500 0 lingerie
+1476500 0 chemise de nuit
+1476500 0 nuisette
+1476500 0 maillot de corps
 1476520 0 champ
 1476520 1 champ (de spécialisation)
 1476520 1 sphère
@@ -29253,9 +29382,11 @@
 1476960 0 marchand de légumes
 1477020 0 tous côtés
 1477020 0 toutes directions
-1477090 0 écuelle
 1477090 0 bol
 1477090 0 pot
+1477090 0 bassin
+1477090 0 cuvette
+1477090 0 écuelle
 1477090 1 pot de fleur
 1477090 2 couronne
 1477090 2 crâne
@@ -29764,7 +29895,8 @@
 1482340 0 programme
 1482360 0 adresse
 1482360 0 numéro de rue
-1482410 0 suffixe de nombre cardinal
+1482410 0 indique la position dans une séquence
+1482410 1 divisions d'un spectacle de kabuki
 1482500 0 barbarisme
 1482500 0 brutalité
 1482500 0 cruauté
@@ -30959,6 +31091,10 @@
 1497360 0 faire flotter
 1497360 1 exprimer
 1497360 1 avoir l'air (triste, heureux)
+1497360 2 penser
+1497360 2 imaginer
+1497360 2 se souvenir
+1497360 2 se rappeler
 1497370 0 s'amuser
 1497370 0 se réjouir
 1497400 0 de bonne humeur
@@ -30968,9 +31104,21 @@
 1497420 0 flotter
 1497420 0 remettre à flot
 1497420 0 surnager
-1497420 1 ménager (argent)
-1497420 2 agacer (dents)
+1497420 1 être gai
+1497420 1 être joyeux
+1497420 2 devenir lâche
+1497420 2 devenir instable
+1497420 3 se sentir exclu
+1497420 3 être isolé (par ex. de ceux autour de vous)
+1497420 3 ne pas se sentir à sa place
+1497420 4 être frivole
+1497420 4 être instable
+1497420 5 avoir (du temps, de l'argent, etc.) qui reste
+1497420 5 être épargné (par ex. pour l'argent)
+1497420 6 n'avoir aucun fondement
+1497420 6 ne pas être fiable
 1497430 0 flotter
+1497430 0 être en suspension
 1497430 1 venir à l'esprit
 1497430 2 venir à l'esprit
 1497430 2 avoir l'inspiration
@@ -30990,9 +31138,10 @@
 1497690 0 père et mère
 1497690 0 parents
 1497700 0 côté paternel
-1497710 0 marque
 1497710 0 signe
+1497710 0 marque
 1497710 0 symbole
+1497710 0 code
 1497710 1 signe (par ex. positif, négatif)
 1497750 0 coïncidence
 1497750 0 concordance
@@ -31719,7 +31868,7 @@
 1505470 0 texte
 1505470 0 composition
 1505470 1 style (d'écriture)
-1505510 0 style (littéraire)
+1505510 0 style littéraire
 1505520 0 cercles littéraires
 1505520 0 monde des lettres
 1505550 0 échange de lettres
@@ -32053,6 +32202,8 @@
 1511770 0 arranger
 1511770 0 mettre en ordre
 1511770 0 ranger
+1511770 2 être fini
+1511770 2 être terminé
 1511790 0 être arrangé
 1511790 0 être en ordre
 1511790 0 être rangé
@@ -36917,9 +37068,16 @@
 1576260 0 un jour
 1576260 1 le premier (du mois)
 1576260 1 premier jour du mois
-1576360 0 s'écarter du sujet
-1576360 0 s'égarer
-1576360 0 se perdre
+1576360 0 se détourner
+1576360 0 s'écarter de
+1576360 0 dévier
+1576360 1 manquer (par ex. d'une balle)
+1576360 1 s'égarer
+1576360 1 devenir fou
+1576360 2 dévier (par ex. d'une conversation)
+1576360 2 digresser
+1576360 2 s'éloigner
+1576360 2 errer
 1576380 0 le positif et le négatif
 1576380 0 le yin et le yang
 1576400 0 côté droit
