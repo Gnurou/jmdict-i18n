@@ -7214,6 +7214,7 @@
 1211480 0 achèvement
 1211490 0 achèvement
 1211490 0 terminaison
+1211490 1 perfection
 1211490 1 accomplissement
 1211510 0 état complet
 1211510 0 perfection
@@ -27841,9 +27842,14 @@
 1451850 0 consentement
 1451850 0 opinion commune
 1451850 1 de sens identique
-1451900 0 égalité
-1451900 0 identité
-1451900 0 similitude
+1451900 0 identique
+1451900 0 même
+1451900 0 un seul et même
+1451900 0 égal
+1451900 1 juste
+1451900 1 équitable
+1451900 1 égalité de traitement
+1451900 1 sans discrimination
 1451930 0 homophonie
 1451930 0 même son
 1451960 0 absorption
@@ -35515,10 +35521,11 @@
 1548370 3 compter sur
 1548370 3 reposer sur
 1548370 3 dépendre de
-1548380 0 digne de confiance
 1548380 0 fiable
-1548380 0 plein d'espoir
-1548380 0 qui promet
+1548380 0 digne de confiance
+1548380 1 plein d'espoir
+1548380 1 prometteur
+1548380 1 qui promet
 1548400 0 lequel on ne peut compter
 1548400 0 sur quoi
 1548400 0 vague
@@ -35649,7 +35656,8 @@
 1549340 0 tempête
 1549340 1 difficulté
 1549340 1 peine
-1549350 0 colonne dans un texte ou tableau
+1549350 0 colonne de texte (par ex. dans un journal)
+1549350 1 champ (dans un formulaire, une page web, etc.)
 1549360 0 marge (ex. d'un journal)
 1549370 0 balustrade
 1549370 0 main courante
@@ -36000,6 +36008,7 @@
 1552590 0 vagabondage
 1552630 0 accumuler
 1552630 0 amasser
+1552630 1 laisser impayé
 1552650 0 s'accumuler
 1552650 0 s'amasser
 1552740 0 études à l'étranger
