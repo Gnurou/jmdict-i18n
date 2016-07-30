@@ -1358,11 +1358,11 @@
 1012050 3 wouah !
 1012050 3 mon Dieu !
 1012070 0 comme-ci comme-ça
-1012070 1 bon, bon (utilisé pour calmer un interlocuteur excité)
+1012070 1 allons, allons (utilisé pour calmer les gens)
 1012070 2 Voyons !
 1012070 2 Tu m'en diras tant !
 1012070 2 Mon Dieu !
-1012070 2 (expression de surprise)
+1012070 2 (expression d'émerveillement, de surprise, etc.)
 1012100 0 être confus
 1012100 0 être troublé
 1012110 0 confus
@@ -1382,10 +1382,7 @@
 1012440 0 avoir l'apparence de
 1012440 0 montrer des signes de
 1012440 1 se masturber
-1012470 0 sensiblement
 1012470 0 remarquablement
-1012470 0 considérablement
-1012470 0 beaucoup
 1012480 0 maintenant
 1012480 0 bientôt
 1012480 0 rapidement
@@ -1411,7 +1408,7 @@
 1012500 0 si
 1012500 0 au cas où
 1012500 0 en supposant
-1012510 0 peut être
+1012510 0 peut-être
 1012510 0 par hasard
 1012530 0 peut-être
 1012530 0 par hasard
@@ -1693,6 +1690,7 @@
 1025040 0 weekend
 1025050 0 jour de la semaine
 1025140 0 whisky
+1025140 0 whiskey
 1025250 0 oui
 1025450 0 virus
 1025670 0 garçon
@@ -6244,7 +6242,9 @@
 1200980 0 déplacer une tombe
 1200980 0 exhumation et réinhumation d'un cercueil
 1201000 0 remodelage
-1201000 0 transformation
+1201000 0 restructuration
+1201000 0 reconstruction
+1201000 0 remaniement (par ex. ministériel)
 1201000 1 modding
 1201000 1 tuning PC
 1201000 1 modification de logiciel ou matériel électronique
@@ -8605,7 +8605,12 @@
 1226140 0 président (par ex. du conseil, du sénat, etc.)
 1226140 0 modérateur (par ex. d'un groupe de discussion)
 1226160 0 débat
+1226160 0 discussion
+1226160 0 conflit
+1226160 0 querelle
 1226160 0 dispute
+1226160 0 polémique
+1226160 0 controverse
 1226200 0 racler
 1226210 0 chrysanthème
 1226220 0 chrysanthème
@@ -8652,12 +8657,17 @@
 1226480 6 frapper la balle près de la poignée de la batte
 1226490 0 être en échec et mat (aux échecs chinois (shôgi))
 1226490 0 se retrouver coincé
-1226510 0 bloquer (vt)
+1226510 0 fourrer dans
+1226510 0 tasser
+1226510 0 entasser
 1226510 0 bourrer
-1226510 0 coincer (vt)
-1226510 0 raccourcir (vt)
+1226510 0 emballer
+1226510 0 empaqueter
 1226510 0 remplir
-1226510 0 travailler d'arrache-pied
+1226510 0 farcir
+1226510 0 bloquer
+1226510 0 boucher
+1226510 0 coincer
 1226510 1 raccourcir
 1226510 1 rétrécir
 1226510 1 resserer
@@ -11907,7 +11917,9 @@
 1264290 0 répéter
 1264290 0 redire
 1264330 0 façon de parler
-1264380 0 pour dire
+1264380 0 pour ainsi dire
+1264380 0 comme qui dirait
+1264380 0 en quelque sorte
 1264410 0 référence
 1264420 0 langage
 1264520 0 langage et conduite
@@ -12243,6 +12255,7 @@
 1269320 6 restant
 1269330 0 après
 1269330 0 ensuite
+1269330 0 plus tard
 1269330 1 futur
 1269330 2 après sa (propre) mort
 1269330 3 descendant
@@ -12273,8 +12286,7 @@
 1269680 0 successeur
 1269690 0 conclusion (d'affaires)
 1269690 0 mesures à prendre après mauvaise gestion
-1269720 0 ce(le) dernier
-1269720 0 cette(la) dernière
+1269720 0 le dernier
 1269770 0 épilogue
 1269770 0 post-scriptum
 1269950 0 a posteriori
@@ -16722,10 +16734,12 @@
 1326880 0 faucher
 1326880 1 prendre
 1326880 1 rassembler
-1326880 2 adopter
+1326880 2 adopter (par ex. une idée)
+1326880 2 accepter (par ex. des conseils)
 1326880 2 incorporer
-1326880 2 accepter
 1326880 2 introduire
+1326880 2 présenter
+1326880 2 emprunter (par ex. un mot)
 1326920 0 utile
 1326920 0 valable
 1326930 0 récupérer
@@ -27431,9 +27445,9 @@
 1448680 0 chauffe-eau
 1448730 0 phare
 1448730 1 ancien luminaire intérieur comprenant un poteau en bois avec un recipient rempli d'huile et une mèche le surmontant
-1448760 0 huile (pour lampe)
-1448760 0 kérosène
+1448760 0 huile de lampe
 1448760 0 pétrole lampant
+1448760 0 kérosène
 1448780 0 coup
 1448780 0 par ... (unités)
 1448780 0 réussite
@@ -27516,6 +27530,10 @@
 1448890 0 kanji utilisé comme équivalent phonétique
 1448890 0 lecture "plaquée"
 1448930 0 appliquer (une règle)
+1448930 0 être applicable
+1448930 0 relever (d'une catégorie)
+1448930 0 satisfaire
+1448930 0 convenir
 1448960 0 cette gare (sur le plan de quartier dans la gare)
 1448980 0 autorités compétentes
 1448980 0 autorités concernées
@@ -27573,10 +27591,11 @@
 1449650 0 teneur en sucre
 1449660 0 contrôler
 1449660 0 superviser
-1449670 0 consolidation
-1449670 0 unification
-1449670 0 uniformité
 1449670 0 unité
+1449670 0 consolidation
+1449670 0 uniformité
+1449670 0 unification
+1449670 0 compatibilité
 1449680 1 administration
 1449680 1 contrôle
 1449710 0 statistiques
@@ -27679,8 +27698,9 @@
 1450560 0 voir à travers
 1450560 1 clairvoyance
 1450560 2 radiographie
-1450590 0 clarté
 1450590 0 transparence
+1450590 0 clarté
+1450590 0 propreté
 1450610 0 céramique
 1450610 0 poterie
 1450620 0 céramique
@@ -27689,7 +27709,7 @@
 1450680 0 enivrement
 1450680 0 fascination
 1450680 0 ivresse
-1450690 0 compteur de grands animaux
+1450690 0 compteur de grands animaux (par ex. de têtes de bétail)
 1450770 0 allitération
 1450850 0 crâne
 1450870 0 au-dessus de la tête
@@ -27697,6 +27717,7 @@
 1450890 0 mal de tête
 1450900 0 tête
 1450900 0 cerveau
+1450900 1 intellect
 1450900 1 entendement
 1450970 0 augmentation
 1451020 0 conflit
@@ -27823,9 +27844,9 @@
 1451660 0 énergie électrique
 1451660 0 force motrice
 1451660 0 puissance
-1451730 0 ibid
-1451730 0 ledit (ladite, lesdits, lesdites)
-1451730 0 même
+1451730 0 le même
+1451730 0 ledit
+1451730 0 ibid.
 1451750 0 même
 1451750 0 pareil
 1451750 0 identique
@@ -27929,8 +27950,10 @@
 1453800 0 aspiration
 1453800 0 désir
 1453800 0 rêve (de fortune)
+1453810 0 languir après
+1453810 0 aspirer (par ex. aux honneurs)
 1453810 0 admirer
-1453810 0 aspirer (aux honneurs)languir (après qqch)
+1453810 0 être attiré par
 1453850 0 caverne
 1453850 0 grotte
 1453860 0 caverne
@@ -27944,6 +27967,7 @@
 1453920 0 enfant
 1453950 0 visage d'enfant
 1453970 0 naïveté d'enfant
+1453990 0 comptine
 1453990 0 chanson pour enfant
 1454000 0 conte de fée
 1454000 0 conte pour enfants
@@ -28114,10 +28138,12 @@
 1455580 0 langue de vipère
 1455600 0 plante vénéneuse
 1455640 0 poison
-1455660 0 automatiquement
 1455660 0 de soi-même
+1455660 0 automatiquement
+1455660 0 naturellement
+1455670 0 soliloque
 1455670 0 monologue
-1455670 0 parler tout seul
+1455670 0 parler à soi-même
 1455710 0 solo
 1455720 0 autodidacte
 1455730 0 toupie
@@ -28170,9 +28196,17 @@
 1456650 0 cribler
 1456650 0 perforer
 1456650 0 transpercer
-1456770 0 fond (de la pièce, du couloir)
-1456780 0 heurter
-1456780 0 rencontrer
+1456770 0 bout (par ex. de la rue)
+1456770 0 fond (par ex. du couloir)
+1456780 0 se heurter à
+1456780 0 entrer en collision avec
+1456780 0 percuter
+1456780 0 s'écraser sur
+1456780 0 se tamponner
+1456780 0 se cogner contre
+1456780 0 buter sur
+1456780 1 arriver à la fin de (la rue)
+1456780 2 se heurter à (des difficultés, des problèmes, etc.)
 1456820 0 percer à jour
 1456820 0 transpercer
 1456820 0 traverser
@@ -28190,8 +28224,16 @@
 1456890 4 braver (la pluie, etc.)
 1456890 4 affronter
 1456920 0 mettre (ses chaussons)
-1456940 0 se fourrer dans (une mauvaise affaire)
-1456940 0 se lancer dans
+1456940 0 pousser (quelque chose) dans (quelque chose)
+1456940 0 fourrer
+1456940 0 caser
+1456940 1 se plonger dans
+1456940 1 s'enfoncer dans
+1456940 2 s'impliquer dans
+1456940 2 se mêler de
+1456940 2 mettre son nez dans
+1456940 3 riposter
+1456940 3 railler
 1456980 0 assaut
 1456980 0 charge
 1457040 0 soudain
@@ -28822,10 +28864,13 @@
 1469450 0 scrupuleux
 1469470 0 prière bouddhiste
 1469480 0 force de volonté
-1469530 0 tourner
-1469530 1 tordre
-1469530 1 tortiller
-1469530 2 se creuser (la tête)
+1469530 0 tordre
+1469530 0 tortiller
+1469530 0 entortiller
+1469530 0 tourner (un interrupteur en position ouverte ou fermée, etc.)
+1469530 1 essayer de comprendre
+1469530 1 essayer de résoudre
+1469530 2 vaincre facilement
 1469540 0 se fouler
 1469540 0 se tordre
 1469540 0 entorse
@@ -28917,6 +28962,7 @@
 1470300 0 masque de nô
 1470320 0 fonctionnaire capable
 1470330 0 efficacité
+1470330 0 rendement
 1470330 1 moment (magnétique)
 1470370 0 capacité
 1470370 0 compétence
@@ -28959,7 +29005,7 @@
 1470840 3 regarder à la dérobée
 1470840 3 regarder rapidement
 1470840 4 observer (à la jumelle, au microscope, etc.)
-1470840 5 dépasser (une écharpe d'un col, etc.)
+1470840 5 faire dépasser (une écharpe d'un col, etc.)
 1470840 5 percer (le ciel à travers la canopée, etc.)
 1470840 6 faire face à
 1470910 0 comprendre
@@ -28994,9 +29040,12 @@
 1471120 0 secte
 1471130 0 détacher
 1471130 0 envoyer (en mission)
-1471140 0 tapageur
 1471140 0 voyant
-1471140 0 somptueux
+1471140 0 bruyant
+1471140 0 gai
+1471140 0 tapageur
+1471140 0 tape à l'œil
+1471140 0 criard
 1471150 0 dérivation
 1471180 0 clan
 1471180 0 faction
@@ -36019,7 +36068,10 @@
 1552760 1 gardien d'une maison
 1552760 1 garde d'une maison
 1552760 2 être négligé (à propos de ses études, etc.)
-1552800 0 gardien d'une maison dont le maître est absent
+1552800 0 gardiennage de maison
+1552800 0 surveillance de maison
+1552800 0 rester à la maison
+1552800 1 gardien de maison
 1552840 0 soufre
 1552870 0 hydrogène sulfuré
 1552870 0 sulfure d'hydrogène
@@ -36093,8 +36145,10 @@
 1554200 0 endurer
 1554200 0 se préserver de
 1554200 0 surpasser
-1554230 0 logement commun
-1554230 0 pensionnat
+1554230 0 auberge
+1554230 0 foyer
+1554230 0 dortoir
+1554230 1 bureau (service du gouvernement dépendant d'un ministère dans le système ritsuryo)
 1554240 0 élève en internat
 1554240 0 interne
 1554250 0 intendant de l'internat
@@ -36130,9 +36184,9 @@
 1554370 4 pur
 1554370 4 droit
 1554370 4 innocent
-1554380 0 aller dans un endroit frais
 1554380 0 prendre le frais
 1554380 0 se rafraîchir
+1554380 0 profiter de la fraîcheur du soir
 1554410 0 fraicheur
 1554420 0 chasse
 1554430 0 chien de chasse
@@ -40381,11 +40435,16 @@
 1600520 0 quai (train)
 1600530 0 moyen de transport
 1600530 0 véhicule
-1600560 0 inconscient
 1600560 0 insouciant
-1600560 0 nonchalant
 1600560 0 optimiste
-1600560 0 tranquille
+1600560 0 négligent
+1600560 0 téméraire
+1600560 0 inattentif
+1600560 0 facile à vivre
+1600560 0 nonchalant
+1600560 0 inconscient
+1600560 0 irréfléchi
+1600560 0 inconsidéré
 1600590 0 cancer du poumon
 1600610 0 gloire
 1600620 0 avoir l'air attirant
@@ -40951,14 +41010,17 @@
 1603910 0 dépasser
 1603910 0 exceller
 1603910 0 surpasser
-1603920 0 être mélangé
+1603920 0 être mêlé
 1603920 0 être mélangé avec
 1603920 0 s'associer avec
+1603920 0 rejoindre
 1603920 0 se joindre à
 1603920 0 se mêler à
-1603930 0 être mélangé
+1603930 0 être mêlé
 1603930 0 être mélangé avec
 1603930 0 s'associer avec
+1603930 0 s'intéresser
+1603930 0 rejoindre
 1603930 0 se joindre à
 1603930 0 se mêler à
 1603940 0 anesthésie
@@ -43006,6 +43068,7 @@
 2219590 0 ancien
 2219590 0 précédent
 2219590 0 ex-
+2219590 0 passé
 2220280 0 -ien (utilisé après un nom indique le métier de quelqu'un, ses activités, ses inclinations, etc.)
 2220280 0 -ier
 2220600 0 bain
