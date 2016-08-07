@@ -16627,8 +16627,9 @@
 1325180 0 sujet
 1325210 0 subjectif
 1325260 0 doctrine
-1325260 0 principe
 1325260 0 règle
+1325260 0 principe
+1325260 0 -isme
 1325270 2 socialiste
 1325270 2 communiste
 1325270 2 anarchiste
@@ -22909,10 +22910,10 @@
 1397830 1 revenir (dans le temps, à l'origine)
 1397830 1 remonter à (une certaine date)
 1397830 1 faire rétroactivement
-1397840 0 rat
 1397840 0 souris
-1397840 1 couleur ardoise
-1397840 1 gris sombre
+1397840 0 rat
+1397840 1 gris foncé
+1397840 1 (couleur) ardoise
 1398030 0 moine
 1398030 0 prieur
 1398080 0 monastère
@@ -22980,6 +22981,7 @@
 1399590 0 pensée
 1399610 0 imagination
 1399610 0 supposition
+1399610 0 conjecture
 1399630 0 hypothèse
 1399630 0 supposition
 1399650 0 découvrir
@@ -23070,12 +23072,11 @@
 1400330 0 tôt le matin
 1400350 0 à la pointe de son époque
 1400350 0 en avant-garde
-1400390 0 antre
-1400390 0 caverne
 1400390 0 nid
-1400390 0 repaire
+1400390 0 colonie
+1400390 0 lieu de reproduction
 1400390 0 ruche
-1400390 0 toile (d'une araignée)
+1400390 1 antre
 1400390 1 tanière
 1400390 2 repaire
 1400390 2 lieu de prédilection
@@ -23254,6 +23255,8 @@
 1402360 0 équipement
 1402360 0 installation
 1402360 0 matériel
+1402360 0 appareil
+1402360 0 dispositif
 1402430 0 courir autour
 1402450 0 saut en hauteur
 1402490 0 griffonnage
@@ -23309,6 +23312,7 @@
 1402920 0 signal de détresse
 1402930 0 gel
 1402930 0 givre
+1402930 0 gelée
 1402940 0 dégel
 1402940 0 fonte
 1402950 0 dégâts dûs au froid
@@ -23440,6 +23444,7 @@
 1404040 0 flanc
 1404040 0 latéral
 1404100 0 c'est-à-dire
+1404100 0 à savoir
 1404130 0 impromptu
 1404130 0 improvisé
 1404130 0 improvisation
@@ -23456,6 +23461,8 @@
 1404320 0 respiration
 1404320 0 souffle
 1404320 1 ton
+1404320 1 tonalité
+1404320 1 humeur
 1404390 0 fils
 1404390 1 pénis
 1404420 0 essoufflement
@@ -23528,8 +23535,9 @@
 1405010 0 sténographie
 1405030 0 en recomendé
 1405030 0 express (courrier)
-1405050 0 vélocité
 1405050 0 vitesse
+1405050 0 rapidité
+1405050 0 vélocité
 1405080 0 vitesse
 1405090 0 vélocité
 1405090 0 vitesse
@@ -23639,7 +23647,7 @@
 1406190 0 durée
 1406220 0 "au feeling"
 1406220 0 selon ses désirs
-1406230 0 petit-enfants
+1406230 0 petit-enfant
 1406260 0 petite-fille
 1406400 0 admiration
 1406400 0 consideration
@@ -38781,8 +38789,9 @@
 1588920 0 colline
 1588920 0 partie de terrain surélevé
 1588920 1 points bonus attribués au gagnant à la fin d'un jeu
-1588930 0 accompagnement des plats de riz
 1588930 0 plat d'accompagnement
+1588930 0 okazu
+1588930 0 plat d'accompagnement (viande, poisson, pickles, etc.) accompagnant le riz dans un repas typiquement japonais
 1588930 1 matière à réflexion (en part. dans le cadre d'une conversation, ou de matériel pour s'exciter pendant la masturbation)
 1588930 2 remplissage
 1588930 2 fill-in (percussions)
