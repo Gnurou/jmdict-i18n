@@ -1655,6 +1655,8 @@
 1019740 0 allergie
 1019880 0 souterrain
 1019940 0 enquète
+1019950 0 アンコール
+1019950 0 bis
 1019990 0 ensemble
 1019990 0 tout compris
 1020030 0 anthologie, florilège
@@ -1663,6 +1665,8 @@
 1020410 1 dispositif ou méthode qui rassemble des informations ou des opinions
 1020470 0 et
 1020470 0 esperluette
+1021010 0 イエス
+1021010 0 Jésus
 1021220 0 égale
 1021220 1 le signe égale (=)
 1021220 2 égale (A = B)
@@ -1693,6 +1697,8 @@
 1025140 0 whiskey
 1025250 0 oui
 1025450 0 virus
+1025450 1 ウイルス
+1025450 1 virus
 1025670 0 garçon
 1025670 0 serveur
 1025690 0 hôtesse
@@ -1719,9 +1725,13 @@
 1030630 1 ascenseur (aviation)
 1030660 0 érotique
 1030660 0 érotisme
+1030910 0 エンジニア
+1030910 0 ingénieur
 1030950 0 moteur
 1031260 0 sans fin
 1031580 0 enchère
+1031600 0 ＯＫ⇥オッケー
+1031600 0 OK
 1031610 0 orchestre
 1032030 0 moto
 1032180 0 automation
@@ -1758,6 +1768,8 @@
 1036560 1 balle courbe
 1036560 2 cave (à vin)
 1036580 0 tapis
+1037070 0 カクテル
+1037070 0 cocktail
 1037130 0 froissement
 1037400 0 cassette (magnétique)
 1037400 1 cartouche (jeu vidéo)
@@ -1998,7 +2010,15 @@
 1057960 0 travailleur de bureau
 1057960 0 employé
 1057960 0 salarié
+1058210 0 サン
+1058210 0 soleil
+1058210 1 サン
+1058210 1 saint
+1058250 0 サンキュー
+1058250 0 merci
 1058300 0 lunettes de soleil
+1058420 0 サンタクロース
+1058420 0 père noël
 1058480 0 sandale
 1058580 0 sandwich
 1058760 0 échantillon
@@ -3255,7 +3275,8 @@
 1154770 2 attente
 1154790 0 comme d'habitude
 1154790 0 comme prévu
-1154820 0 inattendu
+1154820 0 à l'improviste
+1154820 0 de façon inattendu
 1154830 0 objet du débat
 1154830 0 sujet
 1154850 0 imaginer
@@ -3287,16 +3308,20 @@
 1155090 0 à l'exception de
 1155090 0 sauf
 1155100 0 après quoi
+1155100 0 après ça
+1155100 0 à partir de maintenant
+1155100 0 à l'avenir
 1155100 0 désormais
 1155100 0 dorénavant
 1155100 1 par la suite
 1155100 1 depuis (verbe) (après la forme -te du verbe)
 1155100 1 après (un temps)
 1155100 1 depuis
-1155110 0 à l'avenir
+1155110 0 à compter de
 1155110 0 à partir de
-1155110 0 désormais
-1155110 0 dorénavant
+1155110 0 après
+1155110 0 par la suite
+1155110 0 depuis
 1155120 0 pas moins que
 1155120 0 ...et davantage
 1155120 0 ... et plus
@@ -3366,6 +3391,7 @@
 1155780 0 célèbre
 1155780 0 grand
 1155780 1 affreux
+1155780 1 terrible
 1155780 1 epouvantable
 1155820 0 vue exceptionnelle
 1155840 0 destin exceptionnel
@@ -3420,7 +3446,17 @@
 1156290 0 prestige
 1156300 0 puissance
 1156300 0 vigueur
+1156320 0 prendre de grands airs
+1156320 0 faire l'important
+1156320 0 être dominateur
+1156320 0 être autoritaire
+1156320 0 être arrogant
 1156320 0 être fier
+1156320 0 être hautain
+1156320 0 être orgueilleux
+1156320 0 fanfaronner
+1156320 0 se vanter
+1156320 0 bomber le torse
 1156400 0 officier subalterne
 1156410 0 inattendu
 1156410 0 surprenant
@@ -5489,13 +5525,20 @@
 1190710 0 passable
 1190710 0 acceptable
 1190710 0 tolérable
-1190730 0 être affectueux avec
 1190730 0 aimer
-1190730 0 gâter
+1190730 0 chérir
+1190730 0 choyer
+1190730 0 préférer
+1190730 0 favoriser
+1190730 0 être partial envers
+1190730 1 tourmenter
+1190730 1 taquiner
+1190730 1 être dur avec
 1190740 0 adorable
 1190740 0 mignon
-1190810 0 adoption (loi)
+1190810 0 adoption (par ex. d'une motion, d'une loi)
 1190810 0 approbation
+1190810 0 homologation
 1190860 0 drôle
 1190860 0 amusant
 1190860 0 comique
@@ -6272,7 +6315,10 @@
 1201400 0 produits de la mer
 1201460 0 maritime
 1201490 0 eau de mer
+1201520 0 nage dans l'océan
 1201520 0 bain de mer
+1201520 0 bain d'eau de mer
+1201520 0 baignade rapide dans l'océan
 1201530 0 bains de mer
 1201590 0 algue marine
 1201600 0 corsaire
@@ -13624,8 +13670,8 @@
 1286660 0 sceau de l'état
 1286730 0 situation, état économique et démographique d'un pays
 1286750 0 taxe nationale
-1286780 0 citoyenneté
 1286780 0 nationalité
+1286780 0 citoyenneté
 1286830 0 rebelle
 1286830 0 traître
 1286870 0 compagnie nationale des chemins de fer
@@ -14961,6 +15007,11 @@
 1305420 0 être impatient
 1305420 0 étant ennuyé
 1305420 0 être irrité
+1305510 0 on n'y peut rien
+1305510 0 c'est inévitable
+1305510 0 il n'y a rien à faire
+1305510 0 il n'y a pas d'intérêt (à faire quelque chose)
+1305510 0 il n'y a pas de raison (de faire quelque chose)
 1305560 0 entraîner
 1305560 0 envoyer (un messager)
 1305560 0 faire (coudre)
@@ -22718,8 +22769,11 @@
 1396510 0 statue en terre ou en plastique
 1396530 0 mesure
 1396530 0 pas
-1396550 0 but
 1396550 0 visée
+1396550 0 but
+1396550 0 objectif
+1396550 0 fin
+1396550 0 objet
 1396590 0 viser
 1396620 0 distant
 1396620 0 séparé(s)
@@ -22814,10 +22868,16 @@
 1397300 0 superbe
 1397310 0 prompt
 1397310 0 rapide
+1397340 0 obéissant
+1397340 0 doux
 1397340 0 docile
+1397340 0 soumis
 1397340 0 naturel
 1397340 0 simple
-1397340 0 soumis
+1397340 0 ingénu
+1397340 1 honnête
+1397340 1 franc
+1397340 1 direct (à propos de ses sentiments)
 1397350 0 admirable
 1397350 0 ravissant
 1397370 0 croquis
@@ -22952,7 +23012,8 @@
 1399110 0 entrepôt de marchandises
 1399120 0 entrepôt
 1399120 0 magasin
-1399120 0 stock
+1399120 0 dépôt
+1399120 0 hangar
 1399250 0 deuil
 1399290 0 amende
 1399290 0 perte
@@ -22971,10 +23032,13 @@
 1399460 0 brave
 1399460 0 héroïque
 1399470 0 jouer d'un instrument (musique)
-1399520 0 éloquent
 1399520 0 frais
 1399520 0 rafraîchissant
 1399520 0 revigorant
+1399520 0 vivifiant
+1399520 0 tonifiant
+1399520 1 clair (par ex. pour une voix)
+1399520 1 éloquent
 1399550 0 stratus (météorologie)
 1399590 0 conception
 1399590 0 idée
@@ -23008,6 +23072,8 @@
 1399820 0 repiquage (horticulture)
 1399830 0 insérer
 1399830 0 mettre dans
+1399830 1 planter (une bouture)
+1399830 2 arranger (des fleurs)
 1399830 2 placer (des fleurs dans un vase)
 1399830 3 porter (une épée) à sa ceinture
 1399830 4 fermer
@@ -23090,11 +23156,16 @@
 1400560 0 conflit
 1400560 0 dispute
 1400560 0 querelle
-1400620 0 être en désaccord
-1400620 0 argumenter
-1400620 0 disputer
+1400620 0 concourir
 1400620 0 s'affronter
-1400620 0 soutenir
+1400620 0 rivaliser
+1400620 0 contester
+1400620 1 se disputer
+1400620 1 se quereller
+1400620 1 argumenter
+1400620 1 être en désaccord
+1400620 1 s'opposer
+1400620 2 (en général sous forme négative) nier (par ex. l'évidence)
 1400650 0 dispute
 1400650 0 grève
 1400650 0 querelle
@@ -23274,7 +23345,7 @@
 1402580 0 durée du parcours
 1402620 0 piste de course
 1402620 0 voie expresse
-1402640 0 kana écrit après un kanji pour compléter la lecture du mot  (habituellement kun) (peut infléchir)
+1402640 0 kana écrit après un kanji pour compléter la lecture (habituellement kun) du mot  (peut infléchir)
 1402640 0 désinence en kana
 1402660 0 perforation (sur les coté d'un film, d'une pellicule)
 1402710 0 renvoyer
@@ -23480,8 +23551,8 @@
 1404510 0 restriction
 1404540 0 station météorologique
 1404570 0 mesure
-1404590 0 enquête (ex: sondage)
 1404590 0 mesure
+1404590 0 arpentage
 1404630 0 pied
 1404630 1 jambe
 1404630 2 démarche
@@ -23506,14 +23577,17 @@
 1404740 2 répondre
 1404740 2 faire
 1404750 0 suffire
+1404750 0 être assez
+1404750 0 être suffisant
 1404750 0 valoir la peine de
+1404750 0 être digne de
 1404770 0 bruit de pas
 1404820 0 être dans l'impossibilité de s'enfuir
 1404820 0 confinement
 1404820 0 détention à domicile
 1404830 0 démarche
 1404840 0 cheville
-1404920 0 chaussette japonaise (gros orteil séparé)
+1404920 0 chaussettes japonaise (avec le gros orteil séparé)
 1404930 0 marquer le pas (?)
 1404930 0 pas
 1404975 0 vite
@@ -23533,8 +23607,9 @@
 1405000 0 rapidement
 1405000 0 sans perdre de temps
 1405010 0 sténographie
-1405030 0 en recomendé
-1405030 0 express (courrier)
+1405030 0 (colis) express
+1405030 0 (colis) prioritaire
+1405030 0 livraison spéciale
 1405050 0 vitesse
 1405050 0 rapidité
 1405050 0 vélocité
@@ -24199,8 +24274,8 @@
 1412960 0 grand
 1412960 0 important
 1412960 0 significatif
-1412970 0 pas tellement
-1412970 0 pas très
+1412970 0 (pas) tellement
+1412970 0 (pas) très
 1412980 0 approximativement
 1412980 0 en gros
 1413030 0 (rang militaire) capitaine
@@ -24300,6 +24375,7 @@
 1414160 0 ministre
 1414170 0 adulte
 1414190 0 docile
+1414190 0 obéissant
 1414190 0 doux
 1414190 0 sage
 1414190 0 tranquille
@@ -24529,8 +24605,8 @@
 1415930 1 tergiverser
 1415930 1 parler de manière équivoque
 1415950 0 marque de sonorisation des consonnes
-1415960 0 rendre impure
-1415960 0 salir
+1415960 0 se troubler
+1415960 0 devenir impure (d'un liquide, gaz, etc.)
 1415970 0 sonorisation (phonétique)/son sonorisé
 1415990 0 ruisseau boueux
 1416000 0 oui ou non
@@ -24555,8 +24631,11 @@
 1416170 5 invoquer
 1416170 5 appeler (par ex. une fonction)
 1416190 0 mais
+1416190 0 pourtant
+1416190 0 cependant
+1416190 0 toutefois
 1416190 0 pourvu que
-1416190 0 quelque...que
+1416190 0 à condition que
 1416220 0 suffixe du pluriel (en part. pour les personnes et les animaux ; auparavant honorifique)
 1416230 0 atteindre
 1416230 0 aboutir à
@@ -25784,8 +25863,13 @@
 1429170 3 impulsion
 1429170 3 tendance forte
 1429170 4 tendance
-1429200 0 ajustement
 1429200 0 réglage
+1429200 0 régulation
+1429200 0 coordination
+1429200 0 réconciliation
+1429200 0 ajustement
+1429200 0 mise au point
+1429200 0 adaptation
 1429240 0 contrôle
 1429240 0 réglage
 1429260 0 arbitrage
@@ -25821,6 +25905,13 @@
 1429620 0 bondir
 1429620 0 sauter
 1429620 0 sautiller
+1429620 0 gicler
+1429620 0 jaillir
+1429620 0 surgir
+1429620 1 fermer
+1429620 1 clore
+1429620 1 se terminer
+1429620 2 percuter (par ex. une voiture a percuté quelque chose ou quelqu'un)
 1429690 0 bondir
 1429690 0 sauter en l'air
 1429700 0 voler
@@ -25878,10 +25969,13 @@
 1430050 0 continuer longtemps
 1430050 0 durer (longtemps)
 1430060 0 manches longues
-1430070 0 avantage et inconvénient
-1430070 0 long et court
 1430070 0 longueur
 1430070 0 taille
+1430070 1 long et court
+1430070 1 avantages et inconvénients
+1430070 1 aspects positifs et négatifs
+1430070 1 points forts et faibles
+1430070 1 mérites et démérites
 1430080 0 fils aîné
 1430100 0 longtemps
 1430100 0 longues années
@@ -26114,6 +26208,7 @@
 1432780 0 blessure grave
 1432820 0 mordant
 1432820 0 sévère
+1432840 1 compteur pour les lettres, les notes, les documents, etc.
 1432850 0 aller et revenir (d'un endroit)
 1432850 0 faire des aller-retours entre
 1432850 0 faire la navette entre
@@ -26280,7 +26375,8 @@
 1433470 0 annonce
 1433490 0 carnet
 1433550 0 veillée funèbre
-1433560 0 interprétation
+1433560 0 interprétariat
+1433560 0 interprète
 1433570 0 être valable (valide)
 1433570 0 avoir cours
 1433600 0 passage
@@ -38806,11 +38902,22 @@
 1589060 0 accomplir
 1589060 0 faire
 1589060 0 mettre à exécution
-1589080 0 arrêter
-1589080 0 freiner
-1589080 0 réprimer
 1589080 0 retenir
-1589080 0 saisir
+1589080 0 maintenir
+1589080 0 arrêter
+1589080 0 restreindre
+1589080 0 freiner
+1589080 1 saisir
+1589080 1 attraper
+1589080 1 capturer
+1589080 2 prendre le contrôle de quelque chose
+1589080 2 gouverner
+1589080 2 régir
+1589080 2 limiter (par ex. l'information)
+1589080 2 supprimer
+1589080 3 déterminer (les points importants)
+1589080 3 trouver (la preuve)
+1589080 3 comprendre
 1589090 0 dédier
 1589090 0 consacrer (par ex. du temps ou de l'argent)
 1589090 0 faire une offre
@@ -39424,8 +39531,13 @@
 1592970 0 croisement
 1592970 0 intersection
 1592980 0 veau
-1592990 0 relève
+1592990 0 alternance
+1592990 0 changement
 1592990 0 remplacement
+1592990 0 relève
+1592990 0 changement d'équipe
+1592990 0 substitution (sports, etc.)
+1592990 0 tour
 1593010 0 correction
 1593010 0 révision
 1593030 0 mineur (mine)
@@ -40101,7 +40213,8 @@
 1598360 0 artisanal
 1598360 0 fabriqué à la main
 1598360 0 fait maison
-1598400 0 essuie-main
+1598400 0 essuie-mains
+1598400 0 serviette (pour les mains)
 1598410 0 guide
 1598410 0 introduction
 1598460 0 ça et là
@@ -40565,6 +40678,9 @@
 1601030 0 tomber dans
 1601030 0 tomber dans un piège
 1601040 0 dentifrice
+1601040 1 dentifrice
+1601040 1 pâte dentaire
+1601040 1 poudre dentaire
 1601060 0 être exclu
 1601060 0 être refoulé
 1601060 0 déborder
@@ -41774,6 +41890,7 @@
 1609710 1 se soustraire à
 1609710 2 plonger (dans ou sous l'eau)
 1609710 2 s'enfoncer sous le sol
+1609715 0 plonger (dans ou sous l'eau)
 1609720 0 devenir fou
 1609720 0 s'emporter
 1609720 0 se dérégler
@@ -42648,6 +42765,7 @@
 1894690 0 continuité
 1894690 0 suite
 1912410 0 examen blanc
+1919550 0 compteur pour les nuitées
 1919590 0 classe (par ex. d'école)
 1919590 0 grade
 1919590 0 rang
@@ -42705,7 +42823,7 @@
 1956960 1 non-
 1956960 1 mal-
 1956960 1 mé-
-1957110 1 théorie
+1957110 1 théorie (par ex. de l'évolution)
 1957110 1 doctrine
 1957110 2 essai
 1957110 2 traité
@@ -42763,6 +42881,10 @@
 2014380 2 amende
 2014380 3 bouddhisme ésotérique
 2014380 3 enseignement bouddhiste secret
+2015400 0 entreprise
+2015400 0 association
+2015400 0 société
+2015400 2 compteur pour les entreprises, les temples, etc.
 2015610 0 à l'instant
 2015610 0 très bientôt
 2019640 0 verre de saké
@@ -42846,7 +42968,8 @@
 2037700 2 avion
 2037700 3 compteur d'avions
 2037700 4 compteur de vies restantes (dans les jeux vidéos)
-2038290 0 compteur de bateaux
+2038290 0 compteur pour les navires (de grande taille)
+2038290 2 compteur pour les poissons, les oiseaux, les flèches, etc.
 2055530 0 mais
 2055530 0 cependant
 2055530 0 néanmoins
