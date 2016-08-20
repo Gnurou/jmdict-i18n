@@ -56,9 +56,12 @@
 1000590 0 comme ça
 1000590 0 de cette façon
 1000620 0 pas du tout
-1000660 0 certainement !
-1000660 0 en effet !
-1000660 0 parfaitement !
+1000660 0 certainement
+1000660 0 en effet
+1000660 0 vraiment
+1000660 0 parfaitement
+1000660 0 effectivement
+1000660 0 formule indiquant un accord
 1000730 0 mauvais
 1000730 0 pas bon
 1000730 0 inutilisable
@@ -1402,8 +1405,11 @@
 1012480 2 un autre
 1012480 2 l'autre
 1012480 3 interjection utilisé pour renforcer l'expression d'une émotion (souvent l'exaspération)
-1012490 0 se débatre
-1012490 0 se démener ?
+1012490 0 lutter
+1012490 0 se débattre
+1012490 0 se démener
+1012490 0 se tortiller
+1012490 0 se tordre
 1012490 1 être impatient
 1012500 0 si
 1012500 0 au cas où
@@ -1654,8 +1660,8 @@
 1019700 0 Alexandrite
 1019740 0 allergie
 1019880 0 souterrain
-1019940 0 enquète
-1019950 0 アンコール
+1019940 0 questionnaire
+1019940 0 enquête
 1019950 0 bis
 1019990 0 ensemble
 1019990 0 tout compris
@@ -1665,7 +1671,6 @@
 1020410 1 dispositif ou méthode qui rassemble des informations ou des opinions
 1020470 0 et
 1020470 0 esperluette
-1021010 0 イエス
 1021010 0 Jésus
 1021220 0 égale
 1021220 1 le signe égale (=)
@@ -1697,8 +1702,7 @@
 1025140 0 whiskey
 1025250 0 oui
 1025450 0 virus
-1025450 1 ウイルス
-1025450 1 virus
+1025450 1 viral
 1025670 0 garçon
 1025670 0 serveur
 1025690 0 hôtesse
@@ -1725,12 +1729,10 @@
 1030630 1 ascenseur (aviation)
 1030660 0 érotique
 1030660 0 érotisme
-1030910 0 エンジニア
 1030910 0 ingénieur
 1030950 0 moteur
 1031260 0 sans fin
 1031580 0 enchère
-1031600 0 ＯＫ⇥オッケー
 1031600 0 OK
 1031610 0 orchestre
 1032030 0 moto
@@ -1768,7 +1770,6 @@
 1036560 1 balle courbe
 1036560 2 cave (à vin)
 1036580 0 tapis
-1037070 0 カクテル
 1037070 0 cocktail
 1037130 0 froissement
 1037400 0 cassette (magnétique)
@@ -2010,14 +2011,10 @@
 1057960 0 travailleur de bureau
 1057960 0 employé
 1057960 0 salarié
-1058210 0 サン
 1058210 0 soleil
-1058210 1 サン
 1058210 1 saint
-1058250 0 サンキュー
 1058250 0 merci
 1058300 0 lunettes de soleil
-1058420 0 サンタクロース
 1058420 0 père noël
 1058480 0 sandale
 1058580 0 sandwich
@@ -3392,7 +3389,7 @@
 1155780 0 grand
 1155780 1 affreux
 1155780 1 terrible
-1155780 1 epouvantable
+1155780 1 épouvantable
 1155820 0 vue exceptionnelle
 1155840 0 destin exceptionnel
 1155840 0 exploit
@@ -9009,11 +9006,6 @@
 1229830 0 convaincre par les larmes
 1229840 0 pleurer
 1229840 0 sangloter
-1229880 0 balle
-1229880 0 bille
-1229880 0 boule
-1229880 0 globe
-1229880 0 grain
 1229880 0 sphère
 1229880 1 compteur pour les balles
 1229940 0 bulbe (plante)
@@ -13672,6 +13664,9 @@
 1286750 0 taxe nationale
 1286780 0 nationalité
 1286780 0 citoyenneté
+1286780 1 nationalité (d'un bateau, d'un avion, etc.)
+1286780 1 enregistrement
+1286780 1 drapeau
 1286830 0 rebelle
 1286830 0 traître
 1286870 0 compagnie nationale des chemins de fer
@@ -23531,6 +23526,7 @@
 1404280 0 le jour même
 1404320 0 respiration
 1404320 0 souffle
+1404320 0 haleine
 1404320 1 ton
 1404320 1 tonalité
 1404320 1 humeur
@@ -31841,6 +31837,10 @@
 1502480 0 histoire
 1502480 0 légende
 1502490 0 raconter
+1502490 0 narrer
+1502490 0 montrer
+1502490 0 indiquer
+1502490 0 désigner
 1502500 0 curiosité
 1502500 0 fantaisie
 1502510 0 allure
@@ -32442,11 +32442,14 @@
 1511760 0 aller simple
 1511760 0 (voyage) sans retour
 1511760 1 billet aller simple
-1511770 0 arranger
-1511770 0 mettre en ordre
-1511770 0 ranger
+1511770 0 être mis en ordre
+1511770 0 être rangé
+1511770 1 être arrangé
+1511770 1 être résolu
+1511770 1 être réglé
 1511770 2 être fini
 1511770 2 être terminé
+1511770 3 être marié
 1511790 0 être arrangé
 1511790 0 être en ordre
 1511790 0 être rangé
@@ -32799,11 +32802,40 @@
 1516180 0 joyau
 1516220 0 pierre précieuse
 1516250 0 sommet
-1516260 0 abattre
-1516260 0 changer (un billet)
 1516260 0 détruire
+1516260 0 démolir
+1516260 0 abattre
+1516260 0 saper
+1516260 1 perturber
+1516260 1 déranger
+1516260 1 mettre en désordre
+1516260 1 déséquilibrer
+1516260 1 fragiliser
+1516260 2 détendre (sa posture)
+1516260 2 se mettre à l'aise
+1516260 3 casser (un billet)
+1516260 3 faire de la monnaie
+1516260 4 écrire en cursive
+1516260 5 laisser apparaitre un sourire
+1516260 5 laisser échapper un sourire
+1516260 6 baisser (un prix)
 1516270 0 s'abimer
 1516270 0 s'effondrer
+1516270 1 perdre sa forme
+1516270 1 devenir désorganisé
+1516270 1 devenir désordonné
+1516270 2 se décomposer
+1516270 2 sombrer dans le chaos
+1516270 2 se retrouver en plein désarroi
+1516270 2 s'en trouver bouleversé
+1516270 3 subir un krach (pour un marché financier)
+1516270 3 s'affaisser
+1516270 3 s'écrouler
+1516270 3 s'effondrer
+1516270 4 faire de la petite monnaie
+1516270 5 mal tourner (par ex. pour la météo)
+1516270 5 changer pour le pire
+1516270 5 se détériorer
 1516280 0 chute
 1516280 0 désintégration (physique)
 1516280 0 effondrement
@@ -32831,10 +32863,22 @@
 1516490 0 enflammer
 1516490 0 envoyer
 1516490 0 libérer
-1516530 0 laisser à l'abandon
-1516530 0 ne pas s'occuper
-1516540 0 être éloigné
-1516540 0 s'éloigner
+1516530 0 lancer
+1516530 0 jeter
+1516530 1 jeter
+1516530 1 écarter
+1516530 1 se débarrasser de
+1516530 2 négliger
+1516530 2 abandonner
+1516530 2 délaisser
+1516530 2 laisser seul
+1516530 2 laisser tranquille
+1516530 2 renoncer à
+1516530 2 laisser en suspens
+1516530 2 laisser inachevé
+1516540 0 être affranchi
+1516540 0 être libéré
+1516540 0 être relaché
 1516560 0 incendier volontairement
 1516580 0 abandonner
 1516580 0 renoncer
@@ -32883,8 +32927,10 @@
 1516930 5 moyen
 1516930 6 longueur (de chaque coté d'un carré)
 1516940 0 direction
-1516950 0 coté
+1516950 0 côté
 1516950 0 direction
+1516950 0 sens
+1516950 0 point cardinal
 1516980 0 dialecte
 1516990 0 direction
 1516990 0 orientation
@@ -32893,8 +32939,9 @@
 1517030 0 forme
 1517030 0 méthode
 1517030 0 système
-1517040 0 direction
-1517040 0 ojectif
+1517040 0 objectif
+1517040 0 plan
+1517040 0 politique
 1517060 0 équation
 1517060 0 formule
 1517060 1 méthode de résolution d'un problème
@@ -33176,9 +33223,6 @@
 1519630 1 attendre
 1519630 2 voir
 1519630 2 apercevoir
-1519650 0 jumelles
-1519650 0 longue-vue
-1519650 0 lunette astronomique
 1519650 0 télescope
 1519670 0 mal du pays
 1519670 0 nostalgie
@@ -34299,10 +34343,14 @@
 1532670 0 pacte
 1532670 0 promesse
 1532670 0 serment
-1532710 0 être perplexe
-1532710 0 hésiter
 1532710 0 s'égarer
 1532710 0 se perdre
+1532710 0 perdre son chemin
+1532710 1 hésiter
+1532710 1 chanceler
+1532710 1 osciller entre deux choses
+1532710 1 être déconcerté
+1532710 1 être perplexe
 1532730 0 dédale
 1532730 0 labyrinthe
 1532730 0 mystère
@@ -37039,11 +37087,19 @@
 1566210 0 qui
 1566210 1 de toute façon
 1566210 1 en tout cas
-1566210 1 tôt ou tard
-1566210 1 finalement
-1566210 1 à une date ou une heure ultérieure
-1566210 1 un autre jour
-1566210 1 une autre fois
+1566210 1 quoi qu'il en soit
+1566210 2 tôt ou tard
+1566210 2 finalement
+1566210 2 un jour ou l'autre
+1566210 2 un autre jour
+1566210 2 une autre fois
+1566210 2 un de ces jours
+1566210 2 à une date ou une heure ultérieure
+1566210 3 les deux
+1566210 3 l'un ou l'autre
+1566210 3 quelconque
+1566210 3 tous
+1566210 3 n'importe quel
 1566420 0 insérer
 1566420 0 ajuster
 1566420 0 emboîter
