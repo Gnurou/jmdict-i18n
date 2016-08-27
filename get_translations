@@ -1,0 +1,15 @@
+#!/bin/bash
+# Extract translations from po files to a directory (default: /tmp) to be used for spell checking for example.
+set -o errexit
+
+LANG=${1:-fr}
+OUT_DIR=${2:-/tmp}
+
+for f in */*_$LANG.po; do
+  out=$OUT_DIR/$f.txt
+  mkdir -p "$(dirname $out)"
+  grep msgstr $f > $out
+  sed -i '' $'s/msgstr "//g' $out
+  sed -i '' $'s/"$//g' $out
+  echo $out
+done
