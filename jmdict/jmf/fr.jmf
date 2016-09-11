@@ -2377,7 +2377,8 @@
 1087100 0 formation
 1087100 0 entraînement
 1087630 0 tunnel
-1087630 1 erreur de l'équipe défensive
+1087630 1 franchir une barrière de potentiel
+1087630 2 laisser une balle renvoyée au sol passer entre ses jambes
 1087690 0 beignet (lit. donut)
 1087820 0 porte (à l'occidentale)
 1087990 0 Allemand
@@ -2921,6 +2922,7 @@
 1145060 0 note
 1145060 0 reçu
 1145130 0 caisse (de paiement)
+1145130 1 caissier
 1145220 0 loisirs
 1145310 0 restaurant (en particulier de style occidental)
 1145910 0 niveau
@@ -2948,10 +2950,12 @@
 1146180 0 location
 1146230 0 rayons X
 1146750 0 corde
-1146810 0 alphabet latin
-1146810 0 translittération du japonais en caractères latins ou « romains »
-1146810 0 romanisation
 1146810 0 romaji
+1146810 0 latinisation
+1146810 0 romanisation
+1146810 0 translittération du japonais en lettres latines ou « romaines »
+1146810 1 alphabet latin
+1146810 1 alphabet romain
 1147020 0 prêt
 1147220 0 médaillon
 1147220 1 fusée
@@ -21049,6 +21053,7 @@
 1374520 0 approbation
 1374530 0 certainement
 1374530 0 sans faute
+1374530 0 coute que coute
 1374530 1 vrai et faux
 1374530 1 pour et contre
 1374550 0 terrible
@@ -23434,6 +23439,9 @@
 1402540 5 s'échapper
 1402540 5 faire une fugue
 1402540 6 avoir une forte tendance à
+1402540 7 clignoter
+1402540 7 strier
+1402540 7 lanciner (par ex. pour une douleur)
 1402580 0 durée du parcours
 1402620 0 piste de course
 1402620 0 voie expresse
@@ -30884,7 +30892,7 @@
 1490070 0 rumeur
 1490070 1 rumeur
 1490070 1 paroles
-1490080 0 critique (d'une œuvre)
+1490080 0 critique
 1490140 0 description
 1490140 0 portrait
 1490140 0 représentation
@@ -30972,6 +30980,7 @@
 1491120 0 flacon
 1491120 0 fiole
 1491120 0 ampoule
+1491130 0 embouteillage
 1491130 0 en bouteille
 1491150 0 agitation
 1491150 0 anxiété
@@ -31043,9 +31052,11 @@
 1492120 0 déprimé
 1492120 0 récession
 1492120 0 ralentissement économique
+1492160 0 malpropre
+1492160 0 sale
+1492160 0 dégoutant
 1492160 0 crasseux
 1492160 0 impur
-1492160 0 sale
 1492190 0 insalubre
 1492190 0 mauvaise santé
 1492300 0 iniquité
@@ -33661,10 +33672,10 @@
 1523140 0 bibliothèque (meuble)
 1523140 0 rayonnage
 1523150 0 représentation (sans répétition)
-1523170 0 administration centrale
-1523170 0 direction générale
 1523170 0 quartier général
-1523170 0 siège
+1523170 0 siège social
+1523170 0 bureau principal
+1523170 0 bureau central
 1523180 0 article authentique
 1523180 0 chose d'origine
 1523180 0 original (par rapport à une copie)
@@ -34181,6 +34192,10 @@
 1529860 0 sans parole
 1529860 0 silence
 1529880 0 infini
+1529880 0 infinité
+1529880 0 éternité
+1529880 1 infini
+1529880 1 illimité
 1529930 0 invalidité
 1529930 0 nullité
 1529940 0 silencieux
@@ -39951,6 +39966,11 @@
 1594520 4 faire des reproches
 1594520 5 former
 1594520 5 entrainer
+1594520 6 concentrer (son attention)
+1594520 6 limiter
+1594520 6 réduire
+1594520 7 fermer (un rideau, etc.)
+1594520 7 serrer (un cordon)
 1594530 0 fin
 1594530 0 terminaison
 1594530 1 danse de nô en habits ordinaires
@@ -41987,7 +42007,7 @@
 1607260 0 mettre
 1607260 0 porter (sur la partie inférieure du corps)
 1607260 1 apposer une épée sur sa hanche 
-1607260 2 apposer une corde à un arc
+1607260 2 monter une corde sur un arc
 1607270 0 mon père décédé
 1607270 0 mon regretté père
 1607280 0 mon mari décédé
