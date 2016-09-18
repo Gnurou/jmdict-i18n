@@ -3114,10 +3114,13 @@
 1152170 0 argent mal gagné
 1152170 0 fausse monnaie
 1152330 0 sale môme
-1152510 0 Satan
 1152510 0 démon
 1152510 0 diable
 1152510 0 mauvais esprit
+1152510 1 Satan
+1152510 1 le Diable
+1152510 2 Māra
+1152510 2 les mauvais esprits ou les forces qui entravent son chemin vers l'éveil
 1152530 0 cauchemar
 1152530 0 mauvais rêve
 1152570 0 abus
@@ -4946,6 +4949,7 @@
 1180060 0 déployer
 1180060 0 mettre en application
 1180060 0 utiliser
+1180060 1 appliqué
 1180360 0 appuyer
 1180360 0 forcer
 1180360 0 presser
@@ -8526,7 +8530,7 @@
 1224190 0 démon
 1224190 1 esprit d'une personne décédée
 1224190 2 personne ogresque (c.-à-d. féroce, implacable, impitoyable, etc.)
-1224190 3 loup (dans le jeu du loup)
+1224190 3 loup (dans un jeu de chat perché, cache-cache, etc.)
 1224190 4 constellation chinoise du « Lutin » (une des 28 loges lunaires)
 1224190 5 très
 1224190 5 extrêmement
@@ -23038,8 +23042,9 @@
 1397720 0 poursuivre (une personne en justice)
 1397720 0 recourir à
 1397720 0 se plaindre auprès de
-1397720 1 faire appel à
-1397720 1 appeler à
+1397720 1 faire appel à (la raison, les émotions, etc.)
+1397720 1 gérer (ses émotions)
+1397720 1 jouer sur (sa sympathie)
 1397720 2 se plaindre
 1397720 3 poursuivre (quelqu'un) en justice
 1397720 3 intenter une action (contre quelqu'un)
