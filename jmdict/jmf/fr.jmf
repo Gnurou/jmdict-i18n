@@ -18311,6 +18311,9 @@
 1343100 0 site
 1343100 0 emplacement
 1343100 1 adresse
+1343100 10 venait de faire
+1343100 10 était en train de faire
+1343100 10 avoir tout juste terminé de faire
 1343100 2 quartier
 1343100 2 zone
 1343100 2 localité
@@ -18322,13 +18325,12 @@
 1343100 5 partie
 1343100 6 espace
 1343100 6 place (espace libre)
-1343100 7 après quoi
-1343100 7 par conséquence
-1343100 8 sur le point de
-1343100 9 venait de faire
-1343100 9 était en train de faire
-1343100 9 avoir juste fait
-1343100 9 avoir juste fini de faire
+1343100 7 chose
+1343100 7 question
+1343100 8 après quoi
+1343100 8 par conséquence
+1343100 9 sur le point de
+1343100 9 au bord de
 1343110 0 à propos
 1343110 0 au fait
 1343110 0 en passant
@@ -21509,6 +21511,10 @@
 1378660 0 produire
 1378660 0 donner
 1378660 0 causer
+1378660 1 résulter de
+1378660 1 survenir
+1378660 1 surgir
+1378660 1 être généré
 1378690 0 être né
 1378720 0 engendrer
 1378720 1 inventer
@@ -21599,10 +21605,20 @@
 1379700 0 entasser
 1379730 0 prospérer
 1379730 1 copuler (animaux)
-1379740 0 donner, administrer (un remède)
-1379740 0 servir (nourriture)
+1379740 0 servir (de la nourriture, etc.)
+1379740 0 distribuer (des plats)
+1379740 1 remplir
 1379740 1 accumuler
 1379740 1 empiler
+1379740 1 entasser
+1379740 2 prescrire
+1379740 2 administrer
+1379740 2 doser (un remède)
+1379740 3 mettre dans (par ex. des informations dans un rapport)
+1379740 4 marquer (par ex. une échelle graduée)
+1379740 4 graduer (par ex. un thermomètre)
+1379740 5 exagérer
+1379740 5 appliquer un maquillage chargé
 1379750 0 populaire
 1379750 1 prospère
 1379750 2 enthousiaste
@@ -22098,9 +22114,29 @@
 1385340 2 réduire (fracture)
 1385340 2 remettre (luxation)
 1385340 3 greffer (arbres)
-1385350 0 entrer en contact
 1385350 0 toucher
+1385350 0 entrer en contact avec
+1385350 0 border
+1385350 0 donner sur
+1385350 0 être adjacent
+1385350 0 être proche
+1385350 1 recevoir (par ex. un visiteur)
+1385350 1 servir
+1385350 1 prendre soin de
+1385350 1 s'occuper de
+1385350 1 faire face à
+1385350 1 voir
+1385350 2 recevoir (des nouvelles)
+1385350 2 obtenir
+1385350 2 entendre
+1385350 3 rencontrer
+1385350 3 rentrer en contact avec
 1385350 4 être tangent à
+1385350 5 faire toucher
+1385350 5 mettre en contact avec
+1385350 5 amener à proximité de
+1385350 5 rapprocher
+1385350 5 connecter
 1385370 0 approche
 1385370 0 rapprochement
 1385450 0 contact
@@ -24895,10 +24931,18 @@
 1418240 0 découvrir
 1418240 0 dénicher
 1418240 0 flairer
-1418260 0 chercher
-1418260 0 enquêter
-1418260 0 examiner
+1418260 0 fouiller
+1418260 0 tâtonner
 1418260 0 tâter
+1418260 0 rechercher
+1418260 0 chercher
+1418260 1 enquêter
+1418260 1 examiner
+1418260 1 sonder
+1418260 1 épier
+1418260 1 espionner
+1418260 2 explorer (des lieux inconnus)
+1418260 2 profiter (de la beauté naturelle)
 1418270 0 poursuite
 1418270 0 quête
 1418270 0 recherche
@@ -24964,7 +25008,10 @@
 1418980 0 élégance
 1418980 0 beauté
 1418980 0 grâce
-1418990 0 une commode
+1418990 0 commode
+1418990 0 cabinet
+1418990 0 tansu
+1418990 0 buffet
 1419000 0 commencer à s'ouvrir (fleur ..)
 1419000 0 se découdre
 1419010 0 donner libre cours a
@@ -25040,8 +25087,7 @@
 1419570 1 dire à l'avance
 1419570 2 demander la permission
 1419570 2 s'excuser (de)
-1419660 0 manque d'eau
-1419660 0 pénurie d'eau
+1419660 0 coupure d'eau
 1419670 0 interruption
 1419670 0 rupture
 1419690 0 incontestablement
@@ -25065,7 +25111,16 @@
 1419900 0 âtre
 1419900 0 cheminée
 1419900 0 fourneau
+1419950 0 grade
+1419950 0 degré
+1419950 0 niveau
 1419950 0 étape
+1419950 0 stade
+1419950 0 classe
+1419950 0 phase
+1419950 0 pas
+1419950 0 palier
+1419950 0 ordre
 1419950 0 gradation
 1419970 0 arrangement
 1419970 0 plan
@@ -25222,8 +25277,7 @@
 1421090 0 enfer
 1421110 0 géographie régionale
 1421120 0 axe terrestre
-1421130 0 géologie
-1421130 0 nature d'un terrain
+1421130 0 caractéristiques géologiques
 1421150 0 propriétaire
 1421150 0 propriétaire terrien
 1421180 0 Au dessus du sol
@@ -25240,10 +25294,21 @@
 1421360 0 ceinture (géographique)
 1421380 0 endroit
 1421380 0 lieu
-1421380 0 point
-1421380 0 poit sur une carte
+1421380 0 point sur une carte
+1421380 0 place
 1421410 0 grain
 1421410 0 texture
+1421420 0 sol
+1421420 0 croûte (terrestre)
+1421420 0 lit (de gravier, de rivière, etc.)
+1421420 1 fondation (d'un bâtiment, etc.)
+1421420 1 fondement
+1421420 1 base
+1421420 2 circonscription électorale
+1421420 2 fief (électoral)
+1421420 2 base politique
+1421420 2 sphère d'influence
+1421420 2 soutien (électoral)
 1421440 0 horizon
 1421450 0 quartier
 1421450 0 région
@@ -25252,6 +25317,9 @@
 1421450 1 la campagne
 1421450 1 la province
 1421450 1 zone rurale
+1421490 0 ordinaire
+1421490 0 simple
+1421490 0 sans éclat
 1421490 0 discret
 1421490 0 modeste
 1421490 0 sobre
@@ -25455,6 +25523,7 @@
 1423130 0 s'asseoir
 1423160 0 changer de vêtements
 1423160 0 changement de vêtements
+1423170 0 changer de vêtements
 1423170 0 se changer
 1423170 0 se rhabiller
 1423220 0 détournement
@@ -25577,6 +25646,8 @@
 1424900 0 suspension
 1424980 0 cloître
 1424980 0 cours
+1425030 0 au milieu
+1425030 0 à moitié
 1425030 0 à mi chemin
 1425030 0 moitié du chemin
 1425140 0 éviter les extrèmes
@@ -25584,6 +25655,8 @@
 1425140 0 modération
 1425160 0 empoisonnement
 1425240 0 age moyen
+1425240 0 age mûr
+1425240 0 entre deux ages
 1425520 0 juste milieu
 1425520 0 modération
 1425540 0 neutralité
@@ -26011,6 +26084,7 @@
 1429400 0 vitesse supersonique
 1429410 0 excès
 1429410 0 surplus
+1429410 0 être plus que
 1429470 0 surhomme
 1429500 0 superpuissance
 1429530 0 super-express
@@ -26058,8 +26132,8 @@
 1429830 0 longue maladie
 1429840 0 calme
 1429840 0 serein
-1429850 0 long terme
-1429850 0 longue période
+1429850 0 à longue durée
+1429850 0 à long terme
 1429880 0 emprunt de longue durée
 1429880 0 prêt à long terme
 1429910 0 éternité
@@ -26093,7 +26167,7 @@
 1430070 1 aspects positifs et négatifs
 1430070 1 points forts et faibles
 1430070 1 mérites et démérites
-1430080 0 fils aîné
+1430080 0 fils aîné (peut être un fils unique)
 1430100 0 longtemps
 1430100 0 longues années
 1430100 0 un grand nombre d'années
@@ -26279,7 +26353,12 @@
 1432230 0 se tuer (en tombant)
 1432240 0 tomber
 1432240 0 s'écraser
+1432280 0 doubler (par ex. une voiture)
 1432280 0 dépasser
+1432280 1 dépasser
+1432280 1 surpasser
+1432280 1 devancer
+1432280 1 distancer
 1432330 0 acculer
 1432330 0 mettre aux abois, dans une impasse
 1432350 0 chasser
@@ -26326,6 +26405,8 @@
 1432780 0 blessure grave
 1432820 0 mordant
 1432820 0 sévère
+1432840 0 connaisseur
+1432840 0 autorité
 1432840 1 compteur pour les lettres, les notes, les documents, etc.
 1432850 0 aller et revenir (d'un endroit)
 1432850 0 faire des aller-retours entre
@@ -26532,9 +26613,19 @@
 1433820 2 bloquer
 1433820 3 tuer (le temps)
 1433820 4 gaspiller (par ex. son talent)
-1433830 0 s'écraser
+1433830 0 être écrasé
+1433830 0 être brisé
+1433830 0 être cassé
+1433830 0 être rompu
+1433830 0 s'effondrer
 1433830 0 s'écrouler
-1433830 1 faire faillite
+1433830 1 devenir inutile
+1433830 1 cesser de fonctionner
+1433830 1 être gaspillé (par ex. pour le temps)
+1433830 1 être gâché
+1433830 2 faire faillite
+1433830 2 rater
+1433830 2 échouer
 1433840 0 unité de surface et volume: 3,305 m^2 ou 6,016 m^3
 1433850 0 espace (ou volume ?) mesuré en tsubo
 1433860 0 par tsubo
@@ -26543,22 +26634,28 @@
 1433880 0 serre
 1433880 1 médiator
 1433880 1 plectre
+1433880 2 crochet
+1433880 2 cran
+1433880 2 croc
+1433880 2 fermoir
 1433910 0 pointe des pieds
 1433940 0 cure-dents
 1433980 0 accrocher
 1433980 0 pendre
 1433980 0 suspendre
 1434020 0 accrocher
-1434020 0 pendre
-1434020 0 suspendre
+1434020 0 suspendre (quelque chose à quelque chose)
+1434020 0 être pendu (par le cou)
+1434020 1 soulever son adversaire par son pagne
 1434040 0 pêche (poissons)
 1434040 1 (petite) monnaie
 1434040 2 troller (par ex. sur internet)
 1434040 2 écrire de faux messages en ligne
 1434050 0 s'équilibrer
-1434050 0 se contrebalancer
-1434050 0 s'assortir
 1434050 0 s'harmoniser
+1434050 0 se contrebalancer
+1434050 0 être en harmonie
+1434050 0 être en équilibre
 1434050 1 s'assortir
 1434050 1 s'harmoniser
 1434120 0 pêcher (à la ligne)
@@ -26594,6 +26691,7 @@
 1434730 0 mauvaise conjoncture
 1434910 0 renvoi temporaire (de l'école)
 1434920 0 interruption
+1434920 1 suspension de la musique, de la danse, etc. comme un signe de deuil pour une personne importante
 1434960 0 arrêt (du train, etc.)
 1435010 0 stagnation
 1435020 0 coupure de courant
@@ -26614,10 +26712,8 @@
 1435380 0 décider
 1435380 0 déterminer
 1435380 0 établir
-1435400 0 limite de nombre d'étudiants, de personnel, de personnes autorisées à avoir une activité donnée fixée par la loi
-1435400 0 numerus closus
-1435400 0 capacité (moyen de transport, etc.)
-1435400 0 nombre de places (moyen de transport, lieux public, salles, etc.)
+1435400 0 nombre fixe de personnel permanent
+1435400 0 quota de personnel
 1435400 1 capacité (moyen de transport, etc.)
 1435400 1 nombre de places (moyen de transport, lieux public, salles, etc.)
 1435410 0 prix fixé
@@ -26631,7 +26727,7 @@
 1435490 4 contrats à terme
 1435510 0 carte de transport en commun
 1435510 0 ticket périodique
-1435520 0 règle à mesurer
+1435520 0 règle (à mesurer)
 1435530 0 définir
 1435530 0 définition
 1435540 0 jour de congé régulier
@@ -28246,8 +28342,9 @@
 1454380 0 statue de bronze
 1454380 0 statue en bronze
 1454400 0 gravure sur cuivre
-1454420 0 col
-1454420 0 moment difficile
+1454420 0 crête
+1454420 0 col (montagneux)
+1454420 0 partie difficile
 1454430 0 franchir un col
 1454430 0 passer un col
 1454440 0 chemin de montagne
@@ -28724,8 +28821,9 @@
 1463840 0 ombre
 1463840 1 ensoleillement
 1463840 1 lumière du soleil
-1463860 0 chose faite chaque jour
-1463860 0 routine
+1463860 0 leçon quotidienne
+1463860 0 travail quotidien
+1463860 0 routine quotidienne
 1463880 0 quotidien (parution)
 1463890 0 journal/quotidien
 1463900 0 journal/quotidien
@@ -29000,6 +29098,7 @@
 1467720 5 brûlant (sujet)
 1467720 5 d'intérêt
 1467730 0 chauffer
+1467730 0 réchauffer
 1467760 0 enthousiasme
 1467760 0 zèle
 1467810 0 air chaud
@@ -29322,7 +29421,8 @@
 1471520 0 injurier
 1471520 0 insulter
 1471560 0 cheval
-1471560 1 fou promu
+1471560 1 course de chevaux
+1471560 2 fou promu
 1471740 0 absurde
 1471740 0 idiot
 1471740 0 ridicule
@@ -29862,9 +29962,8 @@
 1477720 2 être un coureur de jupons
 1477720 2 avoir une vie sexuelle active
 1477740 0 pays en voie de développement
-1477750 0 électrogène
-1477750 0 génération (électrique)
-1477750 0 produire (de l'électricite)
+1477750 0 production (par ex. d’énergie)
+1477750 0 génération
 1477750 1 envoyer un télégramme
 1477750 1 télégraphier
 1477770 0 centrale (électrique)
@@ -32744,8 +32843,9 @@
 1513320 0 garde
 1513320 0 magasinage
 1513400 0 porteur d'une maladie
+1513410 0 préservation de la santé
 1513410 0 hygiène
-1513410 0 santé
+1513410 0 sanitaire
 1513440 0 assurance
 1513530 0 conservation
 1513530 0 protection
@@ -32784,8 +32884,8 @@
 1514240 0 arrestation
 1514260 0 prisonnier de guerre
 1514280 0 camp de prisonniers
-1514300 0 compteur pour les pas
-1514300 0 un pas
+1514300 0 pas
+1514300 0 foulée
 1514300 1 compteur pour les pas
 1514320 0 marcher
 1514340 0 aborder(un sujet)
@@ -32802,8 +32902,9 @@
 1514430 0 pont pour piétons
 1514440 0 fantassin
 1514440 0 infanterie
+1514460 0 compenser
 1514460 0 compléter
-1514460 0 dédommager
+1514460 0 suppléer
 1514510 0 approvisionnement
 1514510 0 ravitaillement
 1514530 0 consolidation
@@ -32887,7 +32988,9 @@
 1515470 0 inclure
 1515510 0 emballage
 1515510 0 empaquetage
+1515510 0 conditionnement
 1515530 0 couteau de cuisine
+1515530 0 couteau à découper
 1515530 1 cuisine
 1515530 1 aliments
 1515530 1 nourriture
@@ -33455,8 +33558,8 @@
 1520560 0 digue
 1520560 0 jetée
 1520560 0 mole
-1520570 0 prévention du crime
-1520570 0 répression du crime
+1520570 0 prévention de la criminalité
+1520570 0 prévention de la délinquance
 1520610 0 mur de protection
 1520610 0 muraille
 1520610 0 paravent
@@ -33840,11 +33943,9 @@
 1524620 0 dénombrement
 1524630 0 nombre d'objets plats
 1524630 1 différence entre victoires et défaites qui influe sur le classement des lutteurs
-1524640 0 chaque
+1524640 0 chacun respectivement
+1524650 0 tous  (en général avec des évènements, par ex. tous les weekends)
 1524650 0 chaque
-1524650 0 tous
-1524650 0 tout
-1524650 0 toutes
 1524660 0 chaque
 1524660 0 tous les
 1524680 0 chaque heure
@@ -40862,6 +40963,9 @@
 1600430 0 breuvage
 1600460 0 changement (de train, de bus, etc.)
 1600460 0 correspondance
+1600460 1 transfert (d'actions)
+1600460 2 enjambement (génétique)
+1600460 2 entrecroisement
 1600470 0 changer (de train)
 1600470 0 faire un changement
 1600470 1 changer d'avis
@@ -41996,7 +42100,6 @@
 1607020 0 interstice
 1607050 0 nous
 1607070 0 oncle (frère aîné du parent)
-1607080 0 oncle (frère cadet du parent)
 1607100 0 tante (sœur cadette du parent)
 1607170 0 être blocké
 1607170 0 être bouché
@@ -42992,7 +43095,7 @@
 1629200 1 magnat
 1629200 1 champion
 1629200 1 maître
-1629200 2 roi
+1629200 2 roi (régnant)
 1631750 0 montrer des signes de
 1631750 0 sentir
 1631750 0 penser

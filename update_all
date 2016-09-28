@@ -3,7 +3,7 @@ set -o errexit
 
 git pull
 
-tx pull -a -f
+tx --traceback pull -a -f
 
 ./updatesources.sh
 
