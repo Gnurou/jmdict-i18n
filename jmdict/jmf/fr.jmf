@@ -12439,7 +12439,8 @@
 1270680 0 je vous demande pardon
 1270680 0 excusez-moi
 1270690 0 Puis-je entrer ?
-1270690 1 s'il vous plaît pardonnez-moi
+1270690 1 veuillez me pardonner
+1270690 1 pardonnez-moi s'il vous plaît
 1270690 1 je suis désolé
 1270700 0 Félicitations!
 1270700 0 quelle occasion prometteuse!
@@ -25894,6 +25895,7 @@
 1427900 6 garder un oeil sur
 1427900 6 être à l'affût
 1427900 7 avoir besoin d'une seule tuile pour faire « mah-jong »
+1427900 8 générer
 1427950 0 ciseler
 1427950 0 creuser
 1427950 0 graver
@@ -39283,6 +39285,20 @@
 1589220 1 se calmer
 1589220 1 s'assagir
 1589220 1 se stabiliser
+1589220 2 se fixer (dans un lieu, un travail, etc.)
+1589220 2 s'installer
+1589220 2 s’établir
+1589220 3 être réglé
+1589220 3 être fixé
+1589220 3 avoir été atteint
+1589220 4 s'harmoniser avec
+1589220 4 correspondre
+1589220 4 convenir
+1589220 4 s'adapter
+1589220 5 être discret
+1589220 5 être calme
+1589220 5 être tranquille
+1589220 5 être posé
 1589250 0 objet perdu
 1589260 0 laisser tomber
 1589260 0 perdre
@@ -41127,9 +41143,11 @@
 1601100 0 querelles
 1601100 0 troubles
 1601100 0 vicissitudes
+1601160 0 réflexion (de la lumière, d'une image, d'une situation, d'une attitude, etc.)
 1601160 0 réfléchissment
-1601160 0 réflexion (d'une image)
+1601160 0 refléter
 1601160 1 influence
+1601160 1 application (par ex. d'une mise à jour)
 1601180 0 insurection
 1601180 0 mutinerie
 1601180 0 rebellion
@@ -41182,6 +41200,12 @@
 1601340 0 repas du soir
 1601350 0 crier « banzai » (ou lever les mains pour faire le geste banzai)
 1601350 1 quelque chose digne d'être célébrer
+1601350 2 abandonner
+1601350 2 renoncer
+1601350 3 longtemps
+1601350 4 vie éternelle (et prospérité)
+1601350 5 banzai (une acclamation festive)
+1601350 5 hourra
 1601390 0 arborigène
 1601390 0 barbare
 1601390 0 sauvage
@@ -41198,12 +41222,17 @@
 1601480 0 repêcher
 1601480 0 se replier
 1601480 0 se retirer
-1601520 0 assumer
+1601520 0 être responsable
 1601520 0 avoir la responsabilité de
-1601520 0 entreprendre
-1601520 0 garantir
-1601520 0 prendre la direction
-1601520 0 succéder
+1601520 1 prendre en charge
+1601520 1 se charger de
+1601520 1 s'occuper de
+1601520 1 prendre en main
+1601520 1 entreprendre
+1601520 1 assumer
+1601520 1 endosser
+1601520 2 garantir
+1601520 3 contracter (une maladie)
 1601550 0 contre (de l'argent)
 1601550 0 d'un autre côté
 1601550 0 en échange
@@ -41239,20 +41268,32 @@
 1601690 0 sans arrêt
 1601690 0 successivement
 1601710 0 avoir une crampe (spasme, convulsion, tic)
-1601750 0 arrêter qqun
+1601750 0 arrêter (quelqu'un)
 1601750 0 retenir
+1601750 0 détenir
+1601750 0 contrôler
+1601750 0 limiter
+1601750 0 restreindre
 1601770 0 aggrandir
 1601770 0 rallonger
 1601810 0 barbe
 1601810 0 favoris
 1601810 0 moustache
 1601810 1 très courte impulsion apparaissant sur un signal électrique
-1601830 0 jour
+1601830 0 lumière du soleil
 1601830 0 rayons de soleil
-1601830 0 soleil
 1601860 0 gaucher
 1601860 0 buveur de sake
 1601860 1 buveur de sake
+1601870 0 retourner
+1601870 0 tourner à l'envers
+1601870 1 renverser
+1601870 1 basculer
+1601870 2 renverser (par ex. une décision)
+1601870 2 bouleverser
+1601870 2 chambouler
+1601870 2 chambarder
+1601870 2 inverser
 1601880 0 déménagement
 1601880 0 emménagement
 1601890 0 frénétique
@@ -41365,13 +41406,15 @@
 1602370 0 étaler
 1602370 0 étendre
 1602370 0 étirer
-1602370 0 aggrandir
-1602370 0 déplier
-1602370 0 dérouler
+1602370 0 agrandir
+1602370 0 propager
 1602370 1 déplier
 1602370 1 ouvrir
 1602370 1 dérouler
 1602370 1 déballer
+1602370 2 disperser
+1602370 2 répandre
+1602370 3 faire prospérer
 1602380 0 étendu
 1602380 0 spacieux
 1602400 0 fréquemment
@@ -41397,8 +41440,12 @@
 1602550 0 s'étendre
 1602550 0 se distendre
 1602550 1 bouder
-1602570 0 être bouché
-1602570 0 être obstrué
+1602570 0 être fermé
+1602570 0 être bloqué
+1602570 0 être guéri (par ex. pour une plaie)
+1602570 0 être enfermé
+1602570 1 être bouché
+1602570 1 être obstrué
 1602590 0 être triste
 1602590 0 barrer
 1602590 0 boucher
