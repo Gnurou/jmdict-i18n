@@ -21522,8 +21522,16 @@
 1378760 0 faire, laisser pousser (barbe, plantes)
 1378770 0 nature
 1378770 0 tempérament
-1378790 0 impertinence
-1378790 0 insolence
+1378790 0 impertinent
+1378790 0 insolent
+1378790 0 culotté
+1378790 0 vaniteux
+1378790 0 suffisant
+1378790 0 arrogant
+1378790 0 présomptueux
+1378790 0 prétentieux
+1378790 0 effronté
+1378790 0 fougueux
 1378800 0 croissance
 1378800 0 développement
 1378810 0 mou
@@ -21557,7 +21565,7 @@
 1379210 0 malheureusement
 1379210 0 Désolé, mais...
 1379230 0 existence
-1379230 0 survivance
+1379230 0 survie
 1379230 1 exister
 1379230 1 vivre
 1379230 1 survivre
@@ -21578,7 +21586,7 @@
 1379330 3 pâte à frire
 1379340 0 lieu de naissance
 1379370 0 croissance
-1379370 0 développement
+1379370 0 accroissement
 1379380 0 élève
 1379410 0 date de naissance
 1379430 0 être vivant
@@ -39663,10 +39671,11 @@
 1591160 0 présage
 1591160 0 signes
 1591160 0 symptômes
+1591210 0 standard
 1591210 0 base
 1591210 0 critère
 1591210 0 norme
-1591210 0 standard
+1591210 0 référence
 1591230 0 cicatrice
 1591240 0 être blessé
 1591240 0 être offensé
@@ -39677,6 +39686,11 @@
 1591270 0 arriver
 1591270 0 venir
 1591290 0 chance
+1591290 0 amorce
+1591290 0 signal
+1591290 0 excuse
+1591290 0 motif
+1591290 0 élan
 1591290 0 occasion
 1591310 0 caisse
 1591310 0 guichet
@@ -39878,6 +39892,7 @@
 1592750 0 véhément
 1592750 0 violent
 1592840 0 élément chimique
+1592920 0 solliciter
 1592920 0 demander
 1592920 0 faire une requête
 1592920 0 inviter
@@ -40002,7 +40017,8 @@
 1594020 0 encombrement
 1594040 0 fini
 1594040 0 finition
-1594050 0 (dans) trois jours (après après-demain)
+1594050 0 dans trois jours
+1594050 0 après après-demain
 1594060 0 bénédiction
 1594060 0 bonheur
 1594060 0 bonne fortune
@@ -40093,6 +40109,8 @@
 1594520 6 réduire
 1594520 7 fermer (un rideau, etc.)
 1594520 7 serrer (un cordon)
+1594520 8 refermer (le diaphragme d'un appareil photo)
+1594520 9 éteindre (par ex. une radio)
 1594530 0 fin
 1594530 0 terminaison
 1594530 1 danse de nô en habits ordinaires
@@ -42722,14 +42740,18 @@
 1611350 0 adhérer/se coller à/s'attacher à
 1611360 0 toute la nuit/pendant toute la nuit
 1611370 0 le nombre de jours
+1611370 0 date
 1611380 0 chaque jour
 1611380 0 jour après jour
 1611390 0 de jour en jour
 1611400 0 soudain/de manière inattendue
 1611410 0 amoncellement (sous l'effet du vent)
 1611430 0 ininflammable
-1611440 0 pied (d'une montagne)
+1611440 0 pied (d'une montagne ou d'une colline)
+1611440 0 bas
+1611440 0 base
 1611450 0 brosse
+1611450 1 broussailleux
 1611460 0 (école, établissement) géré par le département
 1611470 0 base-ball professionnel
 1611480 0 valeur de la déviation/valeur de l'écart
@@ -42861,6 +42883,7 @@
 1612040 0 je n'ai pas d'excuses
 1612040 0 je suis désolé
 1612040 0 je me sens coupable
+1612040 1 merci beaucoup (pour l'aide, etc.)
 1612050 0 au cas où
 1612050 0 si
 1612060 0 charge
@@ -42881,7 +42904,7 @@
 1612100 0 inévitable
 1612110 0 matière organique
 1612110 0 substance organique
-1612130 0 gobelet (à thé)
+1612130 0 tasse à thé
 1612140 0 balancer (se)
 1612140 0 heurter
 1612140 0 osciller
@@ -42980,19 +43003,27 @@
 1612640 0 excusez-moi
 1612650 0 divers
 1612650 0 diverses choses
+1612650 1 autour de
+1612650 1 environ
+1612650 1 presque
+1612650 1 grossièrement
+1612650 1 quasiment
 1612660 0 ambigu
 1612660 0 imprécis
 1612660 0 vague
 1612670 0 cadeau offert en fin d'année
-1612680 0 congé
-1612680 0 repos
-1612680 1 "Bonne nuit"
+1612680 0 vacances
+1612680 0 jour de congé
+1612680 0 absence
+1612680 1 sommeil
+1612680 1 repos
 1612680 2 Bonne nuit
 1612690 0 être
 1612690 0 exister
 1612700 0 (la chose)-mêe
 1612710 0 mouchoir en papier
 1612710 0 papier hygiénique
+1612710 0 papier toilette
 1612720 0 merci
 1612730 0 dépasser (une limite)
 1612730 0 laisser passer
@@ -43012,13 +43043,14 @@
 1612770 0 fête
 1612770 0 festival
 1612770 0 cadeau de félicitations
-1612780 0 bonjour
-1612780 0 bonsoir (lorsque l'on s'adresse a une personne qui rentre)
+1612780 0 retour
 1612780 1 bienvenue à la maison
 1612790 0 étrange
 1612790 0 ridicule
-1612800 0 un autre plat
-1612800 0 un autre verre
+1612800 0 part supplémentaire
+1612800 0 verre supplémentaire
+1612800 0 rab
+1612800 1 ordre pour qu'un chien mette sa deuxième patte dans sa main
 1612810 0 aide
 1612820 0 bonjour (le matin)
 1612830 0 moine Bouddhiste
@@ -43040,8 +43072,7 @@
 1612890 0 retentir
 1612900 0 malgré
 1612900 0 néanmoins
-1612910 0 con
-1612910 0 idiot
+1612910 0 absurde
 1612920 0 renverser (par un véhicule)
 1612930 0 être trempé
 1612940 0 discussion
@@ -43176,7 +43207,7 @@
 1633690 1 niveau
 1633690 1 échelon
 1633690 2 compteur pour les pauses de la langue écrite (ou de la parole, etc.)
-1634040 0 compteur de questions
+1634040 0 compteur pour les questions
 1634500 0 de temps en temps
 1634500 0 de temps à autre
 1634500 0 parfois
@@ -43186,14 +43217,29 @@
 1643510 0 vieillard
 1643510 0 l'ancien
 1643510 0 les personnes âgées
+1647360 0 spécial
+1647360 0 de bon augure
+1647360 0 propice
+1647360 0 heureux
+1647360 0 joyeux
+1647360 1 naïf
+1647360 1 innocent
+1647360 1 accommodant
+1647360 1 crédule
+1647360 1 bête
 1660100 0 déjeuner
 1660100 0 midi
 1660250 0 courte pause
 1660250 0 récréation
 1660250 0 relâche
+1662130 0 nourriture
+1662130 0 alimentation
+1662130 0 nutriment
 1670710 0 boîte à déjeuner (contenant du riz et 10-15 petites portions de poisson, de viande, et de légumes)
 1670710 2 entracte (entre les actes)
 1670710 2 interlude
+1675160 0 offense
+1675160 0 méthode d'attaque
 1678830 0 "trop tard !"
 1686780 0 réservoir d'eau
 1689570 0 courroucé
@@ -43215,9 +43261,15 @@
 1757590 0 couarge
 1757590 0 cran
 1760400 0 travail du cuir
+1774480 0 vaste
+1774480 0 calme
+1774480 0 tranquille
 1779760 0 marteau (de fer)
 1779760 1 châtiment (~ wo kudasu)
 1783400 0 tissu à côtes
+1790980 0 comme
+1790980 0 ayant l'air
+1790980 0 qui tend à
 1791630 0 fille chérie
 1838030 0 arrêt
 1838030 0 interruption
@@ -43232,9 +43284,16 @@
 1875990 0 accords de paix
 1875990 0 paix
 1888910 0 il y a deux semaines
+1888910 0 il y a quinze jours
 1894690 0 continuation
 1894690 0 continuité
 1894690 0 suite
+1896380 0 sortir
+1896380 0 écoulement
+1896380 0 lever (du soleil ou de la lune)
+1910260 0 échoppe
+1910260 0 boutique
+1910260 0 magasin
 1912410 0 examen blanc
 1919550 0 compteur pour les nuitées
 1919590 0 classe (par ex. d'école)
@@ -43261,6 +43320,8 @@
 1948700 0 congélateur
 1948700 0 freezer
 1949190 0 autre (en part. les gens et les questions abstraites)
+1955670 0 torsion
+1955670 0 pli
 1955900 0 -ologie
 1955900 0 -ique
 1955900 0 étude de...
