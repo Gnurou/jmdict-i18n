@@ -4274,20 +4274,24 @@
 1169360 2 baratiner (pour retarder un paiement, éviter une note)
 1169360 2 bonimenter
 1169360 3 boire rapidement (de l'alcool)
-1169390 0 être encaissé
-1169390 0 ne plus pouvoir sortir
-1169390 0 rester enfermé (à la maison)
-1169390 0 se retirer
+1169390 0 reculer
+1169390 0 s'effondrer
+1169390 0 couler
+1169390 1 être en retrait (par ex. d'une route)
+1169390 2 se retirer (par ex. des yeux du public)
+1169390 2 rester à l'intérieur
+1169390 2 se mêler de ses affaires
+1169390 2 rester en dehors de ça
 1169580 0 prendre la responsabilité de
 1169610 0 prendre sa retraite
 1169610 0 se retirer
 1169660 0 référence
 1169660 0 citation
 1169670 0 citation
-1169720 0 attraction (magnétique, gravitationnelle)
+1169720 0 attraction (par ex. magnétique, gravitationnelle)
 1169720 0 affinité
 1169720 0 gravitation
-1169720 1 charme
+1169720 1 attraction
 1169720 1 magnétisme
 1169870 0 boire
 1169870 0 engloutir
@@ -4661,9 +4665,11 @@
 1176430 0 ajournement
 1176430 0 retardement
 1176490 0 retard (de paiment)
-1176510 0 élongation
 1176510 0 extension
+1176510 0 élongation
 1176510 0 prolongation
+1176510 0 prolongement
+1176510 0 rallongement
 1176510 1 ère Enchō (11 avril 923 - 26 avril 931)
 1176650 0 renforcement
 1176660 0 aide
@@ -4711,7 +4717,8 @@
 1177200 0 gêné par la fumée
 1177220 0 fumer
 1177320 0 cheminée
-1177320 1 Transporter un passager sans allumer le taximètre
+1177320 0 tuyau (de poêle)
+1177320 1 transporter un passager sans allumer le taximètre
 1177350 0 hirondelle
 1177390 0 singe (en part. le macaque japonais, Macaca fusvata)
 1177390 0 primate non humain
@@ -4740,8 +4747,12 @@
 1177630 0 corridor extérieur
 1177630 0 véranda
 1177650 0 discussion de mariage
+1177680 0 brillant
+1177680 0 lustre
+1177680 0 luisant
 1177680 0 éclat
-1177680 0 teint
+1177680 0 glaçage
+1177680 0 vernis
 1177680 1 charme
 1177680 1 romantisme
 1177680 1 amour
@@ -5033,6 +5044,8 @@
 1181380 0 mettre une volée
 1181390 0 frapper
 1181390 0 taper
+1181390 0 battre
+1181390 0 donner un coup de poing
 1181410 0 frapper
 1181410 0 violenter
 1181450 0 capsule (de bouteille)
@@ -9884,7 +9897,7 @@
 1240825 1 servir (en tant que)
 1240825 1 agir (en tant que)
 1240825 1 assurer (le poste de)
-1240825 1 jouer (le rôle de)
+1240825 1 jouer le rôle (de)
 1240825 2 célébrer un service religieux
 1240910 0 bureau
 1240910 0 lieu de travail
@@ -11542,8 +11555,8 @@
 1259290 0 voir
 1259290 0 regarder
 1259290 0 observer
+1259290 1 réviser
 1259290 1 contrôler
-1259290 1 regarder
 1259290 1 évaluer
 1259290 1 examiner
 1259290 1 juger
@@ -12012,6 +12025,9 @@
 1264540 1 mots
 1264540 1 phrase
 1264540 1 expression
+1264540 1 formule
+1264540 1 terme
+1264540 1 remarque
 1264540 2 discours
 1264540 2 (manière de) parler
 1264560 0 discours
@@ -15142,12 +15158,15 @@
 1305900 0 utilisation
 1305950 0 façon de traiter quelqu'un(?)
 1305950 0 mode d'emploi
-1305990 0 consommer
-1305990 0 nécessiter
-1305990 0 pratiquer (une langue, du sport)
+1305990 0 utiliser (une chose, une méthode, etc.)
+1305990 0 faire usage de
 1305990 0 se servir de
-1305990 0 utiliser
+1305990 0 profiter de
+1305990 0 mettre à profit
+1305990 1 utiliser (une personne, un animal, une marionnette, etc.)
 1305990 1 employer
+1305990 1 gérer
+1305990 1 manipuler
 1305990 1 manier
 1305990 2 utiliser (du temps, de l'argent, etc.)
 1305990 2 dépenser
@@ -15557,15 +15576,16 @@
 1310600 0 abolir
 1310600 0 démissionner
 1310600 0 abandonner
-1310620 0 être limité à
 1310620 0 demeurer
 1310620 0 faire halte
 1310620 0 marquer un temps d'arrêt
 1310620 0 rester
 1310620 0 stopper
-1310620 1 s'établir
-1310620 1 s'installer
-1310620 1 se fixer
+1310620 1 s'arrêter (de faire, de travailler, d'être fourni)
+1310620 1 faire halte
+1310620 1 cesser
+1310620 1 être arrêté
+1310620 1 être suspendu
 1310620 2 se poser sur (comme l'oiseau sur la branche)
 1310620 2 percher
 1310640 0 être terminé
@@ -22351,6 +22371,8 @@
 1387210 0 précédent
 1387210 0 avant
 1387210 0 ancien
+1387210 0 premier
+1387210 0 plus tôt
 1387210 0 il y a quelque temps
 1387210 0 antérieur
 1387210 1 pointe (par ex. de crayon)
@@ -43217,6 +43239,9 @@
 1643510 0 vieillard
 1643510 0 l'ancien
 1643510 0 les personnes âgées
+1647160 0 adipocire
+1647160 0 gras de cadavre
+1647160 0 grisonnement des graisses du corps d'un cadavre qui repose dans un endroit humide, mais privé d'air
 1647360 0 spécial
 1647360 0 de bon augure
 1647360 0 propice
@@ -43238,6 +43263,9 @@
 1670710 0 boîte à déjeuner (contenant du riz et 10-15 petites portions de poisson, de viande, et de légumes)
 1670710 2 entracte (entre les actes)
 1670710 2 interlude
+1672130 0 ne pas écrire ou contacter pendant longtemps
+1672130 0 négliger d'écrire (d'appeler, de visiter, etc.)
+1672130 0 long silence
 1675160 0 offense
 1675160 0 méthode d'attaque
 1678830 0 "trop tard !"
@@ -43250,6 +43278,10 @@
 1694410 1 prime
 1694410 1 supplément
 1694410 2 exagération
+1704220 0 aller ça et là
+1704220 0 se déplacer d'un endroit à un autre
+1704220 0 être transmis de façon répétée
+1704220 1 rouler
 1736280 0 canotage
 1736280 0 en bateau
 1736280 0 promenade en canot
@@ -43271,6 +43303,7 @@
 1790980 0 ayant l'air
 1790980 0 qui tend à
 1791630 0 fille chérie
+1794470 0 magasin de vêtements et accessoires de style occidental
 1838030 0 arrêt
 1838030 0 interruption
 1838030 0 panne
