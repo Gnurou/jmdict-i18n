@@ -1234,8 +1234,8 @@
 1010800 0 cliquetant
 1010800 0 comme un choc électrique
 1010800 0 déchirant
-1010830 0 éclat
 1010830 0 scintillement
+1010830 0 éclat
 1010900 0 fermement
 1010900 0 strictement
 1010900 0 étroitement
@@ -5309,6 +5309,8 @@
 1185720 0 réunion de conciliation
 1185780 0 geta
 1185780 0 sandales de bois japonaises
+1185780 1 retourner (dans une épreuve contractuelle en imprimerie)
+1185780 1 caractère à l'envers
 1185930 0 sous-vêtements
 1185940 0 partie basse d'une ville (contenant en général les magasins, les usines, etc.)
 1185940 1 Shitamachi (région de basse altitude à l'est de Tokyo près de la baie de Tokyo, incluant Asakusa, Shitaya, Kanda, Fukugawa, Honjo, Nihonbashi, Kyobashi et les environs)
@@ -5320,10 +5322,11 @@
 1186030 0 de bas niveau
 1186030 0 de qualité inférieure
 1186030 0 vulgaire
+1186230 0 vulgarité
+1186230 0 méchanceté
 1186230 0 grossièreté
 1186230 0 indécence
 1186230 0 obscénité
-1186230 0 vulgarité
 1186260 0 œuvre sous-tendant (une œuvre plus récente)
 1186260 0 sous-* (objet mis à plat sous quelque chose)
 1186260 0 sous-main
@@ -5800,7 +5803,7 @@
 1194500 6 (le) mieux
 1194520 0 pétale
 1194560 0 fleuriste
-1194570 0 futur mariée
+1194570 0 future mariée
 1194570 0 jeune mariée
 1194580 0 feux d'artifice
 1194660 0 admirer la floraison des cerisiers
@@ -5868,6 +5871,8 @@
 1195870 0 fourgon
 1195870 0 wagon (de marchandises)
 1195890 0 cargaison
+1195890 0 chargement
+1195890 0 fret
 1195890 1 argent ou biens
 1195930 0 argent
 1195930 0 change
@@ -6171,7 +6176,7 @@
 1199470 0 relevée
 1199510 0 fréquence
 1199510 0 nombre de fois
-1199520 0 carnet (de tickets)
+1199520 0 carnet de tickets
 1199570 0 circuit
 1199570 0 ligne
 1199590 0 mémoire
@@ -6181,6 +6186,7 @@
 1199640 0 rotation
 1199640 0 tour
 1199680 0 réponse
+1199680 0 réplique
 1199700 0 échapper
 1199700 0 éviter
 1199720 0 guérison
@@ -11339,7 +11345,9 @@
 1256450 0 amnésie
 1256450 0 perte de mémoire
 1256520 0 être dans l'impossibilité de 
-1256520 0 trouver difficile (déplaisant, bizarre) de faire
+1256520 0 trouver difficile (désagréable, bizarre, douloureux) de faire
+1256520 1 remplir deux ou plusieurs fonctions ou rôles simultanément
+1256520 1 contenir (ou combiner) deux ou plusieurs caractéristiques
 1256520 3 hésiter à faire quelque chose (par égard pour les autres)
 1256670 0 deuxième emploi (travail)
 1256670 0 travail simultané
