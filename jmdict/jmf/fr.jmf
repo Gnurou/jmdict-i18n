@@ -17804,8 +17804,9 @@
 1335780 0 imposant
 1335780 0 lourd
 1335800 0 être entassé
-1335800 0 empilé
-1335800 0 superposé
+1335800 0 être empilé
+1335800 0 être superposé
+1335800 0 être l'un sur l'autre
 1335830 0 empiler
 1335830 0 entasser
 1335830 0 mettre l'un sur l'autre
@@ -17839,12 +17840,17 @@
 1336500 0 sérieux
 1336500 0 significatif
 1336500 0 lourd
+1336570 0 point important
 1336570 0 insister sur
 1336570 0 mettre l'accent sur
 1336570 0 souligner
+1336570 0 accentuation
 1336650 0 boîtes empilables
 1336690 0 maladie grave
-1336770 0 administrateur (de société)
+1336770 0 directeur d'entreprise
+1336770 0 direction générale
+1336770 0 haut dirigeant
+1336770 0 (personne avec de) lourdes responsabilités
 1336820 0 essentiel
 1336820 0 important
 1336820 0 majeur
@@ -17853,7 +17859,8 @@
 1336900 0 poids
 1336900 1 boxeur poids lourd
 1336980 0 gravité
-1336980 0 pesanteur
+1336980 0 gravitation
+1336980 0 attraction gravitationnelle
 1337000 0 arme à feu
 1337000 0 fusil
 1337000 0 petit calibre
@@ -33040,6 +33047,7 @@
 1515580 0 être choqué
 1515580 0 être stupéfait
 1515580 0 être dégoûté
+1515580 0 être exaspéré
 1515590 0 frappé de stupeur
 1515590 0 stpéfié
 1515620 0 information
@@ -36450,6 +36458,10 @@
 1552090 2 classe
 1552090 2 rang
 1552090 2 taux
+1552090 3 courant (électrique, marin, etc.)
+1552090 3 écoulement
+1552090 3 flux
+1552090 3 flot
 1552100 0 évier de cuisine
 1552120 0 faire couler
 1552120 0 faire flotter
@@ -39613,8 +39625,11 @@
 1590720 0 bois-dur
 1590730 0 feuille deséchée
 1590730 0 feuille morte
-1590740 0 navrant
+1590740 0 pauvre
 1590740 0 pitoyable
+1590740 0 pathétique
+1590740 0 navrant
+1590740 0 lamentable
 1590750 0 échanger (des messages)
 1590750 0 éviter
 1590750 0 esquiver
