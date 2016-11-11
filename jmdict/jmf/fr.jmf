@@ -859,7 +859,8 @@
 1007040 0 aussi
 1007060 0 à ce point
 1007060 0 à ce degré
-1007060 0 ampleur
+1007060 0 dans cette mesure
+1007060 0 autant
 1007120 0 agité
 1007120 0 nerveux
 1007130 0 tel (telle, tels, telles ; à propos des actions de l'auditeur, ou des idées exprimées ou comprises par l'auditeur)
@@ -1128,10 +1129,6 @@
 1009420 0 pour
 1009500 0 des choses comme...
 1009500 0 ou quelque chose comme ça... (souvent péjoratif)
-1009550 0 en
-1009550 0 sur
-1009550 0 à (lieu)
-1009550 0 en ce qui concerne
 1009570 0 sourire
 1009620 0 grand sourire
 1009620 0 rire
@@ -1786,6 +1783,8 @@
 1037670 0 coupe (pour boire, instrument de mesure, prix, etc.)
 1037670 0 bol
 1037670 0 tasse
+1037670 1 nouilles instantanées achetées dans un bol
+1037670 1 bol de nouilles
 1037710 0 couple
 1037840 0 catholique
 1037960 0 couverture (d'un livre)
@@ -9531,8 +9530,8 @@
 1236900 1 informer
 1236900 2 prêcher
 1236930 0 méthode d'enseignement
-1236940 0 apprendre
-1236940 0 être enseigné
+1236940 0 être enseigné (par)
+1236940 0 apprendre de
 1236950 0 éducation
 1236950 0 formation
 1236950 0 instruction
@@ -9566,8 +9565,9 @@
 1237290 0 fidèle (d'une religion)
 1237360 0 instituteur
 1237360 0 professeur
-1237370 0 éducation
 1237370 0 culture
+1237370 0 raffinement
+1237370 0 éducation
 1237400 0 exercice (militaire)
 1237410 0 pont
 1237420 0 jetée
@@ -9684,22 +9684,21 @@
 1238550 1 tête de fût
 1238570 0 coiffeuse (meuble)
 1238570 0 psyché
-1238610 0 influencer
 1238610 0 résonner
 1238610 0 retentir
-1238610 1 résonner
-1238610 1 retentir
+1238610 0 être entendu loin
+1238610 1 réverbérer
+1238610 1 secouer
 1238610 1 vibrer
-1238610 1 tinter
 1238610 2 rentrer (à la maison)
 1238610 2 rester (avec quelqu'un)
 1238610 3 avoir un effet
 1238610 3 impressionner
 1238630 0 banquet
 1238630 0 festin
-1238650 0 effrayer
-1238650 0 faire sensation
 1238650 0 surprendre
+1238650 0 effrayer
+1238650 0 créer un émoi
 1238660 0 étonnement
 1238660 0 surprise
 1238680 0 être surpris
@@ -9817,7 +9816,7 @@
 1239940 0 péripéties
 1239940 0 sinuosité
 1239970 0 courbe
-1240180 0 extrêmement
+1240180 0 assez
 1240180 0 tout à fait
 1240180 0 très
 1240180 1 10^48
@@ -10267,11 +10266,17 @@
 1244510 0 sourire amer
 1244520 0 plainte
 1244520 0 réclamation
-1244530 0 anxiété
-1244530 0 difficulté
+1244520 0 doléances
+1244520 0 troubles
+1244520 0 objection
+1244520 0 grief
 1244530 0 douleur
+1244530 0 difficulté
+1244530 0 anxiété
+1244530 0 diligence
 1244530 0 effort
 1244530 0 zèle
+1244530 0 travail difficile
 1244550 0 chagrin
 1244550 0 douleur
 1244550 0 ennuis
@@ -10380,8 +10385,10 @@
 1245370 0 creux
 1245370 0 inutile
 1245370 0 vain
-1245380 0 creux
 1245380 0 vide
+1245380 0 inoccupé
+1245380 0 vacant
+1245380 0 creux
 1245450 0 espace
 1245450 0 place
 1245470 0 air
@@ -12802,7 +12809,9 @@
 1275640 3 portail
 1275640 3 entrée
 1275640 3 sortie
-1275640 4 parole, propos
+1275640 4 parole
+1275640 4 propos
+1275640 4 discours
 1275640 4 langage parlé
 1275640 4 commérage
 1275640 5 goût
@@ -12905,9 +12914,9 @@
 1277440 0 pas soigné
 1277440 0 sans enthousiasme
 1277440 0 vague
-1277450 0 aimé
-1277450 0 apprécié
-1277450 0 penchant pour
+1277450 0 affection
+1277450 0 penchant
+1277450 0 amour
 1277460 0 ce que l'on aime et ce que l'on déteste
 1277460 0 goûts et dégoûts
 1277460 0 être difficile (à propos de la nourriture)
@@ -14079,12 +14088,13 @@
 1291070 0 différence
 1291070 0 variation
 1291070 1 différence
-1291090 0 balance
 1291090 0 déduction
-1291090 0 flux et reflux
+1291090 0 retenue
 1291090 0 soustraction
-1291090 1 le flux et le reflux
-1291090 1 l'ascension et la chute
+1291090 0 solde
+1291090 0 balance (d'un compte)
+1291090 1 flux et reflux
+1291090 1 ascension et chute
 1291140 0 s'approcher
 1291180 0 empêcher
 1291180 0 entraver
@@ -14127,7 +14137,7 @@
 1291330 2 être teinté de
 1291330 3 augmenter (pour le niveau des eaux)
 1291330 3 affluer
-1291330 4 être ressentie (par ex. comme une émotion)
+1291330 4 être ressenti (par ex. comme une émotion)
 1291330 4 saisir (par ex. la peur le saisit)
 1291330 5 tenir en l'air (un parapluie, etc.)
 1291330 5 ériger
@@ -14183,7 +14193,7 @@
 1291740 0 fermeture du pays
 1291800 0 s'asseoir
 1291800 0 s'accroupir
-1291800 1 assumer (un poste)
+1291800 1 prendre (une position)
 1291800 2 rester stable
 1291800 2 rester immobile
 1291830 0 devise (règle de vie)
@@ -14197,10 +14207,9 @@
 1291920 0 réunion
 1291920 0 symposium
 1291920 0 table ronde
-1291980 0 coussin (japonais)
-1291980 0 coussin utilisé en s'asseyant sur les genous sur des tatamis
+1291980 0 zabuton (coussin de sol plat utilisé en position assise ou à genoux, généralement rectangulaire)
 1291990 0 pièce à tatami
-1291990 0 salon
+1291990 0 pièce formelle de style japonais
 1291990 1 dîner festif dans une pièce couverte de tatami (en part. en présence d'une geisha ou d'une maiko)
 1292070 0 obligation (titre)
 1292090 0 créancier
@@ -14566,6 +14575,7 @@
 1296960 0 conglomérats industriels
 1296960 0 zaibatsu
 1296970 0 bourse
+1296970 0 sac à main
 1296970 0 porte-monnaie
 1296970 0 portefeuille
 1297000 0 affaires financières
@@ -15070,17 +15080,19 @@
 1304670 0 atrocité
 1304670 0 brutalité
 1304670 0 cruauté
-1304680 0 c'est triste
-1304680 0 déception
 1304680 0 déplorable
+1304680 0 dommage (par ex. quel dommage !)
 1304680 0 malchance
-1304680 0 quel dommage !
 1304680 0 regret
+1304680 0 déception
 1304760 0 servir (quelqu'un)
 1304760 0 travailler pour
-1304970 0 emploi
-1304970 0 occupation
 1304970 0 travail
+1304970 0 emploi
+1304970 0 affaires
+1304970 0 occupation
+1304970 0 profession
+1304970 0 tâche
 1304970 1 travail
 1305070 0 héros
 1305070 0 protagoniste
@@ -15528,6 +15540,8 @@
 1310240 0 chaîne commercial (?)
 1310240 0 réseau commercial(?)
 1310260 0 préparation
+1310260 0 disposition
+1310260 0 arrangements
 1310270 0 domination
 1310270 0 règle
 1310270 0 contrôle
@@ -15584,10 +15598,7 @@
 1310600 0 abolir
 1310600 0 démissionner
 1310600 0 abandonner
-1310620 0 demeurer
-1310620 0 faire halte
-1310620 0 marquer un temps d'arrêt
-1310620 0 rester
+1310620 0 arrêter (de bouger)
 1310620 0 stopper
 1310620 1 s'arrêter (de faire, de travailler, d'être fourni)
 1310620 1 faire halte
@@ -16751,9 +16762,13 @@
 1324510 0 faible
 1324510 0 faiblesse
 1324510 0 un peu moins que
-1324520 0 délicat
 1324520 0 faible
 1324520 0 fragile
+1324520 0 frêle
+1324520 0 délicat
+1324520 0 tendre
+1324520 0 non qualifié
+1324520 0 inexpérimenté
 1324580 0 s'affaiblir
 1324580 0 se fragiliser
 1324590 0 affaiblir
@@ -16997,9 +17012,8 @@
 1327190 7 sorte
 1327190 7 type
 1327190 7 espèce
-1327190 8 possession
-1327190 8 détention
-1327190 8 propriété
+1327190 8 ses mains
+1327190 8 ses possessions
 1327190 9 capacité à faire face
 1327340 0 réponse
 1327360 0 bagages à main
@@ -17632,9 +17646,10 @@
 1333930 0 résider
 1333930 0 vivre (à)
 1333990 0 confort (d'un lieu d'habitation)
+1334040 0 vivre (à)
 1334040 0 habiter
 1334040 0 résider
-1334040 0 vivre(à)
+1334040 0 demeurer
 1334080 0 adresse (par ex. d'une maison)
 1334080 0 domicile
 1334080 0 résidence
@@ -17781,9 +17796,10 @@
 1335750 0 massif
 1335750 1 pesant (sentiment)
 1335750 1 déprimé
+1335750 1 triste
 1335750 1 noire (idée)
-1335750 1 de tristesse 
-1335750 1 de mal-être
+1335750 1 sombre
+1335750 1 lugubre
 1335750 2 lent
 1335750 2 empoté
 1335750 2 empêtré
@@ -21183,7 +21199,7 @@
 1375310 0 précipité
 1375330 0 rapports sexuels
 1375350 0 caractère et conduite?
-1375390 0 caractète
+1375390 0 caractère
 1375390 0 nature
 1375390 0 tempérament
 1375430 0 attrait sexuel
@@ -27281,7 +27297,6 @@
 1441370 1 dégradation
 1441370 1 effondrement
 1441390 0 marque
-1441390 0 point
 1441390 1 point
 1441390 1 pois
 1441390 2 note (par ex. à un examen)
