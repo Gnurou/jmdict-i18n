@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2016-11-11 15:16:39+0000\n"
+"POT-Creation-Date: 2016-11-26 07:27:44+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -3122,13 +3122,6 @@ msgstr ""
 "se développer\n"
 "se moderniser"
 
-msgctxt "1203280 0"
-msgid ""
-"外に\tほかに\n"
-"in addition\n"
-"besides"
-msgstr "de plus"
-
 msgctxt "1204750 0"
 msgid ""
 "骸骨\tがいこつ\n"
@@ -3712,10 +3705,12 @@ msgid ""
 "food served during the New Year's Holidays"
 msgstr "nourriture servie pendant les fêtes du nouvel an"
 
+#, fuzzy
 msgctxt "1270540 0"
 msgid ""
 "お中元\tおちゅうげん\n"
-"Bon Festival gifts"
+"mid-year gift\n"
+"summer gift"
 msgstr "cadeaux offerts pendant le festival Bon"
 
 msgctxt "1275370 0"
@@ -4666,9 +4661,10 @@ msgstr ""
 "profiteur\n"
 "rusé"
 
+#, fuzzy
 msgctxt "1410490 0"
 msgid ""
-"待ち兼ねる\tまちかねる\n"
+"待ちかねる\tまちかねる\n"
 "to wait impatiently for"
 msgstr "attendre impatiemment"
 
@@ -6391,6 +6387,12 @@ msgid ""
 "how to live"
 msgstr "style de vie"
 
+msgctxt "1587410 0"
+msgid ""
+"一ヶ月\tいっかげつ\n"
+"one month"
+msgstr "un mois"
+
 #, fuzzy
 msgctxt "1587860 0"
 msgid ""
@@ -7889,10 +7891,10 @@ msgstr ""
 "imprécis\n"
 "vague"
 
+#, fuzzy
 msgctxt "1612670 0"
 msgid ""
 "お歳暮\tおせいぼ\n"
-"end of the year\n"
 "year-end gift"
 msgstr "cadeau offert en fin d'année"
 

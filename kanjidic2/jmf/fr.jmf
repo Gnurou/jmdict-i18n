@@ -5,7 +5,7 @@
 丁 ville
 丁 compteur pour les armes à feu, les outils, les feuilles ou les gâteaux à quelque chose
 丁 nombre pair
-丁 4ème signe du calendrier
+丁 4e signe du calendrier
 七 sept
 万 myriade
 万 10000
@@ -92,12 +92,11 @@
 丹 minium
 丹 pilules
 丹 sincérité
-主 maître
 主 seigneur
 主 chef
+主 maître
+主 chose principale
 主 principal
-主 propriétaire
-主 mari
 丼 bol
 丼 bol de nourriture
 乃 enclitique "no"
@@ -4534,6 +4533,8 @@
 泰 grand
 泳 nager
 洋 océan
+洋 mer
+洋 étranger
 洋 style occidental
 洗 laver
 洗 fouiller
@@ -7742,10 +7743,13 @@
 里 maison de ses parents
 里 ri (3965 mètres)
 重 lourd
+重 important
+重 estime
+重 respect
 重 empiler
 重 entasser
-重 s'emboîter
-重 - couches
+重 boîtes empilables
+重 fois
 野 sauvage
 野 champ
 野 rustique
