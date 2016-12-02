@@ -1268,7 +1268,8 @@
 1011190 0 clouer
 1011190 0 fixer avec des clous
 1011190 1 frapper
-1011190 1 se cogner (la tête)
+1011190 1 se cogner (par ex. la tête)
+1011190 1 heurter (fortement)
 1011190 2 jeter (par ex. une pierre)
 1011190 2 lancer
 1011200 0 grognement
@@ -15254,6 +15255,7 @@
 1306470 2 broder
 1306470 3 faire avancer avec une perche (un bateau)
 1306470 4 prendre (avec un bâtons enduit de glu)
+1306470 5  retirer (un coureur)
 1306570 0 sashimi (lamelles de poisson cru, de fruits de mer ou de crustacés)
 1306640 0 présidence
 1306640 0 mener une réunion
@@ -40616,8 +40618,8 @@
 1597470 0 compteur pour les vêtements
 1597470 1 arrivant à...
 1597480 0 régulièrement
-1597530 0 bol
-1597530 0 tasse
+1597530 0 bol de riz
+1597530 0 tasse à thé
 1597540 0 noyau
 1597610 0 affliction
 1597610 0 condoléance
@@ -42562,10 +42564,20 @@
 1609710 2 plonger (dans ou sous l'eau)
 1609710 2 s'enfoncer sous le sol
 1609715 0 plonger (dans ou sous l'eau)
+1609715 1 se mettre sous
+1609715 1 entrer dans
+1609715 1 se glisser dans
+1609715 1 ramper sous
+1609715 1 s'enterrer
+1609715 1 s'enfouir dans
+1609715 1 s'enfoncer dans
+1609715 1 se blottir sous
+1609715 2 se cacher (en part. du gouvernement)
+1609715 2 entrer dans la clandestinité
 1609720 0 devenir fou
 1609720 0 s'emporter
 1609720 0 se dérégler
-1609730 0 tenir dans la bouche
+1609730 0 tenir dans sa bouche
 1609740 0 économique
 1609740 0 peu coûteux
 1609750 0 être épris
@@ -42582,8 +42594,13 @@
 1609810 0 départ
 1609810 0 declin
 1609810 0 un peu après
-1609820 0 servir (des boissons)
 1609820 0 verser
+1609820 0 servir (des boissons)
+1609820 1 mettre (du rouge à lèvres, etc.)
+1609820 1 appliquer
+1609820 1 colorer
+1609820 1 colorier
+1609820 1 teindre
 1609820 2 allumer (un feu)
 1609820 2 brûler
 1609830 0 formant un (gros) tas
@@ -42592,6 +42609,7 @@
 1609850 0 travail à son compte
 1609850 0 travail indépendant
 1609860 0 salé
+1609860 0 saumâtre
 1609870 0 moment propice
 1609870 0 occasion
 1609870 0 opportunité
@@ -42616,8 +42634,8 @@
 1609970 0 involontairement
 1609980 0 dans son cœur
 1609980 0 vrais motifs (secrets)
-1609990 0 pêcheries
 1609990 0 produits de la mer
+1609990 0 pêcheries
 1610000 0 bombe à hydrogène
 1610000 0 bombe H
 1610010 0 compter sur qq
@@ -42626,14 +42644,21 @@
 1610010 0 s'accrocher à
 1610010 0 s'appuyer (canne)
 1610010 0 se raccrocher
-1610020 0 désolé (phrase)
+1610020 0 inexcusable
+1610020 0 injustifiable
+1610020 0 impardonnable
+1610020 1 désolé
+1610020 1 plein de remords
+1610020 1 apologétique
+1610020 1 affligé
+1610020 1 contrit
 1610020 2 excusez-moi
 1610020 2 (je suis) désolé
 1610020 2 merci
 1610030 0 rusé
-1610040 0 cause
+1610040 0 conséquence
+1610040 0 résultat
 1610040 0 faute
-1610040 0 raison
 1610050 0 confiance dans ses chances de réussir
 1610060 0 fête saisonnière
 1610070 0 absolument
@@ -43256,10 +43281,11 @@
 1612930 0 être trempé
 1612940 0 discussion
 1612940 0 entretien
-1612950 0 achever
-1612950 0 attaquer
 1612950 0 battre
+1612950 0 attaquer (un ennemi)
+1612950 0 abolir
 1612950 0 terminer
+1612950 0 achever
 1612960 0 insupportable
 1612960 0 intenable
 1612970 0 croiser les doigts pour sceller une promesse
@@ -43363,6 +43389,11 @@
 1631750 2 désirer
 1631750 2 être impatient de
 1631750 2 avoir hâte de
+1631970 0 silencieusement (comme la tombe)
+1631970 0 tranquillement (comme la mort)
+1632290 0 en pente douce
+1632290 0 doux
+1632290 0 facile
 1632320 0 sourire gentiment
 1632320 0 sourire
 1632320 0 faire risette
@@ -43478,13 +43509,29 @@
 1894690 0 continuation
 1894690 0 continuité
 1894690 0 suite
-1896380 0 sortir
+1896380 0 sortie
 1896380 0 écoulement
 1896380 0 lever (du soleil ou de la lune)
+1896380 1 être présent (au travail)
+1896380 1 apparaitre (sur scène)
+1896380 1 son tour d'y aller
+1896380 2 début
+1896380 2 départ
+1896380 2 commencement
+1896380 3 origines
+1896380 3 arrière-plan
+1896380 3 personne (ou article) originaire de...
+1896380 3 natif de...
+1896380 3 membre de... (lignage)
+1896380 4 partie architecturale qui se projette vers l'extérieur
+1896380 5 point le plus haut de la poupe d'un navire
+1896380 6 montant (comprenant quelque chose)
+1896380 6 quantité de temps ou d'effort nécessaire pour faire quelque chose
 1910260 0 échoppe
 1910260 0 boutique
 1910260 0 magasin
 1912410 0 examen blanc
+1912410 0 galop d'essai
 1919550 0 compteur pour les nuitées
 1919590 0 classe (par ex. d'école)
 1919590 0 grade
@@ -43529,8 +43576,18 @@
 1956150 0 lecture japonaise native (transposition) d'un caractère chinois
 1956280 0 le plus
 1956280 0 l'extrême
+1956280 1 premier
+1956280 1 remarquable
 1956400 0 collection
 1956400 0 compilation
+1956550 0 bouchon
+1956550 0 liège
+1956550 0 robinet d'arrêt
+1956650 0 corps
+1956650 0 groupe
+1956650 0 parti
+1956650 0 compagnie
+1956650 0 troupe
 1956960 0 rien
 1956960 0 néant
 1956960 0 nul
@@ -43545,6 +43602,16 @@
 1956960 1 non-
 1956960 1 mal-
 1956960 1 mé-
+1957110 0 argument
+1957110 0 discussion
+1957110 0 conflit
+1957110 0 différend
+1957110 0 querelle
+1957110 0 dispute
+1957110 0 polémique
+1957110 0 controverse
+1957110 0 discours
+1957110 0 débat
 1957110 1 théorie (par ex. de l'évolution)
 1957110 1 doctrine
 1957110 2 essai
@@ -43555,6 +43622,11 @@
 1979930 0 l'un l'autre
 1981450 0 à ce point
 1981450 0 à ce degré
+1982210 0 ce qui me rappelle...
+1982210 0 à bien y penser...
+1982210 0 maintenant que vous le dites...
+1982210 0 sur ce sujet...
+1982210 0 donc, si vous le dites...
 1982860 0 coût
 1982860 0 prix
 1982860 1 génération
@@ -43570,13 +43642,59 @@
 1982860 6 compteur pour les générations (d'héritiers au trône, etc.)
 1982860 7 entreprise mandataire
 1982860 8 pronom
+1983690 0 relativement
+1983690 0 comparativement
+1983710 0 penser, sentir, considérer, savoir, etc.
 1983730 0 marron clair
 1983730 0 fauve
+1983740 0 être ouvert (à la circulation)
+1983740 0 mener à
+1983740 0 conduire à
+1983740 0 communiquer (avec)
+1983740 1 s'écouler
+1983740 1 passer (à travers)
+1983740 2 être compris
+1983740 3 être honoré
+1983740 3 être bien
+1983740 4 être bien versé dans
+1983740 4 bien connaitre
+1983740 4 être bien informé
+1983740 4 être au courant de
+1983740 5 communiquer clandestinement
+1983740 5 rester en contact (par ex. avec l'ennemi)
+1983740 6 avoir une liaison
+1983740 6 être intime
+1983750 0 briser
+1983750 0 casser
+1983750 0 déchirer
+1983750 0 profaner
+1983750 0 vaincre
+1983750 0 fracasser
+1983750 0 détruire
+1983760 0 au revoir
+1983760 0 à bientôt
+1983760 1 dire au revoir
+1983760 1 se séparer
 2005860 0 à nouveau
 2005860 0 encore une fois
 2005990 0 façon de nager
 2006560 0 chaque
 2006560 1 (après une quantité de quelque chose) à la fois
+2007420 0 des tas
+2007420 0 à foison
+2007420 0 beaucoup
+2007420 0 très
+2007420 1 avec beaucoup d'effort
+2008040 0 ainsi
+2008040 0 donc
+2008040 0 de cette façon
+2008600 0 	
+2008600 0 en rang
+2008600 0 en ligne
+2008620 0 diligemment
+2008620 0 assidument
+2008620 0 industrieusement
+2008620 0 d'arrache-pied
 2008740 0 autant
 2008740 0 ainsi
 2008740 0 aussi
@@ -43606,14 +43724,29 @@
 2015400 0 entreprise
 2015400 0 association
 2015400 0 société
+2015400 1 dieu chinois régional de la terre (ou un village construit en son honneur)
 2015400 2 compteur pour les entreprises, les temples, etc.
 2015610 0 à l'instant
 2015610 0 très bientôt
+2016410 0 comme
+2016410 0 sorte de
+2016410 0 pareil à
+2016410 0 ressemblant
+2016470 0 apte à faire
+2016470 0 susceptible de faire
+2016470 0 avoir tendance à faire (utilisé pour décrire une tendance négative)
+2016470 0 être enclin à
+2016470 0 être incliné à
+2016470 0 être sujet à
+2016470 0 être porté à
+2016470 0 avoir un penchant à
+2016470 0 avoir une disposition à
 2019640 0 verre de saké
 2019640 0 coupe (pour boissons alcoolisées)
 2019640 1 compteur pour les tasses pleines
 2019640 2 compteur pour les bateaux, pieuvres et calmars
 2020140 0 je m'en vais
+2020140 0 je pars
 2020140 0 à plus tard
 2020680 0 heure (durée)
 2020680 0 heures (à la pendule)
@@ -43690,8 +43823,17 @@
 2037700 2 avion
 2037700 3 compteur d'avions
 2037700 4 compteur de vies restantes (dans les jeux vidéos)
-2038290 0 compteur pour les navires (de grande taille)
+2038290 0 compteur de navires (de grande taille)
+2038290 1 compteur pour la moitié d'une paire (par ex. la moitié d'un paravent)
 2038290 2 compteur pour les poissons, les oiseaux, les flèches, etc.
+2055520 0 et pourtant
+2055520 0 malgré cela
+2055520 0 mais tout de même
+2055520 0 cependant
+2055520 0 toutefois
+2055520 0 néanmoins
+2055520 0 pour autant
+2055520 0 nonobstant le fait que
 2055530 0 mais
 2055530 0 cependant
 2055530 0 néanmoins
@@ -43699,8 +43841,23 @@
 2055530 0 toutefois
 2055530 0 quand même
 2055530 0 pour autant
+2056720 0 actuel (par ex. gouvernement, administration)
+2056720 0 courant
+2056720 0 existant
+2056760 0 action de faire quelque chose
+2056760 0 -ification
 2057030 0 traduction
 2057030 0 version (par ex. version anglaise)
+2064170 0 le suivant
+2064170 0 prochain
+2067770 0 et autres
+2067770 0 et similaires
+2067770 0 et disciples
+2067770 0 et al.
+2067770 0 et coll.
+2067770 0 suffixe pluriel
+2067770 1 environ
+2067770 2 suffixe de nominalisation
 2067900 0 intervalle
 2067900 0 période de temps
 2067900 1 parmi
@@ -43710,6 +43867,9 @@
 2068010 0 place (par ex. la première place)
 2068010 1 décimale
 2068010 2 compteur de fantômes
+2068840 0 occasionnel
+2068840 0 peu fréquent
+2068840 0 rare
 2069620 0 oui
 2069620 0 en effet
 2069620 0 bien
@@ -43717,7 +43877,12 @@
 2069620 2 quoi ?
 2069620 2 hein ?
 2069620 3 soupir
+2074820 0 air vide
+2074820 0 ciel
+2074820 1 shunya (vide, absence d'une nature intrinsèque immuable dans tout phénomène)
 2074820 2 armée de l'air
+2074820 3 infécondité
+2074820 3 insignifiance
 2074820 4 le vide (l'un des cinq éléments)
 2077160 0 compteur pour les (petits) bateaux
 2078590 0 compteur pour les bâtiments  (en part. les maisons)
@@ -43742,26 +43907,30 @@
 2080210 4 cochon (par ex. pour une blague)
 2080530 0 non
 2080720 0 les deux (par ex. les deux épaules)
-2080720 1 ryô (unité de monnaie obsolète)
-2080720 2 ryô (41-42g, un seizième de kin)
+2080720 1 ryo (unité de monnaie obsolète)
+2080720 2 41-42g (un seizième de kin)
 2080720 3 2 tan (unité de mesure de tissu)
 2080720 4 spécifique numéral pour les voitures (par ex. dans un train)
 2080720 4 spécifique numéral pour les véhicules
 2080730 0 guerre
 2080730 0 bataille
 2080730 1 match
+2080730 1 partie
 2080730 1 compétition
-2080900 0 Histoire
+2080900 0 histoire
 2081300 0 chaud
 2081300 0 doux
 2081300 0 agréable
 2081540 0 ministère
 2081540 0 département
 2081540 1 province (de Chine)
-2081540 2 économies
+2081540 2 économie
+2081540 2 conservation
 2081540 2 sauvegarde
 2081570 0 impôt
 2081570 0 taxe
+2081630 0 vêtements simples
+2081630 0 vêtements humbles
 2082140 0 gros
 2082140 0 grand
 2082160 0 magasin (de quelque chose)
@@ -43805,6 +43974,8 @@
 2085690 1 Mont
 2085750 0 port
 2085760 0 ile
+2085760 1 ile
+2085760 1 ilot
 2085880 0 diagonal
 2086640 0 (à la fin d'une phrase) indique l'une (de plusieurs) raisons
 2087990 0 lac (dans les noms de lieu)
@@ -43815,7 +43986,11 @@
 2088240 1 moi-même
 2088750 0 bonne journée
 2088750 0 à plus
+2089060 0 tel que
+2089060 0 (des choses) comme
 2089060 1 exclamation
+2095920 0 stock
+2095920 0 produits
 2095920 1 marchandises volées
 2095920 1 butin
 2096480 0 difficile de (faire quelque chose)
@@ -43831,8 +44006,16 @@
 2101130 3 compteur pour les personnes
 2104230 0 mois (calendaire)
 2104230 0 utilisé après un nombre ou un interrogatif (par ex. nan ou nani)
+2106250 0 (donner) naissance
+2106250 0 accouchement
 2106250 1 natif de
 2106250 1 produit de
+2106250 2 actifs
+2106250 2 biens
+2106250 2 propriété
+2106250 2 fortune
+2108240 0 boîte alimentaire à plusieurs niveaux
+2108240 0 boîtes empilées
 2108240 1 lourd
 2108240 2 sérieux
 2108240 2 extrême
@@ -43863,8 +44046,8 @@
 2147990 1 verso
 2147990 1 revers
 2147990 1 face arrière
-2147990 2 hauteur
-2147990 2 taille
+2147990 2 stature
+2147990 2 taille (d'une personne)
 2147990 3 crête (d'une montagne)
 2149180 0 au revoir
 2149180 0 je pars
