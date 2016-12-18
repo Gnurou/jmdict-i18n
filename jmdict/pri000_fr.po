@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JMdict i18n\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2016-12-02 15:16:34+0000\n"
+"POT-Creation-Date: 2016-12-18 03:56:01+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -2098,10 +2098,11 @@ msgstr ""
 "papier hygiénique\n"
 "papier toilette"
 
+#, fuzzy
 msgctxt "1085420 0"
 msgid ""
 "トマト\n"
-"tomato"
+"tomato (Solanum lycopersicum)"
 msgstr "tomate"
 
 #, fuzzy
