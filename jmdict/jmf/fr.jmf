@@ -11293,6 +11293,9 @@
 1254730 0 après tout
 1254730 0 finalement
 1254730 0 à la fin
+1254730 1 conclusion
+1254730 1 fin
+1254730 2 fin d'une partie de go
 1254760 0 splendide
 1254760 0 joli
 1254760 0 beau
@@ -24706,6 +24709,10 @@
 1414110 1 daisho (paire assortie d'épées longue et courte)
 1414110 2 grands et petits tambours
 1414110 3 mois longs et mois courts
+1414110 4 sic bo (jeu de dés de Macao)
+1414110 4 tai sai
+1414110 4 dai siu
+1414110 4 grand et petit
 1414120 0 éclats de rire
 1414120 0 explosion de rire
 1414130 0 décret
@@ -30695,6 +30702,11 @@
 1483240 0 pessimisme
 1483250 0 pessimiste
 1483280 0 tragédie
+1483280 0 drame
+1483280 1 tragédie
+1483280 1 calamité
+1483280 1 catastrophe
+1483280 1 désastre
 1483290 0 misère
 1483300 0 attendrissant
 1483300 0 pathétique
@@ -30911,8 +30923,6 @@
 1484870 0 mauvaise conduite
 1484890 0 illégal
 1484890 0 illicite
-1484920 0 étonnant
-1484920 0 extraordinaire
 1484920 0 urgence
 1484920 1 extraordinaire
 1484920 1 inhabituel
@@ -30937,8 +30947,8 @@
 1485230 0 faire voltiger
 1485230 1 éclabousser
 1485230 1 répandre
-1485230 2 omettre
-1485230 2 sauter
+1485230 2 courir ou rouler vite
+1485230 2 galoper
 1485230 3 répandre une rumeur
 1485230 3 raconter une histoire
 1485230 3 raconter une blague
@@ -30992,8 +31002,8 @@
 1486090 0 microbe
 1486130 0 fièvre légère
 1486170 0 délicat
-1486170 0 sensible
 1486170 0 subtil
+1486170 0 sensible
 1486170 1 difficile
 1486170 1 (cas) délicat
 1486170 1 compliqué
@@ -31104,12 +31114,11 @@
 1487930 0 alias
 1487930 0 pseudonyme
 1487950 0 princesse
+1487970 0 chaîne
+1487970 0 corde
 1487970 0 cordon
 1487970 0 ficelle
 1487970 0 lacet
-1487970 0 maquereau
-1487970 0 proxénète
-1487970 0 souteneur
 1487970 1 homme qui est financièrement dépendant d'une femme (comme un gigolo ou, dans le cas d'une prostituée, un proxénète)
 1487970 1 souteneur
 1487970 1 maquereau
@@ -31136,8 +31145,8 @@
 1488820 0 échantillon
 1488820 0 exemple
 1488820 0 modèle
-1488840 0 glaçon
 1488840 0 glace
+1488840 0 glaçon
 1488840 1 glace pilée (généralement servi avec un sirop simple aromatisé)
 1488850 0 glace
 1488850 1 grêle
@@ -31187,7 +31196,7 @@
 1489420 0 liste (prix)
 1489420 0 publier (info)
 1489510 0 expression
-1489510 0 représentation
+1489510 0 présentation
 1489510 1 représentation
 1489510 1 notation
 1489600 0 couverture (d'un livre, d'un magazine, etc.)
@@ -31232,10 +31241,10 @@
 1490010 2 apprécier
 1490010 2 accorder une grande valeur
 1490010 2 reconnaître la valeur (de quelque chose)
+1490070 0 gloire
 1490070 0 notoriété
 1490070 0 popularité
 1490070 0 réputation
-1490070 0 rumeur
 1490070 1 rumeur
 1490070 1 paroles
 1490080 0 critique
@@ -31262,7 +31271,7 @@
 1490360 0 patient
 1490360 0 personne malade
 1490400 0 pavillon (d'un hôpital)
-1490430 0 seconde (temps)
+1490430 0 seconde (c.-à-d. 60e de minute)
 1490440 0 aiguille des secondes
 1490440 0 trotteuse
 1490460 0 compte à rebours
@@ -31290,6 +31299,7 @@
 1490720 0 bord de mer
 1490720 0 plage
 1490740 0 pauvre
+1490740 0 nécessiteux
 1490740 1 manque (en quantité et en qualité)
 1490740 1 pauvre
 1490740 1 maigre
@@ -43112,6 +43122,7 @@
 1611440 0 base
 1611450 0 brosse
 1611450 1 broussailleux
+1611450 2 rougeur
 1611460 0 (école, établissement) géré par le département
 1611470 0 base-ball professionnel
 1611480 0 valeur de la déviation/valeur de l'écart
