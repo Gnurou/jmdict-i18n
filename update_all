@@ -3,7 +3,7 @@ set -o errexit
 
 git pull
 
-tx --traceback pull -a -f
+tx --traceback pull --force --all --source
 
 ./updatesources.sh
 
@@ -12,10 +12,10 @@ tx --traceback pull -a -f
 ./jmdict-extract.py kanjidic2
 
 # push translation source
-tx push -s
+tx push --source
 
 # push translations and ignore errors
-tx push -t --skip
+tx push --translations --skip
 
 git commit -a -m "Automatic update with update_all"
 git push origin master
