@@ -4,12 +4,15 @@ set -o errexit
 git pull
 
 tx --traceback pull --force --all --source
+git commit -a -m "Resources update from Transifex" 
 
 ./updatesources.sh
 
 ./jmdict-extract.py jmdict
 
 ./jmdict-extract.py kanjidic2
+
+git commit -a -m "Automatic update with update_all"
 
 # check sources
 for f in */*.pot; do
@@ -22,5 +25,5 @@ tx push --source
 # push translations and ignore errors
 tx push --translations --skip
 
-git commit -a -m "Automatic update with update_all"
 git push origin master
+
