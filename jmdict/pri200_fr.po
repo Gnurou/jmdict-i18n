@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Parker <benoit.lepouze@gmail.com>, 2012
 # Grégory Fouquet <gregory.fouquet@armida.fr>, 2015

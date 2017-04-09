@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # gillux, 2015
 # Pierre Baumard <pbaumard@gmail.com>, 2016

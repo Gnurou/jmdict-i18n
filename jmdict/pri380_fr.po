@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Denis ARNAUD <denisarnuad@hotmail.com>, 2016
 # gillux, 2015

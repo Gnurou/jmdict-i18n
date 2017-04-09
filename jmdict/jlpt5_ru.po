@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Alexandre Courbot <gnurou@gmail.com>, 2012
 # Illarion Makarikhin <>, 2012

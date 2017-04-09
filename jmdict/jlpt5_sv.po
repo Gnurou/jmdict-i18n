@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Kess Vargavind <vargavind@gmail.com>, 2015
 msgid ""

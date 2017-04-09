@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Tokiko <inactive+Tokiko@transifex.com>, 2012
 # Tokiko <inactive+Tokiko@transifex.com>, 2012

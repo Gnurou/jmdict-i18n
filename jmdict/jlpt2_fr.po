@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Alexandre Courbot <gnurou@gmail.com>, 2012
 # babouaya <bdelaage@gmail.com>, 2015

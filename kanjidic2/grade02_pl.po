@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # PtrTlr <ptrtlr07470@yopmail.com>, 2013
 msgid ""

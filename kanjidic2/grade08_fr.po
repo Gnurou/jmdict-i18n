@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Alexandre Courbot <gnurou@gmail.com>, 2012
 # Parker <benoit.lepouze@gmail.com>, 2014

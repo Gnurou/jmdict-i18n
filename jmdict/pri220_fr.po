@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Denis ARNAUD <denisarnuad@hotmail.com>, 2016
 # Pierre Baumard <pbaumard@gmail.com>, 2014

@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Céline Marmin, 2016
 # Pierre Baumard <pbaumard@gmail.com>, 2014

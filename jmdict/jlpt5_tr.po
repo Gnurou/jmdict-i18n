@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Alexandre Courbot <gnurou@gmail.com>, 2012
 # Fırat Akandere <f.akandere@gmail.com>, 2012,2014
