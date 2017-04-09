@@ -11,6 +11,11 @@ tx --traceback pull --force --all --source
 
 ./jmdict-extract.py kanjidic2
 
+# check sources
+for f in */*.pot; do
+  msgfmt --check $f
+done
+
 # push translation source
 tx push --source
 
