@@ -2643,6 +2643,7 @@
 1105360 0 vidéo
 1105470 0 bande vidéo
 1105580 0 vinyle
+1105580 1 disque vinyle
 1105970 0 affiche
 1105970 0 poster
 1105970 0 prospectus
@@ -2960,7 +2961,8 @@
 1144860 1 reconstitution
 1144940 0 enregistrement
 1144940 0 disque
-1144940 1 record (par ex. d'athlétisme)
+1144940 1 record (par ex. sportif)
+1144940 2 enregistrement (structure de données)
 1145060 0 addition
 1145060 0 note
 1145060 0 reçu
@@ -11944,8 +11946,6 @@
 1262530 1 grave
 1262530 1 solennel
 1262530 1 majestueux
-1262530 2 intense (froid)
-1262530 2 sévère
 1262560 0 garde renforcée
 1262570 0 austérité
 1262570 0 rigidité
@@ -13256,6 +13256,11 @@
 1279780 0 plan
 1279790 0 structure
 1279790 0 construction
+1279790 0 composition
+1279790 0 constitution
+1279790 0 cadre
+1279790 0 organisation
+1279790 0 modèle
 1279860 0 baie
 1279860 0 crique
 1279870 0 Edo (ancien nom de Tokyo)
@@ -13329,8 +13334,8 @@
 1280940 0 plan général
 1280940 0 points principaux
 1280940 0 sommaire
-1280950 0 cultiver
 1280950 0 labourer
+1280950 0 cultiver
 1280970 0 agriculture
 1280970 0 culture
 1280990 0 terre arable
@@ -13457,9 +13462,10 @@
 1281980 0 marche de défilé
 1281980 0 parade
 1282000 0 brusquement
-1282000 0 sans prévenir
 1282000 0 soudainement
 1282000 0 tout à coup
+1282000 0 sans prévenir
+1282000 0 sans avertissement
 1282010 0 administration
 1282070 0 distance
 1282070 0 longueur d'un trajet
@@ -13468,7 +13474,8 @@
 1282100 0 conduite
 1282100 0 attitude
 1282100 0 mobilisation
-1282180 0 destination
+1282180 0 (ses) allées et venues
+1282180 0 (sa) trace
 1282180 1 résultat
 1282190 0 manquant
 1282190 0 porté disparu
@@ -13535,8 +13542,10 @@
 1282940 0 capitulation
 1282940 0 reddition
 1282940 0 soumission
+1283000 0 article
 1283000 0 alinéa
-1283000 0 paragraphe
+1283000 0 chapitre
+1283000 0 rubrique
 1283020 0 fragrance
 1283020 0 parfum
 1283030 0 Hongkong
@@ -13632,11 +13641,14 @@
 1284120 0 vigueur
 1284120 0 virilité
 1284220 0 nombre
-1284220 0 numéro d'édition (magazine)
+1284220 0 numéro d'édition (d'une publication)
+1284220 0 modèle
+1284220 0 partie d'un groupe
 1284220 1 sobriquet
 1284220 1 surnom
 1284220 1 pseudonyme
 1284220 1 nom de plume
+1284220 2 suffixe attaché aux noms des navires, des trains, des avions, etc.
 1284230 0 supplément (d'un journal)
 1284250 0 cri
 1284250 0 gémissement
@@ -15347,11 +15359,15 @@
 1306470 4 prendre (avec un bâtons enduit de glu)
 1306470 5  retirer (un coureur)
 1306570 0 sashimi (lamelles de poisson cru, de fruits de mer ou de crustacés)
-1306640 0 présidence
 1306640 0 mener une réunion
-1306640 0 présentateur
-1306640 0 hôte
-1306640 0 modérateur
+1306640 0 présider une réunion
+1306640 0 officier lors d'une cérémonie
+1306640 0 présidence
+1306640 1 président
+1306640 1 animateur
+1306640 1 hôte
+1306640 1 modérateur
+1306640 1 maître de cérémonie
 1306650 0 animateur
 1306650 0 maître de cérémonie
 1306650 0 président
@@ -15368,7 +15384,8 @@
 1307030 0 successeur
 1307040 0 quatre
 1307060 0 carrefour
-1307060 0 quatre coins
+1307060 0 croisement
+1307060 0 croisée des chemins
 1307090 0 carré
 1307100 0 carré
 1307100 0 rectangulaire
@@ -15831,7 +15848,7 @@
 1311380 0 propriété privée
 1311390 0 privé
 1311410 0 utilisation privée
-1311420 0 privé (par opposition à public)
+1311420 0 (établissement) privé
 1311450 0 corde
 1311450 0 fil
 1311470 0 début
@@ -16066,7 +16083,8 @@
 1314880 0 valet
 1314940 0 servante
 1314940 0 suivante
-1315060 0 enfant
+1315060 0 enfants
+1315060 0 juvénile
 1315120 0 hameau
 1315120 0 partie d'un village
 1315130 0 caractère (c.-à-d. kanji)
@@ -21627,7 +21645,13 @@
 1377660 0 juste
 1377660 0 légitime
 1377920 0 carré
-1377980 0 (poids) net
+1377980 0 poids net
+1377980 1 partie utile
+1377980 1 contenu effectif
+1377980 1 contenu réel
+1377980 2 réel
+1377980 2 effectif
+1377980 2 plein
 1378030 0 façade
 1378030 0 face
 1378030 0 front
@@ -21635,6 +21659,7 @@
 1378040 0 sérieux
 1378070 0 heurter de front
 1378100 0 porte principale
+1378100 0 entrée principale
 1378140 0 clair
 1378140 0 limpide
 1378140 0 pur
@@ -24868,7 +24893,7 @@
 1414360 0 grande guerre
 1414380 0 beaucoup
 1414380 0 exagéré
-1414380 0 très
+1414380 0 très bien
 1414390 0 grand nettoyage
 1414390 0 nettoyage de printemps
 1414400 0 concours annuel de lutte
@@ -24899,8 +24924,6 @@
 1414520 0 sol
 1414520 0 terre
 1414560 0 deux points
-1414570 0 avenue
-1414570 0 boulevard
 1414570 0 rue principale
 1414580 0 généralement
 1414580 0 ordinairement
@@ -24999,7 +25022,7 @@
 1415200 0 production de masse
 1415220 0 peinture du japon ancien
 1415230 0 l'esprit japonais
-1415260 0 ordinal
+1415260 0 préfixe pour former les nombres ordinaux
 1415270 0 premier
 1415270 0 le plus avancé
 1415270 0 numéro un
@@ -26880,6 +26903,7 @@
 1433030 9 avoir un sens
 1433040 0 se rendre à l'hôpital
 1433050 0 devise (monétaire)
+1433050 0 monnaie
 1433070 0 passage sans arrêt (par ex. un train qui passe sans s'arrêter dans une gare)
 1433070 0 transit
 1433070 1 passer (par ex. un examen, un projet de loi au parlement)
@@ -26906,6 +26930,10 @@
 1433460 0 avis
 1433460 0 notification
 1433470 0 annonce
+1433470 0 avis
+1433470 0 notification
+1433470 0 rapport
+1433470 0 publication
 1433490 0 livret bancaire
 1433550 0 veillée funèbre
 1433560 0 interprétariat
@@ -26999,7 +27027,8 @@
 1434050 0 être en harmonie
 1434050 0 être en équilibre
 1434050 1 s'assortir
-1434050 1 s'harmoniser
+1434050 1 convenir
+1434050 1 aller bien ensemble
 1434120 0 pêcher (à la ligne)
 1434120 0 attraper
 1434120 1 attirer
@@ -27019,11 +27048,12 @@
 1434180 3 faible (volume)
 1434190 0 être abaissé
 1434200 0 abaisser
-1434250 0 baisser
-1434250 0 s'abaisser
-1434250 0 se déprécier
-1434250 0 abaissement
 1434250 0 baisse
+1434250 0 chute
+1434250 0 déclin
+1434250 0 abaissement
+1434250 0 détérioration
+1434250 0 dégradation
 1434330 0 cyclone
 1434330 0 dépression athmosphérique
 1434480 0 bas revenus
@@ -33556,7 +33586,10 @@
 1517100 0 direction
 1517100 0 région
 1517100 0 zone
-1517100 1 domaine (d'étude, etc.)
+1517100 1 domaine (par ex. d'étude)
+1517100 1 sphère
+1517100 1 aspect
+1517100 1 angle
 1517150 0 loi
 1517150 1 méthode
 1517150 2 humeur
@@ -35170,6 +35203,7 @@
 1533850 0 parti pris
 1533850 0 préjugé
 1533860 0 laine à tricoter
+1533860 0 fil de laine
 1533870 0 étoffe de laine
 1533870 0 lainage
 1533880 0 chenille (de papillon)
@@ -44142,12 +44176,7 @@
 2057030 0 version (par ex. version anglaise)
 2064170 0 le suivant
 2064170 0 prochain
-2067770 0 et autres
-2067770 0 et similaires
-2067770 0 et disciples
-2067770 0 et al.
-2067770 0 et coll.
-2067770 0 suffixe pluriel
+2067770 0 suffixe du pluriel
 2067770 1 environ
 2067770 2 suffixe de nominalisation
 2067900 0 intervalle
