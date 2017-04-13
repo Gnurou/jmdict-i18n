@@ -128,6 +128,12 @@
 1001090 0 oui
 1001090 0 ouais
 1001090 0 oui... oui
+1001090 1 hum
+1001090 1 hmm
+1001090 1 et bien
+1001090 2 gémissement
+1001090 2 plainte
+1001090 2 grognement (de douleur)
 1001110 0 ennuyeux
 1001110 0 fatiguant
 1001110 0 lassant
@@ -1783,11 +1789,14 @@
 1032180 0 automation
 1032180 0 automatisation
 1032390 0 pardessus
-1032390 1 trop
-1032390 1 dépassant
-1032390 1 allant au-delà
-1032390 1 exagéré
-1032390 2 balle frappée au-dessus de la tête d'un joueur de champ extérieur
+1032390 1 dépasser
+1032390 1 aller au-delà
+1032390 2 exagéré
+1032390 2 excessif
+1032390 2 surdimensionné
+1032390 2 réaction excessive
+1032390 3 au-dessus du par
+1032390 4 surexposition
 1032880 0 pardessus
 1032930 0 four
 1032990 0 ouverture
@@ -11941,11 +11950,10 @@
 1262530 0 rigide
 1262530 0 impitoyable
 1262530 0 implacable
-1262530 1 sévère
-1262530 1 austère
-1262530 1 grave
-1262530 1 solennel
-1262530 1 majestueux
+1262530 1 intense (par ex. pour le froid)
+1262530 1 rigoureux
+1262530 1 dur
+1262530 1 rude
 1262560 0 garde renforcée
 1262570 0 austérité
 1262570 0 rigidité
@@ -21473,10 +21481,10 @@
 1375790 0 développement
 1375790 0 devenir adulte
 1375810 0 taux de croissance
-1375820 0 je vois
 1375820 0 c'est cela
-1375820 0 de fait
 1375820 0 en effet
+1375820 0 effectivement
+1375820 0 de fait
 1375830 0 age adulte
 1375830 0 majorité
 1375860 0 composant
@@ -21494,7 +21502,7 @@
 1375930 0 pouvoir politique
 1375950 0 politique
 1375970 0 gouvernement
-1375970 0 la politique (en général)
+1375970 0 la politique
 1375980 0 homme politique
 1375980 0 politicien
 1376060 0 parti politique
@@ -24233,7 +24241,11 @@
 1407380 0 par contre
 1407450 0 multi-
 1407460 0 beaucoup
+1407460 0 plusieurs
 1407460 0 nombreux
+1407460 1 grande quantité
+1407460 2 fréquent
+1407460 2 commun
 1407500 0 quantité
 1407570 0 pluralisme
 1407570 0 pluralité
@@ -24261,7 +24273,8 @@
 1407980 0 probablement
 1407980 1 généreux
 1407980 1 beaucoup
-1407980 1 important
+1407980 1 nombreux
+1407980 1 grand
 1408010 0 polygone
 1408040 0 affairé
 1408040 0 débordé
@@ -27219,17 +27232,20 @@
 1436560 4 se crisper
 1436570 0 attacher
 1436570 0 lier
-1436570 1 totaliser
-1436570 1 additionner
-1436570 2 être ferme avec
-1436570 3 économiser
-1436570 3 réduire
-1436570 4 saler
-1436570 4 mariner
-1436570 4 mettre en saumure
-1436570 4 faire des sushis avec un mélange de vinaigre et de sel
-1436570 5 porter (une cravate)
-1436570 5 nouer (une cravate)
+1436570 0 fixer
+1436570 0 serrer
+1436570 1 porter (une cravate, une ceinture)
+1436570 1 mettre
+1436570 1 enfiler
+1436570 2 totaliser
+1436570 2 additionner
+1436570 3 être ferme avec
+1436570 4 économiser
+1436570 4 réduire
+1436570 5 saler
+1436570 5 mariner
+1436570 5 mettre en saumure
+1436570 5 faire des sushis avec un mélange de vinaigre et de sel
 1436680 0 hangar à bateaux
 1436690 0 longueur du navire (coque)
 1436710 0 correction
@@ -29002,7 +29018,7 @@
 1457730 1 en
 1457730 2 parmi
 1457730 2 entre
-1457730 3 nous (se référant à son in-group, c.-à-d. son entreprise, etc.)
+1457730 3 nous (se référant à son endogroupe ou groupe interne, par ex. son entreprise, etc.)
 1457730 3 notre
 1457730 4 mon époux
 1457730 4 mon épouse
@@ -32066,8 +32082,9 @@
 1497980 3 développer une éruption cutanée due à (par ex. de la laque, un rasage, etc.)
 1497980 4 réduire le prix
 1497980 4 baisser le prix
-1497980 4 faire une réduction sur
-1497980 4 accorder un rabais sur
+1497980 4 faire une réduction
+1497980 4 accorder un rabais
+1497980 4 ajouter gratuitement (quelque chose de plus)
 1497990 0 émulation
 1497990 0 esprit de compétition
 1498010 0 outsider
@@ -33221,7 +33238,8 @@
 1513040 0 parole
 1513040 0 propos
 1513060 0 panier repas
-1513065 0 bento (boîte-repas japonaise)
+1513065 0 bento
+1513065 0 panier repas japonais
 1513140 0 excuse
 1513140 0 explication
 1513140 0 justification
@@ -33785,20 +33803,22 @@
 1519130 0 empêchement
 1519130 0 entrave
 1519130 0 obstacle
-1519170 0 bonnet
-1519170 0 casquette
 1519170 0 chapeau
+1519170 0 casquette
+1519170 0 bonnet
 1519180 0 insigne attaché à un chapeau
-1519210 0 être étourdi
-1519210 0 être distrait
 1519210 0 oublier
+1519210 0 laisser négligemment
+1519210 0 être oublieux de
 1519230 0 objet perdu
 1519230 0 quelque chose d'oublié
 1519240 0 ingratitude
 1519260 0 étourderie
 1519260 0 oubli
 1519280 0 fête de fin d'année
-1519290 0 être occupé
+1519290 0 occupé
+1519290 0 trépidant
+1519290 0 affairé
 1519300 0 botte
 1519300 0 frange
 1519300 0 houpe
@@ -34376,12 +34396,9 @@
 1524880 0 thon
 1524930 0 de nouveau
 1524930 0 encore
-1524990 0 autrement
-1524990 0 et
 1524990 0 ou
-1524990 0 ou ... ou
 1524990 0 ou bien
-1524990 0 sinon
+1524990 0 autrement
 1525120 0 prêt de seconde main
 1525120 0 sous-location
 1525190 0 coupure
@@ -35562,8 +35579,13 @@
 1538130 2 fatalité
 1538150 0 à peu près la moitié
 1538160 0 médicament
-1538160 0 produit pharmaceutique
-1538160 1 produit chimique efficace (c.-à-d. poudre à canon, pesticide, etc.)
+1538160 0 produits pharmaceutiques
+1538160 0 pilule
+1538160 0 comprimé
+1538160 0 pommade
+1538160 0 onguent
+1538160 0 baume
+1538160 1 produit chimique efficace (insecticide, répulsif, désinfectant, etc.)
 1538160 2 émail (d'une céramique)
 1538160 2 glaçure
 1538160 3 pot-de-vin
@@ -35849,8 +35871,7 @@
 1542160 2 être inactif
 1542160 2 ne rien faire
 1542160 2 être inutilisé
-1542160 3 séjourner (pour les études, pour le plaisir)
-1542160 3 aller
+1542160 3 aller (pour le plaisir ou pour les études)
 1542160 4 jeter volontairement une balle pour abaisser la concentration du frappeur
 1542170 0 parc d'attraction
 1542190 0 jeu
@@ -35869,8 +35890,7 @@
 1542390 0 frais de port
 1542390 0 frais de transport
 1542420 0 facteur
-1542430 0 La Poste
-1542430 0 poste
+1542430 0 bureau de poste
 1542470 0 facteur
 1542480 0 code postal
 1542500 0 affranchissement
@@ -38301,7 +38321,7 @@
 1577980 0 être (pour les êtres animés)
 1577980 0 exister
 1577980 1 rester
-1577980 2 (après la forme en -te d'un verbe) indique une action ou un état pas encore terminé (par ex. être en train de..., avoir été en train de...)
+1577980 2 verbe indiquant une action ou un état qui dure (c.-à-d. être en train de..., avoir été en train de...)
 1577985 0 être (animé)
 1577985 0 exister
 1577985 1 verbe indiquant une action ou un état qui dure (c.-à-d. être en train de...)
@@ -38981,6 +39001,9 @@
 1583250 1 euh
 1583250 1 hmm
 1583250 1 pourquoi
+1583250 2 de rien
+1583250 2 je vous en prie
+1583250 2 pas du tout
 1583260 0 éviter
 1583260 0 fuir
 1583260 1 éviter (la situation)
@@ -39298,6 +39321,8 @@
 1585650 0 caisse
 1585650 0 coffre
 1585650 0 paquet
+1585650 0 pack
+1585650 0 cageot
 1585650 1 voiture (d'un train, etc.)
 1585650 2 étui pour shamisen
 1585650 2 shamisen
@@ -40909,9 +40934,12 @@
 1597260 0 puits de charbon
 1597260 0 houillère
 1597300 0 court (par ex. un récit, un film)
-1597350 0 par étapes
-1597350 0 petit à petit
 1597350 0 progressivement
+1597350 0 graduellement
+1597350 0 peu à peu
+1597350 0 petit à petit
+1597350 0 au fur et à mesur
+1597350 0 de plus en plus
 1597350 1 marches (d'escalier)
 1597350 1 cage d'escalier
 1597350 1 rangée
