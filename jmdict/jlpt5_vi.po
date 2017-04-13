@@ -1,11 +1,11 @@
-# Translators:
+# 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: JMdict Internationalization\n"
 "Report-Msgid-Bugs-To: Alexandre Courbot <gnurou@gmail.com>\n"
-"POT-Creation-Date: 2017-03-19 07:06:02+0000\n"
-"PO-Revision-Date: 2017-03-19 07:08+0000\n"
+"POT-Creation-Date: 2017-04-09 11:33:17+0000\n"
+"PO-Revision-Date: 2017-04-09 11:36+0000\n"
 "Last-Translator: Pierre Baumard <pbaumard@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/gnurou/jmdict-i18n/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -12584,7 +12584,8 @@ msgid ""
 "case\n"
 "chest\n"
 "package\n"
-"pack"
+"pack\n"
+"crate"
 msgstr ""
 
 msgctxt "1585650 1"
