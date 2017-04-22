@@ -1775,8 +1775,9 @@
 壌 sol
 壌 terrain
 士 gentilhomme
+士 savant
 士 samouraï
-士 radical samouraï (no. 33)
+士 radical du samouraï (no. 33)
 壮 robuste
 壮 âge d'homme
 壮 prospérité
@@ -2477,6 +2478,8 @@
 幸 fortune
 幹 tronc d'arbre
 幹 pièce principale
+幹 talent
+幹 aptitude
 幻 chimère
 幻 fantôme
 幻 fantasme
@@ -4650,8 +4653,10 @@
 清 dynastie Mandchoue
 渇 soif
 渇 sécheresse
-済 achever
-済 finir
+済 régler (une dette, etc.)
+済 alléger (un fardeau)
+済 terminer
+済 arriver à une fin
 済 excusable
 済 s'en sortir sans
 渉 gué
@@ -5066,12 +5071,14 @@
 玄 sombre
 玄 noir
 玄 profond
-率 taux
 率 rapport
+率 taux
 率 proportion
 率 %
-率 coefficient
 率 facteur
+率 conduire
+率 fer de lance
+率 commander
 玉 bijoux
 玉 balle
 玉 boule
