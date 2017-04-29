@@ -390,7 +390,10 @@
 1003400 0 exactement
 1003400 0 soigneusement
 1003410 0 exactement
+1003410 0 juste
 1003410 0 précisément
+1003410 1 ponctuel
+1003410 1 pile à l'heure
 1003420 0 avec précision
 1003420 0 juste
 1003420 1 bien ajusté
@@ -516,6 +519,9 @@
 1004070 0 exténué
 1004080 0 fermement
 1004080 0 bien serré
+1004080 1 considérablement
+1004080 1 beaucoup
+1004080 1 très
 1004110 0 mouvement irrégulier
 1004110 0 prélassant
 1004140 0 tournoyé
@@ -1139,10 +1145,17 @@
 1009160 0 tout
 1009160 0 tous
 1009160 0 chaque
-1009210 0 soudain
-1009210 0 soudainement
-1009210 0 subitement
-1009210 0 tout à coup
+1009210 0 éclater (de rire)
+1009210 0 s'élever (pour des applaudissements)
+1009210 0 rugir
+1009210 0 hurler
+1009210 1 se ruer
+1009210 1 avec une poussé soudaine
+1009210 1 affluer
+1009210 1 couler à flot
+1009210 1 déferler
+1009210 2 soudainement
+1009210 2 tout à coup
 1009250 0 à quelle distance
 1009250 0 combien
 1009250 0 combien de temps
@@ -1735,6 +1748,7 @@
 1021910 0 boucle d'oreille
 1022210 0 encre
 1022550 0 instantané
+1022850 0 international
 1023100 0 interview
 1023340 0 chèque de voyage
 1023340 0 traveller chèque ?
@@ -1786,6 +1800,7 @@
 1031600 0 OK
 1031610 0 orchestre
 1032030 0 moto
+1032100 0 automatique
 1032180 0 automation
 1032180 0 automatisation
 1032390 0 pardessus
@@ -3001,6 +3016,7 @@
 1145990 0 compte-rendu
 1145990 0 rapport
 1146020 0 citron
+1146110 1 four micro-onde
 1146140 0 lentille (optique)
 1146180 0 location
 1146230 0 rayons X
@@ -4198,6 +4214,7 @@
 1167960 1 lourdaud
 1167960 1 rustre
 1167970 0 champ de pommes de terre
+1168050 2 Inde
 1168060 0 marque
 1168060 0 signe
 1168060 1 symbole
@@ -4460,11 +4477,16 @@
 1172350 0 au milieu d'un tourbillon
 1172390 0 courant tourbillonnant
 1172400 0 mensonge
+1172400 0 bobard
 1172400 0 fausseté
-1172400 0 fait incorrect
-1172400 1 vraiment !
-1172400 1 incroyable !
-1172400 1 pas possible !
+1172400 0 inexactitude
+1172400 1 faute
+1172400 1 erreur
+1172400 2 mouvement imprudent
+1172400 2 mauvaise décision
+1172400 3 Pas possible!
+1172400 3 Incroyable!
+1172400 3 Vraiment?!
 1172460 0 fabulateur
 1172460 0 menteur
 1172500 0 anguille
@@ -4656,9 +4678,8 @@
 1175270 0 rejouissance
 1175280 0 avoir une audience de
 1175290 0 audience
-1175300 0 dépasser
+1175300 0 franchir (par ex. une montagne)
 1175300 0 passer (au delà, au dessus de)
-1175300 0 surpasser
 1175300 0 traverser
 1175300 1 passer (par ex. bien ou mal passé avec le public)
 1175300 2 passer le temps (par ex. un hiver)
@@ -5574,9 +5595,9 @@
 1189960 3 infliger (des dommages)
 1189960 3 traiter
 1189960 3 donner
-1189980 0 augmenter
-1189980 0 rejoindre
+1189980 0 être ajouté à
 1189980 0 s'ajouter à
+1189980 0 être apposé
 1189980 1 se joindre à (par ex. un groupe d'amis)
 1189980 1 participer
 1189980 2 augmenter (par ex. la température)
@@ -5837,8 +5858,14 @@
 1194420 0 chance et malchance
 1194440 0 soutien de famille
 1194440 0 travailleur acharné
-1194450 0 gagner de l'argent
-1194450 0 travailler
+1194450 0 gagner (un revenu, un salaire)
+1194450 0 faire (de l'argent)
+1194450 1 marquer (un point)
+1194450 1 remporter (une victoire)
+1194450 1 gagner (du temps)
+1194450 2 travailler dur (à son travail)
+1194450 2 se donner de la peine
+1194450 2 peiner
 1194470 0 commerce
 1194470 0 négoce
 1194470 0 occupation
@@ -6010,15 +6037,17 @@
 1196670 0 soi-même
 1196670 0 son propre
 1196830 0 chacun pour soi
-1196970 0 contrôle de soi
-1196970 0 dévouement
 1196970 0 patience
+1196970 0 endurance
 1196970 0 persévérance
+1196970 0 dévouement
 1196970 0 tolérance
+1196970 0 maîtrise de soi
+1196970 0 abnégation
 1196990 0 égoïsme
 1197020 0 égoïsme
-1197020 0 capricieux
-1197020 0 désobéissance
+1197020 0 nombrilisme
+1197020 0 obstination
 1197020 0 entêtement
 1197020 1 désobéissance
 1197020 2 caprice
@@ -6250,9 +6279,12 @@
 1199680 0 réplique
 1199700 0 échapper
 1199700 0 éviter
-1199720 0 guérison
+1199720 0 restauration
+1199720 0 réhabilitation
 1199720 0 récupération
 1199720 0 rétablissement
+1199720 0 retour
+1199720 0 amélioration
 1199720 1 rétablissement (d'une maladie)
 1199720 1 récupération
 1199720 1 convalescence
@@ -7441,10 +7473,9 @@
 1212360 0 émotion profonde
 1212360 0 impression
 1212360 0 inspiration
-1212380 0 grâces
+1212380 0 remerciements
 1212380 0 gratitude
 1212380 0 reconnaissance
-1212380 0 remerciements
 1212390 0 sensibilité
 1212410 0 émotion
 1212410 0 sentiment
@@ -7459,8 +7490,11 @@
 1212480 0 pensées
 1212490 0 émerveillement
 1212490 0 admiration
-1212570 0 choque émotionel
-1212570 0 surexcitation
+1212570 0 être fortement ému
+1212570 0 excitation
+1212570 0 passion
+1212570 0 émotion forte
+1212570 0 impression
 1212610 0 coup de froid
 1212610 0 grippe
 1212610 0 refroidissement
@@ -7578,9 +7612,10 @@
 1213680 0 observation
 1213680 0 surveillance
 1213700 0 tour d'observation
-1213720 0 direction
-1213720 0 mise en scène
 1213720 0 surveillance
+1213720 0 contrôle
+1213720 0 surintendance
+1213720 0 direction
 1213720 1 directeur
 1213720 1 surintendant
 1213720 1 superviseur
@@ -7875,12 +7910,13 @@
 1216580 0 blockhaus
 1216580 0 hutte de bois
 1216760 0 pilule
-1216880 0 être imbibé de
-1216880 0 comporter
 1216880 0 contenir
+1216880 0 comporter
+1216880 0 comprendre
+1216880 0 avoir
+1216880 0 retenir
 1216880 0 inclure
 1216880 0 renfermer
-1216880 0 retenir
 1216880 1 tenir dans la bouche
 1216880 2 garder à l'esprit
 1216880 2 comprendre
@@ -8291,9 +8327,7 @@
 1220820 0 mécanisation
 1220850 0 civilisation technique
 1220870 0 machine
-1220870 0 machinerie
 1220870 0 moteur
-1220870 0 organe
 1220870 1 agence
 1220870 1 organisation
 1220870 1 organisme
@@ -8306,8 +8340,8 @@
 1220880 0 locomotive
 1220880 0 moteur
 1220890 0 mitrailleuse
-1220930 0 disposition
 1220930 0 humeur
+1220930 0 disposition
 1220930 1 sécurité
 1220930 1 santé
 1220930 1 bien-être
@@ -9472,12 +9506,23 @@
 1236150 0 fortifier
 1236150 0 renforcer
 1236150 0 souligner
+1236170 0 autoritaire
+1236170 0 coercitif
+1236170 0 arrogant
 1236170 0 forcé
 1236170 0 par la force
+1236170 0 tyrannique
+1236200 0 raffermissement
 1236200 0 intensification
 1236200 0 renforcement
-1236230 0 énergique
+1236200 0 consolidation
+1236200 0 solidification
+1236230 0 confiant
+1236230 0 assuré
+1236230 0 sûr de soi
 1236230 0 ferme
+1236230 0 fort
+1236230 0 outrecuidant
 1236230 1 en hausse (par ex. pour un marché)
 1236240 0 santé robuste
 1236250 0 énergique
@@ -10625,6 +10670,7 @@
 1247470 0 entraînement
 1247470 0 exercice
 1247490 0 groupe (math)
+1247490 1 groupe
 1247500 0 se grouper
 1247510 0 amas (étoiles)
 1247510 0 banc
@@ -10666,6 +10712,7 @@
 1248870 0 armement
 1248870 0 préparatifs de guerre
 1248870 0 préparatifs militaires
+1248970 0 uniforme militaire ou naval
 1249230 0 arrondissement
 1249230 0 district
 1249230 1 district (de 2 à 20 quartiers de 50 maisons ou cantons, dans la période ritsuryo)
@@ -13765,7 +13812,7 @@
 1285270 0 légal
 1285270 0 légalité
 1285270 0 légitime
-1285330 0 rationnel
+1285330 0 rationnalité
 1285340 0 rationalisation
 1285380 0 logique
 1285380 0 raisonnable
@@ -16968,6 +17015,7 @@
 1324960 0 maître
 1324960 0 mari
 1324960 0 propriétaire
+1324960 4 mari
 1324980 0 principalement
 1324990 0 essentiellement
 1324990 0 principalement
@@ -16975,9 +17023,9 @@
 1325040 0 cause principale
 1325050 0 dans le rôle principal
 1325050 0 en vedette
-1325180 0 ego
 1325180 0 subjectivité
-1325180 0 sujet
+1325180 0 sujet (philosophique)
+1325180 0 ego
 1325210 0 subjectif
 1325260 0 doctrine
 1325260 0 règle
@@ -17285,6 +17333,8 @@
 1328350 0 prouesse
 1328350 0 travail méritant une disctinction
 1328360 0 couture à la main
+1328380 0 technique
+1328380 0 méthode
 1328390 0 exemple
 1328390 0 modèle
 1328470 1 sang
@@ -18561,7 +18611,11 @@
 1343100 3 sa maison
 1343100 3 logis
 1343100 3 foyer
-1343100 4 point (c.-à-d. sujet)
+1343100 4 point
+1343100 4 aspect
+1343100 4 côté
+1343100 4 facette
+1343100 5 passage (dans un texte)
 1343100 5 partie
 1343100 6 espace
 1343100 6 place (espace libre)
@@ -18796,6 +18850,8 @@
 1346190 0 à sa convenance
 1346190 0 à sa fantaisie
 1346190 0 à sa guise
+1346190 3 cuisine
+1346190 4 arbitraire
 1346200 0 arbitrairement
 1346200 0 de son propre chef
 1346200 0 volontairement
@@ -18989,6 +19045,7 @@
 1349370 0 lit
 1349370 0 sol
 1349370 0 soubassement
+1349370 2 alcove
 1349380 0 sol
 1349380 0 plancher
 1349380 1 scène (pour le narrateur et le joueur de shamisen)
@@ -19397,6 +19454,7 @@
 1352190 4 après (la pluie)
 1352190 4 ex-
 1352190 4 fini
+1352190 6 ex- (exemple : ex-bureaucrate)
 1352290 0 grimper
 1352290 0 monter
 1352290 0 s'élever
@@ -20757,6 +20815,7 @@
 1366150 0 présenter (un cadeau)
 1366160 0 suite
 1366160 0 tournure (événements)
+1366170 0 progrès
 1366180 0 pénétration
 1366190 0 progrès
 1366190 0 avancement
@@ -20828,6 +20887,8 @@
 1367010 0 popularité
 1367010 0 sentiment populaire
 1367010 0 sentiment général
+1367020 0 signe de vie
+1367020 0 présence humaine
 1367120 0 marionnette
 1367120 0 poupée
 1367200 0 droits de l'homme
@@ -20861,7 +20922,6 @@
 1367930 0 inconscience
 1367930 0 perdre connaissance
 1367960 0 otage
-1367960 0 prisonnier
 1368020 0 race (humaine)
 1368020 1 type de personne
 1368100 0 attroupement
@@ -22108,6 +22168,7 @@
 1381910 0 calme
 1381910 0 silence
 1381920 0 silence
+1381940 0 statique
 1381970 0 nature morte
 1381980 0 veine (vaisseau)
 1382090 0 douane
@@ -26711,7 +26772,9 @@
 1431310 0 ligne droite
 1431310 0 ligne directe
 1431330 0 juste avant
-1431440 0 direct (par ex. train)
+1431440 0 ligne directe
+1431440 0 communication directe
+1431440 0 se connectant directement
 1431600 0 courant continu
 1431610 0 montage série (electricité)
 1431660 0 "nous, l'empereur, déclarons ..." (préambule de déclaration impériale)
@@ -26817,7 +26880,10 @@
 1432410 2 exclure
 1432410 3 conduire (par ex. un troupeau)
 1432410 4 être pressé (par ex. par le temps)
-1432460 0 ajout
+1432460 0 addition
+1432460 0 supplément
+1432460 0 ajout (par ex. à un fichier)
+1432460 0 annexe
 1432480 0 poursuivre
 1432480 0 serrer de près
 1432480 1 faire une investigation (des recherches)
@@ -29114,6 +29180,7 @@
 1458500 0 introspection
 1458510 0 confidentiel
 1458510 0 secret
+1458510 3 cuisine
 1458540 0 travail à domicile
 1458550 0 caché
 1458550 0 intérieur
@@ -30032,11 +30099,14 @@
 1472780 0 infidélité
 1472780 0 trahison
 1472800 0 dos
-1472860 0 être chargé de
-1472860 0 assumer la responsabilité de
-1472860 0 porter sur le dos ou sur l'épaule
-1472860 1 avoir (quelque chose) en arrière-plan
-1472860 1 être devant (quelque chose)
+1472860 0 porter sur son dos
+1472860 1 être chargé de
+1472860 1 assumer la responsabilité de
+1472860 2 avoir (quelque chose) en arrière-plan
+1472860 2 être devant (quelque chose)
+1472860 3 être vaniteux
+1472860 3 être présomptueux
+1472860 3 avoir une haute opinion de soi-même
 1472870 0 poumon
 1472880 0 pneumonie
 1472890 0 capacité pulmonaire
@@ -30048,6 +30118,7 @@
 1472980 0 production abondante (de talents, personnes)
 1472990 0 distribuer
 1472990 0 livrer
+1473030 2 ration alimentaire
 1473060 0 épouse
 1473060 0 conjoint
 1473060 0 mari
@@ -30367,10 +30438,11 @@
 1477210 0 lancer une nouvelle publication
 1477210 0 publier
 1477240 0 cancérigène
-1477250 0 démonstration
-1477250 0 exhiber
 1477250 0 exposition
+1477250 0 démonstration
 1477250 0 présentation
+1477250 0 manifestation
+1477250 0 spectacle
 1477260 0 démence
 1477260 0 folie
 1477270 0 interdiction de vente
@@ -33699,10 +33771,14 @@
 1516930 5 moyen
 1516930 6 longueur (de chaque coté d'un carré)
 1516940 0 direction
-1516950 0 côté
 1516950 0 direction
 1516950 0 sens
-1516950 0 point cardinal
+1516950 1 points cardinal
+1516950 1 direction cardinale
+1516950 1 orientement
+1516950 2 méthode
+1516950 2 moyen
+1516950 2 approche
 1516980 0 dialecte
 1516990 0 direction
 1516990 0 orientation
@@ -35579,7 +35655,8 @@
 1536670 0 ciel nocturne
 1536680 0 vue nocturne
 1536800 0 attaque de nuit
-1536930 0 en pleine nuit
+1536930 0 milieu de la nuit
+1536930 0 pleine nuit
 1537060 0 énurésie
 1537060 0 incontinence nocturne
 1537150 0 aube
@@ -43047,6 +43124,8 @@
 1609710 1 se soustraire à
 1609710 2 plonger (dans ou sous l'eau)
 1609710 2 s'enfoncer sous le sol
+1609710 3 survivre
+1609710 3 surmonter
 1609715 0 plonger (dans ou sous l'eau)
 1609715 1 se mettre sous
 1609715 1 entrer dans
@@ -43472,6 +43551,8 @@
 1611600 0 supplémentaire
 1611600 1 meilleur
 1611600 1 préférable
+1611600 2 augmentation
+1611600 2 croissance
 1611610 0 commettre une erreur
 1611610 0 faire une faute
 1611610 0 se tromper
@@ -43869,6 +43950,8 @@
 1629200 1 champion
 1629200 1 maître
 1629200 2 roi (régnant)
+1630190 0 républicain
+1630190 0 coopératif
 1631750 0 montrer des signes de
 1631750 0 sentir
 1631750 0 penser
@@ -43930,6 +44013,10 @@
 1647360 1 accommodant
 1647360 1 crédule
 1647360 1 bête
+1647880 0 nectar
+1647880 1 miel
+1647880 2 miellat
+1657910 0 impression
 1660100 0 déjeuner
 1660100 0 midi
 1660250 0 courte pause
@@ -43974,7 +44061,7 @@
 1774480 0 vaste
 1774480 0 calme
 1774480 0 tranquille
-1779760 0 marteau (de fer)
+1779760 0 marteau
 1779760 1 châtiment (~ wo kudasu)
 1783400 0 tissu à côtes
 1790980 0 comme
@@ -44028,6 +44115,7 @@
 1919590 0 rang
 1919590 0 niveau
 1920240 0 quel (interrogatif)
+1921990 4 geisha
 1922780 0 in-
 1922780 0 im-
 1922780 0 il-
@@ -44068,8 +44156,10 @@
 1956280 0 l'extrême
 1956280 1 premier
 1956280 1 remarquable
+1956390 0 secte
 1956400 0 collection
 1956400 0 compilation
+1956490 0 formation de bataille
 1956550 0 bouchon
 1956550 0 liège
 1956550 0 robinet d'arrêt
@@ -44692,6 +44782,7 @@
 2396190 0 et puis
 2396190 0 toutefois
 2396190 0 et
+2397580 0 1er signe du calendrier chinois
 2411600 0 veuillez vous asseoir
 2411600 0 asseyez-vous s'il vous plaît
 2423740 0 in-
@@ -44705,6 +44796,8 @@
 2423740 0 mal-
 2423740 0 mé-
 2423740 1 mauvais...
+2545840 0 message oral
+2545840 0 mot
 2547920 0 à ce moment-là
 2547920 0 ces jours-là
 2547920 0 alors
