@@ -375,10 +375,15 @@
 1003200 0 fermement
 1003200 0 fortement
 1003200 0 solidement
-1003210 0 astucieux
-1003210 0 calculateur (avare)
-1003210 0 rusé
-1003210 0 solidement bâti
+1003210 0 solide
+1003210 0 robuste
+1003210 0 bien bâti
+1003210 1 serré
+1003210 1 tendu
+1003210 2 habile
+1003210 2 calculateur
+1003210 2 astucieux
+1003210 2 rusé
 1003250 0 avaler à grosses bouchées
 1003250 0 bâfrer
 1003250 0 boire à grands traits
@@ -393,7 +398,7 @@
 1003410 0 juste
 1003410 0 précisément
 1003410 1 ponctuel
-1003410 1 pile à l'heure
+1003410 1 exactement à l'heure
 1003420 0 avec précision
 1003420 0 juste
 1003420 1 bien ajusté
@@ -1358,7 +1363,7 @@
 1011440 0 collant
 1011440 0 partout
 1011540 0 avoir très faim
-1011540 0 baisser la tête
+1011540 0 être affamé
 1011580 0 fluent
 1011580 0 maîtrise
 1011710 0 regarde!
@@ -1821,7 +1826,7 @@
 1034660 0 bureau
 1035710 0 olympique
 1035780 0 orgue
-1035860 0 orange
+1035860 0 orange (fruit, couleur)
 1036170 0 voiture
 1036290 0 rideau
 1036400 0 carte
@@ -1981,6 +1986,7 @@
 1047880 1 génie logiciel assisté par ordinateur
 1047880 1 CASE
 1048400 0 jeu
+1048550 0 invité
 1048830 0 chemin
 1048830 0 parcours
 1048830 0 piste
@@ -2027,6 +2033,7 @@
 1050590 2 faire une copie
 1050720 0 publicité
 1050980 0 communication
+1051230 0 commentaire
 1051540 0 collection
 1051540 0 compilation
 1051540 1 correction
@@ -2037,6 +2044,7 @@
 1052330 0 prise de courant
 1052330 0 prise murale
 1052330 0 prise électrique
+1052410 1 lentille de contact
 1052590 0 concours
 1053350 0 ordinateur
 1053800 0 complexe
@@ -2211,6 +2219,8 @@
 1071100 0 stop
 1071180 0 grève
 1071490 0 stress
+1071540 0 paille pour boire
+1071540 1 paille
 1071940 0 espion
 1072240 0 haut-parleur
 1072240 0 enceinte
@@ -3822,9 +3832,8 @@
 1160570 1 former
 1160570 1 enseigner
 1160570 1 éduquer
-1160570 2 promouvoir la croissance de...
+1160570 2 promouvoir la croissance de
 1160570 2 cultiver
-1160570 2 nourrir
 1160570 2 favoriser
 1160570 2 développer
 1160630 0 élever des enfants
@@ -5009,10 +5018,12 @@
 1179790 0 circulation
 1179790 0 correspondance
 1179790 0 route
-1179830 0 accepter
 1179830 0 répondre
 1179830 0 satisfaire
+1179830 0 accepter
 1179830 0 suivre
+1179830 0 se conformer à
+1179830 0 postuler pour
 1179840 0 aide
 1179840 0 appui
 1179840 0 assistance
@@ -5347,9 +5358,12 @@
 1184850 0 dernier quartier de la lune
 1184880 0 sobre
 1184880 0 tempéré
-1184940 0 être suspendu
 1184940 0 descente
-1184940 0 vers le bas
+1184940 0 chute
+1184940 0 saut vers le bas
+1184940 0 déclin
+1184940 0 baisse
+1184940 0 affaissement
 1185000 0 laxatif
 1185050 0 descente (d'une montagne)
 1185140 0 extrémité inférieure
@@ -8114,10 +8128,11 @@
 1218920 0 outil
 1218920 0 ustensile
 1218950 2 mobilier
-1218960 0 agile
+1218960 0 doué
 1218960 0 adroit
 1218960 0 habile
-1218960 0 fin (avec les doigts)
+1218960 0 agile
+1218960 0 leste
 1218960 1 astucieux
 1218960 1 judicieux
 1218960 1 ingénieux
@@ -8742,9 +8757,11 @@
 1225530 0 uncertain
 1225560 0 "affaire"
 1225560 0 scandale
-1225630 0 doute
-1225630 0 problème
 1225630 0 question
+1225630 0 problème
+1225630 0 doute
+1225630 0 supposition
+1225630 0 conjecture
 1225660 0 point d'interrogation
 1225680 0 défiance
 1225680 0 doute
@@ -8974,9 +8991,10 @@
 1227560 3 suspendre une activité
 1227570 0 mettre au repos
 1227570 0 suspendre
-1227610 0 congé
-1227610 0 permission
-1227610 0 vacance
+1227610 0 vacances
+1227610 0 jour de congé
+1227610 0 permission (pour un militaire)
+1227610 0 absence (du travail)
 1227630 0 volcan endormi
 1227660 0 arrêt temporaire de ses études
 1227700 0 fermeture (d'un magasin ou d'une entreprise)
@@ -9071,8 +9089,10 @@
 1228660 0 escarpement
 1228660 0 pente abrupte
 1228670 0 cas d'urgence
-1228680 0 brusque
 1228680 0 soudain
+1228680 0 brusque
+1228680 0 abrupt
+1228680 0 radical
 1228690 0 à grande vitesse
 1228690 1 express (par ex. un train qui ne s'arrête pas à toutes les stations)
 1228730 0 mort subite
@@ -9117,14 +9137,11 @@
 1229290 0 canot de sauvetage
 1229310 0 pourrir
 1229310 0 se décomposer
-1229350 0 chercher
-1229350 0 demander
-1229350 0 exiger
-1229350 0 rechercher
-1229350 0 souhaiter
 1229350 0 vouloir
+1229350 0 souhaiter
 1229350 1 demander
 1229350 1 solliciter
+1229350 1 exiger
 1229350 1 réclamer
 1229350 2 chercher
 1229350 2 rechercher
@@ -9365,6 +9382,7 @@
 1233580 0 sacrifier
 1233630 0 approvisionnement
 1233630 0 fourniture
+1233630 0 provision
 1233700 0 livraison
 1233700 0 remise
 1233720 0 déclaration sous serment
@@ -9600,12 +9618,14 @@
 1236740 0 être désolé
 1236740 0 avoir honte
 1236740 1 reculer de peur
-1236750 0 épouvante
-1236750 0 consternation
-1236750 0 effroi
-1236750 0 frayeur
 1236750 0 peur
+1236750 0 crainte
+1236750 0 consternation
+1236750 0 frayeur
+1236750 0 épouvante
+1236750 0 effroi
 1236750 0 terreur
+1236750 0 horreur
 1236760 0 peur morbide
 1236760 0 phobie
 1236770 0 politique de terreur
@@ -9659,6 +9679,7 @@
 1237130 0 enseignant
 1237130 0 instituteur
 1237130 0 professeur
+1237130 0 maitre (d'école)
 1237140 0 enseignement
 1237140 0 instruction
 1237150 0 salle de classe
@@ -9985,16 +10006,17 @@
 1240670 0 oignon
 1240700 0 maïs
 1240750 0 à peine
+1240750 0 seulement
 1240750 0 (un) peu de
 1240750 0 petite quantité
-1240750 0 seulement
 1240800 0 être apte à
 1240800 0 fonctionner correctement
-1240810 0 devoir
 1240810 0 fonction
-1240810 0 métier
 1240810 0 office
-1240810 0 travail
+1240810 0 devoir
+1240810 0 affaires
+1240810 0 responsabilité
+1240810 0 tâche
 1240810 1 services religieux bouddhistes
 1240820 0 s'efforcer (de)
 1240820 0 essayer
@@ -10157,6 +10179,16 @@
 1242130 0 près
 1242130 0 proche
 1242130 0 près de
+1242130 1 proche (en temps)
+1242130 1 bientôt
+1242130 2 proche (relation)
+1242130 2 amicalement
+1242130 2 intime
+1242130 3 étroitement lié
+1242130 4 similaire
+1242130 4 semblable
+1242130 4 presque pareil
+1242130 4 presque le même
 1242160 0 alentours
 1242160 0 environs
 1242160 0 voisinage
@@ -11137,8 +11169,9 @@
 1253130 1 accomplissements
 1253150 0 personnalité du spectacle
 1253170 0 nom de scène
-1253180 0 aller à la rencontre de qq'un
-1253180 0 aller chercher qq'un (à la gare)
+1253180 0 rencontre
+1253180 0 salutation
+1253180 0 bienvenue
 1253190 0 aller à la rencontre de
 1253190 1 recevoir
 1253190 1 accueillir
@@ -11466,6 +11499,8 @@
 1256140 0 brave
 1256140 0 courageux
 1256170 0 santé
+1256170 0 sain
+1256170 0 salutaire
 1256300 0 en bonne santé
 1256330 0 en très bonne santé
 1256350 0 examen médical
@@ -11545,6 +11580,8 @@
 1257240 1 penchant
 1257240 2 distinction
 1257240 2 discrimination
+1257250 0 ne pas aimer
+1257250 0 haïr
 1257250 0 détester
 1257250 0 exécrer
 1257270 0 désagréable
@@ -14803,6 +14840,8 @@
 1297240 0 un travail
 1297240 0 une œuvre
 1297240 0 une récolte
+1297250 3 sashimi
+1297250 4 forcé (sourire, etc.)
 1297310 0 rire forcé
 1297320 0 achever
 1297320 0 construire
@@ -14841,6 +14880,7 @@
 1297800 0 opération militaire
 1297800 0 stratégie
 1297800 0 tactique
+1297800 1 opérations militaires ou navales
 1297890 0 mouvement
 1297910 0 œuvre
 1297910 0 ouvrage
@@ -15036,6 +15076,10 @@
 1301940 0 parapluie
 1301940 0 parasol
 1301940 0 ombrelle
+1301940 1 quelque chose en forme de parapluie ou de chapeau conique
+1301940 1 ombre (d'une lampe)
+1301940 1 chapeau de champignon
+1301940 1 pileus
 1301960 0 affilié à
 1301960 0 passer sous le contrôle de
 1301960 0 s'affilier à
@@ -18093,10 +18137,12 @@
 1336500 0 significatif
 1336500 0 lourd
 1336570 0 point important
-1336570 0 insister sur
+1336570 0 emphase
 1336570 0 mettre l'accent sur
-1336570 0 souligner
-1336570 0 accentuation
+1336570 0 importance
+1336570 0 priorité
+1336570 1 marque d'itération
+1336570 2 deux-points (ponctuation)
 1336650 0 boîtes empilables
 1336690 0 maladie grave
 1336770 0 directeur d'entreprise
@@ -26767,6 +26813,7 @@
 1431070 0 marcher droit
 1431110 0 direct
 1431110 0 immédiat
+1431110 0 personnel
 1431110 0 de première main
 1431310 0 droite (géométrie)
 1431310 0 ligne droite
@@ -26780,7 +26827,9 @@
 1431660 0 "nous, l'empereur, déclarons ..." (préambule de déclaration impériale)
 1431670 0 couler
 1431670 0 plonger
-1431670 1 décliner (soleil)
+1431670 1 se coucher (par ex. pour le soleil)
+1431670 1 décliner
+1431670 1 descendre
 1431670 2 se sentir déprimé
 1431680 0 couler
 1431680 0 enfoncer
@@ -26928,13 +26977,15 @@
 1432880 0 être ouvert (à la circulation)
 1432880 0 conduire à
 1432880 0 communiquer (avec)
-1432880 1 marcher (fonctionner)
-1432880 2 comprendre
-1432880 3 être au courant de
-1432880 3 être expert en
-1432880 3 être fort en
-1432880 3 s'y connaitre en
+1432880 1 couler
+1432880 1 passer à travers
+1432880 2 être compris
+1432880 2 être entendu
+1432880 3 être honoré
+1432880 3 être bon
 1432880 4 bien connaitre
+1432880 4 être expert en
+1432880 4 être fort en
 1432880 4 être bien informé
 1432880 4 être au courant de
 1432880 5 communiquer clandestinement
@@ -26997,7 +27048,8 @@
 1432930 2 boulevard
 1432930 2 rue
 1432940 0 passer par hasard
-1432980 0 passer devant
+1432980 0 passer
+1432980 0 passer à travers
 1433030 0 passer par
 1433030 0 aller au-delà de
 1433030 0 emprunter
@@ -27059,11 +27111,11 @@
 1433120 0 évent
 1433130 0 connaisseur/calé
 1433140 0 aller au travail
-1433180 0 circuler
-1433180 0 passer
-1433180 1 circulation
-1433180 1 passage
-1433180 1 trafic
+1433180 0 circulation
+1433180 0 passage
+1433180 0 trafic
+1433180 1 utilisation courante
+1433180 1 usage commun
 1433190 0 passage interdit
 1433220 0 annonce
 1433280 0 habituel
@@ -27165,7 +27217,7 @@
 1434020 0 suspendre (quelque chose à quelque chose)
 1434020 0 être pendu (par le cou)
 1434020 1 soulever son adversaire par son pagne
-1434040 0 pêche (poissons)
+1434040 0 pêche (à la ligne)
 1434040 1 (petite) monnaie
 1434040 2 troller (par ex. sur internet)
 1434040 2 écrire de faux messages en ligne
@@ -27227,6 +27279,9 @@
 1435020 0 panne d'électricité
 1435020 0 coupure électrique
 1435080 0 arrêt de bus
+1435080 0 arrêt de tramway
+1435080 0 arrêt
+1435080 0 gare
 1435100 0 reconnaissance (exploration)
 1435180 0 rasoir
 1435250 0 chasteté/pureté
@@ -29862,8 +29917,10 @@
 1470470 0 cerveau
 1470490 0 attaque cérébrale
 1470600 0 agriculture
-1470620 0 ferme
+1470620 0 agriculteur
 1470620 0 fermier
+1470620 0 famille d'agriculteurs
+1470620 1 ferme
 1470640 0 période de repos dans l'agriculture
 1470650 0 coopérative agricole
 1470660 0 économie agricole
@@ -29878,8 +29935,9 @@
 1470740 0 champs
 1470740 0 terres cultivées
 1470750 0 serf
-1470770 0 fermiers
-1470770 0 paysans
+1470770 0 fermier
+1470770 0 agriculteur
+1470770 0 paysan
 1470780 0 produit chimique agricole (c.-à-d. pesticide, herbicide, fongicide, etc.)
 1470780 0 agrochimie
 1470780 0 agrochimique
