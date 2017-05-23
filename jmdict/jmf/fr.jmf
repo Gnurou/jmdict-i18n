@@ -13989,9 +13989,12 @@
 1286170 0 pays
 1286170 0 nation
 1286220 0 hymne national
-1286240 0 assemblée
-1286240 0 parlement
-1286240 0 sénat
+1286240 0 Diète nationale
+1286240 0 Assemblée législative du Japon (depuis 1947)
+1286240 1 Diète impériale
+1286240 1 Assemblée législative du Japon (1889-1947)
+1286240 2 parlement
+1286240 2 assemblée législative
 1286260 0 assemblée nationale
 1286260 0 diète (parlement japonais)
 1286270 0 en dehors du pays
@@ -34306,11 +34309,11 @@
 1520130 0 maison de commerce
 1520130 0 société commerciale
 1520160 0 balance commerciale
-1520190 0 défendre
-1520190 0 garantir
-1520190 0 préserver
-1520190 0 prévenir (un danger)
-1520190 0 protéger
+1520190 0 se protéger de
+1520190 0 se défendre contre
+1520190 1 éviter
+1520190 1 se protéger de
+1520190 1 prévenir (quelquechose)
 1520200 0 abri
 1520200 0 auto-défense
 1520200 0 défense
