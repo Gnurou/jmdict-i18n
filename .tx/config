@@ -67,7 +67,6 @@ source_file = jmdict/pri000.pot
 source_lang = en
 type = PO
 
-
 [kanjidic2-i18n.grade01]
 file_filter = kanjidic2/grade01_<lang>.po
 source_file = kanjidic2/grade01.pot
@@ -133,3 +132,4 @@ file_filter = kanjidic2/others_<lang>.po
 source_file = kanjidic2/others.pot
 source_lang = en
 type = PO
+
