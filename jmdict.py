@@ -13,7 +13,7 @@ from gettextformat import *
 # See http://www.loc.gov/standards/iso639-2/php/code_list.php
 langMatch = { "eng" : "en", "fre" : "fr", "ger" : "de", "rus" : "ru", "ita" : "it", "tha" : "th", "tur" : "tr", "spa" : "es", "dut" : "nl", "hun" : "hu", "swe" : "sv", "slv" : "sl"}
 
-# We use one entry per sense
+# We use one entry per English sense
 class JMdictEntry:
 	def __init__(self, eid, senseNbr):
 		self.eid = eid
@@ -61,6 +61,7 @@ class JMdictParser(xmlhandler.BasicHandler):
 		self.entries = {}
 		self.currentEntry = None
 		self.currentSense = 0
+		self.currentLangSense = {}
 		self.currentEid = None
 		self.currentKeb = None
 		self.currentReb = None
@@ -71,7 +72,10 @@ class JMdictParser(xmlhandler.BasicHandler):
 		self.currentEid = None
 		self.currentKeb = None
 		self.currentReb = None
+		# Current Sense index to be added to pot file
 		self.currentSense = 0
+		# Current sense index per language
+		self.currentLangSense = {}
 		self.currentPri = 0
 
 	def handle_data_ent_seq(self, data):
@@ -98,6 +102,7 @@ class JMdictParser(xmlhandler.BasicHandler):
 		self.currentEntry.keb = self.currentKeb
 		self.currentEntry.reb = self.currentReb
 		self.currentEntry.pri = self.currentPri
+		self.firstGloss = True
 
 	def handle_end_sense(self):
 		self.entries['%d %d' % (self.currentEid, self.currentSense)] = self.currentEntry
@@ -106,6 +111,12 @@ class JMdictParser(xmlhandler.BasicHandler):
 
 	def handle_start_gloss(self, attrs):
 		self.lang = langMatch[attrs["xml:lang"]]
+		if self.lang and self.lang != "en" and self.firstGloss:
+			self.firstGloss = False
+			if not self.lang in self.currentLangSense:
+				self.currentLangSense[self.lang] = 0
+			self.currentEntry = self.entries['%d %d' % (self.currentEid, self.currentLangSense[self.lang])]
+			self.currentLangSense[self.lang] += 1
 
 	def handle_data_gloss(self, data):
 		try:
