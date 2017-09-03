@@ -12,7 +12,7 @@ git commit -a -m "Resources update from Transifex"
 
 ./jmdict-extract.py kanjidic2
 
-#git commit -a -m "Automatic update with update_all"
+git commit -a -m "Automatic update with update_all"
 
 # check sources
 for f in */*.pot; do
@@ -20,10 +20,10 @@ for f in */*.pot; do
 done
 
 # push translation source
-#tx push --source
+tx push --source
 
 # push translations and ignore errors
-#tx push --translations --skip
+tx push --translations --skip
 
-#git push origin master
+git push origin master
 
